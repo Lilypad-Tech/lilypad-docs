@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🍃 Lilypad Home](README.md)
-* [🎮 Quick Start](quick-start.md)
+* [🎮 Lilypad v0 Quick Start](lilypad-v0-quick-start.md)
 
 ## Lilypad v0 Reference
 
