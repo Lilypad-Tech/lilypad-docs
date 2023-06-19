@@ -4,13 +4,11 @@ description: Lilypad v0 Integrated Networks
 
 # Deployed Network Details
 
-The Lilypad Events contract - used for triggering compute jobs on Bacalhau, is currently integrated to the following networks:
-
 {% hint style="info" %}
 If you have a use case for another network - please get in touch with us!
 {% endhint %}
 
-
+The Lilypad Events contract - used for triggering compute jobs on Bacalhau, is currently integrated to the following networks on the address specified:
 
 ## Lilypad v0 Deployed Networks
 

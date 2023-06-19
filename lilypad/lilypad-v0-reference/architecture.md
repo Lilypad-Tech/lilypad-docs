@@ -6,6 +6,8 @@ description: >-
 
 # Architecture
 
+{% embed url="https://github.com/bacalhau-project/lilypad" %}
+
 ### Overview
 
 Lilypad is a ‘bridge’ to enable computation jobs from smart contracts. The aim of Lilypad v0 was to create an integration for users to call Bacalhau jobs directly from their solidity smart contracts and hence enable interactions and innovations between on-chain and off-chain compute.\
@@ -16,11 +18,14 @@ Lilypad v0 is a proof of concept bridge which runs off the public (free to use) 
 
 
 
-{% embed url="https://github.com/bacalhau-project/lilypad" %}
+<figure><img src="../.gitbook/assets/Lilypad Architecture.png" alt=""><figcaption><p>Lilypad v0 on the FVM Network</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Lilypad v0 on the FVM Network</p></figcaption></figure>
+A user contract implements the LilypadCaller interface and to call a job, they make a function call to the deployed LilypadEvents contract.
+
+This contract emits an event which the Lilypad bridge daemon listens for and then forwards on to the Bacalhau network for processing.
+
+Once the job is complete, the results are returned back to the originating user contract from the bridge code.
 
 <figure><img src="https://user-images.githubusercontent.com/12529822/224299570-366bde1c-1f48-4af9-9d7c-0d4f8a0fc1fc.png" alt=""><figcaption><p>Note: runBacalhauJob() is now runLilypadJob()</p></figcaption></figure>
 
-
-
+{% embed url="https://youtu.be/drwcj2kk6bA" %}
