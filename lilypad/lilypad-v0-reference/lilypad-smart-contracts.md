@@ -9,13 +9,16 @@ description: The Lilypad v0 Smart Contracts
 1. Create a contract that implements [`LilypadCallerInterface`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol). As part of this interface you need to implement 2 functions:
    * `lilypadFulfilled` - a callback function that will be called when the job completes successfully
    * `lilypadCancelled` - a callback function that will be called when the job fails
-2. To trigger a job from your contract, you need to call the `LilypadEvents` contract which the bridge is listening to. You will connect to Bacalhau network via this bridge. Create an instance of [`LilypadEvents`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEvents.sol) by passing the public contract address above to the `LilypadEvents` constructor.&#x20;
+2. To trigger a job from your contract, you need to call the `LilypadEvents` contract which the bridge is listening to. You will connect to Bacalhau network **via this bridge**. Create an instance of [`LilypadEvents`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEvents.sol) in your own contract by passing the **public contract address** above to the `LilypadEvents` constructor. See [deployed-network-details.md](deployed-network-details.md "mention")for address details
 3. To make a call to Bacalhau, call `runLilypadJob` from your function. You need to pass the following parameters:
 
 ## LilypadEvents Contract
 
-This contract is the bridge between the Bacalhau network and smart contracts & does all the heavy lifting. \
+This contract is the bridge between the Bacalhau network and smart contracts & does all the heavy lifting.&#x20;
 
+{% hint style="info" %}
+Note - you cannot deploy your own version of this contract. It will not trigger Bacalhau jobs to run on its own and requires the Lilypad GO Daemon integration. You need to use the address of the deployed LilypadEvents contract within your own smart contract.
+{% endhint %}
 
 To use Lilypad, you only need to take note of one function in this events contract -  the `runLilypadJob(address _from, string memory _spec, uint8 _resultType)` function which takes the following parameters.\
 

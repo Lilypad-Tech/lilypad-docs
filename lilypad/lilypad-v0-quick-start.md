@@ -122,17 +122,115 @@ string memory spec = string.concat(specStart, _prompt, specEnd);
 See more about how to [onboard your Docker Workloads for Bacalhau](https://docs.bacalhau.org/getting-started/docker-workload-onboarding/), [Onboard WebAssembly Workloads](https://docs.bacalhau.org/getting-started/wasm-workload-onboarding) or [Work with Custom Containers](https://docs.bacalhau.org/examples/workload-onboarding/custom-containers/) in the Bacalhau Docs.
 {% endhint %}
 
-## Add the Lilypad Events Address
+## Add the Lilypad Events Address & Network Fee
 
+You can do this by either passing it into your constructor or setting it as a variable
 
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.4;
+import "https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEventsUpgradeable.sol";
+import "https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol";
 
+/** === User Contract Example === **/
+contract MyContract is LilypadCallerInterface {
+  address public bridgeAddress; // Variable for interacting with the deployed LilypadEvents contract
+  LilypadEventsUpgradeable bridge;
+  uint256 public lilypadFee; //=30000000000000000;
+  
+  constructor(address _bridgeContractAddress) {
+    bridgeAddress = _bridgeContractAddress;
+    bridge = LilypadEventsUpgradeable(_bridgeContractAddress);
+    uint fee = bridge.getLilypadFee(); // you can fetch the fee amount required for the contract to run also
+    lilypadFee = fee;
+  }
 
+  function lilypadFulfilled(address _from, uint _jobId,   
+    LilypadResultType _resultType, string calldata _result)        
+    external override {
+    // Do something when the LilypadEvents contract returns    
+    // results successfully
+  }
+  
+  function lilypadCancelled(address _from, uint _jobId, string 
+    calldata _errorMsg) external override {
+    // Do something if there's an error returned by the
+    // LilypadEvents contract
+  }
+}
+```
 
 ## Call the LilypadEvents runLilypadJob function
 
-##
+Using the LilypadEvents Instance, we can now send jobs to the Bacalhau Network via our contract using the `runLilypadJob()` function.
 
-##
+In this example we'll use the Stable Diffusion Spec shown above in [#add-a-spec-compatible-with-bacalhau](lilypad-v0-quick-start.md#add-a-spec-compatible-with-bacalhau "mention")
+
+{% hint style="info" %}
+Note that calling the runLilypadJob() function requires a network fee. While the Bacalhau public Network is currently free to use, gas fees are still needed to return the results of the job performed. This is the payable fee in the contract.
+{% endhint %}
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.4;
+import "https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEventsUpgradeable.sol";
+import "https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol";
+
+/** === User Contract Example === **/
+contract MyContract is LilypadCallerInterface {
+  address public bridgeAddress; // Variable for interacting with the deployed LilypadEvents contract
+  LilypadEventsUpgradeable bridge;
+  uint256 public lilypadFee; //=30000000000000000;
+  
+  constructor(address _bridgeContractAddress) {
+    bridgeAddress = _bridgeContractAddress;
+    bridge = LilypadEventsUpgradeable(_bridgeContractAddress);
+    uint fee = bridge.getLilypadFee(); // you can fetch the fee amount required for the contract to run also
+    lilypadFee = fee;
+  }
+  
+  //** Define the Bacalhau Specification */
+  string constant specStart = '{'
+      '"Engine": "docker",'
+      '"Verifier": "noop",'
+      '"PublisherSpec": {"Type": "estuary"},'
+      '"Docker": {'
+      '"Image": "ghcr.io/bacalhau-project/examples/stable-diffusion-gpu:0.0.1",'
+      '"Entrypoint": ["python", "main.py", "--o", "./outputs", "--p", "';
+
+  string constant specEnd =
+      '"]},'
+      '"Resources": {"GPU": "1"},'
+      '"Outputs": [{"Name": "outputs", "Path": "/outputs"}],'
+      '"Deal": {"Concurrency": 1}'
+      '}';
+  
+
+  /** Call the runLilypadJob() to generate a stable diffusion image from a text prompt*/
+  function StableDiffusion(string calldata _prompt) external payable {
+      require(msg.value >= lilypadFee, "Not enough to run Lilypad job");
+      // TODO: spec -> do proper json encoding, look out for quotes in _prompt
+      string memory spec = string.concat(specStart, _prompt, specEnd);
+      uint id = bridge.runLilypadJob{value: lilypadFee}(address(this), spec, uint8(LilypadResultType.CID));
+      require(id > 0, "job didn't return a value");
+      prompts[id] = _prompt;
+  }
+
+  /** LilypadCaller Interface Implementation */
+  function lilypadFulfilled(address _from, uint _jobId,   
+    LilypadResultType _resultType, string calldata _result)        
+    external override {
+    // Do something when the LilypadEvents contract returns    
+    // results successfully
+  }
+  
+  function lilypadCancelled(address _from, uint _jobId, string 
+    calldata _errorMsg) external override {
+    // Do something if there's an error returned by the
+    // LilypadEvents contract
+  }
+}
+```
 
 ##
 

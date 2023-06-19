@@ -6,8 +6,6 @@ description: >-
 
 # Architecture
 
-{% embed url="https://github.com/bacalhau-project/lilypad" %}
-
 ### Overview
 
 Lilypad is a ‘bridge’ to enable computation jobs from smart contracts. The aim of Lilypad v0 was to create an integration for users to call Bacalhau jobs directly from their solidity smart contracts and hence enable interactions and innovations between on-chain and off-chain compute.\
