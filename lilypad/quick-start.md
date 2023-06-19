@@ -1,20 +1,22 @@
 ---
-description: Get Started with Lilypad v0 - Call docker jobs from a smart contract!
+description: >-
+  Get Started with Lilypad v0 - Call off-chain distributed compute from your
+  smart contract!
 ---
 
-# Quick Start
+# 🎮 Quick Start
 
-## Quick Start Example
+## Quick Start Guide
 
 Using Lilypad in your own solidity smart contract requires 3 steps
 
-1. Implement the LilypadCaller interface in your smart contract
-2. Provide a docker spec compatible with Bacalhau
-3. Call the LilypadEvents contract function runLilypadJob() passing in the specification from 2.
+1. Implement the [LilypadCaller interface](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol) in your smart contract
+2. Provide a public [Docker Spec compatible for use on Bacalhau](https://docs.bacalhau.org/getting-started/docker-workload-onboarding)
+3. Call the [LilypadEvents contract](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEventsUpgradeable.sol) function runLilypadJob() passing in the specification from 2.
 
 ## Requirements
 
-* A Docker Image suitable to run on Bacalhau (hint: see some examples in the \[Bacalhau Docs]\([https://docs.bacalhau.org/](https://docs.bacalhau.org/))
+* A Docker Image suitable to run on Bacalhau (hint: see this [guide](https://docs.bacalhau.org/getting-started/docker-workload-onboarding) in the [Bacalhau Docs](https://docs.bacalhau.org/)
 * Filecoin Virtual Machine Network wallet (eg. Metamask)
 
 ## Implement the LilypadCaller Interface in your contract
