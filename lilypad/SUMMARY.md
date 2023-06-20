@@ -1,11 +1,11 @@
 # Table of contents
 
 * [🍃 Lilypad Home](README.md)
-* [Lilypad v0 Quick Start](lilypad-v0-quick-start.md)
 
 ## Lilypad v0 Reference
 
 * [Architecture](lilypad-v0-reference/architecture.md)
+* [Lilypad v0 Quick Start](lilypad-v0-reference/lilypad-v0-quick-start.md)
 * [Deployed Network Details](lilypad-v0-reference/deployed-network-details.md)
 * [Lilypad Smart Contracts](lilypad-v0-reference/lilypad-smart-contracts.md)
 * [Creating your own Jobs](lilypad-v0-reference/creating-your-own-jobs.md)
