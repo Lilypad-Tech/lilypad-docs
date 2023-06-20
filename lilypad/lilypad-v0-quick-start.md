@@ -4,7 +4,7 @@ description: >-
   smart contract!
 ---
 
-# 🎮 Lilypad v0 Quick Start
+# Lilypad v0 Quick Start
 
 ## How it Works
 
