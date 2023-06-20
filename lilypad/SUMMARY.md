@@ -20,9 +20,10 @@
 ## Tutorials & Content
 
 * [Reference Material](tutorials-and-content/reference-material.md)
-* [Get in Touch](tutorials-and-content/get-in-touch.md)
+* [Join the Community](tutorials-and-content/join-the-community.md)
 
 ## Lilypad v1 \[coming soon]
 
 * [Overview](lilypad-v1-coming-soon/overview.md)
+* [Whitepaper](lilypad-v1-coming-soon/whitepaper.md)
 * [Architecture](lilypad-v1-coming-soon/architecture.md)

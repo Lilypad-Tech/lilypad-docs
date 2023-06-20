@@ -17,12 +17,14 @@ Lilypad is aiming to build an internet-scale trustless distributed compute netwo
 
 ## Overview
 
-Lilypad currently enables user to access verifiable, distributed off-chain compute directly from smart contracts.\
+Lilypad (v0) currently enables users to access verifiable, distributed off-chain compute directly from smart contracts.\
 \
-Lilypad is at version 0  - a Proof of Concept project operating as an integration layer between Bacalhau compute jobs and solidity smart contracts on the Filecoin Network. This integration enables users to access verifiable off-chain decentralised compute from DApps and smart contract projects, enabling interactions and innovations between on-chain and off-chain compute. \
+Lilypad is at v0  and is a Proof of Concept project operating as an integration layer between Bacalhau compute jobs and solidity smart contracts. This integration enables users to access verifiable off-chain decentralised compute from DApps and smart contract projects, enabling interactions and innovations between on-chain and off-chain compute. \
 \
-Lilypad v0 does not charge for compute jobs, outside of network running fees (ie. the cost of transactions on the blockchain network it is deployed to). It operates on the Bacalhau public compute network (which is free to use), though it is worth noting that there are no reliability guarantees given for this network (which is something future versions of this protocol will be working to improve).\
+Lilypad v0 does not charge for compute jobs, outside of network running fees (ie. the cost of transactions on the blockchain network it is deployed to). It operates on the Bacalhau public compute network (which is free to use), though it is worth noting that there are no reliability guarantees given for this network (which is something future versions of this protocol will be working to improve\
 
+
+{% embed url="https://youtu.be/9lF7omNEK-c" %}
 
 ## What is Bacalhau?
 
@@ -41,9 +43,15 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 * v2: **September 2023** - A more robust trustless distributed testnet
 * v3: tbd - Lilypad Mainnet
 
-## Quick Reference
+## Join the Community
 
-{% embed url="https://github.com/bacalhau-project/lilypad" %}
+Slack: #bacalhau-lilypad&#x20;
 
-{% embed url="https://youtu.be/9lF7omNEK-c" %}
+Twitter: @Lilypad\_Tech
+
+YouTube: @LilypadNetwork
+
+Blog: www.lilypad.tech
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Slack Community</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
