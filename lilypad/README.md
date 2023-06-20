@@ -40,6 +40,10 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 * v2: **September 2023** - A more robust trustless distributed testnet
 * v3: tbd - Lilypad Mainnet
 
+<figure><img src=".gitbook/assets/Lilypad Roadmap June.png" alt=""><figcaption><p>Lilypad Roadmap</p></figcaption></figure>
+
+
+
 ## Join the Community & Chat with Us
 
 <table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>#bacalhau-lilypad</td><td>Slack Community</td><td></td><td><a href="https://bit.ly/bacalhau-project-slack">https://bit.ly/bacalhau-project-slack</a></td><td><a href=".gitbook/assets/slack.png">slack.png</a></td></tr><tr><td>@LilypadNetwork</td><td></td><td></td><td><a href="https://www.youtube.com/@lilypadnetwork">https://www.youtube.com/@lilypadnetwork</a></td><td><a href=".gitbook/assets/8gzcr6RpGStvZFA2qRt4v6.jpg">8gzcr6RpGStvZFA2qRt4v6.jpg</a></td></tr><tr><td>@Lilypad_Tech</td><td></td><td></td><td><a href="https://twitter.com/Lilypad_Tech">https://twitter.com/Lilypad_Tech</a></td><td><a href=".gitbook/assets/twitter.jpeg">twitter.jpeg</a></td></tr><tr><td>Lilypad Blog</td><td></td><td></td><td><a href="https://www.lilypad.tech">www.lilypad.tech</a></td><td><a href=".gitbook/assets/lilypadBanner2.png">lilypadBanner2.png</a></td></tr><tr><td>Lilypad v0 Github</td><td></td><td></td><td><a href="https://github.com/bacalhau-project/lilypad">https://github.com/bacalhau-project/lilypad</a></td><td><a href=".gitbook/assets/github.png">github.png</a></td></tr><tr><td>Lilypad v1 Github</td><td></td><td></td><td><a href="https://github.com/bacalhau-project/MODICUM">https://github.com/bacalhau-project/MODICUM</a></td><td><a href=".gitbook/assets/github.png">github.png</a></td></tr></tbody></table>
