@@ -12,7 +12,9 @@ description: >-
 
 ## Prefer Video?
 
-Note: Since this video was released some changes have been made to the underlying code, but the process remains the same.
+{% hint style="info" %}
+Note: Since this video was released some changes have been made to the underlying code, but the process and general architecture remains the same.
+{% endhint %}
 
 {% embed url="https://youtu.be/B0l0gFYxADY" %}
 
@@ -140,13 +142,13 @@ import "https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/
 
 /** === User Contract Example === **/
 contract MyContract is LilypadCallerInterface {
-  address public bridgeAddress; // Variable for interacting with the deployed LilypadEvents contract
-  LilypadEventsUpgradeable bridge;
-  uint256 public lilypadFee; //=30000000000000000;
+  address public bridgeAddress; // LilypadEvents contract address for interacting with the deployed LilypadEvents contract
+  LilypadEventsUpgradeable bridge; // Instance of the LilypadEvents Contract to interact with
+  uint256 public lilypadFee; //=30000000000000000 on FVM;
   
   constructor(address _bridgeContractAddress) {
-    bridgeAddress = _bridgeContractAddress;
-    bridge = LilypadEventsUpgradeable(_bridgeContractAddress);
+    bridgeAddress = _bridgeContractAddress; //the LilypadEvents contract address for your network
+    bridge = LilypadEventsUpgradeable(_bridgeContractAddress); //create an instance of the Events Contract to interact with
     uint fee = bridge.getLilypadFee(); // you can fetch the fee amount required for the contract to run also
     lilypadFee = fee;
   }
@@ -160,8 +162,7 @@ contract MyContract is LilypadCallerInterface {
   
   function lilypadCancelled(address _from, uint _jobId, string 
     calldata _errorMsg) external override {
-    // Do something if there's an error returned by the
-    // LilypadEvents contract
+    // Do something if there's an error returned by the Lilypad Job
   }
 }
 ```
@@ -239,10 +240,3 @@ contract MyContract is LilypadCallerInterface {
 ```
 
 \
-
-
-##
-
-##
-
-##
