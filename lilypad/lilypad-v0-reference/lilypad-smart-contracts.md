@@ -10,7 +10,13 @@ description: The Lilypad v0 Smart Contracts
    * `lilypadFulfilled` - a callback function that will be called when the job completes successfully
    * `lilypadCancelled` - a callback function that will be called when the job fails
 2. To trigger a job from your contract, you need to call the `LilypadEvents` contract which the bridge is listening to. You will connect to Bacalhau network **via this bridge**. Create an instance of [`LilypadEvents`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEvents.sol) in your own contract by passing the **public contract address** above to the `LilypadEvents` constructor. See [deployed-network-details.md](deployed-network-details.md "mention")for address details
-3. To make a call to Bacalhau, call `runLilypadJob` from your function. You need to pass the following parameters:
+3. To make a call to Bacalhau, call `runLilypadJob` from your function. You need to pass the following parameters:&#x20;
+
+|      Name     |                                                               Type                                                              |                                                                                                              Purpose                                                                                                             |
+| :-----------: | :-----------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    `_from`    |                                                            `address`                                                            |                                          The address of the calling contract, to which success or failure will be passed back. You should probably use address(this) from your contract.                                         |
+|    `_spec`    |                                                             `string`                                                            |                                                                    A Bacalhau job spec in JSON format. See below for more information on creating a job spec.                                                                    |
+| `_resultType` | [`LilypadResultType`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol#L4-L9) | The type of result that you want to be returned. If you specify CID, the result tree will come back as a retrievable IPFS CID. If you specify StdOut, StdErr or ExitCode, those raw values output from the job will be returned. |
 
 ## LilypadEvents Contract
 
@@ -221,7 +227,7 @@ contract LilypadEventsUpgradeable is Initializable, AccessControlUpgradeable, UU
 }
 ```
 
-##
+
 
 ## LilypadCaller Interface
 

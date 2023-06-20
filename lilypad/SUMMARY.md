@@ -8,6 +8,7 @@
 * [Architecture](lilypad-v0-reference/architecture.md)
 * [Deployed Network Details](lilypad-v0-reference/deployed-network-details.md)
 * [Lilypad Smart Contracts](lilypad-v0-reference/lilypad-smart-contracts.md)
+* [Creating your own Jobs](lilypad-v0-reference/creating-your-own-jobs.md)
 
 ## Lilypad v0 Examples
 
