@@ -8,7 +8,13 @@ description: >-
 
 ## How it Works
 
-<figure><img src=".gitbook/assets/Lilypad Architecture.png" alt=""><figcaption><p>Lilypad v0 Architecture<br></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Lilypad Architecture.png" alt=""><figcaption><p>Lilypad v0 Basic Architecture<br></p></figcaption></figure>
+
+## Prefer Video?
+
+Note: Since this video was released some changes have been made to the underlying code, but the process remains the same.
+
+{% embed url="https://youtu.be/B0l0gFYxADY" %}
 
 ## Quick Start Guide
 
@@ -231,13 +237,6 @@ contract MyContract is LilypadCallerInterface {
   }
 }
 ```
-
-##
-
-## Requirements
-
-* A Docker Image suitable to run on Bacalhau (hint: see this [guide](https://docs.bacalhau.org/getting-started/docker-workload-onboarding) in the [Bacalhau Docs](https://docs.bacalhau.org/)
-* Filecoin Virtual Machine Network wallet (eg. Metamask)
 
 \
 
