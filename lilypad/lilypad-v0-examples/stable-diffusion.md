@@ -10,13 +10,6 @@ Open this contract in Remix -> [Click here](https://remix.ethereum.org/bacalhau-
 
 ## Introduction
 
-\
-This example can be found in the Examples folder in the Lilypad Project Github. It&#x20;
-
-{% embed url="https://github.com/bacalhau-project/lilypad/blob/main/examples/contracts/StableDiffusionCallerv2.sol" %}
-
-## Overview
-
 This example uses the Stable Diffusion Docker image found on the [Bacalhau Docs](https://docs.bacalhau.org/examples/model-inference/stable-diffusion-gpu/).
 
 For more info on how to create the Stable Diffusion Script and Docker Image see [this tutorial](https://developerally.com/build-your-own-ai-generated-art-nft-dapp) or watch the video below.
@@ -27,119 +20,43 @@ Create an open source text to image script to run on Bacalhau
 
 
 
+## Code
 
+This example can be found in the Examples folder in the Lilypad Project Github.
 
-## Full Example
+To run this example, you can simply deploy it to any supported network and pass in the contact address to the constructor which corresponds to your network. See [deployed-network-details.md](../lilypad-v0-reference/deployed-network-details.md "mention").
 
 {% hint style="info" %}
 Open this example in remix -> [click here](https://remix.ethereum.org/bacalhau-project/lilypad/edit/main/examples/contracts/StableDiffusionCallerv2.sol)
 {% endhint %}
 
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity >=0.8.4;
-import "hardhat/console.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEventsUpgradeable.sol";
-import "https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol";
-
-/**
-    @notice An experimental contract for POC work to call Bacalhau jobs from FVM smart contracts
-*/
-contract StableDiffusionCallerV2 is LilypadCallerInterface, Ownable {
-    address public bridgeAddress; //NB: see the Deployed Network Details page!
-    LilypadEventsUpgradeable bridge;
-    uint256 public lilypadFee; //=30000000000000000;
-
-    struct StableDiffusionImage {
-        string prompt;
-        string ipfsResult;
-    }
-
-    StableDiffusionImage[] public images;
-    mapping (uint => string) prompts;
-
-    event NewImageGenerated(StableDiffusionImage image);
-
-    constructor(address _bridgeContractAddress) {
-        console.log("Deploying StableDiffusion contract");
-        bridgeAddress = _bridgeContractAddress;
-        bridge = LilypadEventsUpgradeable(_bridgeContractAddress);
-        uint fee = bridge.getLilypadFee();
-        lilypadFee = fee;
-    }
-
-    function setBridgeAddress(address _newAddress) public onlyOwner {
-      bridgeAddress= _newAddress;
-    }
-
-    function setLPEventsAddress(address _eventsAddress) public onlyOwner {
-        bridge = LilypadEventsUpgradeable(_eventsAddress);
-    }
-
-    function getLilypadFee() external {
-        uint fee = bridge.getLilypadFee(); 
-        console.log("fee", fee);
-        lilypadFee = fee;
-    }
-
-    // not recommended
-    function setLilypadFee(uint256 _fee) public onlyOwner {
-        require(_fee > 0, "Lilypad fee must be greater than 0");
-        lilypadFee = _fee;
-    }
-
-    string constant specStart = '{'
-        '"Engine": "docker",'
-        '"Verifier": "noop",'
-        '"PublisherSpec": {"Type": "estuary"},'
-        '"Docker": {'
-        '"Image": "ghcr.io/bacalhau-project/examples/stable-diffusion-gpu:0.0.1",'
-        '"Entrypoint": ["python", "main.py", "--o", "./outputs", "--p", "';
-
-    string constant specEnd =
-        '"]},'
-        '"Resources": {"GPU": "1"},'
-        '"Outputs": [{"Name": "outputs", "Path": "/outputs"}],'
-        '"Deal": {"Concurrency": 1}'
-        '}';
-    
-    function StableDiffusion(string calldata _prompt) external payable {
-        require(msg.value >= lilypadFee, "Not enough to run Lilypad job");
-        // TODO: spec -> do proper json encoding, look out for quotes in _prompt
-        string memory spec = string.concat(specStart, _prompt, specEnd);
-        uint id = bridge.runLilypadJob{value: lilypadFee}(address(this), spec, uint8(LilypadResultType.CID));
-        require(id > 0, "job didn't return a value");
-        prompts[id] = _prompt;
-    }
-
-    function allImages() public view returns (StableDiffusionImage[] memory) {
-        return images;
-    }
-
-    function lilypadFulfilled(address _from, uint _jobId, LilypadResultType _resultType, string calldata _result) external override {
-        //need some checks here that it a legitimate result
-        require(_from == address(bridge)); //really not secure
-        require(_resultType == LilypadResultType.CID);
-
-        StableDiffusionImage memory image = StableDiffusionImage({
-            ipfsResult: _result,
-            prompt: prompts[_jobId]
-        });
-        images.push(image);
-        emit NewImageGenerated(image);
-        delete prompts[_jobId];
-    }
-
-    function lilypadCancelled(address _from, uint _jobId, string calldata _errorMsg) external override {
-        require(_from == address(bridge)); //really not secure
-        console.log(_errorMsg);
-        delete prompts[_jobId];
-    }
-}
-```
+{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/main/examples/contracts/StableDiffusionCallerv2.sol" %}
 
 
+
+## Job Results
+
+In this example the Lilypad Stable Diffusion Job Results are returned as an [IPFS v0 CID](https://docs.ipfs.tech/concepts/content-addressing/). You can use Brave browser or an [IPFS gateway](https://docs.ipfs.tech/concepts/ipfs-gateway/) to see the results.
+
+For example for a given return CID, type the following into your browser url&#x20;
+
+* In Brave: `ipfs://[CID]`
+* In Other Browsers: `www.w3s.link/ipfs/[CID]` or `www.ipfs.io/ipfs/[CID]`
+
+
+
+A folder of the Outputs will be shown:
+
+<figure><img src="https://lh6.googleusercontent.com/6IvDLxN0kKF9ng6StFvKQQBe52r6n1qFAvV6D3gnILDL64XLZ535bioFhwJOdNNXY3I5UoXnT6-UMt56I8YqcrLNxyag2Sz4Pbf0EZ_d1RVY_mlz5kLtw26wrwHPNvBBA4WBpnLaNfo5Ek98wWzIpoYziw=s2048" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://lh4.googleusercontent.com/oa5LX6P9NjgpVXwmFzeCLLFslHulpQ5WZfufLnceXC5cG99LZrpPmP1fCI_cMo2Xa8Qm3o46u6vAjw6kZLHSke27MjKzjMfWIAPOiZjvPzPzWKqa_mTzlWfZzRtJdk8JvpnsfpzwV8pBrV_x_zi1N-GRbg=s2048" alt=""><figcaption></figcaption></figure>
+
+You can also access the image directly by navigating to
+
+* In Brave: `ipfs://[CID]/outputs/image0.png`
+* In Other Browsers: `www.w3s.link/ipfs/[CID]` or `www.ipfs.io/ipfs/[CID]/outputs/image0.png`
+
+<figure><img src="https://lh5.googleusercontent.com/3S4DIyrH9E5uMgDKrXmOk8GhVXARbdW5BjFWQTe3BShJCDUlJDPFVg3L3KJr55edsN9ufeD50U5jUkFtzoBVe3AGHo1i986ypWdivv-mmt_1I2gYy05vZ8cS71_Gl6h3VUmwpFKzt23yOHzPszJLfgc-Qw=s2048" alt=""><figcaption><p>Yay a Rainbow unicorn! Lilypad's spirit animal!</p></figcaption></figure>
 
 
 
