@@ -13,10 +13,14 @@
 ## Lilypad v0 Examples
 
 * [Stable Diffusion](lilypad-v0-examples/stable-diffusion.md)
+* [Ethereum Address Fraud Detector](lilypad-v0-examples/ethereum-address-fraud-detector/README.md)
+  * [Draud Detector with Tableland](lilypad-v0-examples/ethereum-address-fraud-detector/draud-detector-with-tableland.md)
+* [Drand Off-chain Voting](lilypad-v0-examples/drand-off-chain-voting.md)
 
 ## Use Cases
 
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
+* [👟 DefiKicks](use-cases/defikicks.md)
 
 ## Tutorials & Content
 
