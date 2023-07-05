@@ -1,4 +1,4 @@
-# Drand Off-Chain Unbiased Voting in DeFi Kicks
+# Drand Off-Chain Unbiased Voting
 
 > Implementing an unbiased off-chain voting process using Lilypad and Bacalhau, with Drand Time-lock encryption
 
@@ -6,7 +6,7 @@
 
 This example illustrates how [DeFi Kicks](https://ethglobal.com/showcase/defikicks-b1wo0) leverages Lilypad, Bacalhau, and Drand to implement an unbiased off-chain voting mechanism. The purpose of using these technologies is to ensure that voting happens in an unbiased, decentralized manner, thus promoting true democracy within the DefiKicks ecosystem.
 
-[DeFi Kicks](https://ethglobal.com/showcase/defikicks-b1wo0) was a finalist in HackFS 2023.
+The contracts and docker images have also been added as an example in [Lilypad Github](https://github.com/bacalhau-project/lilypad/tree/main/examples)
 
 For more info on DeFi Kicks and their use of Lilypad, see the [DefiKicks Github](https://github.com/md0x/defikicks)
 
@@ -28,8 +28,8 @@ Once a vote resolution request has been submitted and the necessary fee paid, Ba
 
 In summary, this mechanism leverages the strengths of off-chain voting and resolution in a decentralized environment, guaranteeing privacy, fairness, and tamper resistance in the voting process, which are all critical to maintaining the trust and integrity of the DeFi Kicks project.
 
-
 ## Technical Details
+
 ### 1. Off-Chain Voting
 
 Vote details are packaged into a message object and signed cryptographically. This message is then encrypted using a time-lock mechanism, which ensures decryption only after a certain time. The encrypted vote, along with the user's account details and signature, are stored as a vote object. Lastly, the new vote is stored and the system is notified.
