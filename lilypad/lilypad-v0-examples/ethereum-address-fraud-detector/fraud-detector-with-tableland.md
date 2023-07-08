@@ -1,2 +1,0 @@
-# Draud Detector with Tableland
-

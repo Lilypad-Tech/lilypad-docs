@@ -22,7 +22,7 @@ For more info on the dataset, how to create the Fraud Detection Script and Docke
 
 ### Code
 
-This example can be found in the Examples folder in the Lilypad Project Github.
+This example can be found in the Examples folder in the Lilypad-v0 Project Github.
 
 To run this example, you can simply deploy it to any supported network and pass in the contact address to the constructor which corresponds to your network. See deployed-network-details.md.
 
