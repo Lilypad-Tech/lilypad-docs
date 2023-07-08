@@ -5,7 +5,7 @@ description: Running a Stable Diffusion Job from a smart contract with Lilypad v
 # Stable Diffusion
 
 {% hint style="info" %}
-Open this contract in Remix -> [Click here](https://remix.ethereum.org/bacalhau-project/lilypad/blob/main/examples/contracts/StableDiffusionCallerv2.sol)
+Open this contract in Remix -> [Click here](https://remix.etheruem.org/bacalhau-project/lilypad-v0/blob/main/examples/contracts/StableDiffusionCallerv2.sol)
 {% endhint %}
 
 ## Introduction
@@ -30,9 +30,7 @@ To run this example, you can simply deploy it to any supported network and pass 
 Open this example in remix -> [click here](https://remix.ethereum.org/bacalhau-project/lilypad/edit/main/examples/contracts/StableDiffusionCallerv2.sol)
 {% endhint %}
 
-{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/main/examples/contracts/StableDiffusionCallerv2.sol" %}
-
-
+{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad-v0/blob/main/examples/contracts/StableDiffusionCallerv2.sol" %}
 
 ## Job Results
 

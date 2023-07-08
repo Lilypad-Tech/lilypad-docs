@@ -26,4 +26,10 @@ Once the job is complete, the results are returned back to the originating user 
 
 <figure><img src="https://user-images.githubusercontent.com/12529822/224299570-366bde1c-1f48-4af9-9d7c-0d4f8a0fc1fc.png" alt=""><figcaption><p>Note: runBacalhauJob() is now runLilypadJob()</p></figcaption></figure>
 
+
+
+See more about how Bacalhau & Lilypad are related below
+
+{% embed url="https://www.notion.so/7-Introduction-to-Bacalhau-Decentralised-Compute-over-Data-AI-ML-DeSci-fbef1ef73b4e479a9b209be8d29cb58f" %}
+
 {% embed url="https://youtu.be/drwcj2kk6bA" %}

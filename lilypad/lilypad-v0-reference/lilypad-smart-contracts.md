@@ -6,10 +6,10 @@ description: The Lilypad v0 Smart Contracts
 
 ## Using the Lilypad Contracts
 
-1. Create a contract that implements [`LilypadCallerInterface`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol). As part of this interface you need to implement 2 functions:
+1. Create a contract that implements [`LilypadCallerInterface`](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadCallerInterface.sol). As part of this interface you need to implement 2 functions:
    * `lilypadFulfilled` - a callback function that will be called when the job completes successfully
    * `lilypadCancelled` - a callback function that will be called when the job fails
-2. To trigger a job from your contract, you need to call the `LilypadEvents` contract which the bridge is listening to. You will connect to Bacalhau network **via this bridge**. Create an instance of [`LilypadEvents`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEvents.sol) in your own contract by passing the **public contract address** above to the `LilypadEvents` constructor. See [deployed-network-details.md](deployed-network-details.md "mention")for address details
+2. To trigger a job from your contract, you need to call the `LilypadEvents` contract which the bridge is listening to. You will connect to Bacalhau network **via this bridge**. Create an instance of [`LilypadEvents`](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadEventsUpgradeable.sol) in your own contract by passing the **public contract address** above to the `LilypadEvents` constructor. See [deployed-network-details.md](deployed-network-details.md "mention")for address details
 3. To make a call to Bacalhau, call `runLilypadJob` from your function. You need to pass the following parameters:&#x20;
 
 |      Name     |                                                               Type                                                              |                                                                                                              Purpose                                                                                                             |
@@ -36,7 +36,7 @@ To use Lilypad, you only need to take note of one function in this events contra
 | `_resultType` | [`LilypadResultType`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol#L4-L9) | The type of result that you want to be returned - specified in the LilypadCaller Interface. If you specify CID, the result tree will come back as a retrievable IPFS CID. If you specify StdOut, StdErr or ExitCode, those raw values output from the job will be returned. |
 
 {% hint style="info" %}
-Open LilypadEvents Contract in Remix -> [Click here](https://remix.ethereum.org/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEventsUpgradeable.sol)
+Open LilypadEvents Contract in Remix -> [Click here](https://remix.ethereum.org/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadEventsUpgradeable.sol)
 {% endhint %}
 
 ```solidity

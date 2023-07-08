@@ -22,15 +22,15 @@ The Lilypad Contracts are not currently importable via npm (though this is in pr
 
 Using Lilypad in your own solidity smart contract requires the following steps
 
-1.  Create a contract that implements the [LilypadCaller interface](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol).&#x20;
+1.  Create a contract that implements the [LilypadCaller](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadCallerInterface.sol) interface.&#x20;
 
     As part of this interface you need to implement 2 functions:
 
     * `lilypadFulfilled` - a callback function that will be called when the job completes successfully
     * `lilypadCancelled` - a callback function that will be called when the job fails
 2. Provide a public [Docker Spec compatible for use on Bacalhau](https://docs.bacalhau.org/getting-started/docker-workload-onboarding) in JSON format to the contract.
-3. To trigger a job from your contract, you need to call the `LilypadEvents` contract which the Lilypad bridge is listening to and which connects to the Bacalhau public network. Create an instance of [`LilypadEvents`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEvents.sol) by passing the public contract address on the network you are using (see [deployed-network-details.md](deployed-network-details.md "mention")) to the `LilypadEvents` constructor.
-4. Call the [LilypadEvents contract](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadEventsUpgradeable.sol) function `runLilypadJob()` passing in the following parameters.&#x20;
+3. To trigger a job from your contract, you need to call the `LilypadEvents` contract which the Lilypad bridge is listening to and which connects to the Bacalhau public network. Create an instance of [`LilypadEvents`](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadEvents.sol) by passing the public contract address on the network you are using (see [deployed-network-details.md](deployed-network-details.md "mention")) to the `LilypadEvents` constructor.
+4. Call the [LilypadEvents](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadEvents.sol) contract function `runLilypadJob()` passing in the following parameters.&#x20;
 
 |      Name     |                                                               Type                                                              |                                                                                                              Purpose                                                                                                             |
 | :-----------: | :-----------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
