@@ -1,6 +1,10 @@
-# Drand Off-Chain Unbiased Voting
+---
+description: >-
+  Implementing an unbiased off-chain voting process using Lilypad and Bacalhau,
+  with Drand Time-lock encryption
+---
 
-> Implementing an unbiased off-chain voting process using Lilypad and Bacalhau, with Drand Time-lock encryption
+# Drand Off-chain Voting
 
 ## Introduction
 
@@ -117,8 +121,7 @@ The script run in Bacalhau perform the following steps:
 5. Compute the vote result using the vote power of each voter
 6. Compute the inflationary rewards for each voter that voted for the winning option
 7. Put the reward information in a Merkle tree and compute the Merkle root together with the proof for each voter
-8. Encode all the information in a hex string and console.log it
-   as this is the stdout that will be sent back to the Governor smart contract by the Bacalhau operators that run the job.
+8. Encode all the information in a hex string and console.log it as this is the stdout that will be sent back to the Governor smart contract by the Bacalhau operators that run the job.
 
 Here is the vote decryption and verification code, for the full script see the [original script](https://github.com/md0x/defikicks/blob/master/bacalhau-container/index.js)
 

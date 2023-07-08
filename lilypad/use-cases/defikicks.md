@@ -1,10 +1,10 @@
 ---
 description: >-
   DefiKicks is a decentralized, community-governed Data DAO on Filecoin that
-  democratizes DeFi data aggregation and TVL calculations (HackFS winner)
+  democratizes DeFi data aggregation and TVL calculations
 ---
 
-# 👟 DefiKicks
+# 👟 DefiKicks (HackFS Winner 2023)
 
 {% embed url="https://stream.mux.com/qyFKcIg2FRHpuy5DQ3d9xgzZFWSe8aXSsEwra3meIpg/high.mp4" %}
 DefI Kicks Video
@@ -18,10 +18,7 @@ See the Lilypad Example at [drand-off-chain-voting.md](../lilypad-v0-examples/dr
 
 DefiKicks is a decentralized, community-governed Data DAO (Decentralized Autonomous Organization) that operates on the Filecoin network, with the goal of democratizing DeFi data aggregation and TVL (Total Value Locked) calculations. It seeks to improve transparency and foster collaboration through a system of on-chain adapter proposals, off-chain voting, and interoperable token rewards.
 
-<p float="left">
-  <img src="../.gitbook/assets/defi-kicks-dashboard.png" alt="Defi Kicks Dashboard" width="41%" />
-  <img src="../.gitbook/assets/defi-kicks-propose.png" alt="Defi Kicks Propose" width="40%"  /> 
-</p>
+![Defi Kicks Dashboard](../.gitbook/assets/defi-kicks-dashboard.png) ![Defi Kicks Propose](../.gitbook/assets/defi-kicks-propose.png)
 
 At its core, DefiKicks is a counter to the centralization issues prevalent in traditional DeFi data aggregators such as DefiLlama. By shifting the TVL calculations to be performed on-chain, DefiKicks ensures data authenticity and transparency. In essence, it functions similarly to a version control system like 'Git,' allowing anyone to propose a new TVL adapter for a project.
 
@@ -37,7 +34,7 @@ In essence, DefiKicks, with its combination of technologies, proposes a novel, t
 
 ## Architecture
 
-![](../.gitbook/assets/defi-kicks-schema.png)
+![](<../.gitbook/assets/image (1).png>)
 
 DefiKicks operates on a foundation of decentralized technologies and protocols to ensure transparent, accessible DeFi data.
 
