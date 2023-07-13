@@ -119,7 +119,6 @@ The above insert function is called in the lilypadFulfilled function
 insert(prompts[_jobId], _result);
 ```
 
-Query the table on [Click here](https://tablescan.io/playground).\
-\
-\
-![](https://github.com/hakymulla/lilypad-docs/raw/c26568b0ebe74361e37d452048cb8ababc9dcc87/lilypad/.gitbook/assets/tableland.png)
+Query the table on [Click here](https://tablescan.io/playground).
+
+<figure><img src="https://github.com/hakymulla/lilypad-docs/raw/c26568b0ebe74361e37d452048cb8ababc9dcc87/lilypad/.gitbook/assets/tableland.png" alt=""><figcaption></figcaption></figure>

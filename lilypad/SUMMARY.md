@@ -21,13 +21,24 @@
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
 
+## Lilypad v1 Testnet
+
+* [Overview](lilypad-v1-testnet/overview.md)
+* [Architecture](lilypad-v1-testnet/architecture.md)
+* [Quick Start](lilypad-v1-testnet/quick-start.md)
+
+## Lilypad v1 Examples
+
+* [Hello (cow) World!](lilypad-v1-examples/hello-cow-world.md)
+* [Stable Diffusion](lilypad-v1-examples/stable-diffusion.md)
+* [Filecoin Data Prep](lilypad-v1-examples/filecoin-data-prep.md)
+* [\[Advanced\] Arbitrary WASM](lilypad-v1-examples/advanced-arbitrary-wasm.md)
+
+## Research & Vision
+
+* [Litepaper \[coming soon\]](research-and-vision/whitepaper.md)
+
 ## Tutorials & Content
 
 * [Reference Material](tutorials-and-content/reference-material.md)
 * [Join the Community](tutorials-and-content/join-the-community.md)
-
-## Lilypad v1 \[coming soon]
-
-* [Overview](lilypad-v1-coming-soon/overview.md)
-* [Whitepaper](lilypad-v1-coming-soon/whitepaper.md)
-* [Architecture](lilypad-v1-coming-soon/architecture.md)
