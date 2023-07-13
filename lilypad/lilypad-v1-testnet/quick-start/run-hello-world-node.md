@@ -20,6 +20,10 @@ That's it!\
 \
 This will run a lilypad docker node on your local machine which can accept and run jobs.
 
+
+
+<mark style="color:red;">(NEED DIFF IMAGE HERE)</mark>
+
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 \
