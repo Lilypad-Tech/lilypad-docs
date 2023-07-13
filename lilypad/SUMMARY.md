@@ -25,7 +25,12 @@
 
 * [Overview](lilypad-v1-testnet/overview.md)
 * [Architecture](lilypad-v1-testnet/architecture.md)
-* [Quick Start](lilypad-v1-testnet/quick-start.md)
+* [Quick Start](lilypad-v1-testnet/quick-start/README.md)
+  * [Setting up Metamask](lilypad-v1-testnet/quick-start/setting-up-metamask.md)
+  * [Funding your Wallet from Faucet](lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md)
+  * [Install Run Requirements](lilypad-v1-testnet/quick-start/install-run-requirements.md)
+  * [Run "Hello, World!" Job](lilypad-v1-testnet/quick-start/run-hello-world-job.md)
+  * [Run "Hello, World" Node](lilypad-v1-testnet/quick-start/run-hello-world-node.md)
 
 ## Lilypad v1 Examples
 
