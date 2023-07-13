@@ -6,6 +6,10 @@ description: Docker & Lilypad, Private Key
 
 ## Install Requirements
 
+{% hint style="info" %}
+**Supported platforms**: Linux, macOS, WSL2 on both x86\_64 and arm64
+{% endhint %}
+
 ### **Install Docker**
 
 {% hint style="info" %}

@@ -23,8 +23,6 @@ Block explorer URL: (leave blank)
 
 To do this, open metamask then click on the network button at the top left of the popup (in the menu bar):
 
-To do this, open metamask then click on the network button at the top left of the popup (in the menu bar):
-
 ## ![](<../../.gitbook/assets/image (3).png>) \`\`  ![](<../../.gitbook/assets/image (5).png>)
 
 Then click the "Add Network" Button.&#x20;
@@ -39,6 +37,3 @@ Click Save. :tada:
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-
-
-## Funding your wallet

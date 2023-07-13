@@ -4,6 +4,10 @@ description: Run a node to provide job services
 
 # Run "Hello, World" Node
 
+{% hint style="info" %}
+Currently runs on Linux, macOS, WSL2 - but only x86\_64 architectures
+{% endhint %}
+
 ## Run Hello, :cow: World! Node
 
 To contribute your resources to the network and get paid

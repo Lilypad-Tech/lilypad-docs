@@ -37,7 +37,7 @@ See the [whitepaper.md](../research-and-vision/whitepaper.md "mention") for more
 
 </div>
 
-Currently, two testnets are functional, both of which use trusted nodes for running arbitrary compute jobs in a deterministic environment.
+Currently, two testnets are functional, both of which allow arbitrary untrusted nodes to join, but use a set of mutually trusted mediators to check jobs using verification by replication (see MODICUM paper for details).
 
 1. **Lalechuza** - a testnet built on geth
 2. **Larana** - a testnet built on Filecoin [IPC](https://ipc.space) (an advanced scaling solution for blockchain that implements a subnet pattern)
