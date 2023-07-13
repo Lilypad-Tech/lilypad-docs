@@ -24,6 +24,6 @@ This will run a lilypad docker node on your local machine which can accept and r
 
 <mark style="color:red;">(NEED DIFF IMAGE HERE)</mark>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 \

@@ -23,4 +23,23 @@ Results:
 
 ## See the Results
 
-\<ipfs CID>
+Navigate to the IPFS CID result output in the Results -> [https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR](https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR)
+
+{% hint style="info" %}
+This could take up to a minute to propagate through the IPFS network.
+{% endhint %}
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Output of Lilypad Job</p></figcaption></figure>
+
+</div>
+
+Then click on the stdout folder and you should see the job result!
+
+<div data-full-width="false">
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>This is udderly fantastic!</p></figcaption></figure>
+
+</div>
+
