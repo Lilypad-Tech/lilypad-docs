@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🍃 Lilypad Home](README.md)
+* [👩💻 Upcoming Events](upcoming-events.md)
 
 ## Lilypad v1 Testnet
 
