@@ -8,7 +8,7 @@ description: A cowsay job
 Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
-## Run Hello,🐮World! Job \[CLI] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
+## Run Hello,🐮 World! Job \[CLI] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
 
 Start Docker
 
@@ -42,6 +42,6 @@ Then click on the stdout folder and you should see the job result!
 
 
 
-## Run Hello,🐮World! Job \[Smart Contract] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
+## Run Hello,🐮 World! Job \[Smart Contract] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
 
 WIP
