@@ -4,6 +4,8 @@ description: Current State
 
 # Verification & Mediation on Lilypad v1
 
+<figure><img src="https://slack-imgs.com/?c=1&#x26;o1=ro&#x26;url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fl1KVb2dUcmuGG4tby%2Fgiphy.gif%3Fcid%3D6104955ea8qj2n7xnvh6l1xcxpj51fc5alkzf89gyhu960lk%26ep%3Dv1_gifs_translate%26rid%3Dgiphy.gif%26ct%3Dg" alt=""><figcaption><p>We &#x3C;3 Nerds</p></figcaption></figure>
+
 ## Verification & Mediation on Lilypad v1
 
 We didn't want to hold back on releasing a testnet build that developers could use straight away to build their awesome ideas on, however, it's worth noting that Lilypad v1 is a minimal modicum-based testnet and the implemented mediation and game theory on this testnet is very much at baby :baby: stage - as are many other aspects of the robust compute network that we are working hard to build.\
@@ -34,4 +36,4 @@ However, if you don't trust our mediator then you can run your own mediator and 
 
 \
 \
-Read more about these in the [whitepaper.md](../research-and-vision/whitepaper.md "mention")\
+Read more about these in the [whitepaper.md](../research-and-vision/whitepaper.md "mention")
