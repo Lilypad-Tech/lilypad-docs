@@ -29,6 +29,8 @@ Here's some ideas for what you could build with Lilypad v1!
 
 Contribute a Module to Lilypad!
 
+{% embed url="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHV0NmhjNTFiOHcwcTJ5ZGh3cjgzM2VuZWNiZWd6MjB0ZzI2emp6cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wi8Ez1mwRcKGI/200.gif" %}
+
 {% hint style="danger" %}
 Modules must be [Deterministic](https://en.wikipedia.org/wiki/Deterministic\_system)!
 {% endhint %}
@@ -42,14 +44,6 @@ Module code is found [here](https://github.com/bacalhau-project/lilypad/tree/mai
 As an example, check out the cowsay module [here](https://github.com/bacalhau-project/lilypad/blob/main/src/python/modules/cowsay.py).
 
 To contribute, submit a PR including this file [here](https://github.com/bacalhau-project/lilypad/blob/main/src/python/modicum/Modules.py)
-
-
-
-
-
-
-
-
 
 
 
