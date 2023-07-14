@@ -10,7 +10,9 @@ coverY: -401
 
 ## Vision
 
-[Lilypad](https://lilypad.tech/) is aiming to build an internet-scale trustless distributed compute network for web3. Creating the infrastructure for use cases like AI inference, ML training, DeSci and more.
+[Lilypad](https://lilypad.tech/) is aiming to build an internet-scale trustless distributed compute network for web3. Creating the infrastructure for use cases like AI inference, ML training, DeSci and more.\
+\
+Distributed computing will unlock the next generation of truly internet-scale models and applications in web3 and offer the tools for a true paradigm shift to an open and trustless internet.
 
 {% embed url="https://twitter.com/FilecoinTLDR/status/1667164746599002114?s=20" %}
 
