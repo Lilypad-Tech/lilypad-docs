@@ -10,11 +10,13 @@ description: Ideas and Guides for Contributing to Lilypad
 
 Here's some ideas for what you could build with Lilypad v1!
 
-:green\_heart: Easy
+{% hint style="info" %}
+:green\_heart: Good first project
 
-:yellow\_heart: Moderate
+:yellow\_heart: Moderate skill needed
 
-:heart: God mode
+:heart: God mode!
+{% endhint %}
 
 1. :green\_heart: Build cowsay as a service! -> see [hello-cow-world.md](../lilypad-v1-examples/hello-cow-world.md "mention")
 2. :green\_heart: Stable diffusion as a service (text to image) -> see [stable-diffusion.md](../lilypad-v1-examples/stable-diffusion.md "mention")
