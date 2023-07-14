@@ -7,7 +7,7 @@ description: A cowsay job
 The following is how to run the "Hello, :cow:World!" Job from the Lilypad CLI.
 
 {% hint style="info" %}
-To Run from a smart contract skip to the section  [run-hello-world-from-a-smart-contract.md](run-hello-world-from-a-smart-contract.md "mention")
+To Run from a smart contract skip to the section  [run-hello-world-from-a-smart-contract-wip.md](run-hello-world-from-a-smart-contract-wip.md "mention")
 {% endhint %}
 
 ## Run Hello, :cow: World! Job
