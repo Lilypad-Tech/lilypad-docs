@@ -37,7 +37,7 @@ Modules must be [Deterministic](https://en.wikipedia.org/wiki/Deterministic\_sys
 
 If you're a rockstar dev and want to try your hand at contributing a module to Lilypad, see [CONTRIBUTING.md](https://github.com/bacalhau-project/lilypad/blob/main/CONTRIBUTING.md).&#x20;
 
-The dev's enjoy an easy dev environment so hopefully, they've also made it easy for you to contribute too - if you do have any questions of queries though - we're always available in the Slack! (see [join-the-community.md](../tutorials-and-content/join-the-community.md "mention")).\
+Lilypad core dev's enjoy an easy dev environment so hopefully, they've also made it easy for you to contribute too - if you do have any questions of queries though - we're always available in the Slack! (see [join-the-community.md](../tutorials-and-content/join-the-community.md "mention")).\
 \
 Module code is found [here](https://github.com/bacalhau-project/lilypad/tree/main/src/python/modules).
 
