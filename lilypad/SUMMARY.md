@@ -32,6 +32,11 @@
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
 
+## Tutorials & Content
+
+* [Reference Material](tutorials-and-content/reference-material.md)
+* [Join the Community](tutorials-and-content/join-the-community.md)
+
 ## Lilypad v0 Reference
 
 * [Architecture](lilypad-v0-reference/architecture.md)
@@ -45,8 +50,3 @@
 * [Stable Diffusion](lilypad-v0-examples/stable-diffusion.md)
 * [Drand Off-chain Voting](lilypad-v0-examples/drand-off-chain-voting.md)
 * [Ethereum Address Fraud Detector](lilypad-v0-examples/ethereum-address-fraud-detector.md)
-
-## Tutorials & Content
-
-* [Reference Material](tutorials-and-content/reference-material.md)
-* [Join the Community](tutorials-and-content/join-the-community.md)
