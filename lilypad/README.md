@@ -19,7 +19,7 @@ Distributed computing will unlock the next generation of truly internet-scale mo
 ## Overview
 
 {% hint style="info" %}
-Lilypad is now at **v1 Testnet!** :tada:
+Lilypad is now at **v1 Testnet!** :tada: Try it out - we dare you :man\_technologist:
 {% endhint %}
 
 #### Lilypad v1
