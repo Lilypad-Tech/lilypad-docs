@@ -5,7 +5,7 @@ description: Current State
 # Verification, Mediation & Job Pricing on Lilypad v1
 
 {% hint style="info" %}
-Read more about these ideas in the [whitepaper.md](../research-and-vision/whitepaper.md "mention")
+You can read a much more thorough and academic explanation on these ideas in the [whitepaper.md](../research-and-vision/whitepaper.md "mention")!
 {% endhint %}
 
 This page also comes with a warning:
