@@ -16,5 +16,13 @@ The function call needed to run a job from a smart contract can be found below:
 
 {% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/client-smart-contract/src/js/contracts/NaiveExamplesClient.sol" %}
 
+In the above script the function to receive the Job results back is `receiveJobResult`() - so it's essential to put this function in your own smart contract.\
+\
+\
+Here's an example of a working script that can trigger the above function calls&#x20;
+
+{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/main/src/js/scripts/smoke-test.js" %}
+
+\
 
 
