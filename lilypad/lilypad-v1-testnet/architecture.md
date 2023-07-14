@@ -5,7 +5,7 @@ description: Lilypad Testnet Architecture
 # Architecture \[WIP]
 
 {% hint style="warning" %}
-This page is under construction - use these for a generic guide on the current architecture only!
+:construction:This page is under construction - use these for a generic guide on the current architecture only! :construction:
 {% endhint %}
 
 
