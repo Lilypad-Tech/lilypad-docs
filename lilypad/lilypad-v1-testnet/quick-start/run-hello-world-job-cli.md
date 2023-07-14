@@ -2,7 +2,13 @@
 description: A cowsay job
 ---
 
-# Run "Hello, World!" Job
+# Run "Hello, World!" Job \[CLI]
+
+The following is how to run the "Hello, :cow:World!" Job from the Lilypad CLI.
+
+{% hint style="info" %}
+To Run from a smart contract skip to the section  [run-hello-world-from-a-smart-contract.md](run-hello-world-from-a-smart-contract.md "mention")
+{% endhint %}
 
 ## Run Hello, :cow: World! Job
 
@@ -39,7 +45,7 @@ Then click on the stdout folder and you should see the job result!
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>This is udderly fantastic!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>This is udderly fantastic!</p></figcaption></figure>
 
 </div>
 
