@@ -26,7 +26,7 @@
 
 ## Research & Vision
 
-* [Litepaper \[coming soon\]](research-and-vision/whitepaper.md)
+* [Litepaper](research-and-vision/whitepaper.md)
 
 ## Use Cases
 
