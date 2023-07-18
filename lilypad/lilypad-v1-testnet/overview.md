@@ -4,8 +4,13 @@ description: Trustless Distributed Compute for web3
 
 # Overview
 
-Lilypad is a powerful trustless distributed compute platform which leverages [Bacalhau](https://docs.bacalhau.org) and key features of blockchain to enable developers to call arbitrary verifiable compute jobs directly from their smart contracts!\
+Lilypad is a powerful trustless distributed compute platform which leverages [Bacalhau](https://docs.bacalhau.org) and key features of blockchain to enable developers to call arbitrary verifiable compute jobs directly from their smart contracts!
 
+
+
+{% embed url="https://docs.google.com/presentation/d/1NGhDPgUeQeDwOoo-_jYKsmfAOC25v76WdwpW2IJtB5U/edit#slide=id.g259965a9ea1_0_763" %}
+Lilypad Network Overview
+{% endembed %}
 
 ## Applications
 
