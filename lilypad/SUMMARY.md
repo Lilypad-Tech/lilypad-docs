@@ -6,7 +6,7 @@
 ## Lilypad v1 Testnet
 
 * [Overview](lilypad-v1-testnet/overview.md)
-* [Architecture \[WIP\]](lilypad-v1-testnet/architecture.md)
+* [Architecture](lilypad-v1-testnet/architecture.md)
 * [Quick Start](lilypad-v1-testnet/quick-start/README.md)
   * [Setting up Metamask](lilypad-v1-testnet/quick-start/setting-up-metamask.md)
   * [Funding your Wallet from Faucet](lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md)
