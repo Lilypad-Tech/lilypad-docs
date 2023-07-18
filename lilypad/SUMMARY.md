@@ -15,7 +15,7 @@
   * [Run "Hello, World" from a Smart Contract \[WIP\]](lilypad-v1-testnet/quick-start/run-hello-world-from-a-smart-contract.md)
   * [Run "Hello, World" Node](lilypad-v1-testnet/quick-start/run-hello-world-node.md)
 * [Verification, Mediation & Job Pricing on Lilypad v1](lilypad-v1-testnet/verification-mediation-and-job-pricing-on-lilypad-v1.md)
-* [Contribute to Lilypad](lilypad-v1-testnet/contribute-to-lilypad.md)
+* [Win Hacks & Contribute to Lilypad](lilypad-v1-testnet/win-hacks-and-contribute-to-lilypad.md)
 
 ## Lilypad v1 Examples
 

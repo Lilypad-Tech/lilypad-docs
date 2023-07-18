@@ -5,7 +5,7 @@ description: Catch up with the Lilypad Team or hack on Lilypad at these events!
 # 👩💻 Upcoming Events
 
 {% hint style="info" %}
-For hackathon ideas see [contribute-to-lilypad.md](lilypad-v1-testnet/contribute-to-lilypad.md "mention")!
+For hackathon ideas see [win-hacks-and-contribute-to-lilypad.md](lilypad-v1-testnet/win-hacks-and-contribute-to-lilypad.md "mention")!
 {% endhint %}
 
 ### Paris: July 18-23 (full list)
