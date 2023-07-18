@@ -10,9 +10,17 @@ Ensure you have installed all requirements [install-run-requirements.md](../lily
 
 
 
+## Running Stable Diffusion from the CLI
+
 {% embed url="https://youtu.be/-ae3M4VtL88" %}
 Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo
 {% endembed %}
 
 
+
+
+
+## Running Stable Diffusion from a Smart Contract
+
+{% embed url="https://youtu.be/aK12PRx8V0k" %}
 
