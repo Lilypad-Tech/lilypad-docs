@@ -4,7 +4,7 @@ description: A cowsay job
 
 # Hello (cow) World!
 
-## Run Hello,🐮 World! Job \[CLI] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
+## Run Hello, 🐮 World! Job \[CLI] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
 
 {% hint style="warning" %}
 Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
@@ -15,7 +15,7 @@ Start Docker
 Open a Terminal window and run the following command
 
 ```bash
-lilypad run --template cowsay:v0.0.1 --params "hello lilypad"
+lilypad run cowsay:v0.0.1 "hello lilypad"
 ```
 
 (ensure your user is in the docker group if necessary on your platform)\
