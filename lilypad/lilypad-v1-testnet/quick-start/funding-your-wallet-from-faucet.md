@@ -6,7 +6,7 @@ description: With testnet Lilypad ETH
 
 ## Funding your wallet
 
-To obtain funds, connect to the lilypad lalechuza network and head to the faucet at [testnet.lilypadnetwork.org](https://testnet.lilypadnetwork.org)
+To obtain funds, connect to the lilypad lalechuza network and head to the faucet at [testnet.lilypadnetwork.org](http://testnet.lilypadnetwork.org)
 
 {% hint style="info" %}
 Faucet: [http://testnet.lilypadnetwork.org](http://testnet.lilypadnetwork.org)
