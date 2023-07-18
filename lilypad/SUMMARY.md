@@ -1,13 +1,13 @@
 # Table of contents
 
 * [🍃 Lilypad Home](README.md)
-* [👩💻 Upcoming Events](upcoming-events.md)
+* [👩💻 👩💻 Upcoming Events](upcoming-events.md)
 
 ## Lilypad v1 Testnet
 
 * [Overview](lilypad-v1-testnet/overview.md)
 * [Architecture](lilypad-v1-testnet/architecture.md)
-* [Quick Start](lilypad-v1-testnet/quick-start/README.md)
+* [Quick Start on Lilypad v1](lilypad-v1-testnet/quick-start/README.md)
   * [Setting up Metamask](lilypad-v1-testnet/quick-start/setting-up-metamask.md)
   * [Funding your Wallet from Faucet](lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md)
   * [Install Run Requirements](lilypad-v1-testnet/quick-start/install-run-requirements.md)
