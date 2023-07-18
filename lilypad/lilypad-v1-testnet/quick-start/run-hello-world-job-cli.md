@@ -17,7 +17,7 @@ Start Docker
 Open a Terminal window and run the following command:
 
 ```bash
-lilypad run --template cowsay:v0.0.1 --params "hello lilypad"
+lilypad run cowsay:v0.0.1 "hello lilypad"
 ```
 
 (ensure your user is in the docker group if necessary on your platform)\
