@@ -2,7 +2,7 @@
 description: Run a Stable Diffusion Text to Image Job
 ---
 
-# Stable Diffusion
+# Stable Diffusion SDXL v0.9
 
 {% hint style="warning" %}
 Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
