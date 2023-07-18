@@ -9,7 +9,7 @@ description: With testnet Lilypad ETH
 To obtain funds, connect to the lilypad lalechuza network and head to the faucet at [testnet.lilypadnetwork.org](https://testnet.lilypadnetwork.org)
 
 {% hint style="info" %}
-Faucet: [https://testnet.lilypadnetwork.org](https://testnet.lilypadnetwork.org)
+Faucet: [http://testnet.lilypadnetwork.org](http://testnet.lilypadnetwork.org)
 {% endhint %}
 
 Copy your metamask wallet address into the bar and click request.
