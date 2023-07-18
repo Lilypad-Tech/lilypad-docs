@@ -2,7 +2,7 @@
 description: Get started with Lilypad v1
 ---
 
-# Quick Start
+# Quick Start - START HERE
 
 The cloud is just somebody else's computer...
 
