@@ -34,6 +34,10 @@ The Lilypad v1 testnet currently runs on an ETH localhost which is name Lalechuz
 
 
 
+{% embed url="https://youtu.be/4GgM1jY4wOw" %}
+Filecoin Unleashed \[July '23] - Lilypad v1 Unlocks internet-scale web3 applications
+{% endembed %}
+
 #### Lilypad v0
 
 Lilypad (v0) currently enables users to access verifiable, distributed off-chain compute directly from smart contracts.\
