@@ -36,14 +36,16 @@ Lilypad v1 is currently in early testnet phase and is a custom implementation of
 See the [whitepaper.md](../research-and-vision/whitepaper.md "mention") for more info
 {% endhint %}
 
-<div data-full-width="true">
-
-<figure><img src="https://lh6.googleusercontent.com/xYT2ks14GGyNWZyvh3sPbbr-phCDqRYkJfrgiYFPgsSPHhgfBK-NR8CnuyYfblqiN4YzI0BSAPh6H4gAHcTMbjeZuvnEssYdCRYItFmL8VEZ9ek_pI79UqO7IApurjYv7ZRtDfQhbpWXGzmKWErDkhkxRg=s2048" alt=""><figcaption><p>Modicum Proposed Architecture</p></figcaption></figure>
-
-</div>
-
 Currently, two testnets are functional, both of which allow arbitrary untrusted nodes to join, but use a set of mutually trusted mediators to check jobs using verification by replication (see MODICUM paper for details).
 
 1. **Lalechuza** - a testnet built on geth
 2. **Larana** - a testnet built on Filecoin [IPC](https://ipc.space) (an advanced scaling solution for blockchain that implements a subnet pattern)
+
+
+
+<div data-full-width="true">
+
+<figure><img src="https://lh6.googleusercontent.com/xYT2ks14GGyNWZyvh3sPbbr-phCDqRYkJfrgiYFPgsSPHhgfBK-NR8CnuyYfblqiN4YzI0BSAPh6H4gAHcTMbjeZuvnEssYdCRYItFmL8VEZ9ek_pI79UqO7IApurjYv7ZRtDfQhbpWXGzmKWErDkhkxRg=s2048" alt=""><figcaption><p>Modicum Proposed Architecture </p></figcaption></figure>
+
+</div>
 

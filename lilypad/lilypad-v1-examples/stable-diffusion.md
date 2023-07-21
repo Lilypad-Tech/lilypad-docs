@@ -2,13 +2,11 @@
 description: Run a Stable Diffusion Text to Image Job
 ---
 
-# Stable Diffusion SDXL v0.9
+# Stable Diffusion
 
 {% hint style="warning" %}
 Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
 {% endhint %}
-
-
 
 ## Running Stable Diffusion from the CLI
 
@@ -20,22 +18,18 @@ lilypad run sdxl:v0.9-lilypad1 '{"prompt": "an astronaut riding on a unicorn"}'
 lilypad run sdxl:v0.9-lilypad1 '{"prompt": "an astronaut riding on a unicorn", "seed": 99}'
 ```
 
-
 {% embed url="https://youtu.be/-ae3M4VtL88" %}
 Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo
 {% endembed %}
-
-
-
-
 
 ## Running Stable Diffusion from a Smart Contract
 
 {% embed url="https://youtu.be/aK12PRx8V0k" %}
 
-Use contract addresses from [https://github.com/bacalhau-project/lilypad/blob/main/latest.txt](https://github.com/bacalhau-project/lilypad/blob/main/latest.txt):
+Use contract addresses from [https://github.com/bacalhau-project/lilypad/blob/main/latest.txt](https://github.com/bacalhau-project/lilypad/blob/main/latest.txt):thumbsup:
 
 {% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/main/latest.txt" %}
+
 
 
 Use contract:
@@ -79,5 +73,3 @@ contract NaiveExamplesClient {
   }
 }
 ```
-
-
