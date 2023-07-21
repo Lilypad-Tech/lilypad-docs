@@ -2,7 +2,7 @@
 description: Ideas and Guides for Contributing to Lilypad
 ---
 
-# Contribute to Lilypad
+# Win Hacks & Contribute to Lilypad
 
 
 
@@ -46,4 +46,9 @@ As an example, check out the cowsay module [here](https://github.com/bacalhau-pr
 To contribute, submit a PR including this file [here](https://github.com/bacalhau-project/lilypad/blob/main/src/python/modicum/Modules.py)
 
 
+
+## Other Ideas
+
+* Create a gasless transaction pipeline with Bacalhau
+* Build new features for Waterlily.ai
 
