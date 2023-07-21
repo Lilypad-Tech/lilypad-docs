@@ -22,6 +22,8 @@ Distributed computing will unlock the next generation of truly internet-scale mo
 Lilypad is now at **v1 Testnet!** :tada: Try it out - we dare you :man\_technologist:
 {% endhint %}
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Lilypad creates a decentralised marketplace for compute jobs</p></figcaption></figure>
+
 #### Lilypad v1
 
 Lilypad v1 is a trustless distributed compute network which leverages [Bacalhau](https://docs.bacalhau.org) and key features of blockchain to enable developers to call arbitrary verifiable compute jobs directly from their smart contracts (or a CLI). Running a node on the network to accept compute jobs is now also possible.\
@@ -29,8 +31,6 @@ Lilypad v1 is a trustless distributed compute network which leverages [Bacalhau]
 Lilypad v1 is currently in early testnet phase and is a custom implementation of Modicum outlined  in the paper: "[Mechanisms for Outsourcing Computation via a Decentralized Market](https://dl.acm.org/doi/pdf/10.1145/3401025.3401737)".
 
 The Lilypad v1 testnet currently runs on an ETH localhost which is name Lalechuza. In future, Lilypad v1 will also run on other chains with the first target being [IPC](https://ipc.space) (an advanced scaling solution for blockchain that implements a subnet pattern).
-
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Lilypad creates a decentralised marketplace for compute jobs</p></figcaption></figure>
 
 
 
