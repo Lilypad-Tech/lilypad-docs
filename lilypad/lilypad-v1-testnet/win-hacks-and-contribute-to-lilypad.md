@@ -47,8 +47,9 @@ To contribute, submit a PR including this file [here](https://github.com/bacalha
 
 
 
-## Other Ideas
+## More Inspiration?
 
 * Create a gasless transaction pipeline with Bacalhau
 * Build new features for Waterlily.ai
+* Peruse the [project-showcase.md](../use-cases/project-showcase.md "mention")page!
 
