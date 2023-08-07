@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🍃 Lilypad Home](README.md)
-* [👩💻 👩💻 Upcoming Events](upcoming-events.md)
+* [📅 Upcoming Events](upcoming-events.md)
 
 ## Lilypad v1 Testnet
 
@@ -34,6 +34,7 @@
 
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
+* [🌠 Project Showcase](use-cases/project-showcase.md)
 
 ## Tutorials & Content
 
