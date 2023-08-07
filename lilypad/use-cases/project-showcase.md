@@ -6,6 +6,8 @@ description: >-
 
 # 🌠 Project Showcase
 
+Want to be featured on this page? Get in touch -> [bit.ly/bacalhau-project-slack](https://bit.ly/bacalhau-project-slack)
+
 ## EthGlobal Paris - July '23
 
 :point\_right: See the [Twitter Thread](https://twitter.com/Lilypad\_Tech/status/1684244204900298752?s=20)
