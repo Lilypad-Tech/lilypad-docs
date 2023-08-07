@@ -10,7 +10,7 @@
 * [Get started here!](lilypad-v1-testnet/quick-start/README.md)
   * [Setting up Metamask](lilypad-v1-testnet/quick-start/setting-up-metamask.md)
   * [Funding your Wallet from Faucet](lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md)
-  * [Install Run Requirements](lilypad-v1-testnet/quick-start/install-run-requirements.md)
+  * [Install \[CLI\] Run Requirements](lilypad-v1-testnet/quick-start/install-run-requirements.md)
   * [Run "Hello, World!" Job \[CLI\]](lilypad-v1-testnet/quick-start/run-hello-world-job-cli.md)
   * [Run "Hello, World" from a Smart Contract \[WIP\]](lilypad-v1-testnet/quick-start/run-hello-world-from-a-smart-contract.md)
   * [Run "Hello, World" Node](lilypad-v1-testnet/quick-start/run-hello-world-node.md)
