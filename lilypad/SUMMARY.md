@@ -34,7 +34,7 @@
   * [Problem Statement](research-and-vision/v1-documents/problem-statement.md)
   * [Prior Protocols](research-and-vision/v1-documents/prior-protocols.md)
   * [Autonomous Agents](research-and-vision/v1-documents/autonomous-agents.md)
-  * [Mechanisms To Explor](research-and-vision/v1-documents/mechanisms-to-explor.md)
+  * [Mechanisms To Explore](research-and-vision/v1-documents/mechanisms-to-explor.md)
 
 ## Use Cases
 
