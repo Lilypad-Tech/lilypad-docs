@@ -1,3 +1,7 @@
+---
+description: Verifiable Computing
+---
+
 # Verifiable Computing
 
 ## Verifiable Computing Basics
