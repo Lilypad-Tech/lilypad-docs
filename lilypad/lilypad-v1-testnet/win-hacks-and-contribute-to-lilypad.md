@@ -4,8 +4,6 @@ description: Ideas and Guides for Contributing to Lilypad
 
 # Win Hacks & Contribute to Lilypad
 
-
-
 ## Hackathon & Project Ideas for Lilypad v1
 
 Here's some ideas for what you could build with Lilypad v1!
@@ -21,9 +19,10 @@ Here's some ideas for what you could build with Lilypad v1!
 1. :green\_heart: Build cowsay as a service! -> see [hello-cow-world.md](../lilypad-v1-examples/hello-cow-world.md "mention")
 2. :green\_heart: Stable diffusion as a service (text to image) -> see [stable-diffusion.md](../lilypad-v1-examples/stable-diffusion.md "mention")
 3. :yellow\_heart: Use Stable diffusion fine tuning as a service (e.g. give me pics of you and add a beer or whatever, via LoRA) - **this is a distributed compute network that triggers from a smart contract and that ACTUALLY CONSUMES DATA FROM IPFS and writes output data as CIDs and consumes them from inference -** this is breakthrough computing!&#x20;
-4. :yellow\_heart:  Filecoin data prep: integrate with Filecoin service providers (requires knowledge of **Filecoin Storage Market**) -> see [filecoin-data-prep.md](../lilypad-v1-examples/filecoin-data-prep.md "mention")
-5. :heart: Advanced: arbitrary WASM - write your own code and compile it to WASM and run it
-6. :heart: :heart: Very advanced: Contribute a module (see below)
+4. :yellow\_heart:  Build a Javascript wrapper for the CLI
+5. :yellow\_heart:  Filecoin data prep: integrate with Filecoin service providers (requires knowledge of **Filecoin Storage Market**) -> see [filecoin-data-prep.md](../lilypad-v1-examples/filecoin-data-prep.md "mention")
+6. :heart: Advanced: arbitrary WASM - write your own code and compile it to WASM and run it
+7. :heart: :heart: God Mode: Contribute a module (see below)
 
 ## Module Contributions!
 

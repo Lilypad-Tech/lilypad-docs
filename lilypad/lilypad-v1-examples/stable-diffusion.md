@@ -11,7 +11,11 @@ Ensure you have installed all requirements [install-run-requirements.md](../lily
 ## Running Stable Diffusion from the CLI
 
 ```
-lilypad run sdxl:v0.9-lilypad1 '{"prompt": "an astronaut riding on a unicorn"}'
+lilypad run sdxl:v0.9-lilypad1 "purple jellyfish in the sky"
+```
+
+```
+lilypad run sdxl:v0.9-lilypad1 "an astronaut riding on a unicorn"
 ```
 
 ```
