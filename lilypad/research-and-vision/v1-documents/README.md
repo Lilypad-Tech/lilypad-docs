@@ -1,8 +1,14 @@
+---
+description: These documents provide a background for ongoing Lilypad research.
+---
+
 # V1 Research Documents
 
 {% hint style="info" %}
 If you have questions or find something in here interesting, please feel free to raise a discussion in the [github](https://github.com/bacalhau-project/lilypad-docs) or in [slack](https://bit.ly/bacalhau-project-slack)!
 {% endhint %}
+
+These documents provide a background for the ongoing research on Lilypad. They are primarily focused on the game theory and cryptoeconomics of the protocol, and include an introduction to verifiable computing, an overview of the specific problems we are tackling, a brief overview of prior work, a description of our approach, and mechanisms that we plan to test in simulation.
 
 ### Learn more about:
 
