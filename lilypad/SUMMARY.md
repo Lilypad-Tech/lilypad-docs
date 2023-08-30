@@ -29,6 +29,12 @@
 ## Research & Vision
 
 * [Litepaper](research-and-vision/whitepaper.md)
+* [V1 Documents](research-and-vision/v1-documents/README.md)
+  * [Verifiable Computing](research-and-vision/v1-documents/verifiable-computing.md)
+  * [Problem Statement](research-and-vision/v1-documents/problem-statement.md)
+  * [Prior Protocols](research-and-vision/v1-documents/prior-protocols.md)
+  * [Autonomous Agents](research-and-vision/v1-documents/autonomous-agents.md)
+  * [Mechanisms To Explor](research-and-vision/v1-documents/mechanisms-to-explor.md)
 
 ## Use Cases
 
