@@ -29,7 +29,7 @@
 ## Research & Vision
 
 * [Litepaper](research-and-vision/whitepaper.md)
-* [V1 Documents](research-and-vision/v1-documents/README.md)
+* [V1 Research Documents](research-and-vision/v1-documents/README.md)
   * [Verifiable Computing](research-and-vision/v1-documents/verifiable-computing.md)
   * [Problem Statement](research-and-vision/v1-documents/problem-statement.md)
   * [Prior Protocols](research-and-vision/v1-documents/prior-protocols.md)
