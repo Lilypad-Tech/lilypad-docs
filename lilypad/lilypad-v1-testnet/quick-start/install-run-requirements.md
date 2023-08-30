@@ -2,7 +2,7 @@
 description: Docker & Lilypad, Private Key
 ---
 
-# Install Run Requirements
+# Install \[CLI] Run Requirements
 
 ## Install Requirements
 
@@ -20,7 +20,7 @@ description: Docker & Lilypad, Private Key
 
 {% code overflow="wrap" %}
 ```bash
-curl -sSL -O https://bit.ly/get-lilypad && sudo install get-lilypad /usr/local/bin/lilypad
+curl -sSL -O https://raw.githubusercontent.com/bacalhau-project/lilypad-modicum/main/lilypad && sudo install lilypad /usr/local/bin/lilypad
 ```
 {% endcode %}
 
