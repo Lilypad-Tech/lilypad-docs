@@ -39,10 +39,10 @@ Verification-via-replication - often described using the adjective "optimistic" 
 
 In contrast to the other approaches, verification-via-replication often requires reliance on game-theoretic mechanisms such as collateral slashing, reputation, and other methods. This can become a bit complex when trying to counter collusion between the nodes that are computing the results.
 
-One of the downsides of this approach is, of course, the extra effort expended on recomputing computations. However, with proper incentives, the overhead of this can be reduced dramatically. It is also important to keep in mind that the overhead of this approach is much lower that cryptographic methods, which usually have much higher overhead.
+One of the downsides of this approach is, of course, the extra effort expended on recomputing computations. However, with proper incentives, the overhead of this can be reduced dramatically. It is also important to keep in mind that the overhead of this approach is much lower than cryptographic methods, which usually have much higher overhead.
 
 ### Our Approach
 
-We opt for verification-via-replication as a first approach, for the reasons that it is simple to understand, has less overhead than cryptographic approaches, and has an attack surface that can be economically modeled and analyzed.
+We opt for verification-via-replication as a first approach, for the reasons that it is simple to understand, has less overhead than cryptographic approaches, and has an attack surface that can be economically modelled and analyzed.
 
 This has the downside of making private computations difficult. While the inputs and outputs of jobs can be encrypted so that only the client and compute node can see the code and data, this still leaves the client vulnerable to having their information leaked. Future approaches can incorporate SLAs and eventually support for homomorphic encryption to deal with this issue.

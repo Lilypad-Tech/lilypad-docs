@@ -1,3 +1,9 @@
+---
+description: >-
+  Investigation of some previous verifiacation-by-replication computing
+  protocols
+---
+
 # Prior Protocols
 
 ## Prior Verification-via-Replication Protocols
