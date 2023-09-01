@@ -2,19 +2,21 @@
 description: >-
   Lilypad is building the infrastructure for internet-scale trustless
   distributed compute networks for #web3 underpinned by the Bacalhau Project.
-cover: .gitbook/assets/Background 8.png
-coverY: -401
+cover: .gitbook/assets/record player in flowers (1).png
+coverY: 0
 ---
 
 # 🍃 Lilypad Home
 
+Image: `> lilypad run sdxl:v0.9-lilypad1 "A record player in a room of flowers"`
+
 ## Vision
 
-[Lilypad](https://lilypad.tech/) is aiming to build an internet-scale trustless distributed compute network for web3. Creating the infrastructure for use cases like AI inference, ML training, DeSci and more.\
+[Lilypad](https://blog.lilypadnetwork.org) is aiming to build an internet-scale trustless distributed compute network for web3. Creating the infrastructure for use cases like AI inference, ML training, DeSci and more.\
 \
 Distributed computing will unlock the next generation of truly internet-scale models and applications in web3 and offer the tools for a true paradigm shift to an open and trustless internet.
 
-{% embed url="https://twitter.com/FilecoinTLDR/status/1667164746599002114?s=20" %}
+{% embed url="https://twitter.com/Lilypad_Tech/status/1689528626440794113?s=20" %}
 
 ## Overview
 
@@ -40,6 +42,10 @@ Filecoin Unleashed \[July '23] - Lilypad v1 Unlocks internet-scale web3 applicat
 
 #### Lilypad v0
 
+{% hint style="info" %}
+Lilypad v0 is not actively maintained or supported
+{% endhint %}
+
 Lilypad (v0) currently enables users to access verifiable, distributed off-chain compute directly from smart contracts.\
 \
 Lilypad v0 is a Proof of Concept project operating as an integration layer between Bacalhau compute jobs and solidity smart contracts. This integration enables users to access verifiable off-chain decentralised compute from DApps and smart contract projects, enabling interactions and innovations between on-chain and off-chain compute. \
@@ -60,8 +66,9 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 ## Lilypad Roadmap
 
 * v0: **September 2022** - Lilypad Bridge POC for triggering and returning Bacalhau compute jobs from a smart contract
-* v1: **July 2023** - A [modicum](https://dl.acm.org/doi/pdf/10.1145/3401025.3401737)-based minimal testnet (EVM-based). See [github](https://github.com/bacalhau-project/lilypad)
+* v1: **July 2023** - A [modicum](https://dl.acm.org/doi/pdf/10.1145/3401025.3401737)-based minimal testnet (EVM-based). See [github](https://github.com/bacalhau-project/lilypad-modicum)
 * v2: **September 2023** - A more robust trustless distributed testnet
+* v2 Novemeber 2023 - Incentivised Testnet
 * v3: tbd - Lilypad Mainnet
 
 <figure><img src=".gitbook/assets/Lilypad Roadmap June.png" alt=""><figcaption><p>Lilypad Roadmap</p></figcaption></figure>

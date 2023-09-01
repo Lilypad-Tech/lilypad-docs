@@ -30,9 +30,9 @@ Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo
 
 {% embed url="https://youtu.be/aK12PRx8V0k" %}
 
-Use contract addresses from [https://github.com/bacalhau-project/lilypad/blob/main/latest.txt](https://github.com/bacalhau-project/lilypad/blob/main/latest.txt):thumbsup:
+Use contract addresses from [https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt)&#x20;
 
-{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/main/latest.txt" %}
+{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt" %}
 
 
 

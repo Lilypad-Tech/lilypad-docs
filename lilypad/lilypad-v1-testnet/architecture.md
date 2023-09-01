@@ -2,7 +2,9 @@
 description: Lilypad Testnet Architecture
 ---
 
-# Architecture \[WIP]
+# Architecture
+
+This page is a dynamic work in progress! We're working on some better diagrams!
 
 {% hint style="success" %}
 See the [whitepaper.md](../research-and-vision/whitepaper.md "mention") for further information on how the MODICUM architecture was enahnced in implementation
