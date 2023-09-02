@@ -12,7 +12,7 @@
   * [Funding your Wallet from Faucet](lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md)
   * [\[CLI\] Install Run Requirements](lilypad-v1-testnet/quick-start/install-run-requirements.md)
   * [\[CLI\] Run "Hello, World!" Job](lilypad-v1-testnet/quick-start/run-hello-world-job-cli.md)
-  * [\[Smart Contract\] Run "Hello, World" Job](lilypad-v1-testnet/quick-start/run-hello-world-from-a-smart-contract.md)
+  * [\[Smart Contract\] Run "Hello, World!" Job](lilypad-v1-testnet/quick-start/run-hello-world-from-a-smart-contract.md)
   * [Run "Hello, World" Node](lilypad-v1-testnet/quick-start/run-hello-world-node.md)
 * [Verification, Mediation & Job Pricing on Lilypad v1](lilypad-v1-testnet/verification-mediation-and-job-pricing-on-lilypad-v1.md)
 * [Win Hacks & Contribute to Lilypad](lilypad-v1-testnet/win-hacks-and-contribute-to-lilypad.md)
