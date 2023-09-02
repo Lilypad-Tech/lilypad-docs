@@ -2,7 +2,7 @@
 description: How to run a cowsay job from a Smart contract!
 ---
 
-# \[Smart Contract] Run "Hello, World" Job
+# \[Smart Contract] Run "Hello, World!" Job
 
 ## Remix
 
@@ -55,6 +55,8 @@ Then add the string parameter for what you want the cow to say and click the tra
 Wait a couple of minutes for the job to complete on the compute network. Then you will be able to click the fetchAllResults button to get your IPFS CID result.
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+**See the Results** :cow2:
 
 Open the string starting with "https://ipfs.io/" in your broswer which contains the output of the compute job:
 
