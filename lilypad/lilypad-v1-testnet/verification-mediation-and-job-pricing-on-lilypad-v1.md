@@ -5,7 +5,7 @@ description: Current State
 # Verification, Mediation & Job Pricing on Lilypad v1
 
 {% hint style="info" %}
-You can read a much more thorough and academic explanation on these ideas in the [whitepaper.md](../research-and-vision/whitepaper.md "mention")!
+You can read a much more thorough and academic explanation on these ideas in the [whitepaper.md](../research-and-vision/whitepaper.md "mention") and [v1-documents](../research-and-vision/v1-documents/ "mention")
 {% endhint %}
 
 This page also comes with a warning:
@@ -14,8 +14,7 @@ This page also comes with a warning:
 
 ## Overview
 
-We didn't want to hold back on releasing a testnet build that developers could use straight away to build their awesome ideas on, however, it's worth noting that Lilypad v1 is a minimal modicum-based testnet and the implemented mediation and game theory on this testnet is very much at baby :baby: stage - as are many other aspects of the robust compute network that we are working hard to build.\
-
+We didn't want to hold back on releasing a testnet build that developers could use straight away to build their awesome ideas on, however, it's worth noting that Lilypad v1 is a minimal modicum-based testnet and the implemented mediation and game theory on this testnet is very much at baby :baby: stage - as are many other aspects of the robust compute network that we are working hard to build.
 
 ### **Verification on Lilypad v1**
 
@@ -47,6 +46,6 @@ While not every job will take the same amount of time or compute resources to ru
 This will change in future versions to more accurately calculate and charge for the compute resource requirements of a job as well as compensating the compute nodes appropriately.
 
 {% hint style="info" %}
-Read more about these ideas in the [whitepaper.md](../research-and-vision/whitepaper.md "mention")
+Read more about these ideas in the [whitepaper.md](../research-and-vision/whitepaper.md "mention") & [v1-documents](../research-and-vision/v1-documents/ "mention")
 {% endhint %}
 
