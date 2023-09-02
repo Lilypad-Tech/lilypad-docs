@@ -20,7 +20,7 @@ description: Docker & Lilypad, Private Key
 
 {% code overflow="wrap" %}
 ```bash
-curl -sSL -O https://raw.githubusercontent.com/bacalhau-project/lilypad-modicum/main/lilypad && sudo install lilypad /usr/local/bin/lilypad
+curl -sSvL -O https://raw.githubusercontent.com/bacalhau-project/lilypad-modicum/main/lilypad && sudo install lilypad /usr/local/bin/lilypad
 ```
 {% endcode %}
 
