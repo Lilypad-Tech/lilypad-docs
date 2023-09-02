@@ -2,7 +2,7 @@
 description: Docker & Lilypad, Private Key
 ---
 
-# Install \[CLI] Run Requirements
+# \[CLI] Install Run Requirements
 
 ## Install Requirements
 
@@ -13,7 +13,7 @@ description: Docker & Lilypad, Private Key
 ### **Install Docker**
 
 {% hint style="info" %}
-[Docker](https://www.docker.com/products/docker-desktop/) :whale: installed
+[Docker](https://www.docker.com/products/docker-desktop/) :whale: installed & running
 {% endhint %}
 
 ### **Install Lilypad CLI in your terminal / command line**
@@ -26,7 +26,8 @@ curl -sSL -O https://raw.githubusercontent.com/bacalhau-project/lilypad-modicum/
 
 ### **Add your private key to your terminal / command line instance:**
 
-Get your private key from metamask: Accounts -> Account Details -> Show private key
+Get your private key from metamask: \
+Accounts -> Account Details -> Show private key
 
 <div>
 

@@ -2,13 +2,13 @@
 description: Get started with Lilypad v1
 ---
 
-# Quick Start - START HERE
+# Get started here!
 
 The cloud is just somebody else's computer...
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

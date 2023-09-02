@@ -24,7 +24,7 @@ Distributed computing will unlock the next generation of truly internet-scale mo
 Lilypad is now at **v1 Testnet!** :tada: Try it out - we dare you :man\_technologist:
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Lilypad creates a decentralised marketplace for compute jobs</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption><p>Lilypad creates a decentralised marketplace for compute jobs</p></figcaption></figure>
 
 #### Lilypad v1
 
