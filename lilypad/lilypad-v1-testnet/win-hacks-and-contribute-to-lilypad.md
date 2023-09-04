@@ -26,7 +26,11 @@ Here's some ideas for what you could build with Lilypad v1!
 
 ## Module Contributions!
 
-Contribute a Module to Lilypad!
+Contribute a Module to Lilypad!&#x20;
+
+{% hint style="warning" %}
+This section is still under construction!
+{% endhint %}
 
 {% embed url="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHV0NmhjNTFiOHcwcTJ5ZGh3cjgzM2VuZWNiZWd6MjB0ZzI2emp6cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wi8Ez1mwRcKGI/200.gif" %}
 
@@ -42,7 +46,11 @@ Module code is found [here](https://github.com/bacalhau-project/lilypad/tree/mai
 
 As an example, check out the cowsay module [here](https://github.com/bacalhau-project/lilypad/blob/main/src/python/modules/cowsay.py).
 
-To contribute, submit a PR including this file [here](https://github.com/bacalhau-project/lilypad/blob/main/src/python/modicum/Modules.py)
+To contribute, submit a PR including this file [here](https://github.com/bacalhau-project/lilypad/blob/main/src/python/modicum/Modules.py)\
+\
+
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>bit.ly/bacalhau-project-slack for help!</p></figcaption></figure>
 
 
 

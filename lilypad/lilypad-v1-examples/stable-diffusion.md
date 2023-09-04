@@ -4,7 +4,7 @@ description: Run a Stable Diffusion Text to Image Job
 
 # Stable Diffusion (SDXL0.9)
 
-## Running Stable Diffusion from the CLI
+## \[CLI] Running Stable Diffusion SDXL 0.9
 
 {% hint style="warning" %}
 Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
@@ -18,7 +18,7 @@ lilypad run sdxl:v0.9-lilypad1 "an astronaut riding on a unicorn"
 
 The output will look like this:&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
 
 Take the ipfs link given in the results and paste it into your browser:
 
@@ -60,7 +60,61 @@ lilypad run sdxl:v0.9-lilypad1 '{"prompt": "an astronaut riding on a unicorn", "
 Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo
 {% endembed %}
 
-## Running Stable Diffusion from a Smart Contract
+## \[Smart Contract] Running Stable Diffusion SDXL 0.9
+
+To trigger the SDXL0.9 module from a smart contract, firstly you need to create your own client contract to call the module from.\
+\
+In order to receive results back from the Lilypad network, you will also need to \
+1\. Connect to the [Lilypad Modicum Contract](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/Modicum.sol) (and create an instance of it in your own contract using the [current address found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt))\
+2\. Implement the [Modicum Contract receiveJobResults()](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/Modicum.sol) interface.
+
+```solidity
+// SPDX-License-Identifier: GPLv3
+pragma solidity ^0.8.6;
+
+// give it the ModicumContract interface 
+// NB: this will be a separate import in future.
+interface ModicumContract {
+  function runModuleWithDefaultMediators(string calldata name, string calldata params) external payable returns (uint256);
+}
+
+contract SDXLCaller {
+  address public contractAddress;
+  ModicumContract remoteContractInstance;
+
+  // The Modicum contract address is found here: https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt
+  // Current: 0x422F325AA109A3038BDCb7B03Dd0331A4aC2cD1a
+  constructor(address _modicumContract) {
+    require(contractAddress != address(0), "Contract cannot be zero address");
+    contractAddress = _modicumContract;
+    //make a connection instance to the remote contract
+    remoteContractInstance = ModicumContract(_modicumContract);
+  } 
+
+  /*
+  * @notice Run the SDXL Module
+  * @param prompt The input text prompt to generate the stable diffusion image from
+  */
+  function runSDXL(string memory prompt) public payable returns (uint256) {
+    require(msg.value == 2 ether, "Payment of 2 Ether is required");
+    return remoteContractInstance.runModuleWithDefaultMediators{value: msg.value}("sdxl:v0.9-lilypad1", prompt);
+  }
+  
+  
+
+  
+}
+```
+
+dwdewjknd
+
+
+
+\
+\
+\
+\
+
 
 {% embed url="https://youtu.be/aK12PRx8V0k" %}
 
@@ -148,15 +202,3 @@ contract ExampleClient {
 }
 ```
 
-
-
-\====== deprecated======
-
-The function call needed to run a job from a smart contract can be found below:
-
-{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/client-smart-contract/src/js/contracts/NaiveExamplesClient.sol" %}
-
-In the above script the function to receive the Job results back is `receiveJobResult`() - so it's essential to put this function in your own smart contract.\
-\
-\
-Here's an example of a working script that can trigger the above function calls&#x20;
