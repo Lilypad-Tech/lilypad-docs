@@ -25,6 +25,7 @@
 * [LLM Inference](lilypad-v1-examples/llm-inference.md)
 * [Filecoin Data Prep \[coming soon\]](lilypad-v1-examples/filecoin-data-prep.md)
 * [\[Advanced\] Arbitrary WASM](lilypad-v1-examples/advanced-arbitrary-wasm.md)
+* [\[Advanced\] DIY Module](lilypad-v1-examples/advanced-diy-module.md)
 
 ## Research & Vision
 
