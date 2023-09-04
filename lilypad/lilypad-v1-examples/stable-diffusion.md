@@ -122,9 +122,7 @@ NB: You could also add the seed as a parameter to run this. &#x20;
 
 `return remoteContractInstance.runModuleWithDefaultMediators{value: msg.value}("sdxl:v0.9-lilypad1",`` `**`params`**`);`
 
-
-
-**Remix**
+#### **Remix**
 
 Try it yourself!&#x20;
 
@@ -151,7 +149,7 @@ Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/bl
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p><a href="https://ipfs.io/ipfs/QmQx6RDxxjqJYeame9SryMvkjxbXRm32hb3zo3RmiTno4R/outputs/image-0.png">https://ipfs.io/ipfs/QmQx6RDxxjqJYeame9SryMvkjxbXRm32hb3zo3RmiTno4R/outputs/image-0.png</a>  OR <a href="ipfs://bafybeibgzpcxn2cfwvz7ao3jztqphd2k2ebccmxpfm4ig3ug5r2lsclrqy/outputs/image-0.png">ipfs://bafybeibgzpcxn2cfwvz7ao3jztqphd2k2ebccmxpfm4ig3ug5r2lsclrqy/outputs/image-0.png</a> in Brave</p></figcaption></figure>
 
-**Video**
+#### **Video**
 
 {% embed url="https://youtu.be/aK12PRx8V0k" %}
 
