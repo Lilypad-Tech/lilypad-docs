@@ -61,3 +61,7 @@
 * [Stable Diffusion](lilypad-v0-examples/stable-diffusion.md)
 * [Drand Off-chain Voting](lilypad-v0-examples/drand-off-chain-voting.md)
 * [Ethereum Address Fraud Detector](lilypad-v0-examples/ethereum-address-fraud-detector.md)
+
+## Meet the Lilypad Team
+
+* [Team](meet-the-lilypad-team/team.md)
