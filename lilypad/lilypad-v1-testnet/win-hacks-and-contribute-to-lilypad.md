@@ -28,7 +28,7 @@ Here's some ideas for what you could build with Lilypad v1!
 
 Contribute a Module to Lilypad!&#x20;
 
-See [advanced-arbitrary-wasm.md](../lilypad-v1-examples/advanced-arbitrary-wasm.md "mention")
+See [advanced-diy-module.md](../lilypad-v1-examples/advanced-diy-module.md "mention")
 
 ## Also...
 
