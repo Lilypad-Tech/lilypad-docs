@@ -21,9 +21,9 @@ Alternatively, open remix.ethereum.org IDE in your browser and copy in the below
 1. Connect Metamask to the Lalechuza testnet & ensure you have testnet lilETH funds.
 2. In the deploy tab in remix \[fourth tab in the side bar], ensure you set the environment to "Injected Provider - Metamask"
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Connect to the Lilypad Lalechuza network in Metamask</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Connect to the Lilypad Lalechuza network in Metamask</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Change Remix Environment to Injected Provider - Metamask</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Change Remix Environment to Injected Provider - Metamask</p></figcaption></figure>
 
 \
 **Deploy the Contact**\

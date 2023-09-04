@@ -58,7 +58,7 @@ To contribute, submit a PR including this file [here](https://github.com/bacalha
 
 We're sorry about these docs... we're actively working on it!
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 

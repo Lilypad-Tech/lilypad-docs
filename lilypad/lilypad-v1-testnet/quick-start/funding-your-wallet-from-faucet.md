@@ -18,4 +18,4 @@ Copy your metamask wallet address into the bar and click request.
 
 Yay we're rich! :moneybag:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
