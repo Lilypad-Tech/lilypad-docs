@@ -23,7 +23,7 @@ The output will look like this:&#x20;
 Take the ipfs link given in the results and paste it into your browser:
 
 {% hint style="warning" %}
-Please be patient! IPFS can take some time to propagate and doesn't always work immediately. We have informed the IPFS team.
+Please be patient! IPFS can take some time to propagate and doesn't always work immediately.&#x20;
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Results of SDXL job on IPFS Directory (<a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a>)</p></figcaption></figure>
