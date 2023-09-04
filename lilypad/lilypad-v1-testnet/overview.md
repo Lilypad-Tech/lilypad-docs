@@ -33,6 +33,12 @@ The ability to perform off-chain decentralised compute over data from smart cont
 
 <figure><img src="../.gitbook/assets/Lilypad update 8_17.png" alt=""><figcaption></figcaption></figure>
 
+## Lilypad 'Layers'
+
+How we see Lilypad network operating on a high level
+
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
 ## Testnet Implementations
 
 \
