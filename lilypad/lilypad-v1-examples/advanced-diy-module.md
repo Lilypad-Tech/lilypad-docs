@@ -39,6 +39,8 @@ It's currently advisable to develop your module with [bacalhau](https://docs.bac
 \
 If you can get a function like the one shown above that will, given a string, write a bacalhau job spec that you can test with the bacalhau CLI - then you have already done 98% of the Lilypad module ![:+1:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f44d.png)
 
+To add this to Lilypad, submit a PR which also includes this file [here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modicum/Modules.py).
+
 ## Contributing Guidelines
 
 See more in this guide on contributing to the Lilypad project: [CONTRIBUTING.md](https://github.com/bacalhau-project/lilypad-modicum/blob/main/CONTRIBUTING.md)
