@@ -6,7 +6,7 @@ description: Run a Stable Diffusion Text to Image Job
 
 ## \[CLI] Running Stable Diffusion SDXL 0.9
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
@@ -62,6 +62,11 @@ Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo
 
 ## \[Smart Contract] Running Stable Diffusion SDXL 0.9
 
+{% hint style="warning" %}
+Make sure you have connected to the Lalechuza testnet and funded your wallet with testnet lilETH. See [funding-your-wallet-from-faucet.md](../lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md "mention") & [setting-up-metamask.md](../lilypad-v1-testnet/quick-start/setting-up-metamask.md "mention")
+{% endhint %}
+
+\
 To trigger the SDXL0.9 module from a smart contract, firstly you need to create your own client contract to call the module from.\
 \
 In order to receive results back from the Lilypad network, you will also need to \
@@ -81,11 +86,15 @@ interface ModicumContract {
 contract SDXLCaller {
   address public contractAddress;
   ModicumContract remoteContractInstance;
+  
+  // See the latest result.
+  uint256 public resultJobId;
+  string public resultCID;
 
   // The Modicum contract address is found here: https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt
   // Current: 0x422F325AA109A3038BDCb7B03Dd0331A4aC2cD1a
   constructor(address _modicumContract) {
-    require(contractAddress != address(0), "Contract cannot be zero address");
+    require(_modicumContract != address(0), "Contract cannot be zero address");
     contractAddress = _modicumContract;
     //make a connection instance to the remote contract
     remoteContractInstance = ModicumContract(_modicumContract);
@@ -96,109 +105,56 @@ contract SDXLCaller {
   * @param prompt The input text prompt to generate the stable diffusion image from
   */
   function runSDXL(string memory prompt) public payable returns (uint256) {
-    require(msg.value == 2 ether, "Payment of 2 Ether is required");
+    require(msg.value == 2 ether, "Payment of 2 Ether is required"); //all jobs are currently 2 lilETH
     return remoteContractInstance.runModuleWithDefaultMediators{value: msg.value}("sdxl:v0.9-lilypad1", prompt);
   }
   
-  
+  // This must be implemented in order to receive the job results back!
+  function receiveJobResults(uint256 _jobID, string calldata _cid) public {
+    resultJobId =_jobID;
+    resultCID = _cid;
+  }
 
-  
 }
 ```
 
-dwdewjknd
+NB: You could also add the seed as a parameter to run this. &#x20;
+
+`return remoteContractInstance.runModuleWithDefaultMediators{value: msg.value}("sdxl:v0.9-lilypad1",`` `**`params`**`);`
 
 
 
-\
-\
-\
-\
+**Remix**
 
+Try it yourself!&#x20;
+
+{% hint style="info" %}
+Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/SDXLCaller.sol) to open [the contract](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/SDXLCaller.sol) in Remix IDE!
+{% endhint %}
+
+1. Ensure your metamask wallet is set to the [Lalechuza testnet ](../lilypad-v1-testnet/quick-start/setting-up-metamask.md)and has [lilETH testnet funds](../lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md) from the [faucet](https://testnet.lilypadnetwork.org).&#x20;
+2. Set the remix environment to "Injected Provider - Metamask" (& ensure metamask has the lalechuza chain selected)
+3. Then \
+   \-  Deploy a new contract passing in the [Modicum Contract address found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt) **OR**\
+   \-  Open the contract at this example address: `0x31e7bF121EaB1C0B081347D8889863362e9ad53A`
+
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>At Address: 0x31e7bF121EaB1C0B081347D8889863362e9ad53A</p></figcaption></figure>
+
+4. Call the runSDXL Module, passing in a prompt and sending 2 lilETH in the value field. Your Metamask wallet should pop up for you to confirm the payment and transaction.
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>runSDXL passing in the text prompt string &#x26; ensuring you set 2 ETH to the Value field</p></figcaption></figure>
+
+5. Give it some time and check the resultCID variable. You can then open this result in your browser with \
+   https://ipfs.io/ipfs/\<resultCID> **or** ipfs://\<resultCID> in IPFS compatible browsers like Brave.
+
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p><a href="https://ipfs.io/ipfs/QmQx6RDxxjqJYeame9SryMvkjxbXRm32hb3zo3RmiTno4R/outputs/image-0.png">https://ipfs.io/ipfs/QmQx6RDxxjqJYeame9SryMvkjxbXRm32hb3zo3RmiTno4R/outputs/image-0.png</a>  OR <a href="ipfs://bafybeibgzpcxn2cfwvz7ao3jztqphd2k2ebccmxpfm4ig3ug5r2lsclrqy/outputs/image-0.png">ipfs://bafybeibgzpcxn2cfwvz7ao3jztqphd2k2ebccmxpfm4ig3ug5r2lsclrqy/outputs/image-0.png</a> in Brave</p></figcaption></figure>
+
+**Video**
 
 {% embed url="https://youtu.be/aK12PRx8V0k" %}
 
-Use contract addresses from [https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt)&#x20;
-
-{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt" %}
-
-
-
-Use contract [here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/ExampleClient.sol):
-
-```solidity
-// SPDX-License-Identifier: GPLv3
-pragma solidity ^0.8.6;
-
-interface ModicumContract {
-  function runModuleWithDefaultMediators(string calldata name, string calldata params) external payable returns (uint256);
-}
-
-// Payment is 2 lilETH for all jobs currently
-// got to testnet.lilypadnetwork.org to fund your wallet
-contract ExampleClient {
-  address public _contractAddress;
-  ModicumContract remoteContractInstance;
-
-  uint256 public lilypadFee = 2;
-
-  struct Result {
-      uint256 jobID;
-      string cid;
-      string httpString;
-  }
-
-  Result[] public results;
-
-  event ReceivedJobResults(uint256 jobID, string cid);
-
-  // The Modicum contract address is found here: https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt
-  // Current: 0x422F325AA109A3038BDCb7B03Dd0331A4aC2cD1a
-  constructor (address contractAddress) {
-    require(contractAddress != address(0), "NaiveExamplesClient: contract cannot be zero address");
-    _contractAddress = contractAddress;
-    remoteContractInstance = ModicumContract(contractAddress);
-  }
-
-  function setLilypadFee(uint256 _fee) public {
-      lilypadFee = _fee;
-  }
-
-  function runCowsay(string memory sayWhat) public payable returns (uint256) {
-    require(msg.value == lilypadFee * 1 ether, string(abi.encodePacked("Payment of 2 Ether is required")));
-    return runModule("cowsay:v0.0.1", sayWhat);
-  }
-
-  function runStablediffusion(string memory prompt) public payable returns (uint256) {
-    require(msg.value == lilypadFee * 1 ether, string(abi.encodePacked("Payment of 2 Ether is required")));
-    return runModule("stable_diffusion:v0.0.1", prompt);
-  }
-
-  function runSDXL(string memory prompt) public payable returns (uint256) {
-    require(msg.value == lilypadFee * 1 ether, string(abi.encodePacked("Payment of 2 Ether is required")));
-    return runModule("sdxl:v0.9-lilypad1", prompt);
-  }
-
-  function runModule(string memory name, string memory params) public payable returns (uint256) {
-    require(msg.value == lilypadFee * 1 ether, string(abi.encodePacked("Payment of 2 Ether is required")));
-    return remoteContractInstance.runModuleWithDefaultMediators{value: msg.value}(name, params);
-  }
-
-  // Implemented Modicum interface. This saves results to a results array
-  function receiveJobResults(uint256 _jobID, string calldata _cid) public {
-    Result memory jobResult = Result({
-        jobID: _jobID,
-        cid: _cid,
-        httpString: string(abi.encodePacked("https://ipfs.io/ipfs/", _cid))
-    });
-    results.push(jobResult);
-
-    emit ReceivedJobResults(_jobID, _cid);
-  }
-
-  function fetchAllResults() public view returns (Result[] memory) {
-    return results;
-  }
-}
-```
-
+{% hint style="info" %}
+FYI! You can try all examples in one contract. See [run-hello-world-from-a-smart-contract.md](../lilypad-v1-testnet/quick-start/run-hello-world-from-a-smart-contract.md "mention")
+{% endhint %}
