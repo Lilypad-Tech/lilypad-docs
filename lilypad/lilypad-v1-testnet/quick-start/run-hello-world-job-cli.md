@@ -37,7 +37,7 @@ Patience! This could take up to a minute to propagate through the IPFS network.
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Output of Lilypad Job</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p>Output of Lilypad Job</p></figcaption></figure>
 
 </div>
 
@@ -45,6 +45,6 @@ Then click on the stdout folder and you should see the job result!
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>This is udderly fantastic!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>This is udderly fantastic!</p></figcaption></figure>
 
 </div>

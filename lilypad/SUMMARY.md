@@ -20,7 +20,7 @@
 ## Lilypad v1 Examples
 
 * [Hello (cow) World!](lilypad-v1-examples/hello-cow-world.md)
-* [Stable Diffusion](lilypad-v1-examples/stable-diffusion.md)
+* [Stable Diffusion (SDXL0.9)](lilypad-v1-examples/stable-diffusion.md)
 * [LoRA Fine Tuning](lilypad-v1-examples/lora-fine-tuning.md)
 * [LLM Inference](lilypad-v1-examples/llm-inference.md)
 * [Filecoin Data Prep \[coming soon\]](lilypad-v1-examples/filecoin-data-prep.md)
