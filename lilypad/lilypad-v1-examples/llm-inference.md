@@ -2,7 +2,7 @@
 description: A Fast Chat LLM Inference Module for Lilypad
 ---
 
-# LLM Inference
+# LLM Inference \[coming soon]
 
 {% hint style="danger" %}
 Under Construction&#x20;
@@ -22,21 +22,25 @@ See the original AugmentHack entry below:
 
 ## \[CLI] Usage
 
-Usage:
+**Usage:**
 
 ```
 lilypad run fastchat:v0.0.1 "paramsStr"
 ```
 
-Output:
+**Inputs:**
 
+Where "paramsStr" is a question in CID form for the LLM. E.g this question on Claude Monet
 
+```
+bafybeihu62yl76fcypidaiz35gq3yjguxawy5zzwadzvlcgpnfkuy2do3i
+```
 
+<figure><img src="https://lh4.googleusercontent.com/yX4XLf8IGZSit-vNxTFB255g8R8DbpzsoElPhQBQpRUi7xKubV3u3J_e8Y-aA1Lu6yNf38sQSbG7pXoehfYepmPU5O55L7gvynU9bp0OTEK05ph5mNrQWjt_ySCHPOV2g-eN0N3J_N7llShZMYvuyxZlqQ=s2048" alt=""><figcaption><p>bafybeihu62yl76fcypidaiz35gq3yjguxawy5zzwadzvlcgpnfkuy2do3i</p></figcaption></figure>
 
+**Outputs:**
 
-Results:
-
-\
+IPFS CID\
 \
 
 

@@ -8,7 +8,7 @@ description: Fine-tuning models from inputs.
 
 LoRA stands for Low Rank Adaptation and is a mathematical technique to reduce the number of parameters that are trained in a model - so instead of fine-tuning all the weights that constitute the weight matrix of the pre-trained large language model, two smaller matrices that approximate this larger matrix are fine-tuned. &#x20;
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
 
 What this means in practice is that instead of needing to build a custom model off all the original input data material (and needed many many GPUs to do so), LoRA means you can fine-tune an existing model (such as SDXL 0.9 Stable Diffusion) to be biased towards a certain result on just one GPU.&#x20;
 
@@ -22,14 +22,14 @@ Fun fact: This is how [Waterlily.ai](../use-cases/waterlily.ai.md) trains artist
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>The results of running Stable Diffusion with the LoRA trained Model.</p></figcaption></figure>
 
 {% hint style="info" %}
-A Claude Monet data set is available in zip form on IPFS here: ipfs://bafybeiglwmvudxxethpi46el3o5m44lrki2sjzgs7whvb6xaz6e65wm7am
+A Claude Monet data set is available in zip form on IPFS here: ipfs://bafybeiglwmvudxxethpi46el3o5m44lrki2sjzgs7whvb6xaz6e65wm7am\
+\
+One of the easiest ways to upload a dataset to IPFS is to use web3.storage.
 {% endhint %}
 
-## !!!! UNDER CONSTRUCTION STILL BELOW HERE !!!!
 
-##
 
-## \[CLI] Running LoRA Fine Tuning
+## \[CLI] Running LoRA Fine Tuning \[coming soon]
 
 {% hint style="danger" %}
 Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
@@ -53,7 +53,7 @@ lilypad run lora_inference:v0.1.7-lilypad1 '{lora_cid: <CID result from above>, 
 
 
 
-## \[Smart Contract] Running LoRA Fine Tuning
+## \[Smart Contract] Running LoRA Fine Tuning \[coming soon]
 
 {% hint style="danger" %}
 Ensure you have set up your Metamask for Lalechuza Network and have funded your wallet. [setting-up-metamask.md](../lilypad-v1-testnet/quick-start/setting-up-metamask.md "mention") & [funding-your-wallet-from-faucet.md](../lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md "mention")
