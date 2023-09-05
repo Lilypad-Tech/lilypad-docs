@@ -21,7 +21,9 @@ Fun fact: This is how [Waterlily.ai](../use-cases/waterlily.ai.md) trains artist
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>The results of running Stable Diffusion with the LoRA trained Model.</p></figcaption></figure>
 
-##
+{% hint style="info" %}
+A Claude Monet data set is available in zip form on IPFS here: ipfs://bafybeiglwmvudxxethpi46el3o5m44lrki2sjzgs7whvb6xaz6e65wm7am
+{% endhint %}
 
 ## !!!! UNDER CONSTRUCTION STILL BELOW HERE !!!!
 
