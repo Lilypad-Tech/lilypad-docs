@@ -4,6 +4,10 @@ description: Run a Stable Diffusion Text to Image Job
 
 # Stable Diffusion (SDXL0.9)
 
+## Overview
+
+Stable Diffusion is the generic name for a text to image generation algorithm
+
 ## \[CLI] Running Stable Diffusion SDXL 0.9
 
 {% hint style="danger" %}
