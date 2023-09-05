@@ -6,7 +6,15 @@ description: Run a Stable Diffusion Text to Image Job
 
 ## Overview
 
-Stable Diffusion is the generic name for a text to image generation algorithm
+Generically, stable diffusion is what happens when you put a couple of drops of dye into a bucket of water. Given time, the dye randomly disperses and eventually settles into a uniform distribution which colours all the water evenly
+
+In computer science, you define rules for your (dye) particles to follow and the medium this takes place in.
+
+Stable Diffusion is a machine learning model used for text-to-image processing (like Dall-E) and based on a diffusion probabilistic model that uses a transformer to generate images from text. \
+\
+There are several open-source stable diffusion models out there (made famous by Stability.ai) and they continue to improve and become even more fully featured - SDXL0.9 is one of the more recently open-sourced models.
+
+<figure><img src="https://lh5.googleusercontent.com/eib-z-1r9iZyxuArY_2z-NhPv4OPyFACpFF6-_nWfGaoDlY958NbP5fRcpUNtzuedWM_HmryF7aJplAtiQm3ezeV_cUUQ69sV1MYyvckptTBmIEawnSZivnEb8B8ifITYwgH_k3EISLjSWy0JbM9y2JfTg=s2048" alt=""><figcaption></figcaption></figure>
 
 ## \[CLI] Running Stable Diffusion SDXL 0.9
 
