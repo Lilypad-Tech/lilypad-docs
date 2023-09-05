@@ -39,6 +39,8 @@ To run a LoRA fine-tuning job, just provide the training data for the job to the
 lilypad run lora_training:v0.1.7-lilypad1 '{images_cid: "bafybeiah7ib5mhzlckolwlkwquzf772wl6jdbhtbuvnbuo5arq7pcs4ubm", seed: 3}'
 ```
 
+NB: the params above should be yaml eg. `{seed: 42, 'images_cid': 'Qm...'}` where images\_cid contains an **images.zip** with training images in it.
+
 This will output a result model CID, which can then be used to generate new images in this particular style:
 
 {% code overflow="wrap" %}
