@@ -23,7 +23,7 @@
 * [Stable Diffusion (SDXL0.9)](lilypad-v1-examples/stable-diffusion.md)
 * [LoRA Fine Tuning](lilypad-v1-examples/lora-fine-tuning.md)
 * [LLM Inference](lilypad-v1-examples/llm-inference.md)
-* [Filecoin Data Prep \[coming soon\]](lilypad-v1-examples/filecoin-data-prep.md)
+* [Filecoin Data Prep](lilypad-v1-examples/filecoin-data-prep.md)
 * [\[Advanced\] Arbitrary WASM](lilypad-v1-examples/advanced-arbitrary-wasm.md)
 * [\[Advanced\] DIY Module](lilypad-v1-examples/advanced-diy-module.md)
 
