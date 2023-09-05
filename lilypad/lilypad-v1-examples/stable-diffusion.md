@@ -156,3 +156,12 @@ Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/bl
 {% hint style="info" %}
 FYI! You can try all examples in one contract. See [run-hello-world-from-a-smart-contract.md](../lilypad-v1-testnet/quick-start/run-hello-world-from-a-smart-contract.md "mention")
 {% endhint %}
+
+
+
+## SDXL Module Code
+
+Find the [SDXL module code here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modules/sdxl.py). There's also a generic [Stable Diffusion module here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modules/stable\_diffusion.py).
+
+{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modules/sdxl.py" %}
+
