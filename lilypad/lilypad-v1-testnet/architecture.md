@@ -32,5 +32,7 @@ See [docs.bacalhau.org](https://docs.bacalhau.org) for more information on how B
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
+## Lilypad Job Flow
 
+<img src="../.gitbook/assets/image (1).png" alt="" data-size="original">![](<../.gitbook/assets/image (2).png>)![](<../.gitbook/assets/image (3).png>)![](<../.gitbook/assets/image (4).png>)![](<../.gitbook/assets/image (5).png>)
 

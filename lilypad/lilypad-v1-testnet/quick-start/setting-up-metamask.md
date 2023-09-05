@@ -23,7 +23,7 @@ Block explorer URL: (leave blank)
 
 To do this, open metamask then click on the network button at the top left of the popup (in the menu bar):
 
-## ![](<../../.gitbook/assets/image (3) (1) (1).png>) \`\`  ![](<../../.gitbook/assets/image (5) (1) (1).png>)
+## ![](<../../.gitbook/assets/image (3) (1) (1) (1).png>) \`\`  ![](<../../.gitbook/assets/image (5) (1) (1) (1).png>)
 
 Then click the "Add Network" Button.&#x20;
 

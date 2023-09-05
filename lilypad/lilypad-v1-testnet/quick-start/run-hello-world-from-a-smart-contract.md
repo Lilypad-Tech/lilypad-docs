@@ -21,19 +21,19 @@ Alternatively, open remix.ethereum.org IDE in your browser and copy in the below
 1. Connect Metamask to the Lalechuza testnet & ensure you have testnet lilETH funds.
 2. In the deploy tab in remix \[fourth tab in the side bar], ensure you set the environment to "Injected Provider - Metamask"
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Connect to the Lilypad Lalechuza network in Metamask</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Connect to the Lilypad Lalechuza network in Metamask</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Change Remix Environment to Injected Provider - Metamask</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Change Remix Environment to Injected Provider - Metamask</p></figcaption></figure>
 
 \
 **Deploy the Contact**\
 In remix, compile the ExampleClient.sol contract \[third tab in the side bar]
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Compile ExampleClient.sol</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Compile ExampleClient.sol</p></figcaption></figure>
 
 Deploy a new contract by pasting in the Modicum contract address ([found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt)) to the constructor &#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Deploy a new contract passing in the Modicum contract address to the constructor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Deploy a new contract passing in the Modicum contract address to the constructor</p></figcaption></figure>
 
 Deploy an existing ExampleClient.sol contract by using the "At Address" with the following pre-deployed contract address: `0x035C7593D3355b9bE0459dF2296053f887d051f1`
 

@@ -8,7 +8,7 @@ description: Fine-tuning models from inputs.
 
 LoRA stands for Low Rank Adaptation and is a mathematical technique to reduce the number of parameters that are trained in a model - so instead of fine-tuning all the weights that constitute the weight matrix of the pre-trained large language model, two smaller matrices that approximate this larger matrix are fine-tuned. &#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 What this means in practice is that instead of needing to build a custom model off all the original input data material (and needed many many GPUs to do so), LoRA means you can fine-tune an existing model (such as SDXL 0.9 Stable Diffusion) to be biased towards a certain result on just one GPU.&#x20;
 
