@@ -36,7 +36,7 @@ Ensure you have installed all requirements [install-run-requirements.md](../lily
 To run a LoRA fine-tuning job, just provide the training data for the job to the command:
 
 ```bash
-lilypad run lora_trainingv0.1.7-lilypd1 '{images_cid: "", seed: 3}'
+lilypad run lora_training:v0.1.7-lilypad1 '{images_cid: "bafybeiah7ib5mhzlckolwlkwquzf772wl6jdbhtbuvnbuo5arq7pcs4ubm", seed: 3}'
 ```
 
 This will output a result model CID, which can then be used to generate new images in this particular style:
@@ -59,3 +59,8 @@ Ensure you have set up your Metamask for Lalechuza Network and have funded your 
 
 
 
+## LoRA Module Code
+
+See the code repo [here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modules/lora.py)
+
+{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modules/lora.py" %}

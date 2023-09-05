@@ -23,7 +23,7 @@ Ensure you have installed all requirements [install-run-requirements.md](../lily
 Run the module
 
 ```
-lilypad run filecoin_data_prep:0.0.1 '{"ipfs_cid": "CID"}'
+lilypad run filecoin_data_prep:v0.0.1 '{"ipfs_cid": "CID"}'
 ```
 
 Execution:
