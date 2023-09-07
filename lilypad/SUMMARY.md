@@ -19,6 +19,7 @@
 
 ## Lilypad v1 Examples
 
+* [Duck DB](lilypad-v1-examples/duck-db.md)
 * [Hello (cow) World!](lilypad-v1-examples/hello-cow-world.md)
 * [Stable Diffusion (SDXL0.9)](lilypad-v1-examples/stable-diffusion.md)
 * [LoRA Fine Tuning](lilypad-v1-examples/lora-fine-tuning.md)
