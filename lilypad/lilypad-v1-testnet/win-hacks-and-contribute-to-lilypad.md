@@ -4,6 +4,10 @@ description: Ideas and Guides for Contributing to Lilypad
 
 # Win Hacks & Contribute to Lilypad
 
+{% embed url="https://www.youtube.com/watch?v=fJGTUg39n-0" %}
+See the slides [reference-material.md](../tutorials-and-content/reference-material.md "mention")
+{% endembed %}
+
 ## Hackathon & Project Ideas for Lilypad v1
 
 Here's some ideas for what you could build with Lilypad v1!
