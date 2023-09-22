@@ -22,7 +22,7 @@
 * [Hello (cow) World!](lilypad-v1-examples/hello-cow-world.md)
 * [Stable Diffusion (SDXL0.9)](lilypad-v1-examples/stable-diffusion.md)
 * [LoRA Fine Tuning](lilypad-v1-examples/lora-fine-tuning.md)
-* [LLM Inference \[coming soon\]](lilypad-v1-examples/llm-inference.md)
+* [LLM Inference](lilypad-v1-examples/llm-inference.md)
 * [Duck DB \[coming soon\]](lilypad-v1-examples/duck-db-coming-soon.md)
 * [Filecoin Data Prep](lilypad-v1-examples/filecoin-data-prep.md)
 * [\[Advanced\] Arbitrary WASM](lilypad-v1-examples/advanced-arbitrary-wasm.md)
