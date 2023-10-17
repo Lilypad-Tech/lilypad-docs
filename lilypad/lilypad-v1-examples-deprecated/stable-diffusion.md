@@ -19,7 +19,7 @@ There are several open-source stable diffusion models out there (made famous by 
 ## \[CLI] Running Stable Diffusion SDXL 0.9
 
 {% hint style="danger" %}
-Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
+Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet-deprecated/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
 To run stable diffusion use the sdxl module like so:
@@ -75,7 +75,7 @@ Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo
 ## \[Smart Contract] Running Stable Diffusion SDXL 0.9
 
 {% hint style="warning" %}
-Make sure you have connected to the Lalechuza testnet and funded your wallet with testnet lilETH. See [funding-your-wallet-from-faucet.md](../lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md "mention") & [setting-up-metamask.md](../lilypad-v1-testnet/quick-start/setting-up-metamask.md "mention")
+Make sure you have connected to the Lalechuza testnet and funded your wallet with testnet lilETH. See [funding-your-wallet-from-faucet.md](../lilypad-v1-testnet-deprecated/quick-start/funding-your-wallet-from-faucet.md "mention") & [setting-up-metamask.md](../lilypad-v1-testnet-deprecated/quick-start/setting-up-metamask.md "mention")
 {% endhint %}
 
 \
@@ -142,7 +142,7 @@ Try it yourself!&#x20;
 Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/SDXLCaller.sol) to open [the contract](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/SDXLCaller.sol) in Remix IDE!
 {% endhint %}
 
-1. Ensure your metamask wallet is set to the [Lalechuza testnet ](../lilypad-v1-testnet/quick-start/setting-up-metamask.md)and has [lilETH testnet funds](../lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md) from the [faucet](https://testnet.lilypadnetwork.org).&#x20;
+1. Ensure your metamask wallet is set to the [Lalechuza testnet ](../lilypad-v1-testnet-deprecated/quick-start/setting-up-metamask.md)and has [lilETH testnet funds](../lilypad-v1-testnet-deprecated/quick-start/funding-your-wallet-from-faucet.md) from the [faucet](https://testnet.lilypadnetwork.org).&#x20;
 2. Set the remix environment to "Injected Provider - Metamask" (& ensure metamask has the lalechuza chain selected)
 3. Then \
    \-  Deploy a new contract passing in the [Modicum Contract address found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt) **OR**\
@@ -166,7 +166,7 @@ Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/bl
 {% embed url="https://youtu.be/aK12PRx8V0k" %}
 
 {% hint style="info" %}
-FYI! You can try all examples in one contract. See [run-hello-world-from-a-smart-contract.md](../lilypad-v1-testnet/quick-start/run-hello-world-from-a-smart-contract.md "mention")
+FYI! You can try all examples in one contract. See [run-hello-world-from-a-smart-contract.md](../lilypad-v1-testnet-deprecated/quick-start/run-hello-world-from-a-smart-contract.md "mention")
 {% endhint %}
 
 

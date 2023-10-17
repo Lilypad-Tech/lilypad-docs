@@ -24,7 +24,7 @@ Create an open source text to image script to run on Bacalhau
 
 This example can be found in the Examples folder in the Lilypad Project Github.
 
-To run this example, you can simply deploy it to any supported network and pass in the contact address to the constructor which corresponds to your network. See [deployed-network-details.md](../lilypad-v0-reference/deployed-network-details.md "mention").
+To run this example, you can simply deploy it to any supported network and pass in the contact address to the constructor which corresponds to your network. See [deployed-network-details.md](../lilypad-v0-reference-deprecated/deployed-network-details.md "mention").
 
 {% hint style="info" %}
 Open this example in remix -> [click here](https://remix.ethereum.org/bacalhau-project/lilypad/edit/main/examples/contracts/StableDiffusionCallerv2.sol)

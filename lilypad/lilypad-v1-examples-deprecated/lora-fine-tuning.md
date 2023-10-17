@@ -32,7 +32,7 @@ One of the easiest ways to upload a dataset to IPFS is to use web3.storage.
 ## \[CLI] Running LoRA Fine Tuning \[coming soon]
 
 {% hint style="danger" %}
-Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
+Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet-deprecated/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
 To run a LoRA fine-tuning job, just provide the training data for the job to the command:
@@ -56,7 +56,7 @@ lilypad run lora_inference:v0.1.7-lilypad1 '{lora_cid: <CID result from above>, 
 ## \[Smart Contract] Running LoRA Fine Tuning \[coming soon]
 
 {% hint style="danger" %}
-Ensure you have set up your Metamask for Lalechuza Network and have funded your wallet. [setting-up-metamask.md](../lilypad-v1-testnet/quick-start/setting-up-metamask.md "mention") & [funding-your-wallet-from-faucet.md](../lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md "mention")
+Ensure you have set up your Metamask for Lalechuza Network and have funded your wallet. [setting-up-metamask.md](../lilypad-v1-testnet-deprecated/quick-start/setting-up-metamask.md "mention") & [funding-your-wallet-from-faucet.md](../lilypad-v1-testnet-deprecated/quick-start/funding-your-wallet-from-faucet.md "mention")
 {% endhint %}
 
 

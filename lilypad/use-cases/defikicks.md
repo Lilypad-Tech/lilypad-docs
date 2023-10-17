@@ -11,7 +11,7 @@ DefI Kicks Video
 {% endembed %}
 
 {% hint style="info" %}
-See the Lilypad Example at [drand-off-chain-voting.md](../lilypad-v0-examples/drand-off-chain-voting.md "mention")
+See the Lilypad Example at [drand-off-chain-voting.md](../lilypad-v0-examples-deprecated/drand-off-chain-voting.md "mention")
 {% endhint %}
 
 ## Overview

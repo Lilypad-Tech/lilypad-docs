@@ -25,31 +25,6 @@
 * [Filecoin Data Prep](lilypad-aurora-examples/filecoin-data-prep.md)
 * [Arbitrary WASM](lilypad-aurora-examples/arbitrary-wasm.md)
 
-## Lilypad v1 Testnet
-
-* [Overview](lilypad-v1-testnet/overview.md)
-* [Architecture Diagrams](lilypad-v1-testnet/architecture.md)
-* [Get started here!](lilypad-v1-testnet/quick-start/README.md)
-  * [Setting up Metamask](lilypad-v1-testnet/quick-start/setting-up-metamask.md)
-  * [Funding your Wallet from Faucet](lilypad-v1-testnet/quick-start/funding-your-wallet-from-faucet.md)
-  * [\[CLI\] Install Run Requirements](lilypad-v1-testnet/quick-start/install-run-requirements.md)
-  * [\[CLI\] Run "Hello, World!" Job](lilypad-v1-testnet/quick-start/run-hello-world-job-cli.md)
-  * [\[Smart Contract\] Run "Hello, World!" Job](lilypad-v1-testnet/quick-start/run-hello-world-from-a-smart-contract.md)
-  * [Run "Hello, World" Node](lilypad-v1-testnet/quick-start/run-hello-world-node.md)
-* [Win Hacks & Contribute to Lilypad](lilypad-v1-testnet/win-hacks-and-contribute-to-lilypad.md)
-* [Verification, Mediation & Job Pricing on Lilypad v1](lilypad-v1-testnet/verification-mediation-and-job-pricing-on-lilypad-v1.md)
-
-## Lilypad v1 Examples
-
-* [Hello (cow) World!](lilypad-v1-examples/hello-cow-world.md)
-* [Stable Diffusion (SDXL0.9)](lilypad-v1-examples/stable-diffusion.md)
-* [LoRA Fine Tuning](lilypad-v1-examples/lora-fine-tuning.md)
-* [LLM Inference](lilypad-v1-examples/llm-inference.md)
-* [Duck DB \[coming soon\]](lilypad-v1-examples/duck-db-coming-soon.md)
-* [Filecoin Data Prep](lilypad-v1-examples/filecoin-data-prep.md)
-* [\[Advanced\] Arbitrary WASM](lilypad-v1-examples/advanced-arbitrary-wasm.md)
-* [\[Advanced\] DIY Module](lilypad-v1-examples/advanced-diy-module.md)
-
 ## Research & Vision
 
 * [Litepaper](research-and-vision/whitepaper.md)
@@ -71,27 +46,45 @@
 * [Reference Material](tutorials-and-content/reference-material.md)
 * [Join the Community](tutorials-and-content/join-the-community.md)
 
-## \[Deprecated] Documentation
-
-* [Lilypad v0](deprecated-documentation/lilypad-v0/README.md)
-  * [Page 8](deprecated-documentation/lilypad-v0/page-8.md)
-* [Page 6](deprecated-documentation/page-6.md)
-* [Page 5](deprecated-documentation/page-5.md)
-
-## Lilypad v0 Reference
-
-* [Architecture](lilypad-v0-reference/architecture.md)
-* [Lilypad v0 Quick Start](lilypad-v0-reference/lilypad-v0-quick-start.md)
-* [Deployed Network Details](lilypad-v0-reference/deployed-network-details.md)
-* [Lilypad Smart Contracts](lilypad-v0-reference/lilypad-smart-contracts.md)
-* [Creating your own Jobs](lilypad-v0-reference/creating-your-own-jobs.md)
-
-## Lilypad v0 Examples
-
-* [Stable Diffusion](lilypad-v0-examples/stable-diffusion.md)
-* [Drand Off-chain Voting](lilypad-v0-examples/drand-off-chain-voting.md)
-* [Ethereum Address Fraud Detector](lilypad-v0-examples/ethereum-address-fraud-detector.md)
-
 ## Meet the Lilypad Team
 
 * [Team](meet-the-lilypad-team/team.md)
+
+## Lilypad v1 Testnet \[Deprecated]
+
+* [Overview](lilypad-v1-testnet-deprecated/overview.md)
+* [Architecture Diagrams](lilypad-v1-testnet-deprecated/architecture.md)
+* [Get started here!](lilypad-v1-testnet-deprecated/quick-start/README.md)
+  * [Setting up Metamask](lilypad-v1-testnet-deprecated/quick-start/setting-up-metamask.md)
+  * [Funding your Wallet from Faucet](lilypad-v1-testnet-deprecated/quick-start/funding-your-wallet-from-faucet.md)
+  * [\[CLI\] Install Run Requirements](lilypad-v1-testnet-deprecated/quick-start/install-run-requirements.md)
+  * [\[CLI\] Run "Hello, World!" Job](lilypad-v1-testnet-deprecated/quick-start/run-hello-world-job-cli.md)
+  * [\[Smart Contract\] Run "Hello, World!" Job](lilypad-v1-testnet-deprecated/quick-start/run-hello-world-from-a-smart-contract.md)
+  * [Run "Hello, World" Node](lilypad-v1-testnet-deprecated/quick-start/run-hello-world-node.md)
+* [Win Hacks & Contribute to Lilypad](lilypad-v1-testnet-deprecated/win-hacks-and-contribute-to-lilypad.md)
+* [Verification, Mediation & Job Pricing on Lilypad v1](lilypad-v1-testnet-deprecated/verification-mediation-and-job-pricing-on-lilypad-v1.md)
+
+## Lilypad v1 Examples \[Deprecated]
+
+* [Hello (cow) World!](lilypad-v1-examples-deprecated/hello-cow-world.md)
+* [Stable Diffusion (SDXL0.9)](lilypad-v1-examples-deprecated/stable-diffusion.md)
+* [LoRA Fine Tuning](lilypad-v1-examples-deprecated/lora-fine-tuning.md)
+* [LLM Inference](lilypad-v1-examples-deprecated/llm-inference.md)
+* [Duck DB \[coming soon\]](lilypad-v1-examples-deprecated/duck-db-coming-soon.md)
+* [Filecoin Data Prep](lilypad-v1-examples-deprecated/filecoin-data-prep.md)
+* [\[Advanced\] Arbitrary WASM](lilypad-v1-examples-deprecated/advanced-arbitrary-wasm.md)
+* [\[Advanced\] DIY Module](lilypad-v1-examples-deprecated/advanced-diy-module.md)
+
+## Lilypad v0 Reference \[Deprecated]
+
+* [Architecture](lilypad-v0-reference-deprecated/architecture.md)
+* [Lilypad v0 Quick Start](lilypad-v0-reference-deprecated/lilypad-v0-quick-start.md)
+* [Deployed Network Details](lilypad-v0-reference-deprecated/deployed-network-details.md)
+* [Lilypad Smart Contracts](lilypad-v0-reference-deprecated/lilypad-smart-contracts.md)
+* [Creating your own Jobs](lilypad-v0-reference-deprecated/creating-your-own-jobs.md)
+
+## Lilypad v0 Examples \[Deprecated]
+
+* [Stable Diffusion](lilypad-v0-examples-deprecated/stable-diffusion.md)
+* [Drand Off-chain Voting](lilypad-v0-examples-deprecated/drand-off-chain-voting.md)
+* [Ethereum Address Fraud Detector](lilypad-v0-examples-deprecated/ethereum-address-fraud-detector.md)

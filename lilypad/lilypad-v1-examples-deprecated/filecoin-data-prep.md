@@ -17,7 +17,7 @@ The repo for this module can be found [here](https://github.com/bacalhau-project
 ## \[CLI] Usage
 
 {% hint style="warning" %}
-Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
+Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet-deprecated/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
 Run the module

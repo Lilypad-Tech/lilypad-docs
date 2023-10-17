@@ -7,7 +7,7 @@ description: A cowsay job
 ## Run Hello, 🐮 World! Job \[CLI] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
 
 {% hint style="warning" %}
-Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet/quick-start/install-run-requirements.md "mention")
+Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v1-testnet-deprecated/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
 Start Docker
@@ -37,10 +37,6 @@ This could take up to a minute to propagate through the IPFS network. Please be 
 Then click on the stdout folder and you should see the job result!
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtadiyoOe4nTUoSulEVOV%2Fuploads%2FBmk9aC8MM0X4tptrr8Cr%2Fimage.png?alt=media&#x26;token=408ffaff-5695-4de6-8852-3be940f3d91e" alt=""><figcaption><p>This is udderly fantastic!​</p></figcaption></figure>
-
-
-
-
 
 ## Run Hello,🐮 World! Job \[Smart Contract] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
 
