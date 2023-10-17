@@ -3,6 +3,27 @@
 * [🍃 Lilypad Home](README.md)
 * [📅 Events](upcoming-events.md)
 
+## Lilypad v2: Aurora Testnet
+
+* [Overview](lilypad-v2-aurora-testnet/overview.md)
+* [Architecture](lilypad-v2-aurora-testnet/architecture.md)
+* [Quick Start](lilypad-v2-aurora-testnet/quick-start.md)
+
+## Lilypad v2 Aurora Tech
+
+* [Run a Node](lilypad-v2-aurora-tech/run-a-node.md)
+* [Build a Job Module](lilypad-v2-aurora-tech/build-a-job-module.md)
+
+## Lilypad v2 Aurora Examples
+
+* [Hello, (cow) World!](lilypad-v2-aurora-examples/hello-cow-world.md)
+* [Stable Diffusion (SDXL0.9)](lilypad-v2-aurora-examples/stable-diffusion-sdxl0.9.md)
+* [Page](lilypad-v2-aurora-examples/page.md)
+* [Page 1](lilypad-v2-aurora-examples/page-1.md)
+* [Page 2](lilypad-v2-aurora-examples/page-2.md)
+* [Page 4](lilypad-v2-aurora-examples/page-4.md)
+* [Page 3](lilypad-v2-aurora-examples/page-3.md)
+
 ## Lilypad v1 Testnet
 
 * [Overview](lilypad-v1-testnet/overview.md)

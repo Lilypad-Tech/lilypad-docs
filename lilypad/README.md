@@ -10,6 +10,15 @@ coverY: 0
 
 Image: `> lilypad run sdxl:v0.9-lilypad1 "A record player in a room of flowers"`
 
+
+
+{% hint style="warning" %}
+Lilypad Docs under construction! \
+See [https://github.com/bacalhau-project/lilypad](https://github.com/bacalhau-project/lilypad)&#x20;
+{% endhint %}
+
+
+
 ## Vision
 
 [Lilypad](https://blog.lilypadnetwork.org) is aiming to build an internet-scale trustless distributed compute network for web3. Creating the infrastructure for use cases like AI inference, ML training, DeSci and more.\
