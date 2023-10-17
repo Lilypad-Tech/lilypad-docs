@@ -13,8 +13,8 @@ Image: `> lilypad run sdxl:v0.9-lilypad1 "A record player in a room of flowers"`
 
 
 {% hint style="warning" %}
-Lilypad Docs under construction! \
-See [https://github.com/bacalhau-project/lilypad](https://github.com/bacalhau-project/lilypad)&#x20;
+Lilypad Docs under construction! We're currently updating our docs for Lilypad v2 -> Aurora Testnet \
+See [https://github.com/bacalhau-project/lilypad](https://github.com/bacalhau-project/lilypad) for developer info while we do! :relaxed:
 {% endhint %}
 
 
@@ -30,12 +30,24 @@ Distributed computing will unlock the next generation of truly internet-scale mo
 ## Overview
 
 {% hint style="info" %}
-Lilypad is now at **v1 Testnet!** :tada: Try it out - we dare you :man\_technologist:
+Lilypad is now at **v2: Aurora Testnet!** :tada: Try it out - we dare you :man\_technologist:
 {% endhint %}
 
 <figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption><p>Lilypad creates a decentralised marketplace for compute jobs</p></figcaption></figure>
 
+#### Lilypad Aurora
+
+Lilypad Aurora is Lilypad's v2 Test Network.
+
+See [Broken link](broken-reference "mention")
+
+
+
 #### Lilypad v1
+
+{% hint style="info" %}
+Lilypad v1 is deprecated
+{% endhint %}
 
 Lilypad v1 is a trustless distributed compute network which leverages [Bacalhau](https://docs.bacalhau.org) and key features of blockchain to enable developers to call arbitrary verifiable compute jobs directly from their smart contracts (or a CLI). Running a node on the network to accept compute jobs is now also possible.\
 \

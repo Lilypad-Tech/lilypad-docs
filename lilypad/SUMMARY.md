@@ -3,26 +3,27 @@
 * [🍃 Lilypad Home](README.md)
 * [📅 Events](upcoming-events.md)
 
-## Lilypad v2: Aurora Testnet
+## Lilypad Aurora Testnet
 
-* [Overview](lilypad-v2-aurora-testnet/overview.md)
-* [Architecture](lilypad-v2-aurora-testnet/architecture.md)
-* [Quick Start](lilypad-v2-aurora-testnet/quick-start.md)
+* [Overview](lilypad-aurora-testnet/overview.md)
+* [Architecture](lilypad-aurora-testnet/architecture.md)
+* [Quick Start](lilypad-aurora-testnet/quick-start.md)
 
-## Lilypad v2 Aurora Tech
+## Lilypad Aurora Reference
 
-* [Run a Node](lilypad-v2-aurora-tech/run-a-node.md)
-* [Build a Job Module](lilypad-v2-aurora-tech/build-a-job-module.md)
+* [Run a Node](lilypad-aurora-reference/run-a-node.md)
+* [Build a Job Module](lilypad-aurora-reference/build-a-job-module.md)
+* [Game Theory](lilypad-aurora-reference/game-theory.md)
 
-## Lilypad v2 Aurora Examples
+## Lilypad Aurora Examples
 
-* [Hello, (cow) World!](lilypad-v2-aurora-examples/hello-cow-world.md)
-* [Stable Diffusion (SDXL0.9)](lilypad-v2-aurora-examples/stable-diffusion-sdxl0.9.md)
-* [Page](lilypad-v2-aurora-examples/page.md)
-* [Page 1](lilypad-v2-aurora-examples/page-1.md)
-* [Page 2](lilypad-v2-aurora-examples/page-2.md)
-* [Page 4](lilypad-v2-aurora-examples/page-4.md)
-* [Page 3](lilypad-v2-aurora-examples/page-3.md)
+* [Hello, (cow) World!](lilypad-aurora-examples/hello-cow-world.md)
+* [Stable Diffusion (SDXL0.9)](lilypad-aurora-examples/stable-diffusion-sdxl0.9.md)
+* [LoRA Fine Tuning](lilypad-aurora-examples/lora-fine-tuning.md)
+* [LLM Inference](lilypad-aurora-examples/llm-inference.md)
+* [DuckDB](lilypad-aurora-examples/duckdb.md)
+* [Filecoin Data Prep](lilypad-aurora-examples/filecoin-data-prep.md)
+* [Arbitrary WASM](lilypad-aurora-examples/arbitrary-wasm.md)
 
 ## Lilypad v1 Testnet
 
@@ -69,6 +70,13 @@
 
 * [Reference Material](tutorials-and-content/reference-material.md)
 * [Join the Community](tutorials-and-content/join-the-community.md)
+
+## \[Deprecated] Documentation
+
+* [Lilypad v0](deprecated-documentation/lilypad-v0/README.md)
+  * [Page 8](deprecated-documentation/lilypad-v0/page-8.md)
+* [Page 6](deprecated-documentation/page-6.md)
+* [Page 5](deprecated-documentation/page-5.md)
 
 ## Lilypad v0 Reference
 
