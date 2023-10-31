@@ -46,7 +46,9 @@ sudo mv lilypad /usr/bin
 ### Write env file
 
 `/app/lilypad/resource-provider-gpu.env` should contain:
-`export WEB3_PRIVATE_KEY=0x… (the private key from your metamask wallet)`
+```
+export WEB3_PRIVATE_KEY=0x… (the private key from your metamask wallet)
+```
 
 This is the key where you will get paid in LP tokens for jobs run on the network.
 
