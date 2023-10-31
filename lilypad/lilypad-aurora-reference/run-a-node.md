@@ -94,17 +94,16 @@ ExecStart=/usr/bin/lilypad resource-provider
 WantedBy=multi-user.target
 ```
 
-Start systemd units
+Start systemd units:
 ```
 sudo systemctl start bacalhau
 sudo systemctl start resource-provider-gpu
 ```
 
-Check they are running with systemctl status as usual, and debug with journalctl if needed. Please report issues on Bacalhau #bacalhau-lilypad Slack. You should see your resource provider start accepting jobs on the network in the logs.
+Check they are running with `systemctl` status as usual, and debug with `journalctl` if needed. Please report issues on Bacalhau `#bacalhau-lilypad` Slack. You should see your resource provider start accepting jobs on the network in the logs.
 
-
-Security
-If you want to allowlist only certain modules (e.g. Stable Diffusion modules), so that you can control exactly what code runs on your nodes (which you can audit to ensure that they are secure and will have no negative impact on your nodes), you can do that by setting an environment variable OFFER_MODULES in the GPU provider to a comma separated list of module names, e.g. “sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1”
+### Security
+If you want to allowlist only certain modules (e.g. Stable Diffusion modules), so that you can control exactly what code runs on your nodes (which you can audit to ensure that they are secure and will have no negative impact on your nodes), you can do that by setting an environment variable `OFFER_MODULES` in the GPU provider to a comma separated list of module names, e.g. “sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1”
 
 See https://github.com/bacalhau-project/lilypad/#available-modules for a list of modules
 
