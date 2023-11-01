@@ -4,7 +4,7 @@ The below are instructions for running on the public Lilypad testnet.
 
 ## Adding a node
 
-The testnet has a base currency of ETH and you will also get LP to pay for jobs (and nodes to stake).
+The testnet has a base currency of ETH, as well as a utility token called LP. You will receive LP to pay for jobs (and nodes to stake).
 
 Metamask:
 - Network name: Lilypad v2 Aurora testnet
