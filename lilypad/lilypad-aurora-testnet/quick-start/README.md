@@ -1,5 +1,5 @@
 ---
-description: Get started with Lilypad v1
+description: Get started with Lilypad Aurora
 ---
 
 # Get started here!

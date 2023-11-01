@@ -21,14 +21,14 @@
   # Overview
 
   ### What is Lilypad?
-  Lilypad is a verifiable trustless decentralized compute network. It aims to enable mainstream web3 applications by providing global, permissionless access to compute power. Lilypad leverages decentralized physical infrastructure networks like Filecoin to create an open compute network that is more accessible, efficient, and transparent. It addresses the challenges surrounding access to AI models and hardware by offering decentralized AI capabilities. Lilypad has recently released Lilypad V2 (Aurora) and has plans to go multichain and launch an incentivized test net.
+  Lilypad serves as a verifiable, trustless, and decentralized computational network engineered to facilitate mainstream adoption of web3 applications. By extending unrestricted, global access to computational power, Lilypad strategically collaborates with decentralized infrastructure networks, such as Filecoin, to formulate a transparent, efficient, and accessible computational ecosystem. While Lilypad does not specifically resolve issues related to the accessibility of AI models, it significantly alleviates challenges associated with procuring high-performance AI hardware. In this context, Lilypad provides decentralized AI computational services. The network recently unveiled its second version, dubbed Lilypad V2 (Aurora), and is actively laying groundwork for multi-chain integration and the deployment of an incentivized test net.
 
   ### Objective and problem statement
-  Lilypad is aiming to solve the challenges surrounding access to AI models and hardware. Currently, there are significant barriers to entry for developers and organizations who want to leverage AI in their applications. Access to AI models and hardware is often limited, expensive, and centralized. Lilypad aims to address these issues by creating a verifiable trustless decentralized compute network that provides global, permissionless access to compute power. By leveraging decentralized physical infrastructure networks like Filecoin, Lilypad aims to make AI more accessible, efficient, and transparent. 
+  Lilypad aims to mitigate the challenges predominantly associated with the accessibility of high-performance computational hardware. At present, numerous barriers impede developers and organizations from seamlessly integrating projects that require high-performance computing, such as AI technologies, into their applications. Unlike conventional centralized systems, where access to powerful compute hardware is restricted and costly, Lilypad endeavors to democratize this access. Through its verifiable, trustless, and decentralized computational network, Lilypad extends unrestricted, global access to computational power. By leveraging decentralized infrastructure networks such as Filecoin, Lilypad is strategically positioned to enhance the efficiency, transparency, and accessibility of high-performance computing hardware.
 
   ### Applications
-  The ability to perform off-chain decentralised compute over data from smart contracts opens the door to a multitude of possible applications including:
-
+  Perform off-chain decentralised compute over data, with on-chain guarantees, and to call this functionality directly from a smart contract, CLI and an easy to use abstraction layer, opens the door to a multitude of possible applications including:
+  
   * Inference AI jobs
   * ML training jobs
   * Invoking & supporting generic ZK computations
