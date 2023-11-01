@@ -50,7 +50,7 @@ You will need to create an environment file for your node.
 WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY (the private key from your metamask wallet)
 ```
 
-This is the key where you will get paid in LP tokens for jobs run on the network. 
+This is the key where you will get paid in LP tokens for jobs run on the network.
 
 ### Install systemd unit for Bacalhau:
 Open `/etc/systemd/system/bacalhau.service` in your favourite editor (hint: `sudo editor /etc/systemd/system/bacalhau.service`)
