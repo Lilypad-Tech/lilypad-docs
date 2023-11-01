@@ -29,7 +29,7 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 ### Install Bacalhau
 ```
 cd /tmp
-wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.1.2/bacalhau_v1.1.2_linux_amd64.tar.gz
+wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.0.3/bacalhau_v1.0.3_linux_amd64.tar.gz
 tar xfv bacalhau_v1.0.3_linux_amd64.tar.gz
 sudo mv bacalhau /usr/bin/bacalhau
 sudo mkdir -p /app/data/ipfs
@@ -38,7 +38,7 @@ sudo chown -R $USER /app/data
 
 ### Install Lilypad
 ```
-curl -sSL -o lilypad https://github.com/bacalhau-project/lilypad/releases/download/v2.0.0-275e5f3/lilypad
+curl -sSL -o lilypad https://github.com/bacalhau-project/lilypad/releases/download/v2.0.0-6afc1cc/lilypad
 chmod +x lilypad
 sudo mv lilypad /usr/bin
 ```
