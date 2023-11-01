@@ -6,15 +6,15 @@ The below are instructions for running on the public Lilypad testnet.
 
 The testnet has a base currency of ETH, as well as a utility token called LP. You will receive LP to pay for jobs (and nodes to stake).
 
-Metamask:
+### Metamask
+We suggest using Metamask with custom settings to make things easier. Once you have it installed and setup, here are the settings you should use:
 - Network name: Lilypad v2 Aurora testnet
 - New RPC URL: [http://testnet.lilypad.tech:8545](http://testnet.lilypad.tech:8545)
 - Chain ID: 1337
 - Currency symbol: ETH
 - Block explorer URL: (leave blank)
 
-Fund your wallet with ETH and LP
-
+### Fund your wallet with ETH and LP
 To obtain funds, go to [http://faucet.lilypad.tech:8080](http://faucet.lilypad.tech:8080)
 
 The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for jobs).
