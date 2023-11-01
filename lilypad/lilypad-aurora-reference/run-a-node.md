@@ -29,7 +29,7 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 ### Install Bacalhau
 ```
 cd /tmp
-wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.0.3/bacalhau_v1.0.3_linux_amd64.tar.gz
+wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.1.2/bacalhau_v1.1.2_linux_amd64.tar.gz
 tar xfv bacalhau_v1.0.3_linux_amd64.tar.gz
 sudo mv bacalhau /usr/bin/bacalhau
 sudo mkdir -p /app/data/ipfs
@@ -38,19 +38,19 @@ sudo chown -R $USER /app/data
 
 ### Install Lilypad
 ```
-curl -sSL -o lilypad https://github.com/bacalhau-project/lilypad/releases/download/v2.0.0-6afc1cc/lilypad
+curl -sSL -o lilypad https://github.com/bacalhau-project/lilypad/releases/download/v2.0.0-275e5f3/lilypad
 chmod +x lilypad
 sudo mv lilypad /usr/bin
 ```
 
 ### Write env file
-
+You will need to create an environment file for your node.
 `/app/lilypad/resource-provider-gpu.env` should contain:
 ```
-export WEB3_PRIVATE_KEY=0x… (the private key from your metamask wallet)
+WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY (the private key from your metamask wallet)
 ```
 
-This is the key where you will get paid in LP tokens for jobs run on the network.
+This is the key where you will get paid in LP tokens for jobs run on the network. 
 
 Install systemd unit for Bacalhau:
 ```
