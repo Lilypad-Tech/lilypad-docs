@@ -1,5 +1,5 @@
 ---
-description: Connecting to LaLechuza Testnet
+description: Connecting to Lilypad v2 Aurora Testnet
 ---
 
 # Setting up Metamask
@@ -31,9 +31,7 @@ Then click the "Add Network" Button.&#x20;
 
 Next, click on "Add a network manually" at the bottom of the page and enter the Lilypad Testnet details:
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mm_five.png" alt=""><figcaption></figcaption></figure>
 
 Click Save. :tada:
-
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
