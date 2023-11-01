@@ -7,7 +7,11 @@
 
 * [Overview](lilypad-aurora-testnet/overview.md)
 * [Architecture](lilypad-aurora-testnet/architecture.md)
-* [Quick Start](lilypad-aurora-testnet/quick-start.md)
+* [Quick Start](lilypad-aurora-testnet/quick-start/README.md)
+  * [Setting up metamask](lilypad-aurora-testnet/quick-start/setting-up-metamask.md) 
+  * [Funding your wallet](lilypad-aurora-testnet/quick-start/funding-your-wallet-from-faucet.md)
+  * [Install requirements](lilypad-aurora-testnet/quick-start/install-run-requirements.md)
+  * [Run Hello World!](lilypad-aurora-testnet/quick-start/run-hello-world-job-cli.md)
 
 ## Lilypad Aurora Reference
 
