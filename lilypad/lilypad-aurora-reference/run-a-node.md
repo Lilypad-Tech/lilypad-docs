@@ -108,7 +108,7 @@ sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 ```
 
-Check they are running with `systemctl` status as usual, and debug with `journalctl` if needed - eg, `sudo journalctl -uf lilypad-resource-provider` will give you the live output from your Lilypad node. Please report issues on Bacalhau `#bacalhau-lilypad` Slack. You should see your resource provider start accepting jobs on the network in the logs.
+Check they are running with `systemctl` status as usual, and debug with `journalctl` if needed - eg, `sudo journalctl -uf lilypad-resource-provider` will give you the live output from your Lilypad node. Please report issues on Bacalhau `#lilypad-general` Slack. You should see your resource provider start accepting jobs on the network in the logs.
 
 ### Security
 If you want to allowlist only certain modules (e.g. Stable Diffusion modules), so that you can control exactly what code runs on your nodes (which you can audit to ensure that they are secure and will have no negative impact on your nodes), you can do that by setting an environment variable `OFFER_MODULES` in the GPU provider to a comma separated list of module names, e.g. “sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1”
