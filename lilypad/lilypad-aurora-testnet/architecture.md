@@ -14,11 +14,20 @@ See [docs.bacalhau.org](https://docs.bacalhau.org) for more information on how B
 
 ### Lilypad Technical Architecture
 
-<figure><img src="../.gitbook/assets/arch_lp_layers.png" alt=""><figcaption><p>Components of the Lilypad Ecosystem: From SaaS to Smart Contracts</p></figcaption></figure>
+<figure>
+    <img src="../.gitbook/assets/arch_lp_layers.png" alt="">
+    <figcaption><p>Components of the Lilypad Ecosystem: From SaaS to Smart Contracts</p></figcaption>
+</figure>
 
-<figure><img src="../.gitbook/assets/arch_lp_main.png" alt=""><figcaption><p>Main architecture of the Lilypad Ecosystem</p></figcaption></figure>
+<figure>
+    <img src="../.gitbook/assets/arch_lp_main.png" alt="">
+    <figcaption><p>Main architecture of the Lilypad Ecosystem</p></figcaption>
+</figure>
 
-<figure><img src="../.gitbook/assets/arch_lp_services.png" alt=""><figcaption><p>Services in the Lilypad Ecosystem</p></figcaption></figure>
+<figure>
+    <img src="../.gitbook/assets/arch_lp_services.png" alt="">
+    <figcaption><p>Services in the Lilypad Ecosystem</p></figcaption>
+</figure>
 
 ### Based on Academic Research
 The architecture of Lilypad is inspired by the research paper titled "Mechanisms for Outsourcing Computation via a Decentralized Market." The paper introduces MODiCuM, a decentralized system that allows for computational outsourcing in an open market. Just like MODiCuM, Lilypad aims to create an open market of computational resources by introducing various decentralized services like solver, resource provider, job creator, mediator, and directory services. MODiCuM's unique approach to deterring misbehavior in a decentralized environment through dedicated mediators and enforceable fines has influenced Lilypad's own design, particularly in the areas of dispute resolution and system integrity.
