@@ -12,7 +12,7 @@ description: Connecting to Lilypad v2 Aurora Testnet
 {% hint style="info" %}
 Network name: `Lilypad v2 Aurora testnet`
 
-New RPC URL: `http://testnetv2.arewehotshityet.com:8545`
+New RPC URL: `http://testnet.lilypad.tech:8545`
 
 Chain ID: `1337`
 
