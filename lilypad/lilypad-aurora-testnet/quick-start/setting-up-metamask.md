@@ -7,7 +7,7 @@ description: Connecting to Lilypad v2 Aurora Testnet
 ## Setting up Metamask
 
 * Install metamask Extension [here](https://metamask.io/)
-* Next, add the Lalechuza testnet chain to metamask.
+* Next, add the Lilypad Testnet chain to metamask.
 
 {% hint style="info" %}
 Network name: `Lilypad v2 Aurora testnet`
