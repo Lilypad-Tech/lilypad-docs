@@ -16,7 +16,7 @@ New RPC URL: `http://testnet.lilypad.tech:8545`
 
 Chain ID: `1337`
 
-Currency symbol: lil`ETH`
+Currency symbol: `ETH`
 
 Block explorer URL: (leave blank)
 {% endhint %}
