@@ -38,7 +38,7 @@ export SERVICE_MEDIATORS="0x90F79bf6EB2c4f870365E785982E1f101E93b906"
 export WEB3_PRIVATE_KEY=<your private key>
 ```
 
-Verifying if the install is successful. Execute `lilypad` on your terminal and it should produce the following response. You could also execute ``
+Verifying if the install is successful. Execute `lilypad` on your terminal and it should produce the following response. 
 
 ```bash
 Lilypad
