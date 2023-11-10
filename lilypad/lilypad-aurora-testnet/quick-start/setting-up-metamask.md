@@ -7,16 +7,16 @@ description: Connecting to Lilypad v2 Aurora Testnet
 ## Setting up Metamask
 
 * Install metamask Extension [here](https://metamask.io/)
-* Next, add the Lalechuza testnet chain to metamask.
+* Next, add the Lilypad Testnet chain to metamask.
 
 {% hint style="info" %}
 Network name: `Lilypad v2 Aurora testnet`
 
-New RPC URL: `http://testnetv2.arewehotshityet.com:8545`
+New RPC URL: `http://testnet.lilypad.tech:8545`
 
 Chain ID: `1337`
 
-Currency symbol: lil`ETH`
+Currency symbol: `ETH`
 
 Block explorer URL: (leave blank)
 {% endhint %}
