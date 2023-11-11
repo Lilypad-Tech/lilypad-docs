@@ -58,7 +58,7 @@
 
 * [Overview](lilypad-v1-testnet-deprecated/overview.md)
 * [Architecture Diagrams](lilypad-v1-testnet-deprecated/architecture.md)
-* [Get started here!](lilypad-v1-testnet-deprecated/quick-start/README.md)
+* [Get started here!!](lilypad-v1-testnet-deprecated/quick-start/README.md)
   * [Setting up Metamask](lilypad-v1-testnet-deprecated/quick-start/setting-up-metamask.md)
   * [Funding your Wallet from Faucet](lilypad-v1-testnet-deprecated/quick-start/funding-your-wallet-from-faucet.md)
   * [\[CLI\] Install Run Requirements](lilypad-v1-testnet-deprecated/quick-start/install-run-requirements.md)

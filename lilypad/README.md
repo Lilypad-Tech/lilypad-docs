@@ -10,8 +10,6 @@ coverY: 0
 
 Image: `> lilypad run sdxl:v0.9-lilypad1 "A record player in a room of flowers"`
 
-
-
 {% hint style="warning" %}
 Lilypad Docs under construction! We're currently updating our docs for Lilypad v2 -> Aurora Testnet \
 See [https://github.com/bacalhau-project/lilypad](https://github.com/bacalhau-project/lilypad) for developer info while we do! :relaxed:
