@@ -1,21 +1,21 @@
 ---
-cover: ../.gitbook/assets/aurora_record_player.png
-coverY: -9.2
-layout:
 cover:
+  image: ../.gitbook/assets/aurora_record_player.png
+  y: -9.2
   visible: true
   size: full
+layout:
 title:
   visible: true
 description:
   visible: true
+  text: Trustless Distributed Compute for web3
 tableOfContents:
   visible: true
 outline:
   visible: true
 pagination:
   visible: true
-description: Trustless Distributed Compute for web3
 ---
 
 # Overview
