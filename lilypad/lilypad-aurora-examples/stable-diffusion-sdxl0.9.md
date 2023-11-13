@@ -66,9 +66,10 @@ lilypad run sdxl:v0.9-lilypad1 -i PromptEnv="PROMPT=beautiful view of iceland wi
 
 <figure><img src="../.gitbook/assets/sdxl_result_output2.png" alt=""><figcaption><p>Output using different seed.</p></figcaption></figure>
 
-#### CLI Video [to be updated]
+#### CLI Video 
+In this video, Sam demos the use of SDXL in the Lilypad network.
 
-{% embed url="https://youtu.be/-ae3M4VtL88" %}
+{% embed url="https://youtu.be/RBECCMl_fco" %}
 Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo
 {% endembed %}
 
