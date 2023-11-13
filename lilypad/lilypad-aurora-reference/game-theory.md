@@ -1,6 +1,6 @@
 # Lilypad Game Theory Documentation
 
-In this talk, Levi Rybalovd iscusses the prevention of cheating in a two-sided marketplace for compute. The focus is on using a game theoretic approach to verifiable computing without relying on cryptographic tools. The talk explores the difference between global consensus and local consensus and assumes non-malicious but utility maximizing agents. 
+In this talk, Levi Rybalovd discusses the prevention of cheating in a two-sided marketplace for compute. The focus is on using a game theoretic approach to verifiable computing without relying on cryptographic tools. The talk explores the difference between global consensus and local consensus and assumes non-malicious but utility maximizing agents. 
 
 {% embed url="https://youtu.be/hvlBkh6XJto?si=NEAmNc2X7u9bL2AC" %}
 Lilypad: An Adversary First Approach to Game Theoretic Verifiable Computing
