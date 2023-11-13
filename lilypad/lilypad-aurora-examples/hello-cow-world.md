@@ -17,8 +17,8 @@ Ensure you have installed all requirements [install-run-requirements.md](../lily
 3. Make sure to have the following env in your shell session
 
 ```
-export SERVICE_SOLVER="0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC"
-export SERVICE_MEDIATORS="0x90F79bf6EB2c4f870365E785982E1f101E93b906"
+export SERVICE_SOLVER="0xd4646ef9f7336b06841db3019b617ceadf435316"
+export SERVICE_MEDIATORS="0x2d83ced7562e406151bd49c749654429907543b4"
 export WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY
 
 ```
