@@ -38,9 +38,9 @@ sudo chown -R $USER /app/data
 
 ### Install Lilypad
 ```
-curl -sSL -o lilypad https://github.com/bacalhau-project/lilypad/releases/download/v2.0.0-939b78d/lilypad
-chmod +x lilypad
-sudo mv lilypad /usr/bin
+curl -sSL -o lilypad https://github.com/bacalhau-project/lilypad/releases/download/v2.0.0-939b78d/lilypad-linux-amd64
+chmod +x lilypad-linux-amd64
+sudo mv lilypad-linux-amd64 /usr/bin/lilypad
 ```
 
 ### Write env file
