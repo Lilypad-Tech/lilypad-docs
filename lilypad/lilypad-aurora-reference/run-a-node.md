@@ -38,7 +38,7 @@ sudo chown -R $USER /app/data
 
 ### Install Lilypad
 ```
-curl -sSL -o lilypad https://github.com/bacalhau-project/lilypad/releases/download/v2.0.0-6afc1cc/lilypad
+curl -sSL -o lilypad https://github.com/bacalhau-project/lilypad/releases/download/v2.0.0-939b78d/lilypad
 chmod +x lilypad
 sudo mv lilypad /usr/bin
 ```
@@ -87,8 +87,6 @@ Environment="LOG_LEVEL=debug"
 Environment="HOME=/app/lilypad"
 Environment="OFFER_GPU=1"
 EnvironmentFile=/app/lilypad/resource-provider-gpu.env
-Environment="SERVICE_SOLVER=0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC"
-Environment="SERVICE_MEDIATORS=0x90F79bf6EB2c4f870365E785982E1f101E93b906"
 Restart=always
 RestartSec=5s
 ExecStart=/usr/bin/lilypad resource-provider 
