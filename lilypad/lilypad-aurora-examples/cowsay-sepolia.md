@@ -35,7 +35,7 @@ export SERVICE_MEDIATORS="0xd6244f8c08d4b7bb7ccbd72e585b19ee68a8d1eb"
 To execute cowsay, use the following command:
 
 ```bash
-lilypad run cowsay:v0.0.1 -i Message=sepolia
+lilypad run cowsay:v0.0.1 -i Message="<hello lilypad>"
 ```
 
 **Output:**
