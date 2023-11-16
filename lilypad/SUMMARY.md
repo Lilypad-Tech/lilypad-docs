@@ -22,6 +22,7 @@
 ## Lilypad Aurora Examples
 
 * [Hello, (cow) World!](lilypad-aurora-examples/hello-cow-world.md)
+* [Hello, (cow) World! Sepolia](lilypad-aurora-examples/cowsay-sepolia.md)
 * [Stable Diffusion (SDXL0.9)](lilypad-aurora-examples/stable-diffusion-sdxl0.9.md)
 * [LoRA Fine Tuning](lilypad-aurora-examples/lora-fine-tuning.md)
 * [LLM Inference](lilypad-aurora-examples/llm-inference.md)
