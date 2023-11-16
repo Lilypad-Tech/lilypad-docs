@@ -47,10 +47,12 @@ sudo mv lilypad /usr/bin/lilypad
 You will need to create an environment file for your node.
 `/app/lilypad/resource-provider-gpu.env` should contain:
 ```
-WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY (the private key from your metamask wallet)
+WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY (the private key from a NEW metamask wallet FOR THE COMPUTE NODE)
 ```
 
 This is the key where you will get paid in LP tokens for jobs run on the network.
+
+**NOTE: YOU MUST NOT REUSE YOUR COMPUTE NODE KEY AS A CLIENT, EVEN FOR TESTING: THIS WILL RESULT IN FAILED JOBS AND WILL NEGATIVELY IMPACT YOUR COMPUTE NODE SINCE THE WALLET ADDRESS IS HOW NODES ARE IDENTIFIED ON THE NETWORK**
 
 ### Install systemd unit for Bacalhau:
 Open `/etc/systemd/system/bacalhau.service` in your favourite editor (hint: `sudo editor /etc/systemd/system/bacalhau.service`)
