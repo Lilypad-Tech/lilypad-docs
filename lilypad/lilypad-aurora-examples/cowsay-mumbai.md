@@ -28,6 +28,7 @@ export WEB3_USERS_ADDRESS=0x11F3f6e51B822c4f0FF8955510f81B6654a9BD0C
 export SERVICE_SOLVER="0x08D118d3300c82CD94a4080805426AB025fe9852"
 export SERVICE_MEDIATORS="0xd6244f8c08d4b7bb7ccbd72e585b19ee68a8d1eb"
 ```
+> Note: You will need to set up your own Infura account and get your infura Api Key. You can follow the instructions [here](https://docs.infura.io/getting-started)
 
 ## Running cowsay
 >Note: Ensure that you have Lilypad installed before proceeding.
