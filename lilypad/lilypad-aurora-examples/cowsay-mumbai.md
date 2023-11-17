@@ -1,13 +1,13 @@
 ---
-description: A cowsay job on Sepolia
+description: A cowsay job on Mumbai
 ---
-# Hello (cow) World! on Sepolia Network
+# Hello (cow) World! on Mumbai Network
 
 ## Getting LilyPad Tokens
 
 To acquire LilyPad tokens, follow these steps:
 
-1. Visit the Lilypad Faucet at [here](http://sepolia-faucet.lilypad.tech:8081/)
+1. Visit the Lilypad Faucet at [here](http://mumbai-faucet.lilypad.tech:8081/)
 2. Enter your wallet address.
 3. Receive some LP tokens.
 
@@ -16,15 +16,15 @@ To acquire LilyPad tokens, follow these steps:
 Set the environment variables as shown below:
 
 ```bash
-export WEB3_CHAIN_ID=11155111
-export WEB3_RPC_URL=https://sepolia.infura.io/v3/[YOUR_INFURA_API_KEY]
-export WEB3_CONTROLLER_ADDRESS=0x433C91FA54b9c11550b07672E1FA2b06860e5b05
-export WEB3_TOKEN_ADDRESS=0x90bC5e91B2bC6BBa240001B169fd73DeA75E072A
-export WEB3_MEDIATION_ADDRESS=0xe294485d0C03adCe1BE2c2791522A6c0585A4f7B
-export WEB3_JOBCREATOR_ADDRESS=0x4aC3C9F7e431dce628440b5037d23890c28E5C3F
-export WEB3_PAYMENTS_ADDRESS=0xC5b1737A2282E6283c54f67bC401426058BC170F
-export WEB3_STORAGE_ADDRESS=0x79Ee2d28eDDd9Ee0b68613b29Dab474623F8D1c6
-export WEB3_USERS_ADDRESS=0x70eC3b0aFA059174dD54d7702624f1Dd402b706b
+export WEB3_CHAIN_ID=80001
+export WEB3_RPC_URL=https://polygon-mumbai.infura.io/v3/[YOUR_INFURA_API_KEY]
+export WEB3_CONTROLLER_ADDRESS=0xB08492E6Ae019609E6bF3a19873d00D2257f614b
+export WEB3_TOKEN_ADDRESS=0xBe72246911F254E3D221C965A50d89C6D660DCc0
+export WEB3_MEDIATION_ADDRESS=0x16f1Bb6784D3Fbb735423A3603BA44427c4aDe4F
+export WEB3_JOBCREATOR_ADDRESS=0xD5723D6758E93d2E612210127f6Ab9705E606Ac8
+export WEB3_PAYMENTS_ADDRESS=0x01B18F94B61253ba63b810ddA371eA54bbACbdC6
+export WEB3_STORAGE_ADDRESS=0xC5a58D6BDbdB66c50ecD795C5456E1f6ADc52dD9
+export WEB3_USERS_ADDRESS=0x11F3f6e51B822c4f0FF8955510f81B6654a9BD0C
 export SERVICE_SOLVER="0x08D118d3300c82CD94a4080805426AB025fe9852"
 export SERVICE_MEDIATORS="0xd6244f8c08d4b7bb7ccbd72e585b19ee68a8d1eb"
 ```
