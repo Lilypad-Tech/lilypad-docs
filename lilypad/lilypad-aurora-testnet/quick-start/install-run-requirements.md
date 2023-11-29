@@ -22,6 +22,7 @@ You may then need to set:
 export SERVICE_SOLVER="0xd4646ef9f7336b06841db3019b617ceadf435316"
 export SERVICE_MEDIATORS="0x2d83ced7562e406151bd49c749654429907543b4"
 export WEB3_PRIVATE_KEY=<your private key>
+export WEB3_RPC_URL=http://testnet.lilypad.tech:8545
 ```
 
 ### 2. Via officially released binaries
