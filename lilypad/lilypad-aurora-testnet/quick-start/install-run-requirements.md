@@ -2,29 +2,31 @@
 description: Lilypad setup
 ---
 
-# \[CLI] Install Run Requirements
+# Install requirements
 
 ## Install Requirements
 
 {% hint style="info" %}
-**Supported platforms**: only supports x86_64 Linux
+**Supported platforms**: only supports x86\_64 Linux
 {% endhint %}
 
 ## Install CLI
 
 ### 1. With GO toolchain
+
 ```bash
 go install github.com/bacalhau-project/lilypad@latest
 ```
 
 You may then need to set:
-```bash
-export SERVICE_SOLVER="0xd4646ef9f7336b06841db3019b617ceadf435316"
-export SERVICE_MEDIATORS="0x2d83ced7562e406151bd49c749654429907543b4"
-export WEB3_PRIVATE_KEY=<your private key>
-```
+
+<pre class="language-bash"><code class="lang-bash"><strong>NO export SERVICE_SOLVER="0xd4646ef9f7336b06841db3019b617ceadf435316"
+</strong>export SERVICE_MEDIATORS="0x2d83ced7562e406151bd49c749654429907543b4"
+export WEB3_PRIVATE_KEY=&#x3C;your private key>
+</code></pre>
 
 ### 2. Via officially released binaries
+
 ```bash
 # Detect your machine's architecture and set it as $OSARCH
 OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH;
@@ -38,13 +40,14 @@ sudo mv lilypad /usr/local/bin/lilypad
 ```
 
 You may then need to set:
+
 ```bash
 export SERVICE_SOLVER="0xd4646ef9f7336b06841db3019b617ceadf435316"
 export SERVICE_MEDIATORS="0x2d83ced7562e406151bd49c749654429907543b4"
 export WEB3_PRIVATE_KEY=<your private key>
 ```
 
-Verifying if the install is successful. Execute `lilypad` on your terminal and it should produce the following response. 
+Verifying if the install is successful. Execute `lilypad` on your terminal and it should produce the following response.
 
 ```bash
 Lilypad
