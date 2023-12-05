@@ -80,10 +80,11 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 * v0: **September 2022** - Lilypad Bridge POC for triggering and returning Bacalhau compute jobs from a smart contract
 * v1: **July 2023** - A [modicum](https://dl.acm.org/doi/pdf/10.1145/3401025.3401737)-based minimal testnet (EVM-based). See [github](https://github.com/bacalhau-project/lilypad-modicum)
 * v2: **September 2023** - A more robust trustless distributed testnet
-* v2 **November 2023** - Incentivized Testnet
-* v3: **tbd** - Lilypad Mainnet
+* v3 **November 2023** - Lilypad AI Studio, Calibration Net for compute providers
+* v4: **Q1 2024** - Lilypad Incentivized Testnet deployment
+* v5: **tbd** - Lilypad Mainnet
 
-<figure><img src=".gitbook/assets/Lilypad Roadmap June.png" alt=""><figcaption><p>Lilypad Roadmap</p></figcaption></figure>
+<figure><img src=".gitbook/assets/LilyRoadmap.png" alt=""><figcaption></figcaption></figure>
 
 ## Join the Community & Chat with Us
 
