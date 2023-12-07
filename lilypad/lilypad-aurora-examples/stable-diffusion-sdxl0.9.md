@@ -10,7 +10,7 @@ Generically, stable diffusion is what happens when you put a couple of drops of 
 
 In computer science, you define rules for your (dye) particles to follow and the medium this takes place in.
 
-Stable Diffusion is a machine learning model used for text-to-image processing (like Dall-E) and based on a diffusion probabilistic model that uses a transformer to generate images from text. \
+Stable Diffusion is a machine learning model used for text-to-image processing (like Dall-E) and based on a diffusion probabilistic model that uses a transformer to generate images from text.\
 \
 There are several open-source stable diffusion models out there (made famous by Stability.ai) and they continue to improve and become even more fully featured - SDXL0.9 is one of the more recently open-sourced models.
 
@@ -28,7 +28,7 @@ To run stable diffusion use the sdxl module like so:
 lilypad run sdxl:v0.9-lilypad1 -i PromptEnv="PROMPT=beautiful view of iceland with a record player"
 ```
 
-The output will look like this:&#x20;
+The output will look like this:
 
 <figure><img src="../.gitbook/assets/sdxl_execution.png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
 
@@ -39,13 +39,15 @@ https://ipfs.io/ipfs/QmVng1jkMxE9ep4k8mYiiCiWaCRiRLvCeo6bJRXirhz1dZ
 ```
 
 {% hint style="warning" %}
-Please be patient! IPFS can take some time to propagate and doesn't always work immediately.&#x20;
+Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
 {% endhint %}
 
 You could also check the output folder that would have been downloaded at the end of running the job
+
 ```bash
 open /tmp/lilypad/data/downloaded-files/QmZuE29GJVmenRUh72FQDgkMUT1Zdp967oEJvzjaDwGGVo
 ```
+
 <figure><img src="../.gitbook/assets/sdxl_output.png" alt=""><figcaption><p>Results of SDXL job on Output Directory</p></figcaption></figure>
 
 In the **/outputs** folder, you'll find the image:
@@ -66,10 +68,18 @@ lilypad run sdxl:v0.9-lilypad1 -i PromptEnv="PROMPT=beautiful view of iceland wi
 
 <figure><img src="../.gitbook/assets/sdxl_result_output2.png" alt=""><figcaption><p>Output using different seed.</p></figcaption></figure>
 
-#### CLI Video 
+#### CLI Video
+
 In this video, Sam demos the use of SDXL in the Lilypad network.
 
 {% embed url="https://youtu.be/RBECCMl_fco" %}
 Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo
 {% endembed %}
+
+### Looking for Smart Contracts?
+
+\
+Try this to start!
+
+{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/main/docs/smart-contract-jobs.md" %}
 
