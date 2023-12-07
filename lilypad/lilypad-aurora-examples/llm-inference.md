@@ -4,6 +4,8 @@ description: Run an Opensource LLM!
 
 # Mistral (LLM)
 
+{% embed url="https://youtu.be/YuQa8ztAN68?si=YCHQ5YQn2CErXcsc" %}
+
 ### CLI Example Command
 
 ```bash

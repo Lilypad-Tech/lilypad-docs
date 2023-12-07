@@ -4,6 +4,10 @@ description: Run a Stable Diffusion Text to Image Job
 
 # Stable Diffusion (SDXL0.9)
 
+{% embed url="https://youtu.be/kh5jXuQ6_ww?si=BYIvEW9q8I4C7eS_" %}
+Hacker Cafe Girl Running SDXL
+{% endembed %}
+
 ## Overview
 
 Generically, stable diffusion is what happens when you put a couple of drops of dye into a bucket of water. Given time, the dye randomly disperses and eventually settles into a uniform distribution which colours all the water evenly
