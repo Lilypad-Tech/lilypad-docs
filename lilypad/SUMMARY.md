@@ -18,6 +18,7 @@
 * [Run a Node](lilypad-aurora-reference/run-a-node.md)
 * [Build a Job Module](lilypad-aurora-reference/build-a-job-module.md)
 * [Game Theory](lilypad-aurora-reference/game-theory.md)
+* [Running Lilypad in a Front End](lilypad-aurora-reference/running-lilypad-in-a-front-end.md)
 
 ## Lilypad Aurora Examples
 
@@ -30,6 +31,7 @@
 * [DuckDB](lilypad-aurora-examples/duckdb.md)
 * [Filecoin Data Prep](lilypad-aurora-examples/filecoin-data-prep.md)
 * [Arbitrary WASM](lilypad-aurora-examples/arbitrary-wasm.md)
+* [Voice to Text](lilypad-aurora-examples/voice-to-text.md)
 
 ## Research & Vision
 
