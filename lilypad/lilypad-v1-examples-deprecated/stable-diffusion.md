@@ -10,7 +10,7 @@ Generically, stable diffusion is what happens when you put a couple of drops of 
 
 In computer science, you define rules for your (dye) particles to follow and the medium this takes place in.
 
-Stable Diffusion is a machine learning model used for text-to-image processing (like Dall-E) and based on a diffusion probabilistic model that uses a transformer to generate images from text. \
+Stable Diffusion is a machine learning model used for text-to-image processing (like Dall-E) and based on a diffusion probabilistic model that uses a transformer to generate images from text.\
 \
 There are several open-source stable diffusion models out there (made famous by Stability.ai) and they continue to improve and become even more fully featured - SDXL0.9 is one of the more recently open-sourced models.
 
@@ -28,17 +28,17 @@ To run stable diffusion use the sdxl module like so:
 lilypad run sdxl:v0.9-lilypad1 "an astronaut riding on a unicorn"
 ```
 
-The output will look like this:&#x20;
+The output will look like this:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
 
 Take the ipfs link given in the results and paste it into your browser:
 
 {% hint style="warning" %}
-Please be patient! IPFS can take some time to propagate and doesn't always work immediately.&#x20;
+Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Results of SDXL job on IPFS Directory (<a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Results of SDXL job on IPFS Directory (<a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a>)</p></figcaption></figure>
 
 In the **/outputs** folder, you'll find the image:
 
@@ -81,7 +81,7 @@ Make sure you have connected to the Lalechuza testnet and funded your wallet wit
 \
 To trigger the SDXL0.9 module from a smart contract, firstly you need to create your own client contract to call the module from.\
 \
-In order to receive results back from the Lilypad network, you will also need to \
+In order to receive results back from the Lilypad network, you will also need to\
 1\. Connect to the [Lilypad Modicum Contract](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/Modicum.sol) (and create an instance of it in your own contract using the [current address found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt))\
 2\. Implement the [Modicum Contract receiveJobResults()](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/Modicum.sol) interface.
 
@@ -130,23 +130,23 @@ contract SDXLCaller {
 }
 ```
 
-NB: You could also add the seed as a parameter to run this. &#x20;
+NB: You could also add the seed as a parameter to run this.
 
-`return remoteContractInstance.runModuleWithDefaultMediators{value: msg.value}("sdxl:v0.9-lilypad1",`` `**`params`**`);`
+` return remoteContractInstance.runModuleWithDefaultMediators{value: msg.value}("sdxl:v0.9-lilypad1",`` `` `**`params`**`);`
 
 #### **Remix**
 
-Try it yourself!&#x20;
+Try it yourself!
 
 {% hint style="info" %}
 Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/SDXLCaller.sol) to open [the contract](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/SDXLCaller.sol) in Remix IDE!
 {% endhint %}
 
-1. Ensure your metamask wallet is set to the [Lalechuza testnet ](../lilypad-v1-testnet-deprecated/quick-start/setting-up-metamask.md)and has [lilETH testnet funds](../lilypad-v1-testnet-deprecated/quick-start/funding-your-wallet-from-faucet.md) from the [faucet](https://testnet.lilypadnetwork.org).&#x20;
+1. Ensure your metamask wallet is set to the [Lalechuza testnet ](../lilypad-v1-testnet-deprecated/quick-start/setting-up-metamask.md)and has [lilETH testnet funds](../lilypad-v1-testnet-deprecated/quick-start/funding-your-wallet-from-faucet.md) from the [faucet](https://testnet.lilypadnetwork.org).
 2. Set the remix environment to "Injected Provider - Metamask" (& ensure metamask has the lalechuza chain selected)
-3. Then \
-   \-  Deploy a new contract passing in the [Modicum Contract address found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt) **OR**\
-   \-  Open the contract at this example address: `0x31e7bF121EaB1C0B081347D8889863362e9ad53A`
+3. Then\
+   \- Deploy a new contract passing in the [Modicum Contract address found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt) **OR**\
+   \- Open the contract at this example address: `0x31e7bF121EaB1C0B081347D8889863362e9ad53A`
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>At Address: 0x31e7bF121EaB1C0B081347D8889863362e9ad53A</p></figcaption></figure>
 
@@ -154,12 +154,12 @@ Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/bl
 
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>runSDXL passing in the text prompt string &#x26; ensuring you set 2 ETH to the Value field</p></figcaption></figure>
 
-5. Give it some time and check the resultCID variable. You can then open this result in your browser with \
+5. Give it some time and check the resultCID variable. You can then open this result in your browser with\
    https://ipfs.io/ipfs/\<resultCID> **or** ipfs://\<resultCID> in IPFS compatible browsers like Brave.
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p><a href="https://ipfs.io/ipfs/QmQx6RDxxjqJYeame9SryMvkjxbXRm32hb3zo3RmiTno4R/outputs/image-0.png">https://ipfs.io/ipfs/QmQx6RDxxjqJYeame9SryMvkjxbXRm32hb3zo3RmiTno4R/outputs/image-0.png</a>  OR <a href="ipfs://bafybeibgzpcxn2cfwvz7ao3jztqphd2k2ebccmxpfm4ig3ug5r2lsclrqy/outputs/image-0.png">ipfs://bafybeibgzpcxn2cfwvz7ao3jztqphd2k2ebccmxpfm4ig3ug5r2lsclrqy/outputs/image-0.png</a> in Brave</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p><a href="https://ipfs.io/ipfs/QmQx6RDxxjqJYeame9SryMvkjxbXRm32hb3zo3RmiTno4R/outputs/image-0.png">https://ipfs.io/ipfs/QmQx6RDxxjqJYeame9SryMvkjxbXRm32hb3zo3RmiTno4R/outputs/image-0.png</a> OR <a href="ipfs://bafybeibgzpcxn2cfwvz7ao3jztqphd2k2ebccmxpfm4ig3ug5r2lsclrqy/outputs/image-0.png">ipfs://bafybeibgzpcxn2cfwvz7ao3jztqphd2k2ebccmxpfm4ig3ug5r2lsclrqy/outputs/image-0.png</a> in Brave</p></figcaption></figure>
 
 #### **Video**
 
@@ -169,11 +169,8 @@ Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/bl
 FYI! You can try all examples in one contract. See [run-hello-world-from-a-smart-contract.md](../lilypad-v1-testnet-deprecated/quick-start/run-hello-world-from-a-smart-contract.md "mention")
 {% endhint %}
 
-
-
 ## SDXL Module Code
 
 Find the [SDXL module code here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modules/sdxl.py). There's also a generic [Stable Diffusion module here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modules/stable\_diffusion.py).
 
 {% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modules/sdxl.py" %}
-

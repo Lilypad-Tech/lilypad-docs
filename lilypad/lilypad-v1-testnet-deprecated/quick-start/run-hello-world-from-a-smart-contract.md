@@ -21,17 +21,17 @@ Alternatively, open remix.ethereum.org IDE in your browser and copy in the below
 1. Connect Metamask to the Lalechuza testnet & ensure you have testnet lilETH funds.
 2. In the deploy tab in remix \[fourth tab in the side bar], ensure you set the environment to "Injected Provider - Metamask"
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Connect to the Lilypad Lalechuza network in Metamask</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Connect to the Lilypad Lalechuza network in Metamask</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Change Remix Environment to Injected Provider - Metamask</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Change Remix Environment to Injected Provider - Metamask</p></figcaption></figure>
 
 \
 **Deploy the Contact**\
 In remix, compile the ExampleClient.sol contract \[third tab in the side bar]
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Compile ExampleClient.sol</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Compile ExampleClient.sol</p></figcaption></figure>
 
-Deploy a new contract by pasting in the Modicum contract address ([found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt)) to the constructor &#x20;
+Deploy a new contract by pasting in the Modicum contract address ([found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt)) to the constructor
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Deploy a new contract passing in the Modicum contract address to the constructor</p></figcaption></figure>
 
@@ -47,8 +47,7 @@ The moment of truth! Let's run the cowsay example!!
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
-Then add the string parameter for what you want the cow to say and click the transact button! Your metamask wallet should pop up asking you to confirm the transaction.\
-
+Then add the string parameter for what you want the cow to say and click the transact button! Your metamask wallet should pop up asking you to confirm the transaction.\\
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
@@ -62,7 +61,7 @@ Open the string starting with "https://ipfs.io/" in your broswer which contains 
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-The cowsay result is found under "stdout"&#x20;
+The cowsay result is found under "stdout"
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 

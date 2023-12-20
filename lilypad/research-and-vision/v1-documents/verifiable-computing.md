@@ -46,7 +46,6 @@ One of the downsides of this approach is, of course, the extra effort expended o
 We opt for verification-via-replication as a first approach, for the reasons that it is simple to understand, has less overhead than cryptographic approaches, and has an attack surface that can be economically modelled and analyzed.
 
 This has the downside of making private computations difficult. While the inputs and outputs of jobs can be encrypted so that only the client and compute node can see the code and data, this still leaves the client vulnerable to having their information leaked. Future approaches can incorporate SLAs and eventually support for homomorphic encryption to deal with this issue.\
-\
+\\
 
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Current contract design</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Current contract design</p></figcaption></figure>

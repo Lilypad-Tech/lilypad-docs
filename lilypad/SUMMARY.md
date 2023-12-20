@@ -31,7 +31,7 @@
 * [DuckDB](lilypad-aurora-examples/duckdb.md)
 * [Filecoin Data Prep](lilypad-aurora-examples/filecoin-data-prep.md)
 * [Arbitrary WASM](lilypad-aurora-examples/arbitrary-wasm.md)
-* [Voice to Text](lilypad-aurora-examples/voice-to-text.md)
+* [Voice to Voice \[Dub3\]](lilypad-aurora-examples/voice-to-voice-dub3.md)
 
 ## Research & Vision
 
