@@ -21,8 +21,8 @@ The OSS Model is based on this model: [https://github.com/coqui-ai/TTS](https://
 First upload a voice .wav file to IPFS
 
 {% hint style="info" %}
-Web3.storage is an easy way to upload files to IPFS.\
-Use&#x20;
+Use [https://web3.storage](https://web3.storage) is an easy way to upload files to IPFS.\
+Use [https://cloudconvert.com/](https://cloudconvert.com/) to convert recordings to .wav files
 {% endhint %}
 
 Here's an example:&#x20;
