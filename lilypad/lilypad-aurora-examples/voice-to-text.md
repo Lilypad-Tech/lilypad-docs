@@ -25,10 +25,14 @@ Use [https://web3.storage](https://web3.storage) is an easy way to upload files 
 Use [https://cloudconvert.com/](https://cloudconvert.com/) to convert recordings to .wav files
 {% endhint %}
 
-Here's an example:&#x20;
+Here's are two voice recording examples:&#x20;
 
 ```bash
 https://bafybeibrum5bqhslpoemqiyvikbg3b5ujte6qppvk2cbdstwxnhejypxl4.ipfs.w3s.link/ally-voice.wav
+```
+
+```bash
+https://bafybeif3qp2sd7qb67kjhds65b6qr5ecerib76cjclyo625ovledffabfu.ipfs.w3s.link/
 ```
 
 Then use the command below to run the module. Note the parameters for changing the language and adding a prompt.
