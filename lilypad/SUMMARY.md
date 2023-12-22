@@ -27,7 +27,7 @@
 * [Hello, (cow) World! on Mumbai](lilypad-aurora-examples/cowsay-mumbai.md)
 * [Stable Diffusion (SDXL0.9)](lilypad-aurora-examples/stable-diffusion-sdxl0.9.md)
 * [Mistral (LLM)](lilypad-aurora-examples/llm-inference.md)
-* [Voice to Voice \[Dub3\]](lilypad-aurora-examples/voice-to-text.md)
+* [Voice Sample & Text to Voice \[Dub3\]](lilypad-aurora-examples/voice-sample-and-text-to-voice-dub3.md)
 * [LoRA Fine Tuning](lilypad-aurora-examples/lora-fine-tuning.md)
 * [DuckDB](lilypad-aurora-examples/duckdb.md)
 * [Filecoin Data Prep](lilypad-aurora-examples/filecoin-data-prep.md)
