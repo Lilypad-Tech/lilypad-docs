@@ -23,7 +23,7 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 - Linux (latest Ubuntu LTS recommended)
 - Nvidia GPU
 - Nvidia drivers
-- [https://docs.docker.com/engine/install/ubuntu/](Docker using this guide). Note: do not run `apt-get install` as it will install the GUI version. 
+- [Docker using this guide](https://docs.docker.com/engine/install/ubuntu/). Note: do not run `apt-get install` as it will install the GUI version. 
 - Nvidia docker drivers
 
 ### Install Bacalhau
