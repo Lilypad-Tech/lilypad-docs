@@ -88,6 +88,8 @@ Environment="LOG_TYPE=json"
 Environment="LOG_LEVEL=debug"
 Environment="HOME=/app/lilypad"
 Environment="OFFER_GPU=1"
+Environment="SERVICE_SOLVER=0xd4646ef9f7336b06841db3019b617ceadf435316"
+Environment="SERVICE_MEDIATORS=0x2d83ced7562e406151bd49c749654429907543b4"
 EnvironmentFile=/app/lilypad/resource-provider-gpu.env
 Restart=always
 RestartSec=5s
