@@ -1,3 +1,3 @@
 # lilypad-docs
 
-docs.lilypadnetwork.org
+docs.lilypad.tech
