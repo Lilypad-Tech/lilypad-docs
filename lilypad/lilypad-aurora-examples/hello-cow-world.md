@@ -21,7 +21,7 @@ export WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY
 4. Run `lilypad`
 
 ```bash
-lilypad run cowsay:v0.0.1 -i Message="hello lilypad" 
+lilypad run cowsay:v0.0.3 -i Message="hello lilypad" 
 ```
 
 (ensure your user is in the docker group if necessary on your platform)\

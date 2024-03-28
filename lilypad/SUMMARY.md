@@ -52,7 +52,7 @@
 ## Tutorials & Content
 
 * [Reference Material](tutorials-and-content/reference-material.md)
-* [Join the Community](tutorials-and-content/join-the-community.md)
+* [👥 Join the Community](tutorials-and-content/join-the-community.md)
 
 ## Meet the Lilypad Team
 
