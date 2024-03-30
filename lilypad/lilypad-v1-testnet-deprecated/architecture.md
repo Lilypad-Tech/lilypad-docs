@@ -24,7 +24,7 @@ See [docs.bacalhau.org](https://docs.bacalhau.org) for more information on how B
 
 ## \[upcoming v] Lilypad Job Flow
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## \[upcoming v] Lilypad Smart Contracts
 
@@ -32,4 +32,4 @@ See [docs.bacalhau.org](https://docs.bacalhau.org) for more information on how B
 
 ## Lilypad Job Flow
 
-![](<../.gitbook/assets/image (1) (1) (1).png>) ![](<../.gitbook/assets/image (2) (1) (1).png>) ![](<../.gitbook/assets/image (3) (1).png>) ![](<../.gitbook/assets/image (4) (1).png>) ![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>) ![](<../.gitbook/assets/image (2) (1) (1) (1).png>) ![](<../.gitbook/assets/image (3) (1) (1).png>) ![](<../.gitbook/assets/image (4) (1) (1).png>) ![](<../.gitbook/assets/image (5) (1) (1).png>)
