@@ -23,17 +23,16 @@ Block explorer URL: (leave blank)
 
 To do this, open metamask then click on the network button at the top left of the popup (in the menu bar):
 
-## ![](<../../.gitbook/assets/image (3) (1) (1) (1).png>) \`\`  ![](<../../.gitbook/assets/image (5) (1) (1) (1).png>)
+## ![](<../../.gitbook/assets/image (3) (1) (1) (1) (1).png>) \`\` ![](<../../.gitbook/assets/image (5) (1) (1) (1) (1).png>)
 
-Then click the "Add Network" Button.&#x20;
+Then click the "Add Network" Button.
 
-<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, click on "Add a network manually" at the bottom of the page and enter the Lilypad Testnet details:
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click Save. :tada:
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>

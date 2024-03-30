@@ -38,7 +38,7 @@ See [advanced-diy-module.md](../lilypad-v1-examples-deprecated/advanced-diy-modu
 
 We're sorry about these docs... we're actively working on it!
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## More Inspiration?
 

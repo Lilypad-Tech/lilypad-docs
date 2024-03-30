@@ -30,7 +30,7 @@ lilypad run sdxl:v0.9-lilypad1 "an astronaut riding on a unicorn"
 
 The output will look like this:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
 
 Take the ipfs link given in the results and paste it into your browser:
 
@@ -38,13 +38,13 @@ Take the ipfs link given in the results and paste it into your browser:
 Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Results of SDXL job on IPFS Directory (<a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Results of SDXL job on IPFS Directory (<a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a>)</p></figcaption></figure>
 
 In the **/outputs** folder, you'll find the image:
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>The Image in the outputs folder</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>The Image in the outputs folder</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a><a href="stable-diffusion.md#running-stable-diffusion-from-the-cli">/outputs/image-0.png</a> or <a href="ipfs://bafybeib6i434yl6ql46jyyydz2boqulysmksye3f5khs24c6uoqpnxkp3y/outputs/image-0.png">ipfs://bafybeib6i434yl6ql46jyyydz2boqulysmksye3f5khs24c6uoqpnxkp3y/outputs/image-0.png</a> in IPFS supported browsers like Brave</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p><a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a><a href="stable-diffusion.md#running-stable-diffusion-from-the-cli">/outputs/image-0.png</a> or <a href="ipfs://bafybeib6i434yl6ql46jyyydz2boqulysmksye3f5khs24c6uoqpnxkp3y/outputs/image-0.png">ipfs://bafybeib6i434yl6ql46jyyydz2boqulysmksye3f5khs24c6uoqpnxkp3y/outputs/image-0.png</a> in IPFS supported browsers like Brave</p></figcaption></figure>
 
 Since modules are deterministic, running this command with the same text prompt will produce the same image, since the same seed is also used (the default seed is 0).
 
@@ -58,13 +58,13 @@ To change the image, you can pass in a different seed number:
 lilypad run sdxl:v0.9-lilypad1 '{"prompt": "an astronaut riding on a unicorn", "seed": 9}'
 ```
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Passing in a seed to change the image when using the same text prompt.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Passing in a seed to change the image when using the same text prompt.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>The IPFS results directory</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>The IPFS results directory</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>The image labelled as image-&#x3C;seed>.png</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>The image labelled as image-&#x3C;seed>.png</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p><a href="https://ipfs.io/ipfs/QmY7k6bigPrKhcQFfakrzvqnBfob147FYFjZtvUm49Veg3/outputs/image-9.png">https://ipfs.io/ipfs/QmY7k6bigPrKhcQFfakrzvqnBfob147FYFjZtvUm49Veg3/outputs/image-9.png</a> or ipfs://bafybeierizuso2u3agwyriz54odqnnl6ai4alfmcjl2f5ug5q4apqfcwjq/outputs/image-9.png in IPFS supported brosers like Brave</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p><a href="https://ipfs.io/ipfs/QmY7k6bigPrKhcQFfakrzvqnBfob147FYFjZtvUm49Veg3/outputs/image-9.png">https://ipfs.io/ipfs/QmY7k6bigPrKhcQFfakrzvqnBfob147FYFjZtvUm49Veg3/outputs/image-9.png</a> or ipfs://bafybeierizuso2u3agwyriz54odqnnl6ai4alfmcjl2f5ug5q4apqfcwjq/outputs/image-9.png in IPFS supported brosers like Brave</p></figcaption></figure>
 
 #### CLI Video
 
@@ -148,7 +148,7 @@ Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/bl
    \- Deploy a new contract passing in the [Modicum Contract address found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt) **OR**\
    \- Open the contract at this example address: `0x31e7bF121EaB1C0B081347D8889863362e9ad53A`
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>At Address: 0x31e7bF121EaB1C0B081347D8889863362e9ad53A</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>At Address: 0x31e7bF121EaB1C0B081347D8889863362e9ad53A</p></figcaption></figure>
 
 4. Call the runSDXL Module, passing in a prompt and sending 2 lilETH in the value field. Your Metamask wallet should pop up for you to confirm the payment and transaction.
 
