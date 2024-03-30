@@ -35,7 +35,7 @@ Lilypad is now at **v2: Aurora Testnet!** :tada: Try it out - we dare you :man\_
 
 Lilypad Aurora is Lilypad's v2 Test Network.
 
-See [broken-reference](broken-reference/ "mention")
+See [https://github.com/bacalhau-project/lilypad-docs/blob/main/lilypad/broken-reference/README.md](https://github.com/bacalhau-project/lilypad-docs/blob/main/lilypad/broken-reference/README.md "mention")
 
 #### Lilypad v1
 
