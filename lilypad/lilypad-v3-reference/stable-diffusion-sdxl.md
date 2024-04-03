@@ -29,7 +29,7 @@ Ensure you have installed all requirements [install-run-requirements.md](../lily
 To run stable diffusion use the sdxl module like so:
 
 ```
-lilypad run sdxl:v0.9-lilypad1 -i PromptEnv="PROMPT=beautiful view of iceland with a record player"
+lilypad run sdxl-pipeline:v0.9-base-lilypad1 -i Prompt='a gigantic lilypad shaped space station'
 ```
 
 The output will look like this:
