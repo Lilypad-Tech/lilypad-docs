@@ -15,7 +15,7 @@ description: Lilypad setup
 ### 1. With GO toolchain
 
 ```bash
-go install github.com/bacalhau-project/lilypad@latest
+go install github.com/lilypad-tech/lilypad@latest
 ```
 
 You may then need to set:

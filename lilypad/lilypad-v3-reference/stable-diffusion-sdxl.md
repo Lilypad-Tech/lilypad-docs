@@ -23,7 +23,7 @@ There are several open-source stable diffusion models out there (made famous by 
 ## \[CLI] Running Stable Diffusion SDXL 0.9
 
 {% hint style="danger" %}
-Ensure you have installed all requirements [install-run-requirements.md](../lilypad-aurora-testnet/quick-start/install-run-requirements.md "mention")
+Ensure you have installed all requirements [install-run-requirements.md](../lilypad-v3-testnet/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
 To run stable diffusion use the sdxl module like so:
@@ -67,7 +67,7 @@ See this [beginner-friendly article](https://aituts.com/stable-diffusion-seed/) 
 To change the image, you can pass in a different seed number:
 
 ```bash
-lilypad run sdxl:v0.9-lilypad1 -i PromptEnv="PROMPT=beautiful view of iceland with a record player" -i SeedEnv="RANDOM_SEED=24" 
+`lilypad run sdxl-pipeline:v0.9-base-lilypad1 -i Prompt='a gigantic lilypad shaped space station' -i Steps=150` 
 ```
 
 <figure><img src="../.gitbook/assets/sdxl_result_output2.png" alt=""><figcaption><p>Output using different seed.</p></figcaption></figure>
