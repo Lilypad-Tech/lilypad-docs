@@ -19,10 +19,9 @@ go install github.com/lilypad-tech/lilypad@latest
 ```
 
 You may then need to set:
-
-export WEB3_PRIVATE_KEY=&#x3C;your private key>
-</code></pre>
-
+```
+export WEB3_PRIVATE_KEY=<your private key>
+```
 ### 2. Via officially released binaries
 
 ```bash
@@ -41,8 +40,6 @@ sudo mv lilypad /usr/local/bin/lilypad
 You may then need to set:
 
 ```bash
-export SERVICE_SOLVER="0xd4646ef9f7336b06841db3019b617ceadf435316"
-export SERVICE_MEDIATORS="0x2d83ced7562e406151bd49c749654429907543b4"
 export WEB3_PRIVATE_KEY=<your private key>
 ```
 
