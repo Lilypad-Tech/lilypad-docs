@@ -17,5 +17,5 @@ The cloud is just somebody else's computer...
 This guide will take you through
 
 * Setting up [Metamask Wallet](https://metamask.io) for the Lilypad v2 Aurora testnet
-* Funding your wallet with Lilypad Testnet tokens from the [faucet](http://faucet.lilypad.tech:8080).
+* Funding your wallet with Lilypad Testnet tokens from the [faucet](http://faucet.lilypad.tech).
 * Running a Hello, (cow) World! Example :cow:

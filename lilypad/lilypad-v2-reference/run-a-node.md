@@ -18,7 +18,7 @@ We suggest using Metamask with custom settings to make things easier. Once you h
 
 ### Fund your wallet with ETH and LP
 
-To obtain funds, go to [http://faucet.lilypad.tech:8080](http://faucet.lilypad.tech:8080)
+To obtain funds, go to [http://faucet.lilypad.tech](http://faucet.lilypad.tech)
 
 The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for jobs).
 
