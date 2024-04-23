@@ -18,10 +18,12 @@ description: Lilypad setup
 go install github.com/lilypad-tech/lilypad@latest
 ```
 
-You may then need to set:
+You then need to set:
+
 ```bash
 export WEB3_PRIVATE_KEY=<your private key>
 ```
+
 ### 2. Via officially released binaries
 
 ```bash
@@ -37,11 +39,7 @@ chmod +x lilypad
 sudo mv lilypad /usr/local/bin/lilypad
 ```
 
-You may then need to set:
 
-```bash
-export WEB3_PRIVATE_KEY=<your private key>
-```
 
 Verifying if the install is successful. Execute `lilypad` on your terminal and it should produce the following response.
 

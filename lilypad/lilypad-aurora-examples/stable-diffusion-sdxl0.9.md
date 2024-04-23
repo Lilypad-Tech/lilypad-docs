@@ -23,7 +23,7 @@ There are several open-source stable diffusion models out there (made famous by 
 ## \[CLI] Running Stable Diffusion SDXL 0.9
 
 {% hint style="danger" %}
-Ensure you have installed all requirements [install-run-requirements.md](../lilypad-aurora-testnet/quick-start/install-run-requirements.md "mention")
+Ensure you have installed all requirements [install-run-requirements.md](../lilypad-milkyway-testnet/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
 To run stable diffusion use the sdxl module like so:

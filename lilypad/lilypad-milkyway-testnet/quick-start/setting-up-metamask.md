@@ -1,5 +1,5 @@
 ---
-description: Connecting to Lilypad v2 Aurora Testnet
+description: Connecting to Lilypad v2 Milkyway Testnet
 ---
 
 # Setting up metamask
@@ -10,7 +10,7 @@ description: Connecting to Lilypad v2 Aurora Testnet
 * Next, add the Lilypad Testnet chain to metamask.
 
 {% hint style="info" %}
-Network name: `Lilypad v2 Aurora testnet`
+Network name: `Lilypad v3 Milkyway testnet`
 
 New RPC URL: `http://testnet.lilypad.tech:8545`
 
@@ -33,4 +33,4 @@ Next, click on "Add a network manually" at the bottom of the page and enter the 
 
 <figure><img src="../../.gitbook/assets/mm_five.png" alt=""><figcaption></figcaption></figure>
 
-Click Save. 🎉
+Click Save. :tada:

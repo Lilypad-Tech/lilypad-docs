@@ -3,6 +3,16 @@
 * [🍃 Lilypad Home](README.md)
 * [📅 Events](upcoming-events.md)
 
+## Lilypad Milkyway Testnet
+
+* [Overview](lilypad-milkyway-testnet/overview.md)
+* [Architecture](lilypad-milkyway-testnet/architecture.md)
+* [Quick Start](lilypad-milkyway-testnet/quick-start/README.md)
+  * [Setting up metamask](lilypad-milkyway-testnet/quick-start/setting-up-metamask.md)
+  * [Funding your wallet](lilypad-milkyway-testnet/quick-start/funding-your-wallet-from-faucet.md)
+  * [Install requirements](lilypad-milkyway-testnet/quick-start/install-run-requirements.md)
+  * [Run Hello World!](lilypad-milkyway-testnet/quick-start/run-hello-world-job-cli.md)
+
 ## Lilypad Aurora Testnet
 
 * [Overview](lilypad-aurora-testnet/overview.md)
