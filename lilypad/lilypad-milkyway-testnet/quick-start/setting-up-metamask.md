@@ -1,5 +1,5 @@
 ---
-description: Connecting to Lilypad v2 Milkyway Testnet
+description: Connecting to Lilypad v3 Milkyway Testnet
 ---
 
 # Setting up metamask
@@ -31,6 +31,6 @@ Then click the "Add Network" Button.
 
 Next, click on "Add a network manually" at the bottom of the page and enter the Lilypad Testnet details:
 
-<figure><img src="../../.gitbook/assets/mm_five.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 1.png" alt=""><figcaption></figcaption></figure>
 
 Click Save. :tada:

@@ -1,5 +1,5 @@
 ---
-description: Get started with Lilypad Aurora
+description: Get started with Lilypad Milkyway
 ---
 
 # Quick Start
@@ -16,6 +16,6 @@ The cloud is just somebody else's computer...
 
 This guide will take you through
 
-* Setting up [Metamask Wallet](https://metamask.io) for the Lilypad v2 Aurora testnet
+* Setting up [Metamask Wallet](https://metamask.io) for the Lilypad v3 Milkyway testnet
 * Funding your wallet with Lilypad Testnet tokens from the [faucet](http://faucet.lilypad.tech:8080).
 * Running a Hello, (cow) World! Example :cow:
