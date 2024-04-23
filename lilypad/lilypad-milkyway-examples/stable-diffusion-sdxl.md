@@ -28,7 +28,7 @@ Ensure you have installed all requirements [install-run-requirements.md](../lily
 
 To run stable diffusion use the sdxl module like so:
 
-```
+```bash
 lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='a gigantic lilypad shaped space station'
 ```
 

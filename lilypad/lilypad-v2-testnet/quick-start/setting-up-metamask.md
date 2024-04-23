@@ -33,4 +33,4 @@ Next, click on "Add a network manually" at the bottom of the page and enter the 
 
 <figure><img src="../../.gitbook/assets/mm_five.png" alt=""><figcaption></figcaption></figure>
 
-Click Save. :tada:
+Click Save. 🎉

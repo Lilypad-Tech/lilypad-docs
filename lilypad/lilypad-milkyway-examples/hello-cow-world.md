@@ -28,7 +28,7 @@ lilypad run cowsay:v0.0.3 -i Message="hello, lilypad"
 \
 **Output:**
 
-```
+```bash
 Lilypad: v2.0.0-d58a991
 
 ⠀⠀⠀⠀⠀⠀⣀⣤⣤⢠⣤⣀⠀⠀⠀⠀⠀

@@ -33,6 +33,6 @@ Next, click on "Add a network manually" at the bottom of the page and enter the 
 
 <figure><img src="../../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Click Save. :tada:
+Click Save. 🎉
 
 <figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>

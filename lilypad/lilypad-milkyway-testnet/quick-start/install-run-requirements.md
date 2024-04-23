@@ -19,7 +19,7 @@ go install github.com/lilypad-tech/lilypad@latest
 ```
 
 You may then need to set:
-```
+```bash
 export WEB3_PRIVATE_KEY=<your private key>
 ```
 ### 2. Via officially released binaries
