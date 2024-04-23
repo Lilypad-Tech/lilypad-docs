@@ -4,7 +4,7 @@ description: Run a Stable Diffusion Text to Image Job
 
 # Stable Diffusion (SDXL0.9)
 
-\{% embed url="[https://youtu.be/kh5jXuQ6\_ww?si=BYIvEW9q8I4C7eS](https://youtu.be/kh5jXuQ6\_ww?si=BYIvEW9q8I4C7eS)\_" %\} Hacker Cafe Girl Running SDXL \{% endembed %\}
+{% embed url="https://youtu.be/kh5jXuQ6_ww?si=BYIvEW9q8I4C7eS_" %}
 
 ### Overview
 
