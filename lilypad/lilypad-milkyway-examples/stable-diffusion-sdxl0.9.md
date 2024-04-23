@@ -14,9 +14,7 @@ In computer science, you define rules for your (dye) particles to follow and the
 
 Stable Diffusion is a machine learning model used for text-to-image processing (like Dall-E) and based on a diffusion probabilistic model that uses a transformer to generate images from text.\
 \
-There are several open-source stable diffusion models out there (made famous by Stability.ai) and they continue to improve and become even more fully featured - SDXL0.9 is one of the more recently open-sourced models.
-
-[![](https://camo.githubusercontent.com/a9308bedc05cdffeeaf002840afb1be8a030889558ab12f841bfd0d25493e8fb/68747470733a2f2f6c68352e676f6f676c6575736572636f6e74656e742e636f6d2f6569622d7a2d317239695a7978754172595f327a2d4e685076344f5079464143704646362d5f6e576647616f446c593935384e62503566526370554e747a756564574d5f486d72794637614a706c417469516d33657a65565f6355555136397356314d597976636b707454426d494561776e535a69766e456238423869664954597767485f6b334549534c6a535779304a624d3979324a6654673d7332303438)](https://camo.githubusercontent.com/a9308bedc05cdffeeaf002840afb1be8a030889558ab12f841bfd0d25493e8fb/68747470733a2f2f6c68352e676f6f676c6575736572636f6e74656e742e636f6d2f6569622d7a2d317239695a7978754172595f327a2d4e685076344f5079464143704646362d5f6e576647616f446c593935384e62503566526370554e747a756564574d5f486d72794637614a706c417469516d33657a65565f6355555136397356314d597976636b707454426d494561776e535a69766e456238423869664954597767485f6b334549534c6a535779304a624d3979324a6654673d7332303438)
+There are several open-source stable diffusion models out there (made famous by Stability.ai) and they continue to improve and become even more fully featured - SDXL0.9 is one of the more recently open-sourced models
 
 ### \[CLI] Running Stable Diffusion SDXL 0.9
 
@@ -72,15 +70,11 @@ To change the image, you can pass in a different seed number:
 
 Output using different seed.
 
-**CLI Video**
+## CLI Video
 
 In this video, Sam demos the use of SDXL in the Lilypad network.
 
 {% embed url="https://youtu.be/RBECCMl_fco" %}
-
-#### Looking for Smart Contracts? Try this to start!
-
-{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/main/docs/smart-contract-jobs.md" %}
 
 ### Looking for Smart Contracts?
 
