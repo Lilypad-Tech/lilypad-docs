@@ -8,7 +8,7 @@ coverY: 0
 
 # 🍃 Lilypad Home
 
-Image: `> lilypad run sdxl:v0.9-lilypad1 "A record player in a room of flowers"`
+Image: `> lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='A record player in a room of flowers'`
 
 {% hint style="warning" %}
 Lilypad Docs under construction! We're currently updating our docs for Lilypad v2 -> Aurora Testnet\
@@ -26,7 +26,7 @@ Distributed computing will unlock the next generation of truly internet-scale mo
 ## Overview
 
 {% hint style="info" %}
-Lilypad is now at **v2: Aurora Testnet!** 🎉 Try it out - we dare you :man\_technologist:
+Lilypad is now at **v2: Aurora Testnet!** :tada: Try it out - we dare you :man\_technologist:
 {% endhint %}
 
 <figure><img src=".gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Lilypad creates a decentralised marketplace for compute jobs</p></figcaption></figure>
