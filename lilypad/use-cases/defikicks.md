@@ -42,7 +42,7 @@ In essence, DefiKicks, with its combination of technologies, proposes a novel, t
 
 ## Architecture
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/defikicks.png>)
 
 DefiKicks operates on a foundation of decentralized technologies and protocols to ensure transparent, accessible DeFi data.
 
