@@ -25,29 +25,6 @@
 * [Hello, (cow) World!](lilypad-milkyway-examples/hello-cow-world.md)
 * [Stable Diffusion (SDXL0.9)](lilypad-milkyway-examples/stable-diffusion-sdxl0.9.md)
 
-## Lilypad Aurora Testnet
-
-* [Overview](lilypad-aurora-testnet/overview.md)
-* [Architecture](lilypad-aurora-testnet/architecture.md)
-* [Quick Start](lilypad-aurora-testnet/quick-start/README.md)
-  * [Setting up metamask](lilypad-aurora-testnet/quick-start/setting-up-metamask.md)
-  * [Funding your wallet](lilypad-aurora-testnet/quick-start/funding-your-wallet-from-faucet.md)
-  * [Install requirements](lilypad-aurora-testnet/quick-start/install-run-requirements.md)
-  * [Run Hello World!](lilypad-aurora-testnet/quick-start/run-hello-world-job-cli.md)
-
-## Lilypad Aurora Examples
-
-* [Hello, (cow) World!](lilypad-aurora-examples/hello-cow-world.md)
-* [Hello, (cow) World! on Sepolia](lilypad-aurora-examples/cowsay-sepolia.md)
-* [Hello, (cow) World! on Mumbai](lilypad-aurora-examples/cowsay-mumbai.md)
-* [Stable Diffusion (SDXL0.9)](lilypad-aurora-examples/stable-diffusion-sdxl0.9.md)
-* [Mistral (LLM)](lilypad-aurora-examples/llm-inference.md)
-* [Voice Sample & Text to Voice \[Dub3\]](lilypad-aurora-examples/voice-sample-and-text-to-voice-dub3.md)
-* [LoRA Fine Tuning](lilypad-aurora-examples/lora-fine-tuning.md)
-* [DuckDB](lilypad-aurora-examples/duckdb.md)
-* [Filecoin Data Prep](lilypad-aurora-examples/filecoin-data-prep.md)
-* [Arbitrary WASM](lilypad-aurora-examples/arbitrary-wasm.md)
-
 ## Research & Vision
 
 * [Litepaper](research-and-vision/whitepaper.md)
@@ -72,6 +49,29 @@
 ## Meet the Lilypad Team
 
 * [Team](meet-the-lilypad-team/team.md)
+
+## Lilypad Aurora V2 Testnet \[Deprecated]
+
+* [Overview](lilypad-aurora-v2-testnet-deprecated/overview.md)
+* [Architecture](lilypad-aurora-v2-testnet-deprecated/architecture.md)
+* [Quick Start](lilypad-aurora-v2-testnet-deprecated/quick-start/README.md)
+  * [Setting up metamask](lilypad-aurora-v2-testnet-deprecated/quick-start/setting-up-metamask.md)
+  * [Funding your wallet](lilypad-aurora-v2-testnet-deprecated/quick-start/funding-your-wallet-from-faucet.md)
+  * [Install requirements](lilypad-aurora-v2-testnet-deprecated/quick-start/install-run-requirements.md)
+  * [Run Hello World!](lilypad-aurora-v2-testnet-deprecated/quick-start/run-hello-world-job-cli.md)
+
+## Lilypad Aurora V2 Examples \[Deprecated]
+
+* [Hello, (cow) World!](lilypad-aurora-v2-examples-deprecated/hello-cow-world.md)
+* [Hello, (cow) World! on Sepolia](lilypad-aurora-v2-examples-deprecated/cowsay-sepolia.md)
+* [Hello, (cow) World! on Mumbai](lilypad-aurora-v2-examples-deprecated/cowsay-mumbai.md)
+* [Stable Diffusion (SDXL0.9)](lilypad-aurora-v2-examples-deprecated/stable-diffusion-sdxl0.9.md)
+* [Mistral (LLM)](lilypad-aurora-v2-examples-deprecated/llm-inference.md)
+* [Voice Sample & Text to Voice \[Dub3\]](lilypad-aurora-v2-examples-deprecated/voice-sample-and-text-to-voice-dub3.md)
+* [LoRA Fine Tuning](lilypad-aurora-v2-examples-deprecated/lora-fine-tuning.md)
+* [DuckDB](lilypad-aurora-v2-examples-deprecated/duckdb.md)
+* [Filecoin Data Prep](lilypad-aurora-v2-examples-deprecated/filecoin-data-prep.md)
+* [Arbitrary WASM](lilypad-aurora-v2-examples-deprecated/arbitrary-wasm.md)
 
 ## Lilypad v1 Testnet \[Deprecated]
 
