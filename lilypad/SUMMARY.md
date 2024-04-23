@@ -20,6 +20,11 @@
 * [Game Theory](lilypad-milkyway-reference/game-theory.md)
 * [Running Lilypad in a Front End](lilypad-milkyway-reference/running-lilypad-in-a-front-end.md)
 
+## Lilypad Milkyway Examples
+
+* [Hello, (cow) World!](lilypad-milkyway-examples/hello-cow-world.md)
+* [Stable Diffusion (SDXL0.9)](lilypad-milkyway-examples/stable-diffusion-sdxl0.9.md)
+
 ## Lilypad Aurora Testnet
 
 * [Overview](lilypad-aurora-testnet/overview.md)
