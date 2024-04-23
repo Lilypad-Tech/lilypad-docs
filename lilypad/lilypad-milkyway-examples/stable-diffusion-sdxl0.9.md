@@ -76,14 +76,11 @@ Output using different seed.
 
 In this video, Sam demos the use of SDXL in the Lilypad network.
 
-\{% embed url="[https://youtu.be/RBECCMl\_fco](https://youtu.be/RBECCMl\_fco)" %\} Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo \{% endembed %\}
+{% embed url="https://youtu.be/RBECCMl_fco" %}
 
-#### Looking for Smart Contracts?
+#### Looking for Smart Contracts? Try this to start!
 
-\
-Try this to start!
-
-\{% @github-files/github-code-block url="[https://github.com/bacalhau-project/lilypad/blob/main/docs/smart-contract-jobs.md](https://github.com/bacalhau-project/lilypad/blob/main/docs/smart-contract-jobs.md)" %\}
+{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/main/docs/smart-contract-jobs.md" %}
 
 ### Looking for Smart Contracts?
 

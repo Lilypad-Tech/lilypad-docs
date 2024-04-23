@@ -6,7 +6,9 @@ description: A cowsay job
 
 ### Run Hello, 🐮 World! Job \[CLI] <a href="#user-content-run-hello-world-job" id="user-content-run-hello-world-job"></a>
 
-\{% hint style="warning" %\} Ensure you have installed all requirements [https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-aurora-testnet/quick-start/install-run-requirements.md](https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-aurora-testnet/quick-start/install-run-requirements.md "mention") \{% endhint %\}
+{% hint style="info" %}
+Ensure you have installed all requirements [https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-aurora-testnet/quick-start/install-run-requirements.md](https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-aurora-testnet/quick-start/install-run-requirements.md "mention")
+{% endhint %}
 
 1. Start Docker
 2. Open a Terminal window and run the following command
