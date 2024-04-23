@@ -1,5 +1,5 @@
 ---
-description: Running the most important Hello World on lilypad
+description: Running the most important Hello World on Lilypad
 ---
 
 # Run Hello World!

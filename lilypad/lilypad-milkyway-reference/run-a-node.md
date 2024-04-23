@@ -12,7 +12,7 @@ The testnet has a base currency of ETH, as well as a utility token called LP. Yo
 
 We suggest using Metamask with custom settings to make things easier. Once you have it installed and setup, here are the settings you should use:
 
-* Network name: Lilypad v2 Milkyway testnet
+* Network name: Lilypad v3 Milkyway testnet
 * New RPC URL:[ http://testnet.lilypad.tech:8545](http://testnet.lilypad.tech:8545/)
 * Chain ID: 1337
 * Currency symbol: ETH
@@ -99,7 +99,11 @@ Open /etc/systemd/system/bacalhau.service in your favourite editor (hint: sudo e
 
 #### Install systemd unit for GPU provider
 
-Open /etc/systemd/system/lilypad-resource-provider.service in your favourite editor (hint: sudo editor /etc/systemd/system/lilypad-resource-provider.service)
+Open /etc/systemd/system/lilypad-resource-provider.service in your favourite editor&#x20;
+
+{% hint style="info" %}
+Hint: sudo editor /etc/systemd/system/lilypad-resource-provider.service
+{% endhint %}
 
 
 
