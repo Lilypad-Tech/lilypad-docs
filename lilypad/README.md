@@ -26,7 +26,7 @@ Distributed computing will unlock the next generation of truly internet-scale mo
 ## Overview
 
 {% hint style="info" %}
-Lilypad is now at **v2: Aurora Testnet!** :tada: Try it out - we dare you :man\_technologist:
+Lilypad is now at **v2: Aurora Testnet!** 🎉 Try it out - we dare you :man\_technologist:
 {% endhint %}
 
 <figure><img src=".gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Lilypad creates a decentralised marketplace for compute jobs</p></figcaption></figure>
