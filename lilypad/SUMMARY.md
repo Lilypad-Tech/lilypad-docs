@@ -13,12 +13,12 @@
   * [Install requirements](lilypad-aurora-testnet/quick-start/install-run-requirements.md)
   * [Run Hello World!](lilypad-aurora-testnet/quick-start/run-hello-world-job-cli.md)
 
-## Lilypad Aurora Reference
+## Lilypad Milkyway Reference
 
-* [Run a Node](lilypad-aurora-reference/run-a-node.md)
-* [Build a Job Module](lilypad-aurora-reference/build-a-job-module.md)
-* [Game Theory](lilypad-aurora-reference/game-theory.md)
-* [Running Lilypad in a Front End](lilypad-aurora-reference/running-lilypad-in-a-front-end.md)
+* [Run a Node](lilypad-milkyway-reference/run-a-node.md)
+* [Build a Job Module](lilypad-milkyway-reference/build-a-job-module.md)
+* [Game Theory](lilypad-milkyway-reference/game-theory.md)
+* [Running Lilypad in a Front End](lilypad-milkyway-reference/running-lilypad-in-a-front-end.md)
 
 ## Lilypad Aurora Examples
 
