@@ -78,7 +78,11 @@ NOTE: YOU MUST NOT REUSE YOUR COMPUTE NODE KEY AS A CLIENT, EVEN FOR TESTING: TH
 
 #### Install systemd unit for Bacalhau:
 
-Open /etc/systemd/system/bacalhau.service in your favourite editor (hint: sudo editor /etc/systemd/system/bacalhau.service)
+Open /etc/systemd/system/bacalhau.service in your favourite editor.
+
+{% hint style="info" %}
+Hint: sudo editor /etc/systemd/system/bacalhau.service
+{% endhint %}
 
 <pre><code>[Unit]
 Description=Lilypad V2 Bacalhau
@@ -100,7 +104,7 @@ WantedBy=multi-user.target
 
 #### Install systemd unit for GPU provider
 
-Open /etc/systemd/system/lilypad-resource-provider.service in your favourite editor&#x20;
+Open /etc/systemd/system/lilypad-resource-provider.service in your favourite editor.
 
 {% hint style="info" %}
 Hint: sudo editor /etc/systemd/system/lilypad-resource-provider.service
