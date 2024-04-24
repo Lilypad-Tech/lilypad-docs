@@ -10,11 +10,6 @@ coverY: 0
 
 Image: `> lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='A record player in a room of flowers'`
 
-{% hint style="warning" %}
-Lilypad Docs under construction! We're currently updating our docs for Lilypad v2 -> Aurora Testnet\
-See [https://github.com/bacalhau-project/lilypad](https://github.com/bacalhau-project/lilypad) for developer info while we do! :relaxed:
-{% endhint %}
-
 ## Vision
 
 [Lilypad](https://blog.lilypadnetwork.org) is aiming to build an internet-scale trustless distributed compute network for web3. Creating the infrastructure for use cases like AI inference, ML training, DeSci and more.\
