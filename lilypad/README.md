@@ -16,21 +16,21 @@ Image: `> lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='A record playe
 \
 Distributed computing will unlock the next generation of truly internet-scale models and applications in web3 and offer the tools for a true paradigm shift to an open and trustless internet.
 
+Find Lilypad on Github [here](https://github.com/Lilypad-Tech/lilypad).&#x20;
+
 {% embed url="https://twitter.com/Lilypad_Tech/status/1689528626440794113?s=20" %}
 
 ## Overview
 
 {% hint style="info" %}
-Lilypad is now at **v2: Aurora Testnet!** :tada: Try it out - we dare you :man\_technologist:
+Lilypad is now at **v3: Milkyway Testnet!** :tada: [Try it out](https://docs.lilypad.tech/lilypad/lilypad-milkyway-testnet/quick-start) - we dare you :man\_technologist:
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Lilypad creates a decentralised marketplace for compute jobs</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Lilypad creates a decentralzed marketplace for compute jobs</p></figcaption></figure>
 
-#### Lilypad Aurora
+## Lilypad Roadmap
 
-Lilypad Aurora is Lilypad's v2 Test Network.
-
-See [https://github.com/bacalhau-project/lilypad-docs/blob/main/lilypad/broken-reference/README.md](https://github.com/bacalhau-project/lilypad-docs/blob/main/lilypad/broken-reference/README.md "mention")
+<figure><img src=".gitbook/assets/roadmap (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Lilypad v1
 
@@ -69,17 +69,6 @@ Bacalhau is a peer to peer computation network enabling compute over data jobs l
 Bacalhau aims to transform data processing & improve cost, efficiency & security by running jobs where the data is generated and stored. With Bacalhau, you can streamline your existing workflows without the need of extensive rewriting by running arbitrary Docker containers and WebAssembly (wasm) images as tasks.
 
 To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
-
-## Lilypad Roadmap
-
-* v0: **September 2022** - Lilypad Bridge POC for triggering and returning Bacalhau compute jobs from a smart contract
-* v1: **July 2023** - A [modicum](https://dl.acm.org/doi/pdf/10.1145/3401025.3401737)-based minimal testnet (EVM-based). See [github](https://github.com/bacalhau-project/lilypad-modicum)
-* v2: **September 2023** - A more robust trustless distributed testnet
-* v3 **November 2023** - Lilypad AI Studio, Calibration Net for compute providers
-* v4: **Q1 2024** - Lilypad Incentivized Testnet deployment
-* v5: **tbd** - Lilypad Mainnet
-
-<figure><img src=".gitbook/assets/LilyRoadmap.png" alt=""><figcaption></figcaption></figure>
 
 ## Join the Community & Chat with Us
 
