@@ -6,7 +6,7 @@ description: With testnet Lilypad ETH
 
 ## Funding your wallet
 
-To obtain funds, connect to the Lilypad v3 Milkyway testnet network on your wallet and head to the faucet at http://faucet.lilypad.tech to get ETH and LP.
+To obtain funds, connect to the Lilypad v3 Milkyway testnet network on your wallet and head to the faucet at `http://faucet.lilypad.tech` to get ETH and LP.
 
 {% hint style="info" %}
 Faucet: [Testnet](http://faucet.lilypad.tech:8080)
