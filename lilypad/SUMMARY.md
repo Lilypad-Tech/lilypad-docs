@@ -23,7 +23,7 @@
 ## Lilypad Milkyway Examples
 
 * [Hello, (cow) World!](lilypad-milkyway-examples/hello-cow-world.md)
-* [Stable Diffusion (SDXL0.9)](lilypad-milkyway-examples/stable-diffusion-sdxl0.9.md)
+* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-milkyway-examples/stable-diffusion-sdxl0.9.md)
 
 ## Research & Vision
 
