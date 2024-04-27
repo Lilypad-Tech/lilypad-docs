@@ -12,4 +12,4 @@ These documents provide a background for the ongoing research on Lilypad. They a
 
 ### Learn more about:
 
-<table data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="verifiable-computing.md">verifiable-computing.md</a></td></tr><tr><td><a href="problem-statement.md">problem-statement.md</a></td></tr><tr><td><a href="prior-protocols.md">prior-protocols.md</a></td></tr><tr><td><a href="autonomous-agents.md">autonomous-agents.md</a></td></tr><tr><td><a href="mechanisms-to-explor.md">mechanisms-to-explor.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th></tr></thead><tbody><tr><td><a href="verifiable-computing.md">verifiable-computing.md</a></td><td></td></tr><tr><td><a href="problem-statement.md">problem-statement.md</a></td><td></td></tr><tr><td><a href="prior-protocols.md">prior-protocols.md</a></td><td></td></tr><tr><td><a href="autonomous-agents.md">autonomous-agents.md</a></td><td></td></tr><tr><td><a href="mechanisms-to-explor.md">mechanisms-to-explor.md</a></td><td></td></tr></tbody></table>
