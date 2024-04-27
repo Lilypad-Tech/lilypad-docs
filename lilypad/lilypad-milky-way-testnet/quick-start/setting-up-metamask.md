@@ -1,5 +1,5 @@
 ---
-description: Connecting to Lilypad v3 Milkyway Testnet
+description: Connecting to Lilypad v3 Milky Way Testnet
 ---
 
 # Setting up MetaMask
@@ -10,7 +10,7 @@ description: Connecting to Lilypad v3 Milkyway Testnet
 * Next, add the Lilypad Testnet chain to MetaMask.
 
 {% hint style="info" %}
-Network name: `Lilypad v3 Milkyway testnet`
+Network name: `Lilypad v3 Milky Way testnet`
 
 New RPC URL: `http://testnet.lilypad.tech:8545`
 
@@ -31,6 +31,6 @@ Then click the "Add Network" Button.
 
 Next, click on "Add a network manually" at the bottom of the page and enter the Lilypad Testnet details:
 
-<figure><img src="../../.gitbook/assets/Group 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 2.png" alt=""><figcaption></figcaption></figure>
 
 Click Save. :tada:

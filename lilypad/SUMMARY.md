@@ -3,28 +3,28 @@
 * [🍃 Lilypad Home](README.md)
 * [📅 Events](upcoming-events.md)
 
-## Lilypad Milkyway Testnet
+## Lilypad Milky Way Testnet
 
-* [Overview](lilypad-aurora-testnet/overview.md)
-* [Architecture](lilypad-milkyway-testnet/architecture.md)
-* [Quick Start](lilypad-aurora-testnet/quick-start/README.md)
-  * [Setting up MetaMask](lilypad-milkyway-testnet/quick-start/setting-up-metamask.md)
-  * [Funding your wallet](lilypad-milkyway-testnet/quick-start/funding-your-wallet-from-faucet.md)
-  * [Install requirements](lilypad-milkyway-testnet/quick-start/install-run-requirements.md)
-  * [Run Hello World!](lilypad-aurora-testnet/quick-start/run-hello-world-job-cli.md)
+* [Overview](lilypad-milky-way-testnet/overview.md)
+* [Architecture](lilypad-milky-way-testnet/architecture.md)
+* [Quick Start](lilypad-milky-way-testnet/quick-start/README.md)
+  * [Setting up MetaMask](lilypad-milky-way-testnet/quick-start/setting-up-metamask.md)
+  * [Funding your wallet](lilypad-milky-way-testnet/quick-start/funding-your-wallet-from-faucet.md)
+  * [Install requirements](lilypad-milky-way-testnet/quick-start/install-run-requirements.md)
+  * [Run Hello World!](lilypad-milky-way-testnet/quick-start/run-hello-world-job-cli.md)
 
-## Lilypad Milkyway Reference
+## Lilypad Milky Way Reference
 
-* [Run a Node](lilypad-milkyway-reference/run-a-node.md)
-* [Build a Job Module](lilypad-milkyway-reference/build-a-job-module.md)
-* [Game Theory](lilypad-milkyway-reference/game-theory.md)
-* [Running Lilypad in a Front End](lilypad-aurora-reference/running-lilypad-in-a-front-end.md)
+* [Run a Node](lilypad-milky-way-reference/run-a-node.md)
+* [Build a Job Module](lilypad-milky-way-reference/build-a-job-module.md)
+* [Game Theory](lilypad-milky-way-reference/game-theory.md)
+* [Running Lilypad in a Front End](lilypad-milky-way-reference/running-lilypad-in-a-front-end.md)
 
-## Lilypad Milkyway Examples
+## Lilypad Milky Way Examples
 
-* [Hello, (cow) World!](lilypad-milkyway-examples/hello-cow-world.md)
-* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-milkyway-examples/stable-diffusion-sdxl0.9.md)
-* [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-milkyway-examples/stable-diffusion-video-sdv1.0-and-1.1.md)
+* [Hello, (cow) World!](lilypad-milky-way-examples/hello-cow-world.md)
+* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-milky-way-examples/stable-diffusion-sdxl0.9.md)
+* [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-milky-way-examples/stable-diffusion-video-sdv1.0-and-1.1.md)
 
 ## Research & Vision
 

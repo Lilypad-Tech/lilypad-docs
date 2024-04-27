@@ -23,7 +23,7 @@ Find Lilypad on Github [here](https://github.com/Lilypad-Tech/lilypad).&#x20;
 ## Overview
 
 {% hint style="info" %}
-Lilypad is now at **v3: Milkyway Testnet!** :tada: [Try it out](https://docs.lilypad.tech/lilypad/lilypad-milkyway-testnet/quick-start) - we dare you :man\_technologist:
+Lilypad is now at **v3: Milky Way Testnet!** :tada: [Try it out](https://docs.lilypad.tech/lilypad/lilypad-milkyway-testnet/quick-start) - we dare you :man\_technologist:
 {% endhint %}
 
 <figure><img src=".gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Lilypad creates a decentralzed marketplace for compute jobs</p></figcaption></figure>

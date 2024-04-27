@@ -12,7 +12,7 @@ The testnet has a base currency of ETH, as well as a utility token called LP. Yo
 
 We suggest using MetaMask with custom settings to make things easier. Once you have it installed and setup, here are the settings you should use:
 
-* Network name: Lilypad v3 Milkyway testnet
+* Network name: Lilypad v3 Milky Way testnet
 * New RPC URL:[ http://testnet.lilypad.tech:8545](http://testnet.lilypad.tech:8545/)
 * Chain ID: 1337
 * Currency symbol: ETH
