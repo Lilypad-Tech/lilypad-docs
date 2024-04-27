@@ -80,7 +80,7 @@ https://ipfs.io/ipfs/QmVng1jkMxE9ep4k8mYiiCiWaCRiRLvCeo6bJRXirhz1dZ
 Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
 {% endhint %}
 
-You could also check the output folder that would have been downloaded at the end of running the job
+You could also check the output folder that would have been downloaded at the end of running the job:
 
 ```
 open /tmp/lilypad/data/downloaded-files/QmZuE29GJVmenRUh72FQDgkMUT1Zdp967oEJvzjaDwGGVo

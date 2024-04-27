@@ -60,7 +60,7 @@ https://ipfs.io/ipfs/QmZ9jvBxfwdeHTXpvDWnTqkLLWvdANzkDstph2EnXMfU4w
 Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
 {% endhint %}
 
-You could also check the output folder that would have been downloaded at the end of running the job
+You could also check the output folder that would have been downloaded at the end of running the job:
 
 ```
 open /tmp/lilypad/data/downloaded-files/QmbjEKwZn5vSBoArudUEAPJDEiesVPk5tNkYxFvNkdFs6t
@@ -74,7 +74,7 @@ In the **/outputs** folder, you'll find the video and associated images:
 
 {% embed url="https://drive.google.com/file/d/19_oEBcpKSe1n91AyGdIePJdQMzz1KjoD/view?usp=drive_link" %}
 
-**The video in the outputs folder:**
+**The video in the outputs folder**
 
 Since modules are deterministic, running this command with the same text prompt will produce the same image, since the same seed is also used (the default seed is 0).
 
