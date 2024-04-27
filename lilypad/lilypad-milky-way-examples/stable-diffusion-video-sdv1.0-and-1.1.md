@@ -79,7 +79,7 @@ In the **/outputs** folder, you'll find the video and associated images:
 Since modules are deterministic, running this command with the same text prompt will produce the same image, since the same seed is also used (the default seed is 0).
 
 {% hint style="info" %}
-See this [beginner-friendly article](https://aituts.com/stable-diffusion-seed/) on how seed's work for more info on this
+See this [beginner-friendly article](https://aituts.com/stable-diffusion-seed/) on how seeds work for more info on this
 {% endhint %}
 
 ## Options and tunables
