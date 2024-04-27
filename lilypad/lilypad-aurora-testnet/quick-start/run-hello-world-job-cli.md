@@ -1,12 +1,16 @@
 ---
-description: Running the most important Hello World on Lilypad
+description: Running the most important Hello World on lilypad
 ---
 
 # Run Hello World!
 
-> **Note**: Make sure to you have Lilypad CLI installed.
+{% hint style="info" %}
+Make sure to you have Lilypad CLI installed
+{% endhint %}
 
-> **Note**: Make sure you have `SERVICE_SOLVER`, `SERVICE_MEDIATORS` and `WEB3_PRIVATE_KEY` env variables in your environment
+{% hint style="info" %}
+Make sure you have set a `WEB3_PRIVATE_KEY` env variable in your environment
+{% endhint %}
 
 ### Run Cowsay
 
@@ -20,7 +24,7 @@ lilypad run cowsay:v0.0.3 -i Message="moo"
 
 <figure><img src="../../.gitbook/assets/cowmo_success.png" alt=""><figcaption><p>A successful run</p></figcaption></figure>
 
-3. Viewing your results
+3. View your results
 
 ```bash
 cat /tmp/lilypad/data/downloaded-files/Qma2Ds9uGmtDd3GkerqqKLJe9TjcZC4yxuGRUaFBsQi7yr/stdout

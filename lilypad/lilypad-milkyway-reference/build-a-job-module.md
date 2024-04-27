@@ -1,7 +1,5 @@
 # Build a Job Module
 
-## Introduction
-
 A Lilypad module is a Git repository that can be used to perform various tasks using predefined templates and inputs. This guide will walk you through the process of creating a Lilypad module, including defining a JSON template, handling inputs, ensuring determinism, and other best practices.
 
 ## Module Structure

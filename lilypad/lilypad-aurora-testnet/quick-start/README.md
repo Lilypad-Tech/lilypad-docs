@@ -1,5 +1,5 @@
 ---
-description: Get started with Lilypad Milkyway
+description: Get started with Lilypad Aurora
 ---
 
 # Quick Start

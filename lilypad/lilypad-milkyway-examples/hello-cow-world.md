@@ -20,7 +20,7 @@ export WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY
 
 4. Run `lilypad`
 
-```
+```bash
 lilypad run cowsay:v0.0.3 -i Message="hello, lilypad"  
 ```
 
@@ -28,7 +28,7 @@ lilypad run cowsay:v0.0.3 -i Message="hello, lilypad"
 \
 **Output:**
 
-```
+```bash
 Lilypad: v2.0.0-d58a991
 
 ⠀⠀⠀⠀⠀⠀⣀⣤⣤⢠⣤⣀⠀⠀⠀⠀⠀
@@ -59,18 +59,20 @@ Lilypad: v2.0.0-d58a991
 
 #### See the Results <a href="#user-content-see-the-results" id="user-content-see-the-results"></a>
 
-1. see the results by navigating to the IPFS CID Navigate to the IPFS CID result output in the Results -> [https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR](https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR)
+1. View the results by navigating to the IPFS CID Navigate to the IPFS CID result output in the Results -> [https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR](https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR)
 
-\{% hint style="info" %\} This could take up to a minute to propagate through the IPFS network. Please be patient \{% endhint %\}
+{% hint style="info" %}
+This could take up to a minute to propagate through the IPFS network. Please be patient
+{% endhint %}
 
-2. by navigting to the local folder
+2. View the results by navigating to the local folder
 
-<pre><code><strong>open /tmp/lilypad/data/downloaded-files/Qmay5vZ7u5jvn2VkAGMLkkYXGQQd5GFZFuHkbDEFYb5VeF
+<pre class="language-bash"><code class="lang-bash"><strong>open /tmp/lilypad/data/downloaded-files/Qmay5vZ7u5jvn2VkAGMLkkYXGQQd5GFZFuHkbDEFYb5VeF
 </strong></code></pre>
 
 Here, you can view the `stdout` and `stderr` as well as the `outputs` folder for the run
 
-<pre><code><strong>% cat /tmp/lilypad/data/downloaded-files/QmYiX2GkDDkqXGsnBaEUuGuNc93ZWoBWPNbNSz2AnFQcMk/stdout
+<pre class="language-bash"><code class="lang-bash"><strong>% cat /tmp/lilypad/data/downloaded-files/QmYiX2GkDDkqXGsnBaEUuGuNc93ZWoBWPNbNSz2AnFQcMk/stdout
 </strong>
  _______________
 &#x3C; hello lilypad >

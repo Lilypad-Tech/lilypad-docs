@@ -22,23 +22,21 @@ The Lilypad Contracts are not currently importable via npm (though this is in pr
 
 Using Lilypad in your own solidity smart contract requires the following steps
 
-1.  Create a contract that implements the [LilypadCaller](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadCallerInterface.sol) interface.&#x20;
+1.  Create a contract that implements the [LilypadCaller](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadCallerInterface.sol) interface.
 
     As part of this interface you need to implement 2 functions:
 
     * `lilypadFulfilled` - a callback function that will be called when the job completes successfully
     * `lilypadCancelled` - a callback function that will be called when the job fails
 2. Provide a public [Docker Spec compatible for use on Bacalhau](https://docs.bacalhau.org/getting-started/docker-workload-onboarding) in JSON format to the contract.
-3. To trigger a job from your contract, you need to call the `LilypadEvents` contract which the Lilypad bridge is listening to and which connects to the Bacalhau public network. Create an instance of [`LilypadEvents`](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadEvents.sol) by passing the public contract address on the network you are using (see [deployed-network-details.md](deployed-network-details.md "mention")) to the `LilypadEvents` constructor.
-4. Call the [LilypadEvents](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadEvents.sol) contract function `runLilypadJob()` passing in the following parameters.&#x20;
+3. To trigger a job from your contract, you need to call the `LilypadEvents` contract which the Lilypad bridge is listening to and which connects to the Bacalhau public network. Create an instance of [`LilypadEvents`](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadEvents.sol) by passing the public contract address on the network you are using (see [deployed-network-details.md](../resources/older-versions/lilypad-v0/reference/deployed-network-details.md "mention")) to the `LilypadEvents` constructor.
+4. Call the [LilypadEvents](https://github.com/bacalhau-project/lilypad-v0/blob/main/hardhat/contracts/LilypadEvents.sol) contract function `runLilypadJob()` passing in the following parameters.
 
 |      Name     |                                                               Type                                                              |                                                                                                              Purpose                                                                                                             |
 | :-----------: | :-----------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |    `_from`    |                                                            `address`                                                            |                                          The address of the calling contract, to which success or failure will be passed back. You should probably use address(this) from your contract.                                         |
 |    `_spec`    |                                                             `string`                                                            |                                                                    A Bacalhau job spec in JSON format. See below for more information on creating a job spec.                                                                    |
 | `_resultType` | [`LilypadResultType`](https://github.com/bacalhau-project/lilypad/blob/main/hardhat/contracts/LilypadCallerInterface.sol#L4-L9) | The type of result that you want to be returned. If you specify CID, the result tree will come back as a retrievable IPFS CID. If you specify StdOut, StdErr or ExitCode, those raw values output from the job will be returned. |
-
-
 
 ## Implement the LilypadCaller Interface in your contract
 
@@ -235,4 +233,4 @@ contract MyContract is LilypadCallerInterface {
 }
 ```
 
-\
+\\

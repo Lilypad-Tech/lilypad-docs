@@ -9,10 +9,10 @@ description: With testnet Lilypad ETH
 To obtain funds, connect to the Lilypad v3 Milkyway testnet network on your wallet and head to the faucet at `http://faucet.lilypad.tech` to get ETH and LP.
 
 {% hint style="info" %}
-Faucet: [Testnet](http://faucet.lilypad.tech:8080)
+Faucet: [Testnet](http://faucet.lilypad.tech)
 {% endhint %}
 
-Copy your Metamask wallet address into the bar and click request.
+Copy your MetaMask wallet address into the bar and click request.
 
 <figure><img src="../../.gitbook/assets/wallet_lp.png" alt=""><figcaption><p>Aurora Testnet Faucet</p></figcaption></figure>
 

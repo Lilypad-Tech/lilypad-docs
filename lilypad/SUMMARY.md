@@ -5,20 +5,20 @@
 
 ## Lilypad Milkyway Testnet
 
-* [Overview](lilypad-milkyway-testnet/overview.md)
+* [Overview](lilypad-aurora-testnet/overview.md)
 * [Architecture](lilypad-milkyway-testnet/architecture.md)
-* [Quick Start](lilypad-milkyway-testnet/quick-start/README.md)
-  * [Setting up metamask](lilypad-milkyway-testnet/quick-start/setting-up-metamask.md)
+* [Quick Start](lilypad-aurora-testnet/quick-start/README.md)
+  * [Setting up MetaMask](lilypad-milkyway-testnet/quick-start/setting-up-metamask.md)
   * [Funding your wallet](lilypad-milkyway-testnet/quick-start/funding-your-wallet-from-faucet.md)
   * [Install requirements](lilypad-milkyway-testnet/quick-start/install-run-requirements.md)
-  * [Run Hello World!](lilypad-milkyway-testnet/quick-start/run-hello-world-job-cli.md)
+  * [Run Hello World!](lilypad-aurora-testnet/quick-start/run-hello-world-job-cli.md)
 
 ## Lilypad Milkyway Reference
 
 * [Run a Node](lilypad-milkyway-reference/run-a-node.md)
 * [Build a Job Module](lilypad-milkyway-reference/build-a-job-module.md)
 * [Game Theory](lilypad-milkyway-reference/game-theory.md)
-* [Running Lilypad in a Front End](lilypad-milkyway-reference/running-lilypad-in-a-front-end.md)
+* [Running Lilypad in a Front End](lilypad-aurora-reference/running-lilypad-in-a-front-end.md)
 
 ## Lilypad Milkyway Examples
 
@@ -55,7 +55,7 @@
 * [Older Versions](resources/older-versions/README.md)
   * [Lilypad v0](resources/older-versions/lilypad-v0/README.md)
     * [Reference](resources/older-versions/lilypad-v0/reference/README.md)
-      * [Lilypad v0 Quick Start](resources/older-versions/lilypad-v0/reference/lilypad-v0-quick-start.md)
+      * [Lilypad v0 Quick Start](lilypad-v0-reference-deprecated/lilypad-v0-quick-start.md)
       * [Deployed Network Details](resources/older-versions/lilypad-v0/reference/deployed-network-details.md)
       * [Lilypad Smart Contracts](resources/older-versions/lilypad-v0/reference/lilypad-smart-contracts.md)
       * [Creating your own Jobs](resources/older-versions/lilypad-v0/reference/creating-your-own-jobs.md)
