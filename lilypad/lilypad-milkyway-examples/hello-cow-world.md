@@ -14,7 +14,7 @@ Ensure you have installed all requirements [https://github.com/noryev/lilypad-do
 2. Open a Terminal window and run the following command
 3. Make sure to have the following env in your shell session
 
-```
+```bash
 export WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY
 ```
 

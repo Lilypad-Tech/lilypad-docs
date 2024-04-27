@@ -13,7 +13,7 @@ The SDV Pipeline modules are designed to take your text prompt, generate a still
 ## Running Stable Diffusion Video SDV1.0 and SDV1.1
 
 {% hint style="info" %}
-Ensure you have installed all requirements [https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-milkyway-testnet/quick-start/install-run-requirements.md](https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-milkyway-testnet/quick-start/install-run-requirements.md)
+Ensure you have installed [all requirements](../)
 {% endhint %}
 
 ### Lilypad
@@ -22,13 +22,13 @@ To run SDV1.0 or 1.1 Pipeline in Lilypad, you can use the following commands:
 
 #### SDV 1.0
 
-```
+```bash
 lilypad run sdv-pipeline:v1.0-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps 70
 ```
 
 #### SDV 1.1
 
-```
+```bash
 lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps 70
 ```
 
@@ -36,7 +36,7 @@ lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt=
 
 If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to change or improve the quality of the image generated add "Steps=x" with x = (up to 70):
 
-```
+```bash
 lilypad run sdv-pipeline -i Prompt="an astronaut floating against a white background" -i Steps=69
 ```
 
@@ -52,7 +52,7 @@ The output will look like this:
 
 Take the ipfs link given in the results and paste it into your browser:
 
-```
+```bash
 https://ipfs.io/ipfs/QmZ9jvBxfwdeHTXpvDWnTqkLLWvdANzkDstph2EnXMfU4w
 ```
 
@@ -62,7 +62,7 @@ Please be patient! IPFS can take some time to propagate and doesn't always work 
 
 You could also check the output folder that would have been downloaded at the end of running the job:
 
-```
+```bash
 open /tmp/lilypad/data/downloaded-files/QmbjEKwZn5vSBoArudUEAPJDEiesVPk5tNkYxFvNkdFs6t
 ```
 

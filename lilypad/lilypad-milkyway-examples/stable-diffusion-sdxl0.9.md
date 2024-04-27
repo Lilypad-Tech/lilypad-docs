@@ -15,7 +15,7 @@ Stable Diffusion is a machine learning model used for text-to-image processing (
 ### \[CLI] Running Stable Diffusion SDXL 0.9 and SDXL 1.0
 
 {% hint style="danger" %}
-Ensure you have installed all requirements [https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-milkyway-testnet/quick-start/install-run-requirements.md](https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-milkyway-testnet/quick-start/install-run-requirements.md)
+Ensure you have installed [all requirements](https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-milkyway-testnet/quick-start/install-run-requirements.md)
 {% endhint %}
 
 ### Lilypad
@@ -28,13 +28,13 @@ Lilypad can run SDXL v0.9 or SDXL v1.0 with the option to add tunables to improv
 
 Base:
 
-```
+```bash
 lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt="an astronaut floating against a white background"
 ```
 
 Refiner:
 
-```
+```bash
 lilypad run sdxl-pipeline:v0.9-refiner-lilypad3 -i Prompt="an astronaut floating against a white background"
 ```
 
@@ -42,13 +42,13 @@ lilypad run sdxl-pipeline:v0.9-refiner-lilypad3 -i Prompt="an astronaut floating
 
 Base:
 
-```
+```bash
 lilypad run sdxl-pipeline:v1.0-base-lilypad3 -i Prompt="an astronaut floating against a white background"
 ```
 
 Refiner:
 
-```
+```bash
 lilypad run sdxl-pipeline:v1.0-refiner-lilypad3 -i Prompt="an astronaut floating against a white background"
 ```
 
@@ -56,7 +56,7 @@ lilypad run sdxl-pipeline:v1.0-refiner-lilypad3 -i Prompt="an astronaut floating
 
 If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to improve the quality of the image generated add "Steps=x" with x = (up to 200):
 
-```
+```bash
 lilypad run sdxl-pipeline -i Prompt="an astronaut floating against a white background" -i Steps=69
 ```
 
@@ -82,7 +82,7 @@ Please be patient! IPFS can take some time to propagate and doesn't always work 
 
 You could also check the output folder that would have been downloaded at the end of running the job:
 
-```
+```bash
 open /tmp/lilypad/data/downloaded-files/QmZuE29GJVmenRUh72FQDgkMUT1Zdp967oEJvzjaDwGGVo
 ```
 
@@ -104,7 +104,7 @@ See this [beginner-friendly article](https://aituts.com/stable-diffusion-seed/) 
 
 To change the image, you can pass in a different seed number:
 
-```
+```bash
 `lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='a gigantic lilypad shaped space station' -i Steps=150` 
 ```
 
