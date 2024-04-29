@@ -2,6 +2,7 @@
 
 * [🍃 Lilypad Home](README.md)
 * [📅 Events](upcoming-events.md)
+* [⚡ FAQs](faqs.md)
 
 ## Lilypad Milky Way Testnet
 
