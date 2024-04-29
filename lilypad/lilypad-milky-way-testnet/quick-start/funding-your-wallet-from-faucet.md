@@ -12,7 +12,7 @@ To obtain funds, connect to the Lilypad v3 Milkyway testnet network on your wall
 Faucet: [Testnet](http://faucet.lilypad.tech)
 {% endhint %}
 
-Copy your MetaMask wallet address into the bar and click request.
+Copy your MetaMask wallet address into the bar and click the request button.
 
 <figure><img src="../../.gitbook/assets/wallet_lp.png" alt=""><figcaption><p>Aurora Testnet Faucet</p></figcaption></figure>
 

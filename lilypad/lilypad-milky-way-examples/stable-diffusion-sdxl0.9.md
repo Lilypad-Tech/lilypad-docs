@@ -70,7 +70,7 @@ The output will look like this:
 
 **SDXL Output**
 
-Take the ipfs link given in the results and paste it into your browser:
+Take the IPFS link given in the results and paste it into your browser:
 
 ```
 https://ipfs.io/ipfs/QmVng1jkMxE9ep4k8mYiiCiWaCRiRLvCeo6bJRXirhz1dZ

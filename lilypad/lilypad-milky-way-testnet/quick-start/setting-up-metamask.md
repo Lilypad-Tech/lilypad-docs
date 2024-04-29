@@ -6,7 +6,7 @@ description: Connecting to Lilypad v3 Milky Way Testnet
 
 ## Setting up MetaMask
 
-* Install MetaMask Extension [here](https://metamask.io/)
+* Install [MetaMask Extension](https://metamask.io/)
 * Next, add the Lilypad Testnet chain to MetaMask.
 
 {% hint style="info" %}

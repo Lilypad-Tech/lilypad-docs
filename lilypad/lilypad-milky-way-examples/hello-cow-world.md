@@ -12,14 +12,13 @@ Ensure you have installed all requirements
 [install-run-requirements.md](../lilypad-milky-way-testnet/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
-1. Open a Terminal window and run the following command
-2. Make sure to have the following env in your shell session
+1. Make sure to have the following `env` in your shell session.
 
 ```bash
 export WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY
 ```
 
-3. Run `lilypad`
+2. Run `lilypad`
 
 ```bash
 lilypad run cowsay:v0.0.3 -i Message="hello, lilypad"  
@@ -64,12 +63,12 @@ Lilypad: v2.0.0-d58a991
 This could take up to a minute to propagate through the IPFS network. Please be patient
 {% endhint %}
 
-2. View the results by navigating to the local folder
+2. View the results by navigating to the local folder:
 
 <pre class="language-bash"><code class="lang-bash"><strong>open /tmp/lilypad/data/downloaded-files/Qmay5vZ7u5jvn2VkAGMLkkYXGQQd5GFZFuHkbDEFYb5VeF
 </strong></code></pre>
 
-Here, you can view the `stdout` and `stderr` as well as the `outputs` folder for the run
+Here, you can view the `stdout` and `stderr` as well as the `outputs` folder for the run:
 
 <pre class="language-bash"><code class="lang-bash"><strong>% cat /tmp/lilypad/data/downloaded-files/QmYiX2GkDDkqXGsnBaEUuGuNc93ZWoBWPNbNSz2AnFQcMk/stdout
 </strong>

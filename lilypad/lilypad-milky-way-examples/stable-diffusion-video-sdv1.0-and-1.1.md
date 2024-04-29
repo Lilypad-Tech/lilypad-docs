@@ -13,7 +13,7 @@ The SDV Pipeline modules are designed to take your text prompt, generate a still
 ## Running Stable Diffusion Video SDV1.0 and SDV1.1
 
 {% hint style="info" %}
-Ensure you have installed [all requirements](../)
+Ensure you have installed [all requirements](../lilypad-milky-way-testnet/quick-start/install-run-requirements.md)
 {% endhint %}
 
 ### Lilypad
@@ -50,7 +50,7 @@ The output will look like this:
 
 **SDV Output**
 
-Take the ipfs link given in the results and paste it into your browser:
+Take the IPFS link given in the results and paste it into your browser:
 
 ```bash
 https://ipfs.io/ipfs/QmZ9jvBxfwdeHTXpvDWnTqkLLWvdANzkDstph2EnXMfU4w

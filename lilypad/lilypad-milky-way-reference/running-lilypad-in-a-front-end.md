@@ -6,14 +6,13 @@ description: Setting up a feeless frontend for Lilypad
 
 ### What We'll Do <a href="#heading-what-well-do" id="heading-what-well-do"></a>
 
-In this tutorial, we will review how to create a feeless front end for a Lilypad module. To do so, we will
+In this tutorial, we will review how to create a feeless front end for a Lilypad module. To do so, we will:
 
-Create a new Next JS project.
-
-1. Create a CLI Wrapper to run the module.
-2. Create a server to handle requests from the browser.
-3. Create our user interface to allow a user to enter a prompt to run the module.
-4. Run the front end
+1. Create a new Next JS project.
+2. Create a CLI Wrapper to run the module.
+3. Create a server to handle requests from the browser.
+4. Create our user interface to allow a user to enter a prompt to run the module.
+5. Run the front end.
 
 ## Install Next JS <a href="#heading-install-next-js" id="heading-install-next-js"></a>
 
@@ -35,7 +34,7 @@ WEB3_PRIVATE_KEY=<your-private-key-here>
 To avoid publishing your private key online, add .env to your `.gitignore` file.
 {% endhint %}
 
-Install dotenv to access your environment variables.
+Install `dotenv` to access your environment variables:
 
 ```bash
 npm install dotenv
@@ -94,7 +93,7 @@ module.exports = { runCliCommand };
 
 ## Prepare your server <a href="#heading-prepare-your-server" id="heading-prepare-your-server"></a>
 
-Install Express and CORS
+Install Express and CORS:
 
 ```plaintext
 npm install express cors

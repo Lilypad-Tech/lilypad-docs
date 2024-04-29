@@ -14,10 +14,11 @@ Image: `> lilypad run sdxl:v0.9-lilypad1 "A record player at a bit event in spac
 
 ## Upcoming
 
-* [LabWeek](https://twitter.com/protocollabs/status/1694728785189540063?s=20) Istanbul \[Nov 13-17]
+* [ETHGlobal](https://ethglobal.com/events/sydney) Sydney \[May 3-5]
 
 ## Past
 
+* [LabWeek](https://twitter.com/protocollabs/status/1694728785189540063?s=20) Istanbul \[Nov 13-17]
 * [Fil:Dev Iceland](https://fildev.io) \[Sept 25-28]
 * [Chainlink SmartCon](https://smartcon.chain.link/) Barcelona \[Oct 1-3]
 * [Fil:Vegas](https://fil-vegas.io) \[Oct 3-5]

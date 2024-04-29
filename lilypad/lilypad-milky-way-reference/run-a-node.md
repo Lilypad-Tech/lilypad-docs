@@ -67,7 +67,7 @@ sudo mv lilypad /usr/local/bin/lilypad
 You will need to create an environment file for your node. /app/lilypad/resource-provider-gpu.env should contain:
 
 ```
-WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY (the private key from a NEW MetaMask wallet FOR THE COMPUTE NODE)
+WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY> (the private key from a NEW MetaMask wallet FOR THE COMPUTE NODE)
 ```
 
 This is the key where you will get paid in LP tokens for jobs run on the network.

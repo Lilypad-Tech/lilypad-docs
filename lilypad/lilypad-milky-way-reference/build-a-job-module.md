@@ -27,7 +27,7 @@ To ensure that your Lilypad module is deterministic, follow these guidelines:
 * Avoid reading from sources of entropy, such as /dev/random.
 * When referencing Docker images, specify their sha256 hashes.
 
-If your module is not deterministic, it may not be adopted by compute providers, and it won't be added to their allowlists
+If your module is not deterministic, it may not be adopted by compute providers, and it won't be added to their allowlists.
 
 ## Testing Your Module
 

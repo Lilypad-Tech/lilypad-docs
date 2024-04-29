@@ -12,11 +12,11 @@ Image: `> lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='A record playe
 
 ## Vision
 
-[Lilypad](https://blog.lilypadnetwork.org) is aiming to build an internet-scale trustless distributed compute network for web3. Creating the infrastructure for use cases like AI inference, ML training, DeSci and more.\
+[Lilypad](https://lilypad.tech) is aiming to build an internet-scale trustless distributed compute network for web3. Creating the infrastructure for use cases like AI inference, ML training, DeSci and more.\
 \
 Distributed computing will unlock the next generation of truly internet-scale models and applications in web3 and offer the tools for a true paradigm shift to an open and trustless internet.
 
-Find Lilypad on Github [here](https://github.com/Lilypad-Tech/lilypad).&#x20;
+Find Lilypad on [Github](https://github.com/Lilypad-Tech/lilypad) or visit [the blog](https://blog.lilypadnetwork.org/).&#x20;
 
 {% embed url="https://twitter.com/Lilypad_Tech/status/1689528626440794113?s=20" %}
 
