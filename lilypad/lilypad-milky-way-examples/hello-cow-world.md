@@ -7,25 +7,24 @@ description: A cowsay job
 ### Run Hello, 🐮 World! Job \[CLI] <a href="#user-content-run-hello-world-job" id="user-content-run-hello-world-job"></a>
 
 {% hint style="info" %}
-Ensure you have installed all requirements [https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-aurora-testnet/quick-start/install-run-requirements.md](https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-aurora-testnet/quick-start/install-run-requirements.md "mention")
+Ensure you have installed all requirements
+
+[install-run-requirements.md](../lilypad-milky-way-testnet/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
-1. Start Docker
-2. Open a Terminal window and run the following command
-3. Make sure to have the following env in your shell session
+1. Open a Terminal window and run the following command
+2. Make sure to have the following env in your shell session
 
 ```bash
 export WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY
 ```
 
-4. Run `lilypad`
+3. Run `lilypad`
 
 ```bash
 lilypad run cowsay:v0.0.3 -i Message="hello, lilypad"  
 ```
 
-(ensure your user is in the docker group if necessary on your platform)\
-\
 **Output:**
 
 ```bash
