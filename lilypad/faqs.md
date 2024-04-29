@@ -12,13 +12,13 @@ Lilypad provides decentralized AI computational services. By extending unrestric
 
 ### Lilypad Litepaper
 
-Lilypad released a Litepaper [here](https://docs.lilypad.tech/lilypad/research-and-vision/whitepaper) and will release a Whitepaper soon!
+Lilypad released a [Litepaper](https://docs.lilypad.tech/lilypad/research-and-vision/whitepaper) and will release a Whitepaper soon!
 
 ### Roadmap
 
 Lilypad is currently in Phase 0 of Testnet. The team is currently ironing out some remaining known issues and working on a fair model for our Incentivized Testnet.
 
-Currently, there's no cost to run jobs (and no incentive). Find the full Lilypad Network roadmap [here](https://lilypad.tech/roadmap.html).
+Currently, there's no cost to run jobs (and no incentive). Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on our website!
 
 ### When Incentivized Testnet?
 
