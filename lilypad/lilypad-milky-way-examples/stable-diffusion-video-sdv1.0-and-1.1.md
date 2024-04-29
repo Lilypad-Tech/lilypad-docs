@@ -23,13 +23,13 @@ To run SDV1.0 or 1.1 Pipeline in Lilypad, you can use the following commands:
 #### SDV 1.0
 
 ```bash
-lilypad run sdv-pipeline:v1.0-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps 70
+lilypad run sdv-pipeline:v1.0-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps=70
 ```
 
 #### SDV 1.1
 
 ```bash
-lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps 70
+lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps=70
 ```
 
 #### Specifying tunables
