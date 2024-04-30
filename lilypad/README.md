@@ -30,7 +30,7 @@ Lilypad is now at **v3: Milky Way Testnet!** :tada: [Try it out](https://docs.li
 
 ## Lilypad Roadmap
 
-<figure><img src=".gitbook/assets/roadmap.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Group 1000002947.png" alt=""><figcaption></figcaption></figure>
 
 #### Lilypad v1
 
