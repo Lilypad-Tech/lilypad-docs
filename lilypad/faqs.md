@@ -56,5 +56,5 @@ Yes, Lilypad has raised $2.1 million in VC funding.
 
 ### Expected TGE
 
-Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q3 2024.&#x20;
+Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q4 2024.
 
