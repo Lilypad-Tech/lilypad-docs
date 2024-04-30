@@ -28,9 +28,9 @@ Lilypad is now at **v3: Milky Way Testnet!** :tada: [Try it out](https://docs.li
 
 <figure><img src=".gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Lilypad creates a decentralzed marketplace for compute jobs</p></figcaption></figure>
 
-## Lilypad Roadmap
+## Roadmap
 
-<figure><img src=".gitbook/assets/Group 1000002947 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Group 1000002947 (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Lilypad v1
 
