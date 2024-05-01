@@ -1,6 +1,8 @@
 # Build a Job Module
 
-A Lilypad module is a Git repository that can be used to perform various tasks using predefined templates and inputs. This guide will walk you through the process of creating a Lilypad module, including defining a JSON template, handling inputs, ensuring determinism, and other best practices.
+A Lilypad module is a Git repository that can be used to perform various tasks using predefined templates and inputs.&#x20;
+
+This guide will walk you through the process of creating a Lilypad module, including defining a JSON template, handling inputs, ensuring determinism, and other best practices.
 
 ## Module Structure
 
@@ -37,7 +39,12 @@ During development, you can use the Git hash to test your module. Ensure that yo
 
 Here are some example Lilypad modules for reference:
 
-* [**cowsay**](https://github.com/bacalhau-project/lilypad-module-cowsay)**:** An example module demonstrating the use of templates and inputs.
+* [**Cowsay**](https://github.com/bacalhau-project/lilypad-module-cowsay)**:** Lilypad "Hello World" example
+* [**SDXL v0.9/v1.0**](https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline): Text to image generation.
+* [**SDV v1.0/1.1**](https://github.com/Lilypad-Tech/lilypad-module-sdv-pipeline): Text to video generation.
+
+Deprecated examples:
+
 * [**lora-training**](https://github.com/bacalhau-project/lilypad-module-lora-training)**:** An example module for LoRa training tasks.
 * [**lora-inference**](https://github.com/bacalhau-project/lilypad-module-lora-inference)**:** An example module for LoRa inference tasks.
 * [**duckdb**](https://github.com/bacalhau-project/lilypad-module-duckdb)**:** An example module related to DuckDB.
