@@ -9,7 +9,7 @@ Image: `> lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='A record playe
 
 [Lilypad](https://lilypad.tech)  is developing a serverless, distributed compute network that enables internet-scale data processing, AI, ML & other arbitrary computation, while unleashing idle processing power & unlocking a new marketplace for compute.&#x20;
 
-Use Lilypad to run models including Stable Diffusion and Stable Diffusion Video. Add new AI models to run on Lilypad and use the network to power the model.
+Use Lilypad to run models including Stable Diffusion and Stable Diffusion Video. Add AI models as modules on the Lilypad Network and use the serverless compute to run the model!
 
 ## Resources
 
