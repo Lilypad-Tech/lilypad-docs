@@ -9,7 +9,7 @@ Image: `> lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='A record playe
 
 [Lilypad](https://lilypad.tech)  is developing a serverless, distributed compute network that enables internet-scale data processing, AI, ML & other arbitrary computation, while unleashing idle processing power & unlocking a new marketplace for compute.&#x20;
 
-Use Lilypad to run models including Stable Diffusion and Stable Diffusion Video. Add AI models as modules on the Lilypad Network and use the serverless compute to run the model!
+Use Lilypad to run models including Stable Diffusion and Stable Diffusion Video, or add an AI model to run on the Lilypad Network. Seamlessly integrate models that require high-performance computing into applications and systems.&#x20;
 
 ## Resources
 
@@ -34,6 +34,8 @@ Lilypad is now at **v3: Milky Way Testnet!** :tada: [Try it out](https://docs.li
 [Lilypad](https://lilypad.tech) provides distributed computational services underpinned by the [Bacalhau Project](https://www.bacalhau.org/). The network provides infrastructure for use cases like AI inference, ML training, DeSci and more. Lilypad strategically collaborates with decentralized infrastructure networks, such as Filecoin, to formulate a transparent, efficient, and accessible computational ecosystem.&#x20;
 
 Perform off-chain decentralized compute over data, with on-chain guarantees. Call this functionality directly from a smart contract, CLI, and an easy to use abstraction layer.
+
+The network is actively laying groundwork for multi-chain integration and the deployment of an incentivized testnet.
 
 Find Lilypad on [Github](https://github.com/Lilypad-Tech/lilypad) or visit [the blog](https://blog.lilypadnetwork.org/).&#x20;
 
