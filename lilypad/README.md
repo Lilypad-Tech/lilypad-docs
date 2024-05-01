@@ -1,7 +1,4 @@
 ---
-description: >-
-  Lilypad is building the infrastructure for internet-scale trustless
-  distributed compute networks for #web3 underpinned by the Bacalhau Project.
 cover: .gitbook/assets/record player in flowers (1).png
 coverY: 0
 ---
@@ -10,27 +7,51 @@ coverY: 0
 
 Image: `> lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='A record player in a room of flowers'`
 
-## Vision
+[Lilypad](https://lilypad.tech)  is developing a serverless, distributed compute network that enables internet-scale data processing, AI, ML & other arbitrary computation, while unleashing idle processing power & unlocking a new marketplace for compute.&#x20;
 
-[Lilypad](https://lilypad.tech) is aiming to build an internet-scale trustless distributed compute network for web3. Creating the infrastructure for use cases like AI inference, ML training, DeSci and more.\
-\
-Distributed computing will unlock the next generation of truly internet-scale models and applications in web3 and offer the tools for a true paradigm shift to an open and trustless internet.
+Use Lilypad to run models including Stable Diffusion and Stable Diffusion Video. Add new AI models to run on Lilypad and use the network to power the model.
 
-Find Lilypad on [Github](https://github.com/Lilypad-Tech/lilypad) or visit [the blog](https://blog.lilypadnetwork.org/).&#x20;
+## Resources
+
+* [FAQs](https://docs.lilypad.tech/lilypad/faqs)
+* [awesome-Lilypad](https://github.com/Lilypad-Tech/awesome-Lilypad/blob/main/README.md) repo with examples and use cases
+* [Quick Start ](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/quick-start)- Run a Lilypad "Hello World"
+* [Add](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module) an AI model to Lilypad&#x20;
+* [Run](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/run-a-node) a Lilypad Node
+* [Build](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/running-lilypad-in-a-front-end) a frontend using Lilypad to run AI Inference
+* [Stable Diffusion Video](https://docs.lilypad.tech/lilypad/lilypad-milky-way-examples/stable-diffusion-video-sdv1.0-and-1.1) - Text to video on Lilypad
 
 {% embed url="https://twitter.com/Lilypad_Tech/status/1689528626440794113?s=20" %}
 
 ## Overview
 
+<figure><img src=".gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 Lilypad is now at **v3: Milky Way Testnet!** :tada: [Try it out](https://docs.lilypad.tech/lilypad/lilypad-milkyway-testnet/quick-start) - we dare you :man\_technologist:
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Lilypad creates a decentralzed marketplace for compute jobs</p></figcaption></figure>
+[Lilypad](https://lilypad.tech) provides distributed computational services underpinned by the [Bacalhau Project](https://www.bacalhau.org/). The network provides infrastructure for use cases like AI inference, ML training, DeSci and more. Lilypad strategically collaborates with decentralized infrastructure networks, such as Filecoin, to formulate a transparent, efficient, and accessible computational ecosystem.&#x20;
+
+Perform off-chain decentralized compute over data, with on-chain guarantees. Call this functionality directly from a smart contract, CLI, and an easy to use abstraction layer.
+
+Find Lilypad on [Github](https://github.com/Lilypad-Tech/lilypad) or visit [the blog](https://blog.lilypadnetwork.org/).&#x20;
+
+## What is the Bacalhau Project?
+
+[Bacalhau](https://www.bacalhau.org/) is a peer to peer computation network enabling compute over data jobs like GPU-enabled AI, ML, analytics, data engineering, data science, de-sci and more.\
+\
+With the open-source Bacalhau Project, you can streamline your existing workflows without rewriting by running Docker containers and WebAssembly (WASM) images as tasks. This architecture is also referred to as **Compute Over Data** (or CoD).
+
+To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
+
+
 
 ## Roadmap
 
 <figure><img src=".gitbook/assets/Group 1000002947 (3).png" alt=""><figcaption></figcaption></figure>
+
+## Previous Versions of Lilypad
 
 #### Lilypad v1
 
@@ -61,14 +82,6 @@ Lilypad v0 is a Proof of Concept project operating as an integration layer betwe
 Lilypad v0 does not charge for compute jobs, outside of network running fees (ie. the cost of transactions on the blockchain network it is deployed to). It operates on the [Bacalhau](https://www.docs.bacalhau.org) public compute network (which is free to use), though it is worth noting that there are no reliability guarantees given for this network (which is something future versions of this protocol will be working to improve\\
 
 {% embed url="https://youtu.be/9lF7omNEK-c" %}
-
-## What is Bacalhau?
-
-Bacalhau is a peer to peer computation network enabling compute over data jobs like GPU-enabled AI, ML, analytics, data engineering, data science, de-sci and more.
-
-Bacalhau aims to transform data processing & improve cost, efficiency & security by running jobs where the data is generated and stored. With Bacalhau, you can streamline your existing workflows without the need of extensive rewriting by running arbitrary Docker containers and WebAssembly (wasm) images as tasks.
-
-To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 
 ## Join the Community & Chat with Us
 
