@@ -30,7 +30,7 @@ lilypad run sdxl:v0.9-lilypad1 "an astronaut riding on a unicorn"
 
 The output will look like this:
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
 
 Take the ipfs link given in the results and paste it into your browser:
 
@@ -38,11 +38,11 @@ Take the ipfs link given in the results and paste it into your browser:
 Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Results of SDXL job on IPFS Directory (<a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a>)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Results of SDXL job on IPFS Directory (<a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a>)</p></figcaption></figure>
 
 In the **/outputs** folder, you'll find the image:
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>The Image in the outputs folder</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>The Image in the outputs folder</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption><p><a href="https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ">https://ipfs.io/ipfs/QmSXkyM9bkKPCWaDSvViS14nvbNekGQTJTTeNv7JitSeWZ</a><a href="stable-diffusion.md#running-stable-diffusion-from-the-cli">/outputs/image-0.png</a> or <a href="ipfs://bafybeib6i434yl6ql46jyyydz2boqulysmksye3f5khs24c6uoqpnxkp3y/outputs/image-0.png">ipfs://bafybeib6i434yl6ql46jyyydz2boqulysmksye3f5khs24c6uoqpnxkp3y/outputs/image-0.png</a> in IPFS supported browsers like Brave</p></figcaption></figure>
 

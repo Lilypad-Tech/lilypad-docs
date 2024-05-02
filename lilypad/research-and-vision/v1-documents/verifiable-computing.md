@@ -48,4 +48,4 @@ We opt for verification-via-replication as a first approach, for the reasons tha
 This has the downside of making private computations difficult. While the inputs and outputs of jobs can be encrypted so that only the client and compute node can see the code and data, this still leaves the client vulnerable to having their information leaked. Future approaches can incorporate SLAs and eventually support for homomorphic encryption to deal with this issue.\
 \\
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Current contract design</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Current contract design</p></figcaption></figure>
