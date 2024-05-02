@@ -50,7 +50,7 @@
 
 ## Meet the Lilypad Team
 
-* [Team](meet-the-lilypad-team/team.md)
+* [Meet the Team](meet-the-lilypad-team/team.md)
 
 ## Resources
 
