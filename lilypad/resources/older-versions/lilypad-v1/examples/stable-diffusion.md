@@ -30,7 +30,7 @@ lilypad run sdxl:v0.9-lilypad1 "an astronaut riding on a unicorn"
 
 The output will look like this:
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>SDXL Output</p></figcaption></figure>
 
 Take the ipfs link given in the results and paste it into your browser:
 
