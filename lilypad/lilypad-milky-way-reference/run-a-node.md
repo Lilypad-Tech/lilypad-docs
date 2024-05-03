@@ -59,12 +59,12 @@ sudo chown -R $USER /app/data
 
 1.  **With Go toolchain**
 
-    ```
+    ```bash
     go install github.com/lilypad-tech/lilypad@latest
     ```
 2.  **Via official released binaries**
 
-    ```
+    ```bash
     # Detect your machine's architecture and set it as $OSARCH
     OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH
     # Detect your operating system and set it as $OSNAME
