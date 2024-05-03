@@ -16,7 +16,7 @@
 
 ## Lilypad Milky Way Reference
 
-* [Run a Node](lilypad-milky-way-reference/run-a-node.md)
+* [Network Information and Tokens](lilypad-milky-way-reference/network-information-and-tokens.md)
 * [Build a Job Module](lilypad-milky-way-reference/build-a-job-module.md)
 * [Game Theory](lilypad-milky-way-reference/game-theory.md)
 * [Running Lilypad in a Front End](lilypad-milky-way-reference/running-lilypad-in-a-front-end.md)
