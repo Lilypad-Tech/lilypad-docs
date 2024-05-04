@@ -6,10 +6,10 @@ description: With testnet Lilypad ETH
 
 ## Funding your wallet
 
-To obtain funds, connect to the lilypad lalechuza network on your wallet and head to the faucet at [testnet.lilypadnetwork.org](http://testnet.lilypadnetwork.org)
+To obtain funds, connect to the lilypad lalechuza network on your wallet and head to the faucet at [http://faucet.lilypad.tech](http://faucet.lilypad.tech/)
 
 {% hint style="info" %}
-Faucet: [http://testnet.lilypadnetwork.org](http://testnet.lilypadnetwork.org)
+Faucet: [http://faucet.lilypad.tech](http://faucet.lilypad.tech/)
 {% endhint %}
 
 Copy your metamask wallet address into the bar and click request.
