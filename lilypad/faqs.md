@@ -58,7 +58,7 @@ Lilypad is an open network that allows anyone to contribute GPU computing capaci
 
 ### Has Lilypad raised VC money?
 
-Yes, Lilypad has raised $2.1 million in VC funding.
+Yes, Lilypad raised VC funding in April 2024.
 
 ### Expected TGE
 
