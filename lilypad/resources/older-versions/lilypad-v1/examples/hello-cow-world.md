@@ -18,7 +18,10 @@ Open a Terminal window and run the following command
 lilypad run cowsay:v0.0.1 "hello lilypad"
 ```
 
-(ensure your user is in the docker group if necessary on your platform)\
+{% hint style="info" %}
+Ensure your user is in the docker group if necessary on your platform
+{% endhint %}
+
 \
 **Output:**
 
@@ -38,6 +41,3 @@ Then click on the stdout folder and you should see the job result!
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtadiyoOe4nTUoSulEVOV%2Fuploads%2FBmk9aC8MM0X4tptrr8Cr%2Fimage.png?alt=media&#x26;token=408ffaff-5695-4de6-8852-3be940f3d91e" alt=""><figcaption><p>This is udderly fantastic!​</p></figcaption></figure>
 
-## Run Hello,🐮 World! Job \[Smart Contract] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
-
-WIP

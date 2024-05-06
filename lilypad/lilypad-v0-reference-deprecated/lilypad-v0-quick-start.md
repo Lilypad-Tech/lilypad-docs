@@ -232,5 +232,3 @@ contract MyContract is LilypadCallerInterface {
   }
 }
 ```
-
-\\

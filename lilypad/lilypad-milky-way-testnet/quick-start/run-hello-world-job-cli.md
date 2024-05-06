@@ -5,7 +5,7 @@ description: Running the most important Hello World on lilypad
 # Run Hello World!
 
 {% hint style="info" %}
-Make sure to you have Lilypad CLI installed
+Make sure you have Lilypad CLI installed
 {% endhint %}
 
 {% hint style="info" %}

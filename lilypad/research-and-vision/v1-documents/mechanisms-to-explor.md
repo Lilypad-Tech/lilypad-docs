@@ -1,4 +1,4 @@
-# Mechanisms To Explor
+# Mechanisms To Explore
 
 ## Mechanisms to Explore
 
@@ -41,7 +41,7 @@ While this is not a part of anti-cheating mechanisms, collateral pooling could l
 
 ### Taxes and Jackpots (inspiration from Truebit)
 
-Taking inspiration from the taxes and jackpots scheme used in Truebit, deals can be taxed, with those taxes going to a jackpot that is then used to reward nodes via some distribution protocol determined by the mediation process. For this, we want to be able to take any fraction of the jackpot(s) and distribute it arbitrarily to arbitary nodes (perhaps even those not involved in the mediation process).
+Taking inspiration from the taxes and jackpots scheme used in Truebit, deals can be taxed, with those taxes going to a jackpot that is then used to reward nodes via some distribution protocol determined by the mediation process. For this, we want to be able to take any fraction of the jackpot(s) and distribute it arbitrarily to arbitrary nodes (perhaps even those not involved in the mediation process).
 
 This is a particularly interesting approach because the taxation + jackpots mechanism inherently create a global game that impacts local outcomes. While it may lead to potential collusion attacks, the tool alone is very useful, especially in conjunction with some other the other methods mentioned here. Modeling it in simulation would also provide the opportunity to test some of the hypotheses in the Truebit paper.
 
@@ -75,7 +75,7 @@ The ledger can maintain a record, for each compute node, of the number of jobs t
 
 Results can only be replicated for as long as the inputs are stored somewhere. The client, compute node, or some other entity can pay for storing the inputs/outputs of jobs. The longer they are stored, the more time there is to check the results, which affects things like collateralization, the frequency of checks, etc.
 
-This is related to, but not totally overlaping with, the amount of time that a node might have to wait before getting paid, which is the same time interval that a client has to check a result. However, checking the result after the node gets paid and receives back its collateral may still be possible, with other penalty schemes (or reward schemes, for example, coming from jackpots).
+This is related to, but not totally overlapping with, the amount of time that a node might have to wait before getting paid, which is the same time interval that a client has to check a result. However, checking the result after the node gets paid and receives back its collateral may still be possible, with other penalty schemes (or reward schemes, for example, coming from jackpots).
 
 ### Anti-Collusion via Obfuscation
 

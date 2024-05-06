@@ -18,6 +18,7 @@
 
 * [Run a Node](lilypad-milky-way-reference/run-a-node.md)
 * [Build a Job Module](lilypad-milky-way-reference/build-a-job-module.md)
+* [Lilypad Smart Contracts](lilypad-milky-way-reference/lilypad-smart-contracts.md)
 * [Game Theory](lilypad-milky-way-reference/game-theory.md)
 * [Running Lilypad in a Front End](lilypad-milky-way-reference/running-lilypad-in-a-front-end.md)
 

@@ -22,7 +22,7 @@ One way to ensure that computations were done correctly is by using cryptographi
 **Zero-Knowledge Proof (ZKP)**
 
 * Zero-knowledge proofs are a type of interactive proof where the verifier learns nothing about private inputs of the computation, other than that the outputs were computed correctly from the all the inputs (some of which may be public/known to the verifier).
-* A ZKP can be made non-interactive, in which case it is called a Non-Interactive Zero-Knowlege Proof (NIZK). Two common variants of NIZKs are zk-SNARKs (zero-knowledge Succinct Non-interactive Argument of Knowledge) and zk-STARKs (zero-knowledge Scalable Transparent Argument of Knowledge).
+* A ZKP can be made non-interactive, in which case it is called a Non-Interactive Zero-Knowledge Proof (NIZK). Two common variants of NIZKs are zk-SNARKs (zero-knowledge Succinct Non-interactive Argument of Knowledge) and zk-STARKs (zero-knowledge Scalable Transparent Argument of Knowledge).
 * Like IPs, ZKPs must also satisfy the requirements of completeness and soundness.
 
 **Multi-Party Computation (MPC)**
@@ -45,7 +45,6 @@ One of the downsides of this approach is, of course, the extra effort expended o
 
 We opt for verification-via-replication as a first approach, for the reasons that it is simple to understand, has less overhead than cryptographic approaches, and has an attack surface that can be economically modelled and analyzed.
 
-This has the downside of making private computations difficult. While the inputs and outputs of jobs can be encrypted so that only the client and compute node can see the code and data, this still leaves the client vulnerable to having their information leaked. Future approaches can incorporate SLAs and eventually support for homomorphic encryption to deal with this issue.\
-\\
+This has the downside of making private computations difficult. While the inputs and outputs of jobs can be encrypted so that only the client and compute node can see the code and data, this still leaves the client vulnerable to having their information leaked. Future approaches can incorporate SLAs and eventually support for homomorphic encryption to deal with this issue.
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Current contract design</p></figcaption></figure>

@@ -16,7 +16,7 @@ This example uses the Fraud Detection Docker image found on [Docker Hub HackFS](
 
 Run the Image with Bacalhau using the command `bacalhau docker --network=http --domain=api.etherscan.com run hakymulla/hackfs:inference -- python predict.py --address "0x427aE6048C7d2DEd45a07Ea46F2873d0F9ddDb35"`
 
-Run Bacalhau get \[Job ID] to the format of the spec needed to call runLilypadJob.
+Run Bacalhau get \[Job ID] to the format of the spec needed to call `runLilypadJob`.
 
 For more info on the dataset, how to create the Fraud Detection Script and Docker Image see [My HackFS Github](https://github.com/hakymulla/HackFS-2023).
 
@@ -24,7 +24,7 @@ For more info on the dataset, how to create the Fraud Detection Script and Docke
 
 This example can be found in the Examples folder in the Lilypad-v0 Project Github.
 
-To run this example, you can simply deploy it to any supported network and pass in the contact address to the constructor which corresponds to your network. See deployed-network-details.md.
+To run this example, you can simply deploy it to any supported network and pass in the contact address to the constructor which corresponds to your network. See `deployed-network-details.md`.
 
 ### Walkthrough
 

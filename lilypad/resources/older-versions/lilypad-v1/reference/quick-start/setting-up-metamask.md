@@ -6,8 +6,8 @@ description: Connecting to LaLechuza Testnet
 
 ## Setting up Metamask
 
-* Install metamask Extension [here](https://metamask.io/)
-* Next, add the Lalechuza testnet chain to metamask.
+* Install MetaMask Extension [here](https://metamask.io/)
+* Next, add the Lalechuza testnet chain to MetaMask.
 
 {% hint style="info" %}
 Network name: `Lilypad Lalechuza testnet`
@@ -21,7 +21,7 @@ Currency symbol: lil`ETH`
 Block explorer URL: (leave blank)
 {% endhint %}
 
-To do this, open metamask then click on the network button at the top left of the popup (in the menu bar):
+To do this, open MetaMask then click on the network button at the top left of the popup (in the menu bar):
 
 ## ![](<../../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png>) \`\` ![](<../../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png>)
 

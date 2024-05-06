@@ -21,7 +21,9 @@ To Run from a smart contract skip to the section [run-hello-world-from-a-smart-c
 lilypad run cowsay:v0.0.1 "hello lilypad"
 ```
 
-(ensure your user is in the docker group if necessary on your platform)
+{% hint style="info" %}
+Ensure your user is in the docker group if necessary on your platform
+{% endhint %}
 
 Results:
 

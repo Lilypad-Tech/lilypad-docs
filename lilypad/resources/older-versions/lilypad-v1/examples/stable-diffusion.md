@@ -22,7 +22,7 @@ There are several open-source stable diffusion models out there (made famous by 
 Ensure you have installed all requirements [install-run-requirements.md](../reference/quick-start/install-run-requirements.md "mention")
 {% endhint %}
 
-To run stable diffusion use the sdxl module like so:
+To run stable diffusion use the SDXL module like so:
 
 ```
 lilypad run sdxl:v0.9-lilypad1 "an astronaut riding on a unicorn"
@@ -142,15 +142,15 @@ Try it yourself!
 Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/SDXLCaller.sol) to open [the contract](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/SDXLCaller.sol) in Remix IDE!
 {% endhint %}
 
-1. Ensure your metamask wallet is set to the [Lalechuza testnet ](../reference/quick-start/setting-up-metamask.md)and has [lilETH testnet funds](../reference/quick-start/funding-your-wallet-from-faucet.md) from the [faucet](https://testnet.lilypadnetwork.org).
-2. Set the remix environment to "Injected Provider - Metamask" (& ensure metamask has the lalechuza chain selected)
+1. Ensure your MetaMask wallet is set to the [Lalechuza testnet ](../reference/quick-start/setting-up-metamask.md)and has [lilETH testnet funds](../reference/quick-start/funding-your-wallet-from-faucet.md) from the [faucet](https://testnet.lilypadnetwork.org).
+2. Set the remix environment to "Injected Provider - MetaMask" (& ensure MetaMask has the lalechuza chain selected)
 3. Then\
    \- Deploy a new contract passing in the [Modicum Contract address found here](https://github.com/bacalhau-project/lilypad-modicum/blob/main/latest.txt) **OR**\
    \- Open the contract at this example address: `0x31e7bF121EaB1C0B081347D8889863362e9ad53A`
 
 <figure><img src="../../../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption><p>At Address: 0x31e7bF121EaB1C0B081347D8889863362e9ad53A</p></figcaption></figure>
 
-4. Call the runSDXL Module, passing in a prompt and sending 2 lilETH in the value field. Your Metamask wallet should pop up for you to confirm the payment and transaction.
+4. Call the runSDXL Module, passing in a prompt and sending 2 lilETH in the value field. Your MetaMask wallet should pop up for you to confirm the payment and transaction.
 
 <figure><img src="../../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p>runSDXL passing in the text prompt string &#x26; ensuring you set 2 ETH to the Value field</p></figcaption></figure>
 

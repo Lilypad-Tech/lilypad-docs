@@ -12,18 +12,18 @@ description: How to run a cowsay job from a Smart contract!
 Click [this link](https://remix.ethereum.org/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/ExampleClient.sol) to open the ExampleClient.sol contract in remix
 {% endhint %}
 
-Alternatively, open remix.ethereum.org IDE in your browser and copy in the below ExampleClient.sol [contract](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/ExampleClient.sol):
+Alternatively, open [the Remix IDE](https://remix.ethereum.org) in your browser and copy in the below ExampleClient.sol [contract](https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/ExampleClient.sol):
 
 {% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/js/contracts/ExampleClient.sol" %}
 
 **Connect to the Testnet**
 
-1. Connect Metamask to the Lalechuza testnet & ensure you have testnet lilETH funds.
-2. In the deploy tab in remix \[fourth tab in the side bar], ensure you set the environment to "Injected Provider - Metamask"
+1. Connect MetaMask to the Lalechuza testnet & ensure you have testnet lilETH funds.
+2. In the deploy tab in remix \[fourth tab in the side bar], ensure you set the environment to "Injected Provider - MetaMask"
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Connect to the Lilypad Lalechuza network in Metamask</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Connect to the Lilypad Lalechuza network in MetaMask</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Change Remix Environment to Injected Provider - Metamask</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Change Remix Environment to Injected Provider - MetaMask</p></figcaption></figure>
 
 \
 **Deploy the Contact**\
@@ -47,7 +47,7 @@ The moment of truth! Let's run the cowsay example!!
 
 <figure><img src="../../../../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Then add the string parameter for what you want the cow to say and click the transact button! Your metamask wallet should pop up asking you to confirm the transaction.\\
+Then add the string parameter for what you want the cow to say and click the transact button! Your MetaMask wallet should pop up asking you to confirm the transaction.
 
 <figure><img src="../../../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -57,7 +57,7 @@ Wait a couple of minutes for the job to complete on the compute network. Then yo
 
 **See the Results** :cow2:
 
-Open the string starting with "https://ipfs.io/" in your broswer which contains the output of the compute job:
+Open the string starting with "https://ipfs.io/" in your browser which contains the output of the compute job:
 
 <figure><img src="../../../../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

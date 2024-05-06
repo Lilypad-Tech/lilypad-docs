@@ -30,11 +30,11 @@ A resource provider node (compute node), is currently required to put down a dep
 
 On a network of compute nodes, there is also mediator nodes, whose job is to check that nodes in the network are correctly running the submitted jobs (eg. by running the job itself to check for correctness)
 
-:bulb:**Fun fact**: This is also why all jobs on the network currently need to be determinstic!
+:bulb:**Fun fact**: This is also why all jobs on the network currently need to be deterministic!
 
 If a resource node is found to have cheated and not run the job, the penalty for doing so is high & their deposit is significantly slashed.\
 \
-While not every job will be verified for truthiness, a good analogy is to think of a train ticket inspector on a train. You may not always have your ticket checked, but if the fine for not buying a train ticket is high enough (let's say several ether!), then you will more than likely spend a small amount of gwei buying the ticket, rather than risking the fine and being kicked off the train. :railway\_car:\
+While not every job will be verified for truthiness, a good analogy is to think of a train ticket inspector on a train. You may not always have your ticket checked, but if the fine for not buying a train ticket is high enough (let's say several ether!), then you will more than likely spend a small amount of Gwei buying the ticket, rather than risking the fine and being kicked off the train. :railway\_car:\
 \
 Currently, the mediation (or checking that nodes in the network are correctly running submitted jobs) that happens on a smart contract called job is provided by a Lilypad default mediator.\
 However, if you don't trust our mediator then you can run your own mediator and run compute nodes that trust your mediator instead.

@@ -8,7 +8,7 @@ description: Setting up a feeless frontend for Lilypad
 
 In this tutorial, we will review how to create a feeless front end for a Lilypad module. To do so, we will:
 
-1. Create a new Next JS project.
+1. Create a new NextJS project.
 2. Create a CLI Wrapper to run the module.
 3. Create a server to handle requests from the browser.
 4. Create our user interface to allow a user to enter a prompt to run the module.

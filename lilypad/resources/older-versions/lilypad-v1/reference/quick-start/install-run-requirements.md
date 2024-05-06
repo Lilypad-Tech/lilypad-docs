@@ -26,7 +26,7 @@ curl -sSL -O https://raw.githubusercontent.com/bacalhau-project/lilypad-modicum/
 
 ### **Add your private key to your terminal / command line instance:**
 
-Get your private key from metamask:\
+Get your private key from MetaMask:\
 Accounts -> Account Details -> Show private key
 
 <div>
