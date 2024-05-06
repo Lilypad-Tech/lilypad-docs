@@ -14,15 +14,21 @@ Lilypad provides decentralized AI computational services. By extending unrestric
 
 Lilypad released a [Litepaper](https://docs.lilypad.tech/lilypad/research-and-vision/whitepaper) and will release a Whitepaper soon!
 
+### When will the Incentivized Testnet launch?
+
+The Lilypad Incentivized testnet is on track to launch mid May 2024. Stay tuned on Discord for more info!
+
 ### Roadmap
 
 Lilypad is currently in Phase 0 of Testnet. The team is currently ironing out some remaining known issues and working on a fair model for our Incentivized Testnet.
 
-Currently, there's no cost to run jobs (and no incentive). Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on our website!
+Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on our website!
 
-### When Incentivized Testnet?
+### Lilypad Tokenomics
 
-The Lilypad Incentivized testnet is on track to launch mid May 2024. Stay tuned on Discord for more info!
+Currently, there's no cost to run jobs and no incentive.&#x20;
+
+Tokenomics and research papers are currently being developed and expected by early Q3 2024.&#x20;
 
 ### What is a Lilypad Module?
 
