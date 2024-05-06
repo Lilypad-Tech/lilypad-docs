@@ -30,6 +30,10 @@ Currently, there's no cost to run jobs and no incentive.&#x20;
 
 Tokenomics and research papers are currently being developed and expected by early Q3 2024.&#x20;
 
+### Expected TGE
+
+Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q4 2024.
+
 ### What is a Lilypad Module?
 
 To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a Lilypad Module (see instructions below). Once setup, modules are run with the Lilypad CLI.
@@ -59,8 +63,4 @@ Lilypad is an open network that allows anyone to contribute GPU computing capaci
 ### Has Lilypad raised VC money?
 
 Yes, Lilypad raised VC funding in April 2024.
-
-### Expected TGE
-
-Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q4 2024.
 
