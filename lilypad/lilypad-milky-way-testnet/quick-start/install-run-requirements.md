@@ -4,27 +4,9 @@ description: Lilypad setup
 
 # Install requirements
 
-## Install Requirements
+## Install Lilypad CLI
 
-{% hint style="info" %}
-**Supported platforms**: only supports x86\_64 Linux
-{% endhint %}
-
-## Install CLI
-
-### 1. With GO toolchain
-
-```bash
-go install github.com/lilypad-tech/lilypad@latest
-```
-
-You then need to set:
-
-```bash
-export WEB3_PRIVATE_KEY=<your private key>
-```
-
-### 2. Via officially released binaries
+### 1. Via officially released binaries
 
 ```bash
 # Detect your machine's architecture and set it as $OSARCH
