@@ -16,7 +16,7 @@ Lilypad released a [Litepaper](https://docs.lilypad.tech/lilypad/research-and-vi
 
 ### When will the Incentivized Testnet launch?
 
-The Lilypad Incentivized testnet is on track to launch mid May 2024. Stay tuned on Discord for more info!
+The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on Discord for more info!
 
 ### Roadmap
 
