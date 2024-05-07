@@ -1,11 +1,11 @@
 ---
-description: Running the most important Hello World on lilypad
+description: Running the most important Hello World on Lilypad!
 ---
 
 # Run Hello World!
 
 {% hint style="info" %}
-Make sure you have Lilypad CLI installed
+Make sure you have [Lilypad CLI installed](../install-run-requirements.md)
 {% endhint %}
 
 {% hint style="info" %}

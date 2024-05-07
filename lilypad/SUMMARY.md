@@ -8,10 +8,10 @@
 
 * [Overview](lilypad-milky-way-testnet/overview.md)
 * [Architecture](lilypad-milky-way-testnet/architecture.md)
+* [Installation](lilypad-milky-way-testnet/install-run-requirements.md)
 * [Quick Start](lilypad-milky-way-testnet/quick-start/README.md)
   * [Setting up MetaMask](lilypad-milky-way-testnet/quick-start/setting-up-metamask.md)
   * [Funding your wallet](lilypad-milky-way-testnet/quick-start/funding-your-wallet-from-faucet.md)
-  * [Install requirements](lilypad-milky-way-testnet/quick-start/install-run-requirements.md)
   * [Run Hello World!](lilypad-milky-way-testnet/quick-start/run-hello-world-job-cli.md)
 
 ## Lilypad Milky Way Reference

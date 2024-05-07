@@ -9,7 +9,7 @@ description: A cowsay job
 {% hint style="info" %}
 Ensure you have installed all requirements
 
-[install-run-requirements.md](../lilypad-milky-way-testnet/quick-start/install-run-requirements.md "mention")
+[install-run-requirements.md](../lilypad-milky-way-testnet/install-run-requirements.md "mention")
 {% endhint %}
 
 1. Make sure to have the following `env` in your shell session.

@@ -13,7 +13,7 @@ The SDV Pipeline modules are designed to take your text prompt, generate a still
 ## Running Stable Diffusion Video SDV1.0 and SDV1.1
 
 {% hint style="info" %}
-Ensure you have installed [all requirements](../lilypad-milky-way-testnet/quick-start/install-run-requirements.md)
+Ensure you have installed [all requirements](../lilypad-milky-way-testnet/install-run-requirements.md)
 {% endhint %}
 
 ### Lilypad
