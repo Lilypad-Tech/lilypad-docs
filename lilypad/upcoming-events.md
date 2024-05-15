@@ -15,6 +15,8 @@ Image: `> lilypad run sdxl:v0.9-lilypad3 "A record player at a bit event in spac
 ## Upcoming
 
 * [HackFS](https://ethglobal.com/events/hackfs2024) Online \[May 17-June 7]
+* [ETH Global ](https://ethglobal.com/events/sanfrancisco2024)San Francisco \[October 18-20]
+* [Devcon](https://devcon.org/) Bangkok \[November 12-15]
 
 ## Past
 
