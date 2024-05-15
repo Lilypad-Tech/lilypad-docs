@@ -6,19 +6,15 @@ description: A cowsay job
 
 ### Run Hello, 🐮 World! Job \[CLI] <a href="#user-content-run-hello-world-job" id="user-content-run-hello-world-job"></a>
 
-{% hint style="info" %}
-Ensure you have installed all requirements
+`cowsay` is a simple, text-based program originally written for Unix-like operating systems that generates ASCII pictures of a cow with a speech bubble containing a specified message.
 
-[install-run-requirements.md](../lilypad-milky-way-testnet/install-run-requirements.md "mention")
-{% endhint %}
-
-1. Make sure to have the following `env` in your shell session.
+Before running `cowsay`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
 
 ```bash
-export WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY
+export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
 ```
 
-2. Run `lilypad`
+Next, run the `cowsay` command:
 
 ```bash
 lilypad run cowsay:v0.0.3 -i Message="hello, lilypad"  
@@ -55,15 +51,19 @@ Lilypad: v2.0.0-d58a991
     https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR
 ```
 
-#### See the Results <a href="#user-content-see-the-results" id="user-content-see-the-results"></a>
+### View Results <a href="#user-content-see-the-results" id="user-content-see-the-results"></a>
 
-1. View the results by navigating to the IPFS CID Navigate to the IPFS CID result output in the Results -> [https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR](https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR)
+#### IPFS
+
+To view the results on IPFS, navigate to the IPFS CID Navigate to the IPFS CID result output in the Results -> [https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR](https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR)
 
 {% hint style="info" %}
 This could take up to a minute to propagate through the IPFS network. Please be patient
 {% endhint %}
 
-2. View the results by navigating to the local folder:
+#### Local
+
+To view the results in a local directory, navigate to the local folder.
 
 <pre class="language-bash"><code class="lang-bash"><strong>open /tmp/lilypad/data/downloaded-files/Qmay5vZ7u5jvn2VkAGMLkkYXGQQd5GFZFuHkbDEFYb5VeF
 </strong></code></pre>

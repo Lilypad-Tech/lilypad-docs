@@ -10,14 +10,15 @@ coverY: 0
 For hackathon ideas see [win-hacks-and-contribute-to-lilypad.md](resources/older-versions/lilypad-v1/reference/win-hacks-and-contribute-to-lilypad.md "mention")!
 {% endhint %}
 
-Image: `> lilypad run sdxl:v0.9-lilypad1 "A record player at a bit event in space"`
+Image: `> lilypad run sdxl:v0.9-lilypad3 "A record player at a bit event in space"`
 
 ## Upcoming
 
-* [ETHGlobal](https://ethglobal.com/events/sydney) Sydney \[May 3-5]
+* [HackFS](https://ethglobal.com/events/hackfs2024) Online \[May 17-June 7]
 
 ## Past
 
+* [ETHGlobal](https://ethglobal.com/events/sydney) Sydney \[May 3-5]
 * [LabWeek](https://twitter.com/protocollabs/status/1694728785189540063?s=20) Istanbul \[Nov 13-17]
 * [Fil:Dev Iceland](https://fildev.io) \[Sept 25-28]
 * [Chainlink SmartCon](https://smartcon.chain.link/) Barcelona \[Oct 1-3]

@@ -22,6 +22,11 @@ Ensure you have installed [all requirements](https://github.com/noryev/lilypad-d
 
 Lilypad can run SDXL v0.9 or SDXL v1.0 with the option to add tunables to improve or change the model output.&#x20;
 
+When running SDXL pipelines in Lilypad, you have the choice between using the Base model or the Refiner model. Each serves a unique purpose in the image generation process:
+
+* **Base Model**: This is the primary model that generates the initial image based on your input prompt. It focuses on the broad aspects of the image, capturing the main theme and essential elements. The Base model is faster and uses less computational power.
+* **Refiner Model**: This model takes the image from the Base model and enhances it. It refines details, improves textures, and adjusts colors to increase the visual appeal and realism of the image. The Refiner model is used when you need higher quality and more detailed images.
+
 &#x20;To run SDXL Pipeline in Lilypad, you can use the following commands:
 
 #### SDXL v0.9
