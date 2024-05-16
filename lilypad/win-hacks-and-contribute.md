@@ -47,7 +47,13 @@ There's also opportunities to extend the functionality of Lilypad compute with i
 
 ### 💅 Contribute a Module
 
-Contributing a module is one of the coolest things to contribute to Lilypad.
+Contributing a module is one of the coolest things to do for Lilypad. There are so many many options for compute and AI jobs that you can run with Lilypad, including adding new state of the art OSS AI models&#x20;
+
+* text to speech
+* text to opera (have you heard this one!)
+* finetuning models for sdxl and llm
+* image -> cartoon (or anything else)\
+
 
 As a quick refresher, the current Module Making Pipeline ([see a fuller resource here](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module)) looks like this:
 
