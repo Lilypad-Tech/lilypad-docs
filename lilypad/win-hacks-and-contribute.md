@@ -1,12 +1,12 @@
 ---
-description: Here's some ideas for building on or contributing to Lilypad!
+description: Here are some ideas for building on or contributing to Lilypad!
 ---
 
 # 🙌 Win Hacks & Contribute
 
 ## Hackathon & Project Ideas for Lilypad (Milky Way)
 
-Here's some ideas for what you could build with Lilypad Milky Way!
+Here are some ideas for what you could build with Lilypad Milky Way!
 
 {% hint style="info" %}
 💚 Good first project (Lilypadawan)
@@ -22,11 +22,11 @@ Here's some ideas for what you could build with Lilypad Milky Way!
 Earn those double bounty dollars building out crossover POCs to Lilypad!
 {% endhint %}
 
-Lilypad is aiming to build out a full suite of decentralised AI projects which means we want to collaborate with other projects in the ecosystem to make this vision a reality.&#x20;
+Lilypad is aiming to build out a full suite of decentralized AI projects, which means we want to collaborate with other projects in the ecosystem to make this vision a reality.&#x20;
 
 These include linking Lilypad compute with storage providers, data streams, databases & more.
 
-This also means adding layers like privacy or extending usage into other frameworks like unity or react native projects.\
+This also means adding layers like privacy or extending usage into other frameworks like Unity or react native projects.\
 \
 Some examples include:
 
@@ -39,7 +39,7 @@ Some examples include:
 * ZK Computations using zkSync for verifiable credentials and identity proofs without revealing sensitive information
 * A decentralized oracle service that uses AI to fetch, verify, and deliver real-world data from tools like Chainlink to smart contracts
 
-There's also opportunities to extend the functionality of Lilypad compute with items like\
+There are also opportunities to extend the functionality of Lilypad compute with items like\
 \- CICD pipelines\
 \- vector databases\
 \- Autonomous agents\
@@ -49,12 +49,16 @@ There's also opportunities to extend the functionality of Lilypad compute with i
 
 ### 💅 Contribute a Module
 
-Contributing a module is one of the coolest things to do for Lilypad. There are so many many options for compute and AI jobs that you can run with Lilypad, including adding new state of the art OSS AI models&#x20;
+Contributing a module is one of the coolest things to do for Lilypad. There are so many many options for compute and AI jobs that you can run with Lilypad, including adding new state-of-the-art OSS AI models&#x20;
 
 * text to speech
 * text to opera (have you heard this one!)
 * finetuning models for sdxl and llm
-* image -> cartoon (or anything else)\
+* image -> cartoon (or anything else)
+* build a module that classifies images into predefined categories (e.g., cats, dogs)
+* a basic recommendation system for movies, books, or products based on user preferences
+* personal finance tracker that uses AI to categorize and analyze spending patterns.
+* a module that provides personalized tutoring and learning assistance using AI\
 
 
 As a quick refresher, the current Module Making Pipeline ([see a fuller resource here](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module)) looks like this:
@@ -65,21 +69,21 @@ As a quick refresher, the current Module Making Pipeline ([see a fuller resource
 4. Add a Lilypad Spec - this is simply a github repo - [you can grab a template here](https://github.com/Lilypad-Tech/lilypad-module-boilerplate)!
 
 {% hint style="warning" %}
-Share your module with us by submitting a pull request to the [github here](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)!
+Share your module with us by submitting a pull request to the [GitHub here](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)!
 {% endhint %}
 
 ### ✨ DX Enhancements
 
 Lilypad is still evolving and is currently mostly in Beta phase. This means there are A LOT of opportunities to help build out better DX for your fellow dev's.
 
-One of the main opportunities is in the module making pipeline. See [#contribute-a-module](win-hacks-and-contribute.md#contribute-a-module "mention") for a quick breakdown on the developer journey).\
+One of the main opportunities is in the module making pipeline. See [#contribute-a-module](win-hacks-and-contribute.md#contribute-a-module "mention") for a quick breakdown of the developer journey).\
 \
 Some of the opportunities to improve this process include:
 
 * 💛 An application that can auto-containerise (or auto-dockerise) a given compute script
   * ❤️ BONUS IDEA: You could even then make a module to run the auto-containerising script on Lilypad after it's built! 🧙
 * 💚 You could go one further and also have it auto-generate the Lilypad spec as well!
-* ❤️ A determinism checker that could help determine if there is any obvious parts of the script (like timestamps) that would make it non-deterministic and show an error for this.
+* ❤️ A determinism checker that could help determine if there are any obvious parts of the script (like timestamps) that would make it non-deterministic and show an error for this.
 * 💛💛 Ways to make it easy for folks without GPUs at home to build & test a module
 * 💛 Build a UI for folks to share their modules with
 * 💚 Implement developer tooling for debugging and monitoring compute jobs, providing real-time feedback and logs
@@ -89,7 +93,7 @@ Some of the opportunities to improve this process include:
 
 ### 👾 End User Projects
 
-Build out other end user projects across a broad range of verticals. We are super interested to hear the type of projects people are looking to build on the Lilypad Network and have released a Javascript wrapper to help folks build easily.
+Build out other end-user projects across a broad range of verticals. We are very interested to hear the type of projects people are looking to build on the Lilypad Network and have released a Javascript wrapper to help folks build easily.
 
 Here are a few basic ideas of end user projects:
 
@@ -115,3 +119,12 @@ Pssst... We'd love to share your projects here too! Feel free to [submit a PR](h
 
 <figure><img src=".gitbook/assets/showcase.gif" alt=""><figcaption></figcaption></figure>
 
+
+
+### ✨We would love to hear your feedback!✨
+
+We hope this project page inspires you to build amazing things with us! If you have any ideas, suggestions, or any questions, we'd love to hear from you! Join our community on Discord to share your thoughts, ideas, ask questions, and get the support you need from the Lilypad team. 🪷
+
+[Join our Discord channel here!](https://discord.gg/VCYnYQGNrY)
+
+### **🌱Your feedback helps us improve and grow together!** 
