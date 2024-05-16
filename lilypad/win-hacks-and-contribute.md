@@ -31,11 +31,19 @@ This also means adding layers like privacy or extending usage into other framewo
 Some examples include:
 
 * Using Filecoin aggregators like Banyan or Tableland Basin with Lilypad
-* Doing a POC with WeatherXM
 * Extending the Chainsafe Unity SDK to add Lilypad jobs as an option
 * Building Lilypad into Mona or creating a module to use on Mona
 * Integrating with The Graph
+* Doing a POC with data from someone like WeatherXM
 * Adding privacy layers for data with Lit Protocol.
+
+There's also opportunities to extend the functionality of Lilypad compute with items like\
+\- CICD pipelines\
+\- vector databases\
+\- Autonomous agents\
+\- Batching jobs with an external script\
+\- Chaining jobs together in a pipeline\
+
 
 ### 💅 Contribute a Module
 
