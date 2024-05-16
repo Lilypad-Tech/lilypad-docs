@@ -44,9 +44,10 @@
 
 ## Use Cases
 
-* [🗺️ Extralabs](use-cases/extralabs.md)
+* [🔮 Farcaster x Lilypad](use-cases/farcaster-x-lilypad.md)
 * [🔥 Lit x Lilypad](use-cases/lit-x-lilypad.md)
 * [🤖 Olas x Lilypad](use-cases/olas-x-lilypad.md)
+* [🗺️ Extralabs](use-cases/extralabs.md)
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [🌠 Project Showcase](use-cases/project-showcase.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
