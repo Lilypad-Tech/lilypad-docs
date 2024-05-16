@@ -35,7 +35,9 @@ Some examples include:
 * Building Lilypad into Mona or creating a module to use on Mona
 * Integrating with The Graph
 * Doing a POC with data from someone like WeatherXM
-* Adding privacy layers for data with Lit Protocol.
+* Adding privacy layers for data with Lit Protocol
+* ZK Computations using zkSync for verifiable credentials and identity proofs without revealing sensitive information
+* A decentralized oracle service that uses AI to fetch, verify, and deliver real-world data from tools like Chainlink to smart contracts
 
 There's also opportunities to extend the functionality of Lilypad compute with items like\
 \- CICD pipelines\
@@ -80,10 +82,25 @@ Some of the opportunities to improve this process include:
 * ❤️ A determinism checker that could help determine if there is any obvious parts of the script (like timestamps) that would make it non-deterministic and show an error for this.
 * 💛💛 Ways to make it easy for folks without GPUs at home to build & test a module
 * 💛 Build a UI for folks to share their modules with
+* 💚 Implement developer tooling for debugging and monitoring compute jobs, providing real-time feedback and logs
+* 💛 Tools that analyze and optimize the performance of compute scripts, suggesting improvements and best practices
+* 💚 Implement static analysis tools to check for code quality, style, and potential issues in compute scripts
+* ❤️ Create tools to automatically audit compute scripts and modules for security vulnerabilities and compliance with best practices
 
 ### 👾 End User Projects
 
-Build out other end user projects across a broad range of verticals. We are super interested to hear the type of projects people are looking to build on the Lilypad Network and have released a Javascript wrapper to help folks build easily.\
+Build out other end user projects across a broad range of verticals. We are super interested to hear the type of projects people are looking to build on the Lilypad Network and have released a Javascript wrapper to help folks build easily.
+
+Here are a few basic ideas of end user projects:
+
+* **Education:** AI-powered educational tools for personalized learning experiences
+* **Music:** Developing AI-driven music composition tools, or applications for real-time music analysis and recommendation
+* **Finance:** Leverage AI for risk assessment and trading strategies
+* **Retail:** Building recommendation engines using AI for e-commerce platforms
+* **Environment:** Developing solutions for environmental monitoring and pollution tracking
+* **Security: T**ools using AI for auditing and security analysis
+
+\
 \
 Projects across DeFi, DeSci, Gaming, & Metaverse, NFTs, IOT and more, as well [#crossover-pocs-integrations-and-plugins](win-hacks-and-contribute.md#crossover-pocs-integrations-and-plugins "mention")!\
 
