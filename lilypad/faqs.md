@@ -18,7 +18,7 @@ Lilypad released a [Litepaper](https://docs.lilypad.tech/lilypad/research-and-vi
 
 ### Roadmap
 
-<figure><img src=".gitbook/assets/roadmap.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Roadmap.png" alt=""><figcaption></figcaption></figure>
 
 Lilypad is currently in Phase 0 of Testnet. The team is currently ironing out some remaining known issues and working on a fair model for our Incentivized Testnet.
 
