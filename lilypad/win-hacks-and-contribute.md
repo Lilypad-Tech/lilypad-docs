@@ -76,11 +76,11 @@ Projects across DeFi, DeSci, Gaming, & Metaverse, NFTs, IOT and more, as well [#
 
 ### 🐐 Need more inspiration?
 
-See the [project-showcase.md](../use-cases/project-showcase.md "mention") page!
+See the [project-showcase.md](use-cases/project-showcase.md "mention") page!
 
 {% hint style="info" %}
 Pssst... We'd love to share your projects here too! Feel free to [submit a PR](https://github.com/Lilypad-Tech/lilypad-docs)!
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/showcase.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/showcase.gif" alt=""><figcaption></figcaption></figure>
 

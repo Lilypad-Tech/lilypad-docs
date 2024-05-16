@@ -2,6 +2,7 @@
 
 * [🍃 Lilypad Home](README.md)
 * [📅 Events](upcoming-events.md)
+* [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
 * [⚡ FAQs](faqs.md)
 
 ## Lilypad Milky Way Testnet
@@ -13,7 +14,6 @@
   * [Setting up MetaMask](lilypad-milky-way-testnet/quick-start/setting-up-metamask.md)
   * [Funding your wallet](lilypad-milky-way-testnet/quick-start/funding-your-wallet-from-faucet.md)
   * [Run Hello World!](lilypad-milky-way-testnet/quick-start/run-hello-world-job-cli.md)
-* [🙌 Win Hacks & Contribute](lilypad-milky-way-testnet/win-hacks-and-contribute.md)
 
 ## Lilypad Milky Way Reference
 
