@@ -9,7 +9,7 @@
 
 * [Overview](lilypad-milky-way-testnet/overview.md)
 * [Architecture](lilypad-milky-way-testnet/architecture.md)
-* [Installation](lilypad-milky-way-testnet/install-run-requirements.md)
+* [Installation (CLI)](lilypad-milky-way-testnet/install-run-requirements.md)
 * [Quick Start](lilypad-milky-way-testnet/quick-start/README.md)
   * [Setting up MetaMask](lilypad-milky-way-testnet/quick-start/setting-up-metamask.md)
   * [Funding your wallet](lilypad-milky-way-testnet/quick-start/funding-your-wallet-from-faucet.md)
@@ -17,17 +17,20 @@
 
 ## Lilypad Milky Way Reference
 
+* [Javascript CLI Wrapper](lilypad-milky-way-reference/javascript-cli-wrapper/README.md)
+  * [Running Lilypad in a Front End](lilypad-milky-way-reference/javascript-cli-wrapper/running-lilypad-in-a-front-end.md)
+* [Lilypad Smart Contracts](lilypad-milky-way-reference/lilypad-smart-contracts.md)
 * [Run a Node](lilypad-milky-way-reference/run-a-node.md)
 * [Build a Job Module](lilypad-milky-way-reference/build-a-job-module.md)
-* [Lilypad Smart Contracts](lilypad-milky-way-reference/lilypad-smart-contracts.md)
 * [Game Theory](lilypad-milky-way-reference/game-theory.md)
-* [Running Lilypad in a Front End](lilypad-milky-way-reference/running-lilypad-in-a-front-end.md)
 
 ## Lilypad Milky Way Examples
 
 * [Hello, (cow) World!](lilypad-milky-way-examples/hello-cow-world.md)
 * [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-milky-way-examples/stable-diffusion-sdxl0.9.md)
 * [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-milky-way-examples/stable-diffusion-video-sdv1.0-and-1.1.md)
+* [Llama LLM](lilypad-milky-way-examples/llama-llm.md)
+* [AlphaFold2](lilypad-milky-way-examples/alphafold2.md)
 
 ## Research & Vision
 
@@ -41,9 +44,12 @@
 
 ## Use Cases
 
+* [🗺️ Extralabs](use-cases/extralabs.md)
+* [🔥 Lit x Lilypad](use-cases/lit-x-lilypad.md)
+* [🤖 Olas x Lilypad](use-cases/olas-x-lilypad.md)
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
-* [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
 * [🌠 Project Showcase](use-cases/project-showcase.md)
+* [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
 
 ## Tutorials & Content
 

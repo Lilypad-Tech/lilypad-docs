@@ -1,3 +1,7 @@
+---
+description: How to build your own compute job for Lilypad
+---
+
 # Build a Job Module
 
 A Lilypad module is a Git repository that can be used to perform various tasks using predefined templates and inputs.&#x20;
