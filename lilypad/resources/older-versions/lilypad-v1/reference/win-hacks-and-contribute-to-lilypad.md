@@ -38,7 +38,7 @@ See [advanced-diy-module.md](../examples/advanced-diy-module.md "mention")
 
 We're sorry about these docs... we're actively working on it!
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## More Inspiration?
 
