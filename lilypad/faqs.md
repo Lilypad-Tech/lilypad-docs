@@ -4,6 +4,8 @@ description: Frequently Asked Questions for Lilypad Network
 
 # ⚡ FAQs
 
+## General Questions
+
 ### What is the Lilypad Network?
 
 Lilypad is developing a serverless, distributed compute network that enables internet-scale data processing for AI, ML & other arbitrary computation from blockchains, while unleashing idle processing power & unlocking a new marketplace for compute.
@@ -14,15 +16,25 @@ Lilypad provides decentralized AI computational services. By extending unrestric
 
 Lilypad released a [Litepaper](https://docs.lilypad.tech/lilypad/research-and-vision/whitepaper) and will release a Whitepaper soon!
 
-### When will the Incentivized Testnet launch?
-
-The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on Discord for more info!
-
 ### Roadmap
+
+<figure><img src=".gitbook/assets/roadmap.png" alt=""><figcaption></figcaption></figure>
 
 Lilypad is currently in Phase 0 of Testnet. The team is currently ironing out some remaining known issues and working on a fair model for our Incentivized Testnet.
 
 Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on our website!
+
+### Has Lilypad raised VC money?
+
+Yes, Lilypad closed our seed round of funding in March 2024.
+
+## Incentivized Testnet Questions
+
+### When will the Incentivized Testnet launch?
+
+The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on Discord for more info!
+
+## Token Questions
 
 ### Lilypad Tokenomics
 
@@ -33,6 +45,8 @@ Tokenomics and research papers are currently being developed and expected by ear
 ### Expected TGE
 
 Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q4 2024.
+
+## Developer Questions
 
 ### What is a Lilypad Module?
 
@@ -60,7 +74,5 @@ Lilypad is an open network that allows anyone to contribute GPU computing capaci
 * Docker
 * Nvidia docker drivers
 
-### Has Lilypad raised VC money?
 
-Yes, Lilypad closed our seed round of funding in March 2024.
 
