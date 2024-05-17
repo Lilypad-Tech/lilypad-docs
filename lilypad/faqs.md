@@ -28,22 +28,6 @@ Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on ou
 
 Yes, Lilypad closed our seed round of funding in March 2024.
 
-## 🌐 Incentivized Testnet Questions
-
-### When will the Incentivized Testnet launch?
-
-The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on Discord for more info!
-
-## 📖 Token Questions
-
-### Lilypad Tokenomics
-
-Currently, there's no cost to run jobs and no incentive. Tokenomics and research papers are currently being developed and expected by early Q3 2024.&#x20;
-
-### Expected TGE
-
-Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q4 2024.
-
 ## 👩‍💻 Developer Questions
 
 ### What is a Lilypad Module?
@@ -72,5 +56,19 @@ Lilypad is an open network that allows anyone to contribute GPU computing capaci
 * Docker
 * Nvidia docker drivers
 
+## 🌐 Incentivized Testnet Questions
 
+### When will the Incentivized Testnet launch?
+
+The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on Discord for more info!
+
+## 📖 Token Questions
+
+### Lilypad Tokenomics
+
+Currently, there's no cost to run jobs and no incentive. Tokenomics and research papers are currently being developed and expected by early Q3 2024.&#x20;
+
+### Expected TGE
+
+Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q4 2024.
 
