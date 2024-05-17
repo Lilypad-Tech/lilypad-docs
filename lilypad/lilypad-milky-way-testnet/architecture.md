@@ -20,7 +20,7 @@ See [docs.bacalhau.org](https://docs.bacalhau.org) for more information on how B
 
 <figure><img src="../.gitbook/assets/arch_lp_services.png" alt=""><figcaption><p>Services in the Lilypad Ecosystem</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/layout-on-chain-job-flow.png" alt=""><figcaption><p>Network layout and on-chain job flow</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Solver service (3).png" alt=""><figcaption><p>Network layout and on-chain job flow</p></figcaption></figure>
 
 ### Based on Academic Research
 
