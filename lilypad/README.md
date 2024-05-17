@@ -53,6 +53,12 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 
 <figure><img src=".gitbook/assets/Group 1000002947 (3).png" alt=""><figcaption></figcaption></figure>
 
+## Lilypad Linktree - Learn more and join the community!
+
+&#x20;
+
+<figure><img src=".gitbook/assets/LilyQR.png" alt=""><figcaption></figcaption></figure>
+
 ## Previous Versions of Lilypad
 
 #### Lilypad v1
@@ -87,4 +93,5 @@ Lilypad v0 does not charge for compute jobs, outside of network running fees (ie
 
 ## Join the Community & Chat with Us
 
-<table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>#bacalhau-lilypad</td><td>Slack Community</td><td></td><td><a href="https://bit.ly/bacalhau-project-slack">https://bit.ly/bacalhau-project-slack</a></td><td><a href=".gitbook/assets/slack.png">slack.png</a></td></tr><tr><td>@LilypadNetwork</td><td></td><td></td><td><a href="https://www.youtube.com/@lilypadnetwork">https://www.youtube.com/@lilypadnetwork</a></td><td><a href=".gitbook/assets/8gzcr6RpGStvZFA2qRt4v6.jpg">8gzcr6RpGStvZFA2qRt4v6.jpg</a></td></tr><tr><td>@Lilypad_Tech</td><td></td><td></td><td><a href="https://twitter.com/Lilypad_Tech">https://twitter.com/Lilypad_Tech</a></td><td><a href=".gitbook/assets/twitter.jpeg">twitter.jpeg</a></td></tr><tr><td>Lilypad Blog</td><td></td><td></td><td><a href="https://www.lilypad.tech">https://www.lilypad.tech</a></td><td><a href=".gitbook/assets/Lilypad Pitch Deck Logo.png">Lilypad Pitch Deck Logo.png</a></td></tr><tr><td>Lilypad v0 Github</td><td></td><td></td><td><a href="https://github.com/bacalhau-project/lilypad">https://github.com/bacalhau-project/lilypad</a></td><td><a href=".gitbook/assets/github.png">github.png</a></td></tr><tr><td>Lilypad v1 Github</td><td></td><td></td><td><a href="https://github.com/bacalhau-project/MODICUM">https://github.com/bacalhau-project/MODICUM</a></td><td><a href=".gitbook/assets/github.png">github.png</a></td></tr></tbody></table>
+<table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Lilypad Network</td><td></td><td></td><td><a href="https://discord.gg/tnE8SMmsxW">https://discord.gg/tnE8SMmsxW</a></td><td><a href=".gitbook/assets/image-29.webp">image-29.webp</a></td></tr><tr><td>Lilypad Linktree</td><td></td><td></td><td><a href="https://linktr.ee/LilypadNetwork">https://linktr.ee/LilypadNetwork</a></td><td><a href=".gitbook/assets/Screenshot 2024-05-17 at 11.12.32 AM.png">Screenshot 2024-05-17 at 11.12.32 AM.png</a></td></tr><tr><td>@Lilypad_Tech</td><td></td><td></td><td><a href="https://twitter.com/Lilypad_Tech">https://twitter.com/Lilypad_Tech</a></td><td><a href=".gitbook/assets/twitter.jpeg">twitter.jpeg</a></td></tr><tr><td>Lilypad Blog</td><td></td><td></td><td><a href="https://blog.lilypadnetwork.org/">https://blog.lilypadnetwork.org/</a></td><td><a href=".gitbook/assets/Screenshot 2024-05-17 at 11.14.42 AM.png">Screenshot 2024-05-17 at 11.14.42 AM.png</a></td></tr><tr><td>@LilypadNetwork</td><td></td><td></td><td><a href="https://www.youtube.com/@lilypadnetwork">https://www.youtube.com/@lilypadnetwork</a></td><td><a href=".gitbook/assets/8gzcr6RpGStvZFA2qRt4v6.jpg">8gzcr6RpGStvZFA2qRt4v6.jpg</a></td></tr><tr><td>Lilypad-Tech Github</td><td></td><td></td><td><a href="https://github.com/Lilypad-Tech">https://github.com/Lilypad-Tech</a></td><td><a href=".gitbook/assets/Screenshot 2024-05-17 at 11.13.11 AM.png">Screenshot 2024-05-17 at 11.13.11 AM.png</a></td></tr></tbody></table>
+
