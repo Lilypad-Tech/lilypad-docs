@@ -85,7 +85,6 @@ Some of the opportunities to improve this process include:
 * 💚 You could go one further and also have it auto-generate the Lilypad spec as well!
 * ❤️ A determinism checker that could help determine if there are any obvious parts of the script (like timestamps) that would make it non-deterministic and show an error for this.
 * 💛💛 Ways to make it easy for folks without GPUs at home to build & test a module
-* 💛 Build a UI for folks to share their modules with
 * 💚 Implement developer tooling for debugging and monitoring compute jobs, providing real-time feedback and logs
 * 💛 Tools that analyze and optimize the performance of compute scripts, suggesting improvements and best practices
 * 💚 Implement static analysis tools to check for code quality, style, and potential issues in compute scripts
