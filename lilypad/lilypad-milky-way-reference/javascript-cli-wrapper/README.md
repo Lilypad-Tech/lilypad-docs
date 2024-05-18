@@ -13,7 +13,7 @@ This API allows you to run AI/ML inference on the Lilypad Network with a post re
 Request Headers
 
 ```bash
-Content-Type: "application/json",
+Content-Type: "application/json"
 ```
 
 Request Body:
