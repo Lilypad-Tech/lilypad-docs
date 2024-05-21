@@ -4,34 +4,52 @@ description: Javascript / Nodejs CLI Wrapper API
 
 # Javascript CLI Wrapper
 
-This API allows you to run AI/ML inference on the Lilypad Network with a post request.
+## Overview
+
+This API allows you to run AI/ML inference on the Lilypad Network with a POST request.
+
+## **Usage**
+
+### **Endpoint**
+
+To initiate an inference task, send a POST request to the following endpoint:
 
 ```bash
  POST http://js-cli-wrapper.lilypad.tech
 ```
 
-#### Request Headers
+### Request Headers
 
-```bash
-Content-Type: "application/json"
-Accept: "application/json"
-```
+Include the following headers in your request:
 
-#### Request Body Parameters
+* `Content-Type`: `"application/json"`
+* `Accept`: `"application/json"`
 
-* `pk`: your web3 private key
-* `module`: The Lilypad module that you would like to run
-* `inputs`: Prompt (key=value)
+### Request Body Parameters
 
-#### Example Request Body
+The request body should be a JSON object containing the following parameters:
+
+* `pk`: Your Web3 private key. This key is used to authenticate your request and should be kept secure.
+* `module`: The specific Lilypad module you want to run. Modules are pre-configured AI/ML models available on the Lilypad Network.
+* `inputs`: The input parameters for the module in the format `key=value`. These inputs will vary depending on the module you choose.
+
+### Example Request Body
+
+Here's an example of what your request body might look like:
 
 <pre class="language-json"><code class="lang-json">{
     "pk": "&#x3C;PRIVATE_KEY>",
     "module": "cowsay:v0.0.3",
-<strong>    "inputs (key=value)": "Message='moo'"
+<strong>    "inputs": "Message='moo'"
 </strong><strong>}
 </strong></code></pre>
 
+In this example:
 
+* `pk` is your unique Web3 private key.
+* `module` specifies the module to run, in this case, the "cowsay" module version 0.0.3.
+* `inputs` includes the input parameters for the module. Here, it sends a message saying "moo".
+
+## Resources
 
 Check out [running-lilypad-in-a-front-end.md](running-lilypad-in-a-front-end.md "mention") for examples running Lilypad locally!
