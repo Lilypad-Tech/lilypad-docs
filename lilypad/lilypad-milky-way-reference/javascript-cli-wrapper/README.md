@@ -10,28 +10,27 @@ This API allows you to run AI/ML inference on the Lilypad Network with a post re
  POST http://js-cli-wrapper.lilypad.tech
 ```
 
-Request Headers
+#### Request Headers
 
 ```bash
 Content-Type: "application/json"
+Accept: "application/json"
 ```
 
-Request Body:
+#### Request Body Parameters
 
-<pre class="language-bash"><code class="lang-bash">{
-"private-key": "string",
-"module name": "Lilypad Module",
-<strong>"payload (key=value)": "prompt"
+* `pk`: your web3 private key
+* `module`: The Lilypad module that you would like to run
+* `inputs`: Prompt (key=value)
+
+#### Example Request Body
+
+<pre class="language-json"><code class="lang-json">{
+    "pk": "&#x3C;PRIVATE_KEY>",
+    "module": "cowsay:v0.0.3",
+<strong>    "inputs (key=value)": "Message='moo'"
 </strong><strong>}
 </strong></code></pre>
-
-Request Body Parameters
-
-`private-key`: your web3 private key
-
-`module name`: The Lilypad module that you would like to run
-
-`payload`: Prompt
 
 
 
