@@ -4,9 +4,11 @@ description: Ollama Pipeline modules for Lilypad
 
 # Llama LLM
 
+## Overview
+
 Based on Ollama, the Ollama Pipeline modules for Lilypad allow you generate text on Lilypad using various models.
 
-#### Available models
+### Available models
 
 * #### Llama3
 
@@ -16,11 +18,11 @@ Llama3 is a machine learning model used for natural language processing. It is b
 
 ### Usage
 
-{% hint style="danger" %}
-Ensure you have installed [all requirements](../lilypad-milky-way-testnet/install-run-requirements.md)
-{% endhint %}
-
 #### Lilypad
+
+{% hint style="warning" %}
+Make sure you have installed [all requirements](../lilypad-milky-way-testnet/install-run-requirements.md)
+{% endhint %}
 
 To run Ollama Pipeline in Lilypad, you can use the following commands:
 
