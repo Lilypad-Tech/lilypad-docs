@@ -12,7 +12,7 @@ Contributing your own module is currently a non-trivial process. The Lilypad tea
 
 Contributing your own module to use on Lilypad is possible and welcome!\
 \
-Essentially modules on Lilypad currently operate like [Bacalhau](https://docs.bacalhau.org) Job Specifications do - take a look at this page on [creating-your-own-jobs.md](../../lilypad-v0/reference/creating-your-own-jobs.md "mention") to see more about how this works.\
+Essentially modules on Lilypad currently operate like [Bacalhau](https://docs.bacalhau.org) Job Specifications do - take a look at this page on [creating-your-own-jobs.md](../../lilypad-v0-deprecated/reference/creating-your-own-jobs.md "mention") to see more about how this works.\
 \
 In order that the modules on Lilypad are able to be verified and run on a trustless compute network, the modules also need to be deterministic, so that the job results can be verified by a mediator as needed. See [v1-documents](../../../../research-and-vision/v1-documents/ "mention") for more information on this process.
 
@@ -27,7 +27,7 @@ Here is an example of the SDXL module in python:
 
 {% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad-modicum/blob/main/src/python/modules/sdxl.py" %}
 
-It's a function that given a "string" will return a [bacalhau](../../lilypad-v0/reference/creating-your-own-jobs.md) docker job spec. That string can be whatever you want, JSON, csv, raw LLM prompt etc.\
+It's a function that given a "string" will return a [bacalhau](../../lilypad-v0-deprecated/reference/creating-your-own-jobs.md) docker job spec. That string can be whatever you want, JSON, csv, raw LLM prompt etc.\
 \
 In terms of output directories - you can see the SDXL example linked above names the "/outputs" folder and then will use that path in the command inside the Docker container.\
 \
