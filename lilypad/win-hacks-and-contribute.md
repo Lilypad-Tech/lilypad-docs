@@ -26,7 +26,7 @@ Lilypad is aiming to build out a full suite of decentralized AI projects, which 
 
 These include linking Lilypad compute with storage providers, data streams, databases & more.
 
-This also means adding layers like privacy or extending usage into other frameworks like Unity or react native projects.\
+This also means adding layers like privacy or extending usage into other frameworks like Unity or React Native projects.\
 \
 Some examples include:
 
@@ -39,34 +39,35 @@ Some examples include:
 * ZK Computations using zkSync for verifiable credentials and identity proofs without revealing sensitive information
 * A decentralized oracle service that uses AI to fetch, verify, and deliver real-world data from tools like Chainlink to smart contracts
 
-There are also opportunities to extend the functionality of Lilypad compute with items like\
-\- CICD pipelines\
-\- vector databases\
-\- Autonomous agents\
-\- Batching jobs with an external script\
-\- Chaining jobs together in a pipeline\
+There are also opportunities to extend the functionality of Lilypad compute with items like:
+
+* CICD pipelines
+* Vector databases
+* Autonomous agents
+* Batching jobs with an external script
+* Chaining jobs together in a pipeline\
 
 
 ### 💅 Contribute a Module
 
 Contributing a module is one of the coolest things to do for Lilypad. There are so many many options for compute and AI jobs that you can run with Lilypad, including adding new state-of-the-art OSS AI models&#x20;
 
-* text to speech
-* text to opera (have you heard this one!)
-* finetuning models for sdxl and llm
-* image -> cartoon (or anything else)
-* build a module that classifies images into predefined categories (e.g., cats, dogs)
-* a basic recommendation system for movies, books, or products based on user preferences
-* personal finance tracker that uses AI to categorize and analyze spending patterns.
-* a module that provides personalized tutoring and learning assistance using AI\
+* Text to speech
+* Text to opera (have you heard this one!)
+* Finetuning models for SDXL and LLM
+* Image -> cartoon (or anything else)
+* Build a module that classifies images into predefined categories (e.g., cats, dogs)
+* A basic recommendation system for movies, books, or products based on user preferences
+* Personal finance tracker that uses AI to categorize and analyze spending patterns.
+* A module that provides personalized tutoring and learning assistance using AI\
 
 
-As a quick refresher, the current Module Making Pipeline ([see a fuller resource here](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module)) looks like this:
+As a quick refresher, the current Module Making Pipeline ([see full "Build a job module" resource](lilypad-milky-way-reference/build-a-job-module.md)) looks like this:
 
-1. Find or build a compute script ([for example a python script on Huggingface like sdxl](https://huggingface.co/docs/diffusers/en/using-diffusers/sdxl))
+1. Find or build a compute script (for example, [a Python script on Hugging Face like SDXL](https://huggingface.co/docs/diffusers/en/using-diffusers/sdxl))
 2. **NOTE**: You must [make sure your compute job is deterministic](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module#ensuring-determinism) (this is possible with AI scripts also! [See this reference](https://huggingface.co/docs/diffusers/v0.27.2/en/using-diffusers/reusing\_seeds#reproducible-pipelines))
-3. Containerise the script with Docker ([see this blog for more info](https://blog.lilypad.tech))
-4. Add a Lilypad Spec - this is simply a github repo - [you can grab a template here](https://github.com/Lilypad-Tech/lilypad-module-boilerplate)!
+3. Containerise the script with Docker ([see this blog for more info](https://blog.lilypadnetwork.org/how-to-build-a-custom-job-module-on-lilypad#heading-containerising-and-configuration))
+4. Add a Lilypad Spec - this is simply a GitHub repo - [you can grab a template here](https://github.com/Lilypad-Tech/lilypad-module-boilerplate)!
 
 {% hint style="warning" %}
 Share your module with us by submitting a pull request to the [GitHub here](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)!

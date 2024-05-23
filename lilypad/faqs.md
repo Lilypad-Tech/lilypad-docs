@@ -32,17 +32,17 @@ Yes, Lilypad closed our seed round of funding in March 2024.
 
 ### What is a Lilypad Module?
 
-To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a Lilypad Module (see instructions below). Once setup, modules are run with the Lilypad CLI.
+To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a Lilypad Module (see instructions below). Once setup, modules are run with the Lilypad [CLI](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) or [API](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/javascript-cli-wrapper).
 
 ### How to run a ML job on Lilypad
 
-To run a ML job on Lilypad (Stable Diffusion, Mistral 7b, Stable Diffusion Video, and more) using the Lilypad CLI, follow these [instructions](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/quick-start) for getting started.&#x20;
+To run a ML job on Lilypad (Stable Diffusion, Mistral 7b, Stable Diffusion Video, and more) using the Lilypad CLI, follow the [CLI instructions](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) to get started.&#x20;
 
 To build an application with Lilypad compute and modules on the backend, check out this [guide](https://blog.lilypadnetwork.org/setting-up-your-lilypad-front-end).
 
 ### How to add a ML model to run on Lilypad
 
-A Lilypad module is a Git repository that can be used to perform various tasks using predefined templates and inputs. This [guide](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module) will walk you through the process of creating a Lilypad module, including defining a JSON template, handling inputs, ensuring determinism, and other best practices.
+A Lilypad module is a Git repository that can be used to perform various tasks using predefined templates and inputs. This ["build a job module" guide](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module) will walk you through the process of creating a Lilypad module, including defining a JSON template, handling inputs, ensuring determinism, and other best practices.
 
 ### How to run a Lilypad node
 
@@ -60,7 +60,7 @@ Lilypad is an open network that allows anyone to contribute GPU computing capaci
 
 ### When will the Incentivized Testnet launch?
 
-The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on Discord for more info!
+The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on [the Lilypad Discord](https://discord.gg/q6b2TkmH) for more info!
 
 ## 📖 Token Questions
 

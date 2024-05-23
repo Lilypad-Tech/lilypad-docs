@@ -17,8 +17,8 @@
 
 ## Lilypad Milky Way Reference
 
-* [Javascript CLI Wrapper](lilypad-milky-way-reference/javascript-cli-wrapper/README.md)
-  * [Running Lilypad in a Front End](lilypad-milky-way-reference/javascript-cli-wrapper/running-lilypad-in-a-front-end.md)
+* [Javascript CLI Wrapper](lilypad-milky-way-reference/javascript-cli-wrapper.md)
+* [Running Lilypad in a Front End](lilypad-milky-way-reference/running-lilypad-in-a-front-end.md)
 * [Lilypad Smart Contracts](lilypad-milky-way-reference/lilypad-smart-contracts.md)
 * [Run a Node](lilypad-milky-way-reference/run-a-node.md)
 * [Build a Job Module](lilypad-milky-way-reference/build-a-job-module.md)

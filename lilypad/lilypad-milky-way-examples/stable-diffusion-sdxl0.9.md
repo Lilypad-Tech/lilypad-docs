@@ -6,7 +6,7 @@ description: Run a Stable Diffusion Text to Image Job
 
 {% embed url="https://youtu.be/kh5jXuQ6_ww?si=BYIvEW9q8I4C7eS_" %}
 
-Generically, stable diffusion is what happens when you put a couple of drops of dye into a bucket of water. Given time, the dye randomly disperses and eventually settles into a uniform distribution which colours all the water evenly
+Generically, stable diffusion is what happens when you put a couple of drops of dye into a bucket of water. Given time, the dye randomly disperses and eventually settles into a uniform distribution which colours all the water evenly.
 
 In computer science, you define rules for your (dye) particles to follow and the medium this takes place in.
 

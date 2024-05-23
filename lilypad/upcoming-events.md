@@ -7,7 +7,7 @@ coverY: 0
 # 📅 Events
 
 {% hint style="info" %}
-For hackathon ideas see [win-hacks-and-contribute-to-lilypad.md](resources/older-versions/lilypad-v1/reference/win-hacks-and-contribute-to-lilypad.md "mention")!
+For hackathon ideas see [win-hacks-and-contribute.md](win-hacks-and-contribute.md "mention")!
 {% endhint %}
 
 Image: `> lilypad run sdxl:v0.9-lilypad3 "A record player at a bit event in space"`

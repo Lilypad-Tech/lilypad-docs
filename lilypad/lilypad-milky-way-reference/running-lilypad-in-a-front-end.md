@@ -278,7 +278,7 @@ Congrats! You have successfully integrated Lilypad into your front end.
 
 If you were able to complete the tutorial, share your front end with us on [Twitter](https://twitter.com/Lilypad\_Tech)!
 
-If you need any help or have any feedback, hop into our [Slack](https://bit.ly/bacalhau-project-slack) channel.
+If you need any help or have any feedback, hop into [our Discord](https://discord.gg/wgABDs89)!
 
 View the [source code](https://github.com/Lilypad-Tech/lilypad-front-end).
 

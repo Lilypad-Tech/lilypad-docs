@@ -2,7 +2,7 @@
 description: Instructions for installing the Lilypad CLI on your machine
 ---
 
-# Installation
+# Installation (CLI)
 
 ## Install Lilypad CLI
 
@@ -27,7 +27,7 @@ sudo mv lilypad /usr/local/bin/lilypad
 
 ### 2. Set WEB3\_PRIVATE\_KEY
 
-Finally, you're required to set your private key environment variable, `WEB3_PRIVATE_KEY`, to interact securely with the network.&#x20;
+You're required to set your private key environment variable, `WEB3_PRIVATE_KEY`, to interact securely with the network.&#x20;
 
 ```bash
 export WEB3_PRIVATE_KEY=<your private key>

@@ -4,12 +4,12 @@ description: Lilypad Milky Way Architecture
 
 # Architecture
 
-This page is a dynamic work in progress! We're working on some better diagrams!
+This page is a dynamic work in progress! We're currently working on some better diagrams!
 
 {% hint style="success" %}
 See the [whitepaper.md](../research-and-vision/whitepaper.md "mention") for further information on how the MODICUM architecture was enhanced in implementation
 
-See [docs.bacalhau.org](https://docs.bacalhau.org) for more information on how Bacalhau operates
+See the [Bacalhau documentation](https://docs.bacalhau.org/) for more information on how Bacalhau operates
 {% endhint %}
 
 ### Lilypad Technical Architecture
@@ -33,8 +33,10 @@ For an in-depth understanding, you can read the paper [here](https://arxiv.org/a
 
 ### Developer Experience and Determinism: A Talk by Luke Marsden
 
-In this insightful presentation, Luke Marsden, a core member of the Lilypad project, delves into the complex relationship between determinism and developer experience. He highlights the necessity for determinism in verification systems and discusses the challenges of implementing it during runtime. The talk also covers the project's strategy to separate module creators from end-users and to provide a curated list of deterministic modules. Key points in the roadmap like improving user experience, decentralizing mediators, and automating determinism checks are also touched upon. The presentation concludes with a live demo of running AI jobs on Lilypad V2.
+In this insightful presentation, Luke Marsden, a core member of the Lilypad project, delves into the complex relationship between determinism and developer experience. He highlights the necessity for determinism in verification systems and discusses the challenges of implementing it during runtime.&#x20;
+
+The talk also covers the project's strategy to separate module creators from end-users and to provide a curated list of deterministic modules. Key points in the roadmap like improving user experience, decentralizing mediators, and automating determinism checks are also touched upon. The presentation concludes with a live demo of running AI jobs on Lilypad V2.
 
 {% embed url="https://youtu.be/zeG2F-JANjI?si=F3uHxm-M7UzFzamo" %}
-Lilypad Aurora: Technical Deep Dive & Demo
+Lilypad Aurora v2: Technical Deep Dive & Demo
 {% endembed %}

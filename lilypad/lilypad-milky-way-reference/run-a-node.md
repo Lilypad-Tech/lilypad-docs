@@ -1,6 +1,6 @@
 ---
 description: >-
-  The below are instructions for setting up and running on the public Lilypad
+  Below are instructions for setting up and running on the public Lilypad
   testnet, including adding a node, obtaining necessary funds, installing
   required software, and ensuring security measures.
 ---
@@ -13,7 +13,7 @@ The testnet has a base currency of ETH, as well as a utility token called LP. LP
 
 #### MetaMask
 
-We recommend using MetaMask with custom settings to make things easier. Once you have it installed and setup, here are the settings you should use:
+We recommend using MetaMask with custom settings to make things easier. Once you have it installed and setup, here are the settings you need to use:
 
 * Network name: Lilypad v3 Milky Way testnet
 * New RPC URL:[ http://testnet.lilypad.tech:8545](http://testnet.lilypad.tech:8545/)
@@ -156,11 +156,11 @@ Check that they are running with systemctl status as usual, and debug with journ
 For example: `sudo journalctl -uf lilypad-resource-provider` will give you the live output from your Lilypad node. You should see your resource provider start accepting jobs on the network in the logs.
 
 {% hint style="info" %}
-Please report issues on Bacalhau #lilypad-general Slack.&#x20;
+Please report issues on Bacalhau in the [Lilypad Discord](https://discord.gg/wgABDs89).&#x20;
 {% endhint %}
 
 ### Security
 
 If you want to allowlist only certain modules (e.g. Stable Diffusion modules), so that you can control exactly what code runs on your nodes (which you can audit to ensure that they are secure and will have no negative impact on your nodes), you can do that by setting an environment variable `OFFER_MODULES` in the GPU provider to a comma separated list of module names, e.g. `sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1`
 
-Visit the [Lilypad GitHub](https://github.com/bacalhau-project/lilypad/#available-modules) for a full list of available modules.
+Visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad#available-modules) for a full list of available modules.

@@ -5,11 +5,7 @@ description: Running the most important Hello World on Lilypad!
 # Run Hello World!
 
 {% hint style="info" %}
-Make sure you have [Lilypad CLI installed](../install-run-requirements.md)
-{% endhint %}
-
-{% hint style="info" %}
-Make sure you have set a `WEB3_PRIVATE_KEY` env variable in your environment
+Make sure you have [Lilypad CLI installed](../install-run-requirements.md) and have [set a `WEB3_PRIVATE_KEY` env variable](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) in your environment
 {% endhint %}
 
 ### Run Cowsay
