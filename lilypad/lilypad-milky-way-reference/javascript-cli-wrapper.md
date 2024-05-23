@@ -39,13 +39,14 @@ The request body should be a JSON object containing the following parameters:
 
 Here's an example of what your request body might look like:
 
-<pre class="language-json"><code class="lang-json">{
-    "pk": "&#x3C;PRIVATE_KEY>",
+```json
+{
+    "pk": "<PRIVATE_KEY>",
     "module": "cowsay:v0.0.3",
-<strong>    "inputs": "Message='moo'",
-</strong><strong>    "opts": { "stream": true }
-</strong><strong>}
-</strong></code></pre>
+    "inputs": "-i Message='moo' -i Steps=50",
+    "opts": { "stream": true }
+}
+```
 
 In this example:
 
