@@ -50,7 +50,7 @@ The LIT protocol allows for secure, decentralized data calculations, while Ceram
 
 Lilypad + Bacalhau carries out off-chain jobs such as reward computation and vote tallying.
 
-PFS and Web3.Storage ensure secure and efficient data storage and transfer, while Drand provides unbiased off-chain voting through time-lock encryption.
+IPFS and Web3.Storage ensure secure and efficient data storage and transfer, while Drand provides unbiased off-chain voting through time-lock encryption.
 
 ## Find out more about DefiKicks.xyz
 

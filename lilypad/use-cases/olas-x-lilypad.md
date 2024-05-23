@@ -1,5 +1,5 @@
 ---
-description: Autonomous Agents on Lilypad
+description: Autonomous Agents on Lilypad. In Progress..
 ---
 
 # 🤖 Olas x Lilypad

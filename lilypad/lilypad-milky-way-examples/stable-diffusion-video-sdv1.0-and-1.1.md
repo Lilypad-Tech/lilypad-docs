@@ -10,13 +10,17 @@ Based on ComfyUI, the SDV Pipeline modules for Lilypad allow you generate videos
 
 The SDV Pipeline modules are designed to take your text prompt, generate a still frame using SDXL, then use that as the input to the SDV model, producing an APNG (animated PNG), WebP video, and an MP4 video all in one go.
 
-## Running Stable Diffusion Video SDV1.0 and SDV1.1
+## \[CLI] Running Stable Diffusion Video SDV1.0 and SDV1.1
 
-{% hint style="info" %}
-Ensure you have installed [all requirements](../lilypad-milky-way-testnet/install-run-requirements.md)
-{% endhint %}
+### Prerequisites
 
-### Lilypad
+Before running `sdv`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
+
+```bash
+export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
+```
+
+### Usage
 
 To run SDV1.0 or 1.1 Pipeline in Lilypad, you can use the following commands:
 
@@ -32,7 +36,7 @@ lilypad run sdv-pipeline:v1.0-lilypad2 -i ImageSeed="696721260153400" -i Prompt=
 lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps=70
 ```
 
-#### Specifying tunables
+### Specifying tunables
 
 If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to change or improve the quality of the image generated add "Steps=x" with x = (up to 70):
 
@@ -41,7 +45,7 @@ lilypad run sdv-pipeline -i Prompt="an astronaut floating against a white backgr
 ```
 
 {% hint style="info" %}
-See the options and tunables section for more information on what tunables are available.
+See the [options and tunables](stable-diffusion-video-sdv1.0-and-1.1.md#options-and-tunables) section for more information on what tunables are available.
 {% endhint %}
 
 The output will look like this:

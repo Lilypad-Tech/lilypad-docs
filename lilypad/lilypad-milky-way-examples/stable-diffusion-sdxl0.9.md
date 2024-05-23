@@ -12,13 +12,17 @@ In computer science, you define rules for your (dye) particles to follow and the
 
 Stable Diffusion is a machine learning model used for text-to-image processing (like Dall-E) and based on a diffusion probabilistic model that uses a transformer to generate images from text.
 
-### \[CLI] Running Stable Diffusion SDXL 0.9 and SDXL 1.0
+## \[CLI] Running Stable Diffusion SDXL 0.9 and SDXL 1.0
 
-{% hint style="danger" %}
-Ensure you have installed [all requirements](https://github.com/noryev/lilypad-docs/blob/main/lilypad/lilypad-milkyway-testnet/quick-start/install-run-requirements.md)
-{% endhint %}
+### Prerequisites
 
-### Lilypad
+Before running `sdxl`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
+
+```bash
+export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
+```
+
+### Usage
 
 Lilypad can run SDXL v0.9 or SDXL v1.0 with the option to add tunables to improve or change the model output.&#x20;
 
@@ -57,7 +61,7 @@ Refiner:
 lilypad run sdxl-pipeline:v1.0-refiner-lilypad3 -i Prompt="an astronaut floating against a white background"
 ```
 
-#### Specifying tunables
+### Specifying tunables
 
 If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to improve the quality of the image generated add "Steps=x" with x = (up to 200):
 
@@ -73,7 +77,7 @@ The output will look like this:
 
 <figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_execution.png" alt=""><figcaption></figcaption></figure>
 
-**SDXL Output**
+### **SDXL Output**
 
 Take the IPFS link given in the results and paste it into your browser:
 
@@ -117,7 +121,7 @@ To change the image, you can pass in a different seed number:
 
 Output using different seed.
 
-### Options and tunables
+## Options and tunables
 
 The following tunables are available. All of them are optional, and have default settings that will be used if you do not provide them.
 
@@ -141,10 +145,7 @@ In this video, Sam demos the use of SDXL in the Lilypad network.
 
 {% embed url="https://youtu.be/RBECCMl_fco" %}
 
-### Looking for Smart Contracts?
+## Looking for Smart Contracts?
 
-\
-Try this to start!
-
-{% @github-files/github-code-block url="https://github.com/bacalhau-project/lilypad/blob/main/docs/smart-contract-jobs.md" %}
+Check out [our smart contracts docs](../lilypad-milky-way-reference/lilypad-smart-contracts.md)!
 
