@@ -39,15 +39,6 @@ The request body should be a JSON object containing the following parameters:
 
 Here's an example of what your request body might look like:
 
-```json
-{
-    "pk": "<PRIVATE_KEY>",
-    "module": "cowsay:v0.0.3",
-    "inputs": "-i Message='moo' -i Steps=50",
-    "opts": { "stream": true }
-}
-```
-
 <pre class="language-json"><code class="lang-json">{
     "pk": "&#x3C;PRIVATE_KEY>",
     "module": "sdxl-pipeline:v0.9-base-lilypad3",
