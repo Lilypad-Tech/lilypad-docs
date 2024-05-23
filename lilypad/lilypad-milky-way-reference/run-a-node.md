@@ -35,6 +35,35 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 * Docker
 * Nvidia docker drivers
 
+#### Install Nvidia Container Toolkit
+
+To ensure proper operation of your graphics cards and Lilypad, follow these steps to install the Nvidia Toolkit Base Installer: [Nvidia Container Toolkit download page](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+
+```bash
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+  && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+    sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+    sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+    
+sudo apt-get update
+
+sudo apt-get install -y nvidia-container-toolkit
+```
+
+Configure the container runtime by using the nvidia-ctk command:
+
+```bash
+ sudo nvidia-ctk runtime configure --runtime=docker
+```
+
+The nvidia-ctk command modifies the /etc/docker/daemon.json file on the host. The file is updated so that Docker can use the NVIDIA Container Runtime.
+
+Restart the Docker daemon:
+
+```bash
+sudo systemctl restart docker
+```
+
 #### Install Bacalhau
 
 Bacalhau is a peer-to-peer network of nodes that enables decentralized communication between computers. The network consists of two types of nodes, which can communicate with each other.
