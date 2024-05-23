@@ -185,7 +185,7 @@ Check that they are running with systemctl status as usual, and debug with journ
 For example: `sudo journalctl -uf lilypad-resource-provider` will give you the live output from your Lilypad node. You should see your resource provider start accepting jobs on the network in the logs.
 
 {% hint style="info" %}
-Please report issues on Bacalhau in the [Lilypad Discord](https://discord.gg/wgABDs89).&#x20;
+Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).&#x20;
 {% endhint %}
 
 ### Security

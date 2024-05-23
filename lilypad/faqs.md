@@ -60,7 +60,7 @@ Lilypad is an open network that allows anyone to contribute GPU computing capaci
 
 ### When will the Incentivized Testnet launch?
 
-The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on [the Lilypad Discord](https://discord.gg/q6b2TkmH) for more info!
+The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on [the Lilypad Discord](https://lilypad.team/discord) for more info!
 
 ## 📖 Token Questions
 
@@ -72,3 +72,6 @@ Currently, there's no cost to run jobs and no incentive. Tokenomics and research
 
 Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q4 2024.
 
+
+
+Can't find the answer you were looking for? Join [the Lilypad Discord server](https://lilypad.team/discord) for live support! 🪷

@@ -6,7 +6,7 @@ description: >-
 
 # 🌠 Project Showcase
 
-Want to be featured on this page? Get in touch in [the Lilypad Discord server](https://discord.gg/wgABDs89)!
+Want to be featured on this page? Get in touch in [the Lilypad Discord server](https://lilypad.team/discord)!
 
 ## EthGlobal Sydney - May '24
 

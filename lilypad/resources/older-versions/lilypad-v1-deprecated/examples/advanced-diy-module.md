@@ -5,7 +5,7 @@ description: Contribute your own module to Lilypad
 # \[Advanced] DIY Module
 
 {% hint style="warning" %}
-Contributing your own module is currently a non-trivial process. The Lilypad team is aiming to make this DX easier as well as to add tutorials, walkthroughs and approaches to making modules over the next month. In the meantime if you try this and do get stuck - please reach out to us in [the Lilypad Discord](https://discord.gg/wgABDs89) for help!
+Contributing your own module is currently a non-trivial process. The Lilypad team is aiming to make this DX easier as well as to add tutorials, walkthroughs and approaches to making modules over the next month. In the meantime if you try this and do get stuck - please reach out to us in [the Lilypad Discord](https://lilypad.team/discord) for help!
 {% endhint %}
 
 ## Overview

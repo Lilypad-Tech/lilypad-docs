@@ -125,6 +125,6 @@ Pssst... We'd love to share your projects here too! Feel free to [submit a PR](h
 
 We hope this project page inspires you to build amazing things with us! If you have any ideas, suggestions, or any questions, we'd love to hear from you! Join our community on Discord to share your thoughts, ideas, ask questions, and get the support you need from the Lilypad team. 🪷
 
-[Join our Discord channel here!](https://discord.gg/VCYnYQGNrY)
+[Join our Discord channel here](https://lilypad.team/discord)!
 
 ### **🌱Your feedback helps us improve and grow together!** 
