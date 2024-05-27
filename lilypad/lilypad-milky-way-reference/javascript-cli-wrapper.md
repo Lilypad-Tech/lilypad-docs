@@ -8,9 +8,13 @@ description: Javascript / Nodejs CLI Wrapper API
 
 This API allows you to run AI/ML inference on the Lilypad Network with a POST request.
 
-## **Usage**
+{% hint style="info" %}
+This API is newly developed and we are actively working on improvements and appreciate your understanding as we refine its functionality!\
+\
+Please report any issues to the [GitHub](https://github.com/Lilypad-Tech/js-cli-wrapper/issues) or [Lilypad Discord server](https://lilypad.team/discord)!
+{% endhint %}
 
-### **Endpoint**
+## **Usage**
 
 To initiate an inference task, send a POST request to the following endpoint:
 
