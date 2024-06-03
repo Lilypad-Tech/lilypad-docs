@@ -33,7 +33,7 @@ The Ollama Pipeline in Lilypad can be run using the Lilypad CLI or Docker. Below
 To run Ollama Pipeline using the Lilypad CLI, you can use the following command:
 
 ```bash
-lilypad run ollama-pipeline:llama3-8b-lilypad1 -i Prompt='Something awesome this way comes'
+lilypad run ollama-pipeline:llama3-8b-lilypad2 -i Prompt='Something awesome this way comes'
 ```
 
 #### Docker
@@ -44,7 +44,7 @@ To run this module in Docker, you can use the following commands:
 docker run -ti --gpus all \
     -v $PWD/outputs:/outputs \
     -e PROMPT="Something awesome this way comes" \
-    zorlin/ollama:llama3-8b-lilypad1
+    zorlin/ollama:llama3-8b-lilypad2
 ```
 
 ### Links
