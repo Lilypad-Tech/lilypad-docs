@@ -152,7 +152,7 @@ WantedBy=multi-user.target
 Open `/etc/systemd/system/lilypad-resource-provider.service` in your preferred editor.
 
 {% hint style="info" %}
-Hint: `sudo Vim /etc/systemd/system/lilypad-resource-provider.service`
+Hint: `sudo vim /etc/systemd/system/lilypad-resource-provider.service`
 {% endhint %}
 
 ```
