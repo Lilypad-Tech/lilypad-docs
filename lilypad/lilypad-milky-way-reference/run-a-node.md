@@ -126,7 +126,7 @@ systemd is a system and service manager for Linux operating systems. systemd ope
 To install systemd, open `/etc/systemd/system/bacalhau.service` in your preferred editor:
 
 {% hint style="info" %}
-Hint: `sudo editor /etc/systemd/system/bacalhau.service`
+Hint: `sudo vim /etc/systemd/system/bacalhau.service`
 {% endhint %}
 
 <pre><code>[Unit]
@@ -152,7 +152,7 @@ WantedBy=multi-user.target
 Open `/etc/systemd/system/lilypad-resource-provider.service` in your preferred editor.
 
 {% hint style="info" %}
-Hint: `sudo editor /etc/systemd/system/lilypad-resource-provider.service`
+Hint: `sudo vim /etc/systemd/system/lilypad-resource-provider.service`
 {% endhint %}
 
 ```
@@ -169,13 +169,18 @@ Environment="OFFER_GPU=1"
 EnvironmentFile=/app/lilypad/resource-provider-gpu.env
 Restart=always
 RestartSec=5s
-ExecStart=/usr/bin/lilypad resource-provider 
+ExecStart=/usr/local/bin/lilypad resource-provider 
 
 [Install]
 WantedBy=multi-user.target
+```
+
 Reload systemd's units/daemons (you will need to do this again if you ever change the systemd unit files that we wrote, above)
+ ```bash
 sudo systemctl daemon-reload
+```
 Start systemd units:
+ ```bash
 sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 ```
