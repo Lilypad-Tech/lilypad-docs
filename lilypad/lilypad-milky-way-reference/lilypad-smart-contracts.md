@@ -191,7 +191,7 @@ main().catch((error) => {
 
 After the job is completed, a job result ID will be displayed in your terminal. The job result can be accessed through the following URL:
 
-```bash
+```
 https://ipfs.io/ipfs/<JOB RESULT ID>/stdout
 ```
 
