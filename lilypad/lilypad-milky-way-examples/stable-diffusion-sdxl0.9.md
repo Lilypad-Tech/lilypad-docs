@@ -63,7 +63,7 @@ lilypad run sdxl-pipeline:v1.0-refiner-lilypad3 -i Prompt="an astronaut floating
 
 ### Specifying tunables
 
-If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to improve the quality of the image generated add "Steps=x" with x = (up to 200):
+If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to improve the quality of the image generated add "Steps=x" with x = (Min: 5. Max: 200):
 
 ```bash
 lilypad run sdxl-pipeline -i Prompt="an astronaut floating against a white background" -i Steps=69
