@@ -26,8 +26,6 @@ Use Lilypad to run models including Stable Diffusion and Stable Diffusion Video,
 
 ## Overview
 
-<figure><img src=".gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="info" %}
 Lilypad is now at **v3: Milky Way Testnet!** :tada: [Try it out](https://docs.lilypad.tech/lilypad/lilypad-milkyway-testnet/quick-start) - we dare you :man\_technologist:
 {% endhint %}
