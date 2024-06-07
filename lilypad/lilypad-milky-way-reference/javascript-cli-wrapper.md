@@ -39,25 +39,39 @@ The request body should be a JSON object containing the following parameters:
 * `opts?`: Additional options for customizing the module execution such as:
   * `stream`: Boolean value to specify if the output should be streamed (`true`) or not (`false`).
 
-### Example Request Body
+### Example Request
 
-Here's an example of what your request body might look like:
+Here's an example of what your request may look like from a client:
 
-<pre class="language-json"><code class="lang-json">{
-    "pk": "&#x3C;PRIVATE_KEY>",
-    "module": "sdxl-pipeline:v0.9-base-lilypad3",
-<strong>    "inputs": "-i Prompt='an astronaut floating against a white background' -i Steps=50",
-</strong><strong>    "opts": { "stream": true }
-</strong><strong>}
-</strong></code></pre>
+```javascript
+const url = 'http://js-cli-wrapper.lilypad.tech';
+const pk = 'your_private_key';
+const module = 'ollama-pipeline:llama3-8b-lilypad2';
+const inputs = 'your_input_data';
+
+const body = {
+  pk: pk,
+  module: module,
+  inputs: `-i Prompt='${inputs}'`,
+  opts: { stream: true }
+};
+
+try {
+  const response = await axios.post(url, body, {
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    }
+  });
+  console.log('Response data:', response.data);
+} catch (error) {
+  console.error('Error during POST request:', error);
+}
+```
 
 In this example:
 
-* `pk` is your unique Web3 private key.
-* `module` specifies the module to run, in this case, the "cowsay" module version 0.0.3.
-* `inputs` includes the input parameters for the module. `-i` represents a new input/tunable. Here, it sends a prompt to an SDXL job and specifies the tunables (in this case, Steps).
+* `pk` is your unique Web3 private key
+* `module` specifies the module to run, in this case, the Llama3 model on the Lilypad Ollama Pipeline (`ollama-pipeline:llama3-8b-lilypad2`)
+* The `inputs` field includes the input parameters for the module. The `-i` flag represents a new input or tunable. In this context, it sends a prompt to the Llama3 job. This field is also where you would specify tunables, such as the number of steps in a job.
 * `opts` includes the "stream" parameter
-
-## Resources
-
-Check out [running-lilypad-in-a-front-end.md](running-lilypad-in-a-front-end.md "mention") for examples running Lilypad locally!

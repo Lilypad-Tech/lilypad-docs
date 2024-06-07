@@ -187,6 +187,18 @@ main().catch((error) => {
 
 ```
 
+### View results
+
+After the job is completed, a job result ID will be displayed in your terminal. The job result can be accessed through the following URL:
+
+```bash
+https://ipfs.io/ipfs/<JOB RESULT ID>/stdout
+```
+
+{% hint style="info" %}
+Please note that the IPFS link might take some time to display the result.
+{% endhint %}
+
 ## Lilypad Hardhat template
 
 The [Lilypad Hardhat template](https://github.com/Lilypad-Tech/lilypad-hardhat-template) demonstrates how to use Lilypad within the Hardhat development environment for onchain interactions. It provides the tools and structure needed to deploy smart contracts that interact with Lilypad nodes onchain.&#x20;
@@ -217,5 +229,7 @@ In a separate terminal, run this command to execute cowsay onchain:
 ```bash
 npm run lilypad:onchain:cowsay
 ```
+
+To view the results of the job, refer to [this section](lilypad-smart-contracts.md#view-results).
 
 To update the smart contract, you can modify `ExampleClient` in `contracts/ExampleClient.sol`. Once you've made the changes,  run `npm run deploy`.
