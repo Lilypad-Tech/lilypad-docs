@@ -38,7 +38,7 @@ lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt=
 
 ### Specifying tunables
 
-If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to change or improve the quality of the image generated add "Steps=x" with x = (up to 70):
+If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to change or improve the quality of the image generated add "Steps=x" with x = (min: 5. Max: 200):
 
 ```bash
 lilypad run sdv-pipeline -i Prompt="an astronaut floating against a white background" -i Steps=69
