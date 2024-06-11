@@ -14,7 +14,7 @@ Image: `> lilypad run sdxl:v0.9-lilypad3 "A record player at a bit event in spac
 
 ## Upcoming
 
-* ETHCC Brussels \[July 8-11]
+* [ETHCC Brussels](https://ethcc.io/) \[July 8-11]
 
 ## Past
 
