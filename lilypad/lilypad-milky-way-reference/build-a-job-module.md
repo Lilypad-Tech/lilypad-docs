@@ -8,6 +8,10 @@ A Lilypad module is a Git repository that can be used to perform various tasks u
 
 This guide will walk you through the process of creating a Lilypad module, including defining a JSON template, handling inputs, ensuring determinism, and other best practices.
 
+{% hint style="info" %}
+If you're new to Docker, consider exploring this [step-by-step tutorial](https://docs.docker.com/get-started/) on creating, building, and running a Docker image for a simple Hello World style application.
+{% endhint %}
+
 ## Module Structure
 
 1. Start by creating a Git repository for your Lilypad module. The module's versions will be represented as Git tags.
