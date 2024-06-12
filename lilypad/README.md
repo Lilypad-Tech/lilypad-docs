@@ -1,6 +1,20 @@
 ---
-cover: .gitbook/assets/record player in flowers (1).png
-coverY: 0
+cover: .gitbook/assets/Gitbook Banner (970 x 365 px).svg
+coverY: -15
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 🍃 Lilypad Home
