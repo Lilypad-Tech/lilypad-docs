@@ -7,13 +7,12 @@
 
 ## Lilypad Testnet
 
-* [Overview](lilypad-testnet/overview.md)
-* [Architecture](lilypad-testnet/architecture.md)
-* [Installation (CLI)](lilypad-testnet/install-run-requirements.md)
-* [Quick Start](lilypad-testnet/quick-start/README.md)
-  * [Setting up MetaMask](lilypad-testnet/quick-start/setting-up-metamask.md)
-  * [Funding your wallet](lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md)
-  * [Run Hello World!](lilypad-testnet/quick-start/run-hello-world-job-cli.md)
+* [Architecture](lilypad-milky-way-testnet/architecture.md)
+* [Installation (CLI)](lilypad-milky-way-testnet/install-run-requirements.md)
+* [Quick Start](lilypad-milky-way-testnet/quick-start/README.md)
+  * [Setting up MetaMask](lilypad-milky-way-testnet/quick-start/setting-up-metamask.md)
+  * [Funding your wallet](lilypad-milky-way-testnet/quick-start/funding-your-wallet-from-faucet.md)
+  * [Run Hello World!](lilypad-milky-way-testnet/quick-start/run-hello-world-job-cli.md)
 
 ## Lilypad Milky Way Reference
 
@@ -22,7 +21,6 @@
 * [Lilypad Smart Contracts](lilypad-milky-way-reference/lilypad-smart-contracts.md)
 * [Run a Node](lilypad-milky-way-reference/run-a-node.md)
 * [Build a Job Module](lilypad-milky-way-reference/build-a-job-module.md)
-* [Game Theory](lilypad-milky-way-reference/game-theory.md)
 
 ## Lilypad Milky Way Examples
 
@@ -35,6 +33,7 @@
 ## Research & Vision
 
 * [Litepaper](research-and-vision/whitepaper.md)
+* [Game Theory](research-and-vision/game-theory.md)
 * [V1 Research Documents](research-and-vision/v1-documents/README.md)
   * [Verifiable Computing](research-and-vision/v1-documents/verifiable-computing.md)
   * [Problem Statement](research-and-vision/v1-documents/problem-statement.md)
