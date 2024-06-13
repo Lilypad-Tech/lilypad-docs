@@ -147,5 +147,5 @@ In this video, Sam demos the use of SDXL in the Lilypad network.
 
 ## Looking for Smart Contracts?
 
-Check out [our smart contracts docs](../lilypad-client-reference/lilypad-smart-contracts.md)!
+Check out [our smart contracts docs](../lilypad-milky-way-reference/lilypad-smart-contracts.md)!
 

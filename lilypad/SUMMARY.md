@@ -14,24 +14,24 @@
   * [Funding your wallet](lilypad-milky-way-testnet/quick-start/funding-your-wallet-from-faucet.md)
   * [Run Hello World!](lilypad-milky-way-testnet/quick-start/run-hello-world-job-cli.md)
 
-## Lilypad Client Reference
-
-* [Javascript CLI Wrapper](lilypad-client-reference/javascript-cli-wrapper.md)
-* [Running Lilypad in a Front End](lilypad-client-reference/running-lilypad-in-a-front-end.md)
-* [Lilypad Smart Contracts](lilypad-client-reference/lilypad-smart-contracts.md)
-* [Build a Job Module](lilypad-client-reference/build-a-job-module.md)
-
 ## Lilypad Hardware Provider
 
 * [Run a Node](lilypad-hardware-provider/run-a-node.md)
 
-## Lilypad Milky Way Examples
+## Lilypad Client Reference
 
-* [Hello, (cow) World!](lilypad-milky-way-examples/hello-cow-world.md)
-* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-milky-way-examples/stable-diffusion-sdxl0.9.md)
-* [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-milky-way-examples/stable-diffusion-video-sdv1.0-and-1.1.md)
-* [Llama LLM](lilypad-milky-way-examples/llama-llm.md)
-* [AlphaFold2](lilypad-milky-way-examples/alphafold2.md)
+* [Javascript CLI Wrapper](lilypad-milky-way-reference/javascript-cli-wrapper.md)
+* [Running Lilypad in a Front End](lilypad-milky-way-reference/running-lilypad-in-a-front-end.md)
+* [Lilypad Smart Contracts](lilypad-milky-way-reference/lilypad-smart-contracts.md)
+* [Build a Job Module](lilypad-milky-way-reference/build-a-job-module.md)
+
+## Run a Model on Lilypad
+
+* [Hello, (cow) World!](run-a-model-on-lilypad/hello-cow-world.md)
+* [Stable Diffusion (SDXL0.9 & 1.0)](run-a-model-on-lilypad/stable-diffusion-sdxl0.9.md)
+* [Stable Diffusion Video (SDV1.0 & 1.1)](run-a-model-on-lilypad/stable-diffusion-video-sdv1.0-and-1.1.md)
+* [Llama LLM](run-a-model-on-lilypad/llama-llm.md)
+* [AlphaFold2](run-a-model-on-lilypad/alphafold2.md)
 
 ## Research & Vision
 
