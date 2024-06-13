@@ -7,7 +7,7 @@ description: A cowsay job
 ## Run Hello, 🐮 World! Job \[CLI] <a href="#run-hello-world-job" id="run-hello-world-job"></a>
 
 {% hint style="warning" %}
-Ensure you have installed all requirements [install-run-requirements.md](../../../../lilypad-milky-way-testnet/install-run-requirements.md "mention")
+Ensure you have installed all requirements [install-run-requirements.md](../../../../lilypad-testnet/install-run-requirements.md "mention")
 {% endhint %}
 
 1. Start Docker

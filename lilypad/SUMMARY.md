@@ -5,15 +5,15 @@
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
 * [⚡ FAQs](faqs.md)
 
-## Lilypad Milky Way Testnet
+## Lilypad Testnet
 
-* [Overview](lilypad-milky-way-testnet/overview.md)
-* [Architecture](lilypad-milky-way-testnet/architecture.md)
-* [Installation (CLI)](lilypad-milky-way-testnet/install-run-requirements.md)
-* [Quick Start](lilypad-milky-way-testnet/quick-start/README.md)
-  * [Setting up MetaMask](lilypad-milky-way-testnet/quick-start/setting-up-metamask.md)
-  * [Funding your wallet](lilypad-milky-way-testnet/quick-start/funding-your-wallet-from-faucet.md)
-  * [Run Hello World!](lilypad-milky-way-testnet/quick-start/run-hello-world-job-cli.md)
+* [Overview](lilypad-testnet/overview.md)
+* [Architecture](lilypad-testnet/architecture.md)
+* [Installation (CLI)](lilypad-testnet/install-run-requirements.md)
+* [Quick Start](lilypad-testnet/quick-start/README.md)
+  * [Setting up MetaMask](lilypad-testnet/quick-start/setting-up-metamask.md)
+  * [Funding your wallet](lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md)
+  * [Run Hello World!](lilypad-testnet/quick-start/run-hello-world-job-cli.md)
 
 ## Lilypad Milky Way Reference
 
