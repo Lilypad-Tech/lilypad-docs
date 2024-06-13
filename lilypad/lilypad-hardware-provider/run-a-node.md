@@ -176,11 +176,14 @@ WantedBy=multi-user.target
 ```
 
 Reload systemd's units/daemons (you will need to do this again if you ever change the systemd unit files that we wrote, above)
- ```bash
+
+```bash
 sudo systemctl daemon-reload
 ```
+
 Start systemd units:
- ```bash
+
+```bash
 sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 ```
@@ -190,7 +193,7 @@ Check that they are running with systemctl status as usual, and debug with journ
 For example: `sudo journalctl -uf lilypad-resource-provider` will give you the live output from your Lilypad node. You should see your resource provider start accepting jobs on the network in the logs.
 
 {% hint style="info" %}
-Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).&#x20;
+Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
 {% endhint %}
 
 ### Security

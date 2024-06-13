@@ -14,13 +14,16 @@
   * [Funding your wallet](lilypad-milky-way-testnet/quick-start/funding-your-wallet-from-faucet.md)
   * [Run Hello World!](lilypad-milky-way-testnet/quick-start/run-hello-world-job-cli.md)
 
-## Lilypad Milky Way Reference
+## Lilypad Client Reference
 
-* [Javascript CLI Wrapper](lilypad-milky-way-reference/javascript-cli-wrapper.md)
-* [Running Lilypad in a Front End](lilypad-milky-way-reference/running-lilypad-in-a-front-end.md)
-* [Lilypad Smart Contracts](lilypad-milky-way-reference/lilypad-smart-contracts.md)
-* [Run a Node](lilypad-milky-way-reference/run-a-node.md)
-* [Build a Job Module](lilypad-milky-way-reference/build-a-job-module.md)
+* [Javascript CLI Wrapper](lilypad-client-reference/javascript-cli-wrapper.md)
+* [Running Lilypad in a Front End](lilypad-client-reference/running-lilypad-in-a-front-end.md)
+* [Lilypad Smart Contracts](lilypad-client-reference/lilypad-smart-contracts.md)
+* [Build a Job Module](lilypad-client-reference/build-a-job-module.md)
+
+## Lilypad Hardware Provider
+
+* [Run a Node](lilypad-hardware-provider/run-a-node.md)
 
 ## Lilypad Milky Way Examples
 

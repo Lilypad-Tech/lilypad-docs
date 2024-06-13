@@ -1,5 +1,5 @@
 ---
-description: Lilypad Milky Way Architecture
+description: Lilypad Network Architecture
 ---
 
 # Architecture
