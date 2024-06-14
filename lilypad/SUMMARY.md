@@ -16,7 +16,8 @@
 
 ## Lilypad Hardware Provider
 
-* [Run a Node](lilypad-hardware-provider/run-a-node.md)
+* [Hardware Requirements](lilypad-hardware-provider/hardware-requirements.md)
+* [Running a Node](lilypad-hardware-provider/run-a-node.md)
 
 ## Lilypad Client Reference
 
