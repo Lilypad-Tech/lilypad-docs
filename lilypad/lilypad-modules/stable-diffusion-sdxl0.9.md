@@ -67,7 +67,7 @@ lilypad run sdxl-pipeline:v1.0-refiner-lilypad3 -i Prompt="an astronaut floating
 
 <figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_execution.png" alt=""><figcaption><p>Output from a Lilypad job</p></figcaption></figure>
 
-The result can also be found in the output folder that would have been downloaded at the end of running the job:
+To view the results in a local directory, navigate to the local folder.
 
 ```bash
 open /tmp/lilypad/data/downloaded-files/QmZuE29GJVmenRUh72FQDgkMUT1Zdp967oEJvzjaDwGGVoResults of SDXL job on Output Directory
@@ -75,7 +75,7 @@ open /tmp/lilypad/data/downloaded-files/QmZuE29GJVmenRUh72FQDgkMUT1Zdp967oEJvzja
 
 In the **/outputs** folder, you'll find the image:
 
-Alternatively, ttake the IPFS link given in the results and paste it into your browser:
+To view the results on IPFS, navigate to the IPFS CID result output.&#x20;
 
 {% hint style="warning" %}
 Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
