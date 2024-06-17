@@ -205,3 +205,11 @@ Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
 If you want to allowlist only certain modules (e.g. Stable Diffusion modules), so that you can control exactly what code runs on your nodes (which you can audit to ensure that they are secure and will have no negative impact on your nodes), you can do that by setting an environment variable `OFFER_MODULES` in the GPU provider to a comma separated list of module names, e.g. `sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1`
 
 Visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad#available-modules) for a full list of available modules.
+
+
+
+### Run a node video guide
+
+{% embed url="https://www.youtube.com/watch?v=YmOtqOIBQ0k" %}
+Check out this walk through of setting up a Lilypad node!
+{% endembed %}
