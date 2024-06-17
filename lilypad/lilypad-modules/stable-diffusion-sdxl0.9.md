@@ -1,10 +1,12 @@
 ---
-description: Run a Stable Diffusion Text to Image Job
+description: Run a Stable Diffusion text to image job
 ---
 
 # Stable Diffusion (SDXL0.9 & 1.0)
 
-{% embed url="https://youtu.be/kh5jXuQ6_ww?si=BYIvEW9q8I4C7eS_" %}
+<figure><img src="../.gitbook/assets/cli-sdxl.gif" alt=""><figcaption><p>Run a SDXL job on the Lilypad Network</p></figcaption></figure>
+
+## Overview
 
 Generically, stable diffusion is what happens when you put a couple of drops of dye into a bucket of water. Given time, the dye randomly disperses and eventually settles into a uniform distribution which colours all the water evenly.
 
@@ -12,19 +14,19 @@ In computer science, you define rules for your (dye) particles to follow and the
 
 Stable Diffusion is a machine learning model used for text-to-image processing (like Dall-E) and based on a diffusion probabilistic model that uses a transformer to generate images from text.
 
-## \[CLI] Running Stable Diffusion SDXL 0.9 and SDXL 1.0
+## Getting Started
 
 ### Prerequisites
 
-Before running `sdxl`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
+Before running `sdxl`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.&#x20;
 
 ```bash
 export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
 ```
 
-### Usage
+Learn more about installing the Lilypad CLI and running SDXL with this [video guide](https://www.youtube.com/watch?v=RBECCMl\_fco).
 
-Lilypad can run SDXL v0.9 or SDXL v1.0 with the option to add tunables to improve or change the model output.&#x20;
+### Run SDXL v0.9 or 1.0
 
 When running SDXL pipelines in Lilypad, you have the choice between using the Base model or the Refiner model. Each serves a unique purpose in the image generation process:
 
@@ -61,67 +63,55 @@ Refiner:
 lilypad run sdxl-pipeline:v1.0-refiner-lilypad3 -i Prompt="an astronaut floating against a white background"
 ```
 
-### Specifying tunables
+### SDXL Output
 
-If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to improve the quality of the image generated add "Steps=x" with x = (Min: 5. Max: 200):
+<figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_execution.png" alt=""><figcaption><p>Output from a Lilypad job</p></figcaption></figure>
+
+The result can also be found in the output folder that would have been downloaded at the end of running the job:
 
 ```bash
-lilypad run sdxl-pipeline -i Prompt="an astronaut floating against a white background" -i Steps=69
+open /tmp/lilypad/data/downloaded-files/QmZuE29GJVmenRUh72FQDgkMUT1Zdp967oEJvzjaDwGGVoResults of SDXL job on Output Directory
 ```
 
-{% hint style="info" %}
-See the options and tunables section (below) for more information on what tunables are available.
-{% endhint %}
+In the **/outputs** folder, you'll find the image:
 
-The output will look like this:
-
-<figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_execution.png" alt=""><figcaption></figcaption></figure>
-
-### **SDXL Output**
-
-Take the IPFS link given in the results and paste it into your browser:
-
-```
-https://ipfs.io/ipfs/QmVng1jkMxE9ep4k8mYiiCiWaCRiRLvCeo6bJRXirhz1dZ
-```
+Alternatively, ttake the IPFS link given in the results and paste it into your browser:
 
 {% hint style="warning" %}
 Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
 {% endhint %}
 
-You could also check the output folder that would have been downloaded at the end of running the job:
-
-```bash
-open /tmp/lilypad/data/downloaded-files/QmZuE29GJVmenRUh72FQDgkMUT1Zdp967oEJvzjaDwGGVo
+```
+https://ipfs.io/ipfs/QmVng1jkMxE9ep4k8mYiiCiWaCRiRLvCeo6bJRXirhz1dZ
 ```
 
-<figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_output.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_result_output.png" alt=""><figcaption><p>SDXL job output</p></figcaption></figure>
 
-**Results of SDXL job on Output Directory**
+As Lilypad modules are currently deterministic, running this command with the same text prompt will produce the same image, since the same seed is also used (the default seed is 0).
 
-In the **/outputs** folder, you'll find the image:
+## Tuning an output
 
-<figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_result_output.png" alt=""><figcaption></figcaption></figure>
-
-**The Image in the outputs folder**
-
-Since modules are deterministic, running this command with the same text prompt will produce the same image, since the same seed is also used (the default seed is 0).
+To change an image output, pass in a different seed number:
 
 {% hint style="info" %}
 See this [beginner-friendly article](https://aituts.com/stable-diffusion-seed/) on how seeds work for more info on this
 {% endhint %}
 
-To change the image, you can pass in a different seed number:
+Lilypad can run SDXL v0.9 or SDXL v1.0 with the option to add tunables to improve or change the model output.&#x20;
+
+If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to improve the quality of the image generated add "Steps=x" with x = (Min: 5. Max: 200):
+
+{% hint style="info" %}
+See the options and tunables section (below) for more information on what tunables are available.
+{% endhint %}
 
 ```bash
 `lilypad run sdxl-pipeline:v0.9-base-lilypad3 -i Prompt='a gigantic lilypad shaped space station' -i Steps=150` 
 ```
 
-<figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_result_output2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_result_output2.png" alt=""><figcaption><p>Output with a different seed</p></figcaption></figure>
 
-Output using different seed.
-
-## Options and tunables
+### Options and tunables continued
 
 The following tunables are available. All of them are optional, and have default settings that will be used if you do not provide them.
 
@@ -138,12 +128,6 @@ The following tunables are available. All of them are optional, and have default
 See the usage sections for the runner of your choice for more information on how to set and use these variables.
 
 Learn more about this Lilypad module on [Github](https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline).
-
-## CLI Video
-
-In this video, Sam demos the use of SDXL in the Lilypad network.
-
-{% embed url="https://youtu.be/RBECCMl_fco" %}
 
 ## Looking for Smart Contracts?
 
