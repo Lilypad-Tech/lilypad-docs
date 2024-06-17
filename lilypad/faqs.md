@@ -56,7 +56,7 @@ Lilypad is an open network that allows anyone to contribute GPU computing capaci
 * Docker
 * Nvidia docker drivers
 
-For more information on the requirements to run a Lilypad node, please refer to the [hardware requirements](lilypad-hardware-provider/hardware-requirements.md) documentation.
+For more information on the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-providers/hardware-requirements.md) documentation.
 
 ## 🌐 Incentivized Testnet Questions
 

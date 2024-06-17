@@ -29,7 +29,7 @@ You can use Lilypad to run AI workload models including Stable Diffusion and Sta
 * [awesome-Lilypad](https://github.com/Lilypad-Tech/awesome-Lilypad/blob/main/README.md) repo with examples and use cases
 * [Quick Start ](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/quick-start)- Run a Lilypad "Hello World"
 * [Add](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module) an AI model to Lilypad
-* [Hardware requirements](lilypad-hardware-provider/hardware-requirements.md) to run a Lilypad node
+* [Hardware requirements](hardware-providers/hardware-requirements.md) to run a Lilypad node
 * [Run](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/run-a-node) a Lilypad node
 * [Build](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/running-lilypad-in-a-front-end) a frontend using Lilypad to run AI Inference
 * [Stable Diffusion Video](https://docs.lilypad.tech/lilypad/lilypad-milky-way-examples/stable-diffusion-video-sdv1.0-and-1.1) - Text to video on Lilypad

@@ -62,7 +62,7 @@ Contributing a module is one of the coolest things to do for Lilypad. There are 
 * A module that provides personalized tutoring and learning assistance using AI\
 
 
-As a quick refresher, the current Module Making Pipeline ([see full "Build a job module" resource](lilypad-milky-way-reference/build-a-job-module.md)) looks like this:
+As a quick refresher, the current Module Making Pipeline ([see full "Build a job module" resource](developer-resources/build-a-job-module.md)) looks like this:
 
 1. Find or build a compute script (for example, [a Python script on Hugging Face like SDXL](https://huggingface.co/docs/diffusers/en/using-diffusers/sdxl))
 2. **NOTE**: You must [make sure your compute job is deterministic](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module#ensuring-determinism) (this is possible with AI scripts also! [See this reference](https://huggingface.co/docs/diffusers/v0.27.2/en/using-diffusers/reusing\_seeds#reproducible-pipelines))
