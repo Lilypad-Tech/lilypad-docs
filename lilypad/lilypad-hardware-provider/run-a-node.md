@@ -5,7 +5,7 @@ description: >-
   required software, and ensuring security measures.
 ---
 
-# Run a Node
+# Running a Node
 
 ### Network information and testnet tokens
 
@@ -35,6 +35,10 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 * Docker
 * Nvidia docker drivers
 
+{% hint style="info" %}
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
+{% endhint %}
+
 #### Install Nvidia Container Toolkit
 
 To ensure proper operation of your graphics cards and Lilypad, follow these steps to install the Nvidia Toolkit Base Installer: [Nvidia Container Toolkit download page](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
@@ -56,7 +60,7 @@ Configure the container runtime by using the nvidia-ctk command:
  sudo nvidia-ctk runtime configure --runtime=docker
 ```
 
-The nvidia-ctk command modifies the /etc/docker/daemon.json file on the host. The file is updated so that Docker can use the NVIDIA Container Runtime.
+The nvidia-ctk command modifies the `/etc/docker/daemon.json` file on the host. The file is updated so that Docker can use the NVIDIA Container Runtime.
 
 Restart the Docker daemon:
 
