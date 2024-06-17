@@ -36,8 +36,6 @@ lilypad run sdv-pipeline:v1.0-lilypad2 -i ImageSeed="696721260153400" -i Prompt=
 lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps=70
 ```
 
-{% embed url="https://drive.google.com/file/d/19_oEBcpKSe1n91AyGdIePJdQMzz1KjoD/view?usp=drive_link" %}
-
 ### Specifying tunables
 
 If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to change or improve the quality of the image generated add "Steps=x" with x = (min: 5. Max: 200):
