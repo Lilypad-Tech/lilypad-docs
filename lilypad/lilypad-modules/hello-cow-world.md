@@ -1,12 +1,16 @@
 ---
-description: A cowsay job
+description: Run Hello, 🐮 World! Job with cowsay
 ---
 
 # Hello, (cow) World!
 
-## \[CLI] Run Hello, 🐮 World! Job with Cowsay <a href="#user-content-run-hello-world-job" id="user-content-run-hello-world-job"></a>
+## Overview <a href="#user-content-run-hello-world-job" id="user-content-run-hello-world-job"></a>
 
-`cowsay` is a simple, text-based program originally written for Unix-like operating systems that generates ASCII pictures of a cow with a speech bubble containing a specified message.
+`cowsay` is a simple, text-based program originally written for Unix-like operating systems that generates ASCII pictures of a cow with a speech bubble containing a specified message.&#x20;
+
+This module was created as a "Hello World" for the Lilypad Network!
+
+## Getting Started
 
 ### Prerequisites
 
@@ -16,7 +20,7 @@ Before running `cowsay`, make sure you have the [Lilypad CLI installed](https://
 export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
 ```
 
-### Usage
+### Run cowsay
 
 Next, run the `cowsay` command:
 
@@ -24,7 +28,7 @@ Next, run the `cowsay` command:
 lilypad run cowsay:v0.0.3 -i Message="hello, lilypad"  
 ```
 
-**Output:**
+### Output
 
 ```bash
 Lilypad: v2.0.0-d58a991
@@ -55,18 +59,6 @@ Lilypad: v2.0.0-d58a991
     https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR
 ```
 
-### View Results <a href="#user-content-see-the-results" id="user-content-see-the-results"></a>
-
-#### IPFS
-
-To view the results on IPFS, navigate to the IPFS CID Navigate to the IPFS CID result output in the Results -> [https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR](https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR)
-
-{% hint style="info" %}
-This could take up to a minute to propagate through the IPFS network. Please be patient
-{% endhint %}
-
-#### Local
-
 To view the results in a local directory, navigate to the local folder.
 
 <pre class="language-bash"><code class="lang-bash"><strong>open /tmp/lilypad/data/downloaded-files/Qmay5vZ7u5jvn2VkAGMLkkYXGQQd5GFZFuHkbDEFYb5VeF
@@ -85,4 +77,10 @@ Here, you can view the `stdout` and `stderr` as well as the `outputs` folder for
                 ||----w |
                 ||     ||
 </code></pre>
+
+To view the results on IPFS, navigate to the IPFS CID result output. [`https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR`](https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR)
+
+{% hint style="info" %}
+Please be patient! IPFS can take some time to propogate and doesn't always work immediately.
+{% endhint %}
 
