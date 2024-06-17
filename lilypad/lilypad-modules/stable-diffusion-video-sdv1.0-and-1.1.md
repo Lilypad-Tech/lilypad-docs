@@ -4,13 +4,13 @@ description: Run a Stable Diffusion Text to Video Job
 
 # Stable Diffusion Video (SDV1.0 & 1.1)
 
-{% embed url="https://drive.google.com/file/d/19_oEBcpKSe1n91AyGdIePJdQMzz1KjoD/view?usp=drive_link" %}
+## Overview
 
 Based on ComfyUI, the SDV Pipeline modules for Lilypad allow you generate videos from text prompts on Lilypad using Stable Diffusion Video and related models.&#x20;
 
 The SDV Pipeline modules are designed to take your text prompt, generate a still frame using SDXL, then use that as the input to the SDV model, producing an APNG (animated PNG), WebP video, and an MP4 video all in one go.
 
-## \[CLI] Running Stable Diffusion Video SDV1.0 and SDV1.1
+## Getting Started
 
 ### Prerequisites
 
@@ -20,9 +20,9 @@ Before running `sdv`, make sure you have the [Lilypad CLI installed](https://doc
 export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
 ```
 
-### Usage
+### Running SDV v1.0 or 1.1
 
-To run SDV1.0 or 1.1 Pipeline in Lilypad, you can use the following commands:
+To run SDV v1.0 or 1.1 Pipeline in Lilypad, you can use the following commands:
 
 #### SDV 1.0
 
@@ -35,6 +35,8 @@ lilypad run sdv-pipeline:v1.0-lilypad2 -i ImageSeed="696721260153400" -i Prompt=
 ```bash
 lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps=70
 ```
+
+{% embed url="https://drive.google.com/file/d/19_oEBcpKSe1n91AyGdIePJdQMzz1KjoD/view?usp=drive_link" %}
 
 ### Specifying tunables
 
