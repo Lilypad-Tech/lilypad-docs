@@ -36,6 +36,34 @@ lilypad run sdv-pipeline:v1.0-lilypad2 -i ImageSeed="696721260153400" -i Prompt=
 lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt="an astronaut floating against a white background" -i Steps=200 -i VideoSteps=70
 ```
 
+### SDV Output
+
+<figure><img src="../.gitbook/assets/sdvJob.png" alt=""><figcaption></figcaption></figure>
+
+To view the results in a local directory, navigate to the local folder.
+
+```bash
+open /tmp/lilypad/data/downloaded-files/QmbjEKwZn5vSBoArudUEAPJDEiesVPk5tNkYxFvNkdFs6t
+```
+
+<figure><img src="../.gitbook/assets/sdvOutput.png" alt=""><figcaption></figcaption></figure>
+
+To view the results on IPFS, navigate to the IPFS CID result output.
+
+{% hint style="info" %}
+Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
+{% endhint %}
+
+```bash
+https://ipfs.io/ipfs/QmZ9jvBxfwdeHTXpvDWnTqkLLWvdANzkDstph2EnXMfU4w
+```
+
+{% embed url="https://drive.google.com/file/d/19_oEBcpKSe1n91AyGdIePJdQMzz1KjoD/view?usp=drive_link" %}
+**Results of SDV job on Output Directory**
+{% endembed %}
+
+As Lilypad modules are currently deterministic, running this command with the same text prompt will produce the same image, since the same seed is also used (the default seed is 0).
+
 ### Specifying tunables
 
 If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to change or improve the quality of the image generated add "Steps=x" with x = (min: 5. Max: 200):
@@ -47,40 +75,6 @@ lilypad run sdv-pipeline -i Prompt="an astronaut floating against a white backgr
 {% hint style="info" %}
 See the [options and tunables](stable-diffusion-video-sdv1.0-and-1.1.md#options-and-tunables) section for more information on what tunables are available.
 {% endhint %}
-
-The output will look like this:
-
-<figure><img src="../.gitbook/assets/sdvJob.png" alt=""><figcaption></figcaption></figure>
-
-**SDV Output**
-
-Take the IPFS link given in the results and paste it into your browser:
-
-```bash
-https://ipfs.io/ipfs/QmZ9jvBxfwdeHTXpvDWnTqkLLWvdANzkDstph2EnXMfU4w
-```
-
-{% hint style="info" %}
-Please be patient! IPFS can take some time to propagate and doesn't always work immediately.
-{% endhint %}
-
-You could also check the output folder that would have been downloaded at the end of running the job:
-
-```bash
-open /tmp/lilypad/data/downloaded-files/QmbjEKwZn5vSBoArudUEAPJDEiesVPk5tNkYxFvNkdFs6t
-```
-
-<figure><img src="../.gitbook/assets/sdvOutput.png" alt=""><figcaption></figcaption></figure>
-
-**Results of SDV job on Output Directory**
-
-In the **/outputs** folder, you'll find the video and associated images:
-
-{% embed url="https://drive.google.com/file/d/19_oEBcpKSe1n91AyGdIePJdQMzz1KjoD/view?usp=drive_link" %}
-
-**The video in the outputs folder**
-
-Since modules are deterministic, running this command with the same text prompt will produce the same image, since the same seed is also used (the default seed is 0).
 
 {% hint style="info" %}
 See this [beginner-friendly article](https://aituts.com/stable-diffusion-seed/) on how seeds work for more info on this
