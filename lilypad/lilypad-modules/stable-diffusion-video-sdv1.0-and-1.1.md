@@ -64,7 +64,7 @@ https://ipfs.io/ipfs/QmZ9jvBxfwdeHTXpvDWnTqkLLWvdANzkDstph2EnXMfU4w
 
 As Lilypad modules are currently deterministic, running this command with the same text prompt will produce the same image, since the same seed is also used (the default seed is 0).
 
-### Specifying tunables
+## Tuning an output
 
 If you wish to specify more than one tunable, such as the number of steps, simply add more `-i` flags. For example, to change or improve the quality of the image generated add "Steps=x" with x = (min: 5. Max: 200):
 
