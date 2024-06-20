@@ -194,7 +194,7 @@ sudo systemctl start lilypad-resource-provider
 
 ### View node status
 
-To check if the RP is running use the following command:
+To check if the node is running use the following command:
 
 `sudo journalctl -uf lilypad-resource-provider`&#x20;
 
