@@ -196,7 +196,9 @@ sudo systemctl start lilypad-resource-provider
 
 To check if the node is running use the following command:
 
-`sudo journalctl -uf lilypad-resource-provider`&#x20;
+```bash
+sudo journalctl -uf lilypad-resource-provider
+```
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network.&#x20;
 
@@ -207,6 +209,8 @@ Run the following command to get more status info from your node:
 ```
 sudo journalctl -u lilypad-resouce-provider.service -f
 ```
+
+
 
 {% hint style="info" %}
 Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
