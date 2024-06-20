@@ -202,7 +202,7 @@ This will give a live output from the Lilypad node. The logs will show the node 
 
 <figure><img src="../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
 
-Run the following command to get more status info from your Resource Provider:
+Run the following command to get more status info from your node:
 
 ```
 sudo journalctl -u lilypad-resouce-provider.service -f
