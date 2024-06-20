@@ -10,7 +10,9 @@ description: Frequently Asked Questions for Lilypad Network
 
 Lilypad is developing a serverless, distributed compute network that enables internet-scale data processing for AI, ML & other arbitrary computation from blockchains, while unleashing idle processing power & unlocking a new marketplace for compute.
 
-Lilypad provides decentralized AI computational services. By extending unrestricted, global access to computational power, Lilypad strategically collaborates with decentralized infrastructure networks, such as Filecoin, to formulate a transparent, efficient, and accessible computational ecosystem. Perform off-chain decentralized compute over data, with on-chain guarantees, and to call this functionality directly from a smart contract, CLI and an easy to use abstraction layer, opens the door to a multitude of possible applications.
+Lilypad provides decentralized AI computational services. By extending unrestricted, global access to computational power, Lilypad strategically collaborates with decentralized infrastructure networks, such as Filecoin, to formulate a transparent, efficient, and accessible computational ecosystem.&#x20;
+
+Perform off-chain decentralized compute over data, with on-chain guarantees, and to call this functionality directly from a smart contract, CLI and an easy to use abstraction layer, opens the door to a multitude of possible applications.
 
 ### Lilypad Litepaper
 
@@ -18,7 +20,7 @@ Lilypad released a [Litepaper](https://docs.lilypad.tech/lilypad/research-and-vi
 
 ### Roadmap
 
-Lilypad Network is currently on v3 of Testnet (Milky Way). The team is currently ironing out some remaining known issues and working on a fair model for our Incentivized Testnet.
+Lilypad Network is currently in Testnet. The team is currently ironing out some remaining known issues and working on a fair model for our Incentivized Testnet.
 
 Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on our website!
 
@@ -27,6 +29,22 @@ Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on ou
 ### Has Lilypad raised VC money?
 
 Yes, Lilypad closed our seed round of funding in March 2024.
+
+## 🌐 Incentivized Testnet Questions
+
+### When will the Incentivized Testnet launch?
+
+The Lilypad Incentivized testnet is on track to launch by the end of June 2024. Stay tuned on [the Lilypad Discord](https://lilypad.team/discord) for more info!
+
+### How do LilyBit\_ rewards work?
+
+Lilybit\_ rewards will be awarded to nodes for time on the network (up to a 4x multiplier) and compute power brought to the network. Rewards will be redeemable, for the Lilypad ERC20 Utility Token at Mainnet Launch, with between 5% and 10% of the total token supply (depending on IncentiveNet demand and tokenomics finalization) being allocated to this phase of the Lilypad Network.
+
+### Who can earn LilyBit\_ rewards
+
+Phase 1 of the Incentivized Testnet is focused on rewarding nodes on the network, referred to as Resource Providers. The earlier a provider joins the network, the more Lilybits\_ will be available.
+
+Phases 2 and onward will provide rewards for Lilypad modules created as well as developer tools/apps (in addition to rewarding nodes)
 
 ## 👩‍💻 Developer Questions
 
@@ -57,12 +75,6 @@ Lilypad is an open network that allows anyone to contribute GPU computing capaci
 * Nvidia docker drivers
 
 For more information on the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-providers/hardware-requirements.md) documentation.
-
-## 🌐 Incentivized Testnet Questions
-
-### When will the Incentivized Testnet launch?
-
-The Lilypad Incentivized testnet is on track to launch in early June 2024. Stay tuned on [the Lilypad Discord](https://lilypad.team/discord) for more info!
 
 ## 📖 Token Questions
 
