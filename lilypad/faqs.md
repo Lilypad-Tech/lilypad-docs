@@ -26,6 +26,13 @@ Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on ou
 
 <figure><img src=".gitbook/assets/Roadmap.png" alt=""><figcaption></figcaption></figure>
 
+### Wait, didn’t Lilypad used to rely on determinism and optimistic reproducibility for verifiable compute?&#x20;
+
+Previously, Lilypad required deterministic jobs on the network and used optimistic reproducibility to randomly re-run jobs to ensure trust, however this method has been deprecated due to
+
+1. the limitation the determinism requirement placed on what jobs were available to run on the network and
+2. the inability to realistically be able to determine a “determistic” job to be deterministic easily \</aside>
+
 ### Has Lilypad raised VC money?
 
 Yes, Lilypad closed our seed round of funding in March 2024.
