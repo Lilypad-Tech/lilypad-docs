@@ -192,13 +192,13 @@ sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 ```
 
-### Check Resource Provider Status
+### View node status
 
-Check that the RP is running. You should see your resource provider start running and accepting jobs on the network in the logs:
+To check if the RP is running use the following command:
 
 `sudo journalctl -uf lilypad-resource-provider`&#x20;
 
-This will give you a live output form your Lilypad node.&#x20;
+This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network.&#x20;
 
 <figure><img src="../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
 
