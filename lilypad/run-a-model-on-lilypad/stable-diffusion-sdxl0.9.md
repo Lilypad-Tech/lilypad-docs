@@ -65,8 +65,6 @@ lilypad run sdxl-pipeline:v1.0-refiner-lilypad3 -i Prompt="an astronaut floating
 
 <figure><img src="../.gitbook/assets/cli-sdxl.gif" alt=""><figcaption></figcaption></figure>
 
-### Specifying tunables
-
 ### SDXL Output
 
 <figure><img src="https://github.com/noryev/lilypad-docs/raw/main/lilypad/.gitbook/assets/sdxl_execution.png" alt=""><figcaption><p>Output from a Lilypad job</p></figcaption></figure>
