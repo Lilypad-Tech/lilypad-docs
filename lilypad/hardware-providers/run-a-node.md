@@ -214,6 +214,30 @@ sudo journalctl -u lilypad-resource-provider.service -f
 Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
 {% endhint %}
 
+### Disconnecting a node
+
+To disconnect your node from Lilypad you will need to do a few things to completely offboard.
+
+{% hint style="warning" %}
+Using `sudo rm -rf` is very powerful and can be dangerous if not used carefully. It is highly recommended to navigate to the parent directory and remove files from there to avoid accidental deletion of important files.
+{% endhint %}
+
+First, you must remove the `.service` files related to Lilypad and Bacalhau. These files are typically stored in `/etc/systemd/system/`. To remove them, run the following command:
+
+```
+sudo rm -rf /etc/systemd/system/lilypad-resource-provider.service /etc/systemd/system/bacalhau.service
+```
+
+Next we notify the systemd manager to reload its configuration by running: `sudo systemctl daemon-reload`
+
+Then, remove the environment file for the Lilypad resource provider. This file is usually stored in `/app/lilypad/`. To remove it, run: `sudo rm -rf /app/lilypad/resource-provider-gpu.env`
+
+Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, you can remove it from there. If your executable is stored in a different directory on your machine, you will need to navigate to that directory and remove it from there. To remove the executable, run: `sudo rm -rf /usr/local/bin/lilypad`
+
+If you want to remove Bacalhau also, run: `sudo rm -rf /usr/local/bin/bacalhau`
+
+As every system is different, these instructions may vary. If you have any issues, please reach out to the team in the [Lilypad Discord](https://lilypad.team/discord) for help!
+
 ### Security
 
 If you want to allowlist only certain modules (e.g. Stable Diffusion modules), so that you can control exactly what code runs on your nodes (which you can audit to ensure that they are secure and will have no negative impact on your nodes), you can do that by setting an environment variable `OFFER_MODULES` in the GPU provider to a comma separated list of module names, e.g. `sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1`

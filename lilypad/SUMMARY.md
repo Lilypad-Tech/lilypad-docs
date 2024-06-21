@@ -22,14 +22,14 @@
 ## Developer Resources
 
 * [Build a Job Module](developer-resources/build-a-job-module.md)
-* [Javascript CLI Wrapper](developer-resources/javascript-cli-wrapper.md)
+* [Javascript CLI Wrapper](lilypad-milky-way-reference/javascript-cli-wrapper.md)
 * [Running Lilypad in a Front End](developer-resources/running-lilypad-in-a-front-end.md)
 * [Lilypad Smart Contracts](developer-resources/lilypad-smart-contracts.md)
 
 ## Lilypad Modules
 
-* [Hello, (cow) World!](lilypad-modules/hello-cow-world.md)
-* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules/stable-diffusion-sdxl0.9.md)
+* [Hello, (cow) World!](run-a-model-on-lilypad/hello-cow-world.md)
+* [Stable Diffusion (SDXL0.9 & 1.0)](run-a-model-on-lilypad/stable-diffusion-sdxl0.9.md)
 * [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-modules/stable-diffusion-video-sdv1.0-and-1.1.md)
 * [Llama LLM](lilypad-modules/llama-llm.md)
 * [AlphaFold2](lilypad-modules/alphafold2.md)
