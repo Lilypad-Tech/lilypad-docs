@@ -22,7 +22,6 @@
 ## Developer Resources
 
 * [Build a Job Module](developer-resources/build-a-job-module.md)
-* [Javascript CLI Wrapper](lilypad-milky-way-reference/javascript-cli-wrapper.md)
 * [Running Lilypad in a Front End](developer-resources/running-lilypad-in-a-front-end.md)
 * [Lilypad Smart Contracts](developer-resources/lilypad-smart-contracts.md)
 
