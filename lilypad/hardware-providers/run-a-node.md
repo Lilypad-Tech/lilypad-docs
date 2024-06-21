@@ -207,7 +207,7 @@ This will give a live output from the Lilypad node. The logs will show the node 
 Run the following command to get more status info from your node:
 
 ```bash
-sudo journalctl -u lilypad-resouce-provider.service -f
+sudo journalctl -u lilypad-resource-provider.service -f
 ```
 
 {% hint style="info" %}
