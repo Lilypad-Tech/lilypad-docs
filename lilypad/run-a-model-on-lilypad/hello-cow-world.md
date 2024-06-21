@@ -4,8 +4,6 @@ description: A cowsay job
 
 # Hello, (cow) World!
 
-## Overview <a href="#user-content-run-hello-world-job" id="user-content-run-hello-world-job"></a>
-
 `cowsay` is a simple, text-based program originally written for Unix-like operating systems that generates ASCII pictures of a cow with a speech bubble containing a specified message.&#x20;
 
 This module was created as a "Hello World" for the Lilypad Network!

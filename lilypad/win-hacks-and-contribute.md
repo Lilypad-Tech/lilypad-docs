@@ -104,8 +104,6 @@ Here are a few basic ideas of end user projects:
 * **Environment:** Developing solutions for environmental monitoring and pollution tracking
 * **Security: T**ools using AI for auditing and security analysis
 
-\
-\
 Projects across DeFi, DeSci, Gaming, & Metaverse, NFTs, IOT and more, as well [#crossover-pocs-integrations-and-plugins](win-hacks-and-contribute.md#crossover-pocs-integrations-and-plugins "mention")!\
 
 
