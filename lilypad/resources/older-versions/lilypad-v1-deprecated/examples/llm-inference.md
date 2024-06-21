@@ -61,7 +61,7 @@ Under link[/output/result.json](https://ipfs.io/ipfs/QmVNXCAfJgER6U7Z5XT8QaAVFPd
 {% hint style="info" %}
 Pssst... here's a question on Claude Monet you could try too ;)\
 bafybeihu62yl76fcypidaiz35gq3yjguxawy5zzwadzvlcgpnfkuy2do3i\
-![](<../../../../.gitbook/assets/image (36).png>)
+![](<../../../../.gitbook/assets/image (139).png>)
 {% endhint %}
 
 <figure><img src="https://lh4.googleusercontent.com/yX4XLf8IGZSit-vNxTFB255g8R8DbpzsoElPhQBQpRUi7xKubV3u3J_e8Y-aA1Lu6yNf38sQSbG7pXoehfYepmPU5O55L7gvynU9bp0OTEK05ph5mNrQWjt_ySCHPOV2g-eN0N3J_N7llShZMYvuyxZlqQ=s2048" alt=""><figcaption><p>bafybeihu62yl76fcypidaiz35gq3yjguxawy5zzwadzvlcgpnfkuy2do3i</p></figcaption></figure>

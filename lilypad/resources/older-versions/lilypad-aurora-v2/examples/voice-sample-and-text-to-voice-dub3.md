@@ -47,10 +47,10 @@ lilypad run github.com/dub3-space/lily-synthetizoor:b4d2e078c3447e1df12588ee8543
 
 You should see Lilypad run something like this:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>Lilypad running in the CLI</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (60).png" alt=""><figcaption><p>Lilypad running in the CLI</p></figcaption></figure>
 
 \
 You'll find your results under the output folder:
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 

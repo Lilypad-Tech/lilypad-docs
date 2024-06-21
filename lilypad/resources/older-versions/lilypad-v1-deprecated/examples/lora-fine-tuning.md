@@ -17,7 +17,7 @@ Fun fact: This is how [Waterlily.ai](../../../../use-cases/waterlily.ai.md) trai
 
 <figure><img src="https://lh5.googleusercontent.com/hann2gpaFy8pSOPCc4n8j5Lg02bFhEBiKLdE8bhy30NIofwFKDDVFCkrw89Kea2QPnKICOAZ11TWFD-MGMaA3xBtH1DVFlLDCIUvJe0iLj2mfyyW0tpZIz-xV1mfKIhEYL6KgoIAy1DubSN1arQgkrQ" alt=""><figcaption><p>Original Claude Monet Pictures used as additional data and added to a Stable Diffusion Model by LoRA</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p>The results of running Stable Diffusion with the LoRA trained Model.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (131).png" alt=""><figcaption><p>The results of running Stable Diffusion with the LoRA trained Model.</p></figcaption></figure>
 
 {% hint style="info" %}
 A Claude Monet data set is available in zip form on IPFS here: ipfs://bafybeiglwmvudxxethpi46el3o5m44lrki2sjzgs7whvb6xaz6e65wm7am\

@@ -35,7 +35,7 @@ The ability to perform off-chain decentralised compute over data from smart cont
 
 How we see Lilypad network operating on a high level
 
-<figure><img src="../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 ## Testnet Implementations
 

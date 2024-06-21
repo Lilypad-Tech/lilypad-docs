@@ -7,12 +7,12 @@
 
 ## Lilypad Testnet
 
-* [Architecture](lilypad-milky-way-testnet/architecture.md)
-* [Installation (CLI)](lilypad-milky-way-testnet/install-run-requirements.md)
-* [Quick Start](lilypad-milky-way-testnet/quick-start/README.md)
-  * [Setting up MetaMask](lilypad-milky-way-testnet/quick-start/setting-up-metamask.md)
-  * [Funding your wallet](lilypad-milky-way-testnet/quick-start/funding-your-wallet-from-faucet.md)
-  * [Run Hello World!](lilypad-milky-way-testnet/quick-start/run-hello-world-job-cli.md)
+* [Architecture](lilypad-testnet/architecture.md)
+* [Installation (CLI)](lilypad-testnet/install-run-requirements.md)
+* [Quick Start](lilypad-testnet/quick-start/README.md)
+  * [Setting up MetaMask](lilypad-testnet/quick-start/setting-up-metamask.md)
+  * [Funding your wallet](lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md)
+  * [Run Hello World!](lilypad-testnet/quick-start/run-hello-world-job-cli.md)
 
 ## Hardware Providers
 
@@ -27,8 +27,8 @@
 
 ## Lilypad Modules
 
-* [Hello, (cow) World!](run-a-model-on-lilypad/hello-cow-world.md)
-* [Stable Diffusion (SDXL0.9 & 1.0)](run-a-model-on-lilypad/stable-diffusion-sdxl0.9.md)
+* [Hello, (cow) World!](lilypad-modules/hello-cow-world.md)
+* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules/stable-diffusion-sdxl0.9.md)
 * [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-modules/stable-diffusion-video-sdv1.0-and-1.1.md)
 * [Llama LLM](lilypad-modules/llama-llm.md)
 * [AlphaFold2](lilypad-modules/alphafold2.md)

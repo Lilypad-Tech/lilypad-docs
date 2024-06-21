@@ -20,7 +20,7 @@ That's it!\
 \
 This will run a Lilypad docker node on your local machine which can accept and run jobs.
 
-<figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 ## Resource Provider Flow
 
