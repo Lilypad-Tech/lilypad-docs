@@ -54,13 +54,13 @@ sudo apt-get update
 sudo apt-get install -y nvidia-container-toolkit
 ```
 
-Configure the container runtime by using the nvidia-ctk command:
+Configure the container runtime by using the `nvidia-ctk` command:
 
 ```bash
  sudo nvidia-ctk runtime configure --runtime=docker
 ```
 
-The nvidia-ctk command modifies the `/etc/docker/daemon.json` file on the host. The file is updated so that Docker can use the NVIDIA Container Runtime.
+The `nvidia-ctk` command modifies the `/etc/docker/daemon.json` file on the host. The file is updated so that Docker can use the NVIDIA Container Runtime.
 
 Restart the Docker daemon:
 
@@ -90,30 +90,29 @@ sudo chown -R $USER /app/data
 
 #### Install Lilypad
 
-1.  **With Go toolchain**
+The installation process for the Lilypad CLI involves several automated steps to configure it for your specific system. Initially, the setup script identifies your computer's architecture and operating system to ensure compatibility. It will then download the latest production build of the Lilypad CLI directly from the official GitHub repository using `curl` and `wget`.
 
-    ```bash
-    go install github.com/lilypad-tech/lilypad@latest
-    ```
-2.  **Via official released binaries**
+Once the CLI tool is downloaded, the script sets the necessary permissions to make the executable file runnable. It then moves the executable to a standard location in your system's path to allow it to be run from any terminal window.
 
-    ```bash
-    # Detect your machine's architecture and set it as $OSARCH
-    OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH
-    # Detect your operating system and set it as $OSNAME
-    OSNAME=$(uname -s | awk '{if ($1 == "Darwin") print "darwin"; else if ($1 == "Linux") print "linux"; else print "unsupported_os"}') && export OSNAME;
-    # Download the latest production build
-    curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O lilypad
-    # Make Lilypad executable and install it
-    chmod +x lilypad
-    sudo mv lilypad /usr/local/bin/lilypad
-    ```
+**Via official released binaries**
+
+```bash
+# Detect your machine's architecture and set it as $OSARCH
+OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH
+# Detect your operating system and set it as $OSNAME
+OSNAME=$(uname -s | awk '{if ($1 == "Darwin") print "darwin"; else if ($1 == "Linux") print "linux"; else print "unsupported_os"}') && export OSNAME;
+# Download the latest production build
+curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O lilypad
+# Make Lilypad executable and install it
+chmod +x lilypad
+sudo mv lilypad /usr/local/bin/lilypad
+```
 
 #### Write env file
 
 You will need to create an environment file for your node. `/app/lilypad/resource-provider-gpu.env` should contain:
 
-```
+```bash
 WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY> (the private key from a NEW MetaMask wallet FOR THE COMPUTE NODE)
 ```
 
@@ -243,8 +242,6 @@ As every system is different, these instructions may vary. If you have any issue
 If you want to allowlist only certain modules (e.g. Stable Diffusion modules), so that you can control exactly what code runs on your nodes (which you can audit to ensure that they are secure and will have no negative impact on your nodes), you can do that by setting an environment variable `OFFER_MODULES` in the GPU provider to a comma separated list of module names, e.g. `sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1`
 
 Visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad#available-modules) for a full list of available modules.
-
-
 
 ### Run a node video guide
 
