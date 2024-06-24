@@ -53,6 +53,39 @@ Phase 1 of the Incentivized Testnet is focused on rewarding nodes on the network
 
 Phases 2 and onward will provide rewards for Lilypad modules created as well as developer tools/apps (in addition to rewarding nodes)
 
+## ⚙️ Hardware Provider Questions
+
+### What do I need to do before I can run a Lilypad node?
+
+The required steps before running a Lilypad node include adding the node, adding the Lilypad network information, obtaining tokens and installing the required software.
+
+Refer to the [Running a Node](hardware-providers/run-a-node.md) documentation for a detailed guide on the prerequisites.
+
+### What are the hardware requirements to run a Lilypad node?
+
+The minimum hardware requirements to run a Lilypad node are:
+
+* **Processor**: Quad-core x64 Processor
+* **RAM**: 16GB (see additional details below)
+* **Internet**: 250Mbps Download Speed
+* **GPU**: NVIDIA GPU with a minimum of 8GB VRAM (see additional details below)
+
+For more information, please visit [Hardware Requirements](hardware-providers/hardware-requirements.md).
+
+### What are the updates required for maintaining my node software?
+
+Resource providers are expected to have the latest Lilypad versions installed on their machines.&#x20;
+
+The instructions can be found in our [installation documentation](lilypad-testnet/install-run-requirements.md).
+
+### How can I check the status of my Lilypad node?
+
+To check if the RP is running use the following command: `sudo systemctl status lilypad-resource-provider`.
+
+This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resouce-provider.service -f`
+
+Find more information in [Running a Node](hardware-providers/run-a-node.md).
+
 ## 👩‍💻 Developer Questions
 
 ### What is a Lilypad Module?
