@@ -37,27 +37,9 @@ Next, click on "Add a network manually" at the bottom of the page and enter the 
 
 <figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
-Input network info and click save!
+Input all network info and click save! Now you're ready to fund the wallet with Testnet tokens.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.06.00 PM.png" alt=""><figcaption></figcaption></figure>
 
-## Import Testnet tokens
 
-Once the Arbitrum Sepolia testnet has been added to the wallet, import Arbitrum Sepolia ETH and Lilypad tokens (LP) into the wallet:
-
-Select Import tokens at the bottom of the screen.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.27.05 PM.png" alt=""><figcaption></figcaption></figure>
-
-Use the Lilypad token contract address below to import the token (in order to view Testnet LP tokens in your wallet):
-
-{% hint style="info" %}
-**Lilypad Testnet Token (LP)  contract address**
-
-0x0352485f8a3cB6d305875FaC0C40ef01e0C06535
-{% endhint %}
-
-
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.27.51 PM.png" alt=""><figcaption></figcaption></figure>
 
