@@ -1,21 +1,26 @@
 ---
-description: With testnet Lilypad ETH
+description: Get Testnet Lilypad Tokens (LP) and Arbitrum Sepolia Testnet ETH
 ---
 
 # Funding your wallet
 
 ## Funding your wallet
 
-To obtain funds, connect to the Lilypad v3 Milky Way testnet network on your wallet and head to the faucet at `http://faucet.lilypad.tech` to get ETH and LP.
+To obtain funds, connect to the Arbitrum Sepolia testnet network in your wallet. Collect Lilypad Testnet tokens (LP) and Arbitrum Sepolia ETH from the following faucets:&#x20;
 
-{% hint style="info" %}
-Faucet: [Testnet](http://faucet.lilypad.tech)
-{% endhint %}
+* LP Testnet token faucet: [`http://faucet-testnet.lilypad.tech`](https://faucet-testnet.lilypad.tech/)
+* Arbitrum Sepolia Testnet ETH public faucet: [`https://faucet.triangleplatform.com/arbitrum/sepolia`](https://faucet.triangleplatform.com/arbitrum/sepolia)
+
+## Get Testnet LP tokens
 
 Copy your MetaMask wallet address into the input and click the request button.
 
-<figure><img src="../../.gitbook/assets/wallet_lp.png" alt=""><figcaption><p>Milky Way Testnet Faucet</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.15.09 PM.png" alt=""><figcaption></figcaption></figure>
 
-Yay we're rich! :moneybag:
+## Get Arbitrum Sepolia Testnet ETH
 
-<figure><img src="../../.gitbook/assets/wallet_final.png" alt=""><figcaption></figcaption></figure>
+Copy your MetaMask wallet address into the input and click the request button.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.21.35 PM.png" alt=""><figcaption></figcaption></figure>
+
+Now you're ready to run Lilypad jobs with the Lilypad CLI!

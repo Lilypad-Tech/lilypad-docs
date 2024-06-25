@@ -16,6 +16,6 @@ The cloud is just somebody else's computer...
 
 This guide will take you through
 
-* Setting up [Metamask Wallet](https://metamask.io) for the Lilypad v3 Milky Way testnet
+* Setting up [Metamask Wallet](https://metamask.io) for the Lilypad Testnet
 * Funding your wallet with Lilypad Testnet tokens from the [faucet](http://faucet.lilypad.tech/)
-* Running a Hello, (cow) World! Example on the Lilypad Milky Way testnet :cow:
+* Running a Hello, (cow) World! Example on the Lilypad Testnet :cow:
