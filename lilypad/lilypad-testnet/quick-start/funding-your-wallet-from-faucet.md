@@ -8,8 +8,11 @@ description: Get Testnet Lilypad Tokens (LP) and Arbitrum Sepolia Testnet ETH
 
 To obtain funds, first connect to the Arbitrum Sepolia network in your wallet. then collect Lilypad Testnet tokens (LP) and Arbitrum Sepolia ETH from the following faucets:&#x20;
 
-* LP Testnet token faucet: [`http://faucet-testnet.lilypad.tech`](https://faucet-testnet.lilypad.tech/)
-* Arbitrum Sepolia Testnet ETH public faucet: [`https://faucet.triangleplatform.com/arbitrum/sepolia`](https://faucet.triangleplatform.com/arbitrum/sepolia)
+{% hint style="info" %}
+**LP Testnet token faucet:** [`http://faucet-testnet.lilypad.tech`](https://faucet-testnet.lilypad.tech/)
+
+**Arbitrum Sepolia Testnet ETH public faucet:** [`https://faucet.triangleplatform.com/arbitrum/sepolia`](https://faucet.triangleplatform.com/arbitrum/sepolia)
+{% endhint %}
 
 ## Get Testnet LP tokens
 
