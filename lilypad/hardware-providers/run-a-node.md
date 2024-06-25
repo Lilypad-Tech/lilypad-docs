@@ -15,15 +15,21 @@ The testnet has a base currency of ETH, as well as a utility token called LP. LP
 
 We recommend using MetaMask with custom settings to make things easier. Once you have it installed and setup, here are the settings you need to use:
 
-* Network name: Lilypad v3 Milky Way testnet
-* New RPC URL:[ http://testnet.lilypad.tech:8545](http://testnet.lilypad.tech:8545/)
-* Chain ID: 1337
-* Currency symbol: ETH
-* Block explorer URL: (leave blank)
+{% hint style="info" %}
+Network name: Arbitrum Sepolia
+
+New RPC URL: [`http://testnet.lilypad.tech:8545`](https://sepolia-rollup.arbitrum.io/rpc)
+
+Chain ID: 421614
+
+Currency symbol: SepoliaETH
+
+Block explorer URL: (leave blank)
+{% endhint %}
 
 #### Fund your wallet with ETH and LP
 
-To obtain testnet ETH and LP, go to the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address.
+To obtain testnet LP, go to the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address. Go to the Arbitrum Sepolia testnet faucet [here](https://faucet.triangleplatform.com/arbitrum/sepolia) to obtain testnet ETH.
 
 The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for jobs).
 
