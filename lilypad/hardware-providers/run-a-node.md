@@ -29,7 +29,13 @@ Block explorer URL: (leave blank)
 
 #### Fund your wallet with ETH and LP
 
-To obtain testnet LP, go to the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address. Go to the Arbitrum Sepolia testnet faucet [here](https://faucet.triangleplatform.com/arbitrum/sepolia) to obtain testnet ETH.
+To obtain testnet LP, go to the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address.&#x20;
+
+To obtain testnet ETH, go to the [Arbitrum Sepolia testnet faucet](https://faucet.triangleplatform.com/arbitrum/sepolia) and enter your ETH address.
+
+{% hint style="info" %}
+The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more tokens and already have Sepolia ETH, you can use the [official Arbitrum bridge](https://bridge.arbitrum.io/) to transfer it over to Arbitrum Sepolia.
+{% endhint %}
 
 The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for jobs).
 
