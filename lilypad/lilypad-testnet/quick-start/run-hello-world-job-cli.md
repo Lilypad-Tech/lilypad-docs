@@ -13,7 +13,7 @@ Make sure you have [Lilypad CLI installed](../install-run-requirements.md) and h
 1. Run the command below
 
 ```bash
-lilypad run cowsay:v0.0.3 -i Message="moo"
+lilypad run cowsay:v0.0.4 -i Message="moo"
 ```
 
 2. Wait for the compute to take place and for the results to be published

@@ -23,7 +23,7 @@ export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
 Once you've installed the CLI, run the `cowsay` command:
 
 ```bash
-lilypad run cowsay:v0.0.3 -i Message="hello, lilypad"  
+lilypad run cowsay:v0.0.4 -i Message="hello, lilypad"  
 ```
 
 ### Output
