@@ -34,7 +34,7 @@ Once the Arbitrum Sepolia testnet has been added to the wallet, import Arbitrum 
 
 Select Import tokens at the bottom of the screen.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.27.05 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 11.49.40 PM.png" alt=""><figcaption></figcaption></figure>
 
 Use the Lilypad token contract address below to import the token (in order to view Testnet LP tokens in your wallet):
 
