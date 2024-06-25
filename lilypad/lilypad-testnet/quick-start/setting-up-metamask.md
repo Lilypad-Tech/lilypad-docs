@@ -37,9 +37,8 @@ Next, click on "Add a network manually" at the bottom of the page and enter the 
 
 <figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
-Input all network info and click save! Now you're ready to fund the wallet with Testnet tokens.
+Input all the required network info, and then click save!&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.06.00 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-25 at 3.50.39 PM.png" alt=""><figcaption></figcaption></figure>
 
-
-
+Now you're ready to fund the wallet with Testnet tokens.
