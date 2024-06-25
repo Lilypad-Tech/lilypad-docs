@@ -22,7 +22,7 @@ New RPC URL: [https://sepolia-rollup.arbitrum.io/rpc](https://sepolia-rollup.arb
 
 Chain ID: 421614
 
-Currency symbol: SepoliaETH
+Currency symbol: ETH
 
 Block explorer URL: (leave blank)
 {% endhint %}
