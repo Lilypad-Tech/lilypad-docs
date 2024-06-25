@@ -18,7 +18,7 @@ We recommend using MetaMask with custom settings to make things easier. Once you
 {% hint style="info" %}
 Network name: Arbitrum Sepolia
 
-New RPC URL: [`http://testnet.lilypad.tech:8545`](https://sepolia-rollup.arbitrum.io/rpc)
+New RPC URL: [https://sepolia-rollup.arbitrum.io/rpc](https://sepolia-rollup.arbitrum.io/rpc)
 
 Chain ID: 421614
 

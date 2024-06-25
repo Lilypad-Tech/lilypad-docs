@@ -12,7 +12,7 @@ description: Receive testnet tokens to a crypto wallet used to interact with Lil
 {% hint style="info" %}
 Network name: Arbitrum Sepolia
 
-New RPC URL: [`http://testnet.lilypad.tech:8545`](https://sepolia-rollup.arbitrum.io/rpc)
+New RPC URL: [https://sepolia-rollup.arbitrum.io/rpc](https://sepolia-rollup.arbitrum.io/rpc)
 
 Chain ID: 421614
 
