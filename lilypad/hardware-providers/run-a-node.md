@@ -1,8 +1,8 @@
 ---
 description: >-
   Below are instructions for setting up and running on the public Lilypad
-  testnet, including adding a node, obtaining necessary funds, installing
-  required software, and ensuring security measures.
+  testnet, including obtaining necessary funds, installing required software,
+  and ensuring security measures.
 ---
 
 # Running a Node
