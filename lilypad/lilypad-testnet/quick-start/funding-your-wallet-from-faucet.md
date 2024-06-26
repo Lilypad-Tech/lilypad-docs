@@ -11,7 +11,7 @@ To obtain funds, first connect your wallet to the Arbitrum Sepolia network. Coll
 {% hint style="info" %}
 **LP Testnet token faucet:** [`http://faucet-testnet.lilypad.tech`](https://faucet-testnet.lilypad.tech/)
 
-**Arbitrum Sepolia Testnet ETH public faucet:** [`https://faucet.triangleplatform.com/arbitrum/sepolia`](https://faucet.triangleplatform.com/arbitrum/sepolia)
+**Arbitrum Sepolia Testnet ETH faucet (3rd party faucet list)** [`https://arbitrum.faucet.dev/ArbSepolia`](https://arbitrum.faucet.dev/ArbSepolia)
 {% endhint %}
 
 ## Get Testnet LP tokens
