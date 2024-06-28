@@ -31,7 +31,7 @@ Block explorer URL: (leave blank)
 
 To obtain testnet LP, go to the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address.&#x20;
 
-To obtain testnet ETH, go to the [Arbitrum Sepolia testnet faucet](https://faucet.triangleplatform.com/arbitrum/sepolia) and enter your ETH address.
+To obtain testnet ETH, choose from a list of 3rd party [Arbitrum Sepolia testnet faucets](https://arbitrum.faucet.dev/ArbSepolia) and enter your ETH address.
 
 {% hint style="info" %}
 The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more tokens and already have Sepolia ETH, you can use the [official Arbitrum bridge](https://bridge.arbitrum.io/) to transfer it over to Arbitrum Sepolia.
