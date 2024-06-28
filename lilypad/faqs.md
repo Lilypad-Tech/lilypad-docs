@@ -59,7 +59,7 @@ Phases 2 and onward will provide rewards for Lilypad modules created as well as 
 
 The required steps before running a Lilypad node include adding the node, adding the Lilypad network information, obtaining tokens and installing the required software.
 
-Refer to the [Running a Node](hardware-providers/run-a-node.md) documentation for a detailed guide on the prerequisites.
+Refer to the [Running a Node](broken-reference) documentation for a detailed guide on the prerequisites.
 
 ### What are the hardware requirements to run a Lilypad node?
 
@@ -84,7 +84,7 @@ To check if the RP is running use the following command: `sudo systemctl status 
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resouce-provider.service -f`
 
-Find more information in [Running a Node](hardware-providers/run-a-node.md).
+Find more information in [Running a Node](broken-reference).
 
 ## 👩‍💻 Developer Questions
 

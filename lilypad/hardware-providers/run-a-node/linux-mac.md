@@ -1,11 +1,13 @@
 ---
 description: >-
-  Below are instructions for setting up a node on the public Lilypad testnet,
-  including obtaining necessary funds, installing required software, and
-  ensuring security measures.
+  Linux and Mac instructions for setting up and running on the public Lilypad
+  testnet, including obtaining necessary funds, installing required software,
+  and ensuring security measures.
 ---
 
-# Running a Node
+# Linux/Mac
+
+This process involves configuring your environment, installing necessary software, and ensuring your system meets the prerequisites.
 
 ### Network information and testnet tokens
 
@@ -27,21 +29,13 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
+For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../../lilypad-testnet/quick-start/setting-up-metamask.md).
+
 #### Fund your wallet with ETH and LP
 
 To obtain testnet LP, go to the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address.&#x20;
 
-To obtain testnet ETH, choose from a list of 3rd party [Arbitrum Sepolia testnet faucets](https://arbitrum.faucet.dev/ArbSepolia) and enter your ETH address.
-
-{% hint style="info" %}
-Tokens will be sent to the ETH address. To view LP in the wallet,  import the LP tokens using the token contract address. Check out our guide [here](../lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md#import-testnet-tokens) for importing tokens.&#x20;
-
-
-
-**Lilypad Testnet Token (LP) contract address**
-
-0x0352485f8a3cB6d305875FaC0C40ef01e0C06535
-{% endhint %}
+To obtain testnet ETH, go to the [Arbitrum Sepolia testnet faucet](https://faucet.triangleplatform.com/arbitrum/sepolia) and enter your ETH address.
 
 {% hint style="info" %}
 The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more tokens and already have Sepolia ETH, you can use the [official Arbitrum bridge](https://bridge.arbitrum.io/) to transfer it over to Arbitrum Sepolia.
@@ -58,8 +52,10 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 * Nvidia docker drivers
 
 {% hint style="info" %}
-For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
 {% endhint %}
+
+### Installation
 
 #### Install Nvidia Container Toolkit
 
@@ -99,9 +95,9 @@ To install Bacalhau, run the following in your terminal:
 ```bash
 cd /tmp
 
-wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.3.2/bacalhau_v1.3.2_linux_amd64.tar.gz
+wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.3.0/bacalhau_v1.3.0_linux_amd64.tar.gz
 
-tar xfv bacalhau_v1.3.2_linux_amd64.tar.gz
+tar xfv bacalhau_v1.3.0_linux_amd64.tar.gz
 
 sudo mv bacalhau /usr/bin/bacalhau
 
@@ -139,10 +135,6 @@ WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY> (the private key from a NEW MetaMask wallet 
 ```
 
 This is the key where you will get paid in LP tokens for jobs run on the network.
-
-{% hint style="info" %}
-A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) can be retrieved from the Metamask account details menu . For more info, check out [this](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) official guide from Metamask on viewing a wallet's private key.
-{% endhint %}
 
 {% hint style="warning" %}
 You must not reuse your compute node key as a client, even for testing: this will result in failed jobs and will negatively impact your compute node since the wallet address is how nodes are identified on the network.
@@ -227,7 +219,7 @@ sudo systemctl status lilypad-resource-provider
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network.&#x20;
 
-<figure><img src="../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
 
 Run the following command to get more status info from your node:
 
@@ -241,7 +233,7 @@ Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
 
 ### Disconnecting a node
 
-To disconnect your node from Lilypad you will need to do a few things to completely offboard. See video guide [here](https://www.youtube.com/watch?v=jkKwWOS-r-E).
+To disconnect your node from Lilypad you will need to do a few things to completely offboard.
 
 {% hint style="warning" %}
 Using `sudo rm -rf` is very powerful and can be dangerous if not used carefully. It is highly recommended to navigate to the parent directory and remove files from there to avoid accidental deletion of important files.
@@ -257,9 +249,7 @@ Next we notify the systemd manager to reload its configuration by running: `sudo
 
 Then, remove the environment file for the Lilypad resource provider. This file is usually stored in `/app/lilypad/`. To remove it, run: `sudo rm -rf /app/lilypad/resource-provider-gpu.env`
 
-Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, you can remove it from there.
-
-&#x20;If your executable is stored in a different directory on your machine, you will need to navigate to that directory and remove it from there. To remove the executable, run: `sudo rm -rf /usr/local/bin/lilypad`
+Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, you can remove it from there. If your executable is stored in a different directory on your machine, you will need to navigate to that directory and remove it from there. To remove the executable, run: `sudo rm -rf /usr/local/bin/lilypad`
 
 If you want to remove Bacalhau also, run: `sudo rm -rf /usr/local/bin/bacalhau`
 
@@ -274,5 +264,7 @@ Visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad#available-mod
 ### Run a node video guide
 
 {% embed url="https://www.youtube.com/watch?v=YmOtqOIBQ0k" %}
-Check out this walk through of setting up a Lilypad node!
+Check out this walk through of setting up a Lilypad node for Linux/Mac!
 {% endembed %}
+
+## Windows
