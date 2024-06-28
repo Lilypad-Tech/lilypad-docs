@@ -32,6 +32,10 @@ This application is compatible with Windows versions greater than 10.
 
 Next, open the `WindowsResourceProviderSetup.exe` file. This is what will install the ResourceProvider application, along with any dependencies you will need to run a node, including Lilypad, Docker and Bacalhau.&#x20;
 
+{% hint style="warning" %}
+You may receive a warning when attempting to open this file depending on what security features you have enabled.
+{% endhint %}
+
 Once the installation is complete, run ResourceProvider application.
 
 ### Network information and testnet tokens
