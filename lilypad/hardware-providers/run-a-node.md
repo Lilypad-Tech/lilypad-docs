@@ -99,9 +99,9 @@ To install Bacalhau, run the following in your terminal:
 ```bash
 cd /tmp
 
-wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.3.0/bacalhau_v1.3.0_linux_amd64.tar.gz
+wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.3.2/bacalhau_v1.3.2_linux_amd64.tar.gz
 
-tar xfv bacalhau_v1.3.0_linux_amd64.tar.gz
+tar xfv bacalhau_v1.3.2_linux_amd64.tar.gz
 
 sudo mv bacalhau /usr/bin/bacalhau
 
