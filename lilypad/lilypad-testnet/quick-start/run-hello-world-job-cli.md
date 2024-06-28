@@ -8,6 +8,10 @@ description: Running the most important Hello World on Lilypad!
 Make sure you have [Lilypad CLI installed](../install-run-requirements.md) and have [set a `WEB3_PRIVATE_KEY` env variable](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) in your environment
 {% endhint %}
 
+{% hint style="info" %}
+A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) can be retrieved from the Metamask account details menu.  For more info, check out [this](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) official guide from Metamask on viewing a wallet's private key.
+{% endhint %}
+
 ### Run Cowsay
 
 1. Run the command below
