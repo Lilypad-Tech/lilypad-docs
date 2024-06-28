@@ -134,6 +134,69 @@ This is the key where you will get paid in LP tokens for jobs run on the network
 You must not reuse your compute node key as a client, even for testing: this will result in failed jobs and will negatively impact your compute node since the wallet address is how nodes are identified on the network.
 {% endhint %}
 
+#### Install the Lilypad auto update process
+
+To ensure your resource provider stays up to date with the latest lilypad binary release, setup the lilypad auto update process.
+
+```bash
+# Download the update script
+curl -O https://raw.githubusercontent.com/Lilypad-Tech/lilypad/main/ops/lilypad-updater.sh
+
+# Make the script executable
+chmod +x lilypad-updater.sh
+
+# Install the executable
+sudo mv lilypad-updater.sh /usr/local/bin/lilypad-updater.sh
+```
+
+#### Install systemd unit for auto updates
+
+Open `/etc/systemd/system/lilypad-updater.service` in your preferred editor:
+
+{% hint style="info" %}
+Hint: `sudo vim /etc/systemd/system/lilypad-updater.service`
+{% endhint %}
+
+<pre><code>[Unit]
+Description=Check and update Lilypad binary
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/lilypad-updater.sh
+</code></pre>
+
+And install the recurring schedule to perform the hourly check for a new version:
+
+Open `/etc/systemd/system/lilypad-updater.timer` in your preferred editor:
+
+{% hint style="info" %}
+Hint: `sudo vim /etc/systemd/system/lilypad-updater.timer`
+{% endhint %}
+
+<pre><code>[Unit]
+Description=Run lilypad-updater every hour
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1h
+
+[Install]
+WantedBy=timers.target
+</code></pre>
+
+Finally, enable and start the service:
+
+```bash
+# Reload systemd configuration
+sudo systemctl daemon-reload
+
+# Enable and start the timer
+sudo systemctl enable lilypad-updater.timer
+sudo systemctl start lilypad-updater.timer
+```
+
 #### Install systemd unit for Bacalhau
 
 systemd is a system and service manager for Linux operating systems. systemd operates as a central point of control for various aspects of system management, offering features like parallelization of service startup, dependency-based service management, process supervision, and more.
@@ -199,7 +262,9 @@ sudo systemctl daemon-reload
 Start systemd units:
 
 ```bash
+sudo systemctl enable bacalhau # start at boot
 sudo systemctl start bacalhau
+sudo systemctl enable lilypad-resource-provider # start at boot
 sudo systemctl start lilypad-resource-provider
 ```
 
@@ -260,3 +325,4 @@ Visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad#available-mod
 {% embed url="https://www.youtube.com/watch?v=YmOtqOIBQ0k" %}
 Check out this walk through of setting up a Lilypad node!
 {% endembed %}
+	
