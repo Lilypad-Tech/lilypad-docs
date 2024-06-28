@@ -19,7 +19,6 @@
 * [Hardware Requirements](hardware-providers/hardware-requirements.md)
 * [Running a Node](hardware-providers/run-a-node/README.md)
   * [Linux/Mac](hardware-providers/run-a-node/linux-mac.md)
-  * [Windows](hardware-providers/run-a-node/windows.md)
 
 ## Developer Resources
 
