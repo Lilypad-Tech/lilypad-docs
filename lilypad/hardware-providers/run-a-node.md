@@ -241,7 +241,7 @@ Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
 
 ### Disconnecting a node
 
-To disconnect your node from Lilypad you will need to do a few things to completely offboard.
+To disconnect your node from Lilypad you will need to do a few things to completely offboard. See video guide [here](https://www.youtube.com/watch?v=jkKwWOS-r-E).
 
 {% hint style="warning" %}
 Using `sudo rm -rf` is very powerful and can be dangerous if not used carefully. It is highly recommended to navigate to the parent directory and remove files from there to avoid accidental deletion of important files.
@@ -257,7 +257,9 @@ Next we notify the systemd manager to reload its configuration by running: `sudo
 
 Then, remove the environment file for the Lilypad resource provider. This file is usually stored in `/app/lilypad/`. To remove it, run: `sudo rm -rf /app/lilypad/resource-provider-gpu.env`
 
-Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, you can remove it from there. If your executable is stored in a different directory on your machine, you will need to navigate to that directory and remove it from there. To remove the executable, run: `sudo rm -rf /usr/local/bin/lilypad`
+Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, you can remove it from there.
+
+&#x20;If your executable is stored in a different directory on your machine, you will need to navigate to that directory and remove it from there. To remove the executable, run: `sudo rm -rf /usr/local/bin/lilypad`
 
 If you want to remove Bacalhau also, run: `sudo rm -rf /usr/local/bin/bacalhau`
 
