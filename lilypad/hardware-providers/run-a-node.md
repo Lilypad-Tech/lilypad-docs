@@ -33,9 +33,9 @@ For a step by step guide on adding the network, please refer to our [Setting up 
 
 #### Fund your wallet with ETH and LP
 
-To obtain testnet LP, go to the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address.&#x20;
+To obtain testnet LP, use the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address.&#x20;
 
-To obtain testnet ETH, go one to these third party [Arbitrum Sepolia testnet faucets](https://arbitrum.faucet.dev/ArbSepolia) and enter your ETH address.
+To obtain testnet ETH, use a third party [Arbitrum Sepolia testnet faucet](https://arbitrum.faucet.dev/ArbSepolia) and enter your ETH address.
 
 {% hint style="info" %}
 The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more tokens and already have Sepolia ETH, you can use the [official Arbitrum bridge](https://bridge.arbitrum.io/) to transfer it over to Arbitrum Sepolia.
