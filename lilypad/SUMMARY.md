@@ -17,7 +17,7 @@
 ## Hardware Providers
 
 * [Hardware Requirements](hardware-providers/hardware-requirements.md)
-* [Running a Node](hardware-providers/running-a-node.md)
+* [Running a Node](hardware-providers/run-a-node.md)
 
 ## Developer Resources
 
