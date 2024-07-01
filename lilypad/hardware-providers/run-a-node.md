@@ -205,6 +205,8 @@ sudo systemctl daemon-reload
 Start systemd units:
 
 ```bash
+sudo systemctl enable bacalhau
+sudo systemctl enable lilypad-resource-provider
 sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 ```
