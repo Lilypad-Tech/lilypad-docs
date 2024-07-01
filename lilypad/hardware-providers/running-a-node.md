@@ -5,7 +5,7 @@ description: >-
   and ensuring security measures.
 ---
 
-# Linux/Mac
+# Running a Node
 
 This process involves configuring your environment, installing necessary software, and ensuring your system meets the prerequisites.
 
@@ -29,7 +29,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../../lilypad-testnet/quick-start/setting-up-metamask.md).
+For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../lilypad-testnet/quick-start/setting-up-metamask.md).
 
 #### Fund your wallet with ETH and LP
 
@@ -52,7 +52,7 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 * Nvidia docker drivers
 
 {% hint style="info" %}
-For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
 {% endhint %}
 
 ### Installation
@@ -219,7 +219,7 @@ sudo systemctl status lilypad-resource-provider
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network.&#x20;
 
-<figure><img src="../../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
 
 Run the following command to get more status info from your node:
 
