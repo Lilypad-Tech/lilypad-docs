@@ -15,7 +15,7 @@ Find FAQs below and join our [Discord](https://lilypad.team/discord) for more he
 ### Metamask wallet setup:
 
 * [Import](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask#setting-up-metamask) a custom network (Lilypad)
-* [Locate](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#write-env-file) a wallet's Private Key
+* [Locate](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) a wallet's Private Key
 * [Import](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet#import-testnet-tokens) the Lilypad Token to a wallet
 
 ### Get testnet LP and ETH (Arbitrum Sepolia ETH)
