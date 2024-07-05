@@ -57,6 +57,14 @@ For a more in-depth look at the requirements to run a Lilypad node, please refer
 
 ### Installation
 
+To set up your environment for using Lilypad with GPU support, you need to install several key components. This guide will walk you through installing Docker, the Nvidia Container Toolkit, Bacalhau, and Lilypad. You'll also configure systemd to manage these services efficiently.
+
+#### Install Docker
+
+Docker is a platform that allows you to automate the deployment of applications inside lightweight, portable containers.
+
+To install Docker, follow the steps specific to your operating system from the [official Docker documentation](https://docs.docker.com/get-docker/).
+
 #### Install Nvidia Container Toolkit
 
 To ensure proper operation of your graphics cards and Lilypad, follow these steps to install the Nvidia Toolkit Base Installer: [Nvidia Container Toolkit download page](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
@@ -128,7 +136,11 @@ sudo mv lilypad /usr/local/bin/lilypad
 
 #### Write env file
 
-You will need to create an environment file for your node. `/app/lilypad/resource-provider-gpu.env` should contain:
+You will need to create an environment directory for your node.
+
+
+
+&#x20;`/app/lilypad/resource-provider-gpu.env` should contain:
 
 ```bash
 WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY> (the private key from a NEW MetaMask wallet FOR THE COMPUTE NODE)
