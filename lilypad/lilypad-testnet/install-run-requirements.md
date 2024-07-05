@@ -29,12 +29,16 @@ sudo mv lilypad /usr/local/bin/lilypad
 
 You're required to set your private key environment variable, `WEB3_PRIVATE_KEY`, to interact securely with the network.&#x20;
 
+{% hint style="info" %}
+A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) can be retrieved from the Metamask account details menu. For more info, check out [this](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) official guide from Metamask on viewing a wallet's private key.
+{% endhint %}
+
 ```bash
 export WEB3_PRIVATE_KEY=<your private key>
 ```
 
 {% hint style="warning" %}
-To use the Lilypad CLI, the set private key will need to hold [Lilypad testnet tokens](quick-start/funding-your-wallet-from-faucet.md).&#x20;
+To use the Lilypad CLI, the set private key will need to hold [Lilypad testnet tokens](quick-start/funding-your-wallet-from-faucet.md) and Arbitrum Sepolia ETH ([3rd party faucet list](https://arbitrum.faucet.dev/ArbSepolia)).&#x20;
 {% endhint %}
 
 ### 3. Verify installation
