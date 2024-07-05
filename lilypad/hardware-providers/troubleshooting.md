@@ -4,6 +4,8 @@ description: Common questions when running a Lilypad node
 
 # Troubleshooting
 
+Find FAQs below and join our [Discord](https://lilypad.team/discord) for more help!
+
 ### Check node status:
 
 * [Instructions](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#view-node-status) for viewing the status of a node locally.
@@ -18,12 +20,6 @@ description: Common questions when running a Lilypad node
 
 ### Get testnet LP and ETH (Arbitrum Sepolia ETH)
 
-* No ETH in your wallet
-* No LP in your wallet
-
-
-
-## Get Help
-
-lilypad.team/discord
+* No ETH or LP in your wallet ([import custom network and import the tokens](https://lilypad.team/discord))&#x20;
+* [Fund](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#write-env-file) a wallet with LP and ETH&#x20;
 
