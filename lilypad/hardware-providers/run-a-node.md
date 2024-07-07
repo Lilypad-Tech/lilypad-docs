@@ -136,21 +136,26 @@ sudo mv lilypad /usr/local/bin/lilypad
 
 #### Write env file
 
-You will need to create an environment directory for your node.
+You will need to create an environment directory for your node and add an environment file that contains your node's private key.
 
+To do this, run the following in your terminal:
 
+```bash
+sudo mkdir -p /app/lilypad
+sudo touch /app/lilypad/resource-provider-gpu.env
+```
 
-&#x20;`/app/lilypad/resource-provider-gpu.env` should contain:
+&#x20;Next, add your node's private key into `/app/lilypad/resource-provider-gpu.env`:
 
 ```bash
 WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY> (the private key from a NEW MetaMask wallet FOR THE COMPUTE NODE)
 ```
 
-This is the key where you will get paid in LP tokens for jobs run on the network.
-
 {% hint style="info" %}
 A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) can be retrieved from the Metamask account details menu. For more info, check out [this](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) official guide from Metamask on viewing a wallet's private key.
 {% endhint %}
+
+This is the key where you will get paid in LP tokens for jobs run on the network.
 
 {% hint style="warning" %}
 You must not reuse your compute node key as a client, even for testing: this will result in failed jobs and will negatively impact your compute node since the wallet address is how nodes are identified on the network.
@@ -183,6 +188,10 @@ ExecStart=/usr/bin/bacalhau serve --node-type compute,requester --peer none --pr
 [Install]
 WantedBy=multi-user.target
 </code></pre>
+
+{% hint style="info" %}
+If you receive the error of `error creating IPFS node`, you may need to initialize IPFS. To do this, run `ipfs init`.  &#x20;
+{% endhint %}
 
 #### Install systemd unit for GPU provider
 
