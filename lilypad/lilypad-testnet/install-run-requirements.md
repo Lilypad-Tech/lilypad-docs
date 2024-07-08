@@ -12,18 +12,41 @@ Once the CLI tool is downloaded, the script sets the necessary permissions to ma
 
 ### 1. Install via officially released binaries
 
+Lilypad offers two distinct installation options to cater to different roles within the network: one for the users of Lilypad and another for resource providers who supply the computational resources to the Lilypad Network.
+
+Select the appropriate installation based on your role:
+
+{% tabs %}
+{% tab title="CLI Users" %}
 ```bash
 # Detect your machine's architecture and set it as $OSARCH
 OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH;
 # Detect your operating system and set it as $OSNAME
 OSNAME=$(uname -s | awk '{if ($1 == "Darwin") print "darwin"; else if ($1 == "Linux") print "linux"; else print "unsupported_os"}') && export OSNAME;
 # Download the latest production build
-curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O lilypad
+curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH-cpu" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O lilypad
 
 # Make Lilypad executable and install it
 chmod +x lilypad
 sudo mv lilypad /usr/local/bin/lilypad
 ```
+{% endtab %}
+
+{% tab title="Resource Providers" %}
+```bash
+# Detect your machine's architecture and set it as $OSARCH
+OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH;
+# Detect your operating system and set it as $OSNAME
+OSNAME=$(uname -s | awk '{if ($1 == "Darwin") print "darwin"; else if ($1 == "Linux") print "linux"; else print "unsupported_os"}') && export OSNAME;
+# Download the latest production build
+curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH-gpu" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O lilypad
+
+# Make Lilypad executable and install it
+chmod +x lilypad
+sudo mv lilypad /usr/local/bin/lilypad
+```
+{% endtab %}
+{% endtabs %}
 
 ### 2. Set WEB3\_PRIVATE\_KEY
 
