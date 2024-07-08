@@ -14,6 +14,10 @@ Once the CLI tool is downloaded, the script sets the necessary permissions to ma
 
 Lilypad offers two distinct installation options to cater to different roles within the network: one for the users of Lilypad and another for resource providers who supply the computational resources to the Lilypad Network.
 
+{% hint style="warning" %}
+The resource provider version of Lilypad is not supported on Darwin/macOS.
+{% endhint %}
+
 Select the appropriate installation based on your role:
 
 {% tabs %}

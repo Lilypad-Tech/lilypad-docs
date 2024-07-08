@@ -120,6 +120,10 @@ The installation process for the Lilypad CLI involves several automated steps to
 
 Once the CLI tool is downloaded, the script sets the necessary permissions to make the executable file runnable. It then moves the executable to a standard location in your system's path to allow it to be run from any terminal window.
 
+{% hint style="warning" %}
+The resource provider version of Lilypad is not supported on Darwin/macOS.
+{% endhint %}
+
 **Via official released binaries**
 
 ```bash
