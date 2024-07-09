@@ -6,46 +6,42 @@ description: Get Testnet Lilypad Tokens (LP) and Arbitrum Sepolia Testnet ETH
 
 ## Overview
 
-To obtain funds, first connect your wallet to the Arbitrum Sepolia network. Collect Lilypad Testnet tokens (LP) and Arbitrum Sepolia ETH from the following faucets:&#x20;
+To obtain funds, first connect your wallet to the Arbitrum Sepolia network. Collect the following tokens from the faucets:
 
-{% hint style="info" %}
-**LP Testnet token faucet:** [`http://faucet-testnet.lilypad.tech`](https://faucet-testnet.lilypad.tech/)
-
-**Arbitrum Sepolia Testnet ETH faucet (3rd party faucet list)** [`https://arbitrum.faucet.dev/ArbSepolia`](https://arbitrum.faucet.dev/ArbSepolia)
-{% endhint %}
+* [Lilypad Testnet tokens (LP) ](https://faucet-testnet.lilypad.tech/)
+* [Arbitrum Sepolia ETH](https://arbitrum.faucet.dev/ArbSepolia) (3rd party faucet list)
 
 ## Get Testnet LP tokens
 
-Copy your MetaMask wallet address into the input and click the request button.
+Copy your MetaMask wallet address into the input and click the "Request" button.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.15.09 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/faucet-step-1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Get Arbitrum Sepolia Testnet ETH
 
-Copy your MetaMask wallet address into the input and click the request button.
+Each faucet in [this third party faucet list](https://arbitrum.faucet.dev/ArbSepolia) is designed differently, so just follow the instructions provided and you'll get the tokens you need.
 
 {% hint style="info" %}
-The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more tokens and already have Sepolia ETH, you can use the [official Arbitrum bridge](https://bridge.arbitrum.io/) to transfer it over to Arbitrum Sepolia.
+If you need more tokens and already have Sepolia ETH, you can use the [official Arbitrum bridge](https://bridge.arbitrum.io/) to transfer it over to Arbitrum Sepolia.
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.21.35 PM.png" alt=""><figcaption></figcaption></figure>
 
 Now you're ready to run Lilypad jobs with the Lilypad CLI!
 
 ## Import Testnet tokens
 
-Once the Arbitrum Sepolia testnet has been added to the wallet, import Arbitrum Sepolia ETH and Lilypad tokens (LP) into the wallet:
+Once the Arbitrum Sepolia testnet has been added to the wallet, you will need to import the Lilypad tokens (LP) into the wallet.
 
-Select Import tokens at the bottom of the screen.
+Select "Import tokens" at the bottom of the MetaMask pop-up:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 11.49.40 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/import-token-step-1.png" alt="" width="353"><figcaption></figcaption></figure>
 
-Use the Lilypad token contract address below to import the token (in order to view Testnet LP tokens in your wallet):
+Click on the "Custom token" tab and add the Lilypad token contract address and token symbol and click "Save".
 
-{% hint style="info" %}
-**Lilypad Testnet Token (LP)  contract address**
+* Token contract address: `0x0352485f8a3cB6d305875FaC0C40ef01e0C06535`
+* Token symbol: `LP`
 
-0x0352485f8a3cB6d305875FaC0C40ef01e0C06535
-{% endhint %}
+<figure><img src="../../.gitbook/assets/import-token-step-2.png" alt="" width="350"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 at 8.27.51 PM.png" alt=""><figcaption></figcaption></figure>
+You should now see both of the tokens imported!
+
+<figure><img src="../../.gitbook/assets/funded-wallet.png" alt="" width="352"><figcaption></figcaption></figure>
