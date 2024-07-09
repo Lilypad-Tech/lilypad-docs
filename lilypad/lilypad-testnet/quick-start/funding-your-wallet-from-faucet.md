@@ -4,8 +4,6 @@ description: Get Testnet Lilypad Tokens (LP) and Arbitrum Sepolia Testnet ETH
 
 # Funding your wallet
 
-## Overview
-
 To obtain funds, first connect your wallet to the Arbitrum Sepolia network. Collect the following tokens from the faucets:
 
 * [Lilypad Testnet tokens (LP) ](https://faucet-testnet.lilypad.tech/)
