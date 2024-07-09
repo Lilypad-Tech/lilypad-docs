@@ -57,23 +57,22 @@ sudo mv lilypad /usr/local/bin/lilypad
 You're required to set your private key environment variable, `WEB3_PRIVATE_KEY`, to interact securely with the network.&#x20;
 
 {% hint style="info" %}
-A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) can be retrieved from the Metamask account details menu. For more info, check out [this](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) official guide from Metamask on viewing a wallet's private key.
+A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) can be retrieved from the Metamask account details menu. For more info, check out the [official guide from Metamask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on viewing a wallet's private key.
 {% endhint %}
 
 ```bash
 export WEB3_PRIVATE_KEY=<your private key>
 ```
 
-{% hint style="warning" %}
-To use the Lilypad CLI, the set private key will need to hold [Lilypad testnet tokens](quick-start/funding-your-wallet-from-faucet.md) and Arbitrum Sepolia ETH ([3rd party faucet list](https://arbitrum.faucet.dev/ArbSepolia)).&#x20;
-{% endhint %}
+To use the Lilypad CLI, the set private key will need to hold Lilypad testnet tokens and Arbitrum Sepolia ETH. You can find those instructions in the [Funding your wallet](quick-start/funding-your-wallet-from-faucet.md) documentation.
 
 ### 3. Verify installation
 
 To verify the installation, running `lilypad` in the terminal should display a list of available commands, indicating that Lilypad CLI is ready to use.
 
 ```bash
-Lilypad
+Lilypad: <VERSION>
+Commit: <COMMIT>
 
 Usage:
   lilypad [command]
@@ -81,13 +80,17 @@ Usage:
 Available Commands:
   completion        Generate the autocompletion script for the specified shell
   help              Help about any command
+  jobcreator        Start the lilypad job creator service.
   mediator          Start the lilypad mediator service.
+  pow-signal        Send a pow signal to smart contract.
   resource-provider Start the lilypad resource-provider service.
   run               Run a job on the Lilypad network.
   solver            Start the lilypad solver service.
+  version           Get the lilypad version
 
 Flags:
-  -h, --help   help for lilypad
+  -h, --help             help for lilypad
+  -n, --network string   Sets a target network configuration (default "testnet")
 
 Use "lilypad [command] --help" for more information about a command.
 ```
