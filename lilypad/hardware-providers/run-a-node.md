@@ -63,7 +63,10 @@ To set up your environment for using Lilypad with GPU support, you need to insta
 
 Docker is a platform that allows you to automate the deployment of applications inside lightweight, portable containers.
 
-To install Docker, follow the steps specific to your operating system from the [official Docker documentation](https://docs.docker.com/get-docker/).
+To install Docker Engine, follow the steps specific to your operating system from the official Docker documentation:
+
+* [Linux](https://docs.docker.com/engine/install/ubuntu/) - Docker Engine
+* [Windows](https://docs.docker.com/desktop/install/windows-install/) - Docker Desktop
 
 #### Install Nvidia Container Toolkit
 
