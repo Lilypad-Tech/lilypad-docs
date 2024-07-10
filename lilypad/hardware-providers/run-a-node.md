@@ -106,9 +106,9 @@ To install Bacalhau, run the following in your terminal:
 ```bash
 cd /tmp
 
-wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.3.0/bacalhau_v1.3.0_linux_amd64.tar.gz
+wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.3.2/bacalhau_v1.3.2_linux_amd64.tar.gz
 
-tar xfv bacalhau_v1.3.0_linux_amd64.tar.gz
+tar xfv bacalhau_v1.3.2_linux_amd64.tar.gz
 
 sudo mv bacalhau /usr/bin/bacalhau
 
@@ -116,6 +116,8 @@ sudo mkdir -p /app/data/ipfs
 
 sudo chown -R $USER /app/data
 ```
+
+Bacalhau versions newer than `v1.3.2` are not currently supported but will be in the future. Please pin to Bacalhau `v.1.3.2` for now.
 
 #### Install Lilypad
 
