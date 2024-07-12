@@ -33,7 +33,7 @@ For a step by step guide on adding the network, please refer to our [Setting up 
 
 #### Fund your wallet with ETH and LP
 
-To obtain testnet LP, use the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address.&#x20;
+To obtain testnet LP, use the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address.
 
 To obtain testnet ETH, use a third party [Arbitrum Sepolia testnet faucet](https://arbitrum.faucet.dev/ArbSepolia) and enter your ETH address.
 
@@ -154,7 +154,7 @@ sudo mkdir -p /app/lilypad
 sudo touch /app/lilypad/resource-provider-gpu.env
 ```
 
-&#x20;Next, add your node's private key into `/app/lilypad/resource-provider-gpu.env`:
+Next, add your node's private key into `/app/lilypad/resource-provider-gpu.env`:
 
 ```bash
 WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY> (the private key from a NEW MetaMask wallet FOR THE COMPUTE NODE)
@@ -245,6 +245,15 @@ sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 ```
 
+### Update Lilypad version
+
+Whenever a new version of Lilypad is released, it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements. You can do this in two steps:
+
+1. [Reinstalling Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
+2. Restart your resource provider by running `sudo systemctl restart lilypad-resource-provider`
+
+You can then confirm the status of your node by following the steps in the next section.
+
 ### View node status
 
 To check if the node is running use the following command:
@@ -253,7 +262,7 @@ To check if the node is running use the following command:
 sudo systemctl status lilypad-resource-provider
 ```
 
-This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network.&#x20;
+This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network.
 
 <figure><img src="../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
 
