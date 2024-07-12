@@ -247,10 +247,13 @@ sudo systemctl start lilypad-resource-provider
 
 ### Update Lilypad version
 
-Whenever a new version of Lilypad is released, it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements. You can do this in two steps:
+Whenever a new version of Lilypad is released, it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements. Please note that using `sudo rm -rf` is very powerful and can be dangerous if not used carefully.
 
-1. [Reinstalling Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
-2. Restart your resource provider by running `sudo systemctl restart lilypad-resource-provider`
+You can do this in two steps:
+
+1. Remove the Lilypad executable by running: `sudo rm -rf /usr/local/bin/lilypad`
+2. [Reinstalling Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
+3. Restart your resource provider by running `sudo systemctl restart lilypad-resource-provider`
 
 You can then confirm the status of your node by following the steps in the next section.
 
