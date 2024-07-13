@@ -314,5 +314,3 @@ Visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad#available-mod
 {% embed url="https://www.youtube.com/watch?v=YmOtqOIBQ0k" %}
 Check out this walk through of setting up a Lilypad node for Linux/Mac!
 {% endembed %}
-
-## Windows
