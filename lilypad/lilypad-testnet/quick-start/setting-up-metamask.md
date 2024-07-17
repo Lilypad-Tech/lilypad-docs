@@ -36,9 +36,7 @@ Chain ID: 421614
 
 Currency symbol: ETH
 
-Block explorer URL: (leave blank)\
-\
-Note: This information is referenced directly from the Arbitrum Sepolia [documentation](https://docs.arbitrum.io/arbitrum-bridge/quickstart#step-2-add-the-preferred-network-to-your-wallet).
+Block explorer URL: (leave blank)
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/metamask-step-4.png" alt="" width="375"><figcaption></figcaption></figure>
