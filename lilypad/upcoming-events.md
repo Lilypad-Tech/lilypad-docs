@@ -14,10 +14,11 @@ Image: `> lilypad run sdxl:v0.9-lilypad3 "A record player at a bit event in spac
 
 ## Upcoming
 
-* [ETHCC Brussels](https://ethcc.io/) \[July 8-11]
+Coming soon!
 
 ## Past
 
+* [ETHCC Brussels](https://ethcc.io/) \[July 8-11]
 * [HackFS](https://ethglobal.com/events/hackfs2024) Online \[May 17-June 7]
 * [ETH Global ](https://ethglobal.com/events/sanfrancisco2024)San Francisco \[October 18-20]
 * [Devcon](https://devcon.org/) Bangkok \[November 12-15]
@@ -27,5 +28,3 @@ Image: `> lilypad run sdxl:v0.9-lilypad3 "A record player at a bit event in spac
 * [Chainlink SmartCon](https://smartcon.chain.link/) Barcelona \[Oct 1-3]
 * [Fil:Vegas](https://fil-vegas.io) \[Oct 3-5]
 * [Open Data Hack](https://twitter.com/Lilypad\_Tech/status/1688319601107521536?ref\_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1688319601107521536%7Ctwgr%5E2f6c362765cea6018c3db4cc5bce5e710baa50fd%7Ctwcon%5Es1\_\&ref\_url=https%3A%2F%2Fcdn.iframe.ly%2FodriGT3%3Fapp%3D1) - Online \[Sept '23]
-
-{% embed url="https://twitter.com/Lilypad_Tech/status/1688319601107521536?s=20" %}
