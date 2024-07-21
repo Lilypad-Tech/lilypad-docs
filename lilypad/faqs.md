@@ -84,13 +84,13 @@ To check if the RP is running use the following command: `sudo systemctl status 
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resouce-provider.service -f`
 
-Find more information in [Running a Node](broken-reference).
+Find more information in [Running a Node](hardware-providers/run-a-node.md).
 
 ## 👩‍💻 Developer Questions
 
 ### What is a Lilypad Module?
 
-To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a Lilypad Module (see instructions below). Once setup, modules are run with the Lilypad [CLI](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) or [API](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/javascript-cli-wrapper).
+To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a Lilypad Module (see instructions below). Once setup, modules are run with the Lilypad [CLI](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements).
 
 ### How to run a ML job on Lilypad
 
@@ -104,7 +104,7 @@ A Lilypad module is a Git repository that can be used to perform various tasks u
 
 ### How to run a Lilypad node
 
-Lilypad is an open network that allows anyone to contribute GPU computing capacity. There is currently no cost or incentives for running a Lilypad node. Find [instructions](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/run-a-node) for running a node in the docs.
+Lilypad is an open network that allows anyone to contribute GPU computing capacity. There is currently no cost or incentives for running a Lilypad node. Find [instructions](hardware-providers/run-a-node.md)[ for running a node](hardware-providers/run-a-node.md) in the docs.
 
 ### Node hardware specs
 
