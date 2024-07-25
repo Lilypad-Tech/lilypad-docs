@@ -10,8 +10,8 @@ description: Common FAQs when running a Lilypad node
 2. Confirm network activity - is the RP transacting on [Arbscan](https://sepolia.arbiscan.io/)? (txs verified and running consistently)
 3. Check the [node status](https://info.lilypad.tech/node-status)
 4. Ensure the RP is online and earning Lilybit\_ rewards in the [Leaderboard](https://info.lilypad.tech/leaderboard)
-5. **If the RP public keys are not found within the Arbscan network or Leaderboard, e**nsure the RP has enough [Arbitrum ETH](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet#get-arbitrum-sepolia-testnet-eth) and [Lilypad Tokens](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet#get-testnet-lp-tokens)
-6. **To** [**view the logs**](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#view-node-status) **from the resource provider use this command on the Resource Provider:**
+5. **If the RP public keys are not found within the Arbscan network or Leaderboard,** ensure the RP has enough [Arbitrum ETH](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet#get-arbitrum-sepolia-testnet-eth) and [Lilypad Tokens](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet#get-testnet-lp-tokens)
+6. **To** [**view the logs**](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#view-node-status) **use this command on the Resource Provider:**
 
 `journalctl -u lilypad-resource-provider.service`
 
