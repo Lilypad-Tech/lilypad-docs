@@ -279,6 +279,10 @@ sudo journalctl -u lilypad-resource-provider.service -f
 Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
 {% endhint %}
 
+### Lilybit\_ Earnings
+
+Use the [Lilypad RP Leaderboard](https://info.lilypad.tech/leaderboard) to view Lilybit\_ rewards earned and track the status of a RP.&#x20;
+
 ### Disconnecting a node
 
 To disconnect your node from Lilypad you will need to do a few things to completely offboard.

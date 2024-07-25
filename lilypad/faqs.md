@@ -47,6 +47,8 @@ The Lilypad Incentivized testnet is on track to launch by the end of June 2024. 
 
 Lilybit\_ rewards will be awarded to nodes for time on the network (up to a 4x multiplier) and compute power brought to the network. Rewards will be redeemable, for the Lilypad ERC20 Utility Token at Mainnet Launch, with between 5% and 10% of the total token supply (depending on IncentiveNet demand and tokenomics finalization) being allocated to this phase of the Lilypad Network.
 
+Resource Providers (RP) can track their Lilybit\_ earnings with the [RP Leaderboard](https://info.lilypad.tech/leaderboard).
+
 ### Who can earn LilyBit\_ rewards
 
 Phase 1 of the Incentivized Testnet is focused on rewarding nodes on the network, referred to as Resource Providers. The earlier a provider joins the network, the more Lilybits\_ will be available.
