@@ -279,7 +279,7 @@ sudo journalctl -u lilypad-resource-provider.service -f
 Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
 {% endhint %}
 
-### Lilybit\_ Earnings
+### Lilybit\_ Rewards
 
 Use the [Lilypad RP Leaderboard](https://info.lilypad.tech/leaderboard) to view Lilybit\_ rewards earned and track the status of a RP.&#x20;
 
