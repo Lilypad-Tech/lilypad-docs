@@ -19,6 +19,7 @@
 * [Hardware Requirements](hardware-providers/hardware-requirements.md)
 * [Running a Node](hardware-providers/run-a-node.md)
 * [Troubleshooting](hardware-providers/troubleshooting.md)
+* [Rewards](hardware-providers/rewards.md)
 
 ## Developer Resources
 
