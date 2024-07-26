@@ -6,7 +6,7 @@ description: Common FAQs when running a Lilypad node
 
 ### Debugging a Lilypad Node
 
-1. Ensure the node (Resource Provider ) is running the latest Lilypad version
+1. Ensure the node (Resource Provider ) is running the latest [Lilypad version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#update-lilypad-version)
 2. Confirm network activity - is the RP transacting on [Arbscan](https://sepolia.arbiscan.io/)? (txs verified and running consistently)
 3. Check the [node status](https://info.lilypad.tech/node-status)
 4. Ensure the RP is online and earning Lilybit\_ rewards in the [Leaderboard](https://info.lilypad.tech/leaderboard)
