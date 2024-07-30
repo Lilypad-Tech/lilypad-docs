@@ -29,15 +29,16 @@ Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/121289769
 #### Q: I haven’t seen any POW -> Common Issues to check first!
 
 1. Ensure the RP (node) is running the latest [Lilypad version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#update-lilypad-version)
-2.  Confirm Network activity
+2. Confirm network activity. Is the RP transacting on [Arbiscan](https://sepolia.arbiscan.io/) (Sepolia) with transactions verified and running consistently?
 
-    Is the RP transacting on [Arbiscan](https://www.notion.so/50cada590fad4999a2d440da0e48ac1b?pvs=21) (Sepolia)? (txs verified and running consistently)
+* [https://sepolia.arbiscan.io/address/](https://sepolia.arbiscan.io/address/)”**wallet-address”**
+* Is the RP online in the [Leaderboard](https://info.lilypad.tech/leaderboard) and in the [node status dashboard](https://info.lilypad.tech/node-status)?
 
-    1. [https://sepolia.arbiscan.io/address/](https://sepolia.arbiscan.io/address/)”**wallet-address”**
-    2. Is the RP online in the [Leaderboard](https://info.lilypad.tech/leaderboard) and in the [node status dashboard](https://info.lilypad.tech/node-status)?
 3. If the RP public keys are not found within the Arbiscan network or Leaderboard
-   * does the RP have [enough](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#fund-your-wallet-with-eth-and-lp) Lilypad Tokens (LP)?
-   * does the RP have [enough](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#fund-your-wallet-with-eth-and-lp) Arbitrum ETH?
+
+* does the RP have [enough](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#fund-your-wallet-with-eth-and-lp) Lilypad Tokens (LP)?
+* does the RP have [enough](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#fund-your-wallet-with-eth-and-lp) Arbitrum ETH?
+
 4. Updating and restarting the Lilypad services regularly(daily) is encouraged throughout IncentiveNet.
 
 #### Q: My node says it isn’t online
