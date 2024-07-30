@@ -42,7 +42,7 @@ Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/121289769
 
 #### Q: My node says it isn’t online
 
-Before restarting the node, check the logs and arbiscan to see if the RP is running properly. If so, and the node is still listed in the [Leaderboard](https://info.lilypad.tech/leaderboard) as offline, try the steps below. If this doesn't work, raise a ticket with our team.
+Before restarting the node, check the logs and Arbiscan to see if the RP is running properly. If so, and the node is still listed in the [Leaderboard](https://info.lilypad.tech/leaderboard) as offline, try the steps below. If this doesn't work, raise a ticket with our team.
 
 **Restart lilypad+bacalhau services**
 
@@ -54,7 +54,7 @@ sudo systemctl restart bacalhau
 
 #### Q: When do Lilybit\_ rewards earned or rewards slashed appear in the Leaderboard?
 
-Once a day at 00:10 UTC. If no rewards appear after 24 hours of expected uptime, view the logs and arbiscan transactions from the resource provider to ensure online status.
+Once a day at 00:10 UTC. If no rewards appear after 24 hours of expected uptime, view the logs and Arbiscan transactions from the resource provider to ensure online status.
 
 #### Q: How do I run multiple GPU’s from a node
 
