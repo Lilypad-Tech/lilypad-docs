@@ -52,25 +52,27 @@ sudo systemctl restart lilypad
 sudo systemctl restart bacalhau
 ```
 
+Check out this [video guide](https://www.youtube.com/watch?v=I5ZOk-OkFdc) for setting up a Lilypad node using Ubuntu Linux. Note, you may notice in the Metamask setup part of the video the Network name and RPC URL are old. Disregard this, the video was recorded with our old testnet info not the current Lilypad testnet [details](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask) on Arbitrum. Otherwise, the directions here are current. Read more about running a Lilypad node in the [docs](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node).
+
+{% embed url="https://www.youtube.com/watch?v=I5ZOk-OkFdc" %}
+
 #### Q: When do Lilybit\_ rewards earned or rewards slashed appear in the Leaderboard?
 
 Once a day at 00:10 UTC. If no rewards appear after 24 hours of expected uptime, view the logs and Arbiscan transactions from the resource provider to ensure online status.
 
 #### Q: How do I run multiple GPU’s from a node
 
-Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md):&#x20;
-
-Check out this [video guide](https://www.youtube.com/watch?v=I5ZOk-OkFdc) for setting up a Lilypad node using Ubuntu Linux. Note, you may notice in the Metamask setup part of the video the Network name and RPC URL are old. Disregard this, the video was recorded with our old testnet info not the current Lilypad testnet [details](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask) on Arbitrum. Otherwise, the directions here are current. Read more about running a Lilypad node in the [docs](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node).
-
-{% embed url="https://www.youtube.com/watch?v=I5ZOk-OkFdc" %}
+Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md). More on this coming soon!
 
 #### Q: Will I lose reward multipliers if my node is offline?
 
-The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if  the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed. However, a RP will still receive a multiplier relative to how many 4-hour windows of POWs completed in that day. This figure shows the daily multiplier for a given number of 4-hour windows of POWs completed in a day.
+The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if  the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.&#x20;
+
+However, a RP will still receive a multiplier relative to how many 4-hour windows of POWs completed in that day. This figure shows the daily multiplier for a given number of 4-hour windows of POWs completed in a day.
 
 <figure><img src="../.gitbook/assets/daily_mult_v_N_POW.png" alt="" width="563"><figcaption></figcaption></figure>
 
-#### Q: **Is there required updates needed to maintain my node software with Lilypad?**
+#### Q: Are **there required updates needed to maintain my node software with Lilypad?**
 
 Resource providers are expected to have the [latest Lilypad version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#update-lilypad-version) installed on their systems. The installation instructions can be found [here](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements).
 
