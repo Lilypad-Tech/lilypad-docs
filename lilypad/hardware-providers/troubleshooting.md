@@ -79,11 +79,13 @@ Resource providers are expected to have the [latest Lilypad version](https://doc
 
 To stay up to date with the latest releases, check the [updates-rp channel](https://discord.com/channels/1212897693450641498/1256179769356189707) in the Lilypad Discord or visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad). Along the top menu, click the "Watch" dropdown and you will see a section named "Custom". Selecting "Releases" will allow you to get notified of any new releases!
 
+#### Q: CompatNotSupportedOnDevice:
+
+The CUDA version of the RP does not match the GPU driver. Please refer to this [Nvidia GPU Driver guide](https://docs.nvidia.com/deploy/cuda-compatibility) to repair installation.&#x20;
+
 #### Q: Unknown Error Code: 222
 
-Indicates that the CUDA version of the RP is incorrect (CUDA version of the RP does not match the GPU driver.).&#x20;
-
-Install the CUDA version suitable for the gpu type and compile Lilypad.  Please refer to the [Nvidia CUDA Compatibility guide](https://docs.nvidia.com/deploy/cuda-compatibility) for more info.
+Indicates that the cuda version of the RP is incorrect. RP need to install the CUDA which suitable for the gpu type and compile Lilypad by themselves
 
 #### Q: **How can I check the status of my Lilypad node once it's running?**
 
