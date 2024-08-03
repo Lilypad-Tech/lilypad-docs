@@ -61,6 +61,10 @@ Check out this [video guide](https://www.youtube.com/watch?v=I5ZOk-OkFdc) for se
 
 Once a day at 00:10 UTC. If no rewards appear after 24 hours of expected uptime, view the logs and Arbiscan transactions from the resource provider to ensure online status.
 
+#### Q: Can I become a Lilypad Resource Provider with just a CPU and no GPU?
+
+Resource Providers can run on the Lilypad Network without a GPU, however only hardware with a GPU is currently rewarded with Lilybit\_ rewards.
+
 #### Q: How do I run multiple GPU’s from a node
 
 Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md). More on this coming soon!
