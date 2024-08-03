@@ -41,7 +41,7 @@ Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/121289769
 
 4. Updating and restarting the Lilypad services regularly(daily) is encouraged throughout IncentiveNet.
 
-#### Q: My node says it isn’t online
+#### Q: My node says it isn’t online.
 
 Before restarting the node, check the logs and Arbiscan to see if the RP is running properly. If so, and the node is still listed in the [Leaderboard](https://info.lilypad.tech/leaderboard) as offline, try the steps below. If this doesn't work, raise a ticket with our team.
 
@@ -65,7 +65,7 @@ Once a day at 00:10 UTC. If no rewards appear after 24 hours of expected uptime,
 
 Resource Providers can run on the Lilypad Network without a GPU, however only hardware with a GPU is currently rewarded with Lilybit\_ rewards.
 
-#### Q: How do I run multiple GPU’s from a node
+#### Q: How do I run multiple GPU’s from a node?
 
 Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md). More on this coming soon!
 
@@ -83,7 +83,7 @@ Resource providers are expected to have the [latest Lilypad version](https://doc
 
 To stay up to date with the latest releases, check the [updates-rp channel](https://discord.com/channels/1212897693450641498/1256179769356189707) in the Lilypad Discord or visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad). Along the top menu, click the "Watch" dropdown and you will see a section named "Custom". Selecting "Releases" will allow you to get notified of any new releases!
 
-#### Q: CompatNotSupportedOnDevice:
+#### Q: CompatNotSupportedOnDevice Error
 
 The CUDA version of the RP does not match the GPU driver. Please refer to this [Nvidia GPU Driver guide](https://docs.nvidia.com/deploy/cuda-compatibility) to repair installation.&#x20;
 
