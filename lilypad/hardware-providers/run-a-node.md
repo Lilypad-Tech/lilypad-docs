@@ -143,6 +143,8 @@ chmod +x lilypad
 sudo mv lilypad /usr/local/bin/lilypad
 ```
 
+To verify the installation, run `lilypad` in the terminal to display the version and a list of available commands, indicating that Lilypad CLI is ready to use.
+
 #### Write env file
 
 You will need to create an environment directory for your node and add an environment file that contains your node's private key.
