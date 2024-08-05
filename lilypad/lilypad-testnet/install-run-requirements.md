@@ -4,13 +4,11 @@ description: Instructions for installing the Lilypad CLI on your machine
 
 # Installation (CLI)
 
-## Install Lilypad CLI
-
 The installation process for the Lilypad CLI involves several automated steps to configure it for your specific system. Initially, the setup script identifies your computer's architecture and operating system to ensure compatibility. It will then download the latest production build of the Lilypad CLI directly from the official GitHub repository using `curl` and `wget`.
 
 Once the CLI tool is downloaded, the script sets the necessary permissions to make the executable file runnable. It then moves the executable to a standard location in your system's path to allow it to be run from any terminal window.
 
-### 1. Install via officially released binaries
+## Install via officially released binaries
 
 Lilypad offers two distinct installation options to cater to different roles within the network: one for the users of Lilypad and another for resource providers who supply the computational resources to the Lilypad Network.
 
@@ -52,7 +50,7 @@ sudo mv lilypad /usr/local/bin/lilypad
 {% endtab %}
 {% endtabs %}
 
-### 2. Set WEB3\_PRIVATE\_KEY
+## Set WEB3\_PRIVATE\_KEY
 
 You're required to set your private key environment variable, `WEB3_PRIVATE_KEY`, to interact securely with the network.&#x20;
 
@@ -66,7 +64,7 @@ export WEB3_PRIVATE_KEY=<your private key>
 
 To use the Lilypad CLI, the set private key will need to hold Lilypad testnet tokens and Arbitrum Sepolia ETH. You can find those instructions in the [Funding your wallet](quick-start/funding-your-wallet-from-faucet.md) documentation.
 
-### 3. Verify installation
+## Verify installation
 
 To verify the installation, running `lilypad` in the terminal should display a list of available commands, indicating that Lilypad CLI is ready to use.
 
