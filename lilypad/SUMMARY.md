@@ -3,6 +3,7 @@
 * [🍃 Lilypad Home](README.md)
 * [📅 Events](upcoming-events.md)
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
+* [👥 Join the Community](join-the-community.md)
 * [⚡ FAQs](faqs.md)
 
 ## Lilypad Testnet
@@ -52,11 +53,7 @@
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [🌠 Project Showcase](use-cases/project-showcase.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
-
-## Tutorials & Content
-
-* [Reference Material](tutorials-and-content/reference-material.md)
-* [👥 Join the Community](tutorials-and-content/join-the-community.md)
+* [Reference Material](use-cases/reference-material.md)
 
 ## Meet the Lilypad Team
 
