@@ -71,7 +71,7 @@ Lilypad can not be held responsible for any hardware purchases made based on the
 
 **Motherboard**: Gigabyte B650 AORUS Elite AX V2(AM5 Socket)
 
-**GPU**: PNY RTX 4070ti
+**GPU**: RTX 4070ti
 
 **CPU**: AMD Ryzen 9 7950X(32 Core)
 
@@ -89,7 +89,7 @@ Lilypad can not be held responsible for any hardware purchases made based on the
 
 **GPU**: RTX 4090(24gb VRAM) X3
 
-**CPU:** Ryzen Threadripper 7960X(24 Core)
+**CPU:** Ryzen Threadripper 7960X(48 Core)
 
 **RAM:** Kingston Fury Renegade Pro 128GB ECC(6400MT/s)
 
