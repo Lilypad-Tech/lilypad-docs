@@ -301,7 +301,7 @@ Then, remove the environment file for the Lilypad resource provider. This file i
 
 Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, you can remove it from there. If your executable is stored in a different directory on your machine, you will need to navigate to that directory and remove it from there. To remove the executable, run: `sudo rm -rf /usr/local/bin/lilypad`
 
-If you want to remove Bacalhau also, run: `sudo rm -rf /usr/local/bin/bacalhau`
+If you want to remove Bacalhau, run: `sudo rm -rf /usr/bin/bacalhau`
 
 As every system is different, these instructions may vary. If you have any issues, please reach out to the team in the [Lilypad Discord](https://lilypad.team/discord) for help!
 
