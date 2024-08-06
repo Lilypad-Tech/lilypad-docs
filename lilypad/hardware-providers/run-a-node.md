@@ -45,9 +45,9 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 
 * Linux (latest Ubuntu LTS recommended)
 * Nvidia GPU
-* Nvidia drivers
+* [Nvidia drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)
 * Docker
-* [Nvidia Docker drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)
+* Nvidia Docker drivers
 
 {% hint style="info" %}
 For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
