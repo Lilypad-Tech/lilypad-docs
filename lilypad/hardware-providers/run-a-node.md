@@ -47,7 +47,7 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 * Nvidia GPU
 * Nvidia drivers
 * Docker
-* Nvidia Docker drivers
+* [Nvidia Docker drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)
 
 {% hint style="info" %}
 For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
@@ -64,7 +64,6 @@ Docker is a platform that allows you to automate the deployment of applications 
 To install Docker Engine, follow the steps specific to your operating system from the official Docker documentation:
 
 * [Linux](https://docs.docker.com/engine/install/ubuntu/) - Docker Engine
-* [Windows](https://docs.docker.com/desktop/install/windows-install/) - Docker Desktop
 
 ### Install Nvidia Container Toolkit
 
