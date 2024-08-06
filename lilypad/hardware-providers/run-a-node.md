@@ -176,9 +176,9 @@ systemd is a system and service manager for Linux operating systems. systemd ope
 
 To install systemd, open `/etc/systemd/system/bacalhau.service` in your preferred editor:
 
-{% hint style="info" %}
-Hint: `sudo vim /etc/systemd/system/bacalhau.service`
-{% endhint %}
+```bash
+sudo vim /etc/systemd/system/bacalhau.service
+```
 
 <pre><code>[Unit]
 Description=Lilypad V2 Bacalhau
