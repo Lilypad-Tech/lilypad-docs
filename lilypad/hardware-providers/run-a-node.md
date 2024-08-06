@@ -244,18 +244,6 @@ sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 ```
 
-## Update Lilypad version
-
-Whenever a new version of Lilypad is released, it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements. Please note that using `sudo rm -rf` is very powerful and can be dangerous if not used carefully.
-
-This can be done in two steps:
-
-1. Remove the Lilypad executable by running: `sudo rm -rf /usr/local/bin/lilypad`
-2. [Reinstalling Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
-3. Restart your resource provider by running `sudo systemctl restart lilypad-resource-provider`
-
-You can then confirm the status of your node by following the steps in the next section.
-
 ## View node status
 
 To check if the node is running use the following command:
@@ -274,9 +262,24 @@ Run the following command to get more status info from your node:
 sudo journalctl -u lilypad-resource-provider.service -f
 ```
 
-{% hint style="info" %}
-Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
-{% endhint %}
+## Update Lilypad version
+
+When a new version of Lilypad is [released](https://discord.com/channels/1212897693450641498/1256179769356189707), it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements.&#x20;
+
+Please note that using `sudo rm -rf` is very powerful and can be dangerous if not used carefully.
+
+1. Remove the Lilypad executable by running:
+
+```bash
+sudo rm -rf /usr/local/bin/lilypad
+```
+
+2. [Reinstalling Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
+3. Restart your resource provider by running:
+
+```bash
+sudo systemctl restart lilypad-resource-provider
+```
 
 ## Disconnecting a node
 
@@ -288,17 +291,33 @@ Using `sudo rm -rf` is very powerful and can be dangerous if not used carefully.
 
 First, you must remove the `.service` files related to Lilypad and Bacalhau. These files are typically stored in `/etc/systemd/system/`. To remove them, run the following command:
 
-```
+```bash
 sudo rm -rf /etc/systemd/system/lilypad-resource-provider.service /etc/systemd/system/bacalhau.service
 ```
 
-Next we notify the systemd manager to reload its configuration by running: `sudo systemctl daemon-reload`
+Next we notify the systemd manager to reload its configuration by running:
 
-Then, remove the environment file for the Lilypad resource provider. This file is usually stored in `/app/lilypad/`. To remove it, run: `sudo rm -rf /app/lilypad/resource-provider-gpu.env`
+```bash
+sudo systemctl daemon-reload
+```
 
-Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, you can remove it from there. If your executable is stored in a different directory on your machine, you will need to navigate to that directory and remove it from there. To remove the executable, run: `sudo rm -rf /usr/local/bin/lilypad`
+Then, remove the environment file for the Lilypad resource provider. This file is usually stored in `/app/lilypad/`. To remove it, run:
 
-If you want to remove Bacalhau, run: `sudo rm -rf /usr/bin/bacalhau`
+```bash
+sudo rm -rf /app/lilypad/resource-provider-gpu.env
+```
+
+Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, it can be removed from there. If the executable is stored in a different directory on your machine, navigate to that directory and remove it from there. To remove the executable, run:&#x20;
+
+```bash
+sudo rm -rf /usr/local/bin/lilypad
+```
+
+To remove Bacalhau, run:
+
+```bash
+sudo rm -rf /usr/bin/bacalhau
+```
 
 As every system is different, these instructions may vary. If you have any issues, please reach out to the team in the [Lilypad Discord](https://lilypad.team/discord) for help!
 
