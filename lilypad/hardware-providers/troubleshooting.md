@@ -69,6 +69,12 @@ Resource Providers can run on the Lilypad Network without a GPU, however only ha
 
 Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md). More on this coming soon!
 
+### Q: How does slashing work on Lilypad?
+
+Each day of node (RP) downtime, 10% of the total points earned will be slashed (per day). This was implemented with a focus on long term partners contributing meaningfully to the network.  Important as early rewards are worth more than rewards in later stages of the[ IncentiveNet](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations).&#x20;
+
+The requirement to not be slashed is only 4 hrs/day of uptime. We may reevaluate this mechanism,  please provider any community feedback [here](https://github.com/orgs/Lilypad-Tech/discussions/16)!
+
 ### Q: Will I lose reward multipliers if my node is offline?
 
 The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if  the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.&#x20;
