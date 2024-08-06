@@ -198,7 +198,7 @@ WantedBy=multi-user.target
 </code></pre>
 
 {% hint style="info" %}
-If you receive the error of `error creating IPFS node`, you may need to initialize IPFS. To do this, run `ipfs init`.
+If you receive the error of `error creating IPFS node`, you may need to initialize IPFS using`ipfs init`. Read more about this error [here](https://docs.lilypad.tech/lilypad/hardware-providers/troubleshooting#q-bacalhau-ipfs-init-error).
 {% endhint %}
 
 ### Install systemd unit for GPU provider
