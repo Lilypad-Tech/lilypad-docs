@@ -1,19 +1,17 @@
 ---
 description: >-
-  Linux and Mac instructions for setting up and running on the public Lilypad
-  testnet, including obtaining necessary funds, installing required software,
-  and ensuring security measures.
+  Instructions for setting up a node on the public Lilypad testnet, including
+  obtaining necessary funds, installing required software, and ensuring security
+  measures.
 ---
 
 # Running a Node
 
-This process involves configuring your environment, installing necessary software, and ensuring your system meets the prerequisites.
+## Network information and testnet tokens
 
-### Network information and testnet tokens
+The testnet has a base currency of ETH, as well as a utility token called LP. Both are used for  running nodes. To add a node to the testnet, follow these steps:
 
-The testnet has a base currency of ETH, as well as a utility token called LP. LP is used for both paying for jobs and staking nodes. To add a node to the testnet, follow these steps:
-
-#### MetaMask
+### Metamask
 
 We recommend using MetaMask with custom settings to make things easier. Once you have it installed and setup, here are the settings you need to use:
 
@@ -31,7 +29,7 @@ Block explorer URL: (leave blank)
 
 For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../lilypad-testnet/quick-start/setting-up-metamask.md).
 
-#### Fund your wallet with ETH and LP
+### Fund your wallet with ETH and LP
 
 To obtain testnet LP, use the [Lilypad faucet](http://faucet.lilypad.tech) and enter your ETH address.
 
@@ -43,23 +41,23 @@ The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more
 
 The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for jobs).
 
-### Prerequisites
+## Prerequisites
 
 * Linux (latest Ubuntu LTS recommended)
 * Nvidia GPU
 * Nvidia drivers
 * Docker
-* Nvidia docker drivers
+* Nvidia Docker drivers
 
 {% hint style="info" %}
 For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
 {% endhint %}
 
-### Installation
+## Installation
 
 To set up your environment for using Lilypad with GPU support, you need to install several key components. This guide will walk you through installing Docker, the Nvidia Container Toolkit, Bacalhau, and Lilypad. You'll also configure systemd to manage these services efficiently.
 
-#### Install Docker
+### Install Docker
 
 Docker is a platform that allows you to automate the deployment of applications inside lightweight, portable containers.
 
@@ -68,7 +66,7 @@ To install Docker Engine, follow the steps specific to your operating system fro
 * [Linux](https://docs.docker.com/engine/install/ubuntu/) - Docker Engine
 * [Windows](https://docs.docker.com/desktop/install/windows-install/) - Docker Desktop
 
-#### Install Nvidia Container Toolkit
+### Install Nvidia Container Toolkit
 
 To ensure proper operation of your graphics cards and Lilypad, follow these steps to install the Nvidia Toolkit Base Installer: [Nvidia Container Toolkit download page](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
@@ -97,7 +95,7 @@ Restart the Docker daemon:
 sudo systemctl restart docker
 ```
 
-#### Install Bacalhau
+### Install Bacalhau
 
 Bacalhau is a peer-to-peer network of nodes that enables decentralized communication between computers. The network consists of two types of nodes, which can communicate with each other.
 
@@ -119,7 +117,7 @@ sudo chown -R $USER /app/data
 
 Bacalhau versions newer than `v1.3.2` are not currently supported but will be in the future. Please pin to Bacalhau `v.1.3.2` for now.
 
-#### Install Lilypad
+### Install Lilypad
 
 The installation process for the Lilypad CLI involves several automated steps to configure it for your specific system. Initially, the setup script identifies your computer's architecture and operating system to ensure compatibility. It will then download the latest production build of the Lilypad CLI directly from the official GitHub repository using `curl` and `wget`.
 
@@ -145,7 +143,7 @@ sudo mv lilypad /usr/local/bin/lilypad
 
 To verify the installation, run `lilypad` in the terminal to display the version and a list of available commands, indicating that Lilypad CLI is ready to use.
 
-#### Write env file
+### Write env file
 
 You will need to create an environment directory for your node and add an environment file that contains your node's private key.
 
@@ -172,7 +170,7 @@ This is the key where you will get paid in LP tokens for jobs run on the network
 You must not reuse your compute node key as a client, even for testing: this will result in failed jobs and will negatively impact your compute node since the wallet address is how nodes are identified on the network.
 {% endhint %}
 
-#### Install systemd unit for Bacalhau
+### Install systemd unit for Bacalhau
 
 systemd is a system and service manager for Linux operating systems. systemd operates as a central point of control for various aspects of system management, offering features like parallelization of service startup, dependency-based service management, process supervision, and more.
 
@@ -204,7 +202,7 @@ WantedBy=multi-user.target
 If you receive the error of `error creating IPFS node`, you may need to initialize IPFS. To do this, run `ipfs init`.
 {% endhint %}
 
-#### Install systemd unit for GPU provider
+### Install systemd unit for GPU provider
 
 Open `/etc/systemd/system/lilypad-resource-provider.service` in your preferred editor.
 
@@ -247,11 +245,11 @@ sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 ```
 
-### Update Lilypad version
+## Update Lilypad version
 
 Whenever a new version of Lilypad is released, it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements. Please note that using `sudo rm -rf` is very powerful and can be dangerous if not used carefully.
 
-You can do this in two steps:
+This can be done in two steps:
 
 1. Remove the Lilypad executable by running: `sudo rm -rf /usr/local/bin/lilypad`
 2. [Reinstalling Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
@@ -259,7 +257,7 @@ You can do this in two steps:
 
 You can then confirm the status of your node by following the steps in the next section.
 
-### View node status
+## View node status
 
 To check if the node is running use the following command:
 
@@ -281,7 +279,7 @@ sudo journalctl -u lilypad-resource-provider.service -f
 Please report any issues in the [Lilypad Discord](https://lilypad.team/discord).
 {% endhint %}
 
-### Disconnecting a node
+## Disconnecting a node
 
 To disconnect your node from Lilypad you will need to do a few things to completely offboard.
 
@@ -305,13 +303,13 @@ If you want to remove Bacalhau, run: `sudo rm -rf /usr/bin/bacalhau`
 
 As every system is different, these instructions may vary. If you have any issues, please reach out to the team in the [Lilypad Discord](https://lilypad.team/discord) for help!
 
-### Security
+## Security
 
-If you want to allowlist only certain modules (e.g. Stable Diffusion modules), so that you can control exactly what code runs on your nodes (which you can audit to ensure that they are secure and will have no negative impact on your nodes), you can do that by setting an environment variable `OFFER_MODULES` in the GPU provider to a comma separated list of module names, e.g. `sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1`
+If you want to allowlist only certain modules (e.g. Stable Diffusion modules), to control exactly what code runs on specific nodes (which can be audited to ensure that they are secure and will have no negative impact on the nodes), set an environment variable `OFFER_MODULES` in the GPU provider to a comma separated list of module names, e.g. `sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1.`
 
 Visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad#available-modules) for a full list of available modules.
 
-### Run a node video guide
+## Run a node video guide
 
 {% embed url="https://www.youtube.com/watch?v=YmOtqOIBQ0k" %}
 Check out this walk through of setting up a Lilypad node for Linux/Mac!
