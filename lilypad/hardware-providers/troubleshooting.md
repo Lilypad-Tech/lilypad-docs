@@ -83,6 +83,10 @@ Resource providers are expected to have the [latest Lilypad version](https://doc
 
 To stay up to date with the latest releases, check the [updates-rp channel](https://discord.com/channels/1212897693450641498/1256179769356189707) in the Lilypad Discord or visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad). Along the top menu, click the "Watch" dropdown and you will see a section named "Custom". Selecting "Releases" will allow you to get notified of any new releases!
 
+#### Q Bacalhau ipfs init error
+
+One fix is to install kubo (goipfs) and then export the path to /app/data/ipfs using export IPFS\_PATH=/app/data/ipfs. Export the path first, then turn bacalhau back on and see if that corrects it.
+
 #### Q: CompatNotSupportedOnDevice Error
 
 The CUDA version of the RP does not match the GPU driver. Please refer to this [Nvidia GPU Driver guide](https://docs.nvidia.com/deploy/cuda-compatibility) to repair installation.&#x20;
