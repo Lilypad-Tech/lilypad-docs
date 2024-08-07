@@ -104,7 +104,7 @@ Uninstall Bacalhau:
 sudo rm -rf /usr/bin/bacalhau
 ```
 
-Reinstall Bacalhau using the [guide](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-bacalhau) above.&#x20;
+Reinstall Bacalhau using the [guide](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-bacalhau) in the docs.&#x20;
 
 Finally, restart the resource provider:
 
