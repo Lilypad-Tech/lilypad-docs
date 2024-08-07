@@ -1,8 +1,8 @@
 ---
 description: >-
-  Instructions for setting up a node on the public Lilypad testnet, including
-  obtaining necessary funds, installing required software, and ensuring security
-  measures.
+  Instructions for setting up a Resource Provider (node) on the public Lilypad
+  testnet, including obtaining necessary funds, installing required software,
+  and ensuring security measures.
 ---
 
 # Running a Node
