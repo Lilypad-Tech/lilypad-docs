@@ -5,7 +5,7 @@ description: Current State
 # Verification, Mediation & Job Pricing on Lilypad v1
 
 {% hint style="info" %}
-You can read a much more thorough and academic explanation on these ideas in the [whitepaper.md](../../../../research-and-vision/whitepaper.md "mention") and [v1-documents](../../../../research-and-vision/v1-documents/ "mention")
+You can read a much more thorough and academic explanation on these ideas in the [Broken link](broken-reference "mention") and [v1-documents](../../../../research-and-vision/v1-documents/ "mention")
 {% endhint %}
 
 This page also comes with a warning:
@@ -46,5 +46,5 @@ While not every job will take the same amount of time or compute resources to ru
 This will change in future versions to more accurately calculate and charge for the compute resource requirements of a job as well as compensating the compute nodes appropriately.
 
 {% hint style="info" %}
-Read more about these ideas in the [whitepaper.md](../../../../research-and-vision/whitepaper.md "mention") & [v1-documents](../../../../research-and-vision/v1-documents/ "mention")
+Read more about these ideas in the [Broken link](broken-reference "mention") & [v1-documents](../../../../research-and-vision/v1-documents/ "mention")
 {% endhint %}

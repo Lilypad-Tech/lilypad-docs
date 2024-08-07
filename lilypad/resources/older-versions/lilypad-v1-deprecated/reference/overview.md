@@ -43,7 +43,7 @@ How we see Lilypad network operating on a high level
 Lilypad v1 is currently in early testnet phase and is a custom implementation of the ideas & code contained in the paper: "[Mechanisms for Outsourcing Computation via a Decentralized Market](https://dl.acm.org/doi/pdf/10.1145/3401025.3401737)", which proposed a mediator approach to resolving consensus of deterministic jobs, and also offers insights into running non-deterministic jobs.
 
 {% hint style="info" %}
-See the [whitepaper.md](../../../../research-and-vision/whitepaper.md "mention") for more info
+See the [Broken link](broken-reference "mention") for more info
 {% endhint %}
 
 Currently, two testnets are functional, both of which allow arbitrary untrusted nodes to join, but use a set of mutually trusted mediators to check jobs using verification by replication (see MODICUM paper for details).

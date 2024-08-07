@@ -38,7 +38,6 @@
 
 ## Research & Vision
 
-* [Litepaper](research-and-vision/whitepaper.md)
 * [Game Theory](research-and-vision/game-theory.md)
 * [V1 Research Documents](research-and-vision/v1-documents/README.md)
   * [Verifiable Computing](research-and-vision/v1-documents/verifiable-computing.md)
@@ -46,6 +45,7 @@
   * [Prior Protocols](research-and-vision/v1-documents/prior-protocols.md)
   * [Autonomous Agents](research-and-vision/v1-documents/autonomous-agents.md)
   * [Mechanisms To Explore](research-and-vision/v1-documents/mechanisms-to-explor.md)
+* [Whitepaper](research-and-vision/whitepaper.md)
 
 ## Use Cases
 

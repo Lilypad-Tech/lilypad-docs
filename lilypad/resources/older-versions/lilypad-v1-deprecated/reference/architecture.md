@@ -7,7 +7,7 @@ description: Lilypad Testnet Architecture
 This page is a dynamic work in progress! We're working on some better diagrams!
 
 {% hint style="success" %}
-See the [whitepaper.md](../../../../research-and-vision/whitepaper.md "mention") & [v1-documents](../../../../research-and-vision/v1-documents/ "mention") for further information on how the MODICUM architecture was enhanced in implementation
+See the [Broken link](broken-reference "mention") & [v1-documents](../../../../research-and-vision/v1-documents/ "mention") for further information on how the MODICUM architecture was enhanced in implementation
 
 See [docs.bacalhau.org](https://docs.bacalhau.org) for more information on how Bacalhau operates
 {% endhint %}
