@@ -279,6 +279,12 @@ Run the following command to get more status info from your node:
 sudo journalctl -u lilypad-resource-provider.service -f
 ```
 
+To restart your resource provider run:
+
+```bash
+sudo systemctl restart lilypad-resource-provider
+```
+
 ## Update Lilypad version
 
 When a new version of Lilypad is [released](https://discord.com/channels/1212897693450641498/1256179769356189707), it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements.&#x20;
