@@ -99,7 +99,7 @@ sudo systemctl restart docker
 Bacalhau is a peer-to-peer network of nodes that enables decentralized communication between computers. The network consists of two types of nodes, which can communicate with each other.
 
 {% hint style="info" %}
-Bacalhau versions newer than `v1.3.2` are not currently supported but will be in the future. Please pin to Bacalhau `v.1.3.2` for now.
+Bacalhau versions newer than `v1.3.2` are not currently supported but will be in the future. Please pin to Bacalhau `v1.3.2` for now.
 {% endhint %}
 
 To install Bacalhau, run the following in your terminal:
