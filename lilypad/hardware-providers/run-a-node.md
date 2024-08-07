@@ -285,14 +285,21 @@ When a new version of Lilypad is [released](https://discord.com/channels/1212897
 
 Please note that using `sudo rm -rf` is very powerful and can be dangerous if not used carefully.
 
-1. Remove the Lilypad executable by running:
+1. If the Lilypad RP is running, stop the system (if the node is not running, disregard this first step):
+
+```bash
+sudo systemctl stop bacalhau
+sudo systemctl stop lilypad-resource-provider
+```
+
+2. Remove the Lilypad executable by running:
 
 ```bash
 sudo rm -rf /usr/local/bin/lilypad
 ```
 
-2. [Reinstalling Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
-3. Restart your resource provider by running:
+3. [Reinstall Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
+4. Restart your resource provider by running:
 
 ```bash
 sudo systemctl restart lilypad-resource-provider
