@@ -106,10 +106,11 @@ sudo rm -rf /usr/bin/bacalhau
 
 Reinstall Bacalhau using the [guide](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-bacalhau) in the docs.&#x20;
 
-Finally, restart the resource provider:
+Finally, start the resource provider:
 
 ```bash
-sudo systemctl restart lilypad-resource-provider
+sudo systemctl stop bacalhau
+sudo systemctl stop lilypad-resource-provider
 ```
 
 ### Bacalhau ipfs init error

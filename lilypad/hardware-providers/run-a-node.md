@@ -299,10 +299,11 @@ sudo rm -rf /usr/local/bin/lilypad
 ```
 
 3. [Reinstall Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
-4. Restart your resource provider by running:
+4. Start your resource provider by running:
 
 ```bash
-sudo systemctl restart lilypad-resource-provider
+sudo systemctl stop bacalhau
+sudo systemctl stop lilypad-resource-provider
 ```
 
 ## Disconnecting a node
