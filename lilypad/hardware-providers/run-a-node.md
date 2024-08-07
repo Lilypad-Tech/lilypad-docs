@@ -98,6 +98,10 @@ sudo systemctl restart docker
 
 Bacalhau is a peer-to-peer network of nodes that enables decentralized communication between computers. The network consists of two types of nodes, which can communicate with each other.
 
+{% hint style="info" %}
+Bacalhau versions newer than `v1.3.2` are not currently supported but will be in the future. Please pin to Bacalhau `v.1.3.2` for now.
+{% endhint %}
+
 To install Bacalhau, run the following in your terminal:
 
 ```bash
@@ -114,7 +118,20 @@ sudo mkdir -p /app/data/ipfs
 sudo chown -R $USER /app/data
 ```
 
-Bacalhau versions newer than `v1.3.2` are not currently supported but will be in the future. Please pin to Bacalhau `v.1.3.2` for now.
+To check your Bacalhau version use:
+
+```bash
+bacalhau version
+```
+
+The expected output is:
+
+```
+CLIENT  SERVER  LATEST
+v1.3.2  v1.4.0  1.4.0
+```
+
+If the Bacalhau `CLIENT` version is not v1.3.2, it will need to be replaced. Follow the steps here to uninstall and reinstall Bacalhau.
 
 ### Install Lilypad
 
@@ -289,7 +306,14 @@ To disconnect your node from Lilypad you will need to do a few things to complet
 Using `sudo rm -rf` is very powerful and can be dangerous if not used carefully. It is highly recommended to navigate to the parent directory and remove files from there to avoid accidental deletion of important files.
 {% endhint %}
 
-First, you must remove the `.service` files related to Lilypad and Bacalhau. These files are typically stored in `/etc/systemd/system/`. To remove them, run the following command:
+First, stop the node:
+
+```bash
+sudo systemctl stop bacalhau
+sudo systemctl stop lilypad-resource-provider
+```
+
+Next, you must remove the `.service` files related to Lilypad and Bacalhau. These files are typically stored in `/etc/systemd/system/`. To remove them, run the following command:
 
 ```bash
 sudo rm -rf /etc/systemd/system/lilypad-resource-provider.service /etc/systemd/system/bacalhau.service
