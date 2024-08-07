@@ -302,8 +302,8 @@ sudo rm -rf /usr/local/bin/lilypad
 4. Start your resource provider by running:
 
 ```bash
-sudo systemctl stop bacalhau
-sudo systemctl stop lilypad-resource-provider
+sudo systemctl start bacalhau
+sudo systemctl start lilypad-resource-provider
 ```
 
 ## Disconnecting a node

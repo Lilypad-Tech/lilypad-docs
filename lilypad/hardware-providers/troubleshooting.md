@@ -109,8 +109,8 @@ Reinstall Bacalhau using the [guide](https://docs.lilypad.tech/lilypad/hardware-
 Finally, start the resource provider:
 
 ```bash
-sudo systemctl stop bacalhau
-sudo systemctl stop lilypad-resource-provider
+sudo systemctl start bacalhau
+sudo systemctl start lilypad-resource-provider
 ```
 
 ### Bacalhau ipfs init error
