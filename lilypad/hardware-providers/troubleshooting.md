@@ -89,6 +89,10 @@ Resource providers are expected to have the [latest Lilypad version](https://doc
 
 To stay up to date with the latest releases, check the [updates-rp channel](https://discord.com/channels/1212897693450641498/1256179769356189707) in the Lilypad Discord or visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad). Along the top menu, click the "Watch" dropdown and you will see a section named "Custom". Selecting "Releases" will allow you to get notified of any new releases!
 
+### Can Lilybit rewards be sent to another wallet? Will this function be added in the future?
+
+Currently it's not possible. However, its a very good feature request and the team is evaluating!
+
 ### How do I change my Bacalhau version?
 
 First, if the Lilypad node is running, stop the system (if the node is not running, disregard this first step):
