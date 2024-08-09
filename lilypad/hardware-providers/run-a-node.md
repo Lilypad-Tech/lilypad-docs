@@ -46,7 +46,7 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 * Linux (latest Ubuntu LTS recommended)
 * Nvidia GPU
 * [Nvidia drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)
-* Docker
+* [Docker](https://docs.docker.com/engine/install/ubuntu/) (Ubuntu install)
 * Nvidia Docker drivers
 
 {% hint style="info" %}
