@@ -9,7 +9,7 @@ description: >-
 
 ## Network information and testnet tokens
 
-The testnet has a base currency of ETH, as well as a utility token called LP. Both are used for  running nodes. To add a node to the testnet, follow these steps:
+The testnet has a base currency of ETH, as well as a utility token called LP. Both are used for running nodes. To add a node to the testnet, follow these steps:
 
 ### Metamask
 
@@ -43,7 +43,7 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 
 ## Prerequisites
 
-* Linux (latest Ubuntu LTS recommended)
+* Linux (_Ubuntu 22.04_ LTS)
 * Nvidia GPU
 * [Nvidia drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)
 * [Docker](https://docs.docker.com/engine/install/ubuntu/) (Ubuntu install)
@@ -214,9 +214,13 @@ ExecStart=/usr/bin/bacalhau serve --node-type compute,requester --peer none --pr
 WantedBy=multi-user.target
 </code></pre>
 
-{% hint style="info" %}
-If you receive the error of `error creating IPFS node`, you may need to initialize IPFS using`ipfs init`. Read more about this error [here](https://docs.lilypad.tech/lilypad/hardware-providers/troubleshooting#q-bacalhau-ipfs-init-error).
-{% endhint %}
+If you receive the message`error creating IPFS node`, you may need to initialize IPFS using`ipfs init`.
+
+Install kubo (go-ipfs) and then export the path to /app/data/ipfs using:
+
+```bash
+export IPFS_PATH=/app/data/ipfs
+```
 
 ### Install systemd unit for GPU provider
 
