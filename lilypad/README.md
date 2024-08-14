@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/Gitbook Banner (970 x 365 px).svg
-coverY: -15
+cover: .gitbook/assets/Untitled design (43).png
+coverY: 0
 layout:
   cover:
     visible: true
