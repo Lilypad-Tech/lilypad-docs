@@ -147,7 +147,7 @@ The CUDA version of the RP does not match the GPU driver. Please refer to this [
 
 ### Unknown Error Code: 222
 
-Indicates that the [CUDA version](https://docs.nvidia.com/deploy/cuda-compatibility/) of the RP is incorrect. Install the CUDA version which suitable for the gpu type and compile Lilypad by themselves.
+Indicates that the CUDA version of the RP is incorrect. Install the CUDA version which suitable for the gpu type and compile Lilypad by themselves.
 
 ### **How can I check the status of my Lilypad node once it's running?**
 
