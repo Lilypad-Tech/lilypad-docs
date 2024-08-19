@@ -14,7 +14,7 @@ End users of Lilypad can decide which crypto wallet they would like to use. In t
 
 ### Use the Arbitrum Sepolia Testnet in MetaMask.
 
-The Lilypad Testnet (IcentiveNet) is currently running on the Arbitrum L2 network built on Ethereum.&#x20;
+The Lilypad Testnet (IncentiveNet) is currently running on the Arbitrum L2 network built on Ethereum.&#x20;
 
 In order to change to the Arbitrum network in the wallet, open MetaMask and click the network button in the top left of the menu bar:
 
@@ -52,7 +52,7 @@ Network info is referenced directly from the Arbitrum Sepolia [documentation](ht
 
 The wallet is now setup and will display an ETH (Arbitrum Sepolia) token balance. In order to also display the LP token balance, the LP token will need to be imported.
 
-Select "Import tokens" at the bottom of the MetaMask pop-up:
+Select "Import tokens" at the bottom of the wallet:
 
 <figure><img src="../../.gitbook/assets/import-token-step-1 (1).png" alt="" width="353"><figcaption></figcaption></figure>
 
