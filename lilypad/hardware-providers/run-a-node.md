@@ -265,6 +265,12 @@ sudo systemctl start bacalhau
 sudo systemctl start lilypad-resource-provider
 ```
 
+Now that your services have been installed and enabled, check the status of Bacalhau to ensure it is running correctly on your node:
+
+```bash
+sudo systemctl status bacalhau
+```
+
 ## View node status
 
 To check if the node is running use the following command:
