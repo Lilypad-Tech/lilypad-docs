@@ -17,14 +17,14 @@ After [setting up your wallet](https://docs.lilypad.tech/lilypad/lilypad-testnet
 
 Select "Import tokens" at the bottom of the MetaMask pop-up:
 
-<figure><img src="../../.gitbook/assets/import-token-step-1.png" alt="" width="353"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/import-token-step-1 (2).png" alt="" width="353"><figcaption></figcaption></figure>
 
 Select "Custom token" and add the Lilypad token contract address and token symbol. Then "Save".
 
 * Token contract address: `0x0352485f8a3cB6d305875FaC0C40ef01e0C06535`
 * Token symbol: `LP`
 
-<figure><img src="../../.gitbook/assets/import-token-step-2.png" alt="" width="350"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/import-token-step-2 (2).png" alt="" width="350"><figcaption></figcaption></figure>
 
 You should now see both ETH and LP listed in the wallet (initial ETH and LP balances will be 0).
 
