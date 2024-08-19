@@ -26,7 +26,7 @@ Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/121289769
 
 ## FAQ
 
-### I haven’t seen any POW -> Common Issues to check first!
+### I haven’t seen any PoW -> Common issues to check first!
 
 1. Ensure the RP (node) is running the latest [Lilypad version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#update-lilypad-version)
 2. Confirm network activity. Is the RP transacting on [Arbiscan](https://sepolia.arbiscan.io/) (Sepolia) with transactions verified and running consistently?
@@ -41,9 +41,25 @@ Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/121289769
 
 4. Updating and restarting the Lilypad services regularly(daily) is encouraged throughout IncentiveNet.
 
-### My node says it isn’t online.
+### How do I setup a Lilypad node?
 
-Before restarting the node, check the logs and Arbiscan to see if the RP is running properly. If so, and the node is still listed in the [Leaderboard](https://info.lilypad.tech/leaderboard) as offline, try the steps below. If this doesn't work, raise a ticket with our team.
+Check out this [video guide](https://www.youtube.com/watch?v=I5ZOk-OkFdc) for setting up a Lilypad node using Ubuntu Linux. Note, you may notice in the Metamask setup part of the video the Network name and RPC URL are old. Disregard this, the video was recorded with our old testnet info not the current Lilypad testnet [details](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask) on Arbitrum. Otherwise, the directions here are current.&#x20;
+
+Read more about running a Lilypad node in the [docs](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node).
+
+{% embed url="https://www.youtube.com/watch?v=I5ZOk-OkFdc" %}
+
+### Is my node online and earning rewards?
+
+To view the status of a Lilypad Resource Provider ensuring points are earned, follow the steps below or check out this [video guide](https://www.youtube.com/watch?v=ul7qXVh4wRM),&#x20;
+
+* Check the wallet used by the RP to ensure it has enough Arbitrum Sepolia ETH and LP tokens
+* Search the wallet ID on Arbiscan to view transactions occurring every hour
+* View points earned in the [Leaderboard](https://info.lilypad.tech/leaderboard)&#x20;
+
+{% embed url="https://www.youtube.com/watch?v=ul7qXVh4wRM" %}
+
+After following the checklist above, if needed restart the node.&#x20;
 
 **Restart lilypad+bacalhau services**
 
@@ -53,9 +69,7 @@ sudo systemctl restart lilypad
 sudo systemctl restart bacalhau
 ```
 
-Check out this [video guide](https://www.youtube.com/watch?v=I5ZOk-OkFdc) for setting up a Lilypad node using Ubuntu Linux. Note, you may notice in the Metamask setup part of the video the Network name and RPC URL are old. Disregard this, the video was recorded with our old testnet info not the current Lilypad testnet [details](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask) on Arbitrum. Otherwise, the directions here are current. Read more about running a Lilypad node in the [docs](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node).
-
-{% embed url="https://www.youtube.com/watch?v=I5ZOk-OkFdc" %}
+If this guide doesn't solve the problem, [raise a ticket](https://discord.com/channels/1212897693450641498/1230231823674642513) with our team.
 
 ### When do Lilybit\_ rewards earned or rewards slashed appear in the Leaderboard?
 
