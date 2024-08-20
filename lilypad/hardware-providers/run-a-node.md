@@ -216,7 +216,7 @@ WantedBy=multi-user.target
 
 If you receive the message`error creating IPFS node`, you may need to initialize IPFS using`ipfs init`.
 
-Install kubo (go-ipfs) and then export the path to /app/data/ipfs using:
+To fix this error, export the path to /app/data/ipfs using:
 
 ```bash
 export IPFS_PATH=/app/data/ipfs
