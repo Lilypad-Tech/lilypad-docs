@@ -61,7 +61,7 @@ Lilypad can not be held responsible for any hardware purchases made based on the
 
 **RAM**: Kingston Fury 32GB DDR4(3600MT/s)
 
-**SSD**: WD\_BLACK 4TB SN850X NVMe
+**SSD**: WD\_BLACK 1TB SN850X NVMe
 
 **Power Supply**: EVGA Supernova 850 P5 Platinum(750W)
 
@@ -77,7 +77,7 @@ Lilypad can not be held responsible for any hardware purchases made based on the
 
 **RAM**: Kingston Fury 64GB DDR5(6000MT/s)
 
-**SSD**: WD 4TB SN850X NVMe
+**SSD**: WD 1TB SN850X NVMe
 
 **Power Supply**: Corsair HX1000i Platinum(1000W)
 
@@ -95,7 +95,7 @@ Lilypad can not be held responsible for any hardware purchases made based on the
 
 **Power Supply:** Seasonic Prime ATX3.0 PX-1600(1600W)
 
-**SSD:** WD 4TB SN850X NVMe
+**SSD:** WD 1TB SN850X NVMe
 
 **GPU Riser Cables:** Ultra PCIe 4.0 X16 Riser Cable X3
 
