@@ -43,6 +43,10 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 
 ## Prerequisites
 
+{% hint style="info" %}
+Lilypad RPs currently only support Linux installs. Running a RP on Windows is currently experimental.
+{% endhint %}
+
 * Linux (_Ubuntu 22.04_ LTS)
 * Nvidia GPU
 * [Nvidia drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)
@@ -297,7 +301,7 @@ sudo systemctl restart lilypad-resource-provider
 
 ## Update Lilypad version
 
-When a new version of Lilypad is [released](https://discord.com/channels/1212897693450641498/1256179769356189707), it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements.&#x20;
+When a new version of Lilypad is [released](https://discord.com/channels/1212897693450641498/1256179769356189707), it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements.
 
 Please note that using `sudo rm -rf` is very powerful and can be dangerous if not used carefully.
 
@@ -355,7 +359,7 @@ Then, remove the environment file for the Lilypad resource provider. This file i
 sudo rm -rf /app/lilypad/resource-provider-gpu.env
 ```
 
-Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, it can be removed from there. If the executable is stored in a different directory on your machine, navigate to that directory and remove it from there. To remove the executable, run:&#x20;
+Finally, if you followed the installation instructions from the Lilypad documentation and moved the executable to `/usr/local/bin/lilypad`, it can be removed from there. If the executable is stored in a different directory on your machine, navigate to that directory and remove it from there. To remove the executable, run:
 
 ```bash
 sudo rm -rf /usr/local/bin/lilypad
