@@ -79,6 +79,10 @@ Once a day at 00:10 UTC. If no rewards appear after 24 hours of expected uptime,
 
 Resource Providers can run on the Lilypad Network without a GPU, however only hardware with a GPU is currently rewarded with Lilybit\_ rewards.
 
+### Can I run a Lilypad RP on Windows?
+
+Lilypad RPs currently only support Linux installs. Running a RP on Windows is currently experimental.
+
 ### How do I run multiple GPU’s from a node?
 
 Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md). More on this coming soon!
