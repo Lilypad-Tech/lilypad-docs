@@ -43,11 +43,11 @@ Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/121289769
 
 ### How do I setup a Lilypad node?
 
-Check out this [video guide](https://www.youtube.com/watch?v=I5ZOk-OkFdc) for setting up a Lilypad node using Ubuntu Linux. Note, you may notice in the Metamask setup part of the video the Network name and RPC URL are old. Disregard this, the video was recorded with our old testnet info not the current Lilypad testnet [details](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask) on Arbitrum. Otherwise, the directions here are current.&#x20;
+Check out this [video guide](https://www.youtube.com/watch?v=slCLg35rAU4) for setting up a Lilypad node using Ubuntu Linux. Note, you may notice in the Metamask setup part of the video the Network name and RPC URL are old. Disregard this, the video was recorded with our old testnet info not the current Lilypad testnet [details](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask) on Arbitrum. Otherwise, the directions here are current.&#x20;
 
 Read more about running a Lilypad node in the [docs](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node).
 
-{% embed url="https://www.youtube.com/watch?v=I5ZOk-OkFdc" %}
+{% embed url="https://www.youtube.com/watch?v=slCLg35rAU4" %}
 
 ### Is my node online and earning rewards?
 

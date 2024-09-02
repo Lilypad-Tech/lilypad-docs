@@ -5,7 +5,7 @@ description: >-
   and ensuring security measures.
 ---
 
-# Running a Node
+# Run a Node
 
 ## Network information and testnet tokens
 
@@ -381,6 +381,4 @@ Visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad#available-mod
 
 ## Run a node video guide
 
-{% embed url="https://www.youtube.com/watch?v=YmOtqOIBQ0k" %}
-Check out this walk through of setting up a Lilypad node for Linux/Mac!
-{% endembed %}
+{% embed url="https://www.youtube.com/watch?v=slCLg35rAU4" %}
