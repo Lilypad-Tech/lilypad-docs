@@ -69,7 +69,9 @@ Before pulling the image, you must be logged in to Docker by running `docker log
 
 In the root directory of the Lilypad repo, run the following command to pull the pre-built Docker image:
 
-`docker pull ghcr.io/lilypad-tech/resource-provider:latest`
+```bash
+docker pull ghcr.io/lilypad-tech/resource-provider:latest
+```
 
 ## Usage <a href="#heading-run-the-docker-image" id="heading-run-the-docker-image"></a>
 
@@ -81,11 +83,18 @@ Please keep this private key safe and practice safe key management, as it will b
 
 Replace `<your_private_key_here>` with your actual private key and run the following command:
 
-`docker run -d --gpus all -p 1234:1234 -e WEB3_PRIVATE_KEY=<private key> --restart always` [`ghcr.io/lilypad-tech/resource-provider:latest`](http://ghcr.io/lilypad-tech/resource-provider:main)
+```bash
+docker run -d --gpus all -p 1234:1234 -e WEB3_PRIVATE_KEY=<private key> --restart always 
+ghcr.io/lilypad-tech/resource-provider:latest
+```
 
 This will run the Lilypad services in a container in the background. You can get the container ID by running `sudo docker ps`. To check the logs of the Lilypad services, run `docker logs <container ID>`. Alternatively you can add a tail to the logs by running `docker logs -f --tail <number of lines> <container ID>`.
 
-Here is an example of what they might look like with 10 log lines: `docker logs -f --tail 10 2a7a74f133c1`.
+Here is an example of what they might look like with 10 log lines:&#x20;
+
+```bash
+docker logs -f --tail 10 2a7a74f133c1
+```
 
 If everything has ran successfully, you will see logs from your terminal. You can copy your web3 public address from MetaMask and paste it in to the [Lilypad Leaderboard](https://info.lilypad.tech/leaderboard) or [GPU dashboard](https://gpu.lilypad.tech/) to view if your node is online and running!
 
