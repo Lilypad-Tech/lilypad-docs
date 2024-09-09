@@ -18,7 +18,9 @@
 ## Hardware Providers
 
 * [Hardware Requirements](hardware-providers/hardware-requirements.md)
-* [Run a Node](hardware-providers/run-a-node.md)
+* [Run a node](hardware-providers/run-a-node/README.md)
+  * [Linux](hardware-providers/run-a-node/linux.md)
+  * [Docker](hardware-providers/run-a-node/docker.md)
 * [Troubleshooting](hardware-providers/troubleshooting.md)
 * [Rewards](hardware-providers/rewards.md)
 
@@ -115,3 +117,4 @@
       * [DuckDB](resources/older-versions/lilypad-aurora-v2/examples/duckdb.md)
       * [Arbitrary WASM](resources/older-versions/lilypad-aurora-v2/examples/arbitrary-wasm.md)
       * [Filecoin Data Prep](resources/older-versions/lilypad-aurora-v2/examples/filecoin-data-prep.md)
+* [Useful Links](resources/useful-links.md)

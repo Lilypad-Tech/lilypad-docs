@@ -86,7 +86,7 @@ To check if the RP is running use the following command: `sudo systemctl status 
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resouce-provider.service -f`
 
-Find more information in [Running a Node](hardware-providers/run-a-node.md).
+Find more information in [Running a Node](hardware-providers/run-a-node/linux.md).
 
 ## 👩‍💻 Developer Questions
 
@@ -106,7 +106,7 @@ A Lilypad module is a Git repository that can be used to perform various tasks u
 
 ### How to run a Lilypad node
 
-Lilypad is an open network that allows anyone to contribute GPU computing capacity. There is currently no cost or incentives for running a Lilypad node. Find [instructions](hardware-providers/run-a-node.md)[ for running a node](hardware-providers/run-a-node.md) in the docs.
+Lilypad is an open network that allows anyone to contribute GPU computing capacity. There is currently no cost or incentives for running a Lilypad node. Find [instructions](hardware-providers/run-a-node/linux.md)[ for running a node](hardware-providers/run-a-node/linux.md) in the docs.
 
 ### Node hardware specs
 

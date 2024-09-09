@@ -1,11 +1,27 @@
 ---
 description: >-
   Instructions for setting up a Resource Provider (node) on the public Lilypad
-  testnet, including obtaining necessary funds, installing required software,
-  and ensuring security measures.
+  testnet using Linux, including obtaining necessary funds, installing required
+  software, and ensuring security measures.
 ---
 
-# Run a Node
+# Linux
+
+## Prerequisites
+
+{% hint style="info" %}
+Lilypad RPs currently only support Linux installs. Running a RP on Windows is currently experimental.
+{% endhint %}
+
+* Linux (_Ubuntu 22.04_ LTS)
+* Nvidia GPU
+* [Nvidia drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)
+* [Docker](https://docs.docker.com/engine/install/ubuntu/) (Ubuntu install)
+* Nvidia Docker drivers
+
+{% hint style="info" %}
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
+{% endhint %}
 
 ## Network information and testnet tokens
 
@@ -27,7 +43,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../lilypad-testnet/quick-start/setting-up-metamask.md).
+For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../../lilypad-testnet/quick-start/setting-up-metamask.md).
 
 ### Fund your wallet with ETH and LP
 
@@ -40,22 +56,6 @@ The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more
 {% endhint %}
 
 The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for jobs).
-
-## Prerequisites
-
-{% hint style="info" %}
-Lilypad RPs currently only support Linux installs. Running a RP on Windows is currently experimental.
-{% endhint %}
-
-* Linux (_Ubuntu 22.04_ LTS)
-* Nvidia GPU
-* [Nvidia drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)
-* [Docker](https://docs.docker.com/engine/install/ubuntu/) (Ubuntu install)
-* Nvidia Docker drivers
-
-{% hint style="info" %}
-For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
-{% endhint %}
 
 ## Installation
 
@@ -285,7 +285,7 @@ sudo systemctl status lilypad-resource-provider
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network.
 
-<figure><img src="../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
 
 Run the following command to get more status info from your node:
 
