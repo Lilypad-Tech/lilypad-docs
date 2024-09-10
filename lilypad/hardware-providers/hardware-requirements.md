@@ -11,7 +11,7 @@ This page overviews the hardware requirements to operate a Lilypad Network node.
 
 ## GPU Requirements
 
-Each model operating on Lilypad has specific VRAM (Video Random Access Memory) requirements directly related to the model's complexity and computational demands.
+Each model operating on Lilypad has specific VRAM (Video Random Access Memory) requirements directly related to the model's complexity and computational demands. For running a Lilypad Resource Provider (RP) with multiple GPUs, a guide using Proxmox can be found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md).
 
 * **Base Requirement:** The simplest model on Lilypad requires a GPU with at least 8GB of VRAM. This is the minimum necessary to engage in any computational tasks within our network.
 
