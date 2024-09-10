@@ -106,7 +106,7 @@ A Lilypad module is a Git repository that can be used to perform various tasks u
 
 ### How to run a Lilypad node
 
-Lilypad is an open network that allows anyone to contribute GPU computing capacity. There is currently no cost or incentives for running a Lilypad node. Find [instructions](hardware-providers/run-a-node/linux.md)[ for running a node](hardware-providers/run-a-node/linux.md) in the docs.
+Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find [instructions](hardware-providers/run-a-node/linux.md)[ for running a node](hardware-providers/run-a-node/linux.md) in the docs.
 
 ### Node hardware specs
 
