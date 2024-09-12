@@ -318,7 +318,7 @@ sudo systemctl stop lilypad-resource-provider
 sudo rm -rf /usr/local/bin/lilypad
 ```
 
-3. [Reinstall Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-lilypad)
+3. [Reinstall Lilypad with the latest version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux#install-lilypad)
 4. Start your resource provider by running:
 
 ```bash
