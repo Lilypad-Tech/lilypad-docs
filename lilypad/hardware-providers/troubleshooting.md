@@ -41,6 +41,10 @@ Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/121289769
 
 4. Updating and restarting the Lilypad services regularly(daily) is encouraged throughout IncentiveNet.
 
+### How do I keep track of Lilypad version releases and other important announcements?
+
+The [updates-rp](https://discord.com/channels/1212897693450641498/1256179769356189707) Discord channel is the primary location for Resource Provider announcements. Announcements in this channel are also posted on the Lilypad [updates](https://updates.lilypad.tech/) page.&#x20;
+
 ### How do I setup a Lilypad node?
 
 Check out this [video guide](https://www.youtube.com/watch?v=slCLg35rAU4) for setting up a Lilypad node using Ubuntu Linux. Note, you may notice in the Metamask setup part of the video the Network name and RPC URL are old. Disregard this, the video was recorded with our old testnet info not the current Lilypad testnet [details](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask) on Arbitrum. Otherwise, the directions here are current.&#x20;
