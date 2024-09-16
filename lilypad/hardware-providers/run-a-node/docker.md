@@ -88,12 +88,24 @@ docker run -d --gpus all -p 1234:1234 -e WEB3_PRIVATE_KEY=<private key> --restar
 ghcr.io/lilypad-tech/resource-provider:latest
 ```
 
-This will run the Lilypad services in a container in the background. You can get the container ID by running `sudo docker ps`. To check the logs of the Lilypad services, run `docker logs <container ID>`. Alternatively you can add a tail to the logs by running `docker logs -f --tail <number of lines> <container ID>`.
+This will run the Lilypad services in a container in the background. You can get the container ID by running `sudo docker ps`. To check the logs of the Lilypad services, run `docker logs <container ID>`. You can also add a tail to the logs by running `docker logs -f --tail <number of lines> <container ID>`.
 
 Here is an example of what they might look like with 10 log lines:&#x20;
 
 ```bash
 docker logs -f --tail 10 2a7a74f133c1
+```
+
+Alternatively you can name your container explicitly when running it using the `--name` flag, like in your example:
+
+```bash
+docker run -d --name lilypad-resource-provider --gpus all -p 1234:1234 -e WEB3_PRIVATE_KEY=<private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
+```
+
+When you want to check the logs, you do not have to reference the container ID, you can simply reference the name you set. In this case it is `lilypad-resource-provider`:
+
+```bash
+docker logs -f --tail 10 lilypad-resource-provider
 ```
 
 If everything has ran successfully, you will see logs from your terminal. You can copy your web3 public address from MetaMask and paste it in to the [Lilypad Leaderboard](https://info.lilypad.tech/leaderboard) or [GPU dashboard](https://gpu.lilypad.tech/) to view if your node is online and running!
