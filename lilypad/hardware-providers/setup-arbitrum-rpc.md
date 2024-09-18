@@ -47,13 +47,13 @@ Metrics for the RPC can be viewed in the “Metrics” tab.
 
 Lilypad RPs are able to use a personal RPC endpoint with a few simple steps. Only Web-socket (WSS) connections are supported.
 
-### **Docker users:**
+### **Docker users**
 
 ```
 docker run -d --gpus all -e WEB3_PRIVATE_KEY=<private-key> -e WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/some-id-from-alchemy --restart always ghcr.io/lilypad-tech/resource-provider:main
 ```
 
-### **Ubuntu users:**
+### **Ubuntu users**
 
 ```
 sudo nano /etc/systemd/system/lilypad-resource-provider.service
