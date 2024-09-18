@@ -21,6 +21,7 @@
 * [Run a node](hardware-providers/run-a-node/README.md)
   * [Linux](hardware-providers/run-a-node/linux.md)
   * [Docker](hardware-providers/run-a-node/docker.md)
+* [Setup Arbitrum RPC](hardware-providers/setup-arbitrum-rpc.md)
 * [Troubleshooting](hardware-providers/troubleshooting.md)
 * [Rewards](hardware-providers/rewards.md)
 
