@@ -9,13 +9,13 @@ READ THESE RESOURCES BEFORE ASKING QUESTIONS!!!
 * [Lilybit Rewards info](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations)
 * [Lilybit Leaderboard](https://info.lilypad.tech/leaderboard)
 
-## Dont see your issue below?
+## Don't see your issue below?
 
 Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/1212897693450641498/1230231823674642513) channel. Please follow the [Resource Provider Ticket format](https://github.com/Lilypad-Tech/internal/issues/171):
 
 * Description (including Lilypad version running on your node)
 * Hardware Info (including Linux/Windows version)
-* Related Blockchain/ETH addressers of Transaction hashes
+* Related Blockchain/ETH addresses of Transaction hashes
 * Output Logs - `sudo systemctl status lilypad-resource-provider`
 * Related links/urls
 * Screenshots
@@ -85,7 +85,7 @@ Resource Providers can run on the Lilypad Network without a GPU, however only ha
 
 ### Can I run a Lilypad RP on Windows?
 
-Lilypad RPs currently only support Linux installs. Running a RP on Windows is currently experimental.
+Lilypad RPs currently only support Linux installs. Running an RP on Windows is currently experimental.
 
 ### How do I run multiple GPU’s from a node?
 
@@ -95,13 +95,13 @@ Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/
 
 Each day of node (RP) downtime, 10% of the total points earned will be slashed (per day). This was implemented with a focus on long term partners contributing meaningfully to the network.  Important as early rewards are worth more than rewards in later stages of the[ IncentiveNet](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations).&#x20;
 
-The requirement to not be slashed is only 4 hrs/day of uptime. We may reevaluate this mechanism,  please provider any community feedback [here](https://github.com/orgs/Lilypad-Tech/discussions/16)!
+The requirement to not be slashed is only 4 hrs/day of uptime. We may reevaluate this mechanism,  please provide any community feedback [here](https://github.com/orgs/Lilypad-Tech/discussions/16)!
 
 ### Will I lose reward multipliers if my node is offline?
 
-The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if  the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.&#x20;
+The way the system is set up currently, an RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if  the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.&#x20;
 
-However, a RP will still receive a multiplier relative to how many 4-hour windows of POWs completed in that day. This figure shows the daily multiplier for a given number of 4-hour windows of POWs completed in a day.
+However, an RP will still receive a multiplier relative to how many 4-hour windows of POWs completed in that day. This figure shows the daily multiplier for a given number of 4-hour windows of POWs completed in a day.
 
 <figure><img src="../.gitbook/assets/daily_mult_v_N_POW.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -109,11 +109,11 @@ However, a RP will still receive a multiplier relative to how many 4-hour window
 
 Resource providers are expected to have the [latest Lilypad version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#update-lilypad-version) installed on their systems. The installation instructions can be found [here](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements).
 
-To stay up to date with the latest releases, check the [updates-rp channel](https://discord.com/channels/1212897693450641498/1256179769356189707) in the Lilypad Discord or visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad). Along the top menu, click the "Watch" dropdown and you will see a section named "Custom". Selecting "Releases" will allow you to get notified of any new releases!
+To stay up to date with the latest releases, check the [updates-rp channel](https://discord.com/channels/1212897693450641498/1256179769356189707) in the Lilypad Discord or visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad). Along the top menu, click the "Watch" dropdown, and you will see a section named "Custom". Selecting "Releases" will allow you to get notified of any new releases!
 
 ### Can Lilybit rewards be sent to another wallet? Will this function be added in the future?
 
-Currently it's not possible. However, its a very good feature request and the team is evaluating!
+Currently, it's not possible. However, it's a very good feature request and the team is evaluating!
 
 ### How do I change my Bacalhau version?
 
@@ -170,7 +170,7 @@ This will give a live output from the Lilypad node. The logs will show the node 
 Run the following command to get more info from your node:
 
 ```bash
-sudo journalctl -u lilypad-resouce-provider.service -f
+sudo journalctl -u lilypad-resource-provider.service -f
 ```
 
 Read more in the Lilypad [docs](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#view-node-status).
