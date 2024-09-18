@@ -84,7 +84,7 @@ The instructions can be found in our [installation documentation](lilypad-testne
 
 To check if the RP is running use the following command: `sudo systemctl status lilypad-resource-provider`.
 
-This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resouce-provider.service -f`
+This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resource-provider.service -f`
 
 Find more information in [Running a Node](hardware-providers/run-a-node/linux.md).
 
