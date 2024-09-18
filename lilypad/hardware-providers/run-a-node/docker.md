@@ -92,7 +92,7 @@ To automatically monitor and update the Lilypad resource provider container, you
 Run the following command to start lilypad-watchtower:
 
 ```bash
-docker run -d --name lilypad-watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower lilypad-resource-provider --interval 30
+docker run -d --name lilypad-watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower lilypad-resource-provider --interval 300
 
 ```
 
