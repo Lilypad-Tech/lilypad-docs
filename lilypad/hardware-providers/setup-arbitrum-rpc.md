@@ -6,10 +6,14 @@ description: Personal RPC endpoint for a Lilypad Resource Provider
 
 The Lilypad Network uses the Arbitrum Sepolia Testnet to settle compute transactions. This guide walks through the steps of setting up a personal RPC endpoint for Arbitrum Sepolia using [Alchemy](https://www.alchemy.com/).
 
+{% hint style="info" %}
+The Lilypad Network is not responsible for issues caused by misconfigured RPC endpoints. Please use at your own risk!
+{% endhint %}
+
 This personal RPC endpoint allows Resource Providers (RP) to avoid reliability issues with the RPC endpoints used by Lilypad ensuring rewards can be earned and jobs can be run consistently. RPs running a personal RPC endpoint contribute to the fault tolerance and decentralization of the Lilypad Network! Read more in the Alchemy Arbitrum [docs](https://docs.alchemy.com/reference/arbitrum-api-quickstart).
 
 {% hint style="info" %}
-The Lilypad Network is not responsible for issues caused by misconfigured Alchemy RPC endpoints. Please use at your own risk!
+This guide demonstrates how to use Alchemy's RPC, but you can substitute any Arbitrum Sepolia RPC that supports WebSockets.
 {% endhint %}
 
 ## Setup Alchemy account
