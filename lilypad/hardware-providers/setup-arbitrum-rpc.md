@@ -49,24 +49,67 @@ Metrics for the RPC can be viewed in the “Metrics” tab.
 
 ## Use the new RPC endpoint
 
-Lilypad RPs are able to use a personal RPC endpoint with a few simple steps. Only Web-socket (WSS) connections are supported.
+{% hint style="info" %}
+This is guide is for individuals running a Lilypad Resource provider, find more info [here](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node).
+{% endhint %}
+
+Lilypad RPs can use a personal RPC endpoint with a few simple steps. Only Web-socket (WSS) connections are supported.
 
 ### **Docker users**
 
+Stop the existing Lilypad Resource Provider (RP) before setting up the new RPC.&#x20;
+
+Locate the Lilypad RP Docker container using:
+
 ```
-docker run -d --gpus all -e WEB3_PRIVATE_KEY=<private-key> -e WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/some-id-from-alchemy --restart always ghcr.io/lilypad-tech/resource-provider:main
+docker ps
+```
+
+Stop the container using the PID:
+
+```
+docker stop <container ID>
+```
+
+Use this command to start the lilypad-resource-provider.service with the new RPC:
+
+```
+docker run -d --gpus all -e WEB3_PRIVATE_KEY=<private-key> -e WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/some-id-from-alchemy --restart always ghcr.io/lilypad-tech/resource-provider:latest
+```
+
+Check the status of the container:
+
+```
+docker logs <container ID>
 ```
 
 ### **Ubuntu users**
+
+Stop the existing Lilypad RP (if the node is not running, disregard this first step):
+
+```
+sudo systemctl stop bacalhau
+sudo systemctl stop lilypad-resource-provider
+```
+
+Update lilypad-resource-provider.service with the new RPC:
 
 ```
 sudo nano /etc/systemd/system/lilypad-resource-provider.service
 ```
 
-Add following line to \[Service] section
+Add following line to \[Service] section:
 
 ```
 Environment="WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/some-alchemy-id"
 ```
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+Reboot the node:
+
+```
+sudo reboot
+```
+
+If the Lilypad RP was [setup](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux#install-systemd-unit-for-bacalhau) properly as a systemd service, the RP will reboot using the new RPC.
