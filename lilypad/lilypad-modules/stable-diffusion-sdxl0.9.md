@@ -18,7 +18,7 @@ Stable Diffusion is a machine learning model used for text-to-image processing (
 
 ### Prerequisites
 
-Before running `sdxl`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.&#x20;
+Before running `sdxl`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.&#x20;
 
 ```bash
 export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>

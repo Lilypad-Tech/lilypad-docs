@@ -14,9 +14,9 @@ Lilypad provides decentralized AI computational services. By extending unrestric
 
 Perform off-chain decentralized compute over data, with on-chain guarantees, and to call this functionality directly from a smart contract, CLI and an easy to use abstraction layer, opens the door to a multitude of possible applications.
 
-### Lilypad Litepaper
+### Lilypad Whitepaper
 
-Lilypad released a [Litepaper](https://docs.lilypad.tech/lilypad/research-and-vision/whitepaper) and will release a Whitepaper soon!
+Lilypad will release a Whitepaper soon!
 
 ### Roadmap
 
@@ -61,7 +61,7 @@ Phases 2 and onward will provide rewards for Lilypad modules created as well as 
 
 The required steps before running a Lilypad node include adding the node, adding the Lilypad network information, obtaining tokens and installing the required software.
 
-Refer to the [Running a Node](broken-reference) documentation for a detailed guide on the prerequisites.
+Refer to the [Running a Node](hardware-providers/run-a-node/) documentation and select your preferred platform (Linux or Docker) for a detailed guide on the prerequisites.
 
 ### What are the hardware requirements to run a Lilypad node?
 

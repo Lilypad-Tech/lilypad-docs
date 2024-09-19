@@ -7,8 +7,6 @@ description: Lilypad Network Architecture
 This page is a dynamic work in progress! We're currently working on some better diagrams!
 
 {% hint style="success" %}
-See the [Broken link](broken-reference "mention") for further information on how the MODICUM architecture was enhanced in implementation
-
 See the [Bacalhau documentation](https://docs.bacalhau.org/) for more information on how Bacalhau operates
 {% endhint %}
 
