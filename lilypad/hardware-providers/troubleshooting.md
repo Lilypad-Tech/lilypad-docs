@@ -9,13 +9,13 @@ READ THESE RESOURCES BEFORE ASKING QUESTIONS!!!
 * [Lilybit Rewards info](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations)
 * [Lilybit Leaderboard](https://info.lilypad.tech/leaderboard)
 
-## Dont see your issue below?
+## Don't see your issue below?
 
 Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/1212897693450641498/1230231823674642513) channel. Please follow the [Resource Provider Ticket format](https://github.com/Lilypad-Tech/internal/issues/171):
 
 * Description (including Lilypad version running on your node)
 * Hardware Info (including Linux/Windows version)
-* Related Blockchain/ETH addressers of Transaction hashes
+* Related Blockchain/ETH addresses of Transaction hashes
 * Output Logs - `sudo systemctl status lilypad-resource-provider`
 * Related links/urls
 * Screenshots
@@ -95,7 +95,7 @@ Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/
 
 Each day of node (RP) downtime, 10% of the total points earned will be slashed (per day). This was implemented with a focus on long term partners contributing meaningfully to the network.  Important as early rewards are worth more than rewards in later stages of the[ IncentiveNet](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations).&#x20;
 
-The requirement to not be slashed is only 4 hrs/day of uptime. We may reevaluate this mechanism,  please provider any community feedback [here](https://github.com/orgs/Lilypad-Tech/discussions/16)!
+The requirement to not be slashed is only 4 hrs/day of uptime. We may reevaluate this mechanism,  please provide any community feedback [here](https://github.com/orgs/Lilypad-Tech/discussions/16)!
 
 ### Will I lose reward multipliers if my node is offline?
 
@@ -113,7 +113,7 @@ To stay up to date with the latest releases, check the [updates-rp channel](http
 
 ### Can Lilybit rewards be sent to another wallet? Will this function be added in the future?
 
-Currently it's not possible. However, its a very good feature request and the team is evaluating!
+Currently, it's not possible. However, it's a very good feature request and the team is evaluating!
 
 ### How do I change my Bacalhau version?
 
