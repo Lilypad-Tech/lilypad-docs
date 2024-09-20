@@ -85,7 +85,6 @@ To run the Lilypad services in a container as a background process, replace \<yo
 
 ```bash
 docker run -d --name lilypad-resource-provider --gpus all -p 1234:1234 -e WEB3_PRIVATE_KEY=<private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
-
 ```
 
 ## Enable Automatic Updates
@@ -96,7 +95,6 @@ Run the following command to start lilypad-watchtower:
 
 ```bash
 docker run -d --name lilypad-watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower lilypad-resource-provider --interval 300
-
 ```
 
 When you want to check the logs, run the following command:
