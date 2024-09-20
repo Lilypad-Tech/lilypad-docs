@@ -54,7 +54,7 @@
 
 * [🗺️ Extra Labs x Lilypad](use-cases/extra-labs-x-lilypad.md)
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
-* [🌠 Project Showcase](use-cases/project-showcase.md)
+* [🌠 Past Hackathon Winners](use-cases/project-showcase.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
 * [Reference Material](use-cases/reference-material.md)
 
