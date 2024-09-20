@@ -2,7 +2,7 @@
 description: A developer platform for using the Lilypad network to train and run AI models
 ---
 
-# Lilypad ML Workbench
+# 🛠️ Lilypad ML Workbench
 
 The Lilypad ML workbench provides ML researchers, businesses, and more a simple interface for leveraging the Lilypad network.&#x20;
 

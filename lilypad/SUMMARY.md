@@ -53,11 +53,11 @@
 ## Use Cases
 
 * [🗺️ Extra Labs x Lilypad](use-cases/extra-labs-x-lilypad.md)
+* [🛠️ Lilypad ML Workbench](use-cases/lilypad-ml-workbench.md)
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [🌠 Past Hackathon Winners](use-cases/project-showcase.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
 * [Reference Material](use-cases/reference-material.md)
-* [Lilypad ML Workbench](use-cases/lilypad-ml-workbench.md)
 
 ## Meet the Lilypad Team
 
