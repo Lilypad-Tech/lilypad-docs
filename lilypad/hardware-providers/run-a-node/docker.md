@@ -83,7 +83,7 @@ Important: Safeguard your private key with proper key management practices. This
 
 To run the Lilypad services in a container as a background process, replace \<your\_private\_key\_here> with your actual private key and execute the following command:
 
-```bash
+```
 docker run -d --name lilypad-resource-provider --gpus all -p 1234:1234 -e WEB3_PRIVATE_KEY=<private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
 ```
 
@@ -93,7 +93,7 @@ To automatically monitor and update the Lilypad resource provider container, you
 
 Run the following command to start lilypad-watchtower:
 
-```bash
+```
 docker run -d --name lilypad-watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower lilypad-resource-provider --interval 300
 ```
 
