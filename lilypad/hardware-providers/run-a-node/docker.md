@@ -59,7 +59,7 @@ The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for 
 
 ## Installation
 
-To set up your environment for running a Lilypad Resource Provider, you'll need to install and configure several key components.&#x20;
+To set up your environment for running a Lilypad Resource Provider, you'll need to install and configure several key components.
 
 ### Pull the pre-built Docker image
 
@@ -81,11 +81,14 @@ Before we run the Docker image, we will need to retrieve the private key from yo
 
 Important: Safeguard your private key with proper key management practices. This key is crucial for managing resource providers' proof of work, tracking rewards, and other vital functions. Never share or expose it.
 
-To run the Lilypad services in a container as a background process, replace <your_private_key_here> with your actual private key and execute the following command:
+To run the Lilypad services in a container as a background process, replace \<your\_private\_key\_here> with your actual private key and execute the following command:
 
 ```bash
 docker run -d --name lilypad-resource-provider --gpus all -p 1234:1234 -e WEB3_PRIVATE_KEY=<private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
+
 ```
+
+## Enable Automatic Updates
 
 To automatically monitor and update the Lilypad resource provider container, you can use lilypad-watchtower. It ensures the container is kept up to date by periodically checking for new image versions.
 
@@ -129,4 +132,3 @@ If the NVIDIA runtime is not showing up or you're experiencing issues, try the f
 
 **Overview of Docker setup**\
 For a comprehensive overview of your Docker setup, use: `docker info`. This command provides detailed information about your Docker daemon configuration.
-
