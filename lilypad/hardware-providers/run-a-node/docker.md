@@ -79,33 +79,27 @@ Before we run the Docker image, we will need to retrieve the private key from yo
 
 ### Run the Docker Image <a href="#heading-run-the-docker-image" id="heading-run-the-docker-image"></a>
 
-Please keep this private key safe and practice safe key management, as it will be primarily responsible for keeping track of the resource providers' proof of works and tracking rewards, amongst other things. Never expose or share it!
+Important: Safeguard your private key with proper key management practices. This key is crucial for managing resource providers' proof of work, tracking rewards, and other vital functions. Never share or expose it.
 
-Replace `<your_private_key_here>` with your actual private key and run the following command:
-
-```bash
-docker run -d --gpus all -p 1234:1234 -e WEB3_PRIVATE_KEY=<private key> --restart always 
-ghcr.io/lilypad-tech/resource-provider:latest
-```
-
-This will run the Lilypad services in a container in the background. You can get the container ID by running `sudo docker ps`. To check the logs of the Lilypad services, run `docker logs <container ID>`. You can also add a tail to the logs by running `docker logs -f --tail <number of lines> <container ID>`.
-
-Here is an example of what they might look like with 10 log lines:&#x20;
-
-```bash
-docker logs -f --tail 10 2a7a74f133c1
-```
-
-Alternatively you can name your container explicitly when running it using the `--name` flag, like in your example:
+To run the Lilypad services in a container as a background process, replace <your_private_key_here> with your actual private key and execute the following command:
 
 ```bash
 docker run -d --name lilypad-resource-provider --gpus all -p 1234:1234 -e WEB3_PRIVATE_KEY=<private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
 ```
 
-When you want to check the logs, you do not have to reference the container ID, you can simply reference the name you set. In this case it is `lilypad-resource-provider`:
+To automatically monitor and update the Lilypad resource provider container, you can use lilypad-watchtower. It ensures the container is kept up to date by periodically checking for new image versions.
+
+Run the following command to start lilypad-watchtower:
 
 ```bash
-docker logs -f --tail 10 lilypad-resource-provider
+docker run -d --name lilypad-watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower lilypad-resource-provider --interval 300
+
+```
+
+When you want to check the logs, run the following command:
+
+```bash
+docker logs -f --tail 50 lilypad-resource-provider
 ```
 
 If everything has ran successfully, you will see logs from your terminal. You can copy your web3 public address from MetaMask and paste it in to the [Lilypad Leaderboard](https://info.lilypad.tech/leaderboard) or [GPU dashboard](https://gpu.lilypad.tech/) to view if your node is online and running!
