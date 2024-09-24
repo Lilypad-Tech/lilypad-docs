@@ -1,20 +1,12 @@
 ---
-description: Here are some ideas for building on or contributing to Lilypad!
+description: >-
+  Inspiration for projects and use cases that can be built on the Lilypad
+  Network
 ---
 
 # 🙌 Win Hacks & Contribute
 
-## Hackathon & Project Ideas for Lilypad (Milky Way)
-
-Here are some ideas for what you could build with Lilypad Milky Way!
-
-{% hint style="info" %}
-💚 Good first project (Lilypadawan)
-
-💛 Moderate skill needed
-
-❤️ Jedi mode!&#x20;
-{% endhint %}
+## Hackathon & Project Ideas
 
 ### 🤝 Crossover POCs, Integrations & Plugins!
 
@@ -80,6 +72,14 @@ Lilypad is still evolving and is currently mostly in Beta phase. This means ther
 One of the main opportunities is in the module making pipeline. See [#contribute-a-module](win-hacks-and-contribute.md#contribute-a-module "mention") for a quick breakdown of the developer journey).\
 \
 Some of the opportunities to improve this process include:
+
+{% hint style="info" %}
+💚 Good first project (Lilypadawan)
+
+💛 Moderate skill needed
+
+❤️ Jedi mode!&#x20;
+{% endhint %}
 
 * 💛 An application that can auto-containerise (or auto-dockerise) a given compute script
   * ❤️ BONUS IDEA: You could even then make a module to run the auto-containerising script on Lilypad after it's built! 🧙
