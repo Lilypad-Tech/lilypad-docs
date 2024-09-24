@@ -4,10 +4,10 @@ description: Running the most important Hello World on Lilypad!
 
 # Run Hello World!
 
-Before you run a Lilypad job, make sure you have [Lilypad CLI installed](../install-run-requirements.md) and have [set a `WEB3_PRIVATE_KEY` env variable](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) in your environment.
+Before you run a Lilypad job, make sure you have [Lilypad CLI installed](../install-run-requirements.md) and have set [a `WEB3_PRIVATE_KEY` env variable](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements#set-web3\_private\_key) in your environment.
 
 {% hint style="info" %}
-Your [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) can be retrieved from the MetaMask account details menu.  For more info, check out the [official guide from MetaMask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on how to get a your private key.
+Your [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements#set-web3\_private\_key) can be retrieved from the MetaMask account details menu.  For more info, check out the [official guide from MetaMask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on how to get a your private key. **Be sure to keep your private key safe** and never share it or store it in unsecured places to prevent unauthorized access to your funds.
 {% endhint %}
 
 ## Run Cowsay

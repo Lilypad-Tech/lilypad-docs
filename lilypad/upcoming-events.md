@@ -1,5 +1,5 @@
 ---
-description: Catch up with the Lilypad Team or hack on Lilypad at these events!
+description: Catch up with the Lilypad team or hack on the Lilypad Network at these events!
 cover: .gitbook/assets/record player event.png
 coverY: 0
 ---
@@ -14,7 +14,14 @@ Image: `> lilypad run sdxl:v0.9-lilypad3 "A record player at a bit event in spac
 
 ## Upcoming
 
-Coming soon!
+## **2024**
+
+* [Devcon ](https://devcon.org/en/)South East Asia \[Nov 9-17]
+
+## **2025**
+
+* [TOKEN2049 Dubai](https://www.dubai.token2049.com/) \[April 30  - May 1]
+* [ETHDenver](https://www.ethdenver.com/) \[February 23 - March 2]
 
 ## Past
 

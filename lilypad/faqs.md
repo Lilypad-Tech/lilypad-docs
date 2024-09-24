@@ -49,11 +49,18 @@ Lilybit\_ rewards will be awarded to nodes for time on the network (up to a 4x m
 
 Resource Providers (RP) can track their Lilybit\_ earnings with the [RP Leaderboard](https://info.lilypad.tech/leaderboard).
 
-### Who can earn LilyBit\_ rewards
+### Who can earn LilyBit\_ rewards?
 
 Phase 1 of the Incentivized Testnet is focused on rewarding nodes on the network, referred to as Resource Providers. The earlier a provider joins the network, the more Lilybits\_ will be available.
 
 Phases 2 and onward will provide rewards for Lilypad modules created as well as developer tools/apps (in addition to rewarding nodes)
+
+### How do I check my Lilybit\_ rewards?
+
+You can check your rewards by pasting your nodes wallet address into the following interfaces:
+
+* [Grafana Dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m)
+* [Lilypad leaderboard](https://info.lilypad.tech/leaderboard)
 
 ## ⚙️ Hardware Provider Questions
 
@@ -78,7 +85,7 @@ For more information, please visit [Hardware Requirements](hardware-providers/ha
 
 Resource providers are expected to have the latest Lilypad versions installed on their machines.&#x20;
 
-The instructions can be found in our [installation documentation](lilypad-testnet/install-run-requirements.md).
+The instructions can be found in our [installation documentation](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements#install-via-officially-released-binaries) (select the Resource Provider tab).
 
 ### How can I check the status of my Lilypad node?
 
@@ -86,27 +93,33 @@ To check if the RP is running use the following command: `sudo systemctl status 
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resource-provider.service -f`
 
-Find more information in [Running a Node](hardware-providers/run-a-node/linux.md).
+Find more information, select your preferred platform below and check out the docs:
+
+* [Linux](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux#view-node-status)
+* [Docker](hardware-providers/run-a-node/docker.md)
 
 ## 👩‍💻 Developer Questions
 
 ### What is a Lilypad Module?
 
-To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a Lilypad Module (see instructions below). Once setup, modules are run with the Lilypad [CLI](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements).
+To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a Lilypad Module (see instructions below). Once setup, modules are run with the Lilypad [CLI](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements).
 
 ### How to run a ML job on Lilypad
 
-To run a ML job on Lilypad (Stable Diffusion, Mistral 7b, Stable Diffusion Video, and more) using the Lilypad CLI, follow the [CLI instructions](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements) to get started.&#x20;
+To run a ML job on Lilypad (Stable Diffusion, Mistral 7b, Stable Diffusion Video, and more) using the Lilypad CLI, follow the [CLI instructions](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) to get started.&#x20;
 
 To build an application with Lilypad compute and modules on the backend, check out this [guide](https://blog.lilypadnetwork.org/setting-up-your-lilypad-front-end).
 
 ### How to add a ML model to run on Lilypad
 
-A Lilypad module is a Git repository that can be used to perform various tasks using predefined templates and inputs. This ["build a job module" guide](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module) will walk you through the process of creating a Lilypad module, including defining a JSON template, handling inputs, ensuring determinism, and other best practices.
+A Lilypad module is a Git repository that can be used to perform various tasks using predefined templates and inputs. This ["build a job module" guide](https://docs.lilypad.tech/lilypad/developer-resources/build-a-job-module) will walk you through the process of creating a Lilypad module, including defining a JSON template, handling inputs, ensuring determinism, and other best practices.
 
 ### How to run a Lilypad node
 
-Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find [instructions](hardware-providers/run-a-node/linux.md)[ for running a node](hardware-providers/run-a-node/linux.md) in the docs.
+Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find instructions for running a node by selecting your preferred platform below:
+
+* [Linux](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux)
+* [Docker](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/docker)
 
 ### Node hardware specs
 
