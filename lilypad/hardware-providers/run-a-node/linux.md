@@ -381,6 +381,13 @@ sudo rm -rf /usr/bin/bacalhau
 
 As every system is different, these instructions may vary. If you have any issues, please reach out to the team in the [Lilypad Discord](https://lilypad.team/discord) for help!
 
+## View Lilybit\_ rewards
+
+To view your Lilybit\_ rewards, visit one of the following dashboards and paste your node's public address into the input:
+
+* [Grafana dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m)
+* [Lilypad leaderboard](https://info.lilypad.tech/leaderboard)
+
 ## Security
 
 If you want to allowlist only certain modules (e.g. Stable Diffusion modules), to control exactly what code runs on specific nodes (which can be audited to ensure that they are secure and will have no negative impact on the nodes), set an environment variable `OFFER_MODULES` in the GPU provider to a comma separated list of module names, e.g. `sdxl:v0.9-lilypad1,stable-diffusion:v0.0.1.`

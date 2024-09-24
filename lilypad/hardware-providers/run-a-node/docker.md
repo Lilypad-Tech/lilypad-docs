@@ -113,6 +113,13 @@ Resource Providers have the option to [setup their own Arbitrum RPC endpoint](ht
 
 A personal RPC endpoint helps RPs to avoid reliability issues with the public RPC endpoints used by Lilypad ensuring rewards can be earned and jobs can be run consistently. RPs running a personal RPC endpoint contribute to the fault tolerance and decentralization of the Lilypad Network! Read more in the Alchemy Arbitrum [docs](https://docs.alchemy.com/reference/arbitrum-api-quickstart).
 
+## View Lilybit\_ rewards
+
+To view your Lilybit\_ rewards, visit one of the following dashboards and paste your node's public address into the input:
+
+* [Grafana dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m)
+* [Lilypad ](https://info.lilypad.tech/leaderboard)
+
 ## Troubleshooting
 
 Here are some common troubleshooting techniques when it comes to your resource provider using Docker:
