@@ -20,7 +20,7 @@ description: Useful links on topics that relate to the Lilypad Network
 * [Bacalhau.org](https://www.bacalhau.org/)
 * [Impact of Compute over Data](https://www.youtube.com/watch?v=jSzb7q00\_0c) - Juan Benet
 * [CoD vision & goals](https://www.youtube.com/watch?v=-d4iJm-RbyA) - Juan Benet
-* [Lessons for building Distributed Compute](https://www.youtube.com/watch?v=GHGYHuIboy4) - Juan & Molly
+* [Lessons for building Distributed Compute](https://www.youtube.com/watch?v=GHGYHuIboy4) - Juan Benet & Molly Mackinlay
 * [State of CoD 2023](https://www.youtube.com/watch?v=w-cRNst68L0) - David Aronchick
 * [Containers at the Edge](https://softwareengineeringdaily.com/2024/08/22/containers-at-the-edge-with-david-aronchick/) - David Aronchick&#x20;
 
