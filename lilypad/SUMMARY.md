@@ -49,6 +49,7 @@
   * [Autonomous Agents](research-and-vision/v1-documents/autonomous-agents.md)
   * [Mechanisms To Explore](research-and-vision/v1-documents/mechanisms-to-explor.md)
 * [Whitepaper](research-and-vision/whitepaper.md)
+* [Useful Resources](research-and-vision/useful-links.md)
 
 ## Use Cases
 
@@ -58,7 +59,6 @@
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [🌠 Past Hackathon Winners](use-cases/project-showcase.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
-* [Useful Resources](use-cases/useful-links.md)
 
 ## Meet the Lilypad Team
 
