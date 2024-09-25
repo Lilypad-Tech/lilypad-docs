@@ -58,7 +58,7 @@
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [🌠 Past Hackathon Winners](use-cases/project-showcase.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
-* [Reference Material](use-cases/reference-material.md)
+* [Useful Resources](use-cases/useful-links.md)
 
 ## Meet the Lilypad Team
 
@@ -120,4 +120,3 @@
       * [DuckDB](resources/older-versions/lilypad-aurora-v2/examples/duckdb.md)
       * [Arbitrary WASM](resources/older-versions/lilypad-aurora-v2/examples/arbitrary-wasm.md)
       * [Filecoin Data Prep](resources/older-versions/lilypad-aurora-v2/examples/filecoin-data-prep.md)
-* [Useful Resources](resources/useful-links.md)
