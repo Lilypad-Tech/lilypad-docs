@@ -120,4 +120,4 @@
       * [DuckDB](resources/older-versions/lilypad-aurora-v2/examples/duckdb.md)
       * [Arbitrary WASM](resources/older-versions/lilypad-aurora-v2/examples/arbitrary-wasm.md)
       * [Filecoin Data Prep](resources/older-versions/lilypad-aurora-v2/examples/filecoin-data-prep.md)
-* [Useful Links](resources/useful-links.md)
+* [Useful Resources](resources/useful-links.md)
