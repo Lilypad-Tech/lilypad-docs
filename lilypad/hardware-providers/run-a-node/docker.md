@@ -73,6 +73,14 @@ In the root directory of the Lilypad repo, run the following command to pull the
 docker pull ghcr.io/lilypad-tech/resource-provider:latest
 ```
 
+## Setup Arbitrum RPC <a href="#setup-arbitrum-rpc" id="setup-arbitrum-rpc"></a>
+
+The Lilypad Network uses the Arbitrum Sepolia Testnet to settle compute transactions. When a transaction is ready to be saved on-chain, Lilypad cycles through a list of public Arbitrum Sepolia RPC endpoints using the endpoint that settles first to save the compute transaction.
+
+Resource Providers have the option to [setup their own Arbitrum RPC endpoint](https://docs.lilypad.tech/lilypad/hardware-providers/setup-arbitrum-rpc) using Alchemy instead of using the default public RPC endpoints.
+
+A personal RPC endpoint helps RPs to avoid reliability issues with the public RPC endpoints used by Lilypad ensuring rewards can be earned and jobs can be run consistently. RPs running a personal RPC endpoint contribute to the fault tolerance and decentralization of the Lilypad Network! Read more in the Alchemy Arbitrum [docs](https://docs.alchemy.com/reference/arbitrum-api-quickstart).
+
 ## Usage <a href="#heading-run-the-docker-image" id="heading-run-the-docker-image"></a>
 
 Before we run the Docker image, we will need to retrieve the private key from your wallet you set up in the first steps of this guide. You can find out how to do that using this official MetaMask guide for [exporting your private key](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/). Once you've copied your private key we can move on and run the Docker image.
@@ -85,6 +93,12 @@ To run the Lilypad services in a container as a background process, replace \<yo
 
 ```bash
 docker run -d --name lilypad-resource-provider --gpus all -e WEB3_PRIVATE_KEY=<private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
+```
+
+To add your own RPC URL, run add the `WEB3_RPC_URL` as an environment variable and set the URL:
+
+```bash
+docker run -d --gpus all -e WEB3_PRIVATE_KEY=<private-key> -e WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/some-id-from-alchemy --restart always ghcr.io/lilypad-tech/resource-provider:latest
 ```
 
 ## Enable Automatic Updates
@@ -104,14 +118,6 @@ docker logs -f --tail 50 lilypad-resource-provider
 ```
 
 If everything has ran successfully, you will see logs from your terminal. You can copy your web3 public address from MetaMask and paste it in to the [Lilypad Leaderboard](https://info.lilypad.tech/leaderboard) or [GPU dashboard](https://gpu.lilypad.tech/) to view if your node is online and running!
-
-## Setup Arbitrum RPC <a href="#setup-arbitrum-rpc" id="setup-arbitrum-rpc"></a>
-
-The Lilypad Network uses the Arbitrum Sepolia Testnet to settle compute transactions. When a transaction is ready to be saved on-chain, Lilypad cycles through a list of public Arbitrum Sepolia RPC endpoints using the endpoint that settles first to save the compute transaction.
-
-Resource Providers have the option to [setup their own Arbitrum RPC endpoint](https://docs.lilypad.tech/lilypad/hardware-providers/setup-arbitrum-rpc) using Alchemy instead of using the default public RPC endpoints.
-
-A personal RPC endpoint helps RPs to avoid reliability issues with the public RPC endpoints used by Lilypad ensuring rewards can be earned and jobs can be run consistently. RPs running a personal RPC endpoint contribute to the fault tolerance and decentralization of the Lilypad Network! Read more in the Alchemy Arbitrum [docs](https://docs.alchemy.com/reference/arbitrum-api-quickstart).
 
 ## View Lilybit\_ rewards
 
