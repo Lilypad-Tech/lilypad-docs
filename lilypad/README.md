@@ -85,7 +85,7 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 
 ## Roadmap
 
-<figure><img src=".gitbook/assets/roadmap-new (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/NewLilyRoadmap.png" alt=""><figcaption></figcaption></figure>
 
 ## Lilypad Linktree - Learn more and join the community!
 
