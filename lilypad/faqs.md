@@ -16,7 +16,7 @@ Perform off-chain decentralized compute over data, with on-chain guarantees, and
 
 ### Lilypad Whitepaper
 
-Lilypad will release a Whitepaper soon!
+Lilypad will release a Whitepaper by November 2024.
 
 ### Roadmap
 
@@ -24,7 +24,7 @@ Lilypad Network is currently in Testnet. The team is currently ironing out some 
 
 Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on our website!
 
-<figure><img src=".gitbook/assets/Roadmap.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/roadmap-new.png" alt=""><figcaption></figcaption></figure>
 
 ### Wait, didn’t Lilypad used to rely on determinism and optimistic reproducibility for verifiable compute?&#x20;
 
@@ -135,11 +135,11 @@ For more information on the requirements to run a Lilypad node, please refer to 
 
 ### Lilypad Tokenomics
 
-Currently, there's no cost to run jobs and no incentive. Tokenomics and research papers are currently being developed and expected by early Q3 2024.&#x20;
+Currently, there's no cost to run jobs and no incentive. Tokenomics and research papers are currently being developed and expected by Q4 2024.&#x20;
 
 ### Expected TGE
 
-Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q4 2024.
+Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q2 2025.
 
 
 

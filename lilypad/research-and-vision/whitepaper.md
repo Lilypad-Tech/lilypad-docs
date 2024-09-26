@@ -1,6 +1,7 @@
 ---
-description: Expected Sept-Oct
+description: Expected November 2024
 ---
 
 # Whitepaper
 
+Coming soon!
