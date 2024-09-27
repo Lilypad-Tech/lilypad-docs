@@ -97,12 +97,12 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 * [Resource Provider (node) Leaderboard](https://info.lilypad.tech/leaderboard) - Lilybit\_ rewards
 * [Lilypad Grafara RP dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m) - Lilybit\_ rewards&#x20;
 * [awesome-Lilypad](https://github.com/Lilypad-Tech/awesome-Lilypad/blob/main/README.md) repo with examples and use cases
-* [Quick Start ](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/quick-start)- Run a Lilypad "Hello World"
-* [Add](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module) an AI model to Lilypad
+* [Quick Start ](lilypad-testnet/quick-start/)- Run a Lilypad "Hello World"
+* [Add](developer-resources/build-a-job-module.md) an AI model to Lilypad
 * [Hardware requirements](hardware-providers/hardware-requirements.md) to run a Lilypad node
 * [Run](hardware-providers/run-a-node/linux.md) a Lilypad node
-* [Build](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/running-lilypad-in-a-front-end) a frontend using Lilypad to run AI Inference
-* [Stable Diffusion Video](https://docs.lilypad.tech/lilypad/lilypad-milky-way-examples/stable-diffusion-video-sdv1.0-and-1.1) - Text to video on Lilypad
+* [Build](developer-resources/running-lilypad-in-a-front-end.md) a frontend using Lilypad to run AI Inference
+* [Stable Diffusion Video](lilypad-modules/stable-diffusion-video-sdv1.0-and-1.1.md) - Text to video on Lilypad
 * [Lilypad Discord server](https://lilypad.team/discord)
 * [Previous Lilypad versions](https://docs.lilypad.tech/lilypad/resources/older-versions)
 
