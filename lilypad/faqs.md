@@ -135,7 +135,7 @@ For more information on the requirements to run a Lilypad node, please refer to 
 
 ### Lilypad Tokenomics
 
-Currently, there's no cost to run jobs and no incentive. Tokenomics and research papers are currently being developed and expected by Q4 2024.&#x20;
+Tokenomics and research papers are currently being developed and expected by Q4 2024.&#x20;
 
 ### Expected TGE
 
