@@ -102,6 +102,12 @@ A grace period for RP downtime is now included in the slashing mechanism. RPs wi
 * These 2 days will be applied to 2 subsequent down days recorded by the RP allowing the RP to avoid slashing for these 2 days.&#x20;
 * Grace Period days do not accumulate to more than 2 days ever. Once used the 30 day count to obtain the 2 days restarts.
 
+### How do I setup a personal RPC for Arbitrum Sepolia?
+
+{% embed url="https://www.youtube.com/watch?v=INKpdrfF0Xs" %}
+
+Here's a Quick Guide on setting up your own RPC for a Lilypad node.
+
 ### Will I lose reward multipliers if my node is offline?
 
 The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.
