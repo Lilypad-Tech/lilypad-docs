@@ -43,11 +43,11 @@ Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/121289769
 
 ### How do I keep track of Lilypad version releases and other important announcements?
 
-The [updates-rp](https://discord.com/channels/1212897693450641498/1256179769356189707) Discord channel is the primary location for Resource Provider announcements. Announcements in this channel are also posted on the Lilypad [updates](https://updates.lilypad.tech/) page.&#x20;
+The [updates-rp](https://discord.com/channels/1212897693450641498/1256179769356189707) Discord channel is the primary location for Resource Provider announcements. Announcements in this channel are also posted on the Lilypad [updates](https://updates.lilypad.tech/) page.
 
 ### How do I setup a Lilypad node?
 
-Check out this [video guide](https://www.youtube.com/watch?v=slCLg35rAU4) for setting up a Lilypad node using Ubuntu Linux. Note, you may notice in the Metamask setup part of the video the Network name and RPC URL are old. Disregard this, the video was recorded with our old testnet info not the current Lilypad testnet [details](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask) on Arbitrum. Otherwise, the directions here are current.&#x20;
+Check out this [video guide](https://www.youtube.com/watch?v=slCLg35rAU4) for setting up a Lilypad node using Ubuntu Linux. Note, you may notice in the Metamask setup part of the video the Network name and RPC URL are old. Disregard this, the video was recorded with our old testnet info not the current Lilypad testnet [details](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask) on Arbitrum. Otherwise, the directions here are current.
 
 Read more about running a Lilypad node in the [docs](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node).
 
@@ -55,15 +55,15 @@ Read more about running a Lilypad node in the [docs](https://docs.lilypad.tech/l
 
 ### Is my node online and earning rewards?
 
-To view the status of a Lilypad Resource Provider ensuring points are earned, follow the steps below or check out this [video guide](https://www.youtube.com/watch?v=ul7qXVh4wRM),&#x20;
+To view the status of a Lilypad Resource Provider ensuring points are earned, follow the steps below or check out this [video guide](https://www.youtube.com/watch?v=ul7qXVh4wRM),
 
 * Check the wallet used by the RP to ensure it has enough Arbitrum Sepolia ETH and LP tokens
 * Search the wallet ID on Arbiscan to view transactions occurring every hour
-* View points earned in the [Leaderboard](https://info.lilypad.tech/leaderboard)&#x20;
+* View points earned in the [Leaderboard](https://info.lilypad.tech/leaderboard)
 
 {% embed url="https://www.youtube.com/watch?v=ul7qXVh4wRM" %}
 
-After following the checklist above, if needed restart the node.&#x20;
+After following the checklist above, if needed restart the node.
 
 **Restart lilypad+bacalhau services**
 
@@ -93,13 +93,18 @@ Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/
 
 ### How does slashing work on Lilypad?
 
-Each day of node (RP) downtime, 10% of the total points earned will be slashed (per day). This was implemented with a focus on long term partners contributing meaningfully to the network.  Important as early rewards are worth more than rewards in later stages of the[ IncentiveNet](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations).&#x20;
+Each day of node (RP) downtime, 10% of the total points earned will be slashed (per day). This was implemented with a focus on long term partners contributing meaningfully to the network. Important as early rewards are worth more than rewards in later stages of the[ IncentiveNet](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations).
 
-The requirement to not be slashed is only 4 hrs/day of uptime. We may reevaluate this mechanism,  please provide any community feedback [here](https://github.com/orgs/Lilypad-Tech/discussions/16)!
+The requirement to not be slashed is only 4 hrs/day of uptime. We may reevaluate this mechanism, please provide any community feedback [here](https://github.com/orgs/Lilypad-Tech/discussions/16)!
+
+A grace period for RP downtime is now included in the slashing mechanism. RPs will earn 2 days of a “grace period” after every 30 days of continuous service provided.&#x20;
+
+* These 2 days will be applied to 2 subsequent down days recorded by the RP allowing the RP to avoid slashing for these 2 days.&#x20;
+* Grace Period days do not accumulate to more than 2 days ever. Once used the 30 day count to obtain the 2 days restarts.
 
 ### Will I lose reward multipliers if my node is offline?
 
-The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if  the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.&#x20;
+The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.
 
 However, a RP will still receive a multiplier relative to how many 4-hour windows of POWs completed in that day. This figure shows the daily multiplier for a given number of 4-hour windows of POWs completed in a day.
 
@@ -130,7 +135,7 @@ Uninstall Bacalhau:
 sudo rm -rf /usr/bin/bacalhau
 ```
 
-Reinstall Bacalhau using the [guide](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-bacalhau) in the docs.&#x20;
+Reinstall Bacalhau using the [guide](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#install-bacalhau) in the docs.
 
 Finally, start the resource provider:
 
@@ -151,7 +156,7 @@ Export the path first, then turn bacalhau back on and see if that corrects it.
 
 ### CompatNotSupportedOnDevice Error
 
-The CUDA version of the RP does not match the GPU driver. Please refer to this [Nvidia GPU Driver guide](https://docs.nvidia.com/deploy/cuda-compatibility) to repair installation.&#x20;
+The CUDA version of the RP does not match the GPU driver. Please refer to this [Nvidia GPU Driver guide](https://docs.nvidia.com/deploy/cuda-compatibility) to repair installation.
 
 ### Unknown Error Code: 222
 
@@ -177,7 +182,7 @@ Read more in the Lilypad [docs](https://docs.lilypad.tech/lilypad/hardware-provi
 
 ### I’m getting an error of “invalid hex character 'r' in private key”
 
-This is more than likely due to you trying to export your mnemonic seed phrase instead of the private key. A private key typically appears like this: `4c0883a69102937d6231471b5dbb6204fe512961708279df95b4a2200eb6b5e7` and consists of 64 hexadecimal characters.&#x20;
+This is more than likely due to you trying to export your mnemonic seed phrase instead of the private key. A private key typically appears like this: `4c0883a69102937d6231471b5dbb6204fe512961708279df95b4a2200eb6b5e7` and consists of 64 hexadecimal characters.
 
 Check out the [MetaMask official guide to retrieve your private key](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/).
 
@@ -189,8 +194,7 @@ Check out the [MetaMask official guide to retrieve your private key](https://sup
 
 ### How do I get testnet LP and ETH (Arbitrum Sepolia ETH)?
 
-* [Fund](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#write-env-file) a wallet with LP and ETH&#x20;
-* No ETH or LP in your wallet? ([import custom network and import the tokens](https://lilypad.team/discord))&#x20;
+* [Fund](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#write-env-file) a wallet with LP and ETH
+* No ETH or LP in your wallet? ([import custom network and import the tokens](https://lilypad.team/discord))
 
 Join our [Discord](https://lilypad.team/discord) for more help!
-

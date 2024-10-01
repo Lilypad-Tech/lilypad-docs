@@ -10,7 +10,7 @@ description: Frequently Asked Questions for Lilypad Network
 
 Lilypad is developing a serverless, distributed compute network that enables internet-scale data processing for AI, ML & other arbitrary computation from blockchains, while unleashing idle processing power & unlocking a new marketplace for compute.
 
-Lilypad provides decentralized AI computational services. By extending unrestricted, global access to computational power, Lilypad strategically collaborates with decentralized infrastructure networks, such as Filecoin, to formulate a transparent, efficient, and accessible computational ecosystem.&#x20;
+Lilypad provides decentralized AI computational services. By extending unrestricted, global access to computational power, Lilypad strategically collaborates with decentralized infrastructure networks, such as Filecoin, to formulate a transparent, efficient, and accessible computational ecosystem.
 
 Perform off-chain decentralized compute over data, with on-chain guarantees, and to call this functionality directly from a smart contract, CLI and an easy to use abstraction layer, opens the door to a multitude of possible applications.
 
@@ -26,7 +26,7 @@ Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on ou
 
 <figure><img src=".gitbook/assets/roadmap-new.png" alt=""><figcaption></figcaption></figure>
 
-### Wait, didn’t Lilypad used to rely on determinism and optimistic reproducibility for verifiable compute?&#x20;
+### Wait, didn’t Lilypad used to rely on determinism and optimistic reproducibility for verifiable compute?
 
 Previously, Lilypad required deterministic jobs on the network and used optimistic reproducibility to randomly re-run jobs to ensure trust, however this method has been deprecated due to:
 
@@ -41,7 +41,7 @@ Yes, Lilypad closed our seed round of funding in March 2024.
 
 ### When will the Incentivized Testnet launch?
 
-The Lilypad Incentivized testnet is on track to launch by the end of June 2024. Stay tuned on [the Lilypad Discord](https://lilypad.team/discord) for more info!
+The Lilypad Incentivized testnet launched in mid June 2024. Stay tuned on [the Lilypad Discord](https://lilypad.team/discord) for more info!
 
 ### How do LilyBit\_ rewards work?
 
@@ -83,7 +83,7 @@ For more information, please visit [Hardware Requirements](hardware-providers/ha
 
 ### What are the updates required for maintaining my node software?
 
-Resource providers are expected to have the latest Lilypad versions installed on their machines.&#x20;
+Resource providers are expected to have the latest Lilypad versions installed on their machines.
 
 The instructions can be found in our [installation documentation](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements#install-via-officially-released-binaries) (select the Resource Provider tab).
 
@@ -106,7 +106,7 @@ To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a
 
 ### How to run a ML job on Lilypad
 
-To run a ML job on Lilypad (Stable Diffusion, Mistral 7b, Stable Diffusion Video, and more) using the Lilypad CLI, follow the [CLI instructions](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) to get started.&#x20;
+To run a ML job on Lilypad (Stable Diffusion, Mistral 7b, Stable Diffusion Video, and more) using the Lilypad CLI, follow the [CLI instructions](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) to get started.
 
 To build an application with Lilypad compute and modules on the backend, check out this [guide](https://blog.lilypadnetwork.org/setting-up-your-lilypad-front-end).
 
@@ -135,12 +135,10 @@ For more information on the requirements to run a Lilypad node, please refer to 
 
 ### Lilypad Tokenomics
 
-Tokenomics and research papers are currently being developed and expected by Q4 2024.&#x20;
+Tokenomics and research papers are currently being developed and expected by Q4 2024.
 
 ### Expected TGE
 
 Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q2 2025.
-
-
 
 Can't find the answer you were looking for? Join [the Lilypad Discord server](https://lilypad.team/discord) for live support! 🪷
