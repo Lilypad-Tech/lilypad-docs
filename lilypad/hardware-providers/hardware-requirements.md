@@ -1,21 +1,21 @@
 # Hardware Requirements
 
-This page overviews the hardware requirements to operate a Lilypad Network node. It's important to note that these requirements continuously evolve as the network grows. If you have questions or suggestions, please join our [Discord](https://lilypad.team/discord) or open a pull request on the [Lilypad documentation repository](https://github.com/Lilypad-Tech/lilypad-docs).
+This page overviews the hardware requirements to operate a Lilypad Network node. It's important to note that these requirements continuously evolve as the network grows. If you have questions or suggestions, please join our [Discord](https://lilypad.team/discord) or open a pull request on the [Lilypad documentation repo](https://github.com/Lilypad-Tech/lilypad-docs).
 
 ## Minimum Hardware Requirements
 
-* **Processor**: Quad-core x64 Processor
+* **Processor**: Quad-core x64 Processor or better
 * **RAM**: 16GB (see additional details below)
-* **Internet**: 250Mbps Download Speed
+* **Internet**: Internet: 250Mbps download, 100Mbps upload (minimum)
 * **GPU**: NVIDIA GPU with a minimum of 8GB VRAM (see additional details below)
 
 ## GPU Requirements
 
 Each model operating on Lilypad has specific VRAM (Video Random Access Memory) requirements directly related to the model's complexity and computational demands. For running a Lilypad Resource Provider (RP) with multiple GPUs, a guide using Proxmox can be found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md).
 
-* **Base Requirement:** The simplest model on Lilypad requires a GPU with at least 8GB of VRAM. This is the minimum necessary to engage in any computational tasks within our network.
+* **Base Requirement:** The simplest model on Lilypad requires a GPU with at least 8GB of VRAM. This is the minimum required to participate in computational tasks on the Lilypad network.
 
-### Scaling with VRAM
+### Model-Specific VRAM Requirements
 
 The capability of your GPU to manage multiple or more complex Lilypad jobs is enhanced by the amount of VRAM available:
 
@@ -24,7 +24,7 @@ The capability of your GPU to manage multiple or more complex Lilypad jobs is en
 
 ### Hardware Compatibility
 
-* GPUs with only 8GB of VRAM are limited to running models that fit within this specification. Higher VRAM GPUs allow for the processing of heavier models and increase the capacity to handle several jobs simultaneously.
+* GPUs with 8GB of VRAM are limited to running models like SDXL, which fit within this specification. Larger GPUs with higher VRAM are required for more demanding models like SDV, which needs at least 14GB of VRAM.
 
 #### For example:&#x20;
 
@@ -41,4 +41,4 @@ Lilypad uses the Resource Provider's GPU to load models, initially requiring the
 
 ## Additional Considerations
 
-* **Larger Models:** Jobs involving more substantial models will demand additional RAM. It's important to note that adequate VRAM alone is insufficient; your system must also have enough RAM to load the model into the GPU successfully. A lack of sufficient system RAM will prevent the model from being loaded, regardless of the VRAM available.
+* **Larger Models:** Jobs involving more substantial models will demand additional RAM. It's important to note that adequate VRAM alone is insufficient; your system must also have enough RAM to load the model into the GPU successfully. Without sufficient system RAM, the model cannot be loaded into the GPU, regardless of available VRAM.
