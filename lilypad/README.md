@@ -95,7 +95,8 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 
 * [FAQs](https://docs.lilypad.tech/lilypad/faqs)
 * [Resource Provider (node) Leaderboard](https://info.lilypad.tech/leaderboard) - Lilybit\_ rewards
-* [Lilypad Grafara RP dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m) - Lilybit\_ rewards&#x20;
+* [Open Source Contributor Dashboard](https://oss.lilypad.tech/) - Open source rewards
+* [Lilypad Grafara RP dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m) - Lilybit\_ rewards
 * [awesome-Lilypad](https://github.com/Lilypad-Tech/awesome-Lilypad/blob/main/README.md) repo with examples and use cases
 * [Quick Start ](lilypad-testnet/quick-start/)- Run a Lilypad "Hello World"
 * [Add](developer-resources/build-a-job-module.md) an AI model to Lilypad
