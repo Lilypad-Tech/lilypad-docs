@@ -54,12 +54,11 @@ Contributing a module is one of the coolest things to do for Lilypad. There are 
 * A module that provides personalized tutoring and learning assistance using AI\
 
 
-As a quick refresher, the current Module Making Pipeline ([see full "Build a job module" resource](developer-resources/build-a-job-module.md)) looks like this:
+As a quick refresher, the current module making pipeline ([see full "Build a job module" resource](developer-resources/build-a-job-module.md)) looks like this:
 
 1. Find or build a compute script (for example, [a Python script on Hugging Face like SDXL](https://huggingface.co/docs/diffusers/en/using-diffusers/sdxl))
-2. **NOTE**: You must [make sure your compute job is deterministic](https://docs.lilypad.tech/lilypad/lilypad-milky-way-reference/build-a-job-module#ensuring-determinism) (this is possible with AI scripts also! [See this reference](https://huggingface.co/docs/diffusers/v0.27.2/en/using-diffusers/reusing\_seeds#reproducible-pipelines))
-3. Containerise the script with Docker ([see this blog for more info](https://blog.lilypadnetwork.org/how-to-build-a-custom-job-module-on-lilypad#heading-containerising-and-configuration))
-4. Add a Lilypad Spec - this is simply a GitHub repo - [you can grab a template here](https://github.com/Lilypad-Tech/lilypad-module-boilerplate)!
+2. Containerise the script with Docker ([see this blog for more info](https://blog.lilypadnetwork.org/how-to-build-a-custom-job-module-on-lilypad#heading-containerising-and-configuration))
+3. Add a Lilypad Spec - this is simply a GitHub repo - [you can grab a template here](https://github.com/Lilypad-Tech/lilypad-module-boilerplate)!
 
 {% hint style="warning" %}
 Share your module with us by submitting a pull request to the [GitHub here](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)!
@@ -67,7 +66,7 @@ Share your module with us by submitting a pull request to the [GitHub here](http
 
 ### ✨ DX Enhancements
 
-Lilypad is still evolving and is currently mostly in Beta phase. This means there are A LOT of opportunities to help build out better DX for your fellow dev's.
+Lilypad is still evolving and is currently in Beta phase. This means there are A LOT of opportunities to help build out better DX for your fellow developers!
 
 One of the main opportunities is in the module making pipeline. See [#contribute-a-module](win-hacks-and-contribute.md#contribute-a-module "mention") for a quick breakdown of the developer journey).\
 \
@@ -84,7 +83,6 @@ Some of the opportunities to improve this process include:
 * 💛 An application that can auto-containerise (or auto-dockerise) a given compute script
   * ❤️ BONUS IDEA: You could even then make a module to run the auto-containerising script on Lilypad after it's built! 🧙
 * 💚 You could go one further and also have it auto-generate the Lilypad spec as well!
-* ❤️ A determinism checker that could help determine if there are any obvious parts of the script (like timestamps) that would make it non-deterministic and show an error for this.
 * 💛💛 Ways to make it easy for folks without GPUs at home to build & test a module
 * 💚 Implement developer tooling for debugging and monitoring compute jobs, providing real-time feedback and logs
 * 💛 Tools that analyze and optimize the performance of compute scripts, suggesting improvements and best practices
@@ -121,8 +119,8 @@ Pssst... We'd love to share your projects here too! Feel free to [submit a PR](h
 
 ### ✨We would love to hear your feedback!✨
 
-We hope this project page inspires you to build amazing things with us! If you have any ideas, suggestions, or any questions, we'd love to hear from you! Join our community on Discord to share your thoughts, ideas, ask questions, and get the support you need from the Lilypad team. 🪷
+We hope this page inspires you to build amazing things with us! If you have any ideas, suggestions, or any questions, we'd love to hear from you! Join our community on Discord to share your thoughts, ideas, ask questions, and get the support you need from the Lilypad team. 🪷
 
 [Join our Discord channel here](https://lilypad.team/discord)!
 
-### **🌱Your feedback helps us improve and grow together!** 
+**🌱Your feedback helps us improve and grow together!**\

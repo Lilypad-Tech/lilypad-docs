@@ -53,14 +53,15 @@ Resource Providers (RP) can track their Lilybit\_ earnings with the [RP Leaderbo
 
 Phase 1 of the Incentivized Testnet is focused on rewarding nodes on the network, referred to as Resource Providers. The earlier a provider joins the network, the more Lilybits\_ will be available.
 
-Phases 2 and onward will provide rewards for Lilypad modules created as well as developer tools/apps (in addition to rewarding nodes)
+Phases 2 and onward will provide rewards for Lilypad modules created as well as developer tools/apps (in addition to rewarding nodes).
 
 ### How do I check my Lilybit\_ rewards?
 
 You can check your rewards by pasting your nodes wallet address into the following interfaces:
 
-* [Grafana Dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m)
+* [Grafana dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m)
 * [Lilypad leaderboard](https://info.lilypad.tech/leaderboard)
+* [Open Source contributor dashboard](https://oss.lilypad.tech/)
 
 ## ⚙️ Hardware Provider Questions
 
@@ -91,7 +92,7 @@ The instructions can be found in our [installation documentation](https://docs.l
 
 To check if the RP is running use the following command: `sudo systemctl status lilypad-resource-provider`.
 
-This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resource-provider.service -f`
+This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resource-provider.service -f`.&#x20;
 
 Find more information, select your preferred platform below and check out the docs:
 
@@ -106,7 +107,7 @@ To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a
 
 ### How to run a ML job on Lilypad
 
-To run a ML job on Lilypad (Stable Diffusion, Mistral 7b, Stable Diffusion Video, and more) using the Lilypad CLI, follow the [CLI instructions](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) to get started.
+To run a ML job on Lilypad (Stable Diffusion, Stable Diffusion Video, and more) using the Lilypad CLI, follow the [CLI instructions](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) to get started (select the CLI Users tab).
 
 To build an application with Lilypad compute and modules on the backend, check out this [guide](https://blog.lilypadnetwork.org/setting-up-your-lilypad-front-end).
 
