@@ -20,7 +20,7 @@ This guide demonstrates how to use Alchemy's RPC, but you can substitute any Arb
 
 [Create an account](https://dashboard.alchemy.com/) and login to the Alchemy dashboard.
 
-Select a “free” account as the compute units provided should be sufficient to run a Lilypad RP. The free service provides 300 million compute units per month.
+Select the “free” tier as the compute units provided should be sufficient to run a Lilypad RP. The free service provides 300 million compute units per month.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-09-17 at 10.39.32 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@ Select “skip bonus” or input a credit card with billing info (the card will 
 
 ## Setup RPC endpoint for Arbitrum Sepolia
 
-In the “overview” section of the Alchemy dashboard, navigate to “My app” and select “Endpoints”. If an app was not created upon login, create a new one by selecting "Create new app"
+In the “Overview” section of the Alchemy dashboard, navigate to “My app” and select “Endpoints”. If an app was not created upon login, create a new one by selecting "Create new app".
 
 <figure><img src="../.gitbook/assets/alchemy1-1.png" alt=""><figcaption></figcaption></figure>
 
@@ -92,7 +92,7 @@ sudo systemctl stop bacalhau
 sudo systemctl stop lilypad-resource-provider
 ```
 
-Update lilypad-resource-provider.service with the new RPC:
+Update `lilypad-resource-provider.service` with the new RPC:
 
 ```
 sudo nano /etc/systemd/system/lilypad-resource-provider.service
@@ -112,4 +112,16 @@ Reboot the node:
 sudo reboot
 ```
 
-If the Lilypad RP was [setup](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux#install-systemd-unit-for-bacalhau) properly as a systemd service, the RP will reboot using the new RPC.
+If the Lilypad RP was [setup](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux#install-systemd-unit-for-bacalhau) properly as a systemd service, the RP will reboot using the new RPC. Once the reboot is complete, the RP should be running with the updated configuration. To verify your node is back online and running correctly, run the following:
+
+```
+sudo systemctl status lilypad-resource-provider
+sudo systemctl status bacalhau
+```
+
+## Setup RPC video guide
+
+{% embed url="https://www.youtube.com/watch?v=INKpdrfF0Xs" %}
+
+
+
