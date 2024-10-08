@@ -5,7 +5,7 @@ This page overviews the hardware requirements to operate a Lilypad Network node.
 ## Minimum Hardware Requirements
 
 * **Processor**: Quad-core x64 Processor or better
-* **RAM**: 16GB (see additional details below)
+* **RAM**: 32GB (see additional details below)
 * **Internet**: Internet: 250Mbps download, 100Mbps upload (minimum)
 * **GPU**: NVIDIA GPU with a minimum of 8GB VRAM (see additional details below)
 
