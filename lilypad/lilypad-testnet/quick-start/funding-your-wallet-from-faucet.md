@@ -12,7 +12,7 @@ description: Get Testnet Lilypad Tokens (LP) and Arbitrum Sepolia Testnet ETH
 ## Faucet Guide
 
 ### Get Testnet LP tokens
-Find out what you need tokens in the [FAQs](../..faqs.md)
+Find out why you need tokens in the [FAQs](../..faqs.md)
 
 Navigate to the Lilypad Testnet [faucet](https://faucet-testnet.lilypad.tech/). Copy your MetaMask wallet address into the input and click "Request".
 
