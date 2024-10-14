@@ -1,10 +1,10 @@
 # Table of contents
 
 * [🍃 Lilypad Home](README.md)
-* [📅 Events](upcoming-events.md)
-* [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
-* [👥 Join the Community](join-the-community.md)
 * [⚡ FAQs](faqs.md)
+* [📅 Events](upcoming-events.md)
+* [👥 Join the Community](join-the-community.md)
+* [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
 
 ## Lilypad Testnet
 

@@ -33,7 +33,7 @@ Some examples include:
 
 There are also opportunities to extend the functionality of Lilypad compute with items like:
 
-* CICD pipelines
+* CI/CD pipelines
 * Vector databases
 * Autonomous agents
 * Batching jobs with an external script
