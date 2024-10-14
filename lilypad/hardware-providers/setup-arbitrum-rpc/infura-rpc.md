@@ -12,7 +12,7 @@ This guide demonstrates how to use Infura's RPC, but this can be substituted for
 
 ## Setup Infura account
 
-&#x20;Create an account on Infura and choose your plan based on how many APIs you need.
+[Create an account](https://app.infura.io/login) on Infura and choose your plan based on how many APIs you need.
 
 Select the “free” tier as the compute units provided should be sufficient to run a Lilypad RP.
 
@@ -20,11 +20,11 @@ Select the “free” tier as the compute units provided should be sufficient to
 
 ## Setup RPC endpoint for Arbitrum Sepolia
 
-In the Infura dashboard, a new API key will usually be generated automatically. If not, select "Create New API Key".
+In the Infura dashboard, a new API key will usually generate automatically. If not, select "Create New API Key". Navigate to "Configure" to setup the API key.
 
 <figure><img src="../../.gitbook/assets/infuraguide1 (1).png" alt=""><figcaption></figcaption></figure>
 
-Navigate to the Arbitrum network and ensure the Sepolia testnet box is checked, then save changes.
+Scroll down the list to the Arbitrum network and ensure the Sepolia testnet box is checked, then save changes.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-10-14 at 11.28.38 AM.png" alt=""><figcaption></figcaption></figure>
 
