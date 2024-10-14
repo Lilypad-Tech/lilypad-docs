@@ -6,7 +6,7 @@ description: Adding Trust to the Network
 
 ## Introduction
 
-Lilypad is a verifiable trustless decentralized compute network that aims to prevent cheating in the network. The network consists of clients and compute nodes, and it assumes deterministic results. The main goal is to establish a game theoretic approach to verifiable computing, where clients can trust the results they receive from compute nodes. The approach used in Lilypad is pure verification by replication, without relying on cryptographic tools like snarks or trusted execution environments.
+Lilypad is a verifiable trustless decentralized compute network that aims to prevent cheating in the network. The network consists of clients and compute nodes. The main goal is to establish a game theoretic approach to verifiable computing, where clients can trust the results they receive from compute nodes. The approach used in Lilypad is pure verification by replication, without relying on cryptographic tools like snarks or trusted execution environments.
 
 ## Global Consensus vs Local Consensus
 

@@ -12,14 +12,11 @@ Contributing your own module is currently a non-trivial process. The Lilypad tea
 
 Contributing your own module to use on Lilypad is possible and welcome!\
 \
-Essentially modules on Lilypad currently operate like [Bacalhau](https://docs.bacalhau.org) Job Specifications do - take a look at this page on [creating-your-own-jobs.md](../../lilypad-v0-deprecated/reference/creating-your-own-jobs.md "mention") to see more about how this works.\
-\
-In order that the modules on Lilypad are able to be verified and run on a trustless compute network, the modules also need to be deterministic, so that the job results can be verified by a mediator as needed. See [v1-documents](../../../../research-and-vision/v1-documents/ "mention") for more information on this process.
+Essentially modules on Lilypad currently operate like [Bacalhau](https://docs.bacalhau.org) Job Specifications do - take a look at this page on [creating-your-own-jobs.md](../../lilypad-v0-deprecated/reference/creating-your-own-jobs.md "mention") to see more about how this works.
 
 ## Requirements
 
-1. **Modules must be deterministic**: This means that the hash of the results directory will be the same given the same inputs (since we use the same hash tool as IPFS, in practice this means that the CIDs must match). Therefore, as long as a job always converges to the same answer, it does not matter which path it takes to get there. It just matters that the hash CID is the same as this is how mediators validate a result in the trustless network.
-2. **Modules should be either Docker or WASM Images** that align to the Bacalhau job specifications (which then have some added metadata that defines the runtime options of the module).
+1. **Modules should be either Docker or WASM Images** that align to the Bacalhau job specifications (which then have some added metadata that defines the runtime options of the module).
 
 ## Module Example
 

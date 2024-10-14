@@ -91,13 +91,13 @@ Important: Safeguard your private key with proper key management practices. This
 
 To run the Lilypad services in a container as a background process, replace \<your\_private\_key\_here> with your actual private key and execute the following command:
 
-```bash
+```sh
 docker run -d --name lilypad-resource-provider --gpus all -e WEB3_PRIVATE_KEY=<private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
 ```
 
 To add your own RPC URL, run add the `WEB3_RPC_URL` as an environment variable and set the URL:
 
-```bash
+```sh
 docker run -d --gpus all -e WEB3_PRIVATE_KEY=<private-key> -e WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/some-id-from-alchemy --restart always ghcr.io/lilypad-tech/resource-provider:latest
 ```
 
@@ -107,7 +107,7 @@ To automatically monitor and update the Lilypad resource provider container, you
 
 Run the following command to start lilypad-watchtower:
 
-```bash
+```sh
 docker run -d --name lilypad-watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower lilypad-resource-provider --interval 300
 ```
 
