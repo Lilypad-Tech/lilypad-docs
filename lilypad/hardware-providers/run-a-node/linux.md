@@ -122,8 +122,10 @@ rm kubo_v0.30.0_linux-amd64.tar.gz
 sudo mkdir -p /app/data/ipfs
 # Set IPFS_PATH environment variable
 export IPFS_PATH=/app/data/ipfs
-# Initialize IPFS node
+# Initialize ipfs node
 ipfs init 
+# Start the ipfs node
+ipfs daemon
 ```
 
 ### Install Bacalhau
