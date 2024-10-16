@@ -145,8 +145,6 @@ tar xfv bacalhau_v1.3.2_linux_amd64.tar.gz
 
 sudo mv bacalhau /usr/bin/bacalhau
 
-sudo mkdir -p /app/data/ipfs
-
 sudo chown -R $USER /app/data
 ```
 
