@@ -291,6 +291,10 @@ sudo systemctl daemon-reload
 
 Start systemd units:
 
+{% hint style="info" %}
+Start bacalhau and lilypad-resource-provider in a different terminal window than the ipfs node.&#x20;
+{% endhint %}
+
 ```bash
 sudo systemctl enable bacalhau
 sudo systemctl enable lilypad-resource-provider
