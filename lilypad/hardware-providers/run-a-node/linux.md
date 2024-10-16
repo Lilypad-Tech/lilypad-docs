@@ -122,16 +122,6 @@ export IPFS_PATH=/app/data/ipfs
 ipfs init 
 ```
 
-
-
-Create a new ipfs directory:
-
-```bash
-sudo mkdir -p /app/data/ipfs
-```
-
-
-
 ### Install Bacalhau
 
 Bacalhau is a peer-to-peer network of nodes that enables decentralized communication between computers. The network consists of two types of nodes, which can communicate with each other.
@@ -242,30 +232,23 @@ To install systemd, open `/etc/systemd/system/bacalhau.service` in your preferre
 sudo vim /etc/systemd/system/bacalhau.service
 ```
 
-<pre><code>[Unit]
+```
+[Unit]
 Description=Lilypad V2 Bacalhau
-After=network-online.target
-Wants=network-online.target systemd-networkd-wait-online.service
-
-[Service]
-Environment="LOG_TYPE=json"
-Environment="LOG_LEVEL=debug"
-Environment="HOME=/app/lilypad"
-Environment="BACALHAU_SERVE_IPFS_PATH=/app/data/ipfs"
-<strong>Restart=always
-</strong>RestartSec=5s
-ExecStart=/usr/bin/bacalhau serve --node-type compute,requester --peer none --private-internal-ipfs=false
+ After=network-online.target
+ Wants=network-online.target systemd-networkd-wait-online.service
+ 			
+ [Service]
+ Environment="LOG_TYPE=json"
+ Environment="LOG_LEVEL=debug"
+ Environment="HOME=/app/lilypad"
+ Environment="BACALHAU_SERVE_IPFS_PATH=/app/data/ipfs"
+ Restart=always
+ RestartSec=5s
+ExecStart=/usr/bin/bacalhau serve --node-type compute,requester --peer none --private-internal-ipfs=false --ipfs-connect "/ip4/127.0.0.1/tcp/5001"
 
 [Install]
-WantedBy=multi-user.target
-</code></pre>
-
-If you receive the message`error creating IPFS node`, you may need to initialize IPFS using`ipfs init`.
-
-To fix this error, export the path to /app/data/ipfs using:
-
-```bash
-export IPFS_PATH=/app/data/ipfs
+WantedBy=multi-user.target  
 ```
 
 ### Install systemd unit for GPU provider
