@@ -112,7 +112,7 @@ wget https://dist.ipfs.tech/kubo/v0.30.0/kubo_v0.30.0_linux-amd64.tar.gz
 # Extract the archive:
 tar -xvzf kubo_v0.30.0_linux-amd64.tar.gz
 # Change to the Kubo directory:
-cd Kubo
+cd kubo
 # Run the installation script:
 sudo bash install.sh
 # Now remove the downloaded archive file:
@@ -122,6 +122,8 @@ rm kubo_v0.30.0_linux-amd64.tar.gz
 sudo mkdir -p /app/data/ipfs
 # Set IPFS_PATH environment variable
 export IPFS_PATH=/app/data/ipfs
+# Change ownership of the ipfs directory to your user
+sudo chown -R $USER:$USER /app/data/ipfs
 # Initialize ipfs node
 ipfs init 
 # Start the ipfs node
