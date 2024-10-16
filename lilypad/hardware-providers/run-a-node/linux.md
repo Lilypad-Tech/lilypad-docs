@@ -138,7 +138,7 @@ Bacalhau is a peer-to-peer network of nodes that enables decentralized communica
 Bacalhau versions newer than `v1.3.2` are not currently supported but will be in the future. Please pin to Bacalhau `v1.3.2` for now.
 {% endhint %}
 
-To install Bacalhau, run the following in your terminal:
+To install Bacalhau, run the following in a new terminal window:
 
 ```bash
 cd /tmp
