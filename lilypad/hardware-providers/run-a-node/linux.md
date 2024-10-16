@@ -102,6 +102,10 @@ sudo systemctl restart docker
 
 Run a local ipfs node on the Lilypad RP.
 
+{% hint style="info" %}
+If permissions errors are encountered when trying to run `ipfs init`, ensure the ipfs node is not setup in the root user and is accessible by Bacalhau.
+{% endhint %}
+
 ```bash
 # Download the latest version of Kubo (go-ipfs):
 wget https://dist.ipfs.tech/kubo/v0.30.0/kubo_v0.30.0_linux-amd64.tar.gz
