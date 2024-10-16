@@ -98,6 +98,40 @@ Restart the Docker daemon:
 sudo systemctl restart docker
 ```
 
+### Install ipfs
+
+Run a local ipfs node on the Lilypad RP.
+
+```bash
+# Download the latest version of Kubo (go-ipfs):
+wget https://dist.ipfs.tech/kubo/v0.30.0/kubo_v0.30.0_linux-amd64.tar.gz
+# Extract the archive:
+tar -xvzf kubo_v0.30.0_linux-amd64.tar.gz
+# Change to the Kubo directory:
+cd Kubo
+# Run the installation script:
+sudo bash install.sh
+# Now remove the downloaded archive file:
+cd ..
+rm kubo_v0.30.0_linux-amd64.tar.gz
+# Create a new ipfs directory
+sudo mkdir -p /app/data/ipfs
+# Set IPFS_PATH environment variable
+export IPFS_PATH=/app/data/ipfs
+# Initialize IPFS node
+ipfs init 
+```
+
+
+
+Create a new ipfs directory:
+
+```bash
+sudo mkdir -p /app/data/ipfs
+```
+
+
+
 ### Install Bacalhau
 
 Bacalhau is a peer-to-peer network of nodes that enables decentralized communication between computers. The network consists of two types of nodes, which can communicate with each other.
