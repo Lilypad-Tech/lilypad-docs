@@ -119,6 +119,16 @@ docker logs -f --tail 50 lilypad-resource-provider
 
 If everything has ran successfully, you will see logs from your terminal. You can copy your web3 public address from MetaMask and paste it in to the [Lilypad Leaderboard](https://info.lilypad.tech/leaderboard) or [GPU dashboard](https://gpu.lilypad.tech/) to view if your node is online and running!
 
+### Check RP status
+
+Use the following command to check the status of the Lilypad Resource provider.
+
+```bash
+docker logs lilypad-resource-provider
+```
+
+
+
 ## View Lilybit\_ rewards
 
 To view your Lilybit\_ rewards, visit one of the following dashboards and paste your node's public address into the input:
