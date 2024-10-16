@@ -156,7 +156,7 @@ The expected output is:
 
 ```
 CLIENT  SERVER  LATEST
-v1.3.2  v1.4.0  1.4.0
+v1.3.2  v1.5.0  1.5.0
 ```
 
 If the Bacalhau `CLIENT` version is not v1.3.2, it will need to be replaced. Follow the steps [here](https://docs.lilypad.tech/lilypad/hardware-providers/troubleshooting#how-do-i-change-my-bacalhau-version) to uninstall and reinstall Bacalhau.
