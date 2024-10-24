@@ -22,4 +22,4 @@ The [Lilypad Leaderboard](https://info.lilypad.tech/leaderboard)  provides an up
 
 Track the status of a Resource Provider with the [node status dashboard](https://info.lilypad.tech/node-status).
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-20 at 1.44.49 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-20 at 1.44.49 PM.png" alt="" width="563"><figcaption><p>Resource Provider leaderboard</p></figcaption></figure>
