@@ -12,7 +12,7 @@ description: Useful links on topics that relate to the Lilypad Network
 
 ## GPU Info
 
-* [How do graphics cards work?](https://www.youtube.com/watch?v=h9Z4oGN89MU\&t=799s)
+* [How do graphics cards work?](https://www.youtube.com/watch?v=h9Z4oGN89MU)
 * Nvidia CUDA [Toolkit](https://developer.nvidia.com/cuda-toolkit)
 * [Nvidia CUDA in 100 Seconds](https://www.youtube.com/watch?v=pPStdjuYzSI)
 
