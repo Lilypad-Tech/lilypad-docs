@@ -5,6 +5,7 @@
 * [📅 Events](upcoming-events.md)
 * [👥 Join the Community](join-the-community.md)
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
+* [📚 Useful Resources](useful-links.md)
 
 ## Lilypad Testnet
 
@@ -51,7 +52,6 @@
   * [Autonomous Agents](research-and-vision/v1-documents/autonomous-agents.md)
   * [Mechanisms To Explore](research-and-vision/v1-documents/mechanisms-to-explor.md)
 * [Whitepaper](research-and-vision/whitepaper.md)
-* [Useful Resources](research-and-vision/useful-links.md)
 
 ## Use Cases
 
