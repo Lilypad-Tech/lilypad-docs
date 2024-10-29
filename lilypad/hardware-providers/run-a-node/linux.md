@@ -121,7 +121,7 @@ rm kubo_v0.30.0_linux-amd64.tar.gz
 # Create a new ipfs directory
 sudo mkdir -p /app/data/ipfs
 # Set IPFS_PATH environment variable
-export IPFS_PATH=/app/data/ipfs
+echo 'export IPFS_PATH=/app/data/ipfs' >> ~/.bashrc && source ~/.bashrc
 # Change ownership of the ipfs directory to your user
 sudo chown -R $USER:$USER /app/data/ipfs
 # Initialize ipfs node
