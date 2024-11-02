@@ -241,16 +241,16 @@ sudo vim /etc/systemd/system/bacalhau.service
 ```
 [Unit]
 Description=Lilypad V2 Bacalhau
- After=network-online.target
- Wants=network-online.target systemd-networkd-wait-online.service
- 			
- [Service]
- Environment="LOG_TYPE=json"
- Environment="LOG_LEVEL=debug"
- Environment="HOME=/app/lilypad"
- Environment="BACALHAU_SERVE_IPFS_PATH=/app/data/ipfs"
- Restart=always
- RestartSec=5s
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+			
+[Service]
+Environment="LOG_TYPE=json"
+Environment="LOG_LEVEL=debug"
+Environment="HOME=/app/lilypad"
+Environment="BACALHAU_SERVE_IPFS_PATH=/app/data/ipfs"
+Restart=always
+RestartSec=5s
 ExecStart=/usr/bin/bacalhau serve --node-type compute,requester --peer none --private-internal-ipfs=false --ipfs-connect "/ip4/127.0.0.1/tcp/5001"
 
 [Install]
@@ -294,7 +294,7 @@ sudo systemctl daemon-reload
 Start systemd units:
 
 {% hint style="info" %}
-Start bacalhau and lilypad-resource-provider in a different terminal window than the ipfs node.&#x20;
+Start bacalhau and lilypad-resource-provider in a different terminal window than the ipfs node.
 {% endhint %}
 
 ```bash
