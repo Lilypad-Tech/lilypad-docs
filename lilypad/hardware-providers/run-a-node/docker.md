@@ -57,22 +57,6 @@ The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more
 
 The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for jobs).
 
-## Installation
-
-To set up your environment for running a Lilypad Resource Provider, you'll need to install and configure several key components.
-
-### Pull the pre-built Docker image
-
-The pre-built Docker image is a crucial component in setting up your Lilypad Resource Provider with this approach. It encapsulates the environment in which your node will operate, including all necessary dependencies, configurations, and commands to run the Lilypad services.
-
-Before pulling the image, you must be logged in to Docker by running `docker login` and follow the prompts.
-
-In the root directory of the Lilypad repo, run the following command to pull the pre-built Docker image:
-
-```bash
-docker pull ghcr.io/lilypad-tech/resource-provider:latest
-```
-
 ## Setup Arbitrum RPC <a href="#setup-arbitrum-rpc" id="setup-arbitrum-rpc"></a>
 
 The Lilypad Network uses the Arbitrum Sepolia Testnet to settle compute transactions. When a transaction is ready to be saved on-chain, Lilypad cycles through a list of public Arbitrum Sepolia RPC endpoints using the endpoint that settles first to save the compute transaction.
@@ -130,6 +114,18 @@ WEB3_PRIVATE_KEY=<your_private_key> docker compose up -d
 ```
 
 ### Docker Image
+
+#### Pull the pre-built Docker image
+
+The pre-built Docker image is a crucial component in setting up your Lilypad Resource Provider with this approach. It encapsulates the environment in which your node will operate, including all necessary dependencies, configurations, and commands to run the Lilypad services.
+
+Before pulling the image, you must be logged in to Docker by running `docker login` and follow the prompts.
+
+In the root directory of the Lilypad repo, run the following command to pull the pre-built Docker image:
+
+```bash
+docker pull ghcr.io/lilypad-tech/resource-provider:latest
+```
 
 #### Run the Docker Image <a href="#heading-run-the-docker-image" id="heading-run-the-docker-image"></a>
 
