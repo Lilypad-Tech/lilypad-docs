@@ -83,9 +83,55 @@ A personal RPC endpoint helps RPs to avoid reliability issues with the public RP
 
 ## Usage <a href="#heading-run-the-docker-image" id="heading-run-the-docker-image"></a>
 
-Before we run the Docker image, we will need to retrieve the private key from your wallet you set up in the first steps of this guide. You can find out how to do that using this official MetaMask guide for [exporting your private key](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/). Once you've copied your private key we can move on and run the Docker image.
+Before we start the Docker setup, you'll need to retrieve the private key from the wallet you set up earlier in this guide. For guidance on exporting your private key, refer to [this official MetaMask guide](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/). Once you’ve securely copied your private key, proceed to initialize the Docker containers using the commands provided below.
 
-### Run the Docker Image <a href="#heading-run-the-docker-image" id="heading-run-the-docker-image"></a>
+You have two options to start the Lilypad setup: using Docker Compose or directly pulling the image. Both methods will run the containers in the background, allowing you to continue using your terminal while the setup operates.
+
+### Docker Compose
+
+#### Download the Docker Compose file
+
+Use `curl` to download the `docker-compose.yml` file from the Lilypad GitHub repository.
+
+```bash
+curl -O -s https://raw.githubusercontent.com/Lilypad-Tech/lilypad/refs/heads/main/docker/docker-compose.yml
+```
+
+#### Prepare to start the Containers
+
+{% hint style="warning" %}
+If any containers named `resource-provider`, `ipfs`, or `watchtower` are already in use, they will need to be stopped before running this setup to avoid naming conflicts.
+{% endhint %}
+
+You can check if these containers are running with:
+
+```bash
+docker ps -a | grep -E "resource-provider|ipfs|watchtower"
+```
+
+If they are running, stop them with:
+
+```bash
+docker stop <container_name>
+```
+
+If there are still conflicts when trying to running with the docker-compose file, remove the containers:
+
+```bash
+docker rm <container_name>
+```
+
+#### Start the Lilypad Containers
+
+Once any existing conflicts are resolved, start the Lilypad containers by providing your Web3 private key:
+
+```bash
+WEB3_PRIVATE_KEY=<your_private_key> docker compose up -d
+```
+
+### Docker Image
+
+#### Run the Docker Image <a href="#heading-run-the-docker-image" id="heading-run-the-docker-image"></a>
 
 Important: Safeguard your private key with proper key management practices. This key is crucial for managing resource providers' proof of work, tracking rewards, and other vital functions. Never share or expose it.
 
@@ -101,7 +147,7 @@ To add your own RPC URL, run add the `WEB3_RPC_URL` as an environment variable a
 docker run -d --gpus all -e WEB3_PRIVATE_KEY=<private-key> -e WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/some-id-from-alchemy --restart always ghcr.io/lilypad-tech/resource-provider:latest
 ```
 
-## Enable Automatic Updates
+#### Enable Automatic Updates
 
 To automatically monitor and update the Lilypad resource provider container, you can use lilypad-watchtower. It ensures the container is kept up to date by periodically checking for new image versions.
 
@@ -119,15 +165,13 @@ docker logs -f --tail 50 lilypad-resource-provider
 
 If everything has ran successfully, you will see logs from your terminal. You can copy your web3 public address from MetaMask and paste it in to the [Lilypad Leaderboard](https://info.lilypad.tech/leaderboard) or [GPU dashboard](https://gpu.lilypad.tech/) to view if your node is online and running!
 
-## View node status
+#### View node status
 
 Use the following command to check the status of the Lilypad Resource provider.
 
 ```bash
 docker logs lilypad-resource-provider
 ```
-
-
 
 ## View Lilybit\_ rewards
 
