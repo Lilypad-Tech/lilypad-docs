@@ -113,6 +113,14 @@ Once any existing conflicts are resolved, start the Lilypad containers by provid
 WEB3_PRIVATE_KEY=<your_private_key> docker compose up -d
 ```
 
+#### View node status
+
+Use the following command to check the status of the Lilypad Resource provider.
+
+```bash
+docker logs resource-provider
+```
+
 ### Docker Image
 
 #### Pull the pre-built Docker image
@@ -133,9 +141,8 @@ Important: Safeguard your private key with proper key management practices. This
 
 To run the Lilypad services in a container as a background process, replace \<your\_private\_key\_here> with your actual private key and execute the following command:
 
-```sh
-docker run -d --name lilypad-resource-provider --gpus all -e WEB3_PRIVATE_KEY=<private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
-```
+<pre class="language-sh"><code class="lang-sh"><strong>docker run -d --name lilypad-resource-provider --gpus all -e WEB3_PRIVATE_KEY=&#x3C;private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
+</strong></code></pre>
 
 To add your own RPC URL, run add the `WEB3_RPC_URL` as an environment variable and set the URL:
 
