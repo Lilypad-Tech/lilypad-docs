@@ -78,7 +78,9 @@ You have two options to start the Lilypad setup: using Docker Compose or directl
 Use `curl` to download the `docker-compose.yml` file from the Lilypad GitHub repository.
 
 ```bash
-curl -O -s https://raw.githubusercontent.com/Lilypad-Tech/lilypad/refs/heads/v2.9.0/docker/docker-compose.yml
+LATEST_VERSION=$(curl -s https://api.github.com/repos/Lilypad-Tech/lilypad/releases/latest | sed -n 's/.*"tag_name": "\(.*\)".*/\1/p')
+
+curl -o docker-compose.yml "https://raw.githubusercontent.com/Lilypad-Tech/lilypad/$LATEST_VERSION/docker/docker-compose.yml"
 ```
 
 #### Prepare to start the Containers
