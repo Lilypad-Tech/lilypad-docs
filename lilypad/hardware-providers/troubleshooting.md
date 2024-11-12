@@ -13,7 +13,7 @@ Please view these resources before asking questions!
 
 ## Don't see your issue below?
 
-Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/1212897693450641498/1230231823674642513) channel. Please follow the [Resource Provider ticket format](https://github.com/Lilypad-Tech/internal/issues/171):
+Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/1212897693450641498/1230231823674642513) channel.
 
 * Description (including Lilypad version running on your node)
 * Hardware Info (including Linux/Windows version)
