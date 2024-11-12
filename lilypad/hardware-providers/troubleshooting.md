@@ -99,6 +99,12 @@ A grace period for RP downtime is now included in the slashing mechanism. RPs wi
 * These 2 days will be applied to 2 subsequent down days recorded by the RP allowing the RP to avoid slashing for these 2 days.&#x20;
 * Grace Period days do not accumulate to more than 2 days ever. Once used the 30 day count to obtain the 2 days restarts.
 
+### Can I run multiple Lilypad RPs on one GPU?
+
+No, this would be considered cheating the Lilybit rewards system. In order to run jobs successfully, Lilypd RPs must ensure all resources on the server are avaliable. If a single GPU is running many RPs and splitting the server resources between them, this causes each RP to not have enough resources to run a Lilypad job.
+
+
+
 ### How do I setup a personal RPC for Arbitrum Sepolia?
 
 {% embed url="https://www.youtube.com/watch?v=INKpdrfF0Xs" %}
