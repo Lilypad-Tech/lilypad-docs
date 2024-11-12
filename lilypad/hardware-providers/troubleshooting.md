@@ -92,9 +92,7 @@ Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/
 
 ### How does slashing work on Lilypad?
 
-Each day of node (RP) downtime, 10% of the total points earned will be slashed (per day). This was implemented with a focus on long term partners contributing meaningfully to the network. Important as early rewards are worth more than rewards in later stages of the[ IncentiveNet](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations).
-
-The requirement to not be slashed is only 4 hrs/day of uptime. We may reevaluate this mechanism, please provide any community feedback [here](https://github.com/orgs/Lilypad-Tech/discussions/16)!
+The slashing mechanism now uses a tiered/progressive system to more fairly slash RPs. Penalties will increase progressively the longer the node remains online. 1-5 days offline will result in a 2.5% slash per day, 5-10 days offline a 5% slash per day, and more than 10 days offline a 10% slash per day.
 
 A grace period for RP downtime is now included in the slashing mechanism. RPs will earn 2 days of a “grace period” after every 30 days of continuous service provided.&#x20;
 
