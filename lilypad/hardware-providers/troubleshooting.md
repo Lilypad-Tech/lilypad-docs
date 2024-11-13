@@ -91,7 +91,7 @@ Resource Providers can run on the Lilypad Network without a GPU, however only ha
 
 Lilypad RPs currently only support Linux installs. Running a RP on Windows is currently experimental.
 
-### How do I run multiple GPU’s from a node?
+### How do I run multiple GPU’s on one server?
 
 Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md). More on this coming soon!
 
@@ -106,7 +106,9 @@ A grace period for RP downtime is now included in the slashing mechanism. RPs wi
 
 ### Can I run multiple Lilypad RPs on one GPU?
 
-No, this would be considered cheating the Lilybit rewards system. In order to run jobs successfully, Lilypd RPs must ensure all resources on the server are avaliable. If a single GPU is running many RPs and splitting the server resources between them, this causes each RP to not have enough resources to run a Lilypad job.
+No, this would be considered detrimental to the Lilypad network and cannot be rewarded.&#x20;
+
+In order to run jobs successfully, Lilypd RPs must ensure all resources on the server are available. If a single GPU is running many RPs and splitting the server resources between them, this causes each RP to not have enough resources to run a Lilypad job.
 
 
 
