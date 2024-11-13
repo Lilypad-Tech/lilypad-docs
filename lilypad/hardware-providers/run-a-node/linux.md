@@ -334,6 +334,22 @@ To restart your resource provider run:
 sudo systemctl restart lilypad-resource-provider
 ```
 
+## Support for Lilypad RPs
+
+For **complex issues, bug reports, or feature requests,** open a discussion in the Lilypad-Tech Github organization discussion [board](https://github.com/orgs/Lilypad-Tech/discussions).
+
+* Navigate to the discussion [board](https://github.com/orgs/Lilypad-Tech/discussions), select "New Discussion", choose "rp-issues", and fill out the template.
+* Without a discussion opened, our team will not be able to support the problem.
+
+**For quick questions or minor issues,** use the Lilypad Discord [#i-need-help](https://discord.com/channels/1212897693450641498/1230231823674642513) channel and provide the following info.
+
+* Description (including Lilypad version running on your node)
+* Hardware Info (including Linux/Windows version)
+* Related blockchain/ETH addresses of transaction hashes
+* Output Logs - `sudo systemctl status lilypad-resource-provider`
+* Related links/urls
+* Screenshots
+
 ## Update Lilypad version
 
 When a new version of Lilypad is [released](https://discord.com/channels/1212897693450641498/1256179769356189707), it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements.
