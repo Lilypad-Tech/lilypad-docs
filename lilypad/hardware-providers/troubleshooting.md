@@ -13,7 +13,12 @@ Please view these resources before asking questions!
 
 ## Don't see your issue below?
 
-Ask in the Lilypad Discord [#i-need-help](https://discord.com/channels/1212897693450641498/1230231823674642513) channel.
+For **complex issues, bug reports, or feature requests,** open a discussion in the Lilypad-Tech Github organization discussion [board](https://github.com/orgs/Lilypad-Tech/discussions).&#x20;
+
+* Navigate to the discussion [board](https://github.com/orgs/Lilypad-Tech/discussions), select "New Discussion", choose "rp-issues", and fill out the template.&#x20;
+* Without a discussion opened, our team will not be able to support the problem.
+
+**For quick questions or minor issues,** use the Lilypad Discord [#i-need-help](https://discord.com/channels/1212897693450641498/1230231823674642513) channel and provide the following info.
 
 * Description (including Lilypad version running on your node)
 * Hardware Info (including Linux/Windows version)
