@@ -8,6 +8,8 @@ description: Useful links on topics that relate to the Lilypad Network
 
 * [RAG vs Finetuning](https://www.rungalileo.io/blog/optimizing-llm-performance-rag-vs-finetune-vs-both)
 * [The promise and challenges of crypto + AI ](https://vitalik.eth.limo/general/2024/01/30/cryptoai.html)- Vitalik Buterin&#x20;
+* [Data on Notable AI Models](https://epoch.ai/data/notable-ai-models)
+* [Towards decentralized AI](https://www.firstbatch.xyz/blog/towards-decentralized-ai-part-1-data-collection)
 * [Understanding the Intersection of Crypto and AI ](https://www.galaxy.com/insights/research/understanding-intersection-crypto-ai/)- Galaxy Digital Research
 
 ## GPU Info
@@ -19,7 +21,7 @@ description: Useful links on topics that relate to the Lilypad Network
 ## Bacalhau Resources
 
 * [Bacalhau.org](https://www.bacalhau.org/)
-* [Impact of Compute over Data](https://www.youtube.com/watch?v=jSzb7q00\_0c) - Juan Benet
+* [Impact of Compute over Data](https://www.youtube.com/watch?v=jSzb7q00_0c) - Juan Benet
 * [CoD vision & goals](https://www.youtube.com/watch?v=-d4iJm-RbyA) - Juan Benet
 * [Lessons for building Distributed Compute](https://www.youtube.com/watch?v=GHGYHuIboy4) - Juan Benet & Molly Mackinlay
 * [State of CoD 2023](https://www.youtube.com/watch?v=w-cRNst68L0) - David Aronchick
