@@ -14,23 +14,143 @@ If you're new to Docker, consider exploring this [step-by-step tutorial](https:/
 
 ## Module Structure
 
-1. Start by creating a Git repository for your Lilypad module. The module's versions will be represented as Git tags.
-2. Inside your module's repository, create a file named `lilypad_module.json.tmpl`. This file will serve as a JSON template with Go text/template style sections, like `{{.Message}}`, which will be replaced by Lilypad with JSON-encoded inputs.
-3. You can also use Go templates to set defaults and perform other template-related operations. Refer to [the `cowsay` example](../lilypad-modules/hello-cow-world.md) for inspiration.
+1. Start by creating a Git repository for your Lilypad module. The module's versions will be represented as Git tags. Below is the basic structure of a Lilypad Module.
 
-## Handling Inputs
-
-Inputs are passed to your Lilypad module as key-value pairs, where both the keys and values are strings. You can pass inputs using the following command:
-
-```bash
-lilypad run github.com/username/repo:tag -i Message=moo
+```
+your-module/
+├── Dockerfile              # Container definition
+├── run_script.[py/js/etc]  # Main execution script
+├── lilypad_module.json.tmpl # Lilypad configuration
+└── README.md              # Documentation
 ```
 
-Ensure that your module is set up to accept and process inputs according to the specified format.
+## Prepare Your Model
 
-## Testing Your Module
+* Handle all dependencies
+* Implement input/output through environment variables
+* Write outputs to `/outputs` directory
 
-During development, you can use the Git hash to test your module. This allows you to verify that your module functions correctly and produces the expected results.
+1. **Create Run Script (run\_model.py for example) that will used in conjunction with Docker**
+
+```python
+ import os
+ import json
+ 
+ def main():
+     # Get inputs from environment variables
+     input_var = os.environ.get('INPUT_VAR', 'default')
+     
+     # Your model code here
+     result = your_model_function(input_var)
+     
+     # Save outputs
+     output_path = '/outputs/result.json'
+     with open(output_path, 'w') as f:
+         json.dump({'result': result}, f)
+ 
+ if __name__ == "__main__":
+     main()
+```
+
+### 2. Create a Dockerfile that functions with your run script
+
+```dockerfile
+# Use specific base image
+FROM base-image:version
+
+# Set working directory
+WORKDIR /workspace
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    your-dependencies && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install model requirements
+RUN pip install your-requirements
+
+# Create necessary directories
+RUN mkdir -p /outputs
+
+# Copy execution script
+COPY run_script.* /workspace/
+
+# Set entrypoint
+ENTRYPOINT ["command", "/workspace/run_script"]
+```
+
+### 3. Build and Publish Container(example below uses Dockerhub for storage)
+
+```
+docker build -t your-username/model-name:latest .
+docker push your-username/model-name:latest
+```
+
+### 4. Create a lilypad\_module.json.tmpl Template
+
+```json
+{
+    "machine": {
+        "gpu": 1,          # Set to 0 if GPU not needed
+        "cpu": 1000,       # CPU allocation
+        "ram": 8000        # RAM in MB
+    },
+    "job": {
+        "APIVersion": "V1beta1",
+        "Spec": {
+            "Deal": {
+                "Concurrency": 1
+            },
+            "Docker": {
+                "Entrypoint": ["command", "/workspace/run_script"],
+                "WorkingDirectory": "/workspace",
+                "EnvironmentVariables": [
+                    # Environment variables with defaults
+                    {{ if .var_name }}"VAR_NAME={{ js .var_name }}"{{ else }}"VAR_NAME=default_value"{{ end }}
+                ],
+                "Image": "repository/image-name@sha256:hash"
+            },
+            "Engine": "Docker",
+            "Network": {
+                "Type": "None"
+            },
+            "Outputs": [
+                {
+                    "Name": "outputs",
+                    "Path": "/outputs"
+                }
+            ],
+            "PublisherSpec": {
+                "Type": "ipfs"
+            },
+            "Resources": {
+                "GPU": "1"    # Must match machine.gpu
+            },
+            "Timeout": 1800
+        }
+    }
+}
+```
+
+## Environment Variables
+
+Format in template:&#x20;
+
+```
+{{ if .variable }}"VARNAME={{ js .variable }}"{{ else }}"VARNAME=default"{{ end }}
+```
+
+Usage in CLI:
+
+`lilypad run repo:tag -i variable=value`
+
+## Formatting your module run command
+
+During development, you will need to use the Git hash to test your module. This allows you to verify that your module functions correctly and produces the expected results.
+
+Below is a working lilypad module run cmd for reference. (you can use this to run a lilypad job within the lilypad CLI):
+
+`lilypad run`[`github.com/Lilypad-Tech/module-sdxl:6cf06f4038f1cff01a06c4eabc8135fd9835a78a`](http://github.com/Lilypad-Tech/module-sdxl:6cf06f4038f1cff01a06c4eabc8135fd9835a78a) `--web3-private-key <private-key> -i prompt="a lilypad floating on a pond"`
 
 ## Examples
 
