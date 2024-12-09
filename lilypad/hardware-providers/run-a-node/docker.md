@@ -107,7 +107,7 @@ If there are still conflicts when trying to running with the docker-compose file
 docker rm <container_name>
 ```
 
-#### Start the Lilypad Containers
+### Start the Lilypad containers with Docker Compose
 
 Once any existing conflicts are resolved, start the Lilypad containers by providing your Web3 private key:
 
@@ -121,6 +121,12 @@ Use the following command to check the status of the Lilypad Resource provider.
 
 ```bash
 docker logs resource-provider
+```
+
+Use the following command to view the containers running after starting Docker Compose.
+
+```bash
+docker ps
 ```
 
 ### Docker Image
