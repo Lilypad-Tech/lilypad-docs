@@ -10,7 +10,7 @@ description: >-
 ## Prerequisites
 
 {% hint style="info" %}
-Lilypad RPs currently only support Linux installs. Running a RP on Windows is currently experimental.
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
 {% endhint %}
 
 * Linux (_Ubuntu 22.04_ LTS)
@@ -20,7 +20,7 @@ Lilypad RPs currently only support Linux installs. Running a RP on Windows is cu
 * Nvidia Docker drivers
 
 {% hint style="info" %}
-For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
+Lilypad RPs currently only support Linux installs. Running a RP on Windows is currently experimental. The resource provider version of Lilypad is not supported on Darwin/macOS.
 {% endhint %}
 
 ## Network information and testnet tokens
@@ -173,10 +173,6 @@ The installation process for the Lilypad CLI involves several automated steps to
 
 Once the CLI tool is downloaded, the script sets the necessary permissions to make the executable file runnable. It then moves the executable to a standard location in your system's path to allow it to be run from any terminal window.
 
-{% hint style="warning" %}
-The resource provider version of Lilypad is not supported on Darwin/macOS.
-{% endhint %}
-
 **Via official released binaries**
 
 ```bash
@@ -294,6 +290,8 @@ Reload systemd's units/daemons (you will need to do this again if you ever chang
 ```bash
 sudo systemctl daemon-reload
 ```
+
+## Start Lilypad RP
 
 Start systemd units:
 
