@@ -191,6 +191,10 @@ chmod +x lilypad
 sudo mv lilypad /usr/local/bin/lilypad
 ```
 
+{% hint style="info" %}
+Ensure the RP is running the latest Lilypad version. Two weeks after each version release, the previous Lilypad version is deprecated.
+{% endhint %}
+
 To verify the installation, run `lilypad` in the terminal to display the version and a list of available commands, indicating that Lilypad CLI is ready to use.
 
 ### Write env file
