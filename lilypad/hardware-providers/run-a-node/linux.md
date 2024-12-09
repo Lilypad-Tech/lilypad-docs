@@ -291,7 +291,7 @@ Reload systemd's units/daemons (you will need to do this again if you ever chang
 sudo systemctl daemon-reload
 ```
 
-## Start Lilypad RP
+## Start Lilypad node
 
 Start systemd units:
 
