@@ -101,13 +101,13 @@ docker ps -a | grep -E "resource-provider|ipfs|watchtower"
 
 If they are running, stop them with:
 
-```bash
+```sh
 docker stop <container_name>
 ```
 
 If there are still conflicts when trying to running with the docker-compose file, remove the containers:
 
-```bash
+```sh
 docker rm <container_name>
 ```
 
