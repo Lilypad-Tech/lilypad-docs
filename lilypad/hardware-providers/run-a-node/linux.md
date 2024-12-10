@@ -180,6 +180,8 @@ Once the CLI tool is downloaded, the script sets the necessary permissions to ma
 OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH
 # Detect your operating system and set it as $OSNAME
 OSNAME=$(uname -s | awk '{if ($1 == "Darwin") print "darwin"; else if ($1 == "Linux") print "linux"; else print "unsupported_os"}') && export OSNAME;
+# Remove existing lilypad installation if it exists
+sudo rm -f /usr/local/bin/lilypad
 # Download the latest production build
 curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH-gpu" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O lilypad
 # Make Lilypad executable and install it
