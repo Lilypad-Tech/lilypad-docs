@@ -23,11 +23,11 @@ Lilypad RPs currently only support Linux installs. Running a RP on Windows is cu
 For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
 {% endhint %}
 
-## Network information and testnet tokens
+## Network information and Testnet tokens
 
 The testnet has a base currency of ETH, as well as a utility token called LP. Both are used for running nodes. To add a node to the testnet, follow these steps:
 
-### Metamask
+### Metamask Configuration
 
 We recommend using MetaMask with custom settings to make things easier. Once you have it installed and setup, here are the settings you need to use:
 
@@ -57,7 +57,7 @@ The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more
 
 The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for jobs).
 
-## Setup Arbitrum RPC <a href="#setup-arbitrum-rpc" id="setup-arbitrum-rpc"></a>
+## Setup Arbitrum RPC (Optional) <a href="#setup-arbitrum-rpc" id="setup-arbitrum-rpc"></a>
 
 The Lilypad Network uses the Arbitrum Sepolia Testnet to settle compute transactions. When a transaction is ready to be saved on-chain, Lilypad cycles through a list of public Arbitrum Sepolia RPC endpoints using the endpoint that settles first to save the compute transaction.
 
@@ -71,9 +71,13 @@ Before we start the Docker setup, you'll need to retrieve the private key from t
 
 You have two options to start the Lilypad setup: using Docker Compose or directly pulling the image. Both methods will run the containers in the background, allowing you to continue using your terminal while the setup operates.
 
-### Docker Compose
+## Docker Compose Setup
 
-#### Download the Docker Compose file
+### 1. Export Your Private Key
+
+Before starting, export your private key from MetaMask. Follow the official MetaMask guide for instructions on safely exporting your private key.
+
+### 2. Download the Docker Compose Configuration
 
 Use `curl` to download the `docker-compose.yml` file from the Lilypad GitHub repository.
 
@@ -83,7 +87,7 @@ LATEST_VERSION=$(curl -s https://api.github.com/repos/Lilypad-Tech/lilypad/relea
 curl -o docker-compose.yml "https://raw.githubusercontent.com/Lilypad-Tech/lilypad/$LATEST_VERSION/docker/docker-compose.yml"
 ```
 
-#### Prepare to start the Containers
+### 3. Check for Existing Containers
 
 {% hint style="warning" %}
 If any containers named `resource-provider`, `ipfs`, or `watchtower` are already in use, they will need to be stopped before running this setup to avoid naming conflicts.
@@ -107,15 +111,21 @@ If there are still conflicts when trying to running with the docker-compose file
 docker rm <container_name>
 ```
 
-### Start the Lilypad containers with Docker Compose
+### 4. Start the Resource Provider
 
-Once any existing conflicts are resolved, start the Lilypad containers by providing your Web3 private key:
+Start the Lilypad containers using Docker Compose:
 
 ```bash
 WEB3_PRIVATE_KEY=<your_private_key> docker compose up -d
 ```
 
-#### View node status
+To include a custom RPC URL:&#x20;
+
+```
+WEB3_PRIVATE_KEY=<your_private_key> WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/your-alchemy-id docker compose up -d
+```
+
+### 5. Monitor Your Node
 
 Use the following command to check the status of the Lilypad Resource provider.
 
@@ -127,61 +137,6 @@ Use the following command to view the containers running after starting Docker C
 
 ```bash
 docker ps
-```
-
-### Docker Image
-
-#### Pull the pre-built Docker image
-
-The pre-built Docker image is a crucial component in setting up your Lilypad Resource Provider with this approach. It encapsulates the environment in which your node will operate, including all necessary dependencies, configurations, and commands to run the Lilypad services.
-
-Before pulling the image, you must be logged in to Docker by running `docker login` and follow the prompts.
-
-In the root directory of the Lilypad repo, run the following command to pull the pre-built Docker image:
-
-```bash
-docker pull ghcr.io/lilypad-tech/resource-provider:latest
-```
-
-#### Run the Docker Image <a href="#heading-run-the-docker-image" id="heading-run-the-docker-image"></a>
-
-Important: Safeguard your private key with proper key management practices. This key is crucial for managing resource providers' proof of work, tracking rewards, and other vital functions. Never share or expose it.
-
-To run the Lilypad services in a container as a background process, replace \<your\_private\_key\_here> with your actual private key and execute the following command:
-
-<pre class="language-sh"><code class="lang-sh"><strong>docker run -d --name lilypad-resource-provider --gpus all -e WEB3_PRIVATE_KEY=&#x3C;private key> --restart always ghcr.io/lilypad-tech/resource-provider:latest
-</strong></code></pre>
-
-To add your own RPC URL, run add the `WEB3_RPC_URL` as an environment variable and set the URL:
-
-```sh
-docker run -d --gpus all -e WEB3_PRIVATE_KEY=<private-key> -e WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/some-id-from-alchemy --restart always ghcr.io/lilypad-tech/resource-provider:latest
-```
-
-#### Enable Automatic Updates
-
-To automatically monitor and update the Lilypad resource provider container, you can use lilypad-watchtower. It ensures the container is kept up to date by periodically checking for new image versions.
-
-Run the following command to start lilypad-watchtower:
-
-```sh
-docker run -d --name lilypad-watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower lilypad-resource-provider --interval 300
-```
-
-When you want to check the logs, run the following command:
-
-```bash
-docker logs -f --tail 50 lilypad-resource-provider
-```
-
-If everything has ran successfully, you will see logs from your terminal. You can copy your web3 public address from MetaMask and paste it in to the [Lilypad Leaderboard](https://info.lilypad.tech/leaderboard) or [GPU dashboard](https://gpu.lilypad.tech/) to view if your node is online and running!
-
-#### View node status
-
-Use the following command to check the status of the Lilypad Resource provider.
-
-```bash
-docker logs lilypad-resource-provider
 ```
 
 ## View Lilybit\_ rewards
