@@ -7,7 +7,7 @@ description: Common FAQs when running a Lilypad node
 {% hint style="info" %}
 Please view these resources before asking questions!
 
-* [Lilybit Rewards info](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations)
+* [Lilybit Rewards info](https://blog.lilypadnetwork.org/update-to-the-lilybit-rewards-calculation)
 * [Lilybit Leaderboard](https://info.lilypad.tech/leaderboard)
 {% endhint %}
 
@@ -46,6 +46,8 @@ For **complex issues, bug reports, or feature requests,** open a discussion in t
 
 4. Updating and restarting the Lilypad services regularly (daily) is encouraged throughout IncentiveNet.
 
+## Run a node
+
 ### How do I keep track of Lilypad version releases and other important announcements?
 
 The [updates-rp](https://discord.com/channels/1212897693450641498/1256179769356189707) Discord channel is the primary location for Resource Provider announcements. Announcements in this channel are also posted on the Lilypad [updates](https://updates.lilypad.tech/) page.
@@ -79,10 +81,6 @@ sudo systemctl restart bacalhau
 
 If this doesn't solve the problem, [raise a ticket](https://discord.com/channels/1212897693450641498/1230231823674642513) with our team.
 
-### When do Lilybit\_ rewards earned or rewards slashed appear in the Leaderboard?
-
-Once a day at 00:10 UTC. If no rewards appear after 24 hours of expected uptime, view the logs and Arbiscan transactions from the resource provider to ensure online status.
-
 ### Can I become a Lilypad Resource Provider with just a CPU and no GPU?
 
 Resource Providers can run on the Lilypad Network without a GPU, however only hardware with a GPU is currently rewarded with Lilybit\_ rewards.
@@ -95,49 +93,17 @@ Lilypad RPs currently only support Linux installs. Running a RP on Windows is cu
 
 Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/lilypad-tools/blob/main/proxmox/multi-gpu-proxmox.md). More on this coming soon!
 
-### How does slashing work on Lilypad?
-
-The slashing mechanism now uses a tiered/progressive system to more fairly slash RPs. Penalties will increase progressively the longer the node remains online. 1-5 days offline will result in a 2.5% slash per day, 5-10 days offline a 5% slash per day, and more than 10 days offline a 10% slash per day.
-
-A grace period for RP downtime is now included in the slashing mechanism. RPs will earn 2 days of a “grace period” after every 30 days of continuous service provided.&#x20;
-
-* These 2 days will be applied to 2 subsequent down days recorded by the RP allowing the RP to avoid slashing for these 2 days.&#x20;
-* Grace Period days do not accumulate to more than 2 days ever. Once used the 30 day count to obtain the 2 days restarts.
-
 ### Can I run multiple Lilypad RPs on one GPU?
 
 No, this would be considered detrimental to the Lilypad network and cannot be rewarded.&#x20;
 
 In order to run jobs successfully, Lilypd RPs must ensure all resources on the server are available. If a single GPU is running many RPs and splitting the server resources between them, this causes each RP to not have enough resources to run a Lilypad job.
 
-
-
 ### How do I setup a personal RPC for Arbitrum Sepolia?
-
-{% embed url="https://www.youtube.com/watch?v=INKpdrfF0Xs" %}
 
 Here's a quick guide on setting up your own RPC for a Lilypad node.
 
-### Will I lose reward multipliers if my node is offline?
-
-The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.
-
-However, a RP will still receive a multiplier relative to how many 4-hour windows of POWs completed in that day. This figure shows the daily multiplier for a given number of 4-hour windows of POWs completed in a day.
-
-<figure><img src="../.gitbook/assets/daily_mult_v_N_POW.png" alt="" width="563"><figcaption></figcaption></figure>
-
-### Are **there required updates needed to maintain my node software with Lilypad?**
-
-Resource providers are expected to have the latest Lilypad version installed on their systems. The installation instructions can be found here:
-
-* [Linux](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux#update-lilypad-version)
-* [Docker](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/docker#enable-automatic-updates)
-
-To stay up to date with the latest releases, check the [updates-rp channel](https://discord.com/channels/1212897693450641498/1256179769356189707) in the Lilypad Discord or visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad). Along the top menu, click the "Watch" dropdown and you will see a section named "Custom". Selecting "Releases" will allow you to get notified of any new releases!
-
-### Can Lilybit rewards be sent to another wallet? Will this function be added in the future?
-
-Currently, it's not possible. However, it's a very good feature request and the team is evaluating!
+{% embed url="https://www.youtube.com/watch?v=INKpdrfF0Xs" %}
 
 ### How do I change my Bacalhau version?
 
@@ -198,6 +164,42 @@ sudo journalctl -u lilypad-resource-provider.service -f
 ```
 
 Read more in the [Linux](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux#view-node-status) instructions.
+
+## Lilypad  IncentiveNet details
+
+### When do Lilybit\_ rewards earned or rewards slashed appear in the Leaderboard?
+
+Once a day at 00:10 UTC. If no rewards appear after 24 hours of expected uptime, view the logs and Arbiscan transactions from the resource provider to ensure online status.
+
+### How does slashing work on Lilypad?
+
+The slashing mechanism now uses a tiered/progressive system to more fairly slash RPs. Penalties will increase progressively the longer the node remains online. 1-5 days offline will result in a 2.5% slash per day, 5-10 days offline a 5% slash per day, and more than 10 days offline a 10% slash per day.
+
+A grace period for RP downtime is now included in the slashing mechanism. RPs will earn 2 days of a “grace period” after every 30 days of continuous service provided.&#x20;
+
+* These 2 days will be applied to 2 subsequent down days recorded by the RP allowing the RP to avoid slashing for these 2 days.&#x20;
+* Grace Period days do not accumulate to more than 2 days ever. Once used the 30 day count to obtain the 2 days restarts.
+
+### Will I lose reward multipliers if my node is offline?
+
+The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.
+
+However, a RP will still receive a multiplier relative to how many 4-hour windows of POWs completed in that day. This figure shows the daily multiplier for a given number of 4-hour windows of POWs completed in a day.
+
+<figure><img src="../.gitbook/assets/daily_mult_v_N_POW.png" alt="" width="563"><figcaption></figcaption></figure>
+
+### Are **there required updates needed to maintain my node software with Lilypad on IncentiveNet?**
+
+Resource providers are expected to have the latest Lilypad version installed on their systems. The installation instructions can be found here:
+
+* [Linux](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux#update-lilypad-version)
+* [Docker](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/docker#enable-automatic-updates)
+
+To stay up to date with the latest releases, check the [updates-rp channel](https://discord.com/channels/1212897693450641498/1256179769356189707) in the Lilypad Discord or visit the [Lilypad GitHub](https://github.com/Lilypad-Tech/lilypad). Along the top menu, click the "Watch" dropdown and you will see a section named "Custom". Selecting "Releases" will allow you to get notified of any new releases!
+
+### Can Lilybit rewards be sent to another wallet? Will this function be added in the future?
+
+Currently, it's not possible. However, it's a very good feature request and the team is evaluating!
 
 ### I’m getting an error of “invalid hex character 'r' in private key”
 
