@@ -5,6 +5,11 @@ description: >-
 ---
 
 # Setting up MetaMask
+Both Resource Proiders (GPU compute nodes) and thelooking to run jobs on the Lilypad network need to set up a Metamask account in order to create an account. You need an account for running jobs, and a separate account for each GPU you want to set up on the network.
+
+The wallet you use for your account must have both ETH (to run smart contracts on Ethereum) and Lilypad (LP) tokens in order to pay for jobs (or recieve funds for jobs) on the network.
+
+<figure><img src="../../.gitbook/assets/eth-lp-wallet.png.png" alt="" width="355"><figcaption>"a wallet funded with both ETH and LP tokens"</figcaption></figure>
 
 ## Create a MetaMask wallet
 

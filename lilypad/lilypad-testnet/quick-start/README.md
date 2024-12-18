@@ -18,5 +18,5 @@ The cloud is just somebody else's computer...
 This guide will take you through:
 
 * Setting up [MetaMask Wallet](https://metamask.io) for the Lilypad Testnet so that you can get ETH and LP tokens to fund smart contract calls on Ethereum's Arbitrum testnet, and pay for jobs on Lilypad Testnet.
-* Fund your wallet with Lilypad Testnet tokens from the [faucet](http://faucet.lilypad.tech/)
-* Run a Hello, (Lilysay) World! example compute job on the Lilypad Network :frog:
+* Funding your wallet with Lilypad Testnet tokens from the [faucet](http://faucet.lilypad.tech/)
+* Runnig a Hello, (Lilysay) World! example compute job on the Lilypad Network :frog:
