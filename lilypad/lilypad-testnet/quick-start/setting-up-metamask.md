@@ -5,11 +5,12 @@ description: >-
 ---
 
 # Setting up MetaMask
+
 Both Resource Proiders (GPU compute nodes) and those looking to run jobs on the Lilypad network need to set up a Metamask account in order to run jobs on Lilypad. The public key of your wallet address is how you are identified on the network, and is how you can look up the transactions you make on the [Arbitrum Etherscan blockchain explorer](https://etherscan.io/token/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1). You need an account for running jobs, and a separate account for each GPU you want to set up on the network.
 
 The wallet you use for your account must have both ETH (to run smart contracts on Ethereum) and Lilypad (LP) tokens in order to pay for jobs (or recieve funds for jobs) on the network.
 
-<figure><img src="../../.gitbook/assets/eth-lp-wallet.png.png" alt="" width="355"><figcaption>"a wallet funded with both ETH and LP tokens"</figcaption></figure>
+<figure><img src="../../.gitbook/assets/eth-lp-wallet (1).png" alt="Meatamask wallet funded with ETH Arbitrum and Lilypad tokens" width="358"><figcaption><p>A wallet funded with Arbitrum ETH and Lilypad tokens</p></figcaption></figure>
 
 ## Create a MetaMask wallet
 
@@ -19,7 +20,7 @@ End users of Lilypad can decide which crypto wallet they would like to use. In t
 
 ### Use the Arbitrum Sepolia Testnet in MetaMask.
 
-The Lilypad Testnet (IncentiveNet) is currently running on the Arbitrum L2 network built on Ethereum.&#x20;
+The Lilypad Testnet (IncentiveNet) is currently running on the Arbitrum L2 network built on Ethereum.
 
 In order to change to the Arbitrum network in the wallet, open MetaMask and click the network button in the top left of the menu bar:
 
@@ -72,4 +73,4 @@ You should now see both ETH and LP listed in the wallet (initial ETH and LP bala
 
 <figure><img src="../../.gitbook/assets/import-token-step-3 (1).png" alt="" width="352"><figcaption></figcaption></figure>
 
-Now you're ready to fund the wallet with testnet LP and ETH tokens!&#x20;
+Now you're ready to fund the wallet with testnet LP and ETH tokens!
