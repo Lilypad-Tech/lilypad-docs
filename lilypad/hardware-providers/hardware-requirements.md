@@ -41,4 +41,8 @@ Lilypad uses the Resource Provider's GPU to load models, initially requiring the
 
 ## Additional Considerations
 
+* **Wallets for each GPU:** You need a separate account for each GPU you want to set up on the network. The wallet you use for your account must have both ETH (to run smart contracts on Ethereum) and Lilypad (LP) tokens in order to recieve funds for jobs) on the network.
+
+<figure><img src="../../.gitbook/assets/eth-lp-wallet.png.png" alt="" width="355"><figcaption>"a wallet funded with both ETH and LP tokens"</figcaption></figure>
+
 * **Larger Models:** Jobs involving more substantial models will demand additional RAM. It's important to note that adequate VRAM alone is insufficient; your system must also have enough RAM to load the model into the GPU successfully. Without sufficient system RAM, the model cannot be loaded into the GPU, regardless of available VRAM.
