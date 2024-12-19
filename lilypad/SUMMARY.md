@@ -31,6 +31,7 @@
 ## Developer Resources
 
 * [Build a Job Module](developer-resources/build-a-job-module.md)
+* [JS CLI Wrapper (local)](developer-resources/js-cli-wrapper-local.md)
 * [Running Lilypad in a Front End](developer-resources/running-lilypad-in-a-front-end.md)
 * [Lilypad Smart Contracts](developer-resources/lilypad-smart-contracts.md)
 
