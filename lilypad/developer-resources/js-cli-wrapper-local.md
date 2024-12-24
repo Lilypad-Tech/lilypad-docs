@@ -6,7 +6,7 @@ description: Run the Lilypad CLI wrapper locally
 
 The Lilypad CLI wrapper can run locally to create an API endpoint for running jobs on the Lilypad network. This gives developers full control to build a decentralized system running jobs on Lilypad. Github repo can be found [here](https://github.com/Lilypad-Tech/js-cli-wrapper).
 
-Build a [front end ](https://blog.lilypadnetwork.org/setting-up-your-lilypad-front-end)or AI agent workflow that uses this API endpoint for running jobs!
+Build a [front end ](https://blog.lilypadnetwork.org/setting-up-your-lilypad-front-end)or AI agent workflow that uses this API endpoint for running jobs! For inspiration, check out [this](https://github.com/Lilypad-Tech/js-cli-wrapper/tree/main/examples) JS CLI wrapper + Gradio example. Spin up a Webui with Gradio and use the api with a frontend!
 
 **Note:** This is a beta tool and would mostly be expected to run locally. When implementing this tool, note that the POST request includes the user's Web3 private key. Stay tuned for a hosted API from Lilypad that will supplement this local CLI Wrapper.&#x20;
 
