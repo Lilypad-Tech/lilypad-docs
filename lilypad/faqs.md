@@ -57,7 +57,7 @@ Phases 2 and onward will provide rewards for Lilypad modules created as well as 
 
 ### How do I check my Lilybit\_ rewards?
 
-You can check your rewards by pasting your nodes wallet address into the following inteerfaces:
+You can check your rewards by pasting your nodes wallet address into the following interfaces:
 
 ### How does Lilypad use blockchain, and why do I need both ETH and Lilypad tokens to run a job?
 
