@@ -16,7 +16,7 @@ Perform off-chain decentralized compute over data, with on-chain guarantees, and
 
 ### Lilypad Whitepaper
 
-Lilypad will release a Whitepaper by November 2024.
+The Lilypad Whitepaper and Tokenomics paper is in review and is scheduled to be released in January 2025 (initially planned to release by end of Q4 2024, but required further review from our team and advisors).
 
 ### Roadmap
 
@@ -62,11 +62,12 @@ You can check your rewards by pasting your nodes wallet address into the followi
 ### How does Lilypad use blockchain, and why do I need both ETH and Lilypad tokens to run a job?
 
 On the Lilypad network, The blockchain is used for
+
 * payment rails
 * storing the deals transparently (on-chain guarantees about the compute)
 * storing any disputes & results
 
-Lilypad Tokens  are used to transact on the Lilypad network. They are used as payment by those who want to run jobs (to the resource providers who run them), and as collateral by resource providers
+Lilypad Tokens are used to transact on the Lilypad network. They are used as payment by those who want to run jobs (to the resource providers who run them), and as collateral by resource providers
 
 You need ETH tokens to pay for the gas fees for smart contracts the facilitate transactions, and for records of transactions and disputes that are posted to the Ethereum blockchain.
 
@@ -103,7 +104,7 @@ The instructions can be found in our [installation documentation](https://docs.l
 
 To check if the RP is running use the following command: `sudo systemctl status lilypad-resource-provider`.
 
-This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resource-provider.service -f`.&#x20;
+This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resource-provider.service -f`.
 
 Find more information, select your preferred platform below and check out the docs:
 
