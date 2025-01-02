@@ -146,10 +146,6 @@ For more information on the requirements to run a Lilypad node, please refer to 
 
 ## 📖 Token Questions
 
-### Lilypad Tokenomics
-
-Tokenomics and research papers are currently being developed and expected by Q4 2024.
-
 ### Expected TGE
 
 Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q2 2025.
