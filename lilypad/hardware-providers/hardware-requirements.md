@@ -8,6 +8,7 @@ This page overviews the hardware requirements to operate a Lilypad Network node.
 * **RAM**: 32GB (see additional details below)
 * **Internet**: Internet: 250Mbps download, 100Mbps upload (minimum)
 * **GPU**: NVIDIA GPU with a minimum of 8GB VRAM (see additional details below)
+* **Storage:** SSD with at least 500gb of free space
 
 ## GPU Requirements
 
@@ -26,7 +27,7 @@ The capability of your GPU to manage multiple or more complex Lilypad jobs is en
 
 * GPUs with 8GB of VRAM are limited to running models like SDXL, which fit within this specification. Larger GPUs with higher VRAM are required for more demanding models like SDV, which needs at least 14GB of VRAM.
 
-#### For example:&#x20;
+#### For example:
 
 * A node with a GPU containing 8GB of VRAM can execute Lilypad [SDXL](https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline) module jobs, which require a minimum of 8GB of VRAM.
 * Larger capacity GPUs are needed for heavier compute models like [SDV](https://github.com/Lilypad-Tech/lilypad-module-sdv-pipeline), which require at least 14GB of VRAM.
@@ -43,6 +44,6 @@ Lilypad uses the Resource Provider's GPU to load models, initially requiring the
 
 * **Wallets for each GPU:** You need a separate account for each GPU you want to set up on the network. The wallet you use for your account must have both ETH (to run smart contracts on Ethereum) and Lilypad (LP) tokens in order to recieve funds for jobs) on the network.
 
-<figure><img src="../../.gitbook/assets/eth-lp-wallet.png.png" alt="" width="355"><figcaption>"a wallet funded with both ETH and LP tokens"</figcaption></figure>
+<figure><img src="../../.gitbook/assets/eth-lp-wallet.png.png" alt="" width="355"><figcaption><p>"a wallet funded with both ETH and LP tokens"</p></figcaption></figure>
 
 * **Larger Models:** Jobs involving more substantial models will demand additional RAM. It's important to note that adequate VRAM alone is insufficient; your system must also have enough RAM to load the model into the GPU successfully. Without sufficient system RAM, the model cannot be loaded into the GPU, regardless of available VRAM.
