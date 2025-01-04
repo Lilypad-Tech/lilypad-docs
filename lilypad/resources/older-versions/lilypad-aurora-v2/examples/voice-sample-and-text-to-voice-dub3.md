@@ -39,7 +39,7 @@ Then use the command below to run the module. Note the parameters for changing t
 
 {% code overflow="wrap" %}
 ```bash
-lilypad run github.com/dub3-space/lily-synthetizoor:b4d2e078c3447e1df12588ee854360087ce7f081 -i URL=https://bafybeibrum5bqhslpoemqiyvikbg3b5ujte6qppvk2cbdstwxnhejypxl4.ipfs.w3s.link/ally-voice.wav -i SENTENCE='Hello! Youre listening to voice translation on Lilypad with dub3!' -i LANGUAGE=en -i INPUT_FOLDER=/inputs -i OUTPUT_FOLDER=/outputs
+lilypad run github.com/dub3-space/lily-synthetizoor:b4d2e078c3447e1df12588ee854360087ce7f081 -i URL=https://bafybeibrum5bqhslpoemqiyvikbg3b5ujte6qppvk2cbdstwxnhejypxl4.ipfs.w3s.link/ally-voice.wav -i SENTENCE='Hello! You are listening to voice translation on Lilypad with dub3!' -i LANGUAGE=en -i INPUT_FOLDER=/inputs -i OUTPUT_FOLDER=/outputs
 ```
 {% endcode %}
 

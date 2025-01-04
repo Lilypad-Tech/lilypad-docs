@@ -21,7 +21,7 @@ layout:
 
 [Lilypad](https://lilypad.tech)  is developing a serverless, distributed compute network that enables internet-scale data processing, AI, ML & other arbitrary computation, while unleashing idle processing power & unlocking a new marketplace for compute.&#x20;
 
-You can use Lilypad to run AI workload models including Stable Diffusion and Stable Diffusion Video, or you can add your own module to run on the Lilypad Network. Using Lilypads distributed compute nodes, you can build and run your own containerized workloads that require high-performance computing.&#x20;
+You can use Lilypad to run AI workload models including Stable Diffusion and Stable Diffusion Video, or you can add your own module to run on the Lilypad Network. Using Lilypad's distributed compute nodes, you can build and run your own containerized workloads that require high-performance computing.&#x20;
 
 {% embed url="https://twitter.com/Lilypad_Tech/status/1689528626440794113?s=20" %}
 
@@ -96,7 +96,7 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 * [FAQs](https://docs.lilypad.tech/lilypad/faqs)
 * [Resource Provider (node) Leaderboard](https://info.lilypad.tech/leaderboard) - Lilybit\_ rewards
 * [Open Source Contributor Dashboard](https://oss.lilypad.tech/) - Open source rewards
-* [Lilypad Grafara RP dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m) - Lilybit\_ rewards
+* [Lilypad Grafana RP dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m) - Lilybit\_ rewards
 * [awesome-Lilypad](https://github.com/Lilypad-Tech/awesome-Lilypad/blob/main/README.md) repo with examples and use cases
 * [Quick Start ](lilypad-testnet/quick-start/)- Run a Lilypad "Hello World"
 * [Add](developer-resources/build-a-job-module.md) an AI model to Lilypad

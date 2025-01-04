@@ -34,7 +34,7 @@ sudo mv lilypad /usr/local/bin
 
 Run `node src/index.js` to create a local endpoint using the js wrapper with either `src/run.js` or `src/stream.js`, then send a post request containing json with your funded `WEB3_PRIVATE_KEY` key set, see the quick start for more on [getting started](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/quick-start)
 
-In `inputs`, each input must be preceeded by the `-i` flag, including tunables. For example: `"inputs": "-i Prompt='an astronaut floating against a white background' -i Steps=50"`
+In `inputs`, each input must be preceded by the `-i` flag, including tunables. For example: `"inputs": "-i Prompt='an astronaut floating against a white background' -i Steps=50"`
 
 **Note:** This tool is for demonstration purposes and can be used to run jobs on Lilypad for free. The tooling will be improved upon in the coming weeks for greater scalability. Use the following post request with the WEB3\_PRIVATE\_KEY below to run jobs on Lilypad. The wallet/private key below is funded with testnet tokens only and has been setup to simplify the use of this developer tool.
 

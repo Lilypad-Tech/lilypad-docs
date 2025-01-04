@@ -65,7 +65,7 @@ Lilypad: v2.0.0-d58a991
 This could take up to a minute to propagate through the IPFS network. Please be patient
 {% endhint %}
 
-2. by navigting to the local folder
+2. by navigating to the local folder
 
 <pre class="language-bash"><code class="lang-bash"><strong>open /tmp/lilypad/data/downloaded-files/Qmay5vZ7u5jvn2VkAGMLkkYXGQQd5GFZFuHkbDEFYb5VeF
 </strong></code></pre>

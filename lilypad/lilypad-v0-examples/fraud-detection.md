@@ -50,7 +50,7 @@ Open this example in remix -> [click here](https://remix.ethereum.org/bacalhau-p
 {% endhint %}
 
 
-During contract deployment, a tableland table is created. The bridge while calling the lilypadFulfilled also saves the results of inference to the table which can be used to monitor the model perfomance.
+During contract deployment, a tableland table is created. The bridge while calling the lilypadFulfilled also saves the results of inference to the table which can be used to monitor the model performance.
 
 Storing a reference to the table ID and prefix within your contract is advisable since it enhances ease of reference in different methods, facilitating smoother execution.
 

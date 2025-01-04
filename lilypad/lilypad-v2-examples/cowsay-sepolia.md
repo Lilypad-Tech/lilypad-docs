@@ -52,7 +52,7 @@ Navigate to the IPFS CID result output in the Results -> [https://ipfs.io/ipfs/Q
 This could take up to a minute to propagate through the IPFS network. Please be patient
 {% endhint %}
 
-2. by navigting to the local folder
+2. by navigating to the local folder
 ```bash
 open /tmp/lilypad/data/downloaded-files/Qmay5vZ7u5jvn2VkAGMLkkYXGQQd5GFZFuHkbDEFYb5VeF
 ```
