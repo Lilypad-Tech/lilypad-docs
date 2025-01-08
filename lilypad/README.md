@@ -19,7 +19,7 @@ layout:
 
 # 🍃 Lilypad Home
 
-[Lilypad](https://lilypad.tech)  is developing a serverless, distributed compute network that enables internet-scale data processing, AI, ML & other arbitrary computation, while unleashing idle processing power & unlocking a new marketplace for compute.&#x20;
+[Lilypad](https://lilypad.tech) is developing a serverless, distributed compute network that enables internet-scale data processing, AI, ML & other arbitrary computation, while unleashing idle processing power & unlocking a new marketplace for compute.&#x20;
 
 You can use Lilypad to run AI workload models including Stable Diffusion and Stable Diffusion Video, or you can add your own module to run on the Lilypad Network. Using Lilypads distributed compute nodes, you can build and run your own containerized workloads that require high-performance computing.&#x20;
 
@@ -85,7 +85,7 @@ To find out more about it, see the Bacalhau [Docs](https://docs.bacalhau.org/)!
 
 ## Roadmap
 
-<figure><img src=".gitbook/assets/NewLilyRoadmap.png" alt=""><figcaption></figcaption></figure>
+Find the full Lilypad Roadmap on our [website](https://lilypad.tech/#roadmap)!
 
 ## Lilypad Linktree - Learn more and join the community!
 
