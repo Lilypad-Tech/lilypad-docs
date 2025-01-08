@@ -58,9 +58,9 @@ Network info is referenced directly from the Arbitrum Sepolia [documentation](ht
 
 The wallet is now setup and will display an ETH (Arbitrum Sepolia) token balance. In order to also display the LP token balance, the LP token will need to be imported.
 
-Select "Import tokens" at the bottom of the wallet:
+Select "Import tokens" from the three dot menu next to the network name:
 
-<figure><img src="../../.gitbook/assets/import-token-step-1 (1).png" alt="" width="353"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/import token (1).png" alt="" width="351"><figcaption></figcaption></figure>
 
 Select "Custom token" and add the Lilypad token contract address and token symbol. Then "Save".
 
