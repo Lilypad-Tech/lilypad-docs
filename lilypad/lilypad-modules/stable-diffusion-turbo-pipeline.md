@@ -4,9 +4,7 @@ description: A Lightweight Stable Diffusion Module for Lilypad
 
 # Stable Diffusion Turbo Pipeline
 
-
-
-These instructions provide steps for running the SDXL Turbo Pipeline module on the Lilypad network using Docker and Lilypad CLI.
+These instructions provide steps for running the SDXL Turbo Pipeline module on the Lilypad network using Docker and Lilypad CLI. Find the module repo [here](https://github.com/noryev/module-sdxl-ipfs).
 
 ## Getting Started
 
