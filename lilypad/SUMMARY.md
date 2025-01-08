@@ -38,6 +38,7 @@
 ## Lilypad Modules
 
 * [Hello, (cow) World!](lilypad-modules/hello-cow-world.md)
+* [Llama2](lilypad-modules/llama2.md)
 * [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules/stable-diffusion-sdxl0.9.md)
 * [Stable Diffusion Turbo Pipeline](lilypad-modules/stable-diffusion-turbo-pipeline.md)
 * [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-modules/stable-diffusion-video-sdv1.0-and-1.1.md)
