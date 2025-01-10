@@ -77,7 +77,7 @@ lilypad run sdxl:v0.9-lilypad1 -i PromptEnv="PROMPT=beautiful view of iceland wi
 In this video, Sam demos the use of SDXL in the Lilypad network.
 
 {% embed url="https://youtu.be/RBECCMl_fco" %}
-Lilypad \[CLI] Stable Diffusion with SDLX 0.9 Demo
+Lilypad \[CLI] Stable Diffusion with SDXL 0.9 Demo
 {% endembed %}
 
 ### Looking for Smart Contracts?

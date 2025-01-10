@@ -6,7 +6,7 @@ description: Sorry! We're working on this page!
 
 ## Using the Lilypad Contracts
 
-We have deloyed the [LilypadOnChainJobCreator](https://github.com/Lilypad-Tech/lilypad/blob/main/hardhat/contracts/LilypadOnChainJobCreator.sol) contract which you can use to trigger running jobs on the lilypad network from other smart contracts.
+We have deployed the [LilypadOnChainJobCreator](https://github.com/Lilypad-Tech/lilypad/blob/main/hardhat/contracts/LilypadOnChainJobCreator.sol) contract which you can use to trigger running jobs on the lilypad network from other smart contracts.
 
 It works in tandem with the `lilypad jobcreator` on-chain which will watch the on-chain contract and manage jobs on behalf of contracts that submit them.
 

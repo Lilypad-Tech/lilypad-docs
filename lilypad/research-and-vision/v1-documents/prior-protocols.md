@@ -1,6 +1,6 @@
 ---
 description: >-
-  Investigation of some previous verifiacation-by-replication computing
+  Investigation of some previous verification-by-replication computing
   protocols
 ---
 

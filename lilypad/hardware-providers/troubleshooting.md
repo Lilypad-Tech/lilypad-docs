@@ -97,7 +97,7 @@ Recommendation guide using Proxmox found [here](https://github.com/Lilypad-Tech/
 
 No, this would be considered detrimental to the Lilypad network and cannot be rewarded.&#x20;
 
-In order to run jobs successfully, Lilypd RPs must ensure all resources on the server are available. If a single GPU is running many RPs and splitting the server resources between them, this causes each RP to not have enough resources to run a Lilypad job.
+In order to run jobs successfully, Lilypad RPs must ensure all resources on the server are available. If a single GPU is running many RPs and splitting the server resources between them, this causes each RP to not have enough resources to run a Lilypad job.
 
 ### How do I setup a personal RPC for Arbitrum Sepolia?
 

@@ -42,7 +42,7 @@ Lilypad uses the Resource Provider's GPU to load models, initially requiring the
 
 ## Additional Considerations
 
-* **Wallets for each GPU:** You need a separate account for each GPU you want to set up on the network. The wallet you use for your account must have both ETH (to run smart contracts on Ethereum) and Lilypad (LP) tokens in order to recieve funds for jobs) on the network.
+* **Wallets for each GPU:** You need a separate account for each GPU you want to set up on the network. The wallet you use for your account must have both ETH (to run smart contracts on Ethereum) and Lilypad (LP) tokens in order to receive funds for jobs) on the network.
 
 <figure><img src="../../.gitbook/assets/eth-lp-wallet.png.png" alt="" width="355"><figcaption><p>"a wallet funded with both ETH and LP tokens"</p></figcaption></figure>
 

@@ -30,7 +30,7 @@ One way to ensure that computations were done correctly is by using cryptographi
 
   * Zero-knowledge proofs are a type of interactive proof where the verifier learns nothing about private inputs of the computation, other than that the outputs were computed correctly from the all the inputs (some of which may be public/known to the verifier).
 
-  * A ZKP can be made non-interactive, in which case it is called a Non-Interactive Zero-Knowlege Proof (NIZK). Two common variants of NIZKs are zk-SNARKs (zero-knowledge Succinct Non-interactive Argument of Knowledge) and zk-STARKs (zero-knowledge Scalable Transparent Argument of Knowledge).
+  * A ZKP can be made non-interactive, in which case it is called a Non-Interactive Zero-Knowledge Proof (NIZK). Two common variants of NIZKs are zk-SNARKs (zero-knowledge Succinct Non-interactive Argument of Knowledge) and zk-STARKs (zero-knowledge Scalable Transparent Argument of Knowledge).
 
   * Like IPs, ZKPs must also satisfy the requirements of completeness and soundness.
 

@@ -8,9 +8,9 @@ The Lilypad ML workbench provides ML researchers, businesses, and more a simple 
 
 The ML workbench provides an interface to:
 
-* Run models that are currenly avaliable on the Lilypad GPU network
+* Run models that are currently available on the Lilypad GPU network
 * Add a new model to run on the network as a [Lilypad module](https://docs.lilypad.tech/lilypad/developer-resources/build-a-job-module)
-* Leverage Juptyer notebooks with Lilypad
+* Leverage Jupyter notebooks with Lilypad
 * Create multi-module flows
 * Fine tune models
 * Create an AI agent
@@ -33,7 +33,7 @@ Implement the Lilypad module allowlist and cache the models locally before they 
 
 ## Finetuning
 
-Import a dataset and use the the "Data" tool to finetune a model for a specific end user. Create a Lilypad lodule and save the module on IPFS. More on this soon!
+Import a dataset and use the the "Data" tool to finetune a model for a specific end user. Create a Lilypad module and save the module on IPFS. More on this soon!
 
 <figure><img src="../.gitbook/assets/MLWorkbench9.png" alt=""><figcaption></figcaption></figure>
 

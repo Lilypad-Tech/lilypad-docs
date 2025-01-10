@@ -256,7 +256,7 @@ RestartSec=5s
 ExecStart=/usr/bin/bacalhau serve --node-type compute,requester --peer none --private-internal-ipfs=false --ipfs-connect "/ip4/127.0.0.1/tcp/5001"
 
 [Install]
-WantedBy=multi-user.target  
+WantedBy=multi-user.target 
 ```
 
 ### Install systemd unit for GPU provider

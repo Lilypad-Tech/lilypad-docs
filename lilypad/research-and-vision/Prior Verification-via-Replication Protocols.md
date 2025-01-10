@@ -21,7 +21,7 @@ The authors claim that Sybil attacks are mitigated by pairwise Sybil-resistance 
 
 * Does not scale to large/complicated/arbitrary computations
 
-* No formal theorems or proofs, no simulations, many plausible but unsubstatiated claims, especially regarding collusion
+* No formal theorems or proofs, no simulations, many plausible but unsubstantiated claims, especially regarding collusion
 
 * Everything is done on-chain
 
