@@ -58,6 +58,9 @@ Phases 2 and onward will provide rewards for Lilypad modules created as well as 
 ### How do I check my Lilybit\_ rewards?
 
 You can check your rewards by pasting your nodes wallet address into the following interfaces:
+* [Grafana dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m)
+* [Lilypad leaderboard](https://info.lilypad.tech/leaderboard)
+* [Open Source contributor dashboard](https://oss.lilypad.tech/)
 
 ### How does Lilypad use blockchain, and why do I need both ETH and Lilypad tokens to run a job?
 
@@ -67,13 +70,9 @@ On the Lilypad network, The blockchain is used for
 * storing the deals transparently (on-chain guarantees about the compute)
 * storing any disputes & results
 
-Lilypad Tokens are used to transact on the Lilypad network. They are used as payment by those who want to run jobs (to the resource providers who run them), and as collateral by resource providers
+Lilypad Tokens are used to transact on the Lilypad network. They are used as payment by those who want to run jobs (to the resource providers who run them), and as collateral by resource providers.
 
 You need ETH tokens to pay for the gas fees for smart contracts the facilitate transactions, and for records of transactions and disputes that are posted to the Ethereum blockchain.
-
-* [Grafana dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m)
-* [Lilypad leaderboard](https://info.lilypad.tech/leaderboard)
-* [Open Source contributor dashboard](https://oss.lilypad.tech/)
 
 ## ⚙️ Hardware Provider Questions
 
