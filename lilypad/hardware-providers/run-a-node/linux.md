@@ -135,7 +135,7 @@ ipfs daemon
 Bacalhau is a peer-to-peer network of nodes that enables decentralized communication between computers. The network consists of two types of nodes, which can communicate with each other.
 
 {% hint style="info" %}
-Bacalhau versions newer than `v1.3.2` are not currently supported but will be in the future. Please pin to Bacalhau `v1.3.2` for now.
+Bacalhau versions newer than `v1.6.0` are not currently supported but will be in the future. Please pin to Bacalhau `v1.6.0` for now.
 {% endhint %}
 
 To install Bacalhau, run the following in a new terminal window (run each command one by one):
@@ -143,9 +143,9 @@ To install Bacalhau, run the following in a new terminal window (run each comman
 ```bash
 cd /tmp
 
-wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.3.2/bacalhau_v1.3.2_linux_amd64.tar.gz
+wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.6.0/bacalhau_v1.6.0_linux_amd64.tar.gz
 
-tar xfv bacalhau_v1.3.2_linux_amd64.tar.gz
+tar xfv bacalhau_v1.6.0_linux_amd64.tar.gz
 
 sudo mv bacalhau /usr/bin/bacalhau
 
@@ -162,10 +162,10 @@ The expected output is:
 
 ```
 CLIENT  SERVER  LATEST
-v1.3.2  v1.5.0  1.5.0
+v1.6.0
 ```
 
-If the Bacalhau `CLIENT` version is not v1.3.2, it will need to be replaced. Follow the steps [here](https://docs.lilypad.tech/lilypad/hardware-providers/troubleshooting#how-do-i-change-my-bacalhau-version) to uninstall and reinstall Bacalhau.
+If the Bacalhau `CLIENT` version is not v1.6.0, it will need to be replaced. Follow the steps [here](https://docs.lilypad.tech/lilypad/hardware-providers/troubleshooting#how-do-i-change-my-bacalhau-version) to uninstall and reinstall Bacalhau.
 
 ### Install Lilypad
 
