@@ -22,9 +22,7 @@ The Lilypad Whitepaper and Tokenomics paper is in review and is scheduled to be 
 
 Lilypad Network is currently in Testnet. The team is currently ironing out some remaining known issues and working on a fair model for our Incentivized Testnet.
 
-Find the full Lilypad Network [roadmap](https://lilypad.tech/roadmap.html) on our website!
-
-<figure><img src=".gitbook/assets/roadmap-new.png" alt=""><figcaption></figcaption></figure>
+Find the full Lilypad Network [roadmap](https://lilypad.tech/#roadmap) on our website!
 
 ### Wait, didn’t Lilypad used to rely on determinism and optimistic reproducibility for verifiable compute?
 
@@ -41,7 +39,7 @@ Yes, Lilypad closed our seed round of funding in March 2024.
 
 ### When will the Incentivized Testnet launch?
 
-The Lilypad Incentivized testnet launched in mid June 2024. Stay tuned on [the Lilypad Discord](https://lilypad.team/discord) for more info!
+The Lilypad Incentivized testnet launched in mid June 2024.
 
 ### How do LilyBit\_ rewards work?
 
@@ -58,6 +56,7 @@ Phases 2 and onward will provide rewards for Lilypad modules created as well as 
 ### How do I check my Lilybit\_ rewards?
 
 You can check your rewards by pasting your nodes wallet address into the following interfaces:
+
 * [Grafana dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m)
 * [Lilypad leaderboard](https://info.lilypad.tech/leaderboard)
 * [Open Source contributor dashboard](https://oss.lilypad.tech/)
@@ -147,6 +146,4 @@ For more information on the requirements to run a Lilypad node, please refer to 
 
 ### Expected TGE
 
-Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE for LP tokens is scheduled for Q2 2025.
-
-Can't find the answer you were looking for? Join [the Lilypad Discord server](https://lilypad.team/discord) for live support! 🪷
+Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE is scheduled for Q2 2025.

@@ -1,6 +1,6 @@
 # Hardware Requirements
 
-This page overviews the hardware requirements to operate a Lilypad Network node. It's important to note that these requirements continuously evolve as the network grows. If you have questions or suggestions, please join our [Discord](https://lilypad.team/discord) or open a pull request on the [Lilypad documentation repo](https://github.com/Lilypad-Tech/lilypad-docs).
+This page overviews the hardware requirements to operate a Lilypad Network node. It's important to note that these requirements continuously evolve as the network grows. If you have questions or suggestions, please join our [Discord](https://discord.gg/tnE8SMmsxW) or open a pull request on the [Lilypad documentation repo](https://github.com/Lilypad-Tech/lilypad-docs).
 
 ## Minimum Hardware Requirements
 
