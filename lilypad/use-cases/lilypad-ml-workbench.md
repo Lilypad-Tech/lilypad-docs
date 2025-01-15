@@ -18,7 +18,7 @@ The ML workbench provides an interface to:
 In order to run an AI model on the Lilypad network, a docker image must be created for the program using the [Lilypad module spec](https://docs.lilypad.tech/lilypad/developer-resources/build-a-job-module).&#x20;
 
 {% hint style="info" %}
-The ML workbench product is currently in beta testing and is not yet provided as a hosted solution. Reach out in the Lilypad [Discord](https://discord.gg/lilypad-network) for more info!
+The ML workbench product is currently in beta testing and is not yet provided as a hosted solution. Reach out in the Lilypad [Discord](https://discord.gg/zSErHwZSyC) for more info!
 {% endhint %}
 
 ## AI Inference
