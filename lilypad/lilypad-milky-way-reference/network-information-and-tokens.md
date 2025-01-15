@@ -70,7 +70,7 @@ sudo chown -R $USER /app/data
     # Detect your operating system and set it as $OSNAME
     OSNAME=$(uname -s | awk '{if ($1 == "Darwin") print "darwin"; else if ($1 == "Linux") print "linux"; else print "unsupported_os"}') && export OSNAME;
     # Download the latest production build
-    curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O lilypad
+    curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH" | cut -d : -f 2,3 | tr -d \" | wget -i - -O lilypad
     # Make Lilypad executable and install it
     chmod +x lilypad
     sudo mv lilypad /usr/local/bin/lilypad

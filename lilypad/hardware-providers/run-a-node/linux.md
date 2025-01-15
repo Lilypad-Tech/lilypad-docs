@@ -183,7 +183,7 @@ OSNAME=$(uname -s | awk '{if ($1 == "Darwin") print "darwin"; else if ($1 == "Li
 # Remove existing lilypad installation if it exists
 sudo rm -f /usr/local/bin/lilypad
 # Download the latest production build
-curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH-gpu" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O lilypad
+curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "browser_download_url.*lilypad-$OSNAME-$OSARCH-gpu" | cut -d : -f 2,3 | tr -d \" | wget -i - -O lilypad
 # Make Lilypad executable and install it
 chmod +x lilypad
 sudo mv lilypad /usr/local/bin/lilypad
