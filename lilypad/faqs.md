@@ -39,7 +39,7 @@ Yes, Lilypad closed our seed round of funding in March 2024.
 
 ### When will the Incentivized Testnet launch?
 
-The Lilypad Incentivized testnet launched in mid June 2024. Stay tuned on [the Lilypad Discord](https://lilypad.team/discord) for more info!
+The Lilypad Incentivized testnet launched in mid June 2024.
 
 ### How do LilyBit\_ rewards work?
 
@@ -147,5 +147,3 @@ For more information on the requirements to run a Lilypad node, please refer to 
 ### Expected TGE
 
 Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE is scheduled for Q2 2025.
-
-Can't find the answer you were looking for? Join [the Lilypad Discord server](https://lilypad.team/discord) for live support! 🪷
