@@ -14,7 +14,7 @@ description: >-
 Earn those double bounty dollars building out crossover POCs to Lilypad!
 {% endhint %}
 
-Lilypad is aiming to build out a full suite of decentralized AI projects, which means we want to collaborate with other projects in the ecosystem to make this vision a reality.&#x20;
+Lilypad is aiming to build out a full suite of decentralized AI projects, which means we want to collaborate with other projects in the ecosystem to make this vision a reality.
 
 These include linking Lilypad compute with storage providers, data streams, databases & more.
 
@@ -37,12 +37,11 @@ There are also opportunities to extend the functionality of Lilypad compute with
 * Vector databases
 * Autonomous agents
 * Batching jobs with an external script
-* Chaining jobs together in a pipeline\
-
+* Chaining jobs together in a pipeline\\
 
 ### 💅 Contribute a Module
 
-Contributing a module is one of the coolest things to do for Lilypad. There are so many many options for compute and AI jobs that you can run with Lilypad, including adding new state-of-the-art OSS AI models&#x20;
+Contributing a module is one of the coolest things to do for Lilypad. There are so many many options for compute and AI jobs that you can run with Lilypad, including adding new state-of-the-art OSS AI models
 
 * Text to speech
 * Text to opera (have you heard this one!)
@@ -51,8 +50,7 @@ Contributing a module is one of the coolest things to do for Lilypad. There are 
 * Build a module that classifies images into predefined categories (e.g., cats, dogs)
 * A basic recommendation system for movies, books, or products based on user preferences
 * Personal finance tracker that uses AI to categorize and analyze spending patterns.
-* A module that provides personalized tutoring and learning assistance using AI\
-
+* A module that provides personalized tutoring and learning assistance using AI\\
 
 As a quick refresher, the current module making pipeline ([see full "Build a job module" resource](developer-resources/build-a-job-module.md)) looks like this:
 
@@ -77,7 +75,7 @@ Some of the opportunities to improve this process include:
 
 💛 Moderate skill needed
 
-❤️ Jedi mode!&#x20;
+❤️ Jedi mode!
 {% endhint %}
 
 * 💛 An application that can auto-containerise (or auto-dockerise) a given compute script
@@ -102,8 +100,7 @@ Here are a few basic ideas of end user projects:
 * **Environment:** Developing solutions for environmental monitoring and pollution tracking
 * **Security:** Tools using AI for auditing and security analysis
 
-Projects across DeFi, DeSci, Gaming, & Metaverse, NFTs, IOT and more, as well [#crossover-pocs-integrations-and-plugins](win-hacks-and-contribute.md#crossover-pocs-integrations-and-plugins "mention")!\
-
+Projects across DeFi, DeSci, Gaming, & Metaverse, NFTs, IOT and more, as well [#crossover-pocs-integrations-and-plugins](win-hacks-and-contribute.md#crossover-pocs-integrations-and-plugins "mention")!\\
 
 ### 🐐 Need more inspiration?
 
@@ -115,12 +112,10 @@ Pssst... We'd love to share your projects here too! Feel free to [submit a PR](h
 
 <figure><img src=".gitbook/assets/showcase.gif" alt=""><figcaption></figcaption></figure>
 
-
-
 ### ✨We would love to hear your feedback!✨
 
 We hope this page inspires you to build amazing things with us! If you have any ideas, suggestions, or any questions, we'd love to hear from you! Join our community on Discord to share your thoughts, ideas, ask questions, and get the support you need from the Lilypad team. 🪷
 
-[Join our Discord channel here](https://lilypad.team/discord)!
+[Join our Discord channel here](https://discord.gg/tnE8SMmsxW)!
 
-**🌱Your feedback helps us improve and grow together!**\
+**🌱Your feedback helps us improve and grow together!**\\

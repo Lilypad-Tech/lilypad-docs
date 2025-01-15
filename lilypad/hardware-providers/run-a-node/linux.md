@@ -360,7 +360,7 @@ For **complex issues, bug reports, or feature requests,** open a discussion in t
 
 ## Update Lilypad version
 
-When a new version of Lilypad is [released](https://discord.com/channels/1212897693450641498/1256179769356189707), it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements.
+When a new version of Lilypad is released, it is important for resource providers to update their installations to ensure compatibility and access to the latest features and improvements.
 
 Please note that using `sudo rm -rf` is very powerful and can be dangerous if not used carefully.
 
