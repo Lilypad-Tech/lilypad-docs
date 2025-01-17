@@ -150,6 +150,12 @@ To view your Lilybit\_ rewards, visit one of the following dashboards and paste 
 
 Here are some common troubleshooting techniques when it comes to your resource provider using Docker:
 
+**Configuing Nvidia Runtime to Docker**
+
+If you are switching from Lilypad Linux to Lilypad Docker, you will need to configure your Nvidia container toolkit to integrate with Docker and set the NVIDIA runtime as the default runtime for Docker containers.
+
+`sudo nvidia-ctk runtime configure --runtime=docker --set-as-default`
+
 **Checking Docker Runtime**\
 To verify your Docker runtime configuration: `sudo docker info | grep Runtimes`
 
