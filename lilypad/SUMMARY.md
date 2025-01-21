@@ -20,8 +20,8 @@
 
 * [Hardware Requirements](hardware-providers/hardware-requirements.md)
 * [Run a node](hardware-providers/run-a-node/README.md)
-  * [Linux](hardware-providers/run-a-node/linux.md)
   * [Docker](hardware-providers/run-a-node/docker.md)
+  * [Linux](hardware-providers/run-a-node/linux.md)
 * [Setup Arbitrum RPC](hardware-providers/setup-arbitrum-rpc/README.md)
   * [Alchemy RPC](hardware-providers/setup-arbitrum-rpc/alchemy-rpc.md)
   * [Infura RPC](hardware-providers/setup-arbitrum-rpc/infura-rpc.md)
