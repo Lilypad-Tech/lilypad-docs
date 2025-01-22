@@ -6,7 +6,7 @@ description: Learn about modules on Lilypad
 
 ## Modules Intro
 
-Lilypad modules are the compute jobs that are run on the Lilypad network of nodes. Lilypad nodes are set up to run GPU computer jobs like AI Inference jobs, but can be used by other GPU-intensive tasks like image generation.
+Lilypad modules are the compute jobs that are run on the Lilypad network of Resource Provider nodes. Lilypad nodes are set up to run GPU compute jobs such as AI inference, but can be used for other GPU-intensive tasks like image generation.
 
 There are two ways that participants in the network can use Lilypad Modules, as _Job Creators_ or as _Module Creators_
 
