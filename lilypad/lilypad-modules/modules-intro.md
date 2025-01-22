@@ -20,7 +20,7 @@ Running Jobs (participating as a 'Job Creator') is just a few simple steps. You 
 
 #### **Example Modules**
 
-The Quickstart guide has a simple examples cowsay module you can run or try out some of the Lilypad team supported modules:
+There is a basic example [cowsay module](hello-cow-world.md) you can run, or try out some of the Lilypad team supported modules:
 
 * [**Llama 2**](llama2.md)
 * [**Stable Diffusion (SDXL0.9 & 1.0)**](stable-diffusion-sdxl0.9.md)
