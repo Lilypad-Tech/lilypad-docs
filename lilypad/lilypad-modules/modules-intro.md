@@ -16,11 +16,11 @@ Running Jobs (participating as a 'Job Creator') is just a few simple steps. You 
 
 * [**Install the CLI** ](../lilypad-testnet/install-run-requirements.md)or **Use the API** (Coming Soon)
 * [**Set up a Metamask Wallet**](../lilypad-testnet/quick-start/setting-up-metamask.md) then [**Fund your wallet**](../lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md) with Lilypad tokens to run the jobs and get Arbitrum Sepolia Testnet ETH from one of the many faucets.
-* Choose a module to run, and sent the job request
+* Choose a module to run, and send the job request
 
 #### **Example Modules**
 
-There is a basic example [cowsay module](hello-cow-world.md) you can run, or try out some of the Lilypad team supported modules:
+There is a basic example [cowsay module](hello-cow-world.md) you can run, or try out some of the Lilypad team-supported modules:
 
 * [**Llama 2**](llama2.md)
 * [**Stable Diffusion (SDXL0.9 & 1.0)**](stable-diffusion-sdxl0.9.md)
@@ -28,7 +28,7 @@ There is a basic example [cowsay module](hello-cow-world.md) you can run, or try
 * [**Stable Diffusion Video (SDV1.0 & 1.1)**](stable-diffusion-video-sdv1.0-and-1.1.md)
 * [**Llama LLM**](llama-llm.md)
 
-Addtional modules from the community are available in the [awesome-lilypad repo](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)
+Additional modules from the community are available in the [awesome-lilypad repo](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)
 
 ### 2. Create Modules
 
