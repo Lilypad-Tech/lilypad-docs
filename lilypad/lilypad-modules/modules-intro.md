@@ -24,7 +24,7 @@ The Quickstart guide has a simple examples [cowsay module](../lilypad-testnet/qu
 Addtional modules from the community are available in the [awesome-lilypad repo](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)
 
 ### 2. Create Modules
-Modules can be developed by any member of the community Running Jobs (participating as a 'Job Creator'). If there is an AI model (or other containerized compute) you wish to run, you can simply
+Modules can be developed by any member of the community (participating as a 'Module Creator'). If there is an AI model (or other compute job) you wish to run using the Lilypad Network resources, you can simply
 * Containerize your module
 * Create a [Lilypad Config File](https://github.com/Lilypad-Tech/lilypad-module-cowsay/blob/main/lilypad_module.json.tmpl)
 * Test your modules
