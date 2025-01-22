@@ -5,12 +5,18 @@ description: >-
   software, and ensuring security measures.
 ---
 
-# Linux
+# Run a node - Linux
+
+{% hint style="warning" %}
+These instructions are no longer actively maintained. We recommend using the [Docker approach](../hardware-providers/docker.md) for the most up-to-date and supported setup.
+{% endhint %}
+
+
 
 ## Prerequisites
 
 {% hint style="info" %}
-For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-providers/hardware-requirements.md) documentation.
 {% endhint %}
 
 * Linux (_Ubuntu 22.04_ LTS)
@@ -43,7 +49,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network and importing the LP testnet token, please refer to our [Setting up MetaMask documentation](../../lilypad-testnet/quick-start/setting-up-metamask.md).
+For a step by step guide on adding the network and importing the LP testnet token, please refer to our [Setting up MetaMask documentation](../lilypad-testnet/quick-start/setting-up-metamask.md).
 
 ### Fund your wallet with ETH and LP
 
@@ -296,7 +302,7 @@ sudo systemctl status lilypad-resource-provider
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network.
 
-<figure><img src="../../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
 
 Run the following command to get more status info from your node:
 
