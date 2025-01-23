@@ -77,7 +77,7 @@ COPY run_script.* /workspace/
 ENTRYPOINT ["command", "/workspace/run_script"]
 ```
 
-### 3. Build and Publish Container(example below uses Dockerhub for storage)
+### 3. Build and Publish Container (example below uses Dockerhub for storage)
 
 {% hint style="info" %}
 To ensure the docker image can run on Lilypad, if building the docker image on a Mac add the linux/amd64 flag in the docker build command `docker buildx build --platform linux/amd64 -t path/to/moduleRepo:latest --push .docker push your-username/model-name:latest`
