@@ -4,20 +4,20 @@ description: Learn about modules on Lilypad
 
 # Modules Intro
 
-## Modules Intro
+Lilypad is a three-sided marketplace between Module Creators, Job Creators, and Resource ProvidersModules Intro
 
-Lilypad modules are the compute jobs that are run on the Lilypad network of Resource Provider nodes. Lilypad nodes are set up to run GPU compute jobs such as AI inference, but can be used for other GPU-intensive tasks like image generation.
+Lilypad modules are the compute jobs that are run on the Lilypad network of Resource Provider nodes. Lilypad nodes are set up to run GPU compute jobs such as AI inference, and can be used for other GPU-intensive tasks.
 
-<figure><img src="../.gitbook/assets/3-sided-marketplace.png" alt=""><figcaption><p>Lilypad is a three-sided marketplace between Module Creators, Job Creators, and Resource Providers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Three-sided-marketplace.png" alt=""><figcaption><p>Lilypad Modules Creators and Job Creators create and run modules on Resource Providers</p></figcaption></figure>
 
-There are two ways that participants in the network can use Lilypad Modules, as _Job Creators_ or as _Module Creators_
+There are two ways that participants in the network can interact with Lilypad Modules: As _Job Creators_ who run modules, or as _Module Creators_ who create modules.
 
 ### 1. Run Modules
 
 Running Jobs (participating as a 'Job Creator') is just a few simple steps. You can get going in less than 15 minutes:
 
 * [**Install the CLI** ](../lilypad-testnet/install-run-requirements.md)or **Use the API** (Coming Soon)
-* [**Set up a Metamask Wallet**](../lilypad-testnet/quick-start/setting-up-metamask.md) then [**Fund your wallet**](../lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md) with Lilypad tokens to run the jobs and get Arbitrum Sepolia Testnet ETH from one of the many faucets.
+* [**Set up a Metamask Wallet**](../lilypad-testnet/quick-start/setting-up-metamask.md) then [**Fund your wallet**](../lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md) with Lilypad tokens to run the jobs and get Arbitrum Sepolia Testnet ETH from one of the many faucets for network gas fees to execute jobs.
 * Choose a module to run, and send the job request
 
 #### **Example Modules**
