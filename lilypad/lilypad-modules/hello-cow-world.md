@@ -76,6 +76,4 @@ Here, you can view the `stdout` and `stderr` as well as the `outputs` folder for
                 ||     ||
 </code></pre>
 
-To view the results on IPFS, navigate to the IPFS CID result output. [`https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR`](https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR)
-
-Please be patient when waiting for the IPFS result. It can take some time to propogate and doesn't always work immediately.
+Please be patient when waiting for the result. It can take some time to propogate and doesn't always work immediately.
