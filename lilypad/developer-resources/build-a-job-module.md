@@ -105,7 +105,7 @@ To ensure the docker image can run on Lilypad, if building the docker image on a
                     # Environment variables with defaults
                     {{ if .var_name }}"VAR_NAME={{ js .var_name }}"{{ else }}"VAR_NAME=default_value"{{ end }}
                 ],
-                "Image": "repository/image-name@sha256:hash"
+                "Image": "repo-owner/repo-name:tag"
             },
             "Engine": "Docker",
             "Network": {
