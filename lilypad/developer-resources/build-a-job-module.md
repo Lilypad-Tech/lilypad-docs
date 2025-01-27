@@ -18,6 +18,7 @@ Start by creating a Git repository for your Lilypad module. The module's version
 your-module/
 ├── model-directory            # Stores locally downloaded model files 
 ├── download_model.[py/js/etc] # Script to download model files locally
+├── requirements.txt           # Module dependencies
 ├── Dockerfile                 # Container definition
 ├── run_script.[py/js/etc]     # Main execution script
 ├── lilypad_module.json.tmpl   # Lilypad configuration
@@ -27,7 +28,7 @@ your-module/
 ## Prepare Your Model
 
 * Download model files
-* Handle all dependencies
+* Handle all dependencies (`requirements.txt`)
 * Implement input/output through environment variables
 * Write outputs to `/outputs` directory
 
