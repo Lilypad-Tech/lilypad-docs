@@ -94,3 +94,11 @@ Use "lilypad [command] --help" for more information about a command.
 ```
 
 Thats it! You've successfully installed the Lilypad CLI on your machine! [🎉](https://emojipedia.org/party-popper)
+
+## Uninstall Lilypad
+
+To uninstall Lilypad, run the following command:
+
+```
+sudo rm -rf /usr/local/bin/lilypad
+```
