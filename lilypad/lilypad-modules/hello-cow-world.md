@@ -29,8 +29,6 @@ lilypad run cowsay:v0.0.4 -i Message="hello, lilypad"
 ### Output
 
 ```bash
-Lilypad: v2.0.0-d58a991
-
 ⠀⠀⠀⠀⠀⠀⣀⣤⣤⢠⣤⣀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⢴⣿⣿⣿⣿⢸⣿⡟⠀⠀⠀⠀⠀    ██╗     ██╗██╗  ██╗   ██╗██████╗  █████╗ ██████╗ 
 ⠀⠀⣰⣿⣦⡙⢿⣿⣿⢸⡿⠀⠀⠀⠀⢀⠀    ██║     ██║██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
@@ -75,7 +73,3 @@ Here, you can view the `stdout` and `stderr` as well as the `outputs` folder for
                 ||----w |
                 ||     ||
 </code></pre>
-
-To view the results on IPFS, navigate to the IPFS CID result output. [`https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR`](https://ipfs.io/ipfs/QmNjJUyFZpSg7HC9akujZ6KHWvJbCEytre3NRSMHzCA6NR)
-
-Please be patient when waiting for the IPFS result. It can take some time to propogate and doesn't always work immediately.

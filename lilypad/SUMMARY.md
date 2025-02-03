@@ -19,9 +19,7 @@
 ## Hardware Providers
 
 * [Hardware Requirements](hardware-providers/hardware-requirements.md)
-* [Run a node](hardware-providers/run-a-node/README.md)
-  * [Linux](hardware-providers/run-a-node/linux.md)
-  * [Docker](hardware-providers/run-a-node/docker.md)
+* [Run a node](hardware-providers/docker.md)
 * [Setup Arbitrum RPC](hardware-providers/setup-arbitrum-rpc/README.md)
   * [Alchemy RPC](hardware-providers/setup-arbitrum-rpc/alchemy-rpc.md)
   * [Infura RPC](hardware-providers/setup-arbitrum-rpc/infura-rpc.md)
@@ -37,6 +35,7 @@
 
 ## Lilypad Modules
 
+* [Modules Intro](lilypad-modules/modules-intro.md)
 * [Hello, (cow) World!](lilypad-modules/hello-cow-world.md)
 * [Llama2](lilypad-modules/llama2.md)
 * [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules/stable-diffusion-sdxl0.9.md)
@@ -69,6 +68,10 @@
 ## Meet the Lilypad Team
 
 * [Team](meet-the-lilypad-team/team.md)
+
+## Archive
+
+* [Run a node - Linux](archive/linux.md)
 
 ## Resources
 

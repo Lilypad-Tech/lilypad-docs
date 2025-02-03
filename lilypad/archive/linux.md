@@ -5,12 +5,18 @@ description: >-
   software, and ensuring security measures.
 ---
 
-# Linux
+# Run a node - Linux
+
+{% hint style="warning" %}
+These instructions are no longer actively maintained. We recommend using the [Docker approach](../hardware-providers/docker.md) for the most up-to-date and supported setup.
+{% endhint %}
+
+
 
 ## Prerequisites
 
 {% hint style="info" %}
-For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-providers/hardware-requirements.md) documentation.
 {% endhint %}
 
 * Linux (_Ubuntu 22.04_ LTS)
@@ -43,7 +49,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network and importing the LP testnet token, please refer to our [Setting up MetaMask documentation](../../lilypad-testnet/quick-start/setting-up-metamask.md).
+For a step by step guide on adding the network and importing the LP testnet token, please refer to our [Setting up MetaMask documentation](../lilypad-testnet/quick-start/setting-up-metamask.md).
 
 ### Fund your wallet with ETH and LP
 
@@ -98,44 +104,12 @@ Restart the Docker daemon:
 sudo systemctl restart docker
 ```
 
-### Install ipfs
-
-Run a local ipfs node on the Lilypad RP.
-
-{% hint style="info" %}
-If permissions errors are encountered when trying to run `ipfs init`, ensure the ipfs node is not setup in the root user and is accessible by Bacalhau.
-{% endhint %}
-
-```bash
-# Download the latest version of Kubo (go-ipfs):
-wget https://dist.ipfs.tech/kubo/v0.30.0/kubo_v0.30.0_linux-amd64.tar.gz
-# Extract the archive:
-tar -xvzf kubo_v0.30.0_linux-amd64.tar.gz
-# Change to the Kubo directory:
-cd kubo
-# Run the installation script:
-sudo bash install.sh
-# Now remove the downloaded archive file:
-cd ..
-rm kubo_v0.30.0_linux-amd64.tar.gz
-# Create a new ipfs directory
-sudo mkdir -p /app/data/ipfs
-# Set IPFS_PATH environment variable
-echo 'export IPFS_PATH=/app/data/ipfs' >> ~/.bashrc && source ~/.bashrc
-# Change ownership of the ipfs directory to your user
-sudo chown -R $USER:$USER /app/data/ipfs
-# Initialize ipfs node
-ipfs init 
-# Start the ipfs node
-ipfs daemon
-```
-
 ### Install Bacalhau
 
 Bacalhau is a peer-to-peer network of nodes that enables decentralized communication between computers. The network consists of two types of nodes, which can communicate with each other.
 
 {% hint style="info" %}
-Bacalhau versions newer than `v1.3.2` are not currently supported but will be in the future. Please pin to Bacalhau `v1.3.2` for now.
+Lilypad now supports Bacalhau `v1.6.0`&#x20;
 {% endhint %}
 
 To install Bacalhau, run the following in a new terminal window (run each command one by one):
@@ -143,9 +117,9 @@ To install Bacalhau, run the following in a new terminal window (run each comman
 ```bash
 cd /tmp
 
-wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.3.2/bacalhau_v1.3.2_linux_amd64.tar.gz
+wget https://github.com/bacalhau-project/bacalhau/releases/download/v1.6.0/bacalhau_v1.6.0_linux_amd64.tar.gz
 
-tar xfv bacalhau_v1.3.2_linux_amd64.tar.gz
+tar xfv bacalhau_v1.6.0_linux_amd64.tar.gz
 
 sudo mv bacalhau /usr/bin/bacalhau
 
@@ -162,10 +136,10 @@ The expected output is:
 
 ```
 CLIENT  SERVER  LATEST
-v1.3.2  v1.5.0  1.5.0
+v1.6.0  v1.6.0  <latest Bacalhau version>
 ```
 
-If the Bacalhau `CLIENT` version is not v1.3.2, it will need to be replaced. Follow the steps [here](https://docs.lilypad.tech/lilypad/hardware-providers/troubleshooting#how-do-i-change-my-bacalhau-version) to uninstall and reinstall Bacalhau.
+If the Bacalhau `CLIENT` version is not v1.6.0, it will need to be replaced. Follow the steps [here](https://docs.lilypad.tech/lilypad/hardware-providers/troubleshooting#how-do-i-change-my-bacalhau-version) to uninstall and reinstall Bacalhau.
 
 ### Install Lilypad
 
@@ -245,7 +219,7 @@ sudo vim /etc/systemd/system/bacalhau.service
 Description=Lilypad V2 Bacalhau
 After=network-online.target
 Wants=network-online.target systemd-networkd-wait-online.service
-			
+
 [Service]
 Environment="LOG_TYPE=json"
 Environment="LOG_LEVEL=debug"
@@ -253,10 +227,10 @@ Environment="HOME=/app/lilypad"
 Environment="BACALHAU_SERVE_IPFS_PATH=/app/data/ipfs"
 Restart=always
 RestartSec=5s
-ExecStart=/usr/bin/bacalhau serve --node-type compute,requester --peer none --private-internal-ipfs=false --ipfs-connect "/ip4/127.0.0.1/tcp/5001"
+ExecStart=/usr/bin/bacalhau serve --orchestrator --compute
 
 [Install]
-WantedBy=multi-user.target 
+WantedBy=multi-user.target  
 ```
 
 ### Install systemd unit for GPU provider
@@ -328,7 +302,7 @@ sudo systemctl status lilypad-resource-provider
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network.
 
-<figure><img src="../../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/carbon.png" alt=""><figcaption></figcaption></figure>
 
 Run the following command to get more status info from your node:
 

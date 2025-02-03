@@ -5,7 +5,7 @@ description: >-
   required software.
 ---
 
-# Docker
+# Run a node
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ Lilypad RPs currently only support Linux installs. Running a RP on Windows is cu
 * Nvidia Docker drivers
 
 {% hint style="info" %}
-For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
 {% endhint %}
 
 ## Network information and Testnet tokens
@@ -43,7 +43,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../../lilypad-testnet/quick-start/setting-up-metamask.md).
+For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../lilypad-testnet/quick-start/setting-up-metamask.md).
 
 ### Fund your wallet with ETH and LP
 
@@ -158,7 +158,7 @@ You should see the NVIDIA runtime listed. If you only see: `Runtimes: io.contain
 **Configuring NVIDIA Runtime**\
 If the NVIDIA runtime is not showing up or you're experiencing issues, try the following:
 
-1\. Configure the NVIDIA Container Toolkit runtime: `sudo nvidia-ctk runtime configure --runtime=docker`\
+1\. Configure the NVIDIA Container Toolkit runtime: `sudo nvidia-ctk runtime configure --runtime=docker --set-as-default`\
 2\. Restart the Docker service: `sudo systemctl restart docker`
 
 **Overview of Docker setup**\

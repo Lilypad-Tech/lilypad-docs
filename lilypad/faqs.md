@@ -79,7 +79,7 @@ You need ETH tokens to pay for the gas fees for smart contracts the facilitate t
 
 The required steps before running a Lilypad node include adding the node, adding the Lilypad network information, obtaining tokens and installing the required software.
 
-Refer to the [Running a Node](hardware-providers/run-a-node/) documentation and select your preferred platform (Linux or Docker) for a detailed guide on the prerequisites.
+Refer to the [Running a Node](hardware-providers/docker.md) documentation and select your preferred platform (Linux or Docker) for a detailed guide on the prerequisites.
 
 ### What are the hardware requirements to run a Lilypad node?
 
@@ -104,10 +104,7 @@ To check if the RP is running use the following command: `sudo systemctl status 
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resource-provider.service -f`.
 
-Find more information, select your preferred platform below and check out the docs:
-
-* [Linux](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux#view-node-status)
-* [Docker](hardware-providers/run-a-node/docker.md)
+Find more information check out the [Run a node](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/docker#id-5.-monitor-your-node) docs
 
 ## 👩‍💻 Developer Questions
 
@@ -127,10 +124,7 @@ A Lilypad module is a Git repository that can be used to perform various tasks u
 
 ### How to run a Lilypad node
 
-Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find instructions for running a node by selecting your preferred platform below:
-
-* [Linux](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/linux)
-* [Docker](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/docker)
+Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find instructions for running a node in our [Run a node](hardware-providers/docker.md) docs.
 
 ### Node hardware specs
 
