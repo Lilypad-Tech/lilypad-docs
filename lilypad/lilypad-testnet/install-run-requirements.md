@@ -108,5 +108,5 @@ The following command detects where the `lilypad` binary is located and removes 
 > 🚨 Using `sudo rm -rf` can be dangerous if not used carefully. Proceed with caution.
 
 ```
-sudo rm -rf "$(which lilypad)"
+sudo rm -rf $(which lilypad)
 ```
