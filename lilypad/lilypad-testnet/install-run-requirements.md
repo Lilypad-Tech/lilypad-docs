@@ -101,8 +101,12 @@ Thats it! You've successfully installed the Lilypad CLI on your machine! [🎉](
 
 ## Uninstall Lilypad
 
-To uninstall Lilypad, run the following command:
+To uninstall Lilypad, you'll need to remove the `lilypad` binary.
+
+The following command detects where the `lilypad` binary is located and removes it.
+
+> 🚨 Using `sudo rm -rf` can be dangerous if not used carefully. Proceed with caution.
 
 ```
-sudo rm -rf /usr/local/bin/lilypad
+sudo rm -rf "$(which lilypad)"
 ```
