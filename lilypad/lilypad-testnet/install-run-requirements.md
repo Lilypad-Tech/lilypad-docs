@@ -20,6 +20,7 @@ Select the appropriate installation based on your role:
 
 {% tabs %}
 {% tab title="CLI Users" %}
+
 ```bash
 # Detect your machine's architecture and set it as $OSARCH
 OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH;
@@ -32,9 +33,11 @@ curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "b
 chmod +x lilypad
 sudo mv lilypad /usr/local/bin/lilypad
 ```
+
 {% endtab %}
 
 {% tab title="Resource Providers" %}
+
 ```bash
 # Detect your machine's architecture and set it as $OSARCH
 OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH;
@@ -47,15 +50,16 @@ curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "b
 chmod +x lilypad
 sudo mv lilypad /usr/local/bin/lilypad
 ```
+
 {% endtab %}
 {% endtabs %}
 
-## Set WEB3\_PRIVATE\_KEY
+## Set WEB3_PRIVATE_KEY
 
 You're required to set your private key environment variable, `WEB3_PRIVATE_KEY`, to interact securely with the network.&#x20;
 
 {% hint style="info" %}
-A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) can be retrieved from the Metamask account details menu. For more info, check out the [official guide from Metamask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on viewing a wallet's private key. **Be sure to keep your private key safe** and never share it or store it in unsecured places to prevent unauthorized access to your funds.
+A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3_private_key) can be retrieved from the Metamask account details menu. For more info, check out the [official guide from Metamask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on viewing a wallet's private key. **Be sure to keep your private key safe** and never share it or store it in unsecured places to prevent unauthorized access to your funds.
 {% endhint %}
 
 ```bash
@@ -94,3 +98,15 @@ Use "lilypad [command] --help" for more information about a command.
 ```
 
 Thats it! You've successfully installed the Lilypad CLI on your machine! [🎉](https://emojipedia.org/party-popper)
+
+## Uninstall Lilypad
+
+To uninstall Lilypad, you'll need to remove the `lilypad` binary.
+
+The following command detects where the `lilypad` binary is located and removes it.
+
+> 🚨 Using `sudo rm -rf` can be dangerous if not used carefully. Proceed with caution.
+
+```
+sudo rm -rf $(which lilypad)
+```
