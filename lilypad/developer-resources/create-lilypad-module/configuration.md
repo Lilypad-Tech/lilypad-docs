@@ -78,7 +78,7 @@ Most (but not all) models that utilize machine learning use the [🤗 Transforme
 - [Learn more about downloading models from Hugging Face](https://huggingface.co/docs/hub/en/models-downloading)
 - [Learn more about the 🤗 Transformers library](https://huggingface.co/docs/hub/en/transformers)
 
-No matter which model you are using, be sure to thoroughly read the documentation to learn how to properly download and use the model locally,
+No matter which model you are using, be sure to thoroughly read the documentation to learn how to properly download and use the model locally.
 
 ### `python -m scripts.docker_build`
 
