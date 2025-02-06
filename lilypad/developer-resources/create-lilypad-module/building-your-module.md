@@ -28,7 +28,7 @@ Since the script hasn't been properly configured yet, it will return an error an
 👉 /scripts/download_models.py
 ```
 
-Open `scripts/download_models.py` and you will see some `TODO` comments with instructions. Let's go through them each in order.
+Open `scripts/download_models.py` and you will see some `TODO` comments with instructions. Let's go through them each in order. You can remove each `TODO` comment after completing the task.
 
 ```python
 # TODO: Update ../requirements.txt
@@ -83,3 +83,35 @@ MODEL_IDENTIFIER = ""
 ```
 
 If we take a look at the [Distilbert Hugging Face page](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english), we can use the copy button next to the name of the module to get the `MODULE_IDENTIFIER`. Just paste that in as the value.
+
+For our use case, it should look like this:
+
+```python
+MODEL_IDENTIFIER = "distilbert/distilbert-base-uncased-finetuned-sst-2-english"
+```
+
+You're almost ready to download the model. All you need to do now is replace the following 2 lines:
+
+```python
+tokenizer = AutoTokenizer.from_pretrained(MODEL_IDENTIFIER)
+model = AutoModelForSequenceClassification.from_pretrained(MODEL_IDENTIFIER)
+```
+
+Instead of using `AutoTokenizer` and `AutoModelForSequenceClassification`, replace those with the `DistilBertTokenizer` and `DistilBertForSequenceClassification` we imported.
+
+```python
+tokenizer = DistilBertTokenizer.from_pretrained(MODEL_IDENTIFIER)
+model = DistilBertForSequenceClassification.from_pretrained(MODEL_IDENTIFIER)
+```
+
+The script is now configured! Try running the command again.
+
+```sh
+python -m scripts.download_models
+```
+
+The `models` directory should now appear in your project. 🎉
+
+{% hint style="info" %}
+No matter which model you are using, be sure to thoroughly read the model's documentation to learn how to properly download and use the model locally.
+{% endhint %}
