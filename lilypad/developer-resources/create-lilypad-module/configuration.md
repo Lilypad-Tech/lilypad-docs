@@ -86,6 +86,18 @@ Builds and optionally publishes a Docker image for the module to use.
 
 For most use cases, this script should be sufficient and won't require any configuration or modification (aside from setting your `DOCKER_REPO` and `DOCKER_TAG`).
 
+{% hint style="info" %}
+In the modules Dockerfile, you'll find 3 COPY instructions.
+
+```Dockerfile
+COPY requirements.txt .
+COPY src /src
+COPY models /models
+```
+
+These instructions bring the `requirements.txt` file, the `src` directory, and the `models` directory into the Docker image. It's important to remember that any modifications to these files or directories will necessitate a rebuild of the module's Docker image to ensure the changes are reflected in the container.
+{% endhint %}
+
 #### `--push` Flag
 
 Running the script with `--push` passed in pushes the Docker image to Docker Hub.
