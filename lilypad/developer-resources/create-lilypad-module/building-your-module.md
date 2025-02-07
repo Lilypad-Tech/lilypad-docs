@@ -131,3 +131,58 @@ The `models` directory should now appear in your project. 🎉
 {% hint style="info" %}
 No matter which model you are using, be sure to thoroughly read the model's documentation to learn how to properly download and use the model locally.
 {% endhint %}
+
+## Using The Model
+
+Now for the fun part, it's time to start using the model!
+
+This time we'll get started by running the `run_module` script.
+
+```sh
+python -m scripts.run_module
+```
+
+You should see an error with some instructions.
+
+```sh
+❌ Error: No job configured. Implement the module's job before running the module.
+        1. Implement job for module
+                👉 /src/run_inference.py
+        2. Delete this code block
+                👉 /scripts/run_module.py
+```
+
+Let's tackle the `run_inference.py` script first. This is where your modules primary logic and functionality should live. There is a `TODO` comment near the top of the file.
+
+```python
+# TODO: Update ../requirements.txt
+# import torch
+# from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+```
+
+We've already updated the `requirements.txt` file, so we can skip that step. Go ahead and uncomment the `import` statements and replace the `transformers` line with the `DistilBertTokenizer` and `DistilBertForSequenceClassification`.
+
+We should refer back to the "How to Get Started With the Model" section of Distilbert's model card to figure out how to use the model.
+
+```python
+tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
+model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
+
+inputs = tokenizer("Hello, my dog is cute", return_tensors="pt")
+with torch.no_grad():
+    logits = model(**inputs).logits
+
+predicted_class_id = logits.argmax().item()
+model.config.id2label[predicted_class_id]
+```
+
+Let's implement this into our `run_inference` script. Scroll down to the `main()` function and you'll see a couple commented out lines.
+
+```python
+# tokenizer = AutoTokenizer.from_pretrained(MODEL_DIRECTORY)
+# model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_DIRECTORY)
+```
+
+Same as before, uncomment and replace `AutoTokenizer` with `DistilBertTokenizer` and `AutoModelForSeq2SeqLM` with `DistilBertForSequenceClassification`. This is now functionally identical to the first 2 lines of code from Distilbert's example.
+
+Below that, the `tokenizer` and `model` are passed into the `run_job()` function. Let's scroll back up and take a look at the function. This is where we'll want to implement the rest of the code from Distilbert's example. The `inputs` are already functionally identical, so let's adjust the `output`.
