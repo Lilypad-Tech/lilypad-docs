@@ -4,7 +4,23 @@ description: Building a Lilypad job module
 
 # Building Your Module
 
-In this guide, we'll be recreating a sentiment analysis module using [`distilbert/distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) (which I will be referring to as Distilbert from now on). We will be referring back to the Hugging Face page throughout this guide, so it's best to keep it open and accessible.
+In this guide, we'll be creating a basic sentiment analysis module using [`distilbert/distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) (which I will be referring to as Distilbert from now on). We will be referring back to the Hugging Face page throughout this guide, so it's best to keep it open and accessible.
+
+Input:
+
+```sh
+lilypad run --network demonet github.com/DevlinRocha/lilypad-module-sentiment:main --web3-private-key b3994e7660abe5f65f729bb64163c6cd6b7d0b1a8c67881a7346e3e8c7f026f5 -i input="LILYPAD IS AWESOME"
+```
+
+Output:
+
+```json
+{
+  "input": "LILYPAD IS AWESOME",
+  "sentiment": "POSITIVE",
+  "status": "success"
+}
+```
 
 - [View the final source code for the module](https://github.com/DevlinRocha/lilypad-module-sentiment)
 
@@ -15,7 +31,7 @@ The first thing you'll need for your module is a local model to use.
 A basic outline for downloading a model from [Hugging Face](https://huggingface.co/) is provided in `scripts/download_models.py`. The structure of the script and the methods for downloading a model can differ between models and libraries. It’s important to tailor the process to the specific requirements of the
 model you're working with.
 
-You can get started by attempting to run the script.
+You can get started by attempting to run the `download_models.py` script.
 
 ```sh
 python -m scripts.download_models
@@ -46,7 +62,7 @@ Most (but not all) models that utilize machine learning use the 🤗 Transformer
 - [Read the `🤗 Transformers` documentation](https://huggingface.co/docs/transformers/index)
   {% endhint %}
 
-You should see a handy modal explaining how to use the model with the `Transformers` library. For most models, you'd want to use this. However, Distilbert has a specific tokenizer and model class. Close the modal and scroll to the [How to Get Started With the Model](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english#how-to-get-started-with-the-model) section to use this instead.
+You should see a handy modal explaining how to use the model with the `Transformers` library. For most models, you'd want to use this. However, Distilbert has a specific tokenizer and model class. Close the modal and scroll to the [How to Get Started With the Model](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english#how-to-get-started-with-the-model) section of the model card. We're going to use this instead.
 
 For now, let's look at the top 2 lines of the provided code block:
 
