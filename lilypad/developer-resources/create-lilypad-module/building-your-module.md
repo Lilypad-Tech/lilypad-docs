@@ -200,11 +200,13 @@ You should see an error with some instructions.
 
 ```sh
 ❌ Error: No job configured. Implement the module's job before running the module.
-        1. Implement job for module
+        1. Implement job module
                 👉 /src/run_inference.py
         2. Delete this code block
                 👉 /scripts/run_module.py
 ```
+
+### 1. Implement Job Module
 
 Let's tackle the `run_inference.py` script first. This is where your modules primary logic and functionality should live. There is a `TODO` comment near the top of the file.
 
@@ -240,3 +242,62 @@ Let's implement this into our `run_inference` script. Scroll down to the `main()
 Same as before, uncomment and replace `AutoTokenizer` with `DistilBertTokenizer` and `AutoModelForSeq2SeqLM` with `DistilBertForSequenceClassification`. This is now functionally identical to the first 2 lines of code from Distilbert's example.
 
 Below that, the `tokenizer` and `model` are passed into the `run_job()` function. Let's scroll back up and take a look at the function. This is where we'll want to implement the rest of the code from Distilbert's example. The `inputs` are already functionally identical, so let's adjust the `output`.
+
+From the Distilbert model card, copy all of the code below the `inputs` variable declaration, and paste it over the `output` variable declaration in your modules code.
+
+```python
+inputs = tokenizer(
+    input,
+    return_tensors="pt",
+    truncation=True,
+    padding=True,
+)
+
+with torch.no_grad():
+    logits = model(**inputs).logits
+
+predicted_class_id = logits.argmax().item()
+model.config.id2label[predicted_class_id]
+
+return output
+```
+
+All we need to do from here is set the `output` to the last line we pasted.
+
+```python
+output = model.config.id2label[predicted_class_id]
+
+return output
+```
+
+That's everything we'll need for the modules source code! You can build the Docker image with the new code.
+
+```sh
+python -m scripts.docker_build
+```
+
+### 2. Delete Code Block
+
+While the Docker image is being built (it can take a while), we still need to finish step 2 that the error in the console gave us earlier. Open the `run_module.py` script.
+
+Find the `TODO` comment and delete the code block underneath.
+
+```python
+# TODO: Remove the following print and sys.exit statements and create the module job.
+print(
+    "❌ Error: No job configured. Implement the module's job before running the module.",
+    file=sys.stderr,
+    flush=True,
+)
+print("\t1. Implement job module")
+print("\t\t👉 /src/run_inference.py")
+print("\t2. Delete this code block")
+print("\t\t👉 /scripts/run_module.py")
+sys.exit(1)
+```
+
+{% hint style="info" %}
+Since we are editing a script and not the `src` code that gets used in the Docker image we won't need to rebuild after making these changes.
+{% endhint %}
+
+Once the Docker image is finished building, we can run the module!
