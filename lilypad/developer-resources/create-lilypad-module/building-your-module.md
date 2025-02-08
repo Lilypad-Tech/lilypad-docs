@@ -9,7 +9,7 @@ In this guide, we'll be creating a basic sentiment analysis module using [`disti
 Input:
 
 ```sh
-lilypad run --network demonet github.com/DevlinRocha/lilypad-module-sentiment:main --web3-private-key b3994e7660abe5f65f729bb64163c6cd6b7d0b1a8c67881a7346e3e8c7f026f5 -i input="LILYPAD IS AWESOME"
+lilypad run --network demonet github.com/DevlinRocha/lilypad-module-sentiment:main --web3-private-key 0ec38dd1ee0898dae8460b269859b4fb3cb519b35d82014c909ec4741c790831 -i input="LILYPAD IS AWESOME"
 ```
 
 Output:
@@ -303,3 +303,47 @@ Since we are editing a script and not the `src` code that gets used in the Docke
 Once the Docker image is finished building, we can run the module!
 
 ## Running Your Module
+
+It's finally time to see your module in action.
+
+### Local
+
+Let's start by running it locally.
+
+```sh
+python -m scripts.run_module --local
+```
+
+The CLI should ask you for an input. Enter whatever you like and hit enter. The module will analyze the sentiment of your input and output the results at `outputs/result.json`.
+
+```json
+{
+  "input": "LILYPAD IS AWESOME",
+  "result": "POSITIVE",
+  "status": "success"
+}
+```
+
+You just used a local LLM! 🎉
+
+### Lilypad Network
+
+Before you can run the module on Lilypad Network, you'll need to push the Docker image to Docker Hub.
+
+```sh
+python -m scripts.docker_build --push
+```
+
+While the Docker image is being built and pushed, you should configure the rest of the variables in `constants.py`. Make sure that you push your code to GitHub.
+
+{% hint style="info" %}
+Since these variables are only used in scripts and not in any `src` code that gets used in the Docker image we won't need to rebuild after making these changes.
+{% endhint %}
+
+Once your Docker image is pushed to Docker Hub, your most recent code is pushed to GitHub, you can run your module on Lilypad Network by removing the `--local` flag.
+
+```sh
+python -m scripts.run_module
+```
+
+You just use an LLM on Lilypad's decentralized network! 🎉
