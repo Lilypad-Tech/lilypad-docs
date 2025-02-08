@@ -1,8 +1,8 @@
 ---
-description: Building a Lilypad job module
+description: Creating a Lilypad job module
 ---
 
-# Building Your Module
+# Creating Your Module
 
 In this guide, we'll be creating a basic sentiment analysis module using [`distilbert/distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) (which I will be referring to as Distilbert from now on). We will be referring back to the Hugging Face page throughout this guide, so it's best to keep it open and accessible.
 
@@ -186,7 +186,7 @@ COPY models /models
 These instructions bring the `requirements.txt` file, the `src` directory, and the `models` directory into the Docker image. It's important to remember that any modifications to these files or directories will necessitate a rebuild of the module's Docker image to ensure the changes are reflected in the container.
 {% endhint %}
 
-## Using The Model
+## Building Your Model
 
 Now for the fun part, it's time to start using the model!
 
@@ -301,3 +301,5 @@ Since we are editing a script and not the `src` code that gets used in the Docke
 {% endhint %}
 
 Once the Docker image is finished building, we can run the module!
+
+## Running Your Module
