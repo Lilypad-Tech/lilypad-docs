@@ -49,7 +49,7 @@ Default: `"latest"`
 
 ### `MODULE_REPO`
 
-The URL for the GitHub repository storing the `lilypad_module.json.tmpl` file.
+The URL for the GitHub repository storing the `lilypad_module.json.tmpl` file. The code must be available in a public repository.
 
 The `lilypad_module.json.tmpl` file points to the `DOCKER_REPO` and Lilypad runs the module from the image.
 

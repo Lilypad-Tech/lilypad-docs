@@ -334,13 +334,13 @@ Before you can run the module on Lilypad Network, you'll need to push the Docker
 python -m scripts.docker_build --push
 ```
 
-While the Docker image is being built and pushed, you should configure the rest of the variables in `constants.py`. Make sure that you push your code to GitHub.
+While the Docker image is being built and pushed, you should configure the rest of the variables in `constants.py`. Make sure that you push your code to a public GitHub repository.
 
 {% hint style="info" %}
 Since these variables are only used in scripts and not in any `src` code that gets used in the Docker image we won't need to rebuild after making these changes.
 {% endhint %}
 
-Once your Docker image is pushed to Docker Hub, your most recent code is pushed to GitHub, you can run your module on Lilypad Network by removing the `--local` flag.
+Once your Docker image is pushed to Docker Hub, your most recent code is pushed to a public GitHub repository, you can run your module on Lilypad Network by removing the `--local` flag.
 
 ```sh
 python -m scripts.run_module
