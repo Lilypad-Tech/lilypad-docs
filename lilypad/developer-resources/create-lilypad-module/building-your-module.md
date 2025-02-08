@@ -28,7 +28,7 @@ Output:
 
 To build and run a module on Lilypad Network, you'll need to have [Python](https://www.python.org/), [pip](https://pip.pypa.io/en/stable/), and [Docker](https://www.docker.com/), on your machine, as well as [GitHub](https://github.com/) and [Docker Hub](https://hub.docker.com/) accounts.
 
-## Downloading The Model(s)
+## Downloading The Model
 
 The first thing you'll need for your module is a local model to use.
 
