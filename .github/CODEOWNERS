@@ -1,0 +1,22 @@
+################################################################
+#
+# List of approvers/reviewers for Lilypad Network Documentation
+#
+################################################################
+#
+# Get in touch with us via the Lilypad Community Discord
+#  https://discord.gg/WtHbjMP5UB
+# 
+#
+# Learn about CODEOWNERS file format: 
+#  https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+
+# The default owners for everything in the repo.
+* @DevlinRocha @PBillingsby @galaxyxtwo
+
+# The default owners for any file in a `/quick-start` directory.
+**/quick-start @DevlinRocha @PBillingsby @galaxyxtwo @noryev
+
+# The default owners for any file in the `/lilypad/lilypad-testnet` directory.
+/lilypad/lilypad-testnet @DevlinRocha @PBillingsby @galaxyxtwo @noryev
