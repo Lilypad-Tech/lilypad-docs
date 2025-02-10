@@ -20,8 +20,8 @@ The private key for the wallet that will be used to run the job.
 
 This is required to run the module on Lilypad Network.
 
-A new burner wallet is highly recommended to use for development.
-The wallet must have enough LP to fund the job.
+A new development wallet is highly recommended to use for development.
+The wallet must have enough LP tokens and Arbitrum Sepolia ETH to fund the job.
 
 - [Funding your wallet](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet)
 
@@ -104,7 +104,7 @@ Running the script with `--push` passed in pushes the Docker image to Docker Hub
 
 #### `--no-cache` Flag
 
-Running the script with `--no-cache` passed in builds the Docker image without using the cache. Useful if you are having issues with your local Docker image. This flag is automatically applied when using `--push`.
+Running the script with `--no-cache` passed in builds the Docker image without using the cache. This flag is useful if you need a fresh build to debug caching issues, force system or dependency updates, pull the latest base image, or ensure clean builds in CI/CD pipelines.
 
 ### `python -m scripts.run_module`
 

@@ -4,7 +4,7 @@ description: Creating a Lilypad job module
 
 # Creating Your Module
 
-In this guide, we'll be creating a basic sentiment analysis module using [`distilbert/distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) (which I will be referring to as Distilbert from now on). We will be referring back to the Hugging Face page throughout this guide, so it's best to keep it open and accessible.
+In this guide, we'll be creating a basic sentiment analysis module using [`distilbert/distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) (which will be referred to as Distilbert from now on). We will be referring back to the Hugging Face page throughout this guide, so it's best to keep it open and accessible.
 
 Input:
 
@@ -26,7 +26,7 @@ Output:
 
 ## Prerequisites
 
-To build and run a module on Lilypad Network, you'll need to have [Python](https://www.python.org/), [pip](https://pip.pypa.io/en/stable/), and [Docker](https://www.docker.com/), on your machine, as well as [GitHub](https://github.com/) and [Docker Hub](https://hub.docker.com/) accounts.
+To build and run a module on Lilypad Network, you'll need to have the [Lilypad CLI](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements), [Python](https://www.python.org/), [pip](https://pip.pypa.io/en/stable/), and [Docker](https://www.docker.com/), on your machine, as well as [GitHub](https://github.com/) and [Docker Hub](https://hub.docker.com/) accounts.
 
 ## Downloading The Model
 
@@ -102,7 +102,7 @@ Return to the `download_models.py` file, and look for the next `TODO` comment.
 MODEL_IDENTIFIER = ""
 ```
 
-If we take a look at the [Distilbert Hugging Face page](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english), we can use the copy button next to the name of the module to get the `MODULE_IDENTIFIER`. Just paste that in as the value.
+If we take a look at the [Distilbert Hugging Face page](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english), we can use the copy button next to the name of the module to get the `MODULE_IDENTIFIER`. Paste that in as the value.
 
 For our use case, it should look like this:
 
@@ -346,4 +346,10 @@ Once your Docker image is pushed to Docker Hub, your most recent code is pushed 
 python -m scripts.run_module
 ```
 
-You just use an LLM on Lilypad's decentralized network! 🎉
+You just used an LLM on Lilypad's decentralized network! 🎉
+
+Now anyone who has the Lilypad CLI installed can also run your module:
+
+```sh
+lilypad run github.com/<MODULE_REPO>:<TARGET_COMMIT> --web3-private-key <WEB3_PRIVATE_KEY>
+```

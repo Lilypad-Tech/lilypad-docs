@@ -30,7 +30,7 @@ For the module to run, **these files must exist with exact filenames**:
 - `src/run_inference.py` is the `Dockerfile` `ENTRYPOINT`. If you change this files name or location, you must also update the `ENTRYPOINT` in your `Dockerfile` and `lilypad_module.json.tmpl` file to match.
 - `config/constants.py` is the configuration file that stores the `DOCKER_REPO`, `DOCKER_TAG`, `MODULE_REPO`, and `TARGET_COMMIT`. If you change this files name or location, you must also update the `import` statements in `scripts/docker_build.py` and `scripts/run_module.py`.
 - `Dockerfile` is required to build your module into a Docker image, and push the image to Docker Hub where it can be accessed by Lilypad Network.
-- `requirements.txt`is used by the `Dockerfile` to install dependencies required by your module. Technically, this file can be deleted or renamed, but it is highly recommended as an industry standard best practice.
+- `requirements.txt` is used by the `Dockerfile` to install dependencies required by your module. Technically, this file can be deleted or renamed, but it is highly recommended as an industry standard best practice.
 - `lilypad_module.json.tmpl` is the Lilypad configuration file.
 
 You can delete or rename the other files.
