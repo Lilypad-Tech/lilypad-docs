@@ -232,9 +232,10 @@ predicted_class_id = logits.argmax().item()
 model.config.id2label[predicted_class_id]
 ```
 
-Let's implement this into our `run_inference` script. Scroll down to the `main()` function and you'll see a couple commented out lines.
+Let's implement this into our `run_inference` script. Scroll down to the `main()` function and you'll see another `TODO` comment.
 
 ```python
+# TODO: Initialize `model` and `tokenizer`
 # tokenizer = AutoTokenizer.from_pretrained(MODEL_DIRECTORY)
 # model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_DIRECTORY)
 ```
