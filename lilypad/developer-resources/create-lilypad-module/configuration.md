@@ -113,3 +113,7 @@ This script is provided for convenience to speed up development. It is equivalen
 #### `--local` Flag
 
 Running the script with `--local` passed in runs the Lilypad module Docker image locally instead of on Lilypad's Network.
+
+#### `--demonet` Flag
+
+Running the script with `--demonet` passed in runs the Lilypad module Docker image on Lilypad's Demonet.
