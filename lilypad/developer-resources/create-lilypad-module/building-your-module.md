@@ -137,56 +137,6 @@ The `models` directory should now appear in your project. 🎉
 No matter which model you are using, be sure to thoroughly read the model's documentation to learn how to properly download and use the model locally.
 {% endhint %}
 
-## Preparing Your Module
-
-Before you are able to run your module, we need to build the Docker image. You can run the following command:
-
-```sh
-python -m scripts.docker_build
-```
-
-You should see the following response in the console:
-
-```sh
-❌ Error: DOCKER_REPO is not set in config/constants.py.
-```
-
-Open the `constants.py` file, it should look like this:
-
-```python
-# TODO: Set the Docker Hub repository before pushing the image.
-# Example: "devlinrocha/lilypad-module-sentiment"
-DOCKER_REPO = ""
-
-# TODO: Set the tag for the Docker image.
-# Example: "latest", "v1.0", or a commit SHA
-DOCKER_TAG = "latest"
-
-# TODO: Set the GitHub repository URL where your module is stored.
-# Example: "github.com/devlinrocha/lilypad-module-sentiment".
-MODULE_REPO = ""
-
-# TODO: Specify the target branch name or commit hash.
-# Example: "main" or "c3ed392c11060337cae010862b1af160cd805e67"
-TARGET_COMMIT = "main"
-```
-
-For now, we'll be testing the module locally, so all we need to worry about is the `DOCKER_REPO` variable. We'll use `MODULE_REPO` when it's time to run the module on Lilypad Network. For help or more information, view the [configuration documentation](./configuration.md)
-
-You should be able to successfully build the Docker image now.
-
-{% hint style="info" %}
-In the modules Dockerfile, you'll find 3 COPY instructions.
-
-```Dockerfile
-COPY requirements.txt .
-COPY src /src
-COPY models /models
-```
-
-These instructions bring the `requirements.txt` file, the `src` directory, and the `models` directory into the Docker image. It's important to remember that any modifications to these files or directories will necessitate a rebuild of the module's Docker image to ensure the changes are reflected in the container.
-{% endhint %}
-
 ## Building Your Model
 
 Now for the fun part, it's time to start using the model!
@@ -272,15 +222,11 @@ output = model.config.id2label[predicted_class_id]
 return output
 ```
 
-That's everything we'll need for the modules source code! You can build the Docker image with the new code.
-
-```sh
-python -m scripts.docker_build
-```
+That's everything we'll need for the modules source code!
 
 ### 2. Delete Code Block
 
-While the Docker image is being built (it can take a while), we still need to finish step 2 that the error in the console gave us earlier. Open the `run_module.py` script.
+We still need to finish step 2 that the error in the console gave us earlier. Open the `run_module.py` script.
 
 Find the `TODO` comment and delete the code block underneath.
 
@@ -298,11 +244,55 @@ print("\t\t👉 /scripts/run_module.py")
 sys.exit(1)
 ```
 
-{% hint style="info" %}
-Since we are editing a script and not the `src` code that gets used in the Docker image we won't need to rebuild after making these changes.
-{% endhint %}
+## Preparing Your Module
 
-Once the Docker image is finished building, we can run the module!
+Before you are able to run your module, we need to build the Docker image. You can run the following command:
+
+```sh
+python -m scripts.docker_build
+```
+
+You should see the following response in the console:
+
+```sh
+❌ Error: DOCKER_REPO is not set in config/constants.py.
+```
+
+Open the `constants.py` file, it should look like this:
+
+```python
+# TODO: Set the Docker Hub repository before pushing the image.
+# Example: "devlinrocha/lilypad-module-sentiment"
+DOCKER_REPO = ""
+
+# TODO: Set the tag for the Docker image.
+# Example: "latest", "v1.0", or a commit SHA
+DOCKER_TAG = "latest"
+
+# TODO: Set the GitHub repository URL where your module is stored.
+# Example: "github.com/devlinrocha/lilypad-module-sentiment".
+MODULE_REPO = ""
+
+# TODO: Specify the target branch name or commit hash.
+# Example: "main" or "c3ed392c11060337cae010862b1af160cd805e67"
+TARGET_COMMIT = "main"
+```
+
+For now, we'll be testing the module locally, so all we need to worry about is the `DOCKER_REPO` variable. We'll use `MODULE_REPO` when it's time to run the module on Lilypad Network. For help or more information, view the [configuration documentation](./configuration.md)
+
+You should be able to successfully build the Docker image now.
+
+{% hint style="info" %}
+In the modules Dockerfile, you'll find 3 COPY instructions.
+
+```Dockerfile
+COPY requirements.txt .
+COPY src /src
+COPY models /models
+```
+
+These instructions bring the `requirements.txt` file, the `src` directory, and the `models` directory into the Docker image. It's important to remember that any modifications to these files or directories will necessitate a rebuild of the module's Docker image to ensure the changes are reflected in the container.
+{% endhint %}
 
 ## Running Your Module
 
