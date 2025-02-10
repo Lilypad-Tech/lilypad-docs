@@ -110,11 +110,12 @@ For our use case, it should look like this:
 MODEL_IDENTIFIER = "distilbert/distilbert-base-uncased-finetuned-sst-2-english"
 ```
 
-You're almost ready to download the model. All you need to do now is replace the following 2 lines:
+You're almost ready to download the model. All you need to do now is replace the following 2 lines after the `TODO` comment:
 
 ```python
-tokenizer = AutoTokenizer.from_pretrained(MODEL_IDENTIFIER)
-model = AutoModelForSequenceClassification.from_pretrained(MODEL_IDENTIFIER)
+# TODO: Initialize `model` and `tokenizer`
+# tokenizer = AutoTokenizer.from_pretrained(MODEL_IDENTIFIER)
+# model = AutoModelForSequenceClassification.from_pretrained(MODEL_IDENTIFIER)
 ```
 
 Instead of using `AutoTokenizer` and `AutoModelForSequenceClassification`, replace those with the `DistilBertTokenizer` and `DistilBertForSequenceClassification` we imported.
