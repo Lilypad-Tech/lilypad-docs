@@ -49,9 +49,9 @@ Default: `"latest"`
 
 ### `MODULE_REPO`
 
-The URL for the GitHub repository storing the `lilypad_module.json.tmpl` file. The code must be available in a public repository.
+The URL for the GitHub repository storing the `lilypad_module.json.tmpl` file. The visibility of the repository must be public.
 
-The `lilypad_module.json.tmpl` file points to the `DOCKER_REPO` and Lilypad runs the module from the image.
+The `lilypad_module.json.tmpl` file points to a `DOCKER_REPO` and Lilypad runs the module from the image.
 
 e.g. `"github.com/<github_username>/<github_repo>"`
 
@@ -65,7 +65,7 @@ Default: `"main"`
 
 ## Available Scripts
 
-Your module will be bootstrapped with some handy scripts to help you download the model(s) for your module, build and push Docker images, and run your module locally and on Lilypad Network.
+Your module will be bootstrapped with some handy scripts to help you download the model(s) for your module, build and push Docker images, and run your module locally or on Lilypad Network. Some additional configuration may be required.
 
 In the project directory, you can run:
 
@@ -87,7 +87,7 @@ Builds and optionally publishes a Docker image for the module to use.
 For most use cases, this script should be sufficient and won't require any configuration or modification (aside from setting your `DOCKER_REPO` and `DOCKER_TAG`).
 
 {% hint style="info" %}
-In the modules Dockerfile, you'll find 3 COPY instructions.
+In the modules `Dockerfile`, you'll find 3 COPY instructions.
 
 ```Dockerfile
 COPY requirements.txt .
@@ -95,7 +95,7 @@ COPY src /src
 COPY models /models
 ```
 
-These instructions bring the `requirements.txt` file, the `src` directory, and the `models` directory into the Docker image. It's important to remember that any modifications to these files or directories will necessitate a rebuild of the module's Docker image to ensure the changes are reflected in the container.
+These instructions copy the `requirements.txt` file, the `src` directory, and the `models` directory from your local machine into the Docker image. It's important to remember that any modifications to these files or directories will necessitate a rebuild of the module's Docker image to ensure the changes are reflected in the container.
 {% endhint %}
 
 #### `--push` Flag
