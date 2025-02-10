@@ -340,6 +340,14 @@ While the Docker image is being built and pushed, you should configure the rest 
 Since these variables are only used in scripts and not in any `src` code that gets used in the Docker image we won't need to rebuild after making these changes.
 {% endhint %}
 
+The last thing we'll need to do is edit the Lilypad module configuration file, `lilypad_module.json.tmpl`. For the purposes of this module, the default configuration is mostly correct. However, the `"Image"` field needs to be configured.
+
+Replace the default value with your Docker Hub username, module image, and tag.
+
+```json
+"Image": "devlinrocha/lilypad-module-sentiment:latest"
+```
+
 Once your Docker image is pushed to Docker Hub, your most recent code is pushed to a public GitHub repository, you can run your module on Lilypad Network by removing the `--local` flag.
 
 ```sh
