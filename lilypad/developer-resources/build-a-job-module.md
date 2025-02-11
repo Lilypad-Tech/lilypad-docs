@@ -6,6 +6,8 @@ description: How to build your own compute job for Lilypad
 
 A Lilypad module is a Git repository that allows you to perform various tasks using predefined templates and inputs. This guide will walk you through creating a Lilypad module, including defining a JSON template, handling inputs, and following best practices.
 
+For a more in-depth look at building modules, refer to this [end-to-end guide](https://blog.lilypadnetwork.org/lilypad-module-builder-guide).
+
 {% hint style="info" %}
 If you're new to Docker, consider exploring this [step-by-step tutorial](https://docs.docker.com/get-started/) on creating, building, and running a Docker image for a simple Hello World style application.
 {% endhint %}

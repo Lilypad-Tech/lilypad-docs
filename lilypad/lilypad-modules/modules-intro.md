@@ -42,4 +42,4 @@ Modules can be developed by any member of the community (participating as a 'Mod
 * Create a [Lilypad Config File](https://github.com/Lilypad-Tech/lilypad-module-cowsay/blob/main/lilypad_module.json.tmpl)
 * Test your modules
 
-See more in [**Build a Job Module**](../developer-resources/build-a-job-module.md)
+See more in [**Build a Job Module**](../developer-resources/build-a-job-module.md) or for a more in-depth look at building modules, refer to this [end-to-end guide](https://blog.lilypadnetwork.org/lilypad-module-builder-guide).
