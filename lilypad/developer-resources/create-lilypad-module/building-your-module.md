@@ -340,11 +340,13 @@ Replace the default value with your Docker Hub username, module image, and tag.
 "Image": "devlinrocha/lilypad-module-sentiment:latest"
 ```
 
-Once your Docker image is pushed to Docker Hub, your most recent code is pushed to a public GitHub repository, you can run your module on Lilypad Network by removing the `--local` flag.
+Once your Docker image is pushed to Docker Hub and your most recent code is pushed to a public GitHub repository, you can test your module on Lilypad's DemoNet by replacing the `--local` flag with `--demonet`
 
 ```sh
-python -m scripts.run_module
+python -m scripts.run_module --demonet
 ```
+
+> You can also remove the `--demonet` flag and supply your `WEB3_PRIVATE_KEY` to run the module on Lilypad's IncentiveNet.
 
 You just used an LLM on Lilypad's decentralized network! 🎉
 
