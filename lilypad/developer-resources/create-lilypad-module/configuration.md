@@ -1,5 +1,5 @@
 ---
-description: Configure your Lilypad Modules
+description: Configure your Lilypad module
 ---
 
 # Configuration

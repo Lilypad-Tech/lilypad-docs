@@ -1,5 +1,5 @@
 ---
-description: Creating a Lilypad job module
+description: Create your Lilypad module
 ---
 
 # Creating Your Module

@@ -1,5 +1,5 @@
 ---
-description: The folder structure from using `create-lilypad-module`
+description: The folder structure output from using `create-lilypad-module`
 ---
 
 # Folder Structure
