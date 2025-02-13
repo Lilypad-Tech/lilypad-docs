@@ -1,5 +1,6 @@
 ---
 description: Run a Stable Diffusion Text to Video Job
+hidden: true
 ---
 
 # Stable Diffusion Video (SDV1.0 & 1.1)
