@@ -148,7 +148,7 @@ For MacOS:&#x20;
     "machine": {
         "gpu": 1,          # Set to 0 if GPU not needed
         "cpu": 1000,       # CPU allocation
-        "ram": 8000        # RAM in MB
+        "ram": 8000        # Minimum RAM needed to run the module
     },
     "job": {
         "APIVersion": "V1beta1",
