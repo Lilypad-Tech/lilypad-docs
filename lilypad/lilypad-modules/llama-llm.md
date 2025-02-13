@@ -1,5 +1,6 @@
 ---
 description: Ollama Pipeline modules for Lilypad
+hidden: true
 ---
 
 # Llama LLM
