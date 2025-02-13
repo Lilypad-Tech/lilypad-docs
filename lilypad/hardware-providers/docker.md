@@ -125,6 +125,10 @@ To include a custom RPC URL:&#x20;
 WEB3_PRIVATE_KEY=<your_private_key> WEB3_RPC_URL=wss://arb-sepolia.g.alchemy.com/v2/your-alchemy-id docker compose up -d
 ```
 
+{% hint style="warning" %}
+You must not reuse your compute node key as a client, even for testing: this will result in failed jobs and will negatively impact your compute node since the wallet address is how nodes are identified on the network.
+{% endhint %}
+
 ### 5. Monitor Your Node
 
 Use the following command to check the status of the Lilypad Resource provider.
