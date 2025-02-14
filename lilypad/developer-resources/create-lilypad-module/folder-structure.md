@@ -37,7 +37,7 @@ For the module to run, **these files must exist with exact filenames**:
 
 You can delete or rename the other files.
 
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are copied by Docker. You need to put any files required to run your module inside `src`, otherwise Docker won’t see them.
+You may create subdirectories inside `src`. For faster builds and smaller Docker images, only files inside `src` are copied by Docker. You need to put any files required to run your module inside `src`, otherwise Docker won’t copy them.
 
 You can create more top-level directories. They will not be included in the production build so you can use them for things like documentation.
 
