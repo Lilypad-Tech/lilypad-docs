@@ -12,50 +12,10 @@ description: Use `create-lilypad-module` to create Lilypad modules
 A Lilypad module is a Git repository that allows you to perform various tasks using predefined templates and inputs.
 {% endhint %}
 
-## Installation
+## Overview
 
-First, you'll need to install the package:
+* [Getting Started](getting-started.md) - install and run `create-lilypad-module`
+* [Folder Structure](folder-structure.md) - output and explanation of `create-lilypad-module` files
+* [Configuration](configuration.md) - requirements and explanations of Lilypad module configuration
+* [Creating Your Module](creating-your-module.md) - a step-by-step guide on how to create a simple Lilypad module using `create-lilypad-module`
 
-```sh
-pip install create-lilypad-module
-```
-
-If you've previously installed `create-lilypad-module`, you should to ensure that you're using the latest version:
-
-```sh
-pip install --upgrade create-lilypad-module
-```
-
-Now run `create-lilypad-module`:
-
-```sh
-create-lilypad-module
-```
-
-The CLI will ask for the name of your project. Alternatively, you can run:
-
-```sh
-create-lilypad-module project_name
-cd project_name
-```
-
-Output
-
-```
-project_name
-├── config
-│   └── constants.py
-├── scripts
-│   ├── docker_build.py
-│   ├── download_models.py
-│   └── run_module.py
-├── src
-│   └── run_inference.py
-├── .dockerignore
-├── .env
-├── .gitignore
-├── Dockerfile
-├── lilypad_module.json.tmpl
-├── README.md
-└── requirements.txt
-```
