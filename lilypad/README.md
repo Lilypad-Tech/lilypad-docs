@@ -31,7 +31,7 @@ You can use Lilypad to run AI workload models including Stable Diffusion and Sta
 
 Perform off-chain decentralized compute over data, with on-chain guarantees. Call this functionality directly from a smart contract, CLI, and an easy to use abstraction layer.
 
-{% embed url="https://www.youtube.com/watch?v=yQnB2Yxia4Y" %}
+{% embed url="https://www.youtube.com/watch?v=yQnB2Yxia4Y" fullWidth="true" %}
 In the video above, Ally Haire, Co-Founder of Lilypad, provides an introduction to the project and its goals.
 {% endembed %}
 
