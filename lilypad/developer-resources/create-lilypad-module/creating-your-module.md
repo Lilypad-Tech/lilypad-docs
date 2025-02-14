@@ -6,7 +6,7 @@ description: Create your Lilypad module
 
 ## Getting Started
 
-In this guide, we'll be creating a basic sentiment analysis module using [`distilbert/distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) (which will be referred to as Distilbert from now on). We will be referring back to the Hugging Face page throughout this guide, so it's best to keep it open and accessible.
+This guide will walk you through creating a basic sentiment analysis module using [`create-lilypad-module`](https://pypi.org/project/create-lilypad-module/) and [`distilbert/distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) (which will be referred to as Distilbert from now on). We will be referring back to the Hugging Face page throughout this guide, so it's best to keep it open and accessible.
 
 Input:
 
@@ -28,7 +28,9 @@ Output:
 
 ### Prerequisites
 
-To build and run a module on Lilypad Network, you'll need to have the [Lilypad CLI](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements), [Python](https://www.python.org/), [pip](https://pip.pypa.io/en/stable/), and [Docker](https://www.docker.com/) on your machine, as well as [GitHub](https://github.com/) and [Docker Hub](https://hub.docker.com/) accounts.
+To build and run a module on Lilypad Network, you'll need to have the [Lilypad CLI](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements), [Python](https://www.python.org/) and [Docker](https://www.docker.com/) on your machine, as well as [GitHub](https://github.com/) and [Docker Hub](https://hub.docker.com/) accounts.
+
+For this guide, we'll be using [`create-lilypad-module`](https://pypi.org/project/create-lilypad-module/) which requires [`pip`](https://pip.pypa.io/) and uses [`Python`](https://www.python.org/).
 
 ## Downloading The Model
 
