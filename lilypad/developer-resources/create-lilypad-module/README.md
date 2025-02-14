@@ -1,10 +1,8 @@
 ---
-description: Use `create-lilypad-module` to create Lilypad modules
+description: Use create-lilypad-module to create Lilypad modules
 ---
 
-# \`create-lilypad-module\`
-
-## Getting Started
+# create-lilypad-module
 
 `create-lilypad-module` is an officially supported way to create Lilypad modules. It offers a modern Docker setup with minimal configuration and useful pre-written scripts.
 
@@ -14,8 +12,8 @@ A Lilypad module is a Git repository that allows you to perform various tasks us
 
 ## Overview
 
-* [Getting Started](getting-started.md) - install and run `create-lilypad-module`
-* [Folder Structure](folder-structure.md) - output and explanation of `create-lilypad-module` files
-* [Configuration](configuration.md) - requirements and explanations of Lilypad module configuration
-* [Creating Your Module](creating-your-module.md) - a step-by-step guide on how to create a simple Lilypad module using `create-lilypad-module`
+* [Getting Started](getting-started.md): install and run `create-lilypad-module`
+* [Folder Structure](folder-structure.md): output and explanation of `create-lilypad-module` files
+* [Configuration](configuration.md): requirements and explanations of Lilypad module configuration
+* [Creating Your Module](creating-your-module.md): a step-by-step guide on how to create a simple Lilypad module using `create-lilypad-module`
 

@@ -28,7 +28,7 @@
 
 ## Developer Resources
 
-* [\`create-lilypad-module\`](developer-resources/create-lilypad-module/README.md)
+* [create-lilypad-module](developer-resources/create-lilypad-module/README.md)
   * [Getting Started](developer-resources/create-lilypad-module/getting-started.md)
   * [Folder Structure](developer-resources/create-lilypad-module/folder-structure.md)
   * [Configuration](developer-resources/create-lilypad-module/configuration.md)
