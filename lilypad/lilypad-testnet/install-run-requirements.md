@@ -14,11 +14,10 @@ When using the CLI always ensure you're running the [latest version](https://git
 
 ## Install via officially released binaries
 
-Lilypad offers two distinct installation options to cater to different roles within the network: one for the users of Lilypad and another for resource providers who supply the computational resources to the Lilypad Network.
+Lilypad offers two distinct installation options to cater to different roles within the network:
 
-{% hint style="warning" %}
-The resource provider version of Lilypad is not supported on Darwin/macOS.
-{% endhint %}
+* One for Lilypad users who wish to run compute jobs on the Lilypad Network.
+* Another for resource providers who supply the computational resources to the Lilypad Network.
 
 Select the appropriate installation based on your role:
 
@@ -39,6 +38,10 @@ sudo mv lilypad /usr/local/bin/lilypad
 {% endtab %}
 
 {% tab title="Resource Providers" %}
+{% hint style="warning" %}
+The resource provider version of Lilypad is not supported on Darwin/macOS.
+{% endhint %}
+
 ```bash
 # Detect your machine's architecture and set it as $OSARCH
 OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH;
