@@ -26,6 +26,10 @@ Output:
 
 * [View the final source code for the module](https://github.com/DevlinRocha/lilypad-module-sentiment)
 
+If you prefer to follow along with a video guide, you can view our live workshop below! 👇
+
+{% embed url="https://www.youtube.com/watch?v=A_JYvV7k_JA" %}
+
 ### Prerequisites
 
 To build and run a module on Lilypad Network, you'll need to have the [Lilypad CLI](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements), [Python](https://www.python.org/) and [Docker](https://www.docker.com/) on your machine, as well as [GitHub](https://github.com/) and [Docker Hub](https://hub.docker.com/) accounts.
