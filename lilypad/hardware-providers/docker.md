@@ -135,10 +135,14 @@ You must not reuse your compute node key as a client, even for testing: this wil
 
 ### 5. Monitor Your Node
 
-Use the following command to check the status of the Lilypad Resource provider.
+Use the following command to check the status of the resource provider and bacalhau.
 
 ```bash
 docker logs resource-provider
+```
+
+```bash
+docker logs bacalhau
 ```
 
 Use the following command to view the containers running after starting Docker Compose.
