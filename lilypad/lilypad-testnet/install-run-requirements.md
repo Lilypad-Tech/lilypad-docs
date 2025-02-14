@@ -9,10 +9,8 @@ The installation process for the Lilypad CLI involves several automated steps to
 Once the CLI tool is downloaded, the script sets the necessary permissions to make the executable file runnable. It then moves the executable to a standard location in your system's path to allow it to be run from any terminal window.
 
 {% hint style="info" %}
-When using the CLI always ensure it is running on the latest [version](https://github.com/Lilypad-Tech/lilypad/releases) of Lilypad.
+When using the CLI always ensure you're running the [latest version](https://github.com/Lilypad-Tech/lilypad/releases) of Lilypad.
 {% endhint %}
-
-
 
 ## Install via officially released binaries
 
