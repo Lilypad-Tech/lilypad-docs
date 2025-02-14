@@ -146,7 +146,7 @@ The default `lilypad_module.json.tmpl` file is below. Make sure to update the Do
       "Network": { "Type": "None" },
       "Outputs": [{ "Name": "outputs", "Path": "/outputs" }],
       "Resources": { "GPU": "", "CPU": "1", "Memory": "2Gb" },
-      "Timeout": 600,
+      "Timeout": 600
     }
   }
 }
