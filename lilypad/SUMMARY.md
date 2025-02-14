@@ -28,6 +28,10 @@
 
 ## Developer Resources
 
+* [\`create-lilypad-module\`](developer-resources/create-lilypad-module/README.md)
+  * [Folder Structure](developer-resources/create-lilypad-module/folder-structure.md)
+  * [Configuration](developer-resources/create-lilypad-module/configuration.md)
+  * [Creating Your Module](developer-resources/create-lilypad-module/creating-your-module.md)
 * [Build a Job Module](developer-resources/build-a-job-module.md)
 * [JS CLI Wrapper (local)](developer-resources/js-cli-wrapper-local.md)
 * [Running Lilypad in a Front End](developer-resources/running-lilypad-in-a-front-end.md)

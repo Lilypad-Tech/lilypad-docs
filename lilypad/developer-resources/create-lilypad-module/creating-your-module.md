@@ -4,6 +4,8 @@ description: Create your Lilypad module
 
 # Creating Your Module
 
+## Getting Started
+
 In this guide, we'll be creating a basic sentiment analysis module using [`distilbert/distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) (which will be referred to as Distilbert from now on). We will be referring back to the Hugging Face page throughout this guide, so it's best to keep it open and accessible.
 
 Input:
@@ -22,9 +24,9 @@ Output:
 }
 ```
 
-- [View the final source code for the module](https://github.com/DevlinRocha/lilypad-module-sentiment)
+* [View the final source code for the module](https://github.com/DevlinRocha/lilypad-module-sentiment)
 
-## Prerequisites
+### Prerequisites
 
 To build and run a module on Lilypad Network, you'll need to have the [Lilypad CLI](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements), [Python](https://www.python.org/), [pip](https://pip.pypa.io/en/stable/), and [Docker](https://www.docker.com/) on your machine, as well as [GitHub](https://github.com/) and [Docker Hub](https://hub.docker.com/) accounts.
 
@@ -32,8 +34,7 @@ To build and run a module on Lilypad Network, you'll need to have the [Lilypad C
 
 The first thing you'll need for your module is a local model to use.
 
-A basic outline for downloading a model from [Hugging Face](https://huggingface.co/) is provided in `scripts/download_models.py`. The structure of the script and the methods for downloading a model can differ between models and libraries. It’s important to tailor the process to the specific requirements of the
-model you're working with.
+A basic outline for downloading a model from [Hugging Face](https://huggingface.co/) is provided in `scripts/download_models.py`. The structure of the script and the methods for downloading a model can differ between models and libraries. It’s important to tailor the process to the specific requirements of the model you're working with.
 
 You can get started by attempting to run the `download_models.py` script.
 
@@ -62,9 +63,9 @@ To find the dependencies that our model requires, we can refer back to Distilber
 {% hint style="info" %}
 Most (but not all) models that utilize machine learning use the 🤗 Transformers library, which provides APIs and tools to easily download and train pretrained models.
 
-- [Learn more about downloading models from Hugging Face](https://huggingface.co/docs/hub/en/models-downloading)
-- [Read the `🤗 Transformers` documentation](https://huggingface.co/docs/transformers/index)
-  {% endhint %}
+* [Learn more about downloading models from Hugging Face](https://huggingface.co/docs/hub/en/models-downloading)
+* [Read the `🤗 Transformers` documentation](https://huggingface.co/docs/transformers/index)
+{% endhint %}
 
 You should see a handy modal explaining how to use the model with the `Transformers` library. For most models, you'd want to use this. However, Distilbert has a specific tokenizer and model class. Close the modal and scroll to the [How to Get Started With the Model](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english#how-to-get-started-with-the-model) section of the model card. We're going to use this instead.
 
@@ -91,9 +92,9 @@ Since this model happens to use both of these libraries, we can uncomment both l
 {% hint style="info" %}
 `torch` is a collection of APIs for extending [PyTorch](https://pytorch.org/)’s core library of operators.
 
-- [Learn more about using `datasets` with `Pytorch`](https://huggingface.co/docs/datasets/en/use_with_pytorch)
-- [Read the `torch` documentation](https://pytorch.org/docs/stable/index.html)
-  {% endhint %}
+* [Learn more about using `datasets` with `Pytorch`](https://huggingface.co/docs/datasets/en/use_with_pytorch)
+* [Read the `torch` documentation](https://pytorch.org/docs/stable/index.html)
+{% endhint %}
 
 Return to the `download_models.py` file, and look for the next `TODO` comment.
 
@@ -157,7 +158,7 @@ You should see an error with some instructions.
                 👉 /scripts/run_module.py
 ```
 
-### 1. Implement Job Module
+#### 1. Implement Job Module
 
 Let's tackle the `run_inference.py` script first. This is where your modules primary logic and functionality should live. There is a `TODO` comment near the top of the file.
 
@@ -224,7 +225,7 @@ return output
 
 That's everything we'll need for the modules source code!
 
-### 2. Delete Code Block
+#### 2. Delete Code Block
 
 We still need to finish step 2 that the error in the console gave us earlier. Open the `run_module.py` script.
 
@@ -278,14 +279,14 @@ MODULE_REPO = ""
 TARGET_COMMIT = "main"
 ```
 
-For now, we'll be testing the module locally, so all we need to worry about is the `DOCKER_REPO` variable. We'll use `MODULE_REPO` when it's time to run the module on Lilypad Network. For help or more information, view the [configuration documentation](./configuration.md)
+For now, we'll be testing the module locally, so all we need to worry about is the `DOCKER_REPO` variable. We'll use `MODULE_REPO` when it's time to run the module on Lilypad Network. For help or more information, view the configuration documentation
 
 You should be able to successfully build the Docker image now.
 
 {% hint style="info" %}
 In the modules Dockerfile, you'll find 3 COPY instructions.
 
-```Dockerfile
+```dockerfile
 COPY requirements.txt .
 COPY src /src
 COPY models /models
@@ -298,7 +299,7 @@ These instructions bring the `requirements.txt` file, the `src` directory, and t
 
 It's finally time to see your module in action.
 
-### Local
+#### Local
 
 Let's start by running it locally.
 
@@ -318,7 +319,7 @@ The CLI should ask you for an input. Enter whatever you like and hit enter. The 
 
 You just used a local LLM! 🎉
 
-### Lilypad Network
+#### Lilypad Network
 
 Before you can run the module on Lilypad Network, you'll need to push the Docker image to Docker Hub.
 
