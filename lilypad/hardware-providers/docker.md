@@ -143,12 +143,37 @@ Use the following command to view the containers running after starting Docker C
 docker ps
 ```
 
+## Update Lilypad version for Docker RP
+
+When a new version of Lilypad is released, it is critical for Resource Providers to update their installations to ensure compatibility and ability to run Lilypad jobs.&#x20;
+
+### 1. If a Docker RP is running stop the system (if the node is not running, disregard this first step)
+
+```bash
+docker compose down
+```
+
+### 2. View all Docker images
+
+```bash
+docker images
+```
+
+### 3. Delete old Docker images that are duplicates for Lilypad (Bacalhau, Lilypad)
+
+```bash
+docker rmi <image_name_or_id> 
+```
+
+### 4. Follow Docker RP install instructions
+
+Using the Lilypad Docker [RP install instructions](https://docs.lilypad.tech/lilypad/hardware-providers/docker#docker-compose-setup) setup a new RP and run.
+
 ## View Lilybit\_ rewards
 
 To view your Lilybit\_ rewards, visit one of the following dashboards and paste your node's public address into the input:
 
 * [Grafana dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m)
-* [Lilypad ](https://info.lilypad.tech/leaderboard)
 
 ## Troubleshooting
 
