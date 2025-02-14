@@ -111,6 +111,10 @@ If there are still conflicts when trying to running with the docker-compose file
 docker rm <container_name>
 ```
 
+{% hint style="info" %}
+Before moving to the next step, ensure older versions of lilypad and bacalhau are not running as systemctl services.
+{% endhint %}
+
 ### 4. Start the Resource Provider
 
 Start the Lilypad containers using Docker Compose:
