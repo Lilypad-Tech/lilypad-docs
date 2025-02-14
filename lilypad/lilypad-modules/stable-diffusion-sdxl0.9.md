@@ -1,5 +1,6 @@
 ---
 description: Run a Stable Diffusion Text to Image Job
+hidden: true
 ---
 
 # Stable Diffusion (SDXL0.9 & 1.0)
@@ -24,7 +25,7 @@ Before running `sdxl`, make sure you have the [Lilypad CLI installed](https://do
 export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
 ```
 
-Learn more about installing the Lilypad CLI and running SDXL with this [video guide](https://www.youtube.com/watch?v=RBECCMl\_fco).
+Learn more about installing the Lilypad CLI and running SDXL with this [video guide](https://www.youtube.com/watch?v=RBECCMl_fco).
 
 ### Run SDXL v0.9 or 1.0
 
