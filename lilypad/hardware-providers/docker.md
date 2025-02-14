@@ -119,6 +119,10 @@ Before moving to the next step, ensure older versions of lilypad and bacalhau [a
 
 Start the Lilypad containers using Docker Compose:
 
+{% hint style="info" %}
+The same WEB3\_PRIVATE\_KEY cannot be used for both a RP and using the Lilypad CLI. If a WEB3\_PRIVATE\_KEY has already been used to run jobs with the CLI, make a new one and [fund](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet) the wallet.&#x20;
+{% endhint %}
+
 ```bash
 WEB3_PRIVATE_KEY=<your_private_key> docker compose up -d
 ```
