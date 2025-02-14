@@ -8,6 +8,12 @@ The installation process for the Lilypad CLI involves several automated steps to
 
 Once the CLI tool is downloaded, the script sets the necessary permissions to make the executable file runnable. It then moves the executable to a standard location in your system's path to allow it to be run from any terminal window.
 
+{% hint style="info" %}
+When using the CLI always ensure it is running on the latest [version](https://github.com/Lilypad-Tech/lilypad/releases) of Lilypad.
+{% endhint %}
+
+
+
 ## Install via officially released binaries
 
 Lilypad offers two distinct installation options to cater to different roles within the network: one for the users of Lilypad and another for resource providers who supply the computational resources to the Lilypad Network.
@@ -20,7 +26,6 @@ Select the appropriate installation based on your role:
 
 {% tabs %}
 {% tab title="CLI Users" %}
-
 ```bash
 # Detect your machine's architecture and set it as $OSARCH
 OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH;
@@ -33,11 +38,9 @@ curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "b
 chmod +x lilypad
 sudo mv lilypad /usr/local/bin/lilypad
 ```
-
 {% endtab %}
 
 {% tab title="Resource Providers" %}
-
 ```bash
 # Detect your machine's architecture and set it as $OSARCH
 OSARCH=$(uname -m | awk '{if ($0 ~ /arm64|aarch64/) print "arm64"; else if ($0 ~ /x86_64|amd64/) print "amd64"; else print "unsupported_arch"}') && export OSARCH;
@@ -50,13 +53,12 @@ curl https://api.github.com/repos/lilypad-tech/lilypad/releases/latest | grep "b
 chmod +x lilypad
 sudo mv lilypad /usr/local/bin/lilypad
 ```
-
 {% endtab %}
 {% endtabs %}
 
-## Set WEB3_PRIVATE_KEY
+## Set WEB3\_PRIVATE\_KEY
 
-You're required to set your private key environment variable, `WEB3_PRIVATE_KEY`, to interact securely with the network.&#x20;
+You're required to set your private key environment variable, `WEB3_PRIVATE_KEY`, to interact securely with the network.
 
 {% hint style="info" %}
 A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3_private_key) can be retrieved from the Metamask account details menu. For more info, check out the [official guide from Metamask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on viewing a wallet's private key. **Be sure to keep your private key safe** and never share it or store it in unsecured places to prevent unauthorized access to your funds.
