@@ -112,7 +112,7 @@ docker rm <container_name>
 ```
 
 {% hint style="info" %}
-Before moving to the next step, ensure older versions of lilypad and bacalhau are not running as systemctl services.
+Before moving to the next step, ensure older versions of lilypad and bacalhau [are not running](https://docs.lilypad.tech/lilypad/hardware-providers/troubleshooting#my-docker-rp-is-turning-on-but-showing-errors-stating-it-is-not-providing-a-resource-offer) as systemd services.
 {% endhint %}
 
 ### 4. Start the Resource Provider
