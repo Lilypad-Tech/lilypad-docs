@@ -39,6 +39,6 @@ You can delete or rename the other files.
 
 You may create subdirectories inside `src`. For faster builds and smaller Docker images, only files inside `src` are copied by Docker. You need to put any files required to run your module inside `src`, otherwise Docker won’t copy them.
 
-You can create more top-level directories. They will not be included in the production build so you can use them for things like documentation.
+You can create more top-level directories. They will not be included in the final Docker image so you can use them for things like documentation.
 
 If you have Git installed and your project is not part of a larger repository, then a new repository will be initialized resulting in an additional top-level .git directory.
