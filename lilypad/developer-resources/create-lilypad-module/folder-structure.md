@@ -41,4 +41,4 @@ You may create subdirectories inside `src`. For faster builds and smaller Docker
 
 You can create more top-level directories. They will not be included in the final Docker image so you can use them for things like documentation.
 
-If you have Git installed and your project is not part of a larger repository, then a new repository will be initialized resulting in an additional top-level .git directory.
+If you have Git installed and your project is not part of a larger repository, then a new repository will be initialized resulting in an additional top-level \`.git\` directory.
