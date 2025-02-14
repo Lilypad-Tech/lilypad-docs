@@ -28,7 +28,9 @@ Output:
 
 If you prefer to follow along with a video guide, you can view our live workshop below! 👇
 
-{% embed url="https://www.youtube.com/watch?v=A_JYvV7k_JA" %}
+{% embed url="https://youtu.be/A_JYvV7k_JA?t=142" %}
+create-lilypad-module live workshop
+{% endembed %}
 
 ### Prerequisites
 
