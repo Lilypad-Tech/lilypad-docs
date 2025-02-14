@@ -39,7 +39,7 @@ For **complex issues, bug reports, or feature requests,** open a discussion in t
 2. Does the RP have [enough](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#fund-your-wallet-with-eth-and-lp) Lilypad Tokens (LP) and Arbitrum ETH?
 3. Updating and restarting the Lilypad services regularly (daily) is encouraged throughout IncentiveNet.
 
-## Run a node
+## Run a node (Resource Provider - RP)
 
 ### How do I keep track of Lilypad version releases and other important announcements?
 
@@ -49,7 +49,7 @@ Lilypad supports Resource Providers using the Docker find instructions [here](ht
 
 If this doesn't solve the problem, [raise a ticket](https://discord.com/channels/1212897693450641498/1230231823674642513) with our team.
 
-### **How can I check the status of my Lilypad node once it's running?**
+### **How can I check the status of my Lilypad RP once it's running?**
 
 To check if the RP is running use the following command:
 
@@ -65,9 +65,51 @@ Run the following command to get info from Bacalhau
 docker logs bacalhau
 ```
 
-### Can I become a Lilypad Resource Provider with just a CPU and no GPU?
+### Can I become a Lilypad RP with just a CPU and no GPU?
 
 Resource Providers can run on the Lilypad Network without a GPU, however only hardware with a GPU is currently rewarded with Lilybit\_ rewards.
+
+### My docker RP is turning on, but showing errors stating it is not providing a Resource Offer.
+
+Typically this occurs when an old version of Lilypad is still running on the instance.&#x20;
+
+1. Ensure the Bacalhau and Lilypad systemd services are stopped and removed.
+
+```bash
+sudo systemctl stop bacalhau
+```
+
+```bash
+sudo systemctl stop lilypad-resource-provider
+```
+
+2. Disable the systemd services so they start on boot:
+
+```bash
+sudo systemctl disable bacalhau
+```
+
+```bash
+sudo systemctl disable lilypad-resource-provider
+```
+
+3. Delete the service files from the systemd directory.
+
+\*\*Note: Be extremely careful when using `sudo` to remove files.
+
+```bash
+ sudo rm /etc/systemd/system/bacalhau.service
+```
+
+```bash
+ sudo rm /etc/systemd/system/lilypad-resource-provider.service
+```
+
+4. Reload the systemd daemon to apply the changes.
+
+```bash
+sudo systemctl daemon-reload
+```
 
 ### Can I run a Lilypad RP on Windows?
 
