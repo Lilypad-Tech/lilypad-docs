@@ -76,7 +76,7 @@ You have two options to start the Lilypad setup: using Docker Compose or directl
 ### 1. Export Your Private Key
 
 {% hint style="info" %}
-The same WEB3\_PRIVATE\_KEY cannot be used for both a RP and using the Lilypad CLI. If a WEB3\_PRIVATE\_KEY has already been used to run jobs with the CLI, make a new one and [fund](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet) the wallet.&#x20;
+The same WEB3\_PRIVATE\_KEY cannot be used for both a RP and using the Lilypad CLI. If a WEB3\_PRIVATE\_KEY has already been used to run jobs with the CLI, make a new one and [fund](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet) the wallet. You can \`unset $WEB3\_PRIVATE\_KEY\` if you want to use a different one to run your RP.
 {% endhint %}
 
 Before starting, export your private key from MetaMask. Follow the official MetaMask guide for instructions on safely exporting your private key.
