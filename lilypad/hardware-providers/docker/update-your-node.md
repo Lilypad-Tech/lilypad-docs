@@ -1,6 +1,6 @@
 ---
 description: >-
-  Instructins to update your Docker node for Resource Providers who already had
+  Instructions to update your Docker node for Resource Providers who already had
   Lilypad installed.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ## Remove Previous Versions
 
-If the Linux Install was your previous version, follow part A, and if you had previously installed a Docker version, follow part B\
+If the Linux Install was your previous version, follow part A, and if you had previously installed a Docker version, follow part B if you have already installed the Docker version and are updating.\
 
 
 ### A) Ensure all processes from Linux install are stopped and removed
@@ -61,7 +61,7 @@ sudo systemctl daemon-reload
 docker compose down
 ```
 
-2.You can check if these containers are running with:
+2. You can check the status of the containers with:
 
 ```
 docker ps -a | grep -E "resource-provider|ipfs|watchtower"
@@ -85,13 +85,13 @@ docker rm <container_name>
 docker images
 ```
 
-3. Remove all old Lilypad Docker Images .&#x20;
+3. Remove all old Lilypad Docker Images. First check the image names&#x20;
 
 ```bash
 docker ps -a | grep -E "resource-provider|ipfs|watchtower"
 ```
 
-4. Delete old Docker images that are duplicates for Lilypad (Bacalhau, Lilypad)
+Delete old Docker images that are duplicates for Lilypad (Bacalhau, Lilypad)
 
 ```bash
 docker rmi bacalhau 
@@ -105,7 +105,7 @@ docker rmi resource-provider
 docker rmi watchtower
 ```
 
-\*_Note - You can also use \`docker rmi \<Image ID#>\`_
+\*_Note - You can also use  `docker rmi <Image ID#>` to remove specific images_
 
 
 
