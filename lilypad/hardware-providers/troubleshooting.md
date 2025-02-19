@@ -141,26 +141,7 @@ Indicates that the CUDA version of the RP is incorrect. Install the CUDA version
 
 ## Lilypad IncentiveNet details
 
-### When do Lilybit\_ rewards earned or rewards slashed appear in the Leaderboard? \*\*The leaderboard is currenlty under maintanence, find Lilybits earned by [RPs](https://rp-points.lilypad.tech/) here.
-
-Once a day at 00:10 UTC. If no rewards appear after 24 hours of expected uptime, view the logs and Arbiscan transactions from the resource provider to ensure online status.
-
-### How does slashing work on Lilypad?
-
-The slashing mechanism now uses a tiered/progressive system to more fairly slash RPs. Penalties will increase progressively the longer the node remains online. 1-5 days offline will result in a 2.5% slash per day, 5-10 days offline a 5% slash per day, and more than 10 days offline a 10% slash per day.
-
-A grace period for RP downtime is now included in the slashing mechanism. RPs will earn 2 days of a “grace period” after every 30 days of continuous service provided.
-
-* These 2 days will be applied to 2 subsequent down days recorded by the RP allowing the RP to avoid slashing for these 2 days.
-* Grace Period days do not accumulate to more than 2 days ever. Once used the 30 day count to obtain the 2 days restarts.
-
-### Will I lose reward multipliers if my node is offline?
-
-The way the system is setup currently, a RP will lose the [4X daily multiplier](https://blog.lilypadnetwork.org/incentivenet-lilybit-reward-calculations) if the hashrate call (every 4 hours) is missed. If the PoW happens in the window of time that a node is restarting/offline, then it's missed.
-
-However, a RP will still receive a multiplier relative to how many 4-hour windows of POWs completed in that day. This figure shows the daily multiplier for a given number of 4-hour windows of POWs completed in a day.
-
-<figure><img src="../.gitbook/assets/daily_mult_v_N_POW.png" alt="" width="563"><figcaption></figcaption></figure>
+When do Lilybit\_ rewards earned or rewards slashed appear in the Leaderboard? \*\*The leaderboard is currenlty under maintanence, find Lilybits earned by [RPs](https://rp-points.lilypad.tech/) here.
 
 ### Are **there required updates needed to maintain my node software with Lilypad on IncentiveNet?**
 
