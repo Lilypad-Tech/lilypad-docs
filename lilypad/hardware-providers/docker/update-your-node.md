@@ -85,24 +85,12 @@ docker rm <container_name>
 docker images
 ```
 
-3. Remove all old Lilypad Docker Images. First check the image names&#x20;
-
-```bash
-docker ps -a | grep -E "resource-provider|ipfs|watchtower"
-```
+3. Take note of all the IMAGE ID for each lilypad image (resource-provider, bacalhau, and watchtower)&#x20;
 
 Delete old Docker images that are duplicates for Lilypad (Bacalhau, Lilypad)
 
 ```bash
-docker rmi bacalhau 
-```
-
-```bash
-docker rmi resource-provider
-```
-
-```bash
-docker rmi watchtower
+docker rmi <IMAGE ID>  
 ```
 
 \*_Note - You can also use  `docker rmi <Image ID#>` to remove specific images_
