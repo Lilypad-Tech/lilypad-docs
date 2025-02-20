@@ -22,9 +22,6 @@
 * [Hardware Requirements](hardware-providers/hardware-requirements.md)
 * [Run a node](hardware-providers/docker/README.md)
   * [Update Your Node](hardware-providers/docker/update-your-node.md)
-* [Setup Arbitrum RPC](hardware-providers/setup-arbitrum-rpc/README.md)
-  * [Alchemy RPC](hardware-providers/setup-arbitrum-rpc/alchemy-rpc.md)
-  * [Infura RPC](hardware-providers/setup-arbitrum-rpc/infura-rpc.md)
 * [Troubleshooting](hardware-providers/troubleshooting.md)
 * [Rewards](hardware-providers/rewards.md)
 
@@ -73,6 +70,9 @@
 ## Archive
 
 * [Run a node - Linux](archive/linux.md)
+* [Setup Arbitrum RPC](archive/setup-arbitrum-rpc/README.md)
+  * [Alchemy RPC](archive/setup-arbitrum-rpc/alchemy-rpc.md)
+  * [Infura RPC](archive/setup-arbitrum-rpc/infura-rpc.md)
 * [Running Lilypad in a Front End](archive/running-lilypad-in-a-front-end.md)
 * [Lilypad Smart Contracts](archive/lilypad-smart-contracts.md)
 
