@@ -224,8 +224,8 @@ If many jobs have been run on the machine previosuly, clear `Lilypad` from the `
 
 ### Run Module on Lilypad
 
-```
-lilypad run github.com/Lilypad-Tech/module-sdxl:6cf06f4038f1cff01a06c4eabc8135fd9835a78a --web3-private-key <private-key> -i prompt="a lilypad floating on a pond"
+```bash
+lilypad run github.com/noryev/module-sdxl-ipfs:ae17e969cadab1c53d7cabab1927bb403f02fd2a -i prompt="your prompt here"
 ```
 
 ## Examples
@@ -233,8 +233,9 @@ lilypad run github.com/Lilypad-Tech/module-sdxl:6cf06f4038f1cff01a06c4eabc8135fd
 Here are some example Lilypad modules for reference:
 
 * [**Cowsay**](https://github.com/Lilypad-Tech/lilypad-module-cowsay)**:** Lilypad "Hello World" example
-* [**SDXL v0.9/v1.0**](https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline): Text to image generation.
-* [**SDV v1.0/1.1**](https://github.com/Lilypad-Tech/lilypad-module-sdv-pipeline): Text to video generation.
+* [**Llama2**](https://docs.lilypad.tech/lilypad/lilypad-modules/llama2): Text to text
+* [**SDXL-turbo pipeline**](https://docs.lilypad.tech/lilypad/lilypad-modules/stable-diffusion-turbo-pipeline): Text to image generation
+* [**create-lilypad-module**](https://docs.lilypad.tech/lilypad/developer-resources/create-lilypad-module)&#x20;
 
 Deprecated examples:
 
