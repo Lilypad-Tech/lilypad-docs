@@ -1,5 +1,6 @@
 ---
 description: Sorry! We're working on this page!
+hidden: true
 ---
 
 # Lilypad Smart Contracts
@@ -201,7 +202,7 @@ Please note that the IPFS link might take some time to display the result.
 
 ## Lilypad Hardhat template
 
-The [Lilypad Hardhat template](https://github.com/Lilypad-Tech/lilypad-hardhat-template) demonstrates how to use Lilypad within the Hardhat development environment for onchain interactions. It provides the tools and structure needed to deploy smart contracts that interact with Lilypad nodes onchain.&#x20;
+The [Lilypad Hardhat template](https://github.com/Lilypad-Tech/lilypad-hardhat-template) demonstrates how to use Lilypad within the Hardhat development environment for onchain interactions. It provides the tools and structure needed to deploy smart contracts that interact with Lilypad nodes onchain.
 
 This template includes an example of running a job using the [`cowsay`](../lilypad-modules/hello-cow-world.md) module. The `cowsay` module is a simple program that generates an ASCII picture of a cow with a message.
 
@@ -232,4 +233,4 @@ npm run lilypad:onchain:cowsay
 
 To view the results of the job, refer to [this section](lilypad-smart-contracts.md#view-results).
 
-To update the smart contract, you can modify `ExampleClient` in `contracts/ExampleClient.sol`. Once you've made the changes,  run `npm run deploy`.
+To update the smart contract, you can modify `ExampleClient` in `contracts/ExampleClient.sol`. Once you've made the changes, run `npm run deploy`.

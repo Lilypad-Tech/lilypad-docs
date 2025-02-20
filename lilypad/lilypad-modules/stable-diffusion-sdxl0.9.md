@@ -134,5 +134,5 @@ Learn more about this Lilypad module on [Github](https://github.com/Lilypad-Tech
 
 ## Looking for Smart Contracts?
 
-Check out [our smart contracts docs](../developer-resources/lilypad-smart-contracts.md)!
+Check out [our smart contracts docs](../archive/lilypad-smart-contracts.md)!
 

@@ -1,5 +1,6 @@
 ---
 description: Setting up a feeless frontend for Lilypad
+hidden: true
 ---
 
 # Running Lilypad in a Front End
@@ -276,7 +277,7 @@ Congrats! You have successfully integrated Lilypad into your front end.
 
 ### Share your custom front ends with us! <a href="#heading-share-your-custom-front-ends-with-us" id="heading-share-your-custom-front-ends-with-us"></a>
 
-If you were able to complete the tutorial, share your front end with us on [Twitter](https://twitter.com/Lilypad\_Tech)!
+If you were able to complete the tutorial, share your front end with us on [Twitter](https://twitter.com/Lilypad_Tech)!
 
 If you need any help or have any feedback, hop into [our Discord](https://lilypad.team/discord)!
 

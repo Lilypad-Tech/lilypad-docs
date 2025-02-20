@@ -15,6 +15,7 @@
   * [Setting up MetaMask](lilypad-testnet/quick-start/setting-up-metamask.md)
   * [Funding your wallet](lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md)
   * [Run Hello World!](lilypad-testnet/quick-start/run-hello-world-job-cli.md)
+* [JS CLI Wrapper](lilypad-testnet/js-cli-wrapper-local.md)
 
 ## Hardware Providers
 
@@ -27,21 +28,15 @@
 * [Troubleshooting](hardware-providers/troubleshooting.md)
 * [Rewards](hardware-providers/rewards.md)
 
-## Developer Resources
-
-* [create-lilypad-module](developer-resources/create-lilypad-module/README.md)
-  * [Getting Started](developer-resources/create-lilypad-module/getting-started.md)
-  * [Folder Structure](developer-resources/create-lilypad-module/folder-structure.md)
-  * [Configuration](developer-resources/create-lilypad-module/configuration.md)
-  * [Creating Your Module](developer-resources/create-lilypad-module/creating-your-module.md)
-* [Build a Job Module](developer-resources/build-a-job-module.md)
-* [JS CLI Wrapper (local)](developer-resources/js-cli-wrapper-local.md)
-* [Running Lilypad in a Front End](developer-resources/running-lilypad-in-a-front-end.md)
-* [Lilypad Smart Contracts](developer-resources/lilypad-smart-contracts.md)
-
 ## Lilypad Modules
 
 * [Modules Intro](lilypad-modules/modules-intro.md)
+* [Build a Job Module](lilypad-modules/build-a-job-module.md)
+* [create-lilypad-module](lilypad-modules/create-lilypad-module/README.md)
+  * [Getting Started](lilypad-modules/create-lilypad-module/getting-started.md)
+  * [Folder Structure](lilypad-modules/create-lilypad-module/folder-structure.md)
+  * [Configuration](lilypad-modules/create-lilypad-module/configuration.md)
+  * [Creating Your Module](lilypad-modules/create-lilypad-module/creating-your-module.md)
 * [Hello, (cow) World!](lilypad-modules/hello-cow-world.md)
 * [Llama2](lilypad-modules/llama2.md)
 * [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules/stable-diffusion-sdxl0.9.md)
@@ -78,6 +73,8 @@
 ## Archive
 
 * [Run a node - Linux](archive/linux.md)
+* [Running Lilypad in a Front End](archive/running-lilypad-in-a-front-end.md)
+* [Lilypad Smart Contracts](archive/lilypad-smart-contracts.md)
 
 ## Resources
 

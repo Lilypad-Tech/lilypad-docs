@@ -99,10 +99,10 @@ Find the full Lilypad Roadmap on our [website](https://lilypad.tech/#roadmap)!
 * [Lilypad Grafana RP dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m) - Lilybit\_ rewards
 * [awesome-Lilypad](https://github.com/Lilypad-Tech/awesome-Lilypad/blob/main/README.md) repo with examples and use cases
 * [Quick Start ](lilypad-testnet/quick-start/)- Run a Lilypad "Hello World"
-* [Add](developer-resources/build-a-job-module.md) an AI model to Lilypad
+* [Add](lilypad-modules/build-a-job-module.md) an AI model to Lilypad
 * [Hardware requirements](hardware-providers/hardware-requirements.md) to run a Lilypad node
 * [Run](archive/linux.md) a Lilypad node
-* [Build](developer-resources/running-lilypad-in-a-front-end.md) a frontend using Lilypad to run AI Inference
+* [Build](archive/running-lilypad-in-a-front-end.md) a frontend using Lilypad to run AI Inference
 * [Stable Diffusion Video](lilypad-modules/stable-diffusion-video-sdv1.0-and-1.1.md) - Text to video on Lilypad
 * [Lilypad Discord server](https://lilypad.team/discord)
 * [Previous Lilypad versions](https://docs.lilypad.tech/lilypad/resources/older-versions)
