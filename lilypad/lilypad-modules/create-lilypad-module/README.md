@@ -4,7 +4,7 @@ description: Use create-lilypad-module to create Lilypad modules
 
 # create-lilypad-module
 
-`create-lilypad-module` is an officially supported way to create Lilypad modules. It offers a modern Docker setup with minimal configuration and useful pre-written scripts.
+`create-lilypad-module` is an officially supported package that provides a simple scaffolding for building a Lilypad modules. It offers a modern Docker setup with minimal configuration and useful pre-written scripts.
 
 {% hint style="info" %}
 A Lilypad module is a Git repository that allows you to perform various tasks using predefined templates and inputs.

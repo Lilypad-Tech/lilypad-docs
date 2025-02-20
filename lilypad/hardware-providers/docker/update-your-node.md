@@ -93,7 +93,7 @@ Delete old Docker images that are duplicates for Lilypad (Bacalhau, Lilypad)
 docker rmi <IMAGE ID>  
 ```
 
-\*_Note - You can also use  `docker rmi <Image ID#>` to remove specific images_
+\*_Note - You can also use  `docker volume prune` to remove specific images that aren't being used_
 
 
 
