@@ -15,5 +15,5 @@ A Lilypad module is a Git repository that allows you to perform various tasks us
 * [Getting Started](getting-started.md): install and run `create-lilypad-module`
 * [Folder Structure](folder-structure.md): output and explanation of `create-lilypad-module` files
 * [Configuration](configuration.md): requirements and explanations of Lilypad module configuration
-* [Creating Your Module](creating-your-module.md): a step-by-step guide on how to create a simple Lilypad module using `create-lilypad-module`
+* [Creating Your Module](../../developer-resources/create-lilypad-module/creating-your-module.md): a step-by-step guide on how to create a simple Lilypad module using `create-lilypad-module`
 

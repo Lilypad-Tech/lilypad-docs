@@ -113,3 +113,15 @@ The following command detects where the `lilypad` binary is located and removes 
 ```
 sudo rm -rf $(which lilypad)
 ```
+
+You can verify Lilypad has been uninstalled successfully with the following command:
+
+```shell
+which lilypad
+
+# successful uninstall:
+lilypad not found
+
+# unsuccessful uninstall:
+/usr/local/bin/lilypad
+```
