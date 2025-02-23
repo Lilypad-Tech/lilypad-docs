@@ -25,8 +25,6 @@
 * [Troubleshooting](hardware-providers/troubleshooting.md)
 * [Rewards](hardware-providers/rewards.md)
 
-## Developer Resources
-
 ## Lilypad Modules
 
 * [Modules Intro](lilypad-modules/modules-intro.md)
