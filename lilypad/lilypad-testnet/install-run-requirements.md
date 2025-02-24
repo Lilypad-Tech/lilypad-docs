@@ -118,10 +118,6 @@ You can verify Lilypad has been uninstalled successfully with the following comm
 
 ```shell
 which lilypad
-
-# successful uninstall:
-lilypad not found
-
-# unsuccessful uninstall:
-/usr/local/bin/lilypad
 ```
+
+If the uninstall was successful, you should see the message `lilypad not found`.
