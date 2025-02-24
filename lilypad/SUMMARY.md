@@ -8,13 +8,13 @@
 
 ## Lilypad Testnet
 
-* [Architecture](lilypad-testnet/architecture.md)
 * [Installation (CLI)](lilypad-testnet/install-run-requirements.md)
 * [Quick Start](lilypad-testnet/quick-start/README.md)
   * [Setting up MetaMask](lilypad-testnet/quick-start/setting-up-metamask.md)
   * [Funding your wallet](lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md)
   * [Run Hello World!](lilypad-testnet/quick-start/run-hello-world-job-cli.md)
 * [JS CLI Wrapper](lilypad-testnet/js-cli-wrapper-local.md)
+* [Architecture](lilypad-testnet/architecture.md)
 
 ## Hardware Providers
 
