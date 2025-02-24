@@ -94,18 +94,16 @@ Find the full Lilypad Roadmap on our [website](https://lilypad.tech/#roadmap)!
 ## Resources
 
 * [FAQs](https://docs.lilypad.tech/lilypad/faqs)
-* [Resource Provider (node) Leaderboard](https://info.lilypad.tech/leaderboard) - Lilybit\_ rewards
-* [Open Source Contributor Dashboard](https://oss.lilypad.tech/) - Open source rewards
-* [Lilypad Grafana RP dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m) - Lilybit\_ rewards
-* [awesome-Lilypad](https://github.com/Lilypad-Tech/awesome-Lilypad/blob/main/README.md) repo with examples and use cases
 * [Quick Start ](lilypad-testnet/quick-start/)- Run a Lilypad "Hello World"
+* [awesome-Lilypad](https://github.com/Lilypad-Tech/awesome-Lilypad/blob/main/README.md) repo with examples and use cases
 * [Add](lilypad-modules/build-a-job-module.md) an AI model to Lilypad
 * [Hardware requirements](hardware-providers/hardware-requirements.md) to run a Lilypad node
 * [Run](archive/linux.md) a Lilypad node
+* [Lilypad Grafana RP dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m) - Lilybit\_ rewards
+* [Resource Provider (node) Leaderboard](https://info.lilypad.tech/leaderboard) - Lilybit\_ rewards (under maintanence)
+* [Community Rewards Dashboard](https://oss.lilypad.tech/) - Amnbassadors, Open source, and Builder rewards
 * [Build](archive/running-lilypad-in-a-front-end.md) a frontend using Lilypad to run AI Inference
-* [Stable Diffusion Video](lilypad-modules/stable-diffusion-video-sdv1.0-and-1.1.md) - Text to video on Lilypad
-* [Lilypad Discord server](https://lilypad.team/discord)
-* [Previous Lilypad versions](https://docs.lilypad.tech/lilypad/resources/older-versions)
+* [Lilypad Discord server](https://discord.gg/tnE8SMmsxW)
 
 ## Join the Community & Chat with Us
 
