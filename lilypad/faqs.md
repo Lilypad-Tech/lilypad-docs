@@ -16,11 +16,9 @@ Perform off-chain decentralized compute over data, with on-chain guarantees, and
 
 ### Lilypad Whitepaper
 
-The Lilypad Whitepaper and Tokenomics paper is in review and is scheduled to be released in January 2025 (initially planned to release by end of Q4 2024, but required further review from our team and advisors).
+The Lilypad Whitepaper was planned to release by end of Q4 2024, but required further review from our team and advisors. See our [roadmap](https://lilypad.tech/#roadmap) for the current timeline.
 
 ### Roadmap
-
-Lilypad Network is currently in Testnet. The team is currently ironing out some remaining known issues and working on a fair model for our Incentivized Testnet.
 
 Find the full Lilypad Network [roadmap](https://lilypad.tech/#roadmap) on our website!
 
