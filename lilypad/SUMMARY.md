@@ -5,7 +5,6 @@
 * [📅 Events](upcoming-events.md)
 * [👥 Join the Community](join-the-community.md)
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
-* [📚 Useful Resources](useful-links.md)
 
 ## Lilypad Testnet
 
@@ -63,6 +62,7 @@
 * [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [🌠 Past Hackathon Winners](use-cases/project-showcase.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
+* [📚 Helpful Resources](use-cases/useful-links.md)
 
 ## Meet the Lilypad Team
 
