@@ -27,6 +27,7 @@
 
 ## Lilypad Modules
 
+* [Anura API](lilypad-modules/anura-api.md)
 * [Modules Intro](lilypad-modules/modules-intro.md)
 * [Build a Job Module](lilypad-modules/build-a-job-module.md)
 * [create-lilypad-module](lilypad-modules/create-lilypad-module/README.md)
