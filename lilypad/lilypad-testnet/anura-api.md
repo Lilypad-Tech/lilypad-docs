@@ -7,7 +7,7 @@ description: >-
 
 # Anura API
 
-Lilypad's official API
+Lilypad's official AI inference API.
 
 ## Getting Started
 
