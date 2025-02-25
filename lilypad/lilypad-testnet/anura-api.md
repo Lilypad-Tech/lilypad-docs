@@ -15,7 +15,7 @@ To use the Lilypad API, visit the [Anura website](https://anura.lilypad.tech/) t
 
 ## API Endpoints
 
-### Collections
+### API Clients
 
 {% hint style="info" %}
 If you are using an API client such as Bruno or Postman, you can use our provided collections below.
