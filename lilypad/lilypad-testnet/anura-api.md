@@ -15,19 +15,6 @@ To use the Lilypad API, visit the [Anura website](https://anura.lilypad.tech/) t
 
 ## API Endpoints
 
-### Authentication
-
-* `POST /api/v1/auth/register` - Register a new user
-* `POST /api/v1/auth/login` - Login user
-* `POST /api/v1/auth/logout` - Logout user
-* `GET /api/v1/auth/check` - Check authentication status
-
-### API Keys
-
-* `POST /api/v1/api-keys` - Create new API key
-* `GET /api/v1/api-keys` - List all API keys
-* `DELETE /api/v1/api-keys/:id` - Revoke API key
-
 ### Jobs
 
 * `GET /api/v1/jobs/:id` - Get status and details of a specific job
