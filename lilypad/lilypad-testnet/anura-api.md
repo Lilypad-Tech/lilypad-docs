@@ -15,6 +15,26 @@ To use the Lilypad API, visit the [Anura website](https://anura.lilypad.tech/) t
 
 ## API Endpoints
 
+### Collections
+
+{% hint style="info" %}
+If you are using an API client such as Bruno or Postman, you can use our provided collections below.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Bruno" %}
+{% file src="../.gitbook/assets/Anura.bruno_collection.json" %}
+Bruno collection
+{% endfile %}
+{% endtab %}
+
+{% tab title="Postman" %}
+{% file src="../.gitbook/assets/Anura.postman_collection.json" %}
+Postman collection
+{% endfile %}
+{% endtab %}
+{% endtabs %}
+
 ### Jobs
 
 * `GET /api/v1/jobs/:id` - Get status and details of a specific job

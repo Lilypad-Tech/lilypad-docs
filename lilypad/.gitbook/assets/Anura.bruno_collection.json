@@ -1,0 +1,327 @@
+{
+  "name": "Anura",
+  "version": "1",
+  "items": [
+    {
+      "type": "folder",
+      "name": "Chat Completions",
+      "root": {
+        "meta": {
+          "name": "Chat Completions"
+        }
+      },
+      "items": [
+        {
+          "type": "http",
+          "name": "Chat Completions",
+          "seq": 1,
+          "request": {
+            "url": "https://anura-testnet.lilypad.tech/api/v1/chat/completions",
+            "method": "POST",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json",
+                "enabled": true
+              },
+              {
+                "name": "Accept",
+                "value": "text/event-stream",
+                "enabled": true
+              }
+            ],
+            "params": [],
+            "body": {
+              "mode": "json",
+              "json": "{\n    \"model\": \"llama2:7b\",\n    \"messages\": [\n        {\n            \"role\": \"user\",\n            \"content\": \"tell me about the moon\"\n        }\n    ],\n    \"max_tokens\": 2048,\n    \"temperature\": 0.7\n}",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "docs": "",
+            "auth": {
+              "mode": "inherit"
+            }
+          }
+        },
+        {
+          "type": "http",
+          "name": "Get Models",
+          "seq": 2,
+          "request": {
+            "url": "https://anura-testnet.lilypad.tech/api/v1/models",
+            "method": "GET",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json",
+                "enabled": true
+              }
+            ],
+            "params": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "docs": "",
+            "auth": {
+              "mode": "inherit"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Ollama",
+      "root": {
+        "meta": {
+          "name": "Ollama"
+        }
+      },
+      "items": [
+        {
+          "type": "http",
+          "name": "Create Ollama Job",
+          "seq": 1,
+          "request": {
+            "url": "https://anura-testnet.lilypad.tech/api/v1/ollama",
+            "method": "POST",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json",
+                "enabled": true
+              }
+            ],
+            "params": [],
+            "body": {
+              "mode": "json",
+              "json": "{\n  \"model\": \"llama2:7b\",\n  \"messages\": [{\"role\": \"user\", \"content\": \"What is the colour of the sky?\"}],\n  \"max_tokens\": 100,\n  \"temperature\": 0.7\n}",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "docs": "",
+            "auth": {
+              "mode": "inherit"
+            }
+          }
+        },
+        {
+          "type": "http",
+          "name": "Get Ollama Result",
+          "seq": 2,
+          "request": {
+            "url": "https://anura-testnet.lilypad.tech/api/v1/ollama/:id/results",
+            "method": "GET",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json",
+                "enabled": true
+              }
+            ],
+            "params": [
+              {
+                "name": "id",
+                "value": "QmVDjfQSbw2NY7ayrSzw3xgFCqUsPLK6jryMH9dBL6adTS",
+                "type": "path",
+                "enabled": true
+              }
+            ],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "docs": "",
+            "auth": {
+              "mode": "inherit"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "cowsay",
+      "root": {
+        "meta": {
+          "name": "cowsay"
+        }
+      },
+      "items": [
+        {
+          "type": "http",
+          "name": "Create Cowsay Job",
+          "seq": 1,
+          "request": {
+            "url": "https://anura-testnet.lilypad.tech/api/v1/cowsay",
+            "method": "POST",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json",
+                "enabled": true
+              }
+            ],
+            "params": [],
+            "body": {
+              "mode": "json",
+              "json": "{\n  \"message\": \"Lilypad is awesome\"\n}",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "docs": "",
+            "auth": {
+              "mode": "inherit"
+            }
+          }
+        },
+        {
+          "type": "http",
+          "name": "Get Cowsay Result",
+          "seq": 2,
+          "request": {
+            "url": "https://anura-testnet.lilypad.tech/api/v1/cowsay/:id/results",
+            "method": "GET",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json",
+                "enabled": true
+              }
+            ],
+            "params": [
+              {
+                "name": "id",
+                "value": "Qmayb2eqnnxMVj5KEeWLkELfxCw2KG8Ci7m7PAxdgJBtRb",
+                "type": "path",
+                "enabled": true
+              }
+            ],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "docs": "",
+            "auth": {
+              "mode": "inherit"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Models",
+      "items": [
+        {
+          "type": "http",
+          "name": "GET",
+          "seq": 1,
+          "request": {
+            "url": "https://anura-testnet.lilypad.tech/api/v1/models",
+            "method": "GET",
+            "headers": [],
+            "params": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "docs": "",
+            "auth": {
+              "mode": "inherit"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "activeEnvironmentUid": null,
+  "environments": [
+    {
+      "variables": [
+        {
+          "name": "id",
+          "value": "QmTpJ72yPzjTEfqTpY6ZhfiZgFJq4hrXNhvsCCVtoCUEQK",
+          "enabled": true,
+          "secret": false,
+          "type": "text"
+        }
+      ],
+      "name": "Test"
+    }
+  ],
+  "root": {
+    "request": {
+      "auth": {
+        "mode": "bearer",
+        "bearer": {
+          "token": "anr_5f3a0949b352cb4af40a7c75eed42924f15fea540fcb7bf922130f6c1d5f4e0f"
+        }
+      },
+      "vars": {
+        "req": [
+          {
+            "name": "id",
+            "value": "id",
+            "enabled": true,
+            "local": false,
+            "uid": "pRipt3VyFLVrj6YZkgh4i"
+          },
+          {
+            "name": "base-url",
+            "value": "https://anura-testnet.lilypad.tech",
+            "enabled": true,
+            "local": false,
+            "uid": "gmFPRswgLUeev2sKgQCxP"
+          }
+        ]
+      }
+    },
+    "docs": "The Anura AI Inference API by Lilypad",
+    "meta": {
+      "name": "Anura"
+    }
+  },
+  "brunoConfig": {
+    "version": "1",
+    "name": "Anura",
+    "type": "collection",
+    "ignore": [
+      "node_modules",
+      ".git"
+    ]
+  }
+}

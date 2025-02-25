@@ -1,0 +1,320 @@
+{
+  "info": {
+    "name": "Anura",
+    "description": "The Anura AI Inference API by Lilypad",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "bruno",
+      "event": []
+    },
+    {
+      "name": "Chat Completions",
+      "item": [
+        {
+          "name": "Chat Completions",
+          "event": [],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              },
+              {
+                "key": "Accept",
+                "value": "text/event-stream",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/chat/completions",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "chat",
+                "completions"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"model\": \"llama2:7b\",\n    \"messages\": [\n        {\n            \"role\": \"user\",\n            \"content\": \"tell me about the moon\"\n        }\n    ],\n    \"max_tokens\": 2048,\n    \"temperature\": 0.7\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Get Models",
+          "event": [],
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/models",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "models"
+              ],
+              "query": [],
+              "variable": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ollama",
+      "item": [
+        {
+          "name": "Create Ollama Job",
+          "event": [],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/ollama",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "ollama"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"model\": \"llama2:7b\",\n  \"messages\": [{\"role\": \"user\", \"content\": \"What is the colour of the sky?\"}],\n  \"max_tokens\": 100,\n  \"temperature\": 0.7\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Get Ollama Result",
+          "event": [],
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/ollama/:id/results",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "ollama",
+                ":id",
+                "results"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "QmVDjfQSbw2NY7ayrSzw3xgFCqUsPLK6jryMH9dBL6adTS"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "cowsay",
+      "item": [
+        {
+          "name": "Create Cowsay Job",
+          "event": [],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/cowsay",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "cowsay"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Lilypad is awesome\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Get Cowsay Result",
+          "event": [],
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/cowsay/:id/results",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "cowsay",
+                ":id",
+                "results"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "Qmayb2eqnnxMVj5KEeWLkELfxCw2KG8Ci7m7PAxdgJBtRb"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Models",
+      "item": [
+        {
+          "name": "GET",
+          "event": [],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/models",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "models"
+              ],
+              "query": [],
+              "variable": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": []
+}
