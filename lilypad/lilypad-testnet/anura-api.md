@@ -7,17 +7,11 @@ description: >-
 
 # Anura API
 
-## Project Structure
+Lilypad's official API
 
-* `cmd/api/main.go`: The main entry point for the API.
-* `internal/handlers`: Handlers for the API routes.
-* `internal/service`: Services for the API routes.
+## Getting Started
 
-## Running the API
-
-```sh
-stack api
-```
+To use the Lilypad API, visit the [Anura website](https://anura.lilypad.tech/) to get an API key.
 
 ## API Endpoints
 
@@ -47,19 +41,19 @@ stack api
 ### Ollama
 
 * `POST /api/v1/ollama` - Create a new Ollama job
-  *   Request body:
-
-      ```json
-      {
-        "model": "model_name",
-        "messages": [{"role": "user", "content": "your message"}],
-        "max_tokens": 100,
-        "temperature": 0.7
-      }
-      ```
 * `GET /api/v1/ollama/:id/results` - Get results of an Ollama job
 * `POST /api/v1/chat/completions` - Stream chat completions
 * `GET /api/v1/models` - Get available models
+
+### Get Available Models
+
+To see which models are available:
+
+```
+curl -X GET "https://anura-testnet.lilypad.tech/api/v1/models" \
+-H "Content-Type: application/json" \
+-H "X-API-Key: your_api_key_here"
+```
 
 ### Chat Completions API
 
@@ -197,48 +191,11 @@ The API supports multi-turn conversations by including previous messages in the 
 
 This allows for contextual follow-up questions and maintaining conversation history.
 
-### How To
-
-* Create a .env file by copying .env.example You can comment out all the content in LOCALNET if you are running in DEMONET or vice-versa
-
-```
-# Server Configuration
-SERVER_PORT=:8080
-
-# Database Configuration
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_NAME=postgres
-
-# Application Configuration
-PRIVATE_KEY=your_private_key
-DEFAULT_TIMEOUT=3600 
-JWT_SECRET=your_jwt_secret
-
-
-# Solver CONFIGS
-
-# #LOCALNET
-# SOLVER_URL=http://localhost:8081
-# SERVICE_MEDIATORS=0x90F79bf6EB2c4f870365E785982E1f101E93b906
-# SERVICE_SOLVER=0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
-
-#DEMONET
-SOLVER_URL=https://api-demonet.lilypad.tech
-SERVICE_SOLVER=0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
-SERVICE_MEDIATORS=0x90F79bf6EB2c4f870365E785982E1f101E93b906
-```
-
-* Use the Default key for the API (link)\[], and update the `PRIVATE_KEY=your_private_key` in your .env file
-* Run the command `./stack api`, server should start running.
-
 #### API Calls
 
 This code enables us to communicate directly with the Lilypad Solver. As we progress towards mainnet, Solver will have functionality to enable jobs to submit information and do authorization with smart contract calls.
 
-* First, post a job to Ollama Completions (a one-shot inference command to an LLM) if you are running locally. You should do this in a separate terminal from your server
+* First, post a job to Ollama Completions (a one-shot inference command to an LLM).
 
 ```
 curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
@@ -279,14 +236,4 @@ data: {
         "finish_reason": "stop"
     }]
 }
-```
-
-#### Get Available Models
-
-To see which models are available:
-
-```
-curl -X GET "https://anura-testnet.lilypad.tech/api/v1/models" \
--H "Content-Type: application/json" \
--H "X-API-Key: your_api_key_here"
 ```
