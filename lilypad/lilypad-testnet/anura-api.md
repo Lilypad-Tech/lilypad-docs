@@ -3,7 +3,6 @@ description: >-
   Anura (from Ancient Greek: ἀν-, an- meaning "without," and οὐρά, ourá meaning
   "tail") refers to the order of amphibians that includes all modern frogs and
   toads.
-hidden: true
 ---
 
 # Anura API

@@ -13,6 +13,7 @@
   * [Setting up MetaMask](lilypad-testnet/quick-start/setting-up-metamask.md)
   * [Funding your wallet](lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md)
   * [Run Hello World!](lilypad-testnet/quick-start/run-hello-world-job-cli.md)
+* [Anura API](lilypad-testnet/anura-api.md)
 * [JS CLI Wrapper](lilypad-testnet/js-cli-wrapper-local.md)
 * [Architecture](lilypad-testnet/architecture.md)
 
@@ -26,7 +27,6 @@
 
 ## Lilypad Modules
 
-* [Anura API](lilypad-modules/anura-api.md)
 * [Modules Intro](lilypad-modules/modules-intro.md)
 * [Build a Job Module](lilypad-modules/build-a-job-module.md)
 * [create-lilypad-module](lilypad-modules/create-lilypad-module/README.md)
