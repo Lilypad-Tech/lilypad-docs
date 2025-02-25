@@ -57,7 +57,7 @@ curl -X GET "https://anura-testnet.lilypad.tech/api/v1/models" \
 
 ### Chat Completions API
 
-#### ==Streaming Chat Completions
+#### Streaming Chat Completions
 
 `POST /api/v1/chat/completions`
 
