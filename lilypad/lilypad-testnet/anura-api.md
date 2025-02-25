@@ -204,7 +204,7 @@ This code enables us to communicate directly with the Lilypad Solver. As we prog
 
 * First, post a job to Ollama Completions (a one-shot inference command to an LLM).
 
-```
+```sh
 curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
 -H "Content-Type: application/json" \
 -H "X-API-Key: your_api_key_here" \
