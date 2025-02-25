@@ -124,7 +124,7 @@ data: [DONE]
 **Example Request**
 
 ```sh
-curl -X POST "http://localhost:8080/api/v1/chat/completions" \
+curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
 -H "Content-Type: application/json" \
 -H "Accept: text/event-stream" \
 -H "Authorization: Bearer your_api_key_here" \
@@ -241,7 +241,7 @@ This code enables us to communicate directly with the Lilypad Solver. As we prog
 * First, post a job to Ollama Completions (a one-shot inference command to an LLM) if you are running locally. You should do this in a separate terminal from your server
 
 ```
-curl -X POST "http://localhost:8080/api/v1/chat/completions" \
+curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
 -H "Content-Type: application/json" \
 -H "X-API-Key: your_api_key_here" \
 -d '{
@@ -259,7 +259,7 @@ curl -X POST "http://localhost:8080/api/v1/chat/completions" \
 You can use another terminal to check job status while the job is running.
 
 ```
-curl -X GET "http://localhost:8080/api/v1/jobs/{job_id}" \
+curl -X GET "https://anura-testnet.lilypad.tech/api/v1/jobs/{job_id}" \
 -H "Content-Type: application/json" \
 -H "X-API-Key: your_api_key_here"
 ```
@@ -286,7 +286,7 @@ data: {
 To see which models are available:
 
 ```
-curl -X GET "http://localhost:8080/api/v1/models" \
+curl -X GET "https://anura-testnet.lilypad.tech/api/v1/models" \
 -H "Content-Type: application/json" \
 -H "X-API-Key: your_api_key_here"
 ```
