@@ -74,7 +74,7 @@ This endpoint provides a streaming interface for chat completions using Server-S
 
 * `Content-Type: application/json` (required)
 * `Accept: text/event-stream` (recommended for streaming)
-* `Authorization: Bearer <your_api_key>` or `X-API-Key: <your_api_key>` (required)
+* `Authorization: Bearer <your_api_key>`
 
 **Request Body**
 
@@ -204,17 +204,16 @@ This code enables us to communicate directly with the Lilypad Solver. As we prog
 
 * First, post a job to Ollama Completions (a one-shot inference command to an LLM).
 
-```sh
-curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
+<pre class="language-sh"><code class="lang-sh">curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
 -H "Content-Type: application/json" \
--H "X-API-Key: your_api_key_here" \
--d '{
+<strong>-H "Authorization: Bearer your_api_key_here" \
+</strong>-d '{
     "model": "llama2",
     "messages": [{"role": "user", "content": "your prompt here"}],
     "max_tokens": 100,
     "temperature": 0.7
 }'
-```
+</code></pre>
 
 * You should see messages like `Job status:1`, which mean the deal is agreed on the Lilypad network. Job status:2 means results are ready (though they should be sent immediately).
 
@@ -225,7 +224,7 @@ You can use another terminal to check job status while the job is running.
 ```
 curl -X GET "https://anura-testnet.lilypad.tech/api/v1/jobs/{job_id}" \
 -H "Content-Type: application/json" \
--H "X-API-Key: your_api_key_here"
+-H "Authorization: Bearer your_api_key_here"
 ```
 
 #### Get Outputs from a Job
