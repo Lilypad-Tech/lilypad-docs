@@ -59,7 +59,7 @@ To see which models are available:
 ```
 curl -X GET "https://anura-testnet.lilypad.tech/api/v1/models" \
 -H "Content-Type: application/json" \
--H "Bearer <your_api_key>"
+-H "Authorization: Bearer <your_api_key>"
 ```
 
 ### Chat Completions API
