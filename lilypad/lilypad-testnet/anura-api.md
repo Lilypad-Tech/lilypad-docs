@@ -11,7 +11,39 @@ Lilypad's official AI inference API.
 
 ## Getting Started
 
-To use the Lilypad API, visit the [Anura website](https://anura.lilypad.tech/) to get an API key.
+Anura makes it _incredibly_ easy to start running AI inference job modules on Lilypad's decentralized compute network:
+
+1. Get an API key from the [Anura website](https://anura.lilypad.tech/).
+2. Find which models we support:
+
+```sh
+curl GET "https://anura-testnet.lilypad.tech/api/v1/models" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+3. Choose a model and customize your request:
+
+```sh
+curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
+-H "Content-Type: application/json" \
+-H "Accept: text/event-stream" \
+-H "Authorization: Bearer YOUR_API_KEY" \
+-d '{
+  "model": "MODEL_NAME:MODEL_VERSION",
+  "messages": [{
+    "role": "system",
+    "content": "you are a helpful AI assistant"
+  },
+  {
+    "role": "user",
+    "content": "what is the animal order of the frog?"
+  }],
+  "options": {
+    "temperature": 1.0
+  }
+}'
+```
 
 ## API Endpoints
 
