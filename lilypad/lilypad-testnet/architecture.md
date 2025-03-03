@@ -1,5 +1,6 @@
 ---
 description: Lilypad Network Architecture
+hidden: true
 ---
 
 # Architecture

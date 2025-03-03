@@ -1,46 +1,52 @@
 # Table of contents
 
-* [🍃 Lilypad Home](README.md)
-* [⚡ FAQs](faqs.md)
+* [🍃 Lilypad](README.md)
+* [⚡ Getting Started](getting-started/README.md)
+  * [Installation (CLI)](getting-started/install-run-requirements.md)
+  * [Setting Up Your Wallet](getting-started/setting-up-your-wallet.md)
+  * [Run Hello World!](getting-started/run-hello-world-job-cli.md)
+* [❓ FAQs](faqs.md)
 * [📅 Events](upcoming-events.md)
 * [👥 Join the Community](join-the-community.md)
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
+* [🤔 Philosophy](philosophy.md)
+* [🌱 Why Lilypad](why-lilypad.md)
 
 ## Lilypad Testnet
 
-* [Installation (CLI)](lilypad-testnet/install-run-requirements.md)
 * [Quick Start](lilypad-testnet/quick-start/README.md)
-  * [Setting up MetaMask](lilypad-testnet/quick-start/setting-up-metamask.md)
   * [Funding your wallet](lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md)
-  * [Run Hello World!](lilypad-testnet/quick-start/run-hello-world-job-cli.md)
-* [Anura API](lilypad-testnet/anura-api.md)
-* [JS CLI Wrapper](lilypad-testnet/js-cli-wrapper-local.md)
 * [Architecture](lilypad-testnet/architecture.md)
 
-## Hardware Providers
+## Developer Resources
 
-* [Hardware Requirements](hardware-providers/hardware-requirements.md)
-* [Run a node](hardware-providers/docker/README.md)
-  * [Update Your Node](hardware-providers/docker/update-your-node.md)
-* [Troubleshooting](hardware-providers/troubleshooting.md)
-* [Rewards](hardware-providers/rewards.md)
+* [Anura API](developer-resources/anura-api.md)
+* [Build a Job Module](developer-resources/build-a-job-module.md)
+* [create-lilypad-module](developer-resources/create-lilypad-module/README.md)
+  * [Getting Started](developer-resources/create-lilypad-module/getting-started.md)
+  * [Folder Structure](developer-resources/create-lilypad-module/folder-structure.md)
+  * [Configuration](developer-resources/create-lilypad-module/configuration.md)
+  * [Creating Your Module](developer-resources/create-lilypad-module/creating-your-module.md)
+* [JS CLI Wrapper](developer-resources/js-cli-wrapper-local.md)
 
 ## Lilypad Modules
 
 * [Modules Intro](lilypad-modules/modules-intro.md)
-* [Build a Job Module](lilypad-modules/build-a-job-module.md)
-* [create-lilypad-module](lilypad-modules/create-lilypad-module/README.md)
-  * [Getting Started](lilypad-modules/create-lilypad-module/getting-started.md)
-  * [Folder Structure](lilypad-modules/create-lilypad-module/folder-structure.md)
-  * [Configuration](lilypad-modules/create-lilypad-module/configuration.md)
-  * [Creating Your Module](developer-resources/create-lilypad-module/creating-your-module.md)
 * [Hello, (cow) World!](lilypad-modules/hello-cow-world.md)
 * [Llama2](lilypad-modules/llama2.md)
-* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules/stable-diffusion-sdxl0.9.md)
 * [Stable Diffusion Turbo Pipeline](lilypad-modules/stable-diffusion-turbo-pipeline.md)
+* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules/stable-diffusion-sdxl0.9.md)
 * [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-modules/stable-diffusion-video-sdv1.0-and-1.1.md)
 * [Llama LLM](lilypad-modules/llama-llm.md)
 * [AlphaFold2](lilypad-modules/alphafold2.md)
+
+## Resource Providers
+
+* [Hardware Requirements](resource-providers/hardware-requirements.md)
+* [Run a node](resource-providers/docker/README.md)
+  * [Update Your Node](resource-providers/docker/update-your-node.md)
+* [Troubleshooting](resource-providers/troubleshooting.md)
+* [Rewards](resource-providers/rewards.md)
 
 ## Research & Vision
 

@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 🍃 Lilypad Home
+# 🍃 Lilypad
 
 [Lilypad](https://lilypad.tech) is developing a serverless, distributed compute network that enables internet-scale data processing, AI, ML & other arbitrary computation, while unleashing idle processing power & unlocking a new marketplace for compute.
 
@@ -57,7 +57,6 @@ Perform off-chain decentralized compute over data, with on-chain guarantees, and
 * ML training jobs
 * Invoking & supporting generic ZK computations
 * Cross-chain interoperability complement to bridge protocols
-* Utilising inbuilt storage on IPFS
 * Federated Learning consensus (with Bacalhau insulated jobs)
 * IOT & Sensor Data integrations
 * Providing a platform for Digital twins
@@ -96,8 +95,8 @@ Find the full Lilypad Roadmap on our [website](https://lilypad.tech/#roadmap)!
 * [FAQs](https://docs.lilypad.tech/lilypad/faqs)
 * [Quick Start ](lilypad-testnet/quick-start/)- Run a Lilypad "Hello World"
 * [awesome-Lilypad](https://github.com/Lilypad-Tech/awesome-Lilypad/blob/main/README.md) repo with examples and use cases
-* [Add](lilypad-modules/build-a-job-module.md) an AI model to Lilypad
-* [Hardware requirements](hardware-providers/hardware-requirements.md) to run a Lilypad node
+* [Add](developer-resources/build-a-job-module.md) an AI model to Lilypad
+* [Hardware requirements](resource-providers/hardware-requirements.md) to run a Lilypad node
 * [Run](archive/linux.md) a Lilypad node
 * [Lilypad Grafana RP dashboard](https://grafana.lilypad.tech/d/adxhou3o1q8sga/rewards-per-wallets?orgId=1\&refresh=1m) - Lilybit\_ rewards
 * [Resource Provider (node) Leaderboard](https://info.lilypad.tech/leaderboard) - Lilybit\_ rewards (under maintanence)

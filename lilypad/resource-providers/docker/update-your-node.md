@@ -99,7 +99,7 @@ docker rmi <IMAGE ID>
 
 ## Install and Run a new Version of Lilypad
 
-1. Create a new Resource Provider wallet (_We recommend you don't use the same one you were using before, and you cannot use the same wallet you use to run jobs_). See the Docs for [Setting up a Metamask Wallet](../../lilypad-testnet/quick-start/setting-up-metamask.md)
+1. Create a new Resource Provider wallet (_We recommend you don't use the same one you were using before, and you cannot use the same wallet you use to run jobs_). See the Docs for [Setting up a Metamask Wallet](../../getting-started/setting-up-your-wallet.md)
 2. Export your new WEB3\_PRIVATE\_KEY as an environment variable
 
 ```bash

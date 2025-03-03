@@ -8,7 +8,7 @@ description: >-
 # Run a node - Linux
 
 {% hint style="warning" %}
-These instructions are no longer actively maintained. We recommend using the [Docker approach](../hardware-providers/docker/) for the most up-to-date and supported setup.
+These instructions are no longer actively maintained. We recommend using the [Docker approach](../resource-providers/docker/) for the most up-to-date and supported setup.
 {% endhint %}
 
 
@@ -16,7 +16,7 @@ These instructions are no longer actively maintained. We recommend using the [Do
 ## Prerequisites
 
 {% hint style="info" %}
-For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-providers/hardware-requirements.md) documentation.
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../resource-providers/hardware-requirements.md) documentation.
 {% endhint %}
 
 * Linux (_Ubuntu 22.04_ LTS)
@@ -49,7 +49,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network and importing the LP testnet token, please refer to our [Setting up MetaMask documentation](../lilypad-testnet/quick-start/setting-up-metamask.md).
+For a step by step guide on adding the network and importing the LP testnet token, please refer to our [Setting up MetaMask documentation](../getting-started/setting-up-your-wallet.md).
 
 ### Fund your wallet with ETH and LP
 

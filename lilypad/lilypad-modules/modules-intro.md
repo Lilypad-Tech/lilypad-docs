@@ -18,8 +18,8 @@ There are two ways that participants in the network can interact with Lilypad Mo
 
 Running Jobs (participating as a 'Job Creator') is just a few simple steps. You can get going in less than 15 minutes:
 
-* [**Install the CLI** ](../lilypad-testnet/install-run-requirements.md)or **use the API** (Coming Soon!)
-* [**Set up a Metamask Wallet**](../lilypad-testnet/quick-start/setting-up-metamask.md) then [**Fund your wallet**](../lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md) with Lilypad tokens to run the jobs and get Arbitrum Sepolia Testnet ETH from one of the many faucets for network gas fees to execute jobs.
+* [**Install the CLI** ](../getting-started/install-run-requirements.md)or use[ **the API** ](../developer-resources/anura-api.md)
+* [**Set up a Metamask Wallet**](../getting-started/setting-up-your-wallet.md) then [**Fund your wallet**](../lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md) with Lilypad tokens to run the jobs and get Arbitrum Sepolia Testnet ETH from one of the many faucets for network gas fees to execute jobs.
 * Choose a module to run, and send the job request
 
 #### **Example Modules**
@@ -42,4 +42,4 @@ Modules can be developed by any member of the community (participating as a 'Mod
 * Create a [Lilypad Config File](https://github.com/Lilypad-Tech/lilypad-module-cowsay/blob/main/lilypad_module.json.tmpl)
 * Test your modules
 
-See more in [**Build a Job Module**](build-a-job-module.md) or for a more in-depth look at building modules, refer to this [end-to-end guide](https://blog.lilypadnetwork.org/lilypad-module-builder-guide).
+See more in [**Build a Job Module**](../developer-resources/build-a-job-module.md) or for a more in-depth look at building modules, refer to this [end-to-end guide](https://blog.lilypadnetwork.org/lilypad-module-builder-guide).

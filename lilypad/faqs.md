@@ -1,8 +1,9 @@
 ---
 description: Frequently Asked Questions for Lilypad Network
+hidden: true
 ---
 
-# ⚡ FAQs
+# ❓ FAQs
 
 ## 🍃 General Questions
 
@@ -77,7 +78,7 @@ You need ETH tokens to pay for the gas fees for smart contracts the facilitate t
 
 The required steps before running a Lilypad node include adding the node, adding the Lilypad network information, obtaining tokens and installing the required software.
 
-Refer to the [Running a Node](hardware-providers/docker/) documentation and select your preferred platform (Linux or Docker) for a detailed guide on the prerequisites.
+Refer to the [Running a Node](resource-providers/docker/) documentation and select your preferred platform (Linux or Docker) for a detailed guide on the prerequisites.
 
 ### What are the hardware requirements to run a Lilypad node?
 
@@ -88,7 +89,7 @@ The minimum hardware requirements to run a Lilypad node are:
 * **Internet**: 250Mbps Download Speed
 * **GPU**: NVIDIA GPU with a minimum of 8GB VRAM (see additional details below)
 
-For more information, please visit [Hardware Requirements](hardware-providers/hardware-requirements.md).
+For more information, please visit [Hardware Requirements](resource-providers/hardware-requirements.md).
 
 ### What are the updates required for maintaining my node software?
 
@@ -122,7 +123,7 @@ A Lilypad module is a Git repository that can be used to perform various tasks u
 
 ### How to run a Lilypad node
 
-Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find instructions for running a node in our [Run a node](hardware-providers/docker/) docs.
+Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find instructions for running a node in our [Run a node](resource-providers/docker/) docs.
 
 ### Node hardware specs
 
@@ -132,7 +133,7 @@ Lilypad is an open network that allows anyone to contribute GPU computing capaci
 * Docker
 * Nvidia docker drivers
 
-For more information on the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-providers/hardware-requirements.md) documentation.
+For more information on the requirements to run a Lilypad node, please refer to the [hardware requirements](resource-providers/hardware-requirements.md) documentation.
 
 ## 📖 Token Questions
 

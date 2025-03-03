@@ -69,7 +69,7 @@ A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testn
 export WEB3_PRIVATE_KEY=<your private key>
 ```
 
-To use the Lilypad CLI, the set private key will need to hold Lilypad testnet tokens and Arbitrum Sepolia ETH. You can find those instructions in the [Funding your wallet](quick-start/funding-your-wallet-from-faucet.md) documentation.
+To use the Lilypad CLI, the set private key will need to hold Lilypad testnet tokens and Arbitrum Sepolia ETH. You can find those instructions in the [Funding your wallet](../lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md) documentation.
 
 ## Verify installation
 

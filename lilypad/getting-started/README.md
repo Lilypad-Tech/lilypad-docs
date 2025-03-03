@@ -1,15 +1,14 @@
 ---
 description: Get started with Lilypad
-hidden: true
 ---
 
-# Quick Start
+# ⚡ Getting Started
 
 Lilypad enables you to run compute jobs on the network of the network of computers on Lilypad Testnet.
 
 The cloud is just somebody else's computer...
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Overview
 

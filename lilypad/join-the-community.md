@@ -1,5 +1,6 @@
 ---
 description: Find all of the Lilypad Network’s links below 👇
+hidden: true
 ---
 
 # 👥 Join the Community

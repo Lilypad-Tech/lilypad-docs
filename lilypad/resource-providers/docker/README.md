@@ -43,7 +43,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../../lilypad-testnet/quick-start/setting-up-metamask.md).
+For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../../getting-started/setting-up-your-wallet.md).
 
 ### Fund your wallet with ETH and LP
 

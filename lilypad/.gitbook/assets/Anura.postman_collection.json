@@ -1,7 +1,7 @@
 {
   "info": {
-    "name": "Anura",
-    "description": "The Anura AI Inference API by Lilypad",
+    "name": "Anura Testing",
+    "description": "The Anura AI Inference API by Lilypad.\n\nhttps://anura.lilypad.tech/",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
@@ -13,7 +13,7 @@
       "name": "Chat Completions",
       "item": [
         {
-          "name": "Chat Completions",
+          "name": "DeepScaleR 1.5B",
           "event": [],
           "request": {
             "method": "POST",
@@ -54,7 +54,58 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"model\": \"llama2:7b\",\n    \"messages\": [\n        {\n            \"role\": \"user\",\n            \"content\": \"tell me about the moon\"\n        }\n    ],\n    \"max_tokens\": 2048,\n    \"temperature\": 0.7\n}",
+              "raw": "{\n  \"model\": \"deepscaler:1.5b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"you are a helpful AI assistant\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"solve the following math problem: ∫(2x^3 - 5x + 4) dx from 1 to 5 + lim(x→∞) (3x^2 - 2x + 7)/(5x^2 + 4) - Σ (n=1 to 10) (n^2 / 2^n)\"\n    }\n  ],\n  \"stream\": false,\n  \"options\": {\n    \"temperature\": 1.0\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "DeepSeek R1 7B",
+          "event": [],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              },
+              {
+                "key": "Accept",
+                "value": "text/event-stream",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/chat/completions",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "chat",
+                "completions"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"model\": \"deepseek-r1:7b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"you are a helpful AI assistant\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"what is the animal order of the frog?\"\n    }\n  ],\n  \"stream\": false,\n  \"options\": {\n    \"temperature\": 1.0\n  }\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -97,14 +148,9 @@
               "variable": []
             }
           }
-        }
-      ]
-    },
-    {
-      "name": "Ollama",
-      "item": [
+        },
         {
-          "name": "Create Ollama Job",
+          "name": "Llama 3.1 8B",
           "event": [],
           "request": {
             "method": "POST",
@@ -114,48 +160,10 @@
                 "value": "application/json",
                 "disabled": false,
                 "type": "default"
-              }
-            ],
-            "auth": {
-              "type": "noauth"
-            },
-            "description": "",
-            "url": {
-              "raw": "https://anura-testnet.lilypad.tech/api/v1/ollama",
-              "protocol": "https",
-              "host": [
-                "anura-testnet",
-                "lilypad",
-                "tech"
-              ],
-              "path": [
-                "api",
-                "v1",
-                "ollama"
-              ],
-              "query": [],
-              "variable": []
-            },
-            "body": {
-              "mode": "raw",
-              "raw": "{\n  \"model\": \"llama2:7b\",\n  \"messages\": [{\"role\": \"user\", \"content\": \"What is the colour of the sky?\"}],\n  \"max_tokens\": 100,\n  \"temperature\": 0.7\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "Get Ollama Result",
-          "event": [],
-          "request": {
-            "method": "GET",
-            "header": [
+              },
               {
-                "key": "Content-Type",
-                "value": "application/json",
+                "key": "Accept",
+                "value": "text/event-stream",
                 "disabled": false,
                 "type": "default"
               }
@@ -165,7 +173,7 @@
             },
             "description": "",
             "url": {
-              "raw": "https://anura-testnet.lilypad.tech/api/v1/ollama/:id/results",
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/chat/completions",
               "protocol": "https",
               "host": [
                 "anura-testnet",
@@ -175,17 +183,224 @@
               "path": [
                 "api",
                 "v1",
-                "ollama",
-                ":id",
-                "results"
+                "chat",
+                "completions"
               ],
               "query": [],
-              "variable": [
-                {
-                  "key": "id",
-                  "value": "QmVDjfQSbw2NY7ayrSzw3xgFCqUsPLK6jryMH9dBL6adTS"
+              "variable": []
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"model\": \"llama3.1:8b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"you are a helpful AI assistant\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"what is the animal order of the frog?\"\n    }\n  ],\n  \"stream\": false,\n  \"options\": {\n    \"temperature\": 1.0\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
                 }
-              ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Llava 7B",
+          "event": [],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              },
+              {
+                "key": "Accept",
+                "value": "text/event-stream",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/chat/completions",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "chat",
+                "completions"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"model\": \"llava:7b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"you are a helpful AI assistant\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"what is the animal order of the frog?\"\n    }\n  ],\n  \"stream\": false,\n  \"options\": {\n    \"temperature\": 1.0\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mistral 7B",
+          "event": [],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              },
+              {
+                "key": "Accept",
+                "value": "text/event-stream",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/chat/completions",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "chat",
+                "completions"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"model\": \"mistral:7b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"you are a helpful AI assistant\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"what is the animal order of the frog?\"\n    }\n  ],\n  \"stream\": false,\n  \"options\": {\n    \"temperature\": 1.0\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "OpenThinker 7B",
+          "event": [],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              },
+              {
+                "key": "Accept",
+                "value": "text/event-stream",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/chat/completions",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "chat",
+                "completions"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"model\": \"openthinker:7b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"you are a helpful AI assistant\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"what is the animal order of the frog?\"\n    }\n  ],\n  \"stream\": false,\n  \"options\": {\n    \"temperature\": 1.0\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Phi-4 14B",
+          "event": [],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false,
+                "type": "default"
+              },
+              {
+                "key": "Accept",
+                "value": "text/event-stream",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "https://anura-testnet.lilypad.tech/api/v1/chat/completions",
+              "protocol": "https",
+              "host": [
+                "anura-testnet",
+                "lilypad",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "chat",
+                "completions"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"model\": \"phi4:14b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"you are a helpful AI assistant\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"what is the animal order of the frog?\"\n    }\n  ],\n  \"stream\": false,\n  \"options\": {\n    \"temperature\": 1.0\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
             }
           }
         }
@@ -281,40 +496,13 @@
           }
         }
       ]
-    },
-    {
-      "name": "Models",
-      "item": [
-        {
-          "name": "GET",
-          "event": [],
-          "request": {
-            "method": "GET",
-            "header": [],
-            "auth": {
-              "type": "noauth"
-            },
-            "description": "",
-            "url": {
-              "raw": "https://anura-testnet.lilypad.tech/api/v1/models",
-              "protocol": "https",
-              "host": [
-                "anura-testnet",
-                "lilypad",
-                "tech"
-              ],
-              "path": [
-                "api",
-                "v1",
-                "models"
-              ],
-              "query": [],
-              "variable": []
-            }
-          }
-        }
-      ]
     }
   ],
-  "variable": []
+  "variable": [
+    {
+      "key": "API_KEY",
+      "value": "",
+      "type": "default"
+    }
+  ]
 }
