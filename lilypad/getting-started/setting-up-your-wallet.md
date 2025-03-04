@@ -26,7 +26,7 @@ In order to change to the Arbitrum network in the wallet, open MetaMask and clic
 
 <figure><img src="../.gitbook/assets/metamask-step-1.png" alt="" width="355"><figcaption></figcaption></figure>
 
-Then , select "Add network":
+Then select "Add network":
 
 <figure><img src="../.gitbook/assets/metamask-step-2.png" alt="" width="352"><figcaption></figcaption></figure>
 
