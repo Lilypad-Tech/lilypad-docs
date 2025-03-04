@@ -18,7 +18,7 @@ End users of Lilypad can decide which crypto wallet they would like to use. In t
 
 * Install [MetaMask Extension](https://metamask.io/download/)
 
-### Use the Arbitrum Sepolia Testnet in MetaMask.
+## Connect to the Arbitrum Sepolia Testnet in MetaMask.
 
 The Lilypad Testnet (IncentiveNet) is currently running on the Arbitrum L2 network built on Ethereum.
 
