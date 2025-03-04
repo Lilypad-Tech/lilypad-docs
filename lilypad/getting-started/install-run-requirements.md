@@ -62,7 +62,7 @@ sudo mv lilypad /usr/local/bin/lilypad
 You're required to set your private key environment variable, `WEB3_PRIVATE_KEY`, to interact securely with the network.
 
 {% hint style="info" %}
-A [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3_private_key) can be retrieved from the Metamask account details menu. For more info, check out the [official guide from Metamask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on viewing a wallet's private key. **Be sure to keep your private key safe** and never share it or store it in unsecured places to prevent unauthorized access to your funds. You also need a separate private key&#x20;
+A `WEB3_PRIVATE_KEY` can be retrieved from the Metamask account details menu. For more info, check out the [official guide from Metamask](https://support.metamask.io/configure/accounts/how-to-export-an-accounts-private-key/) on viewing a wallet's private key. **Be sure to keep your private key safe** and never share it or store it in unsecured places to prevent unauthorized access to your funds. You also need a separate private key&#x20;
 {% endhint %}
 
 ```bash
