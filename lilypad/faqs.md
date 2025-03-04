@@ -1,6 +1,5 @@
 ---
 description: Frequently Asked Questions for Lilypad Network
-hidden: true
 ---
 
 # ❓ FAQs
