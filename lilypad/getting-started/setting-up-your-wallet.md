@@ -98,10 +98,10 @@ Follow these steps to successfully claim your Testnet LP tokens:&#x20;
 
 1. Navigate to the Lilypad Testnet [faucet](https://faucet-testnet.lilypad.tech/).&#x20;
 2. Authenticate with Discord.
-3. Copy your MetaMask wallet address into the input
+3. Copy your MetaMask wallet address into the input.
 4. Click "Request".
 
-LP Testnet tokens will be sent to this wallet address.
+LP Testnet tokens will be sent to the wallet address.
 
 <figure><img src="../.gitbook/assets/faucet-step-1.png" alt="" width="563"><figcaption></figcaption></figure>
 
