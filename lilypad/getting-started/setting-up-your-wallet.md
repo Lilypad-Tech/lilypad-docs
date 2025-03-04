@@ -88,7 +88,7 @@ Get Testnet Lilypad Tokens (LP) and Arbitrum Sepolia Testnet ETH
 
 ### Get Testnet LP tokens
 
-Find out why you need tokens in the [FAQs](../lilypad-testnet/..faqs.md)
+Find out why you need tokens in the [FAQs](../faqs.md)
 
 {% hint style="info" %}
 You must be a member of [the Lilypad Discord](https://discord.gg/tnE8SMmsxW) to claim tokens
