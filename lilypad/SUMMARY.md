@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🍃 Lilypad](README.md)
+* [🍃 Lilypad Home](README.md)
 * [⚡ Getting Started](getting-started/README.md)
   * [Installation (CLI)](getting-started/install-run-requirements.md)
   * [Setting Up Your Wallet](getting-started/setting-up-your-wallet.md)
