@@ -6,7 +6,7 @@ description: Lilypad's official AI inference API.
 
 ## Getting Started
 
-Anura makes it _incredibly_ easy to start running AI inference job modules on Lilypad's decentralized compute network:
+Use Anura to start running AI inference job modules on Lilypad's decentralized compute network:
 
 1. Get an API key from the [Anura website](https://anura.lilypad.tech/).
 2. Find which models we support:
