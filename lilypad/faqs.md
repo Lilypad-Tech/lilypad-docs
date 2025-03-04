@@ -26,8 +26,8 @@ Find the full Lilypad Network [roadmap](https://lilypad.tech/#roadmap) on our we
 
 Previously, Lilypad required deterministic jobs on the network and used optimistic reproducibility to randomly re-run jobs to ensure trust, however this method has been deprecated due to:
 
-1. the limitation the determinism requirement placed on what jobs were available to run on the network
-2. the inability to realistically be able to determine a “deterministic” job to be deterministic easily
+1. The limitation the determinism requirement placed on what jobs were available to run on the network
+2. The inability to realistically be able to determine a “deterministic” job to be deterministic easily
 
 ### Has Lilypad raised VC money?
 
@@ -63,9 +63,9 @@ You can check your rewards by pasting your nodes wallet address into the followi
 
 On the Lilypad network, The blockchain is used for
 
-* payment rails
-* storing the deals transparently (on-chain guarantees about the compute)
-* storing any disputes & results
+* Payment rails
+* Storing the deals transparently (on-chain guarantees about the compute)
+* Storing any disputes & results
 
 Lilypad Tokens are used to transact on the Lilypad network. They are used as payment by those who want to run jobs (to the resource providers who run them), and as collateral by resource providers.
 
