@@ -34,23 +34,17 @@ Next, select "Add a network manually":
 
 <figure><img src="../.gitbook/assets/metamask-step-3.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Input all the required Arbitrum Sepolia Testnet network info, and then "Save":
-
-{% hint style="info" %}
-Network name: Arbitrum Sepolia
-
-New RPC URL: [https://sepolia-rollup.arbitrum.io/rpc](https://sepolia-rollup.arbitrum.io/rpc)
-
-Chain ID: 421614
-
-Currency symbol: ETH
-
-Block explorer URL: (leave blank)
-{% endhint %}
+Input the required Arbitrum Sepolia Testnet network info, and then "Save":
 
 {% hint style="info" %}
 Network info is referenced directly from the Arbitrum Sepolia [documentation](https://docs.arbitrum.io/arbitrum-bridge/quickstart#step-2-add-the-preferred-network-to-your-wallet).
 {% endhint %}
+
+* **Network name**: Arbitrum Sepolia
+* **New RPC URL**: [https://sepolia-rollup.arbitrum.io/rpc](https://sepolia-rollup.arbitrum.io/rpc)
+* **Chain ID**: 421614
+* **Currency symbol**: ETH
+* **Block explorer URL**: [https://sepolia.arbiscan.io](https://sepolia.arbiscan.io) (optional)
 
 <figure><img src="../.gitbook/assets/metamask-step-4.png" alt="" width="375"><figcaption></figcaption></figure>
 
