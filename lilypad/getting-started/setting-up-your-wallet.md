@@ -6,7 +6,7 @@ description: >-
 
 # Setting Up Your Wallet
 
-Both Resource Providers (GPU compute nodes) and those looking to run jobs on the Lilypad network need to set up a Metamask account in order to run jobs on Lilypad. The public key of your wallet address is how you are identified on the network, and is how you can look up the transactions you make on the [Arbitrum Etherscan blockchain explorer](https://etherscan.io/token/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1). You need an account for running jobs, and a separate account for each GPU you want to set up on the network.
+Both Resource Providers (GPU compute nodes) and those looking to run jobs on the Lilypad network need to set up a Metamask account in order to run jobs on Lilypad. The public key of your wallet address is how you are identified on the network, and is how you can look up the transactions you make on the [Arbitrum Sepolia blockchain explorer](https://etherscan.io/token/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1). You need an account for running jobs, and a separate account for each GPU you want to set up on the network.
 
 The wallet you use for your account must have both ETH (to run smart contracts on Ethereum) and Lilypad (LP) tokens in order to pay for jobs (or receive funds for jobs) on the network.
 
