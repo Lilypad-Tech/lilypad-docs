@@ -91,7 +91,7 @@ The instructions can be found in our [installation documentation](getting-starte
 
 ### How can I check the status of my Lilypad node?
 
-Find more information check out the [Run a node](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/docker#id-5.-monitor-your-node) docs.
+Find more information check out the [Run a node](https://docs.lilypad.tech/lilypad/resource-providers/docker#id-5.-monitor-your-node) docs.
 
 ## 👩‍💻 Developer Questions
 
