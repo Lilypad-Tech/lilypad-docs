@@ -2,13 +2,13 @@
 description: Run the Lilypad CLI wrapper locally
 ---
 
-# JS CLI Wrapper (local)
+# JS CLI Wrapper
 
 The Lilypad CLI wrapper can run locally to create an API endpoint for running jobs on the Lilypad network. This gives developers full control to build a decentralized system running jobs on Lilypad. Github repo can be found [here](https://github.com/Lilypad-Tech/js-cli-wrapper).
 
 Build a [front end ](https://blog.lilypadnetwork.org/setting-up-your-lilypad-front-end)or AI agent workflow that uses this API endpoint for running jobs! For inspiration, check out [this](https://github.com/Lilypad-Tech/js-cli-wrapper/tree/main/examples) JS CLI wrapper + Gradio example. Spin up a Webui with Gradio and use the api with a frontend!
 
-**Note:** This is a beta tool and would mostly be expected to run locally. When implementing this tool, note that the POST request includes the user's Web3 private key. Stay tuned for a hosted API from Lilypad that will supplement this local CLI Wrapper.&#x20;
+**Note:** This is a beta tool and would mostly be expected to run locally. When implementing this tool, note that the POST request includes the user's Web3 private key. Stay tuned for a hosted API from Lilypad that will supplement this local CLI Wrapper.
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ sudo mv lilypad /usr/local/bin
 
 ### Usage
 
-Run `node src/index.js` to create a local endpoint using the js wrapper with either `src/run.js` or `src/stream.js`, then send a post request containing json with your funded `WEB3_PRIVATE_KEY` key set, see the quick start for more on [getting started](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/quick-start)
+Run `node src/index.js` to create a local endpoint using the js wrapper with either `src/run.js` or `src/stream.js`, then send a post request containing json with your funded `WEB3_PRIVATE_KEY` key set, see the quick start for more on [getting-started](../getting-started/ "mention").
 
 In `inputs`, each input must be preceded by the `-i` flag, including tunables. For example: `"inputs": "-i Prompt='an astronaut floating against a white background' -i Steps=50"`
 

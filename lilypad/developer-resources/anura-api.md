@@ -1,13 +1,8 @@
 ---
-description: >-
-  Anura (from Ancient Greek: ἀν-, an- meaning "without," and οὐρά, ourá meaning
-  "tail") refers to the order of amphibians that includes all modern frogs and
-  toads.
+description: Lilypad's official AI inference API.
 ---
 
 # Anura API
-
-Lilypad's official AI inference API.
 
 ## Getting Started
 
@@ -247,7 +242,7 @@ This code enables us to communicate directly with the Lilypad Solver. As we prog
 }'
 </code></pre>
 
-* You should see messages like `Job status:1`, which mean the deal is agreed on the Lilypad network. Job status:2 means results are ready (though they should be sent immediately).
+* You should see messages like `Job status:1`, which mean the deal is agreed on the Lilypad network. `Job status:2` means results are ready (though they should be sent immediately).
 
 #### Get Status/Details of a Job
 
