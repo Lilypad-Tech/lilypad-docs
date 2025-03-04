@@ -81,20 +81,13 @@ Refer to the [Running a Node](resource-providers/docker/) documentation and sele
 
 ### What are the hardware requirements to run a Lilypad node?
 
-The minimum hardware requirements to run a Lilypad node are:
-
-* **Processor**: Quad-core x64 Processor
-* **RAM**: 16GB (see additional details below)
-* **Internet**: 250Mbps Download Speed
-* **GPU**: NVIDIA GPU with a minimum of 8GB VRAM (see additional details below)
-
 For more information, please visit [Hardware Requirements](resource-providers/hardware-requirements.md).
 
 ### What are the updates required for maintaining my node software?
 
 Resource providers are expected to have the latest Lilypad versions installed on their machines.
 
-The instructions can be found in our [installation documentation](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements#install-via-officially-released-binaries) (select the Resource Provider tab).
+The instructions can be found in our [installation documentation](getting-started/install-run-requirements.md) (select the Resource Provider tab).
 
 ### How can I check the status of my Lilypad node?
 
