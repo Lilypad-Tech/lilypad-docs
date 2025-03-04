@@ -10,15 +10,13 @@ This module was created as a "Hello World" for the Lilypad Network!
 
 ## Getting Started
 
-### Prerequisites
-
 Before running `cowsay`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
 
 ```bash
 export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
 ```
 
-### Run cowsay
+## Run cowsay
 
 Once you've installed the CLI, run the `cowsay` command:
 
