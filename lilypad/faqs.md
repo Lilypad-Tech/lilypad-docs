@@ -95,7 +95,7 @@ To check if the RP is running use the following command: `sudo systemctl status 
 
 This will give a live output from the Lilypad node. The logs will show the node running and accepting jobs on the network. To get more information from your node, run the following: `sudo journalctl -u lilypad-resource-provider.service -f`.
 
-Find more information check out the [Run a node](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/docker#id-5.-monitor-your-node) docs
+Find more information check out the [Run a node](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node/docker#id-5.-monitor-your-node) docs.
 
 ## 👩‍💻 Developer Questions
 
