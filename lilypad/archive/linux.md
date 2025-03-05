@@ -8,7 +8,7 @@ description: >-
 # Run a node - Linux
 
 {% hint style="warning" %}
-These instructions are no longer actively maintained. We recommend using the [Docker approach](../resource-providers/docker.md) for the most up-to-date and supported setup.
+These instructions are no longer actively maintained. We recommend using the [Docker approach](../resource-providers/docker/) for the most up-to-date and supported setup.
 {% endhint %}
 
 

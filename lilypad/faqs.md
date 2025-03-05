@@ -77,7 +77,7 @@ You need ETH tokens to pay for the gas fees for smart contracts the facilitate t
 
 The required steps before running a Lilypad node include adding the node, adding the Lilypad network information, obtaining tokens and installing the required software.
 
-Refer to the [Running a Node](resource-providers/docker.md) documentation and select your preferred platform (Linux or Docker) for a detailed guide on the prerequisites.
+Refer to the [Running a Node](resource-providers/docker/) documentation and select your preferred platform (Linux or Docker) for a detailed guide on the prerequisites.
 
 ### What are the hardware requirements to run a Lilypad node?
 
@@ -111,7 +111,7 @@ A Lilypad module is a Git repository that can be used to perform various tasks u
 
 ### How to run a Lilypad node
 
-Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find instructions for running a node in our [Run a node](resource-providers/docker.md) docs.
+Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find instructions for running a node in our [Run a node](resource-providers/docker/) docs.
 
 ### Node hardware specs
 

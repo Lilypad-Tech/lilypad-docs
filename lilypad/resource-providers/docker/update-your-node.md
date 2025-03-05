@@ -6,8 +6,8 @@ description: Instructions to update the Docker Lilypad Resource Provider (RP)
 
 To update a Lilypad RP, remove any previous versions of Lilypad on the instance and then follow the instructions to setup a Docker RP.
 
-* If the Lilypad install for Linux was previously used on the RP, first remove this install. Then follow the install instructions.
-* If the RP previously used a Docker Lilypad version, remove previous Docker containers and images, then follow the install instructions.
+* If the Lilypad install for Linux was previously used on the RP, first [remove](https://docs.lilypad.tech/lilypad/resource-providers/update-node#ensure-all-processes-from-linux-install-are-stopped-and-removed)[ the install](https://docs.lilypad.tech/lilypad/resource-providers/update-node#ensure-all-processes-from-linux-install-are-stopped-and-removed). Then follow the [install instructions](https://docs.lilypad.tech/lilypad/resource-providers/update-node#install-and-run-a-new-version-of-lilypad).
+* If the RP previously used a Docker Lilypad version,[  previous Docker containers and images](https://docs.lilypad.tech/lilypad/resource-providers/update-node#update-lilypad-version-for-docker-rp), then follow the [install instructions](https://docs.lilypad.tech/lilypad/resource-providers/update-node#install-and-run-a-new-version-of-lilypad).
 
 ## Ensure all processes from Linux install are stopped and removed
 
@@ -102,7 +102,7 @@ docker rmi <IMAGE ID>
 {% hint style="info" %}
 If a RP was running on the Lilypad Testnet in 2024, it is recommended to create a new wallet when joining the network again for the RP Beta program. If a RP wants to use the same wallet, feel free to try running the RP and let our team know if any issues with running jobs are experienced.
 
-If a wallet has been used to run CLI jobs on Lilypad, this wallet cannot be used for a RP). See the Docs for [Setting up a Metamask Wallet](../getting-started/setting-up-your-wallet.md)
+If a wallet has been used to run CLI jobs on Lilypad, this wallet cannot be used for a RP). See the Docs for [Setting up a Metamask Wallet](../../getting-started/setting-up-your-wallet.md)
 {% endhint %}
 
 ### 1. Export WEB3\_PRIVATE\_KEY as an environment variable
@@ -152,5 +152,5 @@ docker ps
 A healthy, updated node should have all containers started, a preflight check, and be adding a resource offer.\
 
 
-<figure><img src="../.gitbook/assets/Screenshot from 2025-02-19 09-40-43.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot from 2025-02-19 09-40-43.png" alt=""><figcaption></figcaption></figure>
 
