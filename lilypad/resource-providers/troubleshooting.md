@@ -8,7 +8,8 @@ description: Common FAQs when running a Lilypad node
 Please view these resources below for FAQs!
 
 * [Lilybit Rewards info](https://blog.lilypadnetwork.org/update-to-the-lilybit-rewards-calculation)
-* [Lilybit Leaderboard](https://info.lilypad.tech/leaderboard) (under maintanence)
+* [Resource Provider Points dashboard](https://rp-points.lilypad.tech/)
+* [Lilybit Leaderboard](https://info.lilypad.tech/leaderboard) (under maintenance)
 {% endhint %}
 
 ## Don't see your issue below?
