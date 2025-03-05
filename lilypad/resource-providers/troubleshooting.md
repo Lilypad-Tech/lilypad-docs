@@ -69,6 +69,23 @@ docker logs bacalhau
 
 Resource Providers can run on the Lilypad Network without a GPU, however only hardware with a GPU is currently rewarded with Lilybit\_ rewards.
 
+### **Checking Docker Runtime**
+
+To verify your Docker runtime configuration: `sudo docker info | grep Runtimes`
+
+You should see the NVIDIA runtime listed. If you only see: `Runtimes: io.containerd.runc.v2 runc` you will need to configure the NVIDIA runtime.
+
+### **Configuring NVIDIA Runtime**
+
+If the NVIDIA runtime is not showing up or you're experiencing issues, try the following:
+
+1\. Configure the NVIDIA Container Toolkit runtime: `sudo nvidia-ctk runtime configure --runtime=docker --set-as-default`\
+2\. Restart the Docker service: `sudo systemctl restart docker`
+
+### **Overview of Docker setup**
+
+For a comprehensive overview of your Docker setup, use: `docker info`. This command provides detailed information about your Docker daemon configuration.
+
 ### My docker RP is turning on, but showing errors stating it is not providing a Resource Offer.
 
 Typically this occurs when an old version of Lilypad is still running on the instance.&#x20;
