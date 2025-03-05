@@ -27,13 +27,13 @@ Running Jobs (participating as a 'Job Creator') is just a few simple steps. You 
 
 ### **Example Modules**
 
-There is a basic example [cowsay module](../lilypad-modules-1/cowsay.md) you can run, or try out some of the Lilypad team-supported modules:
+There is a basic example [cowsay module](../lilypad-modules/cowsay.md) you can run, or try out some of the Lilypad team-supported modules:
 
-* [**Llama 2**](../lilypad-modules-1/llama2.md)
-* [**Stable Diffusion (SDXL0.9 & 1.0)**](../lilypad-modules-1/stable-diffusion-sdxl0.9.md)
-* [**Stable Diffusion Turbo Pipeline**](../lilypad-modules-1/stable-diffusion-turbo-pipeline.md)
-* [**Stable Diffusion Video (SDV1.0 & 1.1)**](../lilypad-modules-1/stable-diffusion-video-sdv1.0-and-1.1.md)
-* [**Llama LLM**](../lilypad-modules-1/llama-llm.md)
+* [**Llama 2**](../lilypad-modules/llama2.md)
+* [**Stable Diffusion (SDXL0.9 & 1.0)**](../lilypad-modules/stable-diffusion-sdxl0.9.md)
+* [**Stable Diffusion Turbo Pipeline**](../lilypad-modules/stable-diffusion-turbo-pipeline.md)
+* [**Stable Diffusion Video (SDV1.0 & 1.1)**](../lilypad-modules/stable-diffusion-video-sdv1.0-and-1.1.md)
+* [**Llama LLM**](../lilypad-modules/llama-llm.md)
 
 Additional modules from the community are available in the [awesome-lilypad repo](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)
 

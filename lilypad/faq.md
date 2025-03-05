@@ -97,7 +97,7 @@ Find more information check out the [Run a node](resource-providers/run-a-node.m
 
 ### What is a Lilypad Module?
 
-View the [modules-intro.md](lilypad-modules-1/modules-intro.md "mention").
+View the [modules-intro.md](lilypad-modules/modules-intro.md "mention").
 
 ### How to run a ML job on Lilypad
 

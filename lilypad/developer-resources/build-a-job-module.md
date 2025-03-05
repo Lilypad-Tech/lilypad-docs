@@ -233,8 +233,8 @@ lilypad run github.com/noryev/module-sdxl-ipfs:ae17e969cadab1c53d7cabab1927bb403
 Here are some example Lilypad modules for reference:
 
 * [**Cowsay**](https://github.com/Lilypad-Tech/lilypad-module-cowsay)**:** Lilypad "Hello World" example
-* [**Llama2**](../lilypad-modules-1/llama2.md): Text to text
-* [**SDXL-turbo pipeline**](../lilypad-modules-1/stable-diffusion-sdxl0.9.md): Text to image generation
+* [**Llama2**](../lilypad-modules/llama2.md): Text to text
+* [**SDXL-turbo pipeline**](../lilypad-modules/stable-diffusion-turbo-pipeline.md): Text to image generation
 * [**create-lilypad-module**](create-lilypad-module/)&#x20;
 
 Deprecated examples:
