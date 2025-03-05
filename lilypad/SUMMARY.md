@@ -43,8 +43,8 @@
 ## Resource Providers
 
 * [Hardware Requirements](resource-providers/hardware-requirements.md)
-* [Run a node](resource-providers/docker/README.md)
-  * [Update Your Node](resource-providers/docker/update-your-node.md)
+* [Run a node](resource-providers/docker.md)
+* [Update node](resource-providers/update-node.md)
 * [Troubleshooting](resource-providers/troubleshooting.md)
 * [Rewards](resource-providers/rewards.md)
 
