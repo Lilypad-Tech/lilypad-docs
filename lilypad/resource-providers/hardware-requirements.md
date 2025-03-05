@@ -20,8 +20,8 @@ Each model operating on Lilypad has specific VRAM (Video Random Access Memory) r
 
 The capability of your GPU to manage multiple or more complex Lilypad jobs is enhanced by the amount of VRAM available:
 
-* **Standard Models (**[**SDXL**](https://github.com/Lilypad-Tech/lilypad-module-sdxl-pipeline)**,** [**Ollama**](https://github.com/Lilypad-Tech/lilypad-module-ollama-pipeline)**):** Requires 8GB of VRAM.
-* **Advanced Models (**[**SDV**](https://github.com/Lilypad-Tech/lilypad-module-sdv-pipeline)**):** Requires 14GB of VRAM.
+* **Standard Models (SDXL,** **Ollama):** Require at least 8GB of VRAM.
+* **Advanced Models:** Require 14GB+ of VRAM.
 
 ### Hardware Compatibility
 
