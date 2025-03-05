@@ -34,7 +34,7 @@ create-lilypad-module live workshop
 
 ### Prerequisites
 
-To build and run a module on Lilypad Network, you'll need to have the [Lilypad CLI](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements), [Python](https://www.python.org/) and [Docker](https://www.docker.com/) on your machine, as well as [GitHub](https://github.com/) and [Docker Hub](https://hub.docker.com/) accounts.
+To build and run a module on Lilypad Network, you'll need to have the [Lilypad CLI](../../getting-started/installation.md#cli-users), [Python](https://www.python.org/) and [Docker](https://www.docker.com/) on your machine, as well as [GitHub](https://github.com/) and [Docker Hub](https://hub.docker.com/) accounts.
 
 For this guide, we'll be using [`create-lilypad-module`](https://pypi.org/project/create-lilypad-module/) which requires [`pip`](https://pip.pypa.io/) and uses [`Python`](https://www.python.org/).
 

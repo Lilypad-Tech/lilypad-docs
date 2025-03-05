@@ -35,22 +35,22 @@ Open the project in your code editor.
 
 ### Get testnet tokens
 
-We will need to fund a wallet with Lilypad and Arbitrum Sepolia testnet tokens. Follow the first 2 sections labelled "Setting up MetaMask" and "Funding your wallet" from our [Quick Start](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start) docs.
+We will need to fund a wallet with Lilypad and Arbitrum Sepolia testnet tokens. Follow the first 2 sections labelled "Setting up MetaMask" and "Funding your wallet" from our [Quick Start](../getting-started/) docs.
 
 ### Add `.env.local`
 
 Add the following into your `.env.local` file. The private key is used to run the CLI jobs. Make sure that your `.env.local` file is added to the `.gitignore` file as your private key should not be exposed or pushed.
 
 {% hint style="info" %}
-Your [`WEB3_PRIVATE_KEY`](https://docs.lilypad.tech/lilypad/lilypad-milky-way-testnet/install-run-requirements#id-2.-set-web3\_private\_key) can be retrieved from the MetaMask account details menu. For more info, check out the [official guide from MetaMask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on how to get a your private key. Please do not push your private key to GitHub.
+Your [`WEB3_PRIVATE_KEY`](../getting-started/installation.md#set-web3_private_key) can be retrieved from the MetaMask account details menu. For more info, check out the [official guide from MetaMask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on how to get a your private key. Please do not push your private key to GitHub.
 {% endhint %}
 
-1. `WEB3_PRIVATE_KEY='your-wallet key'`
+1. `WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY`
 2. `NEXT_PUBLIC_BASE_URL=http://localhost:3000`
 
 ### Install Lilypad CLI
 
-Run through this guide to [install the Lilypad CLI on your machine](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements). Select the CLI User script.
+Run through this guide to [install the Lilypad CLI on your machine](../getting-started/installation.md#cli-users). Select the CLI User script.
 
 ### Run Framegear
 

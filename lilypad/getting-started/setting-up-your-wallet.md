@@ -82,7 +82,7 @@ Get Testnet Lilypad Tokens (LP) and Arbitrum Sepolia Testnet ETH
 
 ### Get Testnet LP tokens
 
-Find out why you need tokens in the [FAQs](../faqs.md)
+Find out why you need tokens in the [FAQs](../faq.md)
 
 {% hint style="info" %}
 You must be a member of [the Lilypad Discord](https://discord.gg/tnE8SMmsxW) to claim tokens
@@ -95,7 +95,7 @@ Follow these steps to successfully claim your Testnet LP tokens:&#x20;
 3. Copy your MetaMask wallet address into the input.
 4. Click "Request".
 
-LP Testnet tokens will be sent to the wallet address.
+Testnet LP tokens will be sent to the wallet address provided to the faucet.
 
 <figure><img src="../.gitbook/assets/faucet-step-1.png" alt="" width="563"><figcaption></figcaption></figure>
 

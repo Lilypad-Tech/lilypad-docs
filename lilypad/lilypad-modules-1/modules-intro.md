@@ -4,10 +4,6 @@ description: Learn about modules on Lilypad
 
 # Modules Intro
 
-Lilypad is a three-sided marketplace between Module Creators, Job Creators, and Resource Providers.
-
-## Modules Intro
-
 Lilypad modules are the compute jobs that are run on the Lilypad network of Resource Provider nodes. Lilypad nodes are set up to run GPU compute jobs such as AI inference, and can be used for other GPU-intensive tasks.
 
 <figure><img src="../.gitbook/assets/Three-sided-marketplace.png" alt=""><figcaption><p>Lilypad Modules Creators and Job Creators create and run modules on Resource Providers</p></figcaption></figure>
@@ -18,13 +14,13 @@ There are two ways that participants in the network can interact with Lilypad Mo
 
 Running Jobs (participating as a 'Job Creator') is just a few simple steps. You can get going in less than 15 minutes:
 
-* [**Install the CLI** ](../getting-started/install-run-requirements.md)or use[ **the API** ](../developer-resources/anura-api.md)
+* [**Install the CLI** ](../getting-started/installation.md)or use[ **the API** ](../developer-resources/inference-api.md)
 * [**Set up a Metamask Wallet**](../getting-started/setting-up-your-wallet.md) then [**Fund your wallet**](../lilypad-testnet/quick-start/funding-your-wallet-from-faucet.md) with Lilypad tokens to run the jobs and get Arbitrum Sepolia Testnet ETH from one of the many faucets for network gas fees to execute jobs.
 * Choose a module to run, and send the job request
 
 #### **Example Modules**
 
-There is a basic example [cowsay module](hello-cow-world.md) you can run, or try out some of the Lilypad team-supported modules:
+There is a basic example [cowsay module](cowsay.md) you can run, or try out some of the Lilypad team-supported modules:
 
 * [**Llama 2**](llama2.md)
 * [**Stable Diffusion (SDXL0.9 & 1.0)**](stable-diffusion-sdxl0.9.md)

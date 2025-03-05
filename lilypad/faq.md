@@ -2,7 +2,7 @@
 description: Frequently Asked Questions for Lilypad Network
 ---
 
-# ❓ FAQs
+# ❓ FAQ
 
 ## 🍃 General Questions
 
@@ -77,31 +77,31 @@ You need ETH tokens to pay for the gas fees for smart contracts the facilitate t
 
 The required steps before running a Lilypad node include adding the node, adding the Lilypad network information, obtaining tokens and installing the required software.
 
-Refer to the [Running a Node](resource-providers/docker/) documentation and select your preferred platform (Linux or Docker) for a detailed guide on the prerequisites.
+Refer to the [run-a-node.md](resource-providers/run-a-node.md "mention") documentation and select your preferred platform (Linux or Docker) for a detailed guide on the prerequisites.
 
 ### What are the hardware requirements to run a Lilypad node?
 
-For more information, please visit [Hardware Requirements](resource-providers/hardware-requirements.md).
+For more information, please visit [hardware-requirements.md](resource-providers/hardware-requirements.md "mention").
 
 ### What are the updates required for maintaining my node software?
 
 Resource providers are expected to have the latest Lilypad versions installed on their machines.
 
-The instructions can be found in our [installation documentation](getting-started/install-run-requirements.md) (select the Resource Provider tab).
+The instructions can be found in our [installation documentation](getting-started/installation.md#resource-providers) (select the Resource Provider tab).
 
 ### How can I check the status of my Lilypad node?
 
-Find more information check out the [Run a node](https://docs.lilypad.tech/lilypad/resource-providers/docker#id-5.-monitor-your-node) docs.
+Find more information check out the [Run a node](resource-providers/run-a-node.md) docs.
 
 ## 👩‍💻 Developer Questions
 
 ### What is a Lilypad Module?
 
-To run a ML model like Stable Diffusion on Lilypad, the model must be setup as a Lilypad Module (see instructions below). Once setup, modules are run with the Lilypad [CLI](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements).
+View the [modules-intro.md](lilypad-modules-1/modules-intro.md "mention").
 
 ### How to run a ML job on Lilypad
 
-To run a ML job on Lilypad (Stable Diffusion, Stable Diffusion Video, and more) using the Lilypad CLI, follow the [CLI instructions](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) to get started (select the CLI Users tab).
+Follow the [installation instructions](getting-started/installation.md#cli-users) to get started (select the CLI Users tab).
 
 To build an application with Lilypad compute and modules on the backend, check out this [guide](https://blog.lilypadnetwork.org/setting-up-your-lilypad-front-end).
 
@@ -111,7 +111,7 @@ A Lilypad module is a Git repository that can be used to perform various tasks u
 
 ### How to run a Lilypad node
 
-Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find instructions for running a node in our [Run a node](resource-providers/docker/) docs.
+Lilypad is an open network that allows anyone to contribute GPU computing capacity. Find instructions for running a node in our [run-a-node.md](resource-providers/run-a-node.md "mention") documentation.
 
 ### Node hardware specs
 

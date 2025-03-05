@@ -2,10 +2,14 @@
 
 * [🍃 Lilypad Home](README.md)
 * [⚡ Getting Started](getting-started/README.md)
-  * [Installation (CLI)](getting-started/install-run-requirements.md)
+  * [Installation (CLI)](getting-started/installation.md)
   * [Setting Up Your Wallet](getting-started/setting-up-your-wallet.md)
-  * [Run Hello World!](getting-started/run-hello-world-job-cli.md)
-* [❓ FAQs](faqs.md)
+  * [Run Hello World!](getting-started/run-hello-world.md)
+* [🧩 Lilypad Modules](lilypad-modules/README.md)
+  * [Cowsay](lilypad-modules/cowsay.md)
+  * [Llama2](lilypad-modules/llama2.md)
+  * [Stable Diffusion Turbo Pipeline](lilypad-modules/stable-diffusion-turbo-pipeline.md)
+* [❓ FAQ](faq.md)
 * [📅 Events](upcoming-events.md)
 * [👥 Join the Community](join-the-community.md)
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
@@ -20,30 +24,30 @@
 
 ## Developer Resources
 
-* [Anura API](developer-resources/anura-api.md)
+* [Inference API](developer-resources/inference-api.md)
 * [Build a Job Module](developer-resources/build-a-job-module.md)
 * [create-lilypad-module](developer-resources/create-lilypad-module/README.md)
   * [Getting Started](developer-resources/create-lilypad-module/getting-started.md)
   * [Folder Structure](developer-resources/create-lilypad-module/folder-structure.md)
   * [Configuration](developer-resources/create-lilypad-module/configuration.md)
   * [Creating Your Module](developer-resources/create-lilypad-module/creating-your-module.md)
-* [JS CLI Wrapper](developer-resources/js-cli-wrapper-local.md)
+* [JS CLI Wrapper](developer-resources/js-cli-wrapper.md)
 
 ## Lilypad Modules
 
-* [Modules Intro](lilypad-modules/modules-intro.md)
-* [Hello, (cow) World!](lilypad-modules/hello-cow-world.md)
-* [Llama2](lilypad-modules/llama2.md)
-* [Stable Diffusion Turbo Pipeline](lilypad-modules/stable-diffusion-turbo-pipeline.md)
-* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules/stable-diffusion-sdxl0.9.md)
-* [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-modules/stable-diffusion-video-sdv1.0-and-1.1.md)
-* [Llama LLM](lilypad-modules/llama-llm.md)
-* [AlphaFold2](lilypad-modules/alphafold2.md)
+* [Modules Intro](lilypad-modules-1/modules-intro.md)
+* [Hello, (cow) World!](lilypad-modules-1/cowsay.md)
+* [Llama2](lilypad-modules-1/llama2.md)
+* [Stable Diffusion Turbo Pipeline](lilypad-modules-1/stable-diffusion-turbo-pipeline.md)
+* [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules-1/stable-diffusion-sdxl0.9.md)
+* [Stable Diffusion Video (SDV1.0 & 1.1)](lilypad-modules-1/stable-diffusion-video-sdv1.0-and-1.1.md)
+* [Llama LLM](lilypad-modules-1/llama-llm.md)
+* [AlphaFold2](lilypad-modules-1/alphafold2.md)
 
 ## Resource Providers
 
 * [Hardware Requirements](resource-providers/hardware-requirements.md)
-* [Run a node](resource-providers/docker/README.md)
+* [Run a node](resource-providers/run-a-node.md)
 * [Update node](resource-providers/docker/update-your-node.md)
 * [Troubleshooting](resource-providers/troubleshooting.md)
 * [Rewards](resource-providers/rewards.md)
@@ -52,12 +56,12 @@
 
 * [Validation of GPU Compute](research-and-vision/validation-of-gpu-compute.md)
 * [Game Theory](research-and-vision/game-theory.md)
-* [V1 Research Documents](research-and-vision/v1-documents/README.md)
-  * [Verifiable Computing](research-and-vision/v1-documents/verifiable-computing.md)
-  * [Problem Statement](research-and-vision/v1-documents/problem-statement.md)
-  * [Prior Protocols](research-and-vision/v1-documents/prior-protocols.md)
-  * [Autonomous Agents](research-and-vision/v1-documents/autonomous-agents.md)
-  * [Mechanisms To Explore](research-and-vision/v1-documents/mechanisms-to-explor.md)
+* [V1 Research Documents](research-and-vision/v1-research-documents/README.md)
+  * [Verifiable Computing](research-and-vision/v1-research-documents/verifiable-computing.md)
+  * [Problem Statement](research-and-vision/v1-research-documents/problem-statement.md)
+  * [Prior Protocols](research-and-vision/v1-research-documents/prior-protocols.md)
+  * [Autonomous Agents](research-and-vision/v1-research-documents/autonomous-agents.md)
+  * [Mechanisms To Explore](research-and-vision/v1-research-documents/mechanisms-to-explor.md)
 * [Whitepaper](research-and-vision/whitepaper.md)
 
 ## Use Cases

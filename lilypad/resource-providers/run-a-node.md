@@ -20,7 +20,7 @@ Lilypad RPs currently only support Linux installs. Running a RP on Windows is cu
 * Nvidia Docker drivers
 
 {% hint style="info" %}
-For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](../hardware-requirements.md) documentation.
+For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
 {% endhint %}
 
 ## Network information and Testnet tokens
@@ -43,7 +43,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../../getting-started/setting-up-your-wallet.md).
+For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../getting-started/setting-up-your-wallet.md).
 
 ### Fund your wallet with ETH and LP
 
@@ -72,7 +72,7 @@ Before we start the Rp with the Docker setup, retrieve the private key from the 
 ### 1. Export Your Private Key
 
 {% hint style="info" %}
-The same WEB3\_PRIVATE\_KEY cannot be used for both a RP and using the Lilypad CLI. If a WEB3\_PRIVATE\_KEY has already been used to run jobs with the CLI, make a new one and [fund](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/funding-your-wallet-from-faucet) the wallet. You can \`unset $WEB3\_PRIVATE\_KEY\` if you want to use a different one to run your RP.
+The same WEB3\_PRIVATE\_KEY cannot be used for both a RP and using the Lilypad CLI. If a WEB3\_PRIVATE\_KEY has already been used to run jobs with the CLI, make a new one and [fund](../getting-started/setting-up-your-wallet.md#funding-your-wallet) the wallet. You can \`unset $WEB3\_PRIVATE\_KEY\` if you want to use a different one to run your RP.
 {% endhint %}
 
 Before starting, export your private key from MetaMask. Follow the official MetaMask guide for instructions on safely exporting your private key.
@@ -112,7 +112,7 @@ docker rm <container_name>
 ```
 
 {% hint style="info" %}
-Before moving to the next step, ensure older versions of lilypad and bacalhau [are not running](https://docs.lilypad.tech/lilypad/hardware-providers/troubleshooting#my-docker-rp-is-turning-on-but-showing-errors-stating-it-is-not-providing-a-resource-offer) as systemd services.
+Before moving to the next step, ensure older versions of lilypad and bacalhau [are not running](troubleshooting.md) as systemd services.
 {% endhint %}
 
 ### 4. Start the Resource Provider
@@ -175,7 +175,7 @@ docker rmi <image_name_or_id>
 
 ### 4. Follow Docker RP install instructions
 
-Using the Lilypad Docker [RP install instructions](https://docs.lilypad.tech/lilypad/hardware-providers/docker#docker-compose-setup) setup a new RP and run.
+Using the Lilypad Docker [RP install instructions](run-a-node.md) setup a new RP and run.
 
 ## View Lilybit\_ rewards
 

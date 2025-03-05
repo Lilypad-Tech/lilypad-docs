@@ -36,8 +36,8 @@ For **complex issues, bug reports, or feature requests,** open a discussion in t
 
 ### Common issues to check first!
 
-1. Ensure the RP (node) is running the latest [Lilypad version](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#update-lilypad-version) for your preferred environment
-2. Does the RP have [enough](https://docs.lilypad.tech/lilypad/hardware-providers/run-a-node#fund-your-wallet-with-eth-and-lp) Lilypad Tokens (LP) and Arbitrum ETH?
+1. Ensure the RP (node) is running the latest [Lilypad version](../getting-started/installation.md) for your preferred environment
+2. Does the RP have [enough](run-a-node.md#fund-your-wallet-with-eth-and-lp) Lilypad Tokens (LP) and Arbitrum ETH?
 3. Updating and restarting the Lilypad services regularly (daily) is encouraged throughout IncentiveNet.
 
 ## Run a node (Resource Provider - RP)
@@ -46,7 +46,7 @@ For **complex issues, bug reports, or feature requests,** open a discussion in t
 
 The [updates-rp](https://discord.com/channels/1212897693450641498/1256179769356189707) Discord channel is the primary location for Resource Provider announcements. Announcements in this channel are also posted on the Lilypad [updates](https://updates.lilypad.tech/) page.
 
-Lilypad supports Resource Providers using the Docker find instructions [here](https://docs.lilypad.tech/lilypad/hardware-providers/docker).&#x20;
+Lilypad supports Resource Providers using the Docker find instructions [here](run-a-node.md).&#x20;
 
 If this doesn't solve the problem, [raise a ticket](https://discord.com/channels/1212897693450641498/1230231823674642513) with our team.
 
@@ -181,9 +181,7 @@ Check out the [MetaMask official guide to retrieve your private key](https://sup
 
 ### How do I setup my Metamask wallet?
 
-* [Import](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask#setting-up-metamask) a custom network (Lilypad)
-* [Locate](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) a wallet's Private Key
-* [Import](https://docs.lilypad.tech/lilypad/lilypad-testnet/quick-start/setting-up-metamask#import-the-testnet-lp-token) the Lilypad Token to a wallet
+View [setting-up-your-wallet.md](../getting-started/setting-up-your-wallet.md "mention").
 
 ### How do I get testnet LP and ETH (Arbitrum Sepolia ETH)?
 

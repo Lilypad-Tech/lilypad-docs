@@ -1,8 +1,8 @@
 ---
-description: Lilypad's official AI inference API.
+description: Anura, Lilypad's official AI inference API
 ---
 
-# Anura API
+# Inference API
 
 ## Getting Started
 
@@ -86,7 +86,7 @@ To see which models are available:
 ```
 curl -X GET "https://anura-testnet.lilypad.tech/api/v1/models" \
 -H "Content-Type: application/json" \
--H "Authorization: Bearer <your_api_key>"
+-H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 ### Chat Completions API
@@ -101,7 +101,7 @@ This endpoint provides a streaming interface for chat completions using Server-S
 
 * `Content-Type: application/json` (required)
 * `Accept: text/event-stream` (recommended for streaming)
-* `Authorization: Bearer <your_api_key>`
+* `Authorization: Bearer YOUR_API_KEY`
 
 **Request Body**
 
@@ -155,7 +155,7 @@ data: [DONE]
 curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
 -H "Content-Type: application/json" \
 -H "Accept: text/event-stream" \
--H "Authorization: Bearer your_api_key_here" \
+-H "Authorization: Bearer YOUR_API_KEY" \
 -d '{
     "model": "llama2:7b",
     "messages": [

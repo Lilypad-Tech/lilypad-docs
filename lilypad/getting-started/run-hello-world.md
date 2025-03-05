@@ -1,32 +1,26 @@
 ---
-description: Run a cowsay job
+description: Running the most important Hello World on Lilypad!
 ---
 
-# Hello, (cow) World!
+# Run Hello World!
 
-`cowsay` is a simple, text-based program originally written for Unix-like operating systems that generates ASCII pictures of a cow with a speech bubble containing a specified message.&#x20;
+Before you run a Lilypad job, make sure you have [Lilypad CLI installed](installation.md) and have set [a `WEB3_PRIVATE_KEY` env variable](installation.md#set-web3_private_key) in your environment.
 
-This module was created as a "Hello World" for the Lilypad Network!
+{% hint style="info" %}
+Your `WEB3_PRIVATE_KEY` can be retrieved from the MetaMask account details menu.  For more info, check out the [official guide from MetaMask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on how to get a your private key. **Be sure to keep your private key safe** and never share it or store it in unsecured places to prevent unauthorized access to your funds.
+{% endhint %}
 
-## Getting Started
+## Run Cowsay
 
-Before running `cowsay`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
+Run the command:
 
 ```bash
-export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
+lilypad run cowsay:v0.0.4 -i Message="moo"
 ```
 
-## Run cowsay
+Wait for the compute to take place and for the results to be published:
 
-Once you've installed the CLI, run the `cowsay` command:
-
-```bash
-lilypad run cowsay:v0.0.4 -i Message="hello, lilypad"  
 ```
-
-### Output
-
-```bash
 ⠀⠀⠀⠀⠀⠀⣀⣤⣤⢠⣤⣀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⢴⣿⣿⣿⣿⢸⣿⡟⠀⠀⠀⠀⠀    ██╗     ██╗██╗  ██╗   ██╗██████╗  █████╗ ██████╗
 ⠀⠀⣰⣿⣦⡙⢿⣿⣿⢸⡿⠀⠀⠀⠀⢀⠀    ██║     ██║██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
@@ -57,13 +51,11 @@ Total 42 (delta 18), reused 19 (delta 18), pack-reused 20 (from 1)
     cat /tmp/lilypad/data/downloaded-files/QmQHrsiAuzTLn5VU6jg5LoXBRrAkEVRKiYeJE29w54gg9Q/stderr
 ```
 
-To view the results in a local directory, navigate to the local folder.
+View your results:&#x20;
 
 ```bash
-open /tmp/lilypad/data/downloaded-files/QmQHrsiAuzTLn5VU6jg5LoXBRrAkEVRKiYeJE29w54gg9Q
+cat /tmp/lilypad/data/downloaded-files/QmQHrsiAuzTLn5VU6jg5LoXBRrAkEVRKiYeJE29w54gg9Q/stdout
 ```
-
-Here, you can view the `stdout` and `stderr` as well as the `outputs` folder for the run:
 
 ```bash
 ~ % cat /tmp/lilypad/data/downloaded-files/QmQHrsiAuzTLn5VU6jg5LoXBRrAkEVRKiYeJE29w54gg9Q/stdout
@@ -76,3 +68,4 @@ Here, you can view the `stdout` and `stderr` as well as the `outputs` folder for
                 ||----w |
                 ||     ||
 ```
+
