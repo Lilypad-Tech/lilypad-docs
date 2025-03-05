@@ -52,7 +52,7 @@ To obtain testnet LP, use the [Lilypad faucet](http://faucet.lilypad.tech) and e
 To obtain testnet ETH, use a third party [Arbitrum Sepolia testnet faucet](https://arbitrum.faucet.dev/ArbSepolia) and enter your ETH address.
 
 {% hint style="info" %}
-The Arbitrum Sepolia faucet provides 0.0001 tokens per request. If you need more tokens and already have Sepolia ETH, you can use the [official Arbitrum bridge](https://bridge.arbitrum.io/) to transfer it over to Arbitrum Sepolia.
+If you need more tokens and already have Sepolia ETH, use the [official Arbitrum bridge](https://bridge.arbitrum.io/) to transfer tokens over to Arbitrum Sepolia.
 {% endhint %}
 
 The faucet will give you both ETH (to pay for gas) and LP (to stake and pay for jobs).
@@ -65,13 +65,9 @@ Resource Providers have the option to [setup their own Arbitrum RPC endpoint](ht
 
 A personal RPC endpoint helps RPs to avoid reliability issues with the public RPC endpoints used by Lilypad ensuring rewards can be earned and jobs can be run consistently. RPs running a personal RPC endpoint contribute to the fault tolerance and decentralization of the Lilypad Network! Read more in the Alchemy Arbitrum [docs](https://docs.alchemy.com/reference/arbitrum-api-quickstart).
 
-## Usage <a href="#heading-run-the-docker-image" id="heading-run-the-docker-image"></a>
-
-Before we start the Docker setup, you'll need to retrieve the private key from the wallet you set up earlier in this guide. For guidance on exporting your private key, refer to [this official MetaMask guide](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/). Once you’ve securely copied your private key, proceed to initialize the Docker containers using the commands provided below.
-
-You have two options to start the Lilypad setup: using Docker Compose or directly pulling the image. Both methods will run the containers in the background, allowing you to continue using your terminal while the setup operates.
-
 ## Docker Compose Setup
+
+Before we start the Rp with the Docker setup, retrieve the private key from the wallet set up earlier in this guide. For guidance on exporting your private key, refer to [this official MetaMask guide](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/). Once the private key has been retrieved, proceed to initialize the Docker containers using the commands provided below.
 
 ### 1. Export Your Private Key
 
