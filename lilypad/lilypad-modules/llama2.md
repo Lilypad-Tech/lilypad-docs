@@ -8,7 +8,7 @@ These instructions provide steps for running the Llama2 module on the Lilypad ne
 
 ## Getting Started <a href="#getting-started" id="getting-started"></a>
 
-Before running `llama2`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/lilypad-testnet/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
+Before running `llama2`, make sure you have the [Lilypad CLI installed](https://docs.lilypad.tech/lilypad/getting-started/install-run-requirements) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
 
 ```bash
 export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
