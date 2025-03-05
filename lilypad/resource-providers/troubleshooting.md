@@ -5,10 +5,10 @@ description: Common FAQs when running a Lilypad node
 # Troubleshooting
 
 {% hint style="info" %}
-Please view these resources before asking questions!
+Please view these resources below for FAQs!
 
 * [Lilybit Rewards info](https://blog.lilypadnetwork.org/update-to-the-lilybit-rewards-calculation)
-* [Lilybit Leaderboard](https://info.lilypad.tech/leaderboard)
+* [Lilybit Leaderboard](https://info.lilypad.tech/leaderboard) (under maintanence)
 {% endhint %}
 
 ## Don't see your issue below?
