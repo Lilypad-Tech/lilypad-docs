@@ -32,8 +32,9 @@ curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
   },
   {
     "role": "user",
-    "content": "what is the animal order of the frog?"
+    "content": "what taxonomic order are frogs classified under?"
   }],
+  "stream": false,
   "options": {
     "temperature": 1.0
   }
