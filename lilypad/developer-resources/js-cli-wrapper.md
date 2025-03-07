@@ -43,7 +43,7 @@ The endpoint can then be tested using curl
 ```
 curl -X POST http://localhost:3000 \
 -H "Content-Type: application/json" \
--d '{"pk": "'"b3994e7660abe5f65f729bb64163c6cd6b7d0b1a8c67881a7346e3e8c7f026f5"'", "module": "github.com/lilypad-tech/lilypad-module-lilysay:0.1.0", "inputs": "-i Message=test"}'
+-d '{"pk": "'"your-private-key"'", "module": "github.com/lilypad-tech/lilypad-module-lilysay:0.1.0", "inputs": "-i Message=test"}'
 ```
 
 ```bash
