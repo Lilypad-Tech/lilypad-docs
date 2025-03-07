@@ -206,17 +206,17 @@ lilypad run repo:tag -i variable=value
 
 During development, you will need to use the Git hash to test your module. This allows you to verify that your module functions correctly and produces the expected results.
 
-Below is a working lilypad module run cmd for reference. (you can use this to run a lilypad job within the lilypad CLI):
+Below is a working Lilypad module run cmd for reference. (you can use this to run a Lilypad job within the Lilypad CLI):
 
 ### Test Module before running on Lilypad
 
-In order to ensure the module has been configured correctly and can run on the Lilypad network, use the following command syntax to run your Module on the Lilypad DemoNet. This is a dev environment with a development private key that can be used for running jobs on DemoNet.
+Use the following command syntax to run your Module on Lilypad Testnet.
 
 ```
 lilypad run github.com/Lilypad-Tech/module-sdxl:6cf06f4038f1cff01a06c4eabc8135fd9835a78a --web3-private-key <your-private-key> -i prompt="a lilypad floating on a pond"
 ```
 
-When running the Module on DemoNet, if the job run appears to be stuck after a few minutes (sometimes it takes time for the Module to download to the RP node), cancel the job and try again. Open a ticket in [Discord](https://discord.com/channels/1212897693450641498/1230231823674642513) with any issues that persist.&#x20;
+If the job run appears to be stuck after a few minutes (sometimes it takes time for the Module to download to the RP node), cancel the job and try again. Open a ticket in [Discord](https://discord.com/channels/1212897693450641498/1230231823674642513) with any issues that persist.&#x20;
 
 {% hint style="info" %}
 If many jobs have been run on the machine previosuly, clear `Lilypad` from the `/tmp` folder locally and try running the job again.
