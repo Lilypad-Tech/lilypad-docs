@@ -4,7 +4,7 @@ description: A developer platform for using the Lilypad network to train and run
 
 # 🛠️ Lilypad ML Workbench
 
-The Lilypad ML workbench provides ML researchers, businesses, and more a simple interface for leveraging the Lilypad network.&#x20;
+The [Lilypad ML workbench](https://github.com/arsen3d/LilypadWorkbench) provides ML researchers, businesses, and more a simple interface for leveraging the Lilypad network.
 
 The ML workbench provides an interface to:
 
@@ -15,7 +15,7 @@ The ML workbench provides an interface to:
 * Fine tune models
 * Create an AI agent
 
-In order to run an AI model on the Lilypad network, a docker image must be created for the program using the [Lilypad module spec](https://docs.lilypad.tech/lilypad/developer-resources/build-a-job-module).&#x20;
+In order to run an AI model on the Lilypad network, a docker image must be created for the program using the [Lilypad module spec](https://docs.lilypad.tech/lilypad/developer-resources/build-a-job-module).
 
 {% hint style="info" %}
 The ML workbench product is currently in beta testing and is not yet provided as a hosted solution. Reach out in the Lilypad [Discord](https://discord.gg/zSErHwZSyC) for more info!
@@ -25,7 +25,7 @@ The ML workbench product is currently in beta testing and is not yet provided as
 
 <figure><img src="../.gitbook/assets/MLWorkbench1.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Run existing Lilypad modules with a simple text or image prompt. The workbench will output an IPFS CID with the result.&#x20;
+Run existing Lilypad modules with a simple text or image prompt. The workbench will output an IPFS CID with the result.
 
 Implement the Lilypad module allowlist and cache the models locally before they are needed! Pin the files to a local IPFS node packaged with the workbench platform.
 
@@ -43,5 +43,7 @@ The ML workbench provides a simple interface for creating and training AI agents
 
 <figure><img src="../.gitbook/assets/MLWorkbench10.png" alt=""><figcaption></figcaption></figure>
 
+### Resources
 
+* [Source code](https://github.com/arsen3d/LilypadWorkbench)
 
