@@ -1,8 +1,9 @@
 ---
 description: 3D Mapping on Lilypad
+hidden: true
 ---
 
-# 🗺️ Extra Labs x Lilypad&#x20;
+# 🗺️ Extra Labs x Lilypad
 
 This is a work-in-progress proof of concept utilizing Extra Labs and Lilypad to create a Lilypad module for running multiple geospatial jobs.
 
