@@ -19,9 +19,11 @@ The **Lilypad VS Code Extension** allows developers to interact with the Lilypad
 
 From the Repository
 
-1. Clone the repo: `git clone git@github.com:PBillingsby/lilypad-vscode-extension.git`
-2. Install the extension in VS Code: `code --install-extension lilypad-vscode-extension.vsix`
-3. If you make changes to the extension and need to recompile it:
+1. Get [Anura API key](https://anura.lilypad.tech/).
+2. Clone the repo: `git clone git@github.com:PBillingsby/lilypad-vscode-extension.git`
+3. Install the extension in VS Code: `code --install-extension lilypad-vscode-extension.vsix`
+4. Add Anura API key to `.env`:  `LILYPAD_API_TOKEN=<ANURA_API_KEY>`
+5. If you make changes to the extension and need to recompile it:
    1. Recompile the code: `npm run compile`
    2. Repackage the extension: `vsce package`
    3. Reinstall the updated `.vsix` file: `code --install-extension lilypad-vscode-extension.vsix`
@@ -35,6 +37,8 @@ From the Repository
 4. **Enter your question** related to the selected code.
 5. **Wait for Lilypad AI** to process your query.
 6. **View the AI’s response** in the webview panel that opens.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-03-10 at 3.05.20 PM.png" alt=""><figcaption><p>Example use</p></figcaption></figure>
 
 ### Resources
 
