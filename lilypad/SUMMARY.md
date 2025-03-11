@@ -67,6 +67,7 @@
 ## Use Cases
 
 * [💻 VS Code Helper extension](use-cases/vs-code-helper-extension.md)
+* [🧠 RAG Support agent](use-cases/rag-support-agent.md)
 * [🗺️ Extra Labs x Lilypad](use-cases/extra-labs-x-lilypad.md)
 * [🛠️ Lilypad ML Workbench](use-cases/lilypad-ml-workbench.md)
 * [🖼️ Farcaster frame](use-cases/farcaster-frame.md)
