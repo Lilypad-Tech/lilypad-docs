@@ -5,10 +5,6 @@
   * [Installation (CLI)](getting-started/installation.md)
   * [Setting Up Your Wallet](getting-started/setting-up-your-wallet.md)
   * [Run Hello World!](getting-started/run-hello-world.md)
-* [🧩 Lilypad Modules](lilypad-modules-1/README.md)
-  * [Cowsay](lilypad-modules-1/cowsay.md)
-  * [Llama2](lilypad-modules-1/llama2.md)
-  * [Stable Diffusion Turbo Pipeline](lilypad-modules-1/stable-diffusion-turbo-pipeline.md)
 * [❓ FAQ](faq.md)
 * [📅 Events](upcoming-events.md)
 * [👥 Join the Community](join-the-community.md)
@@ -36,7 +32,7 @@
 ## Lilypad Modules
 
 * [Modules Intro](lilypad-modules/modules-intro.md)
-* [Hello, (cow) World!](lilypad-modules/cowsay.md)
+* [Cowsay](lilypad-modules/cowsay.md)
 * [Llama2](lilypad-modules/llama2.md)
 * [Stable Diffusion Turbo Pipeline](lilypad-modules/stable-diffusion-turbo-pipeline.md)
 * [Stable Diffusion (SDXL0.9 & 1.0)](lilypad-modules/stable-diffusion-sdxl0.9.md)
