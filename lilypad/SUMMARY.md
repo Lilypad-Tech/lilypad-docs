@@ -63,15 +63,15 @@
 ## Use Cases
 
 * [💻 VS Code Helper Extension](use-cases/vs-code-helper-extension.md)
+* [🧠 RAG Support Agent](use-cases/rag-support-agent.md)
+* [💬 Lilypad Llama3 chatbot](use-cases/lilypad-llama3-chatbot.md)
+* [🗺️ Extra Labs x Lilypad](use-cases/extra-labs-x-lilypad.md)
 * [🛠️ Lilypad ML Workbench](use-cases/lilypad-ml-workbench.md)
 * [👟 DefiKicks (HackFS Winner 2023)](use-cases/defikicks.md)
 * [📚 Helpful Resources](use-cases/useful-links.md)
-* [🧠 RAG Support Agent](use-cases/rag-support-agent.md)
-* [🗺️ Extra Labs x Lilypad](use-cases/extra-labs-x-lilypad.md)
-* [🖼️ Farcaster frame](use-cases/farcaster-frame.md)
-* [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
 * [🌠 Past Hackathon Winners](use-cases/project-showcase.md)
-* [💬 Lilypad Llama3 chatbot](use-cases/lilypad-llama3-chatbot.md)
+* [🎨 Waterlily.ai](use-cases/waterlily.ai.md)
+* [🖼️ Farcaster frame](use-cases/farcaster-frame.md)
 
 ## Meet the Lilypad Team
 
