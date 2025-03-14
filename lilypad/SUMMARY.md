@@ -6,7 +6,8 @@
   * [Setting Up Your Wallet](getting-started/setting-up-your-wallet.md)
   * [Run Hello World!](getting-started/run-hello-world.md)
 * [🌱 Why Lilypad](why-lilypad.md)
-* [📅 Events](events.md)
+* [📅 Events](upcoming-events.md)
+* [🐸 Lilybit\_ Rewards](lilybit_-rewards.md)
 * [❓ FAQ](faq.md)
 * [👥 Join the Community](join-the-community.md)
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
@@ -46,7 +47,6 @@
 * [Run a node](resource-providers/run-a-node.md)
 * [Update node](resource-providers/docker/update-your-node.md)
 * [Troubleshooting](resource-providers/troubleshooting.md)
-* [Rewards](resource-providers/rewards.md)
 
 ## Research & Vision
 

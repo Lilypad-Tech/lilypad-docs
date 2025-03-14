@@ -37,7 +37,7 @@ If you're interested in becoming a Lilypad Resource Provider, first make sure th
 
 ## Incentives
 
-If you are interested in contributing to Lilypad, we maintain an active [Bounty Board](https://lilypadnetwork.notion.site/bounty-board) with bonus rewards for creating projects that meet certain criteria. You can also view our [events](events.md) page to see if we will be sponsoring any upcoming hackathons.
+If you are interested in contributing to Lilypad, we maintain an active [Bounty Board](https://lilypadnetwork.notion.site/bounty-board) with bonus rewards for creating projects that meet certain criteria. You can also view our [events](upcoming-events.md) page to see if we will be sponsoring any upcoming hackathons.
 
 Want to contribute without building? View our [Lilypad Ambassador Program](https://docs.google.com/forms/d/e/1FAIpQLSdsJHkYlVVm9YILPodExa4AgGCfW-8bHZanf9OS57QxQee3SA/viewform). [Join our Discord](https://discord.gg/WtHbjMP5UB) and let us know you've applied!
 
