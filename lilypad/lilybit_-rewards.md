@@ -27,4 +27,4 @@ RP incentives on Testnet will be provided via the Lilypad RP Beta Program. Any R
 
 * [Minimum hardware requirements](resource-providers/hardware-requirements.md)
 * [Lilypad RP Beta Program](https://docs.google.com/forms/d/e/1FAIpQLSeF7xIHuCpwY0X44dqnl4u3weuvmtd5MkZKY0IPlGck4kHx3w/viewform)
-* [Lilybit\_ Rewards](https://grafana.lilypad.tech/)
+* [Lilybit\_ Rewards](https://rp-points.lilypad.tech/)
