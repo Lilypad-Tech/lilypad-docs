@@ -5,12 +5,12 @@
   * [Installation (CLI)](getting-started/installation.md)
   * [Setting Up Your Wallet](getting-started/setting-up-your-wallet.md)
   * [Run Hello World!](getting-started/run-hello-world.md)
+* [🌱 Why Lilypad](why-lilypad.md)
+* [📅 Events](events.md)
 * [❓ FAQ](faq.md)
-* [📅 Events](upcoming-events.md)
 * [👥 Join the Community](join-the-community.md)
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
 * [🤔 Philosophy](philosophy.md)
-* [🌱 Why Lilypad](why-lilypad.md)
 
 ## Lilypad Testnet
 

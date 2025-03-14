@@ -22,6 +22,14 @@ The Lilypad Whitepaper was planned to release by end of Q4 2024, but required fu
 
 Find the full Lilypad Network [roadmap](https://lilypad.tech/#roadmap) on our website!
 
+### What is the Bacalhau Project?
+
+Bacalhau is a peer to peer computation network enabling compute over data jobs like GPU-enabled AI, ML, analytics, data engineering, data science, de-sci and more.\
+\
+With the open-source Bacalhau Project, you can streamline your existing workflows without rewriting by running Docker containers and WebAssembly (WASM) images as tasks. This architecture is also referred to as **Compute Over Data** (or CoD).
+
+* To find out more about it, see the [Bacalhau Docs](https://docs.bacalhau.org/)
+
 ### Wait, didn’t Lilypad used to rely on determinism and optimistic reproducibility for verifiable compute?
 
 Previously, Lilypad required deterministic jobs on the network and used optimistic reproducibility to randomly re-run jobs to ensure trust, however this method has been deprecated due to:
