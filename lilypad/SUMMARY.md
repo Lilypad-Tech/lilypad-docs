@@ -7,7 +7,7 @@
   * [Run Hello World!](getting-started/run-hello-world.md)
 * [🌱 Why Lilypad](why-lilypad.md)
 * [📅 Events](upcoming-events.md)
-* [🐸 Lilybit\_ Rewards](lilybit_-rewards.md)
+* [🐸 Lilybit\_ Rewards](rewards.md)
 * [❓ FAQ](faq.md)
 * [👥 Join the Community](join-the-community.md)
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
