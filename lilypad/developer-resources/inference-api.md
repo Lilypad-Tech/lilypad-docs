@@ -35,9 +35,7 @@ curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
     "content": "what taxonomic order are frogs classified under?"
   }],
   "stream": false,
-  "options": {
-    "temperature": 1.0
-  }
+  "temperature": 0.6
 }'
 ```
 
@@ -75,6 +73,10 @@ curl -X GET "https://anura-testnet.lilypad.tech/api/v1/models" \
 
 ### Chat Completions API
 
+{% hint style="info" %}
+<mark style="color:red;">\*</mark> = **Required**
+{% endhint %}
+
 #### Streaming Chat Completions
 
 `POST /api/v1/chat/completions`
@@ -83,7 +85,7 @@ This endpoint provides a streaming interface for chat completions using Server-S
 
 **Request Headers**
 
-* `Content-Type: application/json` (required)
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
 * `Accept: text/event-stream` (recommended for streaming)
 * `Authorization: Bearer YOUR_API_KEY`
 
@@ -99,21 +101,23 @@ This endpoint provides a streaming interface for chat completions using Server-S
     },
     {
       "role": "user",
-      "content": "what taxonomic order are frogs classified under?"
+      "content": "what order do frogs belong to?"
     }
   ],
   "stream": false,
-  "options": {
-    "temperature": 1.0
-  }
+  "temperature": 0.6
 }
 ```
 
-<table><thead><tr><th width="143">Parameter</th><th width="521">Description</th><th width="307">Type</th></tr></thead><tbody><tr><td><code>model</code></td><td><strong>Required</strong>. ID of the model to use (e.g., "deepseek-r1:7b")</td><td>string</td></tr><tr><td><code>messages</code></td><td><strong>Required</strong>. Array of message objects representing the conversation</td><td>array</td></tr><tr><td><code>stream</code></td><td>Receive responses as streaming JSON objects or a single JSON object.</td><td>boolean</td></tr><tr><td><code>options</code></td><td>Additional model parameters listed in the table below</td><td>object</td></tr></tbody></table>
+<table><thead><tr><th width="117">Parameter</th><th width="515.5">Description</th><th width="105.5">Type</th></tr></thead><tbody><tr><td><code>model</code><mark style="color:red;">*</mark></td><td>Model ID used to generate the response (e.g. <code>deepseek-r1:7b</code>). <strong>Required</strong>.</td><td><code>string</code></td></tr><tr><td><code>messages</code><mark style="color:red;">*</mark></td><td>A list of messages comprising the conversation so far. <strong>Required</strong>.</td><td>array</td></tr></tbody></table>
 
-#### Valid Options Parameters and Default Values
+<details>
 
-<table><thead><tr><th width="165">Parameter</th><th width="498">Description</th><th>Default</th></tr></thead><tbody><tr><td>mirostat</td><td>Enable Mirostat sampling for controlling perplexity. (0 = disabled, 1 = Mirostat, 2 = Mirostat 2.0)</td><td><code>0</code></td></tr><tr><td>mirostat_eta</td><td>Influences how quickly the algorithm responds to feedback from the generated text. A lower learning rate will result in slower adjustments, while a higher learning rate will make the algorithm more responsive.</td><td><code>0.1</code></td></tr><tr><td>mirostat_tau</td><td>Controls the balance between coherence and diversity of the output. A lower value will result in more focused and coherent text.</td><td><code>5</code></td></tr><tr><td>num_ctx</td><td>Sets the size of the context window used to generate the next token.</td><td><code>2048</code></td></tr><tr><td>repeat_last_n</td><td>Sets how far back for the model to look back to prevent repetition. (0 = disabled, -1 = num_ctx)</td><td><code>64</code></td></tr><tr><td>repeat_penalty</td><td>Sets how strongly to penalize repetitions. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 0.9) will be more lenient.</td><td><code>1.1</code></td></tr><tr><td>temperature</td><td>The temperature of the model. Increasing the temperature will make the model answer more creatively.</td><td><code>0.8</code></td></tr><tr><td>seed</td><td>Sets the random number seed to use for generation. Setting this to a specific number will make the model generate the same text for the same prompt.</td><td><code>0</code></td></tr><tr><td>stop</td><td>Sets the stop sequences to use. When this pattern is encountered the LLM will stop generating text and return. Multiple stop patterns may be set by specifying multiple separate stop parameters in a modelfile.</td><td></td></tr><tr><td>num_predict</td><td>Maximum number of tokens to predict when generating text. (-1 = infinite generation)</td><td><code>-1</code></td></tr><tr><td>top_k</td><td>Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative.</td><td><code>40</code></td></tr><tr><td>top_p</td><td>Works together with top-k. A higher value (e.g., 0.95) will lead to more diverse text, while a lower value (e.g., 0.5) will generate more focused and conservative text.</td><td><code>0.9</code></td></tr><tr><td>min_p</td><td>Alternative to the top_p, and aims to ensure a balance of quality and variety. The parameter p represents the minimum probability for a token to be considered, relative to the probability of the most likely token. For example, with p=0.05 and the most likely token having a probability of 0.9, logits with a value less than 0.045 are filtered out.</td><td><code>0.0</code></td></tr></tbody></table>
+<summary>Optional Parameters and Default Values</summary>
+
+<table><thead><tr><th width="197"></th><th width="404"></th><th width="83.5"></th></tr></thead><tbody><tr><td><code>frequency_penalty</code></td><td>Number between <code>-2.0</code> and <code>2.0</code>. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.</td><td><code>0</code></td></tr><tr><td><code>max_tokens</code></td><td>The maximum number of tokens that can be generated in the chat completion.</td><td></td></tr><tr><td><code>presence_penalty</code></td><td>Number between <code>-2.0</code> and <code>2.0</code>. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.</td><td><code>0</code></td></tr><tr><td><code>response_format</code></td><td>An object specifying the format that the model must output. <a href="https://platform.openai.com/docs/api-reference/introduction">Learn more</a>.</td><td></td></tr><tr><td><code>seed</code></td><td>If specified, our system will make a best effort to sample deterministically, such that repeated requests with the same <code>seed</code> and parameters should return the same result. Determinism is not guaranteed, and you should refer to the <code>system_fingerprint</code> response parameter to monitor changes in the backend.</td><td><code>null</code></td></tr><tr><td><code>stop</code></td><td>Up to 4 sequences where the API will stop generating further tokens. The returned text will not contain the stop sequence.</td><td></td></tr><tr><td><code>stream</code></td><td>If set to true, the model response data will be streamed to the client as it is generated using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#Event_stream_format">server-sent events</a>.</td><td><code>false</code></td></tr><tr><td><code>stream_options</code></td><td>Options for streaming response. Only set this when you set <code>stream: true</code>.</td><td><code>null</code></td></tr><tr><td><code>temperature</code></td><td>What sampling temperature to use, between <code>0</code> and <code>2</code>. Higher values like <code>0.8</code> will make the output more random, while lower values like <code>0.2</code> will make it more focused and deterministic. We generally recommend altering this or <code>top_p</code> but not both.</td><td><code>1</code></td></tr><tr><td><code>tools</code></td><td>A list of tools the model may call. Currently, only functions are supported as a tool. Use this to provide a list of functions the model may generate JSON inputs for. A max of 128 functions are supported. <a href="https://platform.openai.com/docs/api-reference/chat/create#chat-create-tools">Learn more</a>.</td><td></td></tr><tr><td><code>top_p</code></td><td><p>An alternative to sampling with <code>temperature</code>, called nucleus sampling, where the model considers the results of the tokens with <code>top_p</code> probability mass. So <code>0.1</code> means only the tokens comprising the top 10% probability mass are considered.</p><p></p><p>We generally recommend altering this or <code>temperature</code> but not both.</p></td><td><code>1</code></td></tr></tbody></table>
+
+</details>
 
 **Response Format**
 
@@ -174,9 +178,7 @@ The API supports multi-turn conversations by including previous messages in the 
         }
     ],
     "stream": false,
-    "options": {
-        "temperature": 1.0
-    }
+    "temperature": 0.6
 }
 ```
 
