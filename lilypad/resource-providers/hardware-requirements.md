@@ -1,8 +1,8 @@
 # Hardware Requirements
 
-This page overviews the hardware requirements to operate a Lilypad Network node. It's important to note that these requirements continuously evolve as the network grows. If you have questions or suggestions, please join our [Discord](https://discord.gg/tnE8SMmsxW) or open a pull request on the [Lilypad documentation repo](https://github.com/Lilypad-Tech/lilypad-docs).
+This page overviews the hardware requirements to operate a Lilypad Network node. It's important to note that these requirements continuously evolve as the network grows. If you have questions or suggestions, please join our [Discord](https://discord.gg/tnE8SMmsxW) or open a pull request on the [Lilypad documentation repo](https://github.com/Lilypad-Tech/lilypad-docs).&#x20;
 
-## Minimum Hardware Requirements
+Minimum Hardware Requirements
 
 * **Processor**: Quad-core x64 Processor or better
 * **RAM**: 32GB (see additional details below)
@@ -47,3 +47,7 @@ Lilypad uses the Resource Provider's GPU to load models, initially requiring the
 <figure><img src="../../.gitbook/assets/eth-lp-wallet.png.png" alt="" width="355"><figcaption><p>"a wallet funded with both ETH and LP tokens"</p></figcaption></figure>
 
 * **Larger Models:** Jobs involving more substantial models will demand additional RAM. It's important to note that adequate VRAM alone is insufficient; your system must also have enough RAM to load the model into the GPU successfully. Without sufficient system RAM, the model cannot be loaded into the GPU, regardless of available VRAM.
+
+## Apply to our closed Beta Resource Provider program!
+
+{% embed url="https://forms.gle/XaE3rRuXVLxTnZto7" %}
