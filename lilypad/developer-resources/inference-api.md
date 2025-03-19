@@ -32,9 +32,8 @@ curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
   },
   {
     "role": "user",
-    "content": "what taxonomic order are frogs classified under?"
+    "content": "what order do frogs belong to?"
   }],
-  "stream": false,
   "temperature": 0.6
 }'
 ```
@@ -104,7 +103,6 @@ This endpoint provides a streaming interface for chat completions using Server-S
       "content": "what order do frogs belong to?"
     }
   ],
-  "stream": false,
   "temperature": 0.6
 }
 ```
@@ -177,7 +175,6 @@ The API supports multi-turn conversations by including previous messages in the 
             "content": "Now write one about frogs"
         }
     ],
-    "stream": false,
     "temperature": 0.6
 }
 ```
