@@ -86,7 +86,7 @@ This endpoint provides a streaming interface for chat completions using Server-S
 
 * `Content-Type: application/json`<mark style="color:red;">\*</mark>
 * `Accept: text/event-stream` (recommended for streaming)
-* `Authorization: Bearer YOUR_API_KEY`
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
 
 **Request Body**
 
@@ -121,20 +121,85 @@ This endpoint provides a streaming interface for chat completions using Server-S
 
 The response is a stream of Server-Sent Events (SSE) with the following format:
 
-1. **Processing updates**:
+1. **Initial Response**
+```
+data: {
+    "id": "jobId-QmZXDGS7m8VuJrURqsKvByGKHCM749NMVFmEA2hH2DtDWs-jobState-DealNegotiating",
+    "object": "chat.completion.chunk",
+    "created": 1742425132,
+    "model": "llama3.1:8b",
+    "system_fingerprint": "",
+    "choices": [
+        {
+            "index": 0,
+            "delta": {
+                "role": "assistant",
+                "content": null
+            },
+            "finish_reason": null
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+    }
+}
+```
+2. **Processing updates**:
 
 ```
-data: {"status": "processing", "state": 1}
+data: {
+    "id": "jobId-QmZXDGS7m8VuJrURqsKvByGKHCM749NMVFmEA2hH2DtDWs-jobState-DealAgreed",
+    "object": "chat.completion.chunk",
+    "created": 1742425135,
+    "model": "llama3.1:8b",
+    "system_fingerprint": "",
+    "choices": [
+        {
+            "index": 0,
+            "delta": {
+                "role": "assistant",
+                "content": null
+            },
+            "finish_reason": null
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+    }
+}
 ```
 
-2. **Content delivery**:
-
+3. **Content delivery**:
 ```
-event: delta
-data: {"model":"llama2:7b","created_at":"2025-02-24T19:42:41.3904769Z","message":{"role":"assistant","content":"\nLily pads dance\nOn the water's gentle lap\nSerene beauty"},"done_reason":"stop","done":true,"total_duration":1650031984,"load_duration":1262911467,"prompt_eval_count":29,"prompt_eval_duration":107000000,"eval_count":19,"eval_duration":278000000}
+data: {
+    "id": "jobId-QmZXDGS7m8VuJrURqsKvByGKHCM749NMVFmEA2hH2DtDWs-jobState-ResultsSubmitted",
+    "object": "chat.completion.chunk",
+    "created": 1742425147,
+    "model": "llama3.1:8b",
+    "system_fingerprint": "",
+    "choices": [
+        {
+            "index": 0,
+            "delta": {
+                "role": "assistant",
+                "content": "Lily pads dance\nOn the water's gentle lap\nSerene beauty"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 2048,
+        "completion_tokens": 456,
+        "total_tokens": 2504
+    }
+}
 ```
 
-3. **Completion marker**:
+4. **Completion marker**:
 
 ```
 data: [DONE]
