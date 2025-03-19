@@ -62,6 +62,7 @@
 
 ## Use Cases
 
+* [🧬 AI Oncologist Agent](use-cases/ai-oncologist-agent.md)
 * [💻 VS Code Helper Extension](use-cases/vs-code-helper-extension.md)
 * [🧠 RAG Support Agent](use-cases/rag-support-agent.md)
 * [💬 Lilypad Llama3 Chatbot](use-cases/lilypad-llama3-chatbot.md)
