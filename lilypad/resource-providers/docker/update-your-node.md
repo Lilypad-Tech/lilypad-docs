@@ -102,7 +102,7 @@ docker rmi <IMAGE ID>
 {% hint style="info" %}
 If a RP was running on the Lilypad Testnet in 2024, it is recommended to create a new wallet when joining the network again for the RP Beta program. If a RP wants to use the same wallet, feel free to try running the RP and let our team know if any issues with running jobs are experienced.
 
-If a wallet has been used to run CLI jobs on Lilypad, this wallet cannot be used for a RP). See the Docs for [Setting up a Metamask Wallet](../../getting-started/setting-up-your-wallet.md)
+If a wallet has been used to run CLI jobs on Lilypad, this wallet cannot be used for a RP). See the Docs for [Setting up a Metamask Wallet](../../quickstart/cli/setting-up-your-wallet.md)
 {% endhint %}
 
 ### 1. Export WEB3\_PRIVATE\_KEY as an environment variable

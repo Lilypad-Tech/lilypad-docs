@@ -24,7 +24,7 @@ This is required to run the module on Lilypad Network.
 
 A new development wallet is highly recommended to use for development. The wallet must have enough LP tokens and Arbitrum Sepolia ETH to fund the job.
 
-* [Funding your wallet](../../getting-started/setting-up-your-wallet.md#funding-your-wallet)
+* [Funding your wallet](../../../quickstart/cli/setting-up-your-wallet.md)
 
 ### `config/constants.py`
 

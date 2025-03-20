@@ -2,7 +2,7 @@
 description: Cross-functional, seasoned team
 ---
 
-# Team
+# 🗣️ Meet the Team
 
 Lilypad is assembling a team of experts across a variety of domains to tackle and build product from  the complex R & D required for a decentralised compute network, including verification, privacy, token economics and more.
 

@@ -6,7 +6,7 @@ description: A guide for running Lilypad jobs in a Farcaster frame
 
 In this guide we will be building a Farcaster frame for local development that runs a Lilysay prompt on the Lilypad Network.
 
-<figure><img src="../.gitbook/assets/initial.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/initial.gif" alt=""><figcaption></figcaption></figure>
 
 Users of the frame can input a prompt and a generate an image. The generated image will appear in the box above the input and will allow a user to view the ASCII art as an image.
 
@@ -35,14 +35,14 @@ Open the project in your code editor.
 
 ### Get testnet tokens
 
-We will need to fund a wallet with Lilypad and Arbitrum Sepolia testnet tokens. Follow the first 2 sections labelled "Setting up MetaMask" and "Funding your wallet" from our [Quick Start](../getting-started/) docs.
+We will need to fund a wallet with Lilypad and Arbitrum Sepolia testnet tokens. Follow the first 2 sections labelled "Setting up MetaMask" and "Funding your wallet" from our [Quick Start](../../quickstart/cli/) docs.
 
 ### Add `.env.local`
 
 Add the following into your `.env.local` file. The private key is used to run the CLI jobs. Make sure that your `.env.local` file is added to the `.gitignore` file as your private key should not be exposed or pushed.
 
 {% hint style="info" %}
-Your [`WEB3_PRIVATE_KEY`](../getting-started/installation.md#set-web3_private_key) can be retrieved from the MetaMask account details menu. For more info, check out the [official guide from MetaMask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on how to get a your private key. Please do not push your private key to GitHub.
+Your `WEB3_PRIVATE_KEY` can be retrieved from the MetaMask account details menu. For more info, check out the [official guide from MetaMask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on how to get a your private key. Please do not push your private key to GitHub.
 {% endhint %}
 
 1. `WEB3_PRIVATE_KEY=YOUR_PRIVATE_KEY`
@@ -50,7 +50,7 @@ Your [`WEB3_PRIVATE_KEY`](../getting-started/installation.md#set-web3_private_ke
 
 ### Install Lilypad CLI
 
-Run through this guide to [install the Lilypad CLI on your machine](../getting-started/installation.md#cli-users). Select the CLI User script.
+Run through this guide to [install the Lilypad CLI on your machine](../../quickstart/cli/installation.md). Select the CLI User script.
 
 ### Run Framegear
 
@@ -412,7 +412,7 @@ npm run dev
 
 Navigate to the Framegear host [http://localhost:1337](http://localhost:1337/) and you will see an input labeled "Enter your frame URL". Add http://localhost:3000 to that and click "Fetch".
 
-<figure><img src="../.gitbook/assets/framegear.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/framegear.png" alt=""><figcaption></figcaption></figure>
 
 You should now see your frame and be able to interact with it. Enter a prompt to display in the Lilysay ACSII image!&#x20;
 

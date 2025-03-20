@@ -5,7 +5,7 @@ hidden: true
 
 # Stable Diffusion (SDXL0.9 & 1.0)
 
-<figure><img src="../.gitbook/assets/cli-sdxl (1).gif" alt=""><figcaption><p>Run a SDXL job on the Lilypad Network</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cli-sdxl (1).gif" alt=""><figcaption><p>Run a SDXL job on the Lilypad Network</p></figcaption></figure>
 
 ## Overview
 
@@ -64,7 +64,7 @@ Refiner:
 lilypad run sdxl-pipeline:v1.0-refiner-lilypad3 -i Prompt="an astronaut floating against a white background"
 ```
 
-<figure><img src="../.gitbook/assets/cli-sdxl.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cli-sdxl.gif" alt=""><figcaption></figcaption></figure>
 
 ### SDXL Output
 
@@ -134,5 +134,5 @@ Learn more about this Lilypad module on [Github](https://github.com/Lilypad-Tech
 
 ## Looking for Smart Contracts?
 
-Check out [our smart contracts docs](../archive/lilypad-smart-contracts.md)!
+Check out [our smart contracts docs](../../archive/lilypad-smart-contracts.md)!
 

@@ -4,7 +4,7 @@ description: >-
   Llama3.
 ---
 
-# 💬 Lilypad Llama3 chatbot
+# 💬 Lilypad Llama3 Chatbot
 
 The **Lilypad Llama3 Chatbot** is a conversational agent designed to deliver engaging, real-time AI-powered interactions. Leveraging the Llama3 8B model through the Lilypad API, this chatbot provides context-aware and dynamic responses, making it useful for applications such as automated support, interactive Q\&A and virtual assistance.
 
@@ -43,7 +43,7 @@ This chatbot can be extended with:
 
 Access the chatbot at: `http://localhost:3000` and enter prompt to start a conversation.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-03-12 at 12.14.17 PM.png" alt=""><figcaption><p>Example use</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-12 at 12.14.17 PM.png" alt=""><figcaption><p>Example use</p></figcaption></figure>
 
 ### Resources
 

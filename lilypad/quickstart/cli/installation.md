@@ -2,7 +2,7 @@
 description: Instructions for installing the Lilypad CLI on your machine
 ---
 
-# Installation (CLI)
+# Installation
 
 The installation process for the Lilypad CLI involves several automated steps to configure it for your specific system. Initially, the setup script identifies your computer's architecture and operating system to ensure compatibility. It will then download the latest production build of the Lilypad CLI directly from the official GitHub repository using `curl` and `wget`.
 
@@ -69,7 +69,7 @@ A `WEB3_PRIVATE_KEY` can be retrieved from the Metamask account details menu. Fo
 export WEB3_PRIVATE_KEY=<your private key>
 ```
 
-To use the Lilypad CLI, the set private key will need to hold Lilypad testnet tokens and Arbitrum Sepolia ETH. You can find those instructions in the [setting-up-your-wallet.md](setting-up-your-wallet.md "mention") documentation.
+To use the Lilypad CLI, the set private key will need to hold Lilypad testnet tokens and Arbitrum Sepolia ETH. You can find those instructions in the [Broken link](broken-reference "mention") documentation.
 
 ## Verify installation
 

@@ -10,7 +10,7 @@ Both Resource Providers (GPU compute nodes) and those looking to run jobs on the
 
 The wallet you use for your account must have both ETH (to run smart contracts on Ethereum) and Lilypad (LP) tokens in order to pay for jobs (or receive funds for jobs) on the network.
 
-<figure><img src="../.gitbook/assets/eth-lp-wallet (1).png" alt="Metamask wallet funded with ETH Arbitrum and Lilypad tokens" width="358"><figcaption><p>A wallet funded with Arbitrum ETH and Lilypad tokens</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/eth-lp-wallet (1).png" alt="Metamask wallet funded with ETH Arbitrum and Lilypad tokens" width="358"><figcaption><p>A wallet funded with Arbitrum ETH and Lilypad tokens</p></figcaption></figure>
 
 ## Create a MetaMask wallet
 
@@ -24,15 +24,15 @@ The Lilypad Testnet (IncentiveNet) is currently running on the Arbitrum L2 netwo
 
 In order to change to the Arbitrum network in the wallet, open MetaMask and click the network button in the top left of the menu bar:
 
-<figure><img src="../.gitbook/assets/metamask-step-1.png" alt="" width="355"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/metamask-step-1.png" alt="" width="355"><figcaption></figcaption></figure>
 
 Then select "Add network":
 
-<figure><img src="../.gitbook/assets/metamask-step-2.png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/metamask-step-2.png" alt="" width="352"><figcaption></figcaption></figure>
 
 Next, select "Add a network manually":
 
-<figure><img src="../.gitbook/assets/metamask-step-3.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/metamask-step-3.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Input the required Arbitrum Sepolia Testnet network info, and then "Save":
 
@@ -46,7 +46,7 @@ Network info is referenced directly from the Arbitrum Sepolia [documentation](ht
 * **Currency symbol**: ETH
 * **Block explorer URL**: [https://sepolia.arbiscan.io](https://sepolia.arbiscan.io) (optional)
 
-<figure><img src="../.gitbook/assets/metamask-step-4.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/metamask-step-4.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Import the Testnet LP token
 
@@ -54,18 +54,18 @@ The wallet is now setup and will display an ETH (Arbitrum Sepolia) token balance
 
 Select "Import tokens" from the three dot menu next to the network name:
 
-<figure><img src="../.gitbook/assets/import token (1).png" alt="" width="351"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/import token (1).png" alt="" width="351"><figcaption></figcaption></figure>
 
 Select "Custom token" and add the Lilypad token contract address and token symbol. Then "Save".
 
 * Token contract address: `0x0352485f8a3cB6d305875FaC0C40ef01e0C06535`
 * Token symbol: `LP`
 
-<figure><img src="../.gitbook/assets/import-token-step-2 (1).png" alt="" width="350"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/import-token-step-2 (1).png" alt="" width="350"><figcaption></figcaption></figure>
 
 You should now see both ETH and LP listed in the wallet (initial ETH and LP balances will be 0).
 
-<figure><img src="../.gitbook/assets/import-token-step-3 (1).png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/import-token-step-3 (1).png" alt="" width="352"><figcaption></figcaption></figure>
 
 Now you're ready to fund the wallet with testnet LP and ETH tokens!
 
@@ -82,7 +82,7 @@ Get Testnet Lilypad Tokens (LP) and Arbitrum Sepolia Testnet ETH
 
 ### Get Testnet LP tokens
 
-Find out why you need tokens in the [FAQs](../faq.md)
+Find out why you need tokens in the [FAQs](../../faq.md)
 
 {% hint style="info" %}
 You must be a member of [the Lilypad Discord](https://discord.gg/tnE8SMmsxW) to claim tokens
@@ -97,7 +97,7 @@ Follow these steps to successfully claim your Testnet LP tokens:&#x20;
 
 Testnet LP tokens will be sent to the wallet address provided to the faucet.
 
-<figure><img src="../.gitbook/assets/faucet-step-1.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/faucet-step-1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Get Arbitrum Sepolia Testnet ETH
 
@@ -111,4 +111,4 @@ If you need more tokens and already have Sepolia ETH, use the [official Arbitrum
 
 With a balance of both LP and ETH, you're ready to run jobs with the Lilypad CLI!
 
-<figure><img src="../.gitbook/assets/funded-wallet.png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/funded-wallet.png" alt="" width="352"><figcaption></figcaption></figure>

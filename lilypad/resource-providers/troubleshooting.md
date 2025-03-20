@@ -36,7 +36,7 @@ For **complex issues, bug reports, or feature requests,** open a discussion in t
 
 ### Common issues to check first!
 
-1. Ensure the RP (node) is running the latest [Lilypad version](../getting-started/installation.md) for your preferred environment
+1. Ensure the RP (node) is running the latest [Lilypad version](https://docs.lilypad.tech/lilypad/resource-providers/run-a-node#id-2.-download-the-docker-compose-configuration) for your preferred environment
 2. Does the RP have [enough](run-a-node.md#fund-your-wallet-with-eth-and-lp) Lilypad Tokens (LP) and Arbitrum ETH?
 3. Updating and restarting the Lilypad services regularly (daily) is encouraged throughout IncentiveNet.
 
@@ -181,7 +181,7 @@ Check out the [MetaMask official guide to retrieve your private key](https://sup
 
 ### How do I setup my Metamask wallet?
 
-View [setting-up-your-wallet.md](../getting-started/setting-up-your-wallet.md "mention").
+View the [docs here](../quickstart/cli/setting-up-your-wallet.md).
 
 ### How do I get testnet LP and ETH (Arbitrum Sepolia ETH)?
 

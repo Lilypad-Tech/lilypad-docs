@@ -2,9 +2,9 @@
 description: Running the most important Hello World on Lilypad!
 ---
 
-# Run Hello World!
+# Usage
 
-Before you run a Lilypad job, make sure you have [Lilypad CLI installed](installation.md) and have set [a `WEB3_PRIVATE_KEY` env variable](installation.md#set-web3_private_key) in your environment.
+Before you run a Lilypad job, make sure you have [Lilypad CLI installed](broken-reference) and have set [a `WEB3_PRIVATE_KEY` env variable](broken-reference) in your environment.
 
 {% hint style="info" %}
 Your `WEB3_PRIVATE_KEY` can be retrieved from the MetaMask account details menu.  For more info, check out the [official guide from MetaMask](https://support.metamask.io/managing-my-wallet/secret-recovery-phrase-and-private-keys/how-to-export-an-accounts-private-key/) on how to get a your private key. **Be sure to keep your private key safe** and never share it or store it in unsecured places to prevent unauthorized access to your funds.

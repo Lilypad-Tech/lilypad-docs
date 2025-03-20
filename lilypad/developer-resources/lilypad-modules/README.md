@@ -1,8 +1,8 @@
 ---
-description: Learn about modules on Lilypad
+description: Introduction to Lilypad modules
 ---
 
-# Modules Intro
+# Lilypad Modules
 
 Lilypad modules are the compute jobs that are run on the Lilypad network of Resource Provider nodes. Lilypad nodes are set up to run GPU compute jobs such as AI inference, and can be used for other GPU-intensive tasks.
 
@@ -12,7 +12,7 @@ There are two ways that participants in the network can interact with Lilypad Mo
 
 Running Jobs (participating as a 'Job Creator') is just a few simple steps:
 
-* Use our [AI inference API](../developer-resources/inference-api.md) or [install our CLI](../getting-started/installation.md)
+* Use our [AI inference API](../inference-api.md) or [install our CLI](broken-reference)
 * Choose a module to run, and send a job request
 
 ### **Example Modules**
@@ -31,5 +31,5 @@ Modules can be developed by any member of the community (participating as a 'Mod
 
 ### Developer Resources
 
-* [build-a-job-module.md](../developer-resources/build-a-job-module.md "mention")
-* [create-lilypad-module](../developer-resources/create-lilypad-module/ "mention")
+* [build-a-job-module.md](build-a-job-module.md "mention")
+* [create-lilypad-module](create-lilypad-module/ "mention")

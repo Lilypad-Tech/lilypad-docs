@@ -39,7 +39,7 @@ lilypad run sdv-pipeline:v1.1-lilypad2 -i ImageSeed="696721260153400" -i Prompt=
 
 ### SDV Output
 
-<figure><img src="../.gitbook/assets/sdvJob.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sdvJob.png" alt=""><figcaption></figcaption></figure>
 
 To view the results in a local directory, navigate to the local folder.
 
@@ -47,7 +47,7 @@ To view the results in a local directory, navigate to the local folder.
 open /tmp/lilypad/data/downloaded-files/QmbjEKwZn5vSBoArudUEAPJDEiesVPk5tNkYxFvNkdFs6t
 ```
 
-<figure><img src="../.gitbook/assets/sdvOutput.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sdvOutput.png" alt=""><figcaption></figcaption></figure>
 
 To view the results on IPFS, navigate to the IPFS CID result output.
 

@@ -2,7 +2,7 @@
 description: Run a cowsay job
 ---
 
-# Hello, (cow) World!
+# Cowsay
 
 `cowsay` is a simple, text-based program originally written for Unix-like operating systems that generates ASCII pictures of a cow with a speech bubble containing a specified message.&#x20;
 
@@ -10,7 +10,7 @@ This module was created as a "Hello World" for the Lilypad Network!
 
 ## Getting Started
 
-Before running `cowsay`, make sure you have the [Lilypad CLI installed](../getting-started/installation.md) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
+Before running `cowsay`, make sure you have the [Lilypad CLI installed](../../quickstart/cli/) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
 
 ```bash
 export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>

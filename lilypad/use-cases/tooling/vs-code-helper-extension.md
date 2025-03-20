@@ -4,7 +4,7 @@ description: >-
   Network directly within Visual Studio Code.
 ---
 
-# 💻 VS Code Helper extension
+# 💻 VS Code Helper Extension
 
 The **Lilypad VS Code Extension** allows developers to interact with the Lilypad Anura API within Visual Studio Code. By highlighting code blocks, users can query the available LLMs on Lilypad  for explanations, improvements, or suggestions, receiving responses in a formatted webview panel.
 
@@ -38,7 +38,7 @@ From the Repository
 5. **Wait for Lilypad AI** to process your query.
 6. **View the AI’s response** in the webview panel that opens.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-03-10 at 3.05.20 PM.png" alt=""><figcaption><p>Example use</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-10 at 3.05.20 PM.png" alt=""><figcaption><p>Example use</p></figcaption></figure>
 
 ### Resources
 

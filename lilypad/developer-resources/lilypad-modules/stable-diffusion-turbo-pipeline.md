@@ -8,7 +8,7 @@ These instructions provide steps for running the SDXL Turbo Pipeline module on t
 
 ## Getting Started
 
-Before running `sdxl turbo`, make sure you have the [Lilypad CLI installed](../getting-started/installation.md) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
+Before running `sdxl turbo`, make sure you have the [Lilypad CLI installed](../../quickstart/cli/installation.md) on your machine and your private key environment variable is set. This is necessary for operations within the Lilypad network.
 
 ```bash
 export WEB3_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
