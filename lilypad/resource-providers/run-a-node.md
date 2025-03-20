@@ -43,7 +43,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../getting-started/setting-up-your-wallet.md).
+For a step by step guide on adding the network, please refer to our [Setting up MetaMask documentation](../quickstart/cli/setting-up-your-wallet.md).
 
 ### Fund your wallet with ETH and LP
 
@@ -72,7 +72,7 @@ Before we start the Rp with the Docker setup, retrieve the private key from the 
 ### 1. Export Your Private Key
 
 {% hint style="info" %}
-The same WEB3\_PRIVATE\_KEY cannot be used for both a RP and using the Lilypad CLI. If a WEB3\_PRIVATE\_KEY has already been used to run jobs with the CLI, make a new one and [fund](../getting-started/setting-up-your-wallet.md#funding-your-wallet) the wallet. You can \`unset $WEB3\_PRIVATE\_KEY\` if you want to use a different one to run your RP.
+The same WEB3\_PRIVATE\_KEY cannot be used for both a RP and using the Lilypad CLI. If a WEB3\_PRIVATE\_KEY has already been used to run jobs with the CLI, make a new one and [fund the wallet](../quickstart/cli/setting-up-your-wallet.md). You can \`unset $WEB3\_PRIVATE\_KEY\` if you want to use a different one to run your RP.
 {% endhint %}
 
 Before starting, export your private key from MetaMask. Follow the official MetaMask guide for instructions on safely exporting your private key.
