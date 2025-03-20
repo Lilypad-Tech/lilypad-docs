@@ -12,7 +12,7 @@ DefI Kicks Video
 {% endembed %}
 
 {% hint style="info" %}
-See the Lilypad Example at [drand-off-chain-voting.md](../archive/older-versions/lilypad-v0-deprecated/examples/drand-off-chain-voting.md "mention")
+See the Lilypad Example at [drand-off-chain-voting.md](../resources/older-versions/lilypad-v0-deprecated/examples/drand-off-chain-voting.md "mention")
 {% endhint %}
 
 DefiKicks is a decentralized, community-governed Data DAO (Decentralized Autonomous Organization) that operates on the Filecoin network, with the goal of democratizing DeFi data aggregation and TVL (Total Value Locked) calculations. It seeks to improve transparency and foster collaboration through a system of on-chain adapter proposals, off-chain voting, and interoperable token rewards.

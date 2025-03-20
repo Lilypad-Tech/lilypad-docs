@@ -93,7 +93,9 @@ For more information, please visit [hardware-requirements.md](resource-providers
 
 ### What are the updates required for maintaining my node software?
 
-Resource providers are expected to have the latest Lilypad versions installed on their machines. These will be included in the Docker files in each release. For more information, please refer to the [Resource Provider docs](broken-reference).
+Resource providers are expected to have the latest Lilypad versions installed on their machines.
+
+The instructions can be found in our [installation documentation](getting-started/installation.md#resource-providers) (select the Resource Provider tab).
 
 ### How can I check the status of my Lilypad node?
 
@@ -103,11 +105,11 @@ Find more information check out the [Run a node](resource-providers/run-a-node.m
 
 ### What is a Lilypad Module?
 
-View the [Modules section](developer-resources/lilypad-modules/).
+View the [modules-intro.md](lilypad-modules/modules-intro.md "mention").
 
 ### How to run a ML job on Lilypad
 
-Follow the [quickstart guides](quickstart/) to get started.
+Follow the [installation instructions](getting-started/installation.md#cli-users) to get started (select the CLI Users tab).
 
 To build an application with Lilypad compute and modules on the backend, check out this [guide](https://blog.lilypadnetwork.org/setting-up-your-lilypad-front-end).
 

@@ -32,7 +32,7 @@ sudo mv lilypad /usr/local/bin
 
 ### Usage
 
-Run `node src/index.js` to create a local endpoint using the js wrapper with either `src/run.js` or `src/stream.js`, then send a post request containing json with your funded `WEB3_PRIVATE_KEY` key set, see the quick start for more on [quickstart](../quickstart/ "mention").
+Run `node src/index.js` to create a local endpoint using the js wrapper with either `src/run.js` or `src/stream.js`, then send a post request containing json with your funded `WEB3_PRIVATE_KEY` key set, see the quick start for more on [getting-started](../getting-started/ "mention").
 
 In `inputs`, each input must be preceded by the `-i` flag, including tunables. For example: `"inputs": "-i Prompt='an astronaut floating against a white background' -i Steps=50"`
 

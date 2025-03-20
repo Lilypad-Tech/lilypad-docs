@@ -204,7 +204,7 @@ Please note that the IPFS link might take some time to display the result.
 
 The [Lilypad Hardhat template](https://github.com/Lilypad-Tech/lilypad-hardhat-template) demonstrates how to use Lilypad within the Hardhat development environment for onchain interactions. It provides the tools and structure needed to deploy smart contracts that interact with Lilypad nodes onchain.
 
-This template includes an example of running a job using the [`cowsay`](../developer-resources/lilypad-modules/cowsay.md) module. The `cowsay` module is a simple program that generates an ASCII picture of a cow with a message.
+This template includes an example of running a job using the [`cowsay`](../lilypad-modules/cowsay.md) module. The `cowsay` module is a simple program that generates an ASCII picture of a cow with a message.
 
 ### Getting started
 

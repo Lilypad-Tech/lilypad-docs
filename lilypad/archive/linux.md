@@ -49,7 +49,7 @@ Currency symbol: ETH
 Block explorer URL: (leave blank)
 {% endhint %}
 
-For a step by step guide on adding the network and importing the LP testnet token, please refer to our [Setting up MetaMask documentation](../quickstart/cli/setting-up-your-wallet.md).
+For a step by step guide on adding the network and importing the LP testnet token, please refer to our [Setting up MetaMask documentation](../getting-started/setting-up-your-wallet.md).
 
 ### Fund your wallet with ETH and LP
 
