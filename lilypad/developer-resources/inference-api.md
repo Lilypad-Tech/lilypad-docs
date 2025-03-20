@@ -119,75 +119,27 @@ This endpoint provides a streaming interface for chat completions using Server-S
 
 **Response Format**
 
-The response is a stream of Server-Sent Events (SSE) compliant with the OpenAI format:
-
-**Initial Response:**
-
-```
-data: {
-    "id": "jobId-QmZXDGS7m8VuJrURqsKvByGKHCM749NMVFmEA2hH2DtDWs-jobState-DealNegotiating",
-    "object": "chat.completion.chunk",
-    "created": 1742425132,
-    "model": "llama3.1:8b",
-    "system_fingerprint": "",
-    "choices": [
-        {
-            "index": 0,
-            "delta": {
-                "role": "assistant",
-                "content": null
-            },
-            "finish_reason": null
-        }
-    ],
-    "usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-    }
-}
-```
+The response is a stream of Server-Sent Events (SSE) with the following format:
 
 **Processing updates**:
 
 ```
-data: {
-    "id": "jobId-QmZXDGS7m8VuJrURqsKvByGKHCM749NMVFmEA2hH2DtDWs-jobState-DealAgreed",
-    "object": "chat.completion.chunk",
-    "created": 1742425135,
-    "model": "llama3.1:8b",
-    "system_fingerprint": "",
-    "choices": [
-        {
-            "index": 0,
-            "delta": {
-                "role": "assistant",
-                "content": null
-            },
-            "finish_reason": null
-        }
-    ],
-    "usage": {
-        "prompt_tokens": 0,
-        "completion_tokens": 0,
-        "total_tokens": 0
-    }
-}
+data: {"status": "processing", "state": 1}
 ```
 
 **Content delivery**:
 
 ```
 data: {
-    "id": "jobId-QmZXDGS7m8VuJrURqsKvByGKHCM749NMVFmEA2hH2DtDWs-jobState-ResultsSubmitted",
+    "id": "chatcmpl-538",
     "object": "chat.completion.chunk",
     "created": 1742425147,
     "model": "llama3.1:8b",
-    "system_fingerprint": "",
+    "system_fingerprint": "fp_ollama",
     "choices": [
         {
             "index": 0,
-            "delta": {
+            "messges": {
                 "role": "assistant",
                 "content": "Lily pads dance\nOn the water's gentle lap\nSerene beauty"
             },
