@@ -43,7 +43,7 @@ curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
 
 Replace `"MODEL_NAME:MODEL_VERSION"` with the model you want to use from the previous step.
 
-### Retreive Job Results
+### Retrieve Job Results
 
 You can check the status of your job and retrieve outputs using the job ID:
 
