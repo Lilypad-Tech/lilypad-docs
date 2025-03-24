@@ -89,7 +89,7 @@ This endpoint provides both a streaming interface using Server-Sent Events (SSE)
 import OpenAI from 'openai';
 
 const client = new OpenAI({
-    baseURL: 'https://anura-testnet.lilypad.tech/api/v1/',
+    baseURL: 'https://anura-testnet.lilypad.tech/api/v1',
     apiKey: process.env.ANURA_API_KEY || '',
 });
 
