@@ -35,7 +35,7 @@ Learn how to build your own Lilypad job modules either [from an empty project](d
 
 If you're interested in becoming a Lilypad Resource Provider, first make sure that you meet our [minimum hardware requirements](resource-providers/hardware-requirements.md), then register in our [Lilypad Resource Provider Beta Program](https://docs.google.com/forms/d/e/1FAIpQLSeF7xIHuCpwY0X44dqnl4u3weuvmtd5MkZKY0IPlGck4kHx3w/viewform).
 
-## Incentives
+## Earn Rewards
 
 If you are interested in contributing to Lilypad, we maintain an active [Bounty Board](https://lilypadnetwork.notion.site/bounty-board) with bonus rewards for creating projects that meet certain criteria. You can also view our [events](upcoming-events.md) page to see if we will be sponsoring any upcoming hackathons.
 
