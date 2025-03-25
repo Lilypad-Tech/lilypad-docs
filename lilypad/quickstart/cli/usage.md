@@ -12,6 +12,12 @@ Your `WEB3_PRIVATE_KEY` can be retrieved from the MetaMask account details menu.
 
 ## Run Cowsay
 
+`cowsay` is a classic CLI tool that prints messages in a speech bubble from an ASCII cow. You can run it as a job on the Lilypad network.
+
+{% hint style="info" %}
+By default, Lilypad CLI saves results to a temporary directory. To specify a custom directory for your job results, set the `DATA_DIR` environment variable before running your command: `export DATA_DIR=~/<DIRECTORY>`
+{% endhint %}
+
 Run the command:
 
 ```bash
