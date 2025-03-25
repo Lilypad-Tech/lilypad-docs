@@ -12,7 +12,7 @@ There are two ways that participants in the network can interact with Lilypad Mo
 
 Running Jobs (participating as a 'Job Creator') is just a few simple steps:
 
-* Use our [AI inference API](../inference-api.md) or [install our CLI](broken-reference)
+* Use our [AI inference API](../inference-api.md) or [install our CLI](../../quickstart/cli/installation.md)
 * Choose a module to run, and send a job request
 
 ### **Example Modules**
