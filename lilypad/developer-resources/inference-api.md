@@ -118,7 +118,7 @@ return completion.choices[0].message.content;
 
 <summary>Optional Parameters and Default Values</summary>
 
-<table><thead><tr><th width="197">Paraneter</th><th width="404">Description</th><th width="83.5">Default</th></tr></thead><tbody><tr><td><code>frequency_penalty</code></td><td>Number between <code>-2.0</code> and <code>2.0</code>. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.</td><td><code>0</code></td></tr><tr><td><code>max_tokens</code></td><td>The maximum number of tokens that can be generated in the chat completion.</td><td></td></tr><tr><td><code>presence_penalty</code></td><td>Number between <code>-2.0</code> and <code>2.0</code>. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.</td><td><code>0</code></td></tr><tr><td><code>response_format</code></td><td>An object specifying the format that the model must output. <a href="https://platform.openai.com/docs/api-reference/introduction">Learn more</a>.</td><td></td></tr><tr><td><code>seed</code></td><td>If specified, our system will make a best effort to sample deterministically, such that repeated requests with the same <code>seed</code> and parameters should return the same result. Determinism is not guaranteed, and you should refer to the <code>system_fingerprint</code> response parameter to monitor changes in the backend.</td><td><code>null</code></td></tr><tr><td><code>stop</code></td><td>Up to 4 sequences where the API will stop generating further tokens. The returned text will not contain the stop sequence.</td><td></td></tr><tr><td><code>stream</code></td><td>If set to true, the model response data will be streamed to the client as it is generated using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#Event_stream_format">server-sent events</a>.</td><td><code>false</code></td></tr><tr><td><code>stream_options</code></td><td>Options for streaming response. Only set this when you set <code>stream: true</code>.</td><td><code>null</code></td></tr><tr><td><code>temperature</code></td><td>What sampling temperature to use, between <code>0</code> and <code>2</code>. Higher values like <code>0.8</code> will make the output more random, while lower values like <code>0.2</code> will make it more focused and deterministic. We generally recommend altering this or <code>top_p</code> but not both.</td><td><code>1</code></td></tr><tr><td><code>tools</code></td><td>A list of tools the model may call. Currently, only functions are supported as a tool. Use this to provide a list of functions the model may generate JSON inputs for. A max of 128 functions are supported. <a href="https://platform.openai.com/docs/api-reference/chat/create#chat-create-tools">Learn more</a>.</td><td></td></tr><tr><td><code>top_p</code></td><td><p>An alternative to sampling with <code>temperature</code>, called nucleus sampling, where the model considers the results of the tokens with <code>top_p</code> probability mass. So <code>0.1</code> means only the tokens comprising the top 10% probability mass are considered.</p><p></p><p>We generally recommend altering this or <code>temperature</code> but not both.</p></td><td><code>1</code></td></tr></tbody></table>
+<table><thead><tr><th width="197">Paraneter</th><th width="404">Description</th><th width="83.5">Default</th></tr></thead><tbody><tr><td><code>frequency_penalty</code></td><td>Number between <code>-2.0</code> and <code>2.0</code>. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.</td><td><code>0</code></td></tr><tr><td><code>max_tokens</code></td><td>The maximum number of tokens that can be generated in the chat completion.</td><td></td></tr><tr><td><code>presence_penalty</code></td><td>Number between <code>-2.0</code> and <code>2.0</code>. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.</td><td><code>0</code></td></tr><tr><td><code>response_format</code></td><td>An object specifying the format that the model must output. <a href="https://platform.openai.com/docs/api-reference/introduction">Learn more</a>.</td><td></td></tr><tr><td><code>seed</code></td><td>If specified, our system will make a best effort to sample deterministically, such that repeated requests with the same <code>seed</code> and parameters should return the same result. Determinism is not guaranteed, and you should refer to the <code>system_fingerprint</code> response parameter to monitor changes in the backend.</td><td><code>null</code></td></tr><tr><td><code>stop</code></td><td>Up to 4 sequences where the API will stop generating further tokens. The returned text will not contain the stop sequence.</td><td></td></tr><tr><td><code>stream</code></td><td>If set to true, the model response data will be streamed to the client as it is generated using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#Event_stream_format">server-sent events</a>.</td><td><code>false</code></td></tr><tr><td><code>stream_options</code></td><td>Options for streaming response. Only set this when you set <code>stream: true</code>.</td><td><code>null</code></td></tr><tr><td><code>temperature</code></td><td>What sampling temperature to use, between <code>0</code> and <code>2</code>. Higher values like <code>0.8</code> will make the output more random, while lower values like <code>0.2</code> will make it more focused and deterministic. We generally recommend altering this or <code>top_p</code> but not both.</td><td><code>1</code></td></tr><tr><td><code>tools</code></td><td><p>A list of tools the model may call. Currently, only functions are supported as a tool. Use this to provide a list of functions the model may generate JSON inputs for. A max of 128 functions are supported. At the moment only a select number models support tooling including:</p><ul><li>llama3.1:8b</li><li>qwen2.5:7b</li><li>qwen2.5-coder:7b</li><li>phi4-mini:3.8b</li><li>mistral:7b</li></ul></td><td></td></tr><tr><td><code>top_p</code></td><td><p>An alternative to sampling with <code>temperature</code>, called nucleus sampling, where the model considers the results of the tokens with <code>top_p</code> probability mass. So <code>0.1</code> means only the tokens comprising the top 10% probability mass are considered.</p><p></p><p>We generally recommend altering this or <code>temperature</code> but not both.</p></td><td><code>1</code></td></tr></tbody></table>
 
 </details>
 
@@ -182,7 +182,7 @@ The response is an OpenAI ChatCompletion Object with the following format:
 
 The response data contains the following fields:
 
-<table><thead><tr><th width="383">Field</th><th>Description</th></tr></thead><tbody><tr><td><code>id</code></td><td>A unique identifier for the chat completion</td></tr><tr><td><code>object</code></td><td>The object type</td></tr><tr><td><code>created</code></td><td>Timestamp when the response was created</td></tr><tr><td><code>model</code></td><td>The model used for generation</td></tr><tr><td><code>choices</code></td><td>The array containing the assistant's response</td></tr><tr><td><code>choices[0].message.role</code></td><td>Always "assistant" for responses</td></tr><tr><td><code>choices[0].message.content</code></td><td>The generated text content</td></tr><tr><td><code>choices[0].finish_reason</code></td><td>Reason for completion (e.g., "stop", "length")</td></tr><tr><td><code>usage.prompt_tokens</code></td><td>The number of tokens used in the prompt</td></tr><tr><td><code>usage.completion_tokens</code></td><td>The number of tokens in the generated completion</td></tr><tr><td><code>usage.total_tokens</code></td><td>The sum of the prompt_tokens and the completion_tokens</td></tr></tbody></table>
+<table><thead><tr><th width="383">Field</th><th>Description</th></tr></thead><tbody><tr><td><code>id</code></td><td>A unique identifier for the chat completion</td></tr><tr><td><code>object</code></td><td>The object type</td></tr><tr><td><code>created</code></td><td>Timestamp when the response was created</td></tr><tr><td><code>model</code></td><td>The model used for generation</td></tr><tr><td><code>choices</code></td><td>The array containing the assistant's response</td></tr><tr><td><code>choices[0].message.role</code></td><td>Always "assistant" for responses</td></tr><tr><td><code>choices[0].message.content</code></td><td>The generated text content</td></tr><tr><td><code>choices[0].message.tool_calls</code></td><td>The array containing the corresponding tool response objects (this is only applicable if you make a tool request)</td></tr><tr><td><code>choices[0].finish_reason</code></td><td>Reason for completion (e.g., "stop", "length")</td></tr><tr><td><code>usage.prompt_tokens</code></td><td>The number of tokens used in the prompt</td></tr><tr><td><code>usage.completion_tokens</code></td><td>The number of tokens in the generated completion</td></tr><tr><td><code>usage.total_tokens</code></td><td>The sum of the prompt_tokens and the completion_tokens</td></tr></tbody></table>
 
 **Request Body (streaming)**
 
@@ -306,7 +306,7 @@ data: [DONE]
 
 The delta event data contains the following fields:
 
-<table><thead><tr><th width="383">Field</th><th>Description</th></tr></thead><tbody><tr><td><code>id</code></td><td>A unique identifier for the chat completion</td></tr><tr><td><code>object</code></td><td>The object type</td></tr><tr><td><code>created</code></td><td>Timestamp when the response was created</td></tr><tr><td><code>model</code></td><td>The model used for generation</td></tr><tr><td><code>choices</code></td><td>The array containing the assistant's response</td></tr><tr><td><code>choices[0].delta.role</code></td><td>Always "assistant" for responses</td></tr><tr><td><code>choices[0].delta.content</code></td><td>The generated text content</td></tr><tr><td><code>choices[0].finish_reason</code></td><td>Reason for completion (e.g., "stop", "length")</td></tr><tr><td><code>usage.prompt_tokens</code></td><td>The number of tokens used in the prompt</td></tr><tr><td><code>usage.completion_tokens</code></td><td>The number of tokens in the generated completion</td></tr><tr><td><code>usage.total_tokens</code></td><td>The sum of the prompt_tokens and the completion_tokens</td></tr></tbody></table>
+<table><thead><tr><th width="383">Field</th><th>Description</th></tr></thead><tbody><tr><td><code>id</code></td><td>A unique identifier for the chat completion</td></tr><tr><td><code>object</code></td><td>The object type</td></tr><tr><td><code>created</code></td><td>Timestamp when the response was created</td></tr><tr><td><code>model</code></td><td>The model used for generation</td></tr><tr><td><code>choices</code></td><td>The array containing the assistant's response</td></tr><tr><td><code>choices[0].delta.role</code></td><td>Always "assistant" for responses</td></tr><tr><td><code>choices[0].delta.content</code></td><td>The generated text content</td></tr><tr><td><code>choices[0].delta.tool_calls</code></td><td>The array containing the corresponding tool response objects (this is only applicable if you make a tool request)</td></tr><tr><td><code>choices[0].finish_reason</code></td><td>Reason for completion (e.g., "stop", "length")</td></tr><tr><td><code>usage.prompt_tokens</code></td><td>The number of tokens used in the prompt</td></tr><tr><td><code>usage.completion_tokens</code></td><td>The number of tokens in the generated completion</td></tr><tr><td><code>usage.total_tokens</code></td><td>The sum of the prompt_tokens and the completion_tokens</td></tr></tbody></table>
 
 **Conversation Context**
 
@@ -334,6 +334,99 @@ The API supports multi-turn conversations by including previous messages in the 
 ```
 
 This allows for contextual follow-up questions and maintaining conversation history.
+
+**Tooling Calls**&#x20;
+
+The Anura chat completions endpoint supports requests with tooling allowing for function calling through many popular AI frameworks and sdks. &#x20;
+
+At the moment only a select number models support tooling including:
+
+* llama3.1:8b
+* qwen2.5:7b
+* qwen2.5-coder:7b
+* phi4-mini:3.8b
+* mistral:7b
+
+Below is a sample request and response
+
+**Request:**
+
+```json
+{
+    "model": "mistral:7b",
+    "messages": [
+        {
+            "role": "system",
+            "content": "you are a helpful AI assistant"
+        },
+        {
+            "role": "user",
+            "content": "What's the weather in Tokyo?"
+        }
+    ],
+    "tools": [
+        {
+            "type": "function",
+            "function": {
+                "name": "get_current_weather",
+                "description": "Get the current weather for a city",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "city": {
+                            "type": "string",
+                            "description": "The name of the city"
+                        }
+                    },
+                    "required": [
+                        "city"
+                    ]
+                }
+            }
+        }
+    ],
+    "temperature": 0.6,
+    "stream": false
+}
+```
+
+**Response:**
+
+```json
+{
+    "id": "jobId-QmTm3E4oEu4TYp1FLykHdnrkPyX6cLz2UUYS45YrmrzqdN-jobState-ResultsSubmitted",
+    "object": "chat.completion",
+    "created": 1742790608,
+    "model": "mistral:7b",
+    "system_fingerprint": "",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "",
+                "tool_calls": [
+                    {
+                        "id": "call_syyia0kt",
+                        "index": 0,
+                        "type": "function",
+                        "function": {
+                            "name": "get_current_weather",
+                            "arguments": "{\"city\":\"Tokyo\"}"
+                        }
+                    }
+                ]
+            },
+            "finish_reason": "tool_calls"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 88,
+        "completion_tokens": 22,
+        "total_tokens": 110
+    }
+}
+```
 
 ### Jobs
 
