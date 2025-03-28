@@ -46,6 +46,8 @@
 * [Agents](use-cases/agents/README.md)
   * [🧬 AI Oncologist Agent](use-cases/agents/ai-oncologist-agent.md)
   * [🧠 RAG Support Agent](use-cases/agents/rag-support-agent.md)
+  * [Anything LLM](use-cases/agents/anything-llm.md)
+  * [Rivet](use-cases/agents/rivet.md)
 * [Tooling](use-cases/tooling/README.md)
   * [💻 VS Code Helper Extension](use-cases/tooling/vs-code-helper-extension.md)
   * [🖼️ Farcaster frame](use-cases/tooling/farcaster-frame.md)
