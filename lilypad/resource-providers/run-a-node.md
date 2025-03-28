@@ -17,7 +17,7 @@ Lilypad RPs currently only support Linux installs. Running a RP on Windows is cu
 * Nvidia GPU
 * [Nvidia drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)
 * [Docker](https://docs.docker.com/engine/install/ubuntu/) (Ubuntu install)
-* Nvidia Docker drivers
+* [Nvidia Docker drivers](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) (NVIDIA Container Toolkit)
 
 {% hint style="info" %}
 For a more in-depth look at the requirements to run a Lilypad node, please refer to the [hardware requirements](hardware-requirements.md) documentation.
