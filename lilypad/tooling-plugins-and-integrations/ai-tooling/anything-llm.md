@@ -1,9 +1,8 @@
 ---
 description: 'Tutorial: Using Lilypad x AnythingLLM for Desktop LLM Client'
-icon: down-left-and-up-right-to-center
 ---
 
-# Anything LLM
+# 🗃️ Anything LLM
 
 
 
@@ -13,7 +12,7 @@ icon: down-left-and-up-right-to-center
 
 ### **Prerequisites:**
 
-* A basic understanding of Lilypad Anura and Anything LLM
+* A basic understanding of the Lilypad API and Anything LLM
 * Access to an Anura Dashboard account
 
 ### **Set up Open AI Endpoint in Rivet**

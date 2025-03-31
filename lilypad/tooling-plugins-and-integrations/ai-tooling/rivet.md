@@ -1,9 +1,8 @@
 ---
 description: 'Tutorial: Using Lilypad x Rivet for Generating Narratives with Anura'
-icon: down-left-and-up-right-to-center
 ---
 
-# Rivet
+# 🔍 Rivet
 
 {% embed url="https://www.youtube.com/watch?v=zSeEK-6HZU8" %}
 
@@ -11,7 +10,7 @@ icon: down-left-and-up-right-to-center
 
 ### **Prerequisites:**
 
-* A basic understanding of Lilypad Anura and Rivet
+* A basic understanding of the Lilypad API and Rivet
 * Access to an Anura Dashboard account
 * Basic knowledge of workflow configuration
 

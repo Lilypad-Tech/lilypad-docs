@@ -53,7 +53,7 @@ Contributing a module is one of the coolest things to do for Lilypad. There are 
 * Personal finance tracker that uses AI to categorize and analyze spending patterns.
 * A module that provides personalized tutoring and learning assistance using AI\\
 
-As a quick refresher, the current module making pipeline ([see full "Build a job module" resource](developer-resources/lilypad-modules/build-a-job-module.md)) looks like this:
+As a quick refresher, the current module making pipeline ([see full "Build a job module" resource](developer-resources/module-marketplace/build-a-job-module/)) looks like this:
 
 1. Find or build a compute script (for example, [a Python script on Hugging Face like SDXL](https://huggingface.co/docs/diffusers/en/using-diffusers/sdxl))
 2. Containerise the script with Docker ([see this blog for more info](https://blog.lilypadnetwork.org/how-to-build-a-custom-job-module-on-lilypad#heading-containerising-and-configuration))
@@ -105,7 +105,7 @@ Projects across DeFi, DeSci, Gaming, & Metaverse, NFTs, IOT and more, as well [#
 
 ### 🐐 Need more inspiration?
 
-See the [project-showcase.md](use-cases/ecosystem-projects/project-showcase.md "mention") page!
+See the [Broken link](broken-reference "mention") page!
 
 {% hint style="info" %}
 Pssst... We'd love to share your projects here too! Feel free to [submit a PR](https://github.com/Lilypad-Tech/lilypad-docs)!

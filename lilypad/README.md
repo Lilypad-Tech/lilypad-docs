@@ -27,9 +27,9 @@ You can use Lilypad to run AI workload models including Stable Diffusion and Sta
 
 ## Job Modules
 
-Learn more about [Lilypad job modules](developer-resources/lilypad-modules/), and use our [inference API](developer-resources/inference-api.md) or [CLI](quickstart/cli/) to start sending job requests.
+Learn more about [Lilypad job modules](developer-resources/module-marketplace/), and use our [inference API](developer-resources/inference-api.md) or [CLI](quickstart/cli/) to start sending job requests.
 
-Learn how to build your own Lilypad job modules either [from an empty project](developer-resources/lilypad-modules/build-a-job-module.md) or with our [`create-lilypad-module`](developer-resources/lilypad-modules/create-lilypad-module/)package.
+Learn how to build your own Lilypad job modules either [from an empty project](developer-resources/module-marketplace/build-a-job-module/) or with our [`create-lilypad-module`](developer-resources/module-marketplace/create-lilypad-module/)package.
 
 ## Resource Providers
 

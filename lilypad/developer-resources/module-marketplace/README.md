@@ -2,11 +2,13 @@
 description: Introduction to Lilypad modules
 ---
 
-# Lilypad Modules
+# Module Marketplace
 
 Lilypad modules are the compute jobs that are run on the Lilypad network of Resource Provider nodes. Lilypad nodes are set up to run GPU compute jobs such as AI inference, and can be used for other GPU-intensive tasks.
 
 There are two ways that participants in the network can interact with Lilypad Modules: As _Job Creators_ who run modules, or as _Module Creators_ who create modules.
+
+**For a full list of available modules on Lilypad, please check out our** [**awesome-lilypad repo**](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)**!**
 
 ## Running Modules
 
@@ -19,11 +21,11 @@ Running Jobs (participating as a 'Job Creator') is just a few simple steps:
 
 Try out some of the Lilypad team modules:
 
-* [cowsay.md](cowsay.md "mention")
-* [llama2.md](llama2.md "mention")
-* [stable-diffusion-turbo-pipeline.md](stable-diffusion-turbo-pipeline.md "mention")
+* [cowsay.md](build-a-job-module/cowsay.md "mention")
+* [llama2.md](build-a-job-module/llama2.md "mention")
+* [stable-diffusion-turbo-pipeline.md](build-a-job-module/stable-diffusion-turbo-pipeline.md "mention")
 
-Additional modules from the community are available in the [awesome-lilypad repo](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)
+Additional modules from the community are available in the [awesome-lilypad repo](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules).
 
 ## Creating Modules
 
@@ -31,5 +33,6 @@ Modules can be developed by any member of the community (participating as a 'Mod
 
 ### Developer Resources
 
-* [build-a-job-module.md](build-a-job-module.md "mention")
+* [build-a-job-module](build-a-job-module/ "mention")
 * [create-lilypad-module](create-lilypad-module/ "mention")
+* [Module Builder Guide](https://blog.lilypadnetwork.org/lilypad-module-builder-guide)

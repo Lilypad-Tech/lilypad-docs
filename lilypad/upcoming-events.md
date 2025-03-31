@@ -12,10 +12,10 @@ View the upcoming events we are attending or hosting.
 
 ### **2025**
 
-| Event                                                          | Location | Date                 |
-| -------------------------------------------------------------- | -------- | -------------------- |
-| [Encode Club Hackathon](https://www.encode.club/ai-blueprints) | Online   | March 17th           |
-| [TOKEN2049 Dubai](https://www.dubai.token2049.com/)            | Dubai    | April 30th - May 1st |
+| Event                                                           | Location | Date                 |
+| --------------------------------------------------------------- | -------- | -------------------- |
+| [Filecoin AI Blueprints](https://www.encode.club/ai-blueprints) | Online   | March 17th           |
+| [TOKEN2049 Dubai](https://www.dubai.token2049.com/)             | Dubai    | April 30th - May 1st |
 
 ## Past
 

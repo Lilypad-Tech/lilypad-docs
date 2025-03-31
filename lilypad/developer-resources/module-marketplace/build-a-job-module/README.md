@@ -12,6 +12,14 @@ For a more in-depth look at building modules, refer to this [end-to-end guide](h
 If you're new to Docker, consider exploring this [step-by-step tutorial](https://docs.docker.com/get-started/) on creating, building, and running a Docker image for a simple Hello World style application.
 {% endhint %}
 
+## Modules on Lilypad
+
+Below are a few examples of modules you can run on Lilypad. From language models to image generators and fun utilities, the network supports a growing list of AI modules.
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Llama2</td><td>An open-source language model, used for generating and understanding text.</td><td><a href="llama2.md">llama2.md</a></td></tr><tr><td>Stable Diffusion Turbo Pipeline</td><td>A fast, high-performance version of Stable Diffusion XL for generating high-quality images with minimal latency</td><td><a href="stable-diffusion-turbo-pipeline.md">stable-diffusion-turbo-pipeline.md</a></td></tr><tr><td>Cowsay</td><td>A playful CLI tool that displays text as if spoken by an ASCII-art cow</td><td><a href="cowsay.md">cowsay.md</a></td></tr></tbody></table>
+
+To view the full list of available modules on Lilypad, please check out [the awesome-lilypad repo](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)!
+
 ## Module Structure
 
 Start by creating a Git repository for your Lilypad module. The module's versions will be represented as Git tags. Below is the basic structure of a Lilypad Module.
@@ -235,7 +243,7 @@ Here are some example Lilypad modules for reference:
 * [**Cowsay**](https://github.com/Lilypad-Tech/lilypad-module-cowsay)**:** Lilypad "Hello World" example
 * [**Llama2**](llama2.md): Text to text
 * [**SDXL-turbo pipeline**](stable-diffusion-turbo-pipeline.md): Text to image generation
-* [**create-lilypad-module**](create-lilypad-module/)&#x20;
+* [**create-lilypad-module**](../create-lilypad-module/)&#x20;
 
 Deprecated examples:
 
