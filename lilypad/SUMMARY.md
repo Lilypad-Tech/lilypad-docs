@@ -11,8 +11,8 @@
     * [Usage](quickstart/cli/usage.md)
 * [🌱 Why Lilypad](why-lilypad.md)
 * [🐸 Lilybit\_ Rewards](rewards.md)
-* [❓ FAQ](faq.md)
 * [🛠️ BUILDER-VERSE](builder-verse.md)
+* [❓ FAQ](faq.md)
 * [👥 Join the Community](join-the-community.md)
 * [🙌 Win Hacks & Contribute](win-hacks-and-contribute.md)
 * [🤔 Philosophy](philosophy.md)
@@ -41,6 +41,16 @@
   * [Llama LLM](developer-resources/module-marketplace/llama-llm.md)
   * [AlphaFold2](developer-resources/module-marketplace/alphafold2.md)
 * [JS CLI Wrapper](developer-resources/js-cli-wrapper.md)
+* [📚 Helpful Resources](developer-resources/useful-links.md)
+
+## Use Cases, Agents & Projects
+
+* [Use Cases & Projects](use-cases-agents-and-projects/use-cases-and-projects/README.md)
+  * [🎨 Waterlily.ai](use-cases-agents-and-projects/use-cases-and-projects/waterlily.ai.md)
+  * [Ecosystem Projects](use-cases-agents-and-projects/use-cases-and-projects/ecosystem-projects/README.md)
+    * [🗺️ Extra Labs x Lilypad](use-cases-agents-and-projects/use-cases-and-projects/ecosystem-projects/extra-labs-x-lilypad.md)
+    * [👟 DefiKicks (HackFS Winner 2023)](use-cases-agents-and-projects/use-cases-and-projects/ecosystem-projects/defikicks.md)
+  * [🌠 Hackathon Projects](use-cases-agents-and-projects/use-cases-and-projects/project-showcase.md)
 
 ## Tooling, Plugins & Integrations
 
@@ -55,12 +65,6 @@
 * [Integrations](tooling-plugins-and-integrations/integrations/README.md)
   * [💻 VS Code Helper Extension](tooling-plugins-and-integrations/integrations/vs-code-helper-extension.md)
   * [🖼️ Farcaster frame](tooling-plugins-and-integrations/integrations/farcaster-frame.md)
-* [Ecosystem Projects](tooling-plugins-and-integrations/ecosystem-projects/README.md)
-  * [🎨 Waterlily.ai](tooling-plugins-and-integrations/ecosystem-projects/waterlily.ai.md)
-  * [🌠 Hackathon Projects](tooling-plugins-and-integrations/ecosystem-projects/project-showcase.md)
-* [🗺️ Extra Labs x Lilypad](tooling-plugins-and-integrations/extra-labs-x-lilypad.md)
-* [👟 DefiKicks (HackFS Winner 2023)](tooling-plugins-and-integrations/defikicks.md)
-* [📚 Helpful Resources](tooling-plugins-and-integrations/useful-links.md)
 
 ## Resource Providers
 
