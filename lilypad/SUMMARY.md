@@ -42,6 +42,7 @@
   * [AlphaFold2](developer-resources/module-marketplace/alphafold2.md)
 * [JS CLI Wrapper](developer-resources/js-cli-wrapper.md)
 * [📚 Helpful Resources](tooling-plugins-and-integrations/useful-links.md)
+* [Developer Tutorials](developer-resources/developer-tutorials.md)
 
 ## Use Cases, Agents & Projects
 
