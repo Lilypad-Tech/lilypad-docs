@@ -27,19 +27,29 @@ You can use Lilypad to run AI workload models including Stable Diffusion and Sta
 
 ## Job Modules
 
-Learn more about [Lilypad job modules](developer-resources/module-marketplace/), and use our [inference API](developer-resources/inference-api.md) or [CLI](quickstart/cli/) to start sending job requests.
+A Lilypad Job Module is a standard containerized (Docker) process for running compute workloads on Lilypad. Easily deploy an AI model or other compute intensive workloads to the Lilypad decentralized GPU network. \
+\
+Learn more about running AI workloads via [Lilypad job modules](developer-resources/module-marketplace/), and use our [inference API](developer-resources/inference-api.md) or [CLI](quickstart/cli/) to start sending job requests.
 
-Learn how to build your own Lilypad job modules either [from an empty project](developer-resources/module-marketplace/build-a-job-module/) or with our [`create-lilypad-module`](developer-resources/module-marketplace/create-lilypad-module/)package.
+Build your own Lilypad job modules either [from an empty project](developer-resources/module-marketplace/build-a-job-module/) or with our [`create-lilypad-module`](developer-resources/module-marketplace/create-lilypad-module/)package.
 
 ## Resource Providers
 
-If you're interested in becoming a Lilypad Resource Provider, first make sure that you meet our [minimum hardware requirements](resource-providers/hardware-requirements.md), then register in our [Lilypad Resource Provider Beta Program](https://docs.google.com/forms/d/e/1FAIpQLSeF7xIHuCpwY0X44dqnl4u3weuvmtd5MkZKY0IPlGck4kHx3w/viewform).
+The Lilypad Network aggregates idle compute (CPU and GPU) capacity from providers around the world. Compute providers on the network are referred to as [Resource Providers](https://docs.lilypad.tech/lilypad/resource-providers/run-a-node).&#x20;
 
-## Earn Rewards
+If you're interested in becoming a Lilypad Resource Provider, first make sure that you meet our [minimum hardware requirements](resource-providers/hardware-requirements.md), then register for the [Lilypad Resource Provider Beta Program](https://docs.google.com/forms/d/e/1FAIpQLSeF7xIHuCpwY0X44dqnl4u3weuvmtd5MkZKY0IPlGck4kHx3w/viewform). Learn more about running a Resource Provider on Lilypad [here](https://docs.lilypad.tech/lilypad/resource-providers/run-a-node)!
 
-If you are interested in contributing to Lilypad, we maintain an active [Bounty Board](https://lilypadnetwork.notion.site/bounty-board) with bonus rewards for creating projects that meet certain criteria. You can also view our [events](upcoming-events.md) page to see if we will be sponsoring any upcoming hackathons.
+## Earn Lilybit Rewards
 
-Want to contribute without building? View our [Lilypad Ambassador Program](https://docs.google.com/forms/d/e/1FAIpQLSdsJHkYlVVm9YILPodExa4AgGCfW-8bHZanf9OS57QxQee3SA/viewform). [Join our Discord](https://discord.gg/WtHbjMP5UB) and let us know you've applied!
+There are many ways to [earn Lilybit rewards](https://docs.lilypad.tech/lilypad/rewards) for participating in the Lilypad economy! Resource Providers earn rewards for running compute jobs and the community earns rewards for building on the network and supporting the ecosystem! Find all rewards opportunities below:\
+
+
+* Apply to the RP Beta program and earn Resource Providers [rewards](https://docs.lilypad.tech/lilypad/rewards#resource-providers)
+* Join the [Lilypad Ambassador Program ](https://www.notion.so/lilypadnetwork/Lilypad-Ambassadors-f11f73e91f684fa192fc2fab7985fe0d?pvs=4)by submitting info [here](https://docs.google.com/forms/d/e/1FAIpQLSdsJHkYlVVm9YILPodExa4AgGCfW-8bHZanf9OS57QxQee3SA/viewform)
+* Add a model to run on Lilypad or build a project listed in the [Bounty Board](https://lilypadnetwork.notion.site/bounty-board)
+* Complete open source [community issues](https://github.com/Lilypad-Tech/lilypad/issues?q=is%3Aissue%20state%3Aopen%20label%3Acommunity)
+
+[Join our Discord](https://discord.gg/WtHbjMP5UB) and start contributing!
 
 ## Roadmap
 
