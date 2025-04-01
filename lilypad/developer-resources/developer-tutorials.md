@@ -4,5 +4,5 @@ description: A collection of Blogs and Video's for developers :)
 
 # Developer Tutorials
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Building RAG Agents on Lilypad</td><td><a href="https://www.youtube.com/watch?v=I-_9yO4wdig">https://www.youtube.com/watch?v=I-_9yO4wdig</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Building RAG Agents on Lilypad</td><td><a href="https://www.youtube.com/watch?v=I-_9yO4wdig">https://www.youtube.com/watch?v=I-_9yO4wdig</a></td><td><a href="../.gitbook/assets/Lilypad_ Pitch Deck (Strategic Round).png">Lilypad_ Pitch Deck (Strategic Round).png</a></td></tr></tbody></table>
 
