@@ -158,6 +158,7 @@ For MacOS:&#x20;
         "cpu": 1000,       # CPU allocation
         "ram": 8000        # Minimum RAM needed to run the module
     },
+    "gpus": [ { "vram": 100 }, { "vram": 4096 } ] # VRAM in MBs. Solver will default to largest one 
     "job": {
         "APIVersion": "V1beta1",
         "Spec": {
