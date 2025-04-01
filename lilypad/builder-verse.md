@@ -1,6 +1,6 @@
 # 🛠️ BUILDER-VERSE
 
-Builder-verse is a space for developers, labs, and builders to create powerful tools and workflows on the Lilypad Network. It’s part of our mission to accelerate open source AI through decentralized compute infrastructure and accessible tooling.
+[Builder-verse](https://blog.lilypadnetwork.org/lilypad-builder-verse) is a space for developers, labs, and builders to create powerful tools and workflows on the Lilypad Network. It’s part of our mission to accelerate open source AI through decentralized compute infrastructure and accessible tooling.
 
 ### What is it?
 
