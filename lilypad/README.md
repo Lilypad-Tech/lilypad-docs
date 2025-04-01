@@ -29,9 +29,9 @@ You can use Lilypad to run AI workload models including Stable Diffusion and Sta
 
 A Lilypad Job Module is a standard containerized (Docker) process for running compute workloads on Lilypad. Easily deploy an AI model or other compute intensive workloads to the Lilypad decentralized GPU network. \
 \
-Learn more about running AI workloads via [Lilypad job modules](developer-resources/module-marketplace/), and use our [inference API](developer-resources/inference-api.md) or [CLI](quickstart/cli/) to start sending job requests.
+Learn more about running AI workloads via [Lilypad job modules](developer-resources/ai-model-marketplace/), and use our [inference API](developer-resources/inference-api.md) or [CLI](quickstart/cli/) to start sending job requests.
 
-Build your own Lilypad job modules either [from an empty project](developer-resources/module-marketplace/build-a-job-module/) or with our [`create-lilypad-module`](developer-resources/module-marketplace/create-lilypad-module/)package.
+Build your own Lilypad job modules either [from an empty project](developer-resources/ai-model-marketplace/build-a-job-module/) or with our [`create-lilypad-module`](developer-resources/ai-model-marketplace/create-lilypad-module/)package.
 
 ## Resource Providers
 

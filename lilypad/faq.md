@@ -103,7 +103,7 @@ Find more information check out the [Run a node](resource-providers/run-a-node.m
 
 ### What is a Lilypad Module?
 
-View the [Modules section](developer-resources/module-marketplace/).
+View the [Modules section](developer-resources/ai-model-marketplace/).
 
 ### How to run a ML job on Lilypad
 
