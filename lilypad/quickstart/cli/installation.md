@@ -69,7 +69,7 @@ A `WEB3_PRIVATE_KEY` can be retrieved from the Metamask account details menu. Fo
 export WEB3_PRIVATE_KEY=<your private key>
 ```
 
-To use the Lilypad CLI, the set private key will need to hold Lilypad testnet tokens and Arbitrum Sepolia ETH. You can find those instructions in the [Broken link](broken-reference "mention") documentation.
+To use the Lilypad CLI, the set private key will need to hold Lilypad testnet tokens and Arbitrum Sepolia ETH. You can find those instructions in the [Setting Up Your Wallet](setting-up-your-wallet.md) documentation.
 
 ## Verify installation
 
