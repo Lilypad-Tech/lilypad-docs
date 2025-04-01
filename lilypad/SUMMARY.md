@@ -45,17 +45,17 @@
 
 ## Use Cases, Agents & Projects
 
-* [🎨 Waterlily.ai](use-cases-agents-and-projects/waterlily.ai.md)
-* [🌠 Hackathon Projects](use-cases-agents-and-projects/project-showcase.md)
+* [Agents](use-cases-agents-and-projects/agents/README.md)
+  * [🧬 AI Oncologist Agent](use-cases-agents-and-projects/agents/ai-oncologist-agent.md)
+  * [🧠 RAG Support Agent](use-cases-agents-and-projects/agents/rag-support-agent.md)
 * [Ecosystem Projects](use-cases-agents-and-projects/ecosystem-projects/README.md)
   * [🗺️ Extra Labs x Lilypad](use-cases-agents-and-projects/ecosystem-projects/extra-labs-x-lilypad.md)
   * [👟 DefiKicks (HackFS Winner 2023)](use-cases-agents-and-projects/ecosystem-projects/defikicks.md)
+* [🎨 Waterlily.ai](use-cases-agents-and-projects/waterlily.ai.md)
+* [🌠 Hackathon Projects](use-cases-agents-and-projects/project-showcase.md)
 
 ## Tooling, Plugins & Integrations
 
-* [Agents](tooling-plugins-and-integrations/agents/README.md)
-  * [🧬 AI Oncologist Agent](tooling-plugins-and-integrations/agents/ai-oncologist-agent.md)
-  * [🧠 RAG Support Agent](tooling-plugins-and-integrations/agents/rag-support-agent.md)
 * [AI Tooling](tooling-plugins-and-integrations/ai-tooling/README.md)
   * [🗃️ Anything LLM](tooling-plugins-and-integrations/ai-tooling/anything-llm.md)
   * [🔍 Rivet](tooling-plugins-and-integrations/ai-tooling/rivet.md)

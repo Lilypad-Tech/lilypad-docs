@@ -1,6 +1,5 @@
 ---
 description: 3D Mapping on Lilypad
-hidden: true
 ---
 
 # 🗺️ Extra Labs x Lilypad

@@ -45,7 +45,7 @@ Looking for inspiration or guidance? Check out these resources to get you starte
 
 * [Build a module guide](https://blog.lilypadnetwork.org/lilypad-module-builder-guide) - Step-by-step guide to creating your own Lilypad module
 * [`create-lilypad-module`](developer-resources/module-marketplace/create-lilypad-module/) - CLI tool to scaffold a new module with everything you need to get started
-* [Agents on Lilypad](tooling-plugins-and-integrations/agents/) - Create composable AI workflows powered by Lilypad modules
+* [Agents on Lilypad](use-cases-agents-and-projects/agents/) - Create composable AI workflows powered by Lilypad modules
 
 Check out our [awesome-lilypad repo](https://github.com/Lilypad-Tech/awesome-Lilypad) for a curated collection of modules, templates, and community examples!
 
