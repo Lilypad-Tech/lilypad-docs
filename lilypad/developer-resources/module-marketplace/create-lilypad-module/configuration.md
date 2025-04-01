@@ -127,26 +127,24 @@ The default `lilypad_module.json.tmpl` file is below. Make sure to update the Do
 
 ```json
 {
-  "machine": { "gpu": 0, "vram": 0, "cpu": 1000, "ram": 4000 },
+  "machine": { "gpu": 1, "cpu": 8000, "ram": 16000 },
+  "gpus": [{ "vram": "24Gb" }]
   "job": {
     "APIVersion": "V1beta1",
-    "Metadata": {
-      "CreatedAt": "0001-01-01T00:00:00Z",
-      "Requester": {}
-    },
     "Spec": {
       "Deal": { "Concurrency": 1 },
       "Docker": {
-        "WorkingDirectory": "/workspace",
-        "Entrypoint": ["python", "/src/run_inference.py"],
-        "EnvironmentVariables": ["INPUT={{ js .input }}"],
-        "Image": "dockerhub_username/image:tag"
+        "Entrypoint": [
+          "/app/src/run_model", {{ .request }}
+        ],
+        "Image": "DOCKER_HUB_USERNAME/DOCKER_IMAGE@INDEX_DIGEST"
       },
       "Engine": "Docker",
       "Network": { "Type": "None" },
       "Outputs": [{ "Name": "outputs", "Path": "/outputs" }],
-      "Resources": { "GPU": "", "CPU": "1", "Memory": "2Gb" },
-      "Timeout": 600
+      "Resources": { "GPU": "1", "CPU": "8", "Memory": "16Gb" },
+      "Timeout": 1800,
+      "Verifier": "Noop"
     }
   }
 }
@@ -155,6 +153,7 @@ The default `lilypad_module.json.tmpl` file is below. Make sure to update the Do
 #### Template Fields
 
 * **Machine:** Specifies the system resources.
+* GPUs: Specifies the minimum VRAM required.
 * **Job:** Specifies the job details.
   * **APIVersion:** Specifies the API version for the job.
   * **Metadata:** Specifies the metadata for the job.
