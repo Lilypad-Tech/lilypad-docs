@@ -2,7 +2,7 @@
 description: Useful links on topics that relate to the Lilypad Network
 ---
 
-# 📚 Helpful Resources
+# Helpful Resources
 
 ## AI Resources
 
