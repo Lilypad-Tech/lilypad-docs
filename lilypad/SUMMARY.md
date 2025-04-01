@@ -41,16 +41,15 @@
   * [Llama LLM](developer-resources/module-marketplace/llama-llm.md)
   * [AlphaFold2](developer-resources/module-marketplace/alphafold2.md)
 * [JS CLI Wrapper](developer-resources/js-cli-wrapper.md)
-* [📚 Helpful Resources](developer-resources/useful-links.md)
+* [📚 Helpful Resources](tooling-plugins-and-integrations/useful-links.md)
 
 ## Use Cases, Agents & Projects
 
-* [Use Cases & Projects](use-cases-agents-and-projects/use-cases-and-projects/README.md)
-  * [🎨 Waterlily.ai](use-cases-agents-and-projects/use-cases-and-projects/waterlily.ai.md)
-  * [Ecosystem Projects](use-cases-agents-and-projects/use-cases-and-projects/ecosystem-projects/README.md)
-    * [🗺️ Extra Labs x Lilypad](use-cases-agents-and-projects/use-cases-and-projects/ecosystem-projects/extra-labs-x-lilypad.md)
-    * [👟 DefiKicks (HackFS Winner 2023)](use-cases-agents-and-projects/use-cases-and-projects/ecosystem-projects/defikicks.md)
-  * [🌠 Hackathon Projects](use-cases-agents-and-projects/use-cases-and-projects/project-showcase.md)
+* [🎨 Waterlily.ai](use-cases-agents-and-projects/waterlily.ai.md)
+* [🌠 Hackathon Projects](use-cases-agents-and-projects/project-showcase.md)
+* [Ecosystem Projects](use-cases-agents-and-projects/ecosystem-projects/README.md)
+  * [🗺️ Extra Labs x Lilypad](use-cases-agents-and-projects/ecosystem-projects/extra-labs-x-lilypad.md)
+  * [👟 DefiKicks (HackFS Winner 2023)](use-cases-agents-and-projects/ecosystem-projects/defikicks.md)
 
 ## Tooling, Plugins & Integrations
 

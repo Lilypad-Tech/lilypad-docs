@@ -8,7 +8,9 @@ Lilypad modules are the compute jobs that are run on the Lilypad network of Reso
 
 There are two ways that participants in the network can interact with Lilypad Modules: As _Job Creators_ who run modules, or as _Module Creators_ who create modules.
 
+{% hint style="info" %}
 **For a full list of available modules on Lilypad, please check out our** [**awesome-lilypad repo**](https://github.com/Lilypad-Tech/awesome-Lilypad?tab=readme-ov-file#modules)**!**
+{% endhint %}
 
 ## Running Modules
 
