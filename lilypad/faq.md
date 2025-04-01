@@ -133,4 +133,4 @@ For more information on the requirements to run a Lilypad node, please refer to 
 
 ### Expected TGE
 
-Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE is scheduled for Q2 2025.
+Although the launch date is not finalized, the launch of Lilypad Mainnet and the TGE is scheduled for 2025.
