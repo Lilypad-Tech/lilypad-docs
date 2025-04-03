@@ -128,7 +128,7 @@ The default `lilypad_module.json.tmpl` file is below. Make sure to update the Do
 ```json
 {
   "machine": { "gpu": 1, "cpu": 8000, "ram": 16000 },
-  "gpus": [{ "vram": "24Gb" }]
+  "gpus": [{ "vram": 24576 }]
   "job": {
     "APIVersion": "V1beta1",
     "Spec": {
