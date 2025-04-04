@@ -9,7 +9,10 @@ description: Anura, Lilypad's official AI inference API
 Use Anura to start running AI inference job modules on Lilypad's decentralized compute network:
 
 1. Get an API key from the [Anura website](https://anura.lilypad.tech/).
-2. Find which models we support:
+
+### Get Started with Text Generation
+
+1. Find which models we support:
 
 ```sh
 curl GET "https://anura-testnet.lilypad.tech/api/v1/models" \
@@ -17,7 +20,7 @@ curl GET "https://anura-testnet.lilypad.tech/api/v1/models" \
   -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
-3. Choose a model and customize your request:
+2. Choose a model, customize your request and fire away:
 
 ```sh
 curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
@@ -37,6 +40,26 @@ curl -X POST "https://anura-testnet.lilypad.tech/api/v1/chat/completions" \
   "stream": true,
   "temperature": 0.6
 }'
+```
+
+### Get Started with Image Generation
+
+1. Find which models we support:
+
+```bash
+curl GET "https://anura-testnet.lilypad.tech/api/v1/image/models" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+2. Choose a model and generate your first image
+
+```bash
+curl -X POST https://anura-testnet.lilypad.tech/api/v1/image/generate \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -d '{"prompt": "A spaceship parked on a lilypad", "model": "sdxl-turbo"}' \
+  --output spaceship.png
 ```
 
 ## API Endpoints
