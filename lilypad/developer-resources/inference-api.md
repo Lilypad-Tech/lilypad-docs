@@ -61,6 +61,10 @@ Postman collection
 {% endtab %}
 {% endtabs %}
 
+### Rate limits
+
+Currently the rate limit for the api is set to 20 calls per second
+
 ### Get Available Models
 
 To see which models are available:
@@ -428,6 +432,128 @@ Below is a sample request and response
 }
 ```
 
+### Image Generation
+
+The Anura API enables you to run stable diffusion jobs to generate images executed through our decentralized compute network. It's really easy to get started generating your own generative AI art using Anura through the endpoints we provide.
+
+**Retrieve the list supported image generation models**
+
+`GET /api/v1/image/models`&#x20;
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Request Sample**
+
+```bash
+curl -X GET "https://anura-testnet.lilypad.tech/api/v1/image/models" \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer your_api_key_here"
+```
+
+**Response**
+
+```json
+{
+    "data": {
+        "models": [
+            "sdxl-turbo"
+        ]
+    },
+    "message": "Retrieved models successfully",
+    "status": 200
+}
+```
+
+**Response Codes**
+
+* `200 OK`: Request successful, stream begins
+* `400 Bad Request`: Invalid request parameters
+* `401 Unauthorized`: Invalid or missing API key
+* `404 Not Found`: Requested model not found
+* `500 Internal Server Error`: Server error processing request
+
+Currently we support `sdxl-turbo`; however, we are always adding new models, so stay tuned!
+
+**Generate an AI Image**
+
+`POST /api/v1/image/generate`
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Request Parameters**
+
+<table><thead><tr><th width="117">Parameter</th><th width="515.5">Description</th><th width="105.5">Type</th></tr></thead><tbody><tr><td><code>model</code><mark style="color:red;">*</mark></td><td>Model ID used to generate the response (e.g. <code>sdxl-turbo</code>). <strong>Required</strong>.</td><td><code>string</code></td></tr><tr><td><code>prompt</code><mark style="color:red;">*</mark></td><td>The prompt input to generate your image from (max limit of 1000 characters)</td><td><code>string</code></td></tr></tbody></table>
+
+**Request Sample**
+
+```json
+{
+    "prompt": "A spaceship parked on a lilypad",
+    "model": "sdxl-turbo"
+}
+```
+
+Alternatively you can also make the same request through a curl command and have the image be output to a file on your machine
+
+```bash
+curl -X POST https://anura-testnet.lilypad.tech/api/v1/image/generate \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer your_api_key_here" \
+  -d '{"prompt": "A spaceship parked on a lilypad", "model": "sdxl-turbo"}' \
+  --output spaceship.png
+```
+
+The result of running this command will be the creation of the `spaceship.png` file in the directory you ran the command from.&#x20;
+
+**Response**
+
+This endpoint will return the raw bytes value of the image that was generated which you can output to a file (like shown in the curl command above) or place it in a buffer to write to a file in your app, e.g.&#x20;
+
+```javascript
+const fs = require("fs");
+const fetch = require("node-fetch");
+
+async function generateImage() {
+  const response = await fetch("https://anura-testnet.lilypad.tech/api/v1/image/generate", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer your_api_key_here"
+    },
+    body: JSON.stringify({
+      prompt: "A spaceship parked on a lilypad",
+      model: "sdxl-turbo"
+    }),
+  });
+  
+  if (!response.ok) {
+    console.error(`Error generating image: StatusCode: ${response.status} Error: ${response.message}`);
+    return;
+  }
+
+  const buffer = await response.buffer();
+  fs.writeFileSync("spaceship.png", buffer);
+}
+
+generateImage();
+```
+
+**Note:** Should you ever need to know what the corresponding Job Offer ID for image generation, it is provided in the response header as `Job-Offer-Id`
+
+**Response Codes**
+
+* `200 OK`: Request successful, stream begins
+* `400 Bad Request`: Invalid request parameters
+* `401 Unauthorized`: Invalid or missing API key
+* `404 Not Found`: Requested model not found
+* `500 Internal Server Error`: Server error processing request
+
 ### Jobs
 
 * `GET /api/v1/jobs/:id` - Get status and details of a specific job
@@ -436,7 +562,7 @@ Below is a sample request and response
 
 You can use another terminal to check job status while the job is running.
 
-```
+```bash
 curl -X GET "https://anura-testnet.lilypad.tech/api/v1/jobs/{job_id}" \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer your_api_key_here"
