@@ -44,6 +44,16 @@
 * [Developer Tutorials](developer-resources/developer-tutorials.md)
 * [Helpful Resources](tooling-plugins-and-integrations/useful-links.md)
 
+## Use Cases, Agents & Projects
+
+* [Agents](use-cases-agents-and-projects/agents/README.md)
+  * [🧬 AI Oncologist Agent](use-cases-agents-and-projects/agents/ai-oncologist-agent.md)
+  * [🧠 RAG Support Agent](use-cases-agents-and-projects/agents/rag-support-agent.md)
+* [Ecosystem Projects](use-cases-agents-and-projects/project-showcase/README.md)
+  * [🎨 Waterlily.ai](use-cases-agents-and-projects/project-showcase/waterlily.ai.md)
+  * [🗺️ Extra Labs x Lilypad](use-cases-agents-and-projects/project-showcase/extra-labs-x-lilypad.md)
+  * [👟 DefiKicks (HackFS Winner 2023)](use-cases-agents-and-projects/project-showcase/defikicks.md)
+
 ## Tooling, Plugins & Integrations
 
 * [AI Tooling](tooling-plugins-and-integrations/ai-tooling/README.md)
@@ -54,19 +64,6 @@
 * [Integrations](tooling-plugins-and-integrations/integrations/README.md)
   * [💻 VS Code Helper Extension](tooling-plugins-and-integrations/integrations/vs-code-helper-extension.md)
   * [🖼️ Farcaster frame](tooling-plugins-and-integrations/integrations/farcaster-frame.md)
-
-## Use Cases, Agents & Projects
-
-* [Agents](use-cases-agents-and-projects/agents/README.md)
-  * [🧬 AI Oncologist Agent](use-cases-agents-and-projects/agents/ai-oncologist-agent.md)
-  * [🧠 RAG Support Agent](use-cases-agents-and-projects/agents/rag-support-agent.md)
-
-***
-
-* [Ecosystem Projects](project-showcase/README.md)
-  * [🎨 Waterlily.ai](project-showcase/waterlily.ai.md)
-  * [🗺️ Extra Labs x Lilypad](project-showcase/extra-labs-x-lilypad.md)
-  * [👟 DefiKicks (HackFS Winner 2023)](project-showcase/defikicks.md)
 
 ## Resource Providers
 

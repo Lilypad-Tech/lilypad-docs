@@ -12,12 +12,12 @@ DefI Kicks Video
 {% endembed %}
 
 {% hint style="info" %}
-See the Lilypad Example at [drand-off-chain-voting.md](../archive/older-versions/lilypad-v0-deprecated/examples/drand-off-chain-voting.md "mention")
+See the Lilypad Example at [drand-off-chain-voting.md](../../archive/older-versions/lilypad-v0-deprecated/examples/drand-off-chain-voting.md "mention")
 {% endhint %}
 
 DefiKicks is a decentralized, community-governed Data DAO (Decentralized Autonomous Organization) that operates on the Filecoin network, with the goal of democratizing DeFi data aggregation and TVL (Total Value Locked) calculations. It seeks to improve transparency and foster collaboration through a system of on-chain adapter proposals, off-chain voting, and interoperable token rewards.
 
-<div data-full-width="true"><img src="../.gitbook/assets/defi-kicks-dashboard.png" alt="Defi Kicks Dashboard" width="41%"> <img src="../.gitbook/assets/defi-kicks-propose.png" alt="Defi Kicks Propose" width="40%"></div>
+<div data-full-width="true"><img src="../../.gitbook/assets/defi-kicks-dashboard.png" alt="Defi Kicks Dashboard" width="41%"> <img src="../../.gitbook/assets/defi-kicks-propose.png" alt="Defi Kicks Propose" width="40%"></div>
 
 At its core, DefiKicks is a counter to the centralization issues prevalent in traditional DeFi data aggregators such as DefiLlama. By shifting the TVL calculations to be performed on-chain, DefiKicks ensures data authenticity and transparency. In essence, it functions similarly to a version control system like 'Git,' allowing anyone to propose a new TVL adapter for a project.
 
@@ -33,7 +33,7 @@ In essence, DefiKicks, with its combination of technologies, proposes a novel, t
 
 ## Architecture
 
-![](<../.gitbook/assets/image (101).png>)
+![](<../../.gitbook/assets/image (101).png>)
 
 DefiKicks operates on a foundation of decentralized technologies and protocols to ensure transparent, accessible DeFi data.
 
@@ -47,4 +47,4 @@ IPFS and Web3.Storage ensure secure and efficient data storage and transfer, whi
 
 ## Find out more about DefiKicks.xyz
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>DefiKicks Live Site</td><td><a href="https://defikicks.xyz/">https://defikicks.xyz/</a></td><td><a href="https://defikicks.on.fleek.co/">https://defikicks.on.fleek.co/</a></td><td><a href="../.gitbook/assets/Screenshot 2023-06-27 at 7.58.56 pm (1).png">Screenshot 2023-06-27 at 7.58.56 pm (1).png</a></td></tr><tr><td>DefiKicks Github</td><td></td><td><a href="https://github.com/md0x/defikicks">https://github.com/md0x/defikicks</a></td><td><a href="../.gitbook/assets/github.png">github.png</a></td></tr><tr><td>HackFS Submission</td><td></td><td><a href="https://ethglobal.com/showcase/defikicks-b1wo0">https://ethglobal.com/showcase/defikicks-b1wo0</a></td><td><a href="../.gitbook/assets/FwMoaTuWIAch8j1.png">FwMoaTuWIAch8j1.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>DefiKicks Live Site</td><td><a href="https://defikicks.xyz/">https://defikicks.xyz/</a></td><td><a href="https://defikicks.on.fleek.co/">https://defikicks.on.fleek.co/</a></td><td><a href="../../.gitbook/assets/Screenshot 2023-06-27 at 7.58.56 pm (1).png">Screenshot 2023-06-27 at 7.58.56 pm (1).png</a></td></tr><tr><td>DefiKicks Github</td><td></td><td><a href="https://github.com/md0x/defikicks">https://github.com/md0x/defikicks</a></td><td><a href="../../.gitbook/assets/github.png">github.png</a></td></tr><tr><td>HackFS Submission</td><td></td><td><a href="https://ethglobal.com/showcase/defikicks-b1wo0">https://ethglobal.com/showcase/defikicks-b1wo0</a></td><td><a href="../../.gitbook/assets/FwMoaTuWIAch8j1.png">FwMoaTuWIAch8j1.png</a></td></tr></tbody></table>
