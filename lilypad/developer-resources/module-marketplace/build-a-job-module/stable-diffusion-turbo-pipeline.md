@@ -19,13 +19,13 @@ Learn more about installing the Lilypad CLI and running a Lilypad job with this 
 ## Run SDXL Turbo
 
 ```
-lilypad run github.com/noryev/module-sdxl-ipfs:ae17e969cadab1c53d7cabab1927bb403f02fd2a -i prompt="your prompt here"
+lilypad run github.com/Lilypad-Tech/module-sdxl:d6a89ed92f4e798459b2990340669da00c56c80c -i prompt="your prompt here"
 ```
 
 Example:
 
 ```
-lilypad run github.com/noryev/module-sdxl-ipfs:ae17e969cadab1c53d7cabab1927bb403f02fd2a -i prompt="a spaceship parked on mountain"
+lilypad run github.com/Lilypad-Tech/module-sdxl:d6a89ed92f4e798459b2990340669da00c56c80c -i prompt="a spaceship parked on a mountain"
 ```
 
 ### Notes
