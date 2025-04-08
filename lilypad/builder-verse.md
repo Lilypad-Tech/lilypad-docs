@@ -18,17 +18,7 @@ You don’t need to wait for a hackathon. Submit anytime and track your impact o
 * Building agents or full-stack applications that use Lilypad modules
 * Driving usage. The more your module or agent is used, the more rewards you earn
 
-#### Resource Providers
 
-Participating and receiving rewards isn't just for builders. Resource providers (GPU node operators) can earn by contributing compute to the network.
-
-We’re rolling out the RP Beta Program, which includes:
-
-* Node verification
-* Updated hardware and connectivity standards
-* A new reward structure aligned with Mainnet
-
-The goal is to ensure high-quality compute jobs and support reliable contributors. Stay tuned in the [`#updates-rp`](https://discord.com/channels/1212897693450641498/1256179769356189707) channel in Discord, and sign up for the [RP Beta Program here](https://docs.google.com/forms/d/e/1FAIpQLSeF7xIHuCpwY0X44dqnl4u3weuvmtd5MkZKY0IPlGck4kHx3w/viewform?pli=1).
 
 <figure><img src=".gitbook/assets/lp-flow.png" alt=""><figcaption></figcaption></figure>
 
