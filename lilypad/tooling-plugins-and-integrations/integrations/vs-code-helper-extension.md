@@ -8,6 +8,8 @@ description: >-
 
 The **Lilypad VS Code Extension** allows developers to interact with the Lilypad Anura API within Visual Studio Code. By highlighting code blocks, users can query the available LLMs on Lilypad  for explanations, improvements, or suggestions, receiving responses in a formatted webview panel.
 
+<figure><img src="../../.gitbook/assets/anura-vscode-gif.gif" alt=""><figcaption><p>VS Code extension in action</p></figcaption></figure>
+
 ### Features
 
 * **AI-Powered Code Assistance** – Select any code in your editor, choose an AI model, and ask Lilypad questions about it
