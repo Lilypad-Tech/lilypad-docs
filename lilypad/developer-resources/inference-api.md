@@ -577,6 +577,78 @@ generateImage();
 * `404 Not Found`: Requested model not found
 * `500 Internal Server Error`: Server error processing request
 
+### Web Search
+
+The Anura API provides developers with a web search capability enabling you to add a powerful tool to your AI Agent building arsenal. LLM's are only as great as their training data and are taken to the next level when provided with additional context from the web. With web search you can power your AI Agent workflow with live web search data providing your LLM the most up to date information on the latest on goings in the world.
+
+It's easy to get started searching the web through the Anura API using our endpoint:
+
+`POST /api/v1/websearch`
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Request Parameters**
+
+<table><thead><tr><th width="114.359375">Parameter</th><th width="515.5">Description</th><th width="109.88671875">Type</th></tr></thead><tbody><tr><td><code>query</code><mark style="color:red;">*</mark></td><td>The web search query you wish to execute</td><td><code>string</code></td></tr><tr><td><code>number_of_results</code><mark style="color:red;">*</mark></td><td>The number of search results you want returned (limited to 1 to 10 inclusive)</td><td><code>number</code></td></tr></tbody></table>
+
+**Request Sample**
+
+```json
+{
+    "query": "What's the Lilypad Network?",
+    "number_of_results" : 3
+}
+```
+
+**Response Sample**
+
+The response will include the following fields:
+
+<table><thead><tr><th width="176.0234375">Field</th><th width="557.90234375">Description</th></tr></thead><tbody><tr><td><code>results</code></td><td>The array of search results where each result object is made up of the strings: <code>title</code>, <code>url</code> and <code>description</code></td></tr><tr><td><code>related_queries</code></td><td>An array of strings containing similar queries based on the one you supplied</td></tr><tr><td><code>count</code></td><td>The number of search results returned</td></tr></tbody></table>
+
+```json
+{
+    "results": [
+        {
+            "title": "Lilypad Network",
+            "url": "https://lilypad.tech",
+            "description": "Lilypad Network Lilypad offers a seamless and efficient way to access the computing power you need for AI and other demanding tasks—no need to invest in expensive hardware or navigate complex cloud setups. Simply submit your job; our decentralized network connects you with the best available resources. Benefit from competitive pricing, secure ..."
+        },
+        {
+            "title": "Lilypad Network - internet-scale off-chain distributed compute solution",
+            "url": "https://blog.lilypadnetwork.org",
+            "description": "Verifiable, truly internet-scale distributed compute network Efficient off-chain computation for AI & ML DataDAO computing The next frontier of web3. Follow. ... Check out the docs https://docs.lilypad.tech/lilypad! Lilypad Builder-verse! Devlin Rocha. 4 min read. Fuel the Future by Building on Lilypad and Accelerate Open Source AI. Alex Mirran."
+        },
+        {
+            "title": "What is the Lilypad Decentralized Compute Network?",
+            "url": "https://blog.lilypadnetwork.org/what-is-the-lilypad-decentralized-compute-network",
+            "description": "Lilypad democratizes AI high-performance computing, offering affordable, scalable solutions for researchers and startups. Follow. Follow. What is the Lilypad Decentralized Compute Network? A Crowdsourced Network for HPC Tasks. Lindsay Walker"
+        }
+    ],
+    "related_queries": [
+        "Lilypad Tech",
+        "LilyPad github",
+        "Lilypad website",
+        "Lilypad AI",
+        "Lily pad Minecraft server",
+        "Lilypad crypto",
+        "LilyPad Arduino"
+    ],
+    "count": 3
+}
+```
+
+**Response Codes**
+
+* `200 OK`: Request successful, stream begins
+* `400 Bad Request`: Invalid request parameters
+* `401 Unauthorized`: Invalid or missing API key
+* `404 Not Found`: Requested model not found
+* `500 Internal Server Error`: Server error processing request
+
 ### Jobs
 
 * `GET /api/v1/jobs/:id` - Get status and details of a specific job
