@@ -592,7 +592,7 @@ It's easy to get started searching the web through the Anura API using our endpo
 
 **Request Parameters**
 
-<table><thead><tr><th width="114.359375">Parameter</th><th width="515.5">Description</th><th width="109.88671875">Type</th></tr></thead><tbody><tr><td><code>query</code><mark style="color:red;">*</mark></td><td>The web search query you wish to execute</td><td><code>string</code></td></tr><tr><td><code>number_of_results</code><mark style="color:red;">*</mark></td><td>The number of search results you want returned (limited to 1 to 10 inclusive)</td><td><code>number</code></td></tr></tbody></table>
+<table><thead><tr><th width="193.38671875">Parameter</th><th width="515.5">Description</th><th width="91.625">Type</th></tr></thead><tbody><tr><td><code>query</code><mark style="color:red;">*</mark></td><td>The web search query you wish to execute</td><td><code>string</code></td></tr><tr><td><code>number_of_results</code><mark style="color:red;">*</mark></td><td>The number of search results you want returned (limited to 1 to 10 inclusive)</td><td><code>number</code></td></tr></tbody></table>
 
 **Request Sample**
 
