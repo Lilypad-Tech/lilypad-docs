@@ -1,5 +1,6 @@
 ---
 description: Useful links on topics that relate to the Lilypad Network
+hidden: true
 ---
 
 # Helpful Resources
