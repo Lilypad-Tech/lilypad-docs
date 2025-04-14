@@ -4,7 +4,7 @@ description: Projects built with Lilypad
 
 # Ecosystem Projects
 
-[https://anura-playground.vercel.app/](https://anura-playground.vercel.app/)Explore real-world applications leveraging the Lilypad Network!
+Explore real-world applications leveraging the Lilypad Network!
 
 ## End User Apps
 
