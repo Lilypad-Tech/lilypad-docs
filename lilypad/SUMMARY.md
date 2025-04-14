@@ -46,13 +46,14 @@
 
 ## Use Cases, Agents & Projects
 
-* [Agents](use-cases-agents-and-projects/agents/README.md)
-  * [🧬 AI Oncologist Agent](use-cases-agents-and-projects/agents/ai-oncologist-agent.md)
-  * [🧠 RAG Support Agent](use-cases-agents-and-projects/agents/rag-support-agent.md)
 * [Ecosystem Projects](use-cases-agents-and-projects/project-showcase/README.md)
   * [🎨 Waterlily.ai](use-cases-agents-and-projects/project-showcase/waterlily.ai.md)
   * [🗺️ Extra Labs x Lilypad](use-cases-agents-and-projects/project-showcase/extra-labs-x-lilypad.md)
   * [👟 DefiKicks (HackFS Winner 2023)](use-cases-agents-and-projects/project-showcase/defikicks.md)
+* [Agents](use-cases-agents-and-projects/agents/README.md)
+  * [🧬 AI Oncologist Agent](use-cases-agents-and-projects/agents/ai-oncologist-agent.md)
+  * [🧠 RAG Support Agent](use-cases-agents-and-projects/agents/rag-support-agent.md)
+  * [📊 HubSpot-LinkedIn Agent](use-cases-agents-and-projects/agents/hubspot-linkedin-agent.md)
 
 ## Tooling, Plugins & Integrations
 
