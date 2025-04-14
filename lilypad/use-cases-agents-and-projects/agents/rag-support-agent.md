@@ -8,7 +8,7 @@ description: >-
 
 The Lilypad RAG Support Agent is a Retrieval-Augmented Generation (RAG) AI assistant that retrieves relevant information and generates AI-powered responses using the Lilypad Network. It enables automated support and troubleshooting by leveraging vector search and AI-based text generation.
 
-### **Features**
+## **Agent Details**
 
 * **Context-Aware Responses** – Uses `all-MiniLM-L6-v2` embeddings to retrieve relevant information.
 * **AI-Powered Answer Generation** – Sends retrieved context and user query to the Lilypad API, which processes it using Llama3 8B.
@@ -40,9 +40,9 @@ To customize:
 
 For more advanced use cases, the agent can be extended to support multiple files or external knowledge sources.
 
-### **Installation**
+## **Getting Started**
 
-Follow these steps to set up the RAG Support Agent and configure it with your Lilypad API key.
+A guide to launch the RAG support agent locally and run inference on the Lilypad Network with the [Lilypad Inference API](https://github.com/Lilypad-Tech/HubSpot-LinkedIn-AgentSync).
 
 #### **Get a Lilypad API Key**
 
@@ -65,7 +65,7 @@ export LILYPAD_API_TOKEN="your-api-key-here"
 
 To make it persistent, add it to `~/.bashrc` or `~/.zshrc`.
 
-#### **Install Dependencies**
+### **Setup**
 
 Ensure Python 3 is installed, then run:
 
@@ -73,7 +73,7 @@ Ensure Python 3 is installed, then run:
 pip install -r requirements.txt
 ```
 
-### **Usage**
+### Usage
 
 After setting up the API key and dependencies, the agent is ready to process queries using Lilypad’s AI-powered retrieval system.
 

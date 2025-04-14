@@ -67,7 +67,7 @@ A guide to launch the HubSpot-LinkedIn agent locally and run inference on the Li
        AGENT_MODEL=qwen2.5:7b  # Adjust for your provider
        ```
 
-### Running the Agent
+### Usage
 
 1.  **Start the Daemon**
 

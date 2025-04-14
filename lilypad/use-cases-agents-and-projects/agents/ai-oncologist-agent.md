@@ -6,13 +6,13 @@ description: >-
 
 # 🧬 AI Oncologist Agent
 
-An intelligent system for analyzing oncological research papers using a multi-agent approach. The system employs three specialized agents to search, extract, and analyze information from medical research papers.
-
 {% embed url="https://www.youtube.com/watch?v=5Hq3lUobrN4" %}
 Altruistic AI Agents - Lilypad Oncologist
 {% endembed %}
 
 ## Agent Details
+
+The AI Oncologist serves as a Research agent template that can be used to conduct a wide range of research. The Agent is an intelligent system for analyzing research papers using a multi-agent approach.
 
 The system consists of three main agents:
 
@@ -37,6 +37,8 @@ The system consists of three main agents:
 * Uses contextual understanding to provide accurate responses
 
 ## Getting Started
+
+A guide to launch the Research agent locally and run inference on the Lilypad Network with the [Lilypad Inference API](https://github.com/Lilypad-Tech/HubSpot-LinkedIn-AgentSync).
 
 ### Prerequisites
 
