@@ -72,6 +72,7 @@
 * [Run a node](resource-providers/run-a-node.md)
 * [Update node](resource-providers/docker/update-your-node.md)
 * [Troubleshooting](resource-providers/troubleshooting.md)
+* [RP-Beta Program](resource-providers/rp-beta-program.md)
 
 ## Research & Vision
 
