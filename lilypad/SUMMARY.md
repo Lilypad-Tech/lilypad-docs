@@ -156,3 +156,7 @@
       * [DuckDB](archive/older-versions/lilypad-aurora-v2/examples/duckdb.md)
       * [Arbitrary WASM](archive/older-versions/lilypad-aurora-v2/examples/arbitrary-wasm.md)
       * [Filecoin Data Prep](archive/older-versions/lilypad-aurora-v2/examples/filecoin-data-prep.md)
+
+## Group 1
+
+* [🧘‍♀️ Lilypad Workflows](group-1/lilypad-workflows.md)
