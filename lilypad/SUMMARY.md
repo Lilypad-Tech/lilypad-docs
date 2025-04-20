@@ -66,6 +66,10 @@
   * [💻 VS Code Helper Extension](tooling-plugins-and-integrations/integrations/vs-code-helper-extension.md)
   * [🖼️ Farcaster frame](tooling-plugins-and-integrations/integrations/farcaster-frame.md)
 
+## AI Automation Workflows
+
+* [Lilypad Workflows](ai-automation-workflows/lilypad-workflows.md)
+
 ## Resource Providers
 
 * [Hardware Requirements](resource-providers/hardware-requirements.md)
@@ -156,7 +160,3 @@
       * [DuckDB](archive/older-versions/lilypad-aurora-v2/examples/duckdb.md)
       * [Arbitrary WASM](archive/older-versions/lilypad-aurora-v2/examples/arbitrary-wasm.md)
       * [Filecoin Data Prep](archive/older-versions/lilypad-aurora-v2/examples/filecoin-data-prep.md)
-
-## Group 1
-
-* [🧘‍♀️ Lilypad Workflows](group-1/lilypad-workflows.md)

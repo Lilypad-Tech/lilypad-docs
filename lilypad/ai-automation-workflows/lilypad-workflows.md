@@ -1,8 +1,9 @@
 ---
 description: A set of n8n workflows using Lilypad AI Models
+layout: landing
 ---
 
-# 🧘‍♀️ Lilypad Workflows
+# Lilypad Workflows
 
 Coming soon......
 
