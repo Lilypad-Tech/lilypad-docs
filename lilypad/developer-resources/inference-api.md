@@ -646,6 +646,143 @@ generateImage();
 * `404 Not Found`: Requested model not found
 * `500 Internal Server Error`: Server error processing request
 
+### Video Generation
+
+The Anura API enables you to run long running jobs to generate videos executed through our decentralized compute network. It's really easy to get started generating your own videos using Anura through the endpoints we provide.&#x20;
+
+**Note**: Video generation can take anywhere between 4-8 mins to produce a video
+
+**Retrieve the list supported video generation models**
+
+`GET /api/v1/video/models`&#x20;
+
+Currently we support `wan2.1`; however, we are always adding new models, so stay tuned!
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Request Sample**
+
+```bash
+curl -X GET "https://anura-testnet.lilypad.tech/api/v1/video/models" \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer your_api_key_here"
+```
+
+**Response**
+
+```json
+{
+    "data": {
+        "models": [
+            "wan2.1"
+        ]
+    },
+    "message": "Retrieved models successfully",
+    "status": 200
+}
+```
+
+**Response Codes**
+
+* `200 OK`: Request successful
+* `401 Unauthorized`: Invalid or missing API key
+* `500 Internal Server Error`: Server error processing request
+
+**Send out a request to create an AI generated video**
+
+`POST /api/v1/video/create-job`
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Request Parameters**
+
+<table><thead><tr><th width="166.12890625">Parameter</th><th width="486.68359375">Description</th><th width="105.5">Type</th></tr></thead><tbody><tr><td><code>model</code><mark style="color:red;">*</mark></td><td>Model used to generate the response (e.g. <code>wan2.1</code>). <strong>Required</strong>.</td><td><code>string</code></td></tr><tr><td><code>prompt</code><mark style="color:red;">*</mark></td><td>The prompt input to generate your video from (max limit of 1000 characters). <strong>Required</strong>.</td><td><code>string</code></td></tr><tr><td><code>negative_prompt</code></td><td>An optional field to specify to the model what to <strong>exclude</strong> from the generated scene</td><td><code>string</code></td></tr></tbody></table>
+
+**Request Sample**
+
+```json
+{
+    "prompt": "Two frogs sit on a lilypad, animatedly discussing the wonders and quirks of AI agents. As they ponder whether these digital beings can truly understand their froggy lives, the serene pond serves as a backdrop to their lively conversation.",
+    "negative_prompt": "Dull colors, grainy texture, washed-out details, static frames, incorrect lighting, unnatural shadows, distorted faces, artifacts, low-resolution elements, flickering, blurry motion, repetitive patterns, unrealistic reflections, overly simplistic backgrounds, three legged people, walking backwards.",
+    "model": "wan2.1"
+}
+```
+
+**Response**
+
+This endpoint will return an `job_offer_id` which is an unique identifier corresponding to the job that's running to create your video. What you'll want to do with this id is pass it into our `/video/results` endpoint (see below) which will provide you the output as a `webp` file or report that the job is still running. In the latter case, you then can continue to call the endpoint at a later time to eventually retrieve your video. As mentioned in the beginning of this section, video generation can take anywhere between 4-8 mins to complete.
+
+```json
+{
+    "status": 200,
+    "message": "Video job created successfully",
+    "data": {
+        "job_offer_id": "<your-job-offer-id-here>"
+    }
+}
+```
+
+**Response Codes**
+
+* `200 OK`: Request successful, stream begins
+* `400 Bad Request`: Invalid request parameters
+* `401 Unauthorized`: Invalid or missing API key
+* `404 Not Found`: Requested model not found
+* `500 Internal Server Error`: Server error processing request
+
+**Retrieve your video**
+
+`GET /api/v1/video/results/:job_offer_id`&#x20;
+
+<table><thead><tr><th width="166.12890625">Parameter</th><th width="434.75390625">Description</th><th width="105.5">Type</th></tr></thead><tbody><tr><td><code>job_offer_id</code><mark style="color:red;">*</mark></td><td>The id returned to you in the video creation request i.e <code>/api/v1/video/create-job</code><strong>Required</strong>.</td><td><code>string</code></td></tr></tbody></table>
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Response**
+
+If the video is still in the process of being generated you will see a response that looks like the following:
+
+```json
+{
+    "status": 102,
+    "message": "Request is still processing",
+    "data": {
+        "job_offer_id": "<job-offer-id>",
+        "job_state": "DealAgreed"
+    }
+}
+```
+
+**Response Codes**
+
+* `102 Processing`: Request is still processing the creation of the video
+* `200 OK`: Request successful
+* `400 Bad Request`: Invalid request parameters
+* `401 Unauthorized`: Invalid or missing API key
+* `500 Internal Server Error`: Server error processing request
+
+However, once the video has be generated you'll be returned the video in `webp` format with its raw bytes which you can save to a file in the following manner:
+
+```bash
+curl -X GET "https://anura-testnet.lilypad.tech/api/v1/video/results/<your-job-offer-id>" \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer your_api_key_here" \
+--output video.webp
+```
+
+The result of the above command will be the `video.webp` file being saved in the directory from which you ran it from:
+
+<figure><img src="../.gitbook/assets/frogs_chatting_listening.webp" alt=""><figcaption><p>Two frogs sit on a lilypad, animatedly discussing the wonders and quirks of AI agents. As they ponder whether these digital beings can truly understand their froggy lives, the serene pond serves as a backdrop to their lively conversation.</p></figcaption></figure>
+
 ### Web Search
 
 The Anura API provides developers with a web search capability enabling you to add a powerful tool to your AI Agent building arsenal. LLM's are only as great as their training data and are taken to the next level when provided with additional context from the web. With web search you can power your AI Agent workflow with live web search data providing your LLM the most up to date information on the latest on goings in the world.
