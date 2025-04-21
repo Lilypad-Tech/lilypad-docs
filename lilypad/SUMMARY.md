@@ -80,6 +80,7 @@
 
 ## Research & Vision
 
+* [Lilypad Litepaper](research-and-vision/lilypad-litepaper.md)
 * [Validation of GPU Compute](research-and-vision/validation-of-gpu-compute.md)
 * [Game Theory](research-and-vision/game-theory.md)
 * [V1 Research Documents](research-and-vision/v1-research-documents/README.md)
