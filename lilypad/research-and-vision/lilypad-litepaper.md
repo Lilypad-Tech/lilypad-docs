@@ -1,5 +1,6 @@
 ---
 description: 'Lilypad: A Protocol for Open Intelligence Infrastructure'
+hidden: true
 ---
 
 # Lilypad Litepaper
