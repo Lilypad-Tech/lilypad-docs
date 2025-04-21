@@ -28,7 +28,7 @@ We’re at a convergence point of three arcs:
 
 Lilypad sits at the intersection of these arcs.
 
-We treat infrastructure not as a neutral backend, but as a system of encoded values: who can build, who gets paid, and what rules apply.
+We treat infrastructure not as a system of encoded values: who can build, who gets paid, and what rules apply.
 
 Today’s centralized AI infrastructure imposes extractive defaults:
 
@@ -38,57 +38,33 @@ Today’s centralized AI infrastructure imposes extractive defaults:
 
 Lilypad offers a counter-architecture: modular, verifiable, permissionless. It builds a trustless execution layer where models can be exposed, reused, and paid on-chain. Not to replace existing systems, but to reroute economic gravity back toward creators and contributors.
 
-The result is not just infrastructure. It’s a programmable substrate for intelligence—one that expands access, reinforces agency, and creates new terrain for open coordination.
-
-We call this: compute as protocol.
-
-The generative AI boom has surfaced a clear reality: inference is cheap, unless you’re running it. Models are open, until you try to use them at scale. Infrastructure is accessible, until you read the fine print—or the bill.
-
-At the base of the stack, centralized coordination remains the bottleneck:
-
-* Compute access is intermediated by hyperscalers and brokers.
-* Models are hosted behind permissioned APIs.
-* There’s no native mechanism for attribution, remixing, or payment.
-
-We believe infrastructure dictates the rules of economic participation. Today’s systems are extractive, brittle, and opaque. But it doesn’t have to be that way.
-
-Lilypad exists to provide an alternative: a modular, permissionless, and verifiable infrastructure protocol where anyone can:
-
-* Upload and earn from their models
-* Execute inference and pipelines across a distributed GPU mesh
-* Prove job completion, pricing, and origin—all on-chain
-
-Our goal is not to replace cloud platforms. It’s to make them optional.
+It’s a programmable substrate for intelligence—one that expands access, reinforces agency, and creates new terrain for open coordination.
 
 ***
 
 ### 2. Design Philosophy
 
-Lilypad’s architecture is informed by a decade of experiments in decentralized compute—Golem, ICP, Modicum, and others. Each made meaningful contributions. But each hit a wall.
+Lilypad’s architecture is informed by a decade of experiments in decentralized compute—Golem, Truebit, Modicum, Bacalhau, BOINC, and other pioneering systems from academia and the open-source world. Each advanced the state of the art. But none offered the combination of open participation, verifiable execution, and built-in economic coordination.
 
-Golem struggled with adoption and required determinism at the cost of generality. ICP's compute verification model was tightly coupled to protocol consensus, limiting general-purpose task execution. Modicum introduced a promising recomputation-based system, but was constrained by its requirement for deterministic jobs and tightly entangled verifier logic.
+Golem struggled with adoption and required determinism at the cost of generality. Modicum introduced a promising recomputation-based system, but was constrained by deterministic job assumptions and verifier logic entanglement.\
+\
+Bacalhau, which underpins our execution layer, was built to solve decentralised job distribution but left incentive mechanisms out of scope. We designed and implemented those incentives as first-class protocol logic: token-driven payments, staking, routing, and verification coordination, all executed through on-chain contracts and off-chain job resolution. Lilypad is an intelligent, incentive-aligned coordination protocol designed to operate compute executions at network scale.
+
+Lilypad is built to enable modular and independent verification, with clear separation from the execution layer. This architectural choice lets the protocol flexibly support deterministic models, probabilistic audits, and log-based validation without compromising performance or developer freedom. Rather than treating auditability as a constraint, Lilypad treats it as a programmable layer for innovation where multiple strategies can coexist and evolve.
 
 We’ve taken lessons from these systems to architect Lilypad differently:
 
 * We decouple verification from execution, enabling multiple verification strategies depending on job type, latency, and value.
-* We don’t assume determinism. Instead, we build modularity into verification layers: job hash commitment, attestable logs, mediation, and—eventually—FHE and model fingerprinting.
+* We don’t assume determinism. Instead, we build modularity into verification layers with upgade capability.
 * We avoid hardwiring compute to consensus. Lilypad coordinates compute jobs via constraint-solving and smart contract validation, not consensus-layer integration.
 
-Most importantly, we do not assume a monolithic trust architecture. We treat verifiability, coordination, and monetization as primitives—not as features.
+Most importantly, we do not assume a monolithic trust architecture. We treat verifiability, coordination, and monetization as primitives.
 
 Lilypad is structured around three core design principles:
 
 1. **Modularity**: Infrastructure should be upgradeable. Each layer of the protocol—from compute to registry to settlement—is designed to evolve independently.
 2. **Verifiability**: Every job run should leave a legible, auditable trail. Not all trust needs to be cryptographic—but all trust should be accountable.
 3. **Economic symmetry**: Value created by the network should circulate within it. Contributors—whether model authors, solvers, or compute providers—are paid at the protocol level.
-
-Lilypad is not a product wrapper. It’s the infrastructure others will build products on. draws from first principles in distributed systems, cryptographic trust, and programmable coordination. The protocol is structured around three foundational commitments:
-
-1. **Modularity**: Infrastructure should not be bundled. Lilypad is composed of discrete layers—compute, registry, coordination, identity—each designed to be interoperable and forkable.
-2. **Verifiability**: Jobs must be traceable and reproducible. We prioritize cryptographic proofs, containerized execution, and open metadata.
-3. **Economic symmetry**: Value should flow to contributors by default. Our monetization system routes earnings directly to model creators, node operators, and protocol actors.
-
-We don’t make assumptions about what should be run—only that it should be provable, priced, and portable.
 
 ***
 
@@ -120,6 +96,23 @@ We don’t make assumptions about what should be run—only that it should be pr
 
 **Anura API**: Interface layer for querying models, exposing endpoints, and integrating agentic workflows. Compatible with LangChain, OpenRouter, and n8n.
 
+#### Blockchain-based Value
+
+Blockchain is the foundation of Lilypad's coordination logic. It enables atomic settlement, actor-level accountability, and programmable infrastructure at a scale traditional systems cannot replicate.
+
+Smart contracts enforce job flows. Tokens encode trust and incentives directly into the network. No middlemen. No billing overhead. No platform dependencies.
+
+Blockchain offers core properties that general-purpose infrastructure still can't:
+
+* **Instant settlement** — No billing cycles. Compute providers, agents, and creators are paid atomically when jobs are completed.
+* **Resilience** — Workload routing happens across a global mesh. There's no single point of failure.
+* **Verifiability** — Every job, output, and payment is recorded on-chain, with signatures and manifests.
+* **Provenance** — Model authorship and job reuse are recorded cryptographically in the registry.
+* **Coordination** — Smart contracts execute logic that would otherwise require middleware or manual enforcement.
+* **Distribution** — Anyone with a GPU or a model can participate—from solo developers to research labs to DAOs.
+
+Lilypad flips the script on extractive AI platforms by embedding value flows directly into the infrastructure layer. Model creators, compute providers, mediators, and agents all interact through transparent, programmable incentives. This creates new contribution pathways and aligns every participant to the health and growth of the network. These aren’t speculative mechanisms—they’re live and accruing value on every job.
+
 ***
 
 ### 4. Actors and Execution Flow
@@ -141,21 +134,15 @@ Jobs follow a lifecycle: submission → matching → execution → optional medi
 
 ### 5. Verification and Provenance
 
-Lilypad supports multiple trust layers:
+Lilypad supports layered verification through signed job manifests, output log digests, and mediation sampling. These are implemented through on-chain job state commitments and optional mediator-sampled audits. Model fingerprinting and FHE are future considerations, but not currently active components of the system.
 
-* **Job Hash Commitment**: Each manifest is hashed, signed, and timestamped.
-* **Container Logs + Digest**: Output verification via deterministic artifact hashing.
-* **Mediation Sampling**: Random audits via Mediator nodes.
-* **Model Fingerprinting**: (Planned) support for source-model inference tracking.
-* **FHE (planned)**: For fully private AI compute and encrypted inputs.
-
-This composable framework allows Lilypad to balance verifiability and performance for a wide range of use cases.
+Read our paper on verification here: [https://arxiv.org/abs/2501.05374](https://arxiv.org/abs/2501.05374)
 
 ***
 
 ### 6. Economics and Coordination
 
-Lilypad introduces LILY—a fixed-supply token used to route incentives and economic coordination across the protocol. The system is designed to fairly compensate compute providers, model contributors, and protocol participants, while maintaining integrity through collateral and verifiable actions.
+Lilypad introduces LILY: a fixed-supply token used to route incentives and economic coordination across the protocol. The system is designed to fairly compensate compute providers, model contributors, and protocol participants, while maintaining integrity through collateral and verifiable actions.
 
 #### 6.1 Payment Modes
 
@@ -196,11 +183,9 @@ Higher staked collateral improves job routing probability and early unlock of ve
 
 This system balances:
 
-* Skin in the game for compute providers
+* Game Theory Mechanics for compute providers
 * Protections for job creators
 * Economic throughput that aligns incentives across the network
-
-Lilypad introduces LILY—a fixed-supply token used to route incentives and economic coordination across the protocol.
 
 #### 6.1 Payment Modes
 
@@ -221,54 +206,76 @@ These metrics evolve over time, encouraging consistency and reliability.
 
 ### 7. Roadmap
 
-Lilypad’s roadmap is structured into three progressive phases:
+The Lilypad roadmap is structured around three major phases—each aligned to protocol capabilities and the evolving demands of decentralised AI.
 
-**Phase 1 – Compute & Coordination (2024)**\
-Focus: Deliver verifiable distributed compute and robust economic pipelines for job routing and execution.
+#### Phase 1: Compute & Coordination (2024)
 
-| Quarter | Milestone            |
-| ------- | -------------------- |
-| Q2 2024 | Compute Coordination |
-| Q3 2024 | Core Infrastructure  |
+| Capability                  | Description                                                                                |
+| --------------------------- | ------------------------------------------------------------------------------------------ |
+| Job execution pipeline      | Streaming and multi-stage inference workflows with DAG-based job coordination.             |
+| Smart contract coordination | Secure, gas-efficient execution payments, state transitions, and refund logic.             |
+| Identity and actor roles    | Lightweight on-chain tracking for job creators, solvers, mediators, and compute providers. |
+| Validator-in-the-loop       | Optional mediation for job integrity using dispute resolution logic.                       |
 
-**Phase 2 – Provenance & Incentives (late 2024)**\
-Focus: Introduce deeper attribution, reputation weighting, and prepare economic systems for model-level incentive routing.
+#### Phase 2: AI Tooling & Incentives (2025)
 
-| Quarter | Milestone                                       |
-| ------- | ----------------------------------------------- |
-| Q4 2024 | SpecLang (DSL for agents), DAG-native pipelines |
+| Capability                  | Description                                                                                   |
+| --------------------------- | --------------------------------------------------------------------------------------------- |
+| SaaS-tier integration       | Anura APIs, hosted endpoints, and fiat billing interface for developers and non-crypto users. |
+| Reputation-weighted routing | Actor scores influence job distribution and protocol incentives.                              |
+| Persistent job graphs       | Long-running, stateful pipelines for agentic applications.                                    |
+| TrainPad                    | Lightweight, distributed finetuning engine with reward-weighted checkpoints.                  |
+| Mainnet Deployment & TGE    | Finalisation of token mechanics and mainnet readiness.                                        |
 
-**Phase 3 – Interoperability & Governance (2025+)**\
-Focus: Expand across chains, decentralize actor control, and scale coordination to support open market formation.
+#### Phase 3: Interoperability & Governance (2026)
 
-| Quarter | Milestone                                               |
-| ------- | ------------------------------------------------------- |
-| 2025+   | TrainPad, ForgeNet, provenance APIs, enterprise rollout |
+| Capability               | Description                                                                                           |
+| ------------------------ | ----------------------------------------------------------------------------------------------------- |
+| ForgeNet                 | Network of remixable, interdependent model forks with royalty logic.                                  |
+| Cross-chain execution    | Job layer integration with Taisu and Somnia ecosystems.                                               |
+| Governance               | Lilypad DAO activation with protocol parameter control, actor slashing appeals, and grant allocation. |
+| Multi-chain pipelines    | Modular jobs distributed across chains, with universal attribution and payment routing.               |
+| Additional token utility | Further ecosystem mechanics, including potential L2 expansion or sovereign chain launch.              |
 
-Our primary focus has been to build the compute layer and coordination pipelines with the right economic incentives first. Mainnet features like remix royalties, data provenance bonding, and advanced model attribution will roll out next.
+This roadmap ensures Lilypad evolves from job execution into a full composability and coordination layer for decentralised AI systems
 
-| Quarter | Milestone                                               |
-| ------- | ------------------------------------------------------- |
-| Q2 2024 | Streaming pipelines, identity v1                        |
-| Q3 2024 | Audit tooling, cross-chain relay                        |
-| Q4 2024 | SpecLang (DSL for agents), DAG-native pipelines         |
-| 2025+   | TrainPad, ForgeNet, provenance APIs, enterprise rollout |
+### 8. Lilypad SaaS and Enterprise
 
-We are currently live on testnet (Arbitrum Sepolia) with >5k jobs/day. Mainnet launch is scheduled for Q3.
+Lilypad's modular infrastructure powers more than just on-chain coordination. It also supports standalone SaaS deployments and tailored enterprise integrations.
 
-Our primary focus has been to build the compute layer and coordination pipelines with the right economic incentives first. Mainnet features like remix royalties, data provenance bonding, and advanced model attribution will roll out next.
+#### 8.1 Lilypad SaaS
+
+For builders who want plug-and-play access to Lilypad's capabilities, our SaaS offering includes:
+
+* Anura-based APIs for running inference on open models
+* Hosted dashboards for tracking job execution and usage
+* Integration modules for n8n, LangChain, and agent frameworks
+* Standard billing interfaces for fiat and non-crypto workflows
+
+SaaS users interact with the full power of the Lilypad job mesh—without needing to touch tokens, wallets, or on-chain logic. It's ideal for developers, startups, and researchers seeking scale and flexibility without overhead.
+
+#### 8.2 Lilypad Enterprise
+
+Enterprise partners can deploy Lilypad in fully private or hybrid environments:
+
+* Dedicated job queues with custom SLAs
+* On-prem inference and agent execution
+* Compliance tooling for pharma, science, and defence workflows
+* Integration with corporate identity and data privacy systems
+
+Enterprise stacks inherit the full Lilypad coordination layer—compute orchestration, verification, monetisation—while retaining local control and data isolation.
+
+Both offerings are backed by the same protocol primitives: smart contracts, verifiable execution, and economic coordination.
 
 ***
 
 ### 8. Closing: The Coordination Engine for Agentic AI at Scale
 
-Lilypad isn’t an interface or a wrapper—it’s a programmable coordination system for decentralised intelligence infrastructure.
+Lilypad is a programmable coordination system for decentralised intelligence infrastructure.
 
-The vision is simple: in a world where thousands of autonomous agents transact, generate, analyse, and interact in real time—Lilypad is the layer they run on. Not just to query models, but to find compute, post jobs, resolve execution, pay each other, and trace provenance.
+Imagine swarms of agents coordinating scientific research or building decentralised AI systems - not tied to one API, but operating across a permissionless network with embedded attribution and payment.
 
-Imagine swarms of agents coordinating scientific research, synthetic biology design, or decentralised AI-powered search. Not tied to a single provider, but orchestrated across a permissionless GPU network—with cryptographic audit trails, automatic payments, and composable modules.
-
-None of this feels like "crypto" to the end user. Payments settle instantly. Execution is verifiable. Attribution is native. Pricing is driven by the network, not a platform. This is what blockchain makes possible when used correctly—not a feature, but an invisible enabler of open coordination at scale.
+Blockchain makes this coordination possible. Payments happen in real time. Coordination logic is encoded into smart contracts. And the system is globally resilient and auditable by default.
 
 Why blockchain matters here:
 
@@ -279,31 +286,13 @@ Why blockchain matters here:
 * **Coordination**: Smart contract logic replaces the need for gatekeepers.
 * **Distribution**: Actors anywhere can participate—from solo devs to academic labs.
 
-This isn’t speculative infrastructure. This is infrastructure that scales as demand increases, as model ecosystems fragment, and as applications multiply.
-
-Each job fuels the network:
-
-* Job fees route through smart contracts
-* LILY flows to compute providers, solvers, and model authors
-* Rewards compound through protocol-native attribution
-
-We believe Lilypad is how decentralised AI becomes real—not a narrative, but a functioning coordination protocol that scales across use cases, networks, and agents.
-
-We’re not here to host one model. We’re here to support millions.
-
-We’re building the compute substrate and coordination economy for decentralised AI.
-
-And we’re just getting started.
-
-Lilypad is not a compute marketplace. It’s a programmable foundation for composable AI.
-
 We believe the intelligence economy should be:
 
 * **Verifiable**: Every output traceable, reproducible, auditable.
 * **Composable**: Jobs, modules, agents—all interoperable.
 * **Fair**: Value flows to contributors, not just platforms.
 
-We’re not asking to be the only layer. But we intend to be the best one to build on.
+So we built it. Lilypad is the compute substrate and coordination economy for decentralised AI - a programmable foundation for open-access AI and innovation unlocks.
 
 ***
 
