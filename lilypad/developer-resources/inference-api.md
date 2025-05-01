@@ -783,6 +783,165 @@ The result of the above command will be the `video.webp` file being saved in the
 
 <figure><img src="../.gitbook/assets/frogs_chatting_listening.webp" alt=""><figcaption><p>Two frogs sit on a lilypad, animatedly discussing the wonders and quirks of AI agents. As they ponder whether these digital beings can truly understand their froggy lives, the serene pond serves as a backdrop to their lively conversation.</p></figcaption></figure>
 
+### Audio Generation
+
+The Anura API enables you to generate audio from text executed through our decentralized compute network. It's really easy to get started generating your own audio using Anura through the endpoints we provide.&#x20;
+
+**Note**: Audio generation can take anywhere between 40 seconds to 3 mins to complete depending on the input length
+
+**Retrieve the list supported audio generation models**
+
+`GET /api/v1/audio/models`&#x20;
+
+Currently we support `kokoro`; however, we are always adding new models, so stay tuned!
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Request Sample**
+
+```bash
+curl -X GET "https://anura-testnet.lilypad.tech/api/v1/audio/models" \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer your_api_key_here"
+```
+
+**Response**
+
+```json
+{
+    "data": {
+        "models": [
+            "kokoro"
+        ]
+    },
+    "message": "Retrieved models successfully",
+    "status": 200
+}
+```
+
+**Response Codes**
+
+* `200 OK`: Request successful
+* `401 Unauthorized`: Invalid or missing API key
+* `500 Internal Server Error`: Server error processing request
+
+**Send out a request to create an AI generated audio**
+
+`POST /api/v1/audio/create-job`
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Request Parameters**
+
+<table><thead><tr><th width="166.12890625">Parameter</th><th width="486.68359375">Description</th><th width="105.5">Type</th></tr></thead><tbody><tr><td><code>model</code><mark style="color:red;">*</mark></td><td>Model used to generate the response (e.g. <code>kokoro</code>). <strong>Required</strong>.</td><td><code>string</code></td></tr><tr><td><code>input</code><mark style="color:red;">*</mark></td><td>The prompt input to generate your audio from (max limit of 420 characters). <strong>Required</strong>.</td><td><code>string</code></td></tr><tr><td><code>voice</code><mark style="color:red;">*</mark></td><td>The voice to use when generating the audio sample. Possible values are <code>heart</code>, <code>puck</code>, <code>fenrir</code>, and <code>bella</code><strong>Required</strong>.</td><td><code>string</code></td></tr></tbody></table>
+
+**Voice samples**
+
+**Heart**
+
+{% file src="../.gitbook/assets/heart.wav" %}
+Heart Voice Sample
+{% endfile %}
+
+**Puck**
+
+{% file src="../.gitbook/assets/puck.wav" %}
+Puck Voice Sample
+{% endfile %}
+
+**Fenrir**
+
+{% file src="../.gitbook/assets/fenrir.wav" %}
+Fenrir Voice Sample
+{% endfile %}
+
+**Bella**
+
+{% file src="../.gitbook/assets/bella.wav" %}
+Bella Voice Sample
+{% endfile %}
+
+**Request Sample**
+
+```json
+{
+    "input": "Hello my name is Heart and this is AI speech generated from text using the Kokoro module running on the Lilypad Network",
+    "voice": "heart",
+    "model": "kokoro"
+}
+```
+
+**Response**
+
+This endpoint will return an `job_offer_id` which is an unique identifier corresponding to the job that's running to create your audio. What you'll want to do with this id is pass it into our `/audio/results` endpoint (see below) which will provide you the output as a `wav` file or report that the job is still running. In the latter case, you then can continue to call the endpoint at a later time to eventually retrieve your audio. As mentioned in the beginning of this section, audio generation can take anywhere between 40 seconds to 3 mins to complete.
+
+```json
+{
+    "status": 200,
+    "message": "Audio job created successfully",
+    "data": {
+        "job_offer_id": "QmTmTWxffQrosK2nb3a4oeeZd9KRMUGwApEUFhioFUe4Y9"
+    }
+}
+```
+
+**Response Codes**
+
+* `200 OK`: Request successful
+* `400 Bad Request`: Invalid request parameters
+* `401 Unauthorized`: Invalid or missing API key
+* `404 Not Found`: Requested model not found
+* `500 Internal Server Error`: Server error processing request
+
+**Retrieve your video**
+
+`GET /api/v1/audio/results/:job_offer_id`&#x20;
+
+<table><thead><tr><th width="166.12890625">Parameter</th><th width="434.75390625">Description</th><th width="105.5">Type</th></tr></thead><tbody><tr><td><code>job_offer_id</code><mark style="color:red;">*</mark></td><td>The id returned to you in the audio creation request i.e <code>/api/v1/audio/create-job</code><strong>Required</strong>.</td><td><code>string</code></td></tr></tbody></table>
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Response**
+
+If the audio is still in the process of being generated you will see a response that looks like the following:
+
+```json
+{
+    "status": 102,
+    "message": "Request is still processing",
+    "data": {
+        "job_offer_id": "QmTmTWxffQrosK2nb3a4oeeZd9KRMUGwApEUFhioFUe4Y9",
+        "job_state": "DealAgreed"
+    }
+}
+```
+
+**Response Codes**
+
+* `102 Processing`: Request is still processing the creation of the audio
+* `200 OK`: Request successful
+* `400 Bad Request`: Invalid request parameters
+* `401 Unauthorized`: Invalid or missing API key
+* `500 Internal Server Error`: Server error processing request
+
+However, once the audio has be generated you'll be returned the audio in `wav` format with its raw bytes which you can save to a file in the following manner:
+
+```bash
+curl -X GET "https://anura-testnet.lilypad.tech/api/v1/audio/results/<your-job-offer-id>" \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer your_api_key_here" \
+--output audio.wav
+```
+
 ### Web Search
 
 The Anura API provides developers with a web search capability enabling you to add a powerful tool to your AI Agent building arsenal. LLM's are only as great as their training data and are taken to the next level when provided with additional context from the web. With web search you can power your AI Agent workflow with live web search data providing your LLM the most up to date information on the latest on goings in the world.
