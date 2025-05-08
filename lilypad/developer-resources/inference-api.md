@@ -524,6 +524,147 @@ Additionally, the vision capability is limited by the following constraints:
 }
 ```
 
+### Embeddings
+
+Use the embeddings endpoint to compute embeddings for user queries supported by the `nomic-embed-text` model. This endpoint is OpenAI compliant which means you can use it with the OpenAI SDK (see the end of the Embeddings section for a code example)
+
+**Endpoint**
+
+`POST /api/v1/embeddings`
+
+**Request Headers**
+
+* `Content-Type: application/json`<mark style="color:red;">\*</mark>
+* `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Request Parameters**
+
+<table><thead><tr><th width="117">Parameter</th><th width="365.47265625">Description</th><th width="264.9296875">Type</th></tr></thead><tbody><tr><td><code>model</code><mark style="color:red;">*</mark></td><td>Model ID used to generate the response (e.g. <code>nomic-embed-text</code>). <strong>Required</strong>.</td><td><code>string</code></td></tr><tr><td><code>input</code><mark style="color:red;">*</mark></td><td>The input to create embeddings from. This can be either a single string or an array of strings. <strong>Required</strong></td><td><code>string or array of strings</code></td></tr></tbody></table>
+
+**Request Sample (single input)**
+
+```json
+{
+    "model": "nomic-embed-text"
+    "input": "why is the sky blue?",
+}
+```
+
+**Response Sample (single input)**
+
+```json
+{
+    "object": "list",
+    "data": [
+        {
+            "object": "embedding",
+            "embedding": [
+                0.009716383,
+                0.0443843,
+                -0.14053911,
+                0.0011783413,
+                0.031978477,
+                0.1073299,
+                -0.008574652,
+                ...,
+                -0.009498251,
+                -0.041506674,
+                0.020256031
+            ],
+            "index": 0
+        },
+    ],
+    "model": "nomic-embed-text",
+    "usage": {
+        "prompt_tokens": 6,
+        "total_tokens": 6
+    }
+}
+```
+
+**Request Sample (multiple input)**
+
+```json
+{
+    "model": "nomic-embed-text"
+    "input": ["why is the sky blue?", "why is the grass green?"],
+}
+```
+
+**Response Sample (multiple input)**
+
+```json
+{
+    "object": "list",
+    "data": [
+        {
+            "object": "embedding",
+            "embedding": [
+                0.009716383,
+                0.0443843,
+                -0.14053911,
+                0.0011783413,
+                0.031978477,
+                0.1073299,
+                -0.008574652,
+                ...,
+                -0.009498251,
+                -0.041506674,
+                0.020256031
+            ],
+            "index": 0
+        },
+        {
+            "object": "embedding",
+            "embedding": [
+               0.028126348,
+                0.043248065,
+                -0.18586768,
+                0.03491587,
+                0.055507593,
+                0.12088179,
+                -0.009062298
+                ...,
+                -0.035023507,
+                -0.07451658,
+                0.011851714
+            ],
+            "index": 1
+        }
+
+    ],
+    "model": "nomic-embed-text",
+    "usage": {
+        "prompt_tokens": 12,
+        "total_tokens": 12
+    }
+}
+```
+
+**Response Codes**
+
+* `200 OK`: Request successful, stream begins
+* `400 Bad Request`: Invalid request parameters
+* `401 Unauthorized`: Invalid or missing API key
+* `404 Not Found`: Requested model not found
+* `500 Internal Server Error`: Server error processing request
+
+**Example Code using the OpenAI SDK**
+
+```typescript
+import OpenAI from 'openai'
+
+const openai = new OpenAI({
+  baseURL: 'https://anura-testnet.lilypad.tech/api/v1/',
+  apiKey: 'YOUR_KEY_HERE',
+})
+
+const embedding = await openai.embeddings.create({
+  model: "nomic-embed-text",
+  input: ["why is the sky blue?", "why is the grass green?"],
+})
+```
+
 ### Image Generation
 
 The Anura API enables you to run stable diffusion jobs to generate images executed through our decentralized compute network. It's really easy to get started generating your own generative AI art using Anura through the endpoints we provide.
@@ -536,6 +677,10 @@ The Anura API enables you to run stable diffusion jobs to generate images execut
 
 * `Content-Type: application/json`<mark style="color:red;">\*</mark>
 * `Authorization: Bearer YOUR_API_KEY`<mark style="color:red;">\*</mark>
+
+**Request Parameters**
+
+<table><thead><tr><th width="117">Parameter</th><th width="515.5">Description</th><th width="105.5">Type</th></tr></thead><tbody><tr><td><code>model</code><mark style="color:red;">*</mark></td><td>Model ID used to generate the response (e.g. <code>sdxl-turbo</code>). <strong>Required</strong>.</td><td><code>string</code></td></tr><tr><td><code>prompt</code><mark style="color:red;">*</mark></td><td>The prompt input to generate your image from (max limit of 1000 characters)</td><td><code>string</code></td></tr></tbody></table>
 
 **Request Sample**
 
