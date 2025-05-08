@@ -545,7 +545,7 @@ Use the embeddings endpoint to compute embeddings for user queries supported by 
 
 ```json
 {
-    "model": "nomic-embed-text"
+    "model": "nomic-embed-text",
     "input": "why is the sky blue?",
 }
 ```
@@ -586,7 +586,7 @@ Use the embeddings endpoint to compute embeddings for user queries supported by 
 
 ```json
 {
-    "model": "nomic-embed-text"
+    "model": "nomic-embed-text",
     "input": ["why is the sky blue?", "why is the grass green?"],
 }
 ```
