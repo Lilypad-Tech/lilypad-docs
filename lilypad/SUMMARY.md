@@ -82,13 +82,13 @@
 
 * [Lilypad Litepaper](research-and-vision/lilypad-litepaper.md)
 * [Validation of GPU Compute](research-and-vision/validation-of-gpu-compute.md)
-* [Game Theory](research-and-vision/game-theory.md)
 * [V1 Research Documents](research-and-vision/v1-research-documents/README.md)
   * [Verifiable Computing](research-and-vision/v1-research-documents/verifiable-computing.md)
   * [Problem Statement](research-and-vision/v1-research-documents/problem-statement.md)
   * [Prior Protocols](research-and-vision/v1-research-documents/prior-protocols.md)
   * [Autonomous Agents](research-and-vision/v1-research-documents/autonomous-agents.md)
   * [Mechanisms To Explore](research-and-vision/v1-research-documents/mechanisms-to-explor.md)
+  * [Game Theory](research-and-vision/v1-research-documents/game-theory.md)
 * [Whitepaper](research-and-vision/whitepaper.md)
 
 ## Community & Events
