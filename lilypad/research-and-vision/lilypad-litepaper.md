@@ -11,41 +11,113 @@ hidden: true
 
 #### Abstract
 
-Lilypad is a coordination protocol for intelligence infrastructure. It provides permissionless access to verifiable compute, model monetization by default, and cryptographically auditable execution for any AI workload. Lilypad abstracts compute primitives into a modular, trust-minimized protocol that can serve inference, agents, and pipeline-based workflows across open and enterprise systems.
+Lilypad is a coordination protocol for intelligence infrastructure. It provides permissionless access to verifiable compute, model monetisation by default, and cryptographically auditable execution for any AI workload. Lilypad abstracts compute primitives into a modular, trust-minimised protocol that can serve inference, agents, and pipeline-based workflows across open and enterprise systems.
 
-This paper outlines the core thesis, architectural structure, cryptoeconomic system, and forward-looking roadmap for Lilypad. Our goal: to create a programmable substrate that supports open AI as a public good—and enables the next era of agentic computation, composable intelligence, and developer-owned ecosystems.
+This paper outlines the core thesis, architectural structure, crypto-economic system, and forward-looking roadmap for Lilypad. Our goal: to create a programmable substrate that supports open AI as a public good and enables the next era of agentic computation, composable intelligence, and developer-owned ecosystems.
 
-***
+### 1. Introduction: Infrastructure Shapes Intelligence... and Competitive Edge
 
-### 1. Introduction: Infrastructure Shapes Intelligence
+#### 1.1 The Technological Convergence Making DeAI Possible
 
-From Turing’s foundational thought experiments to the cloud boom of the 2000s, compute has mirrored—and magnified—our evolving social architectures. Each leap in processing capability has triggered new markets, new models of coordination, and new vulnerabilities. And now, with AI becoming not just an application layer but a decision substrate, the question isn’t just what we build—but where, and who gets to participate.
+From Turing’s foundational thought experiments to the cloud boom of the 2000s, compute has mirrored, and magnified, our evolving social architectures. Each leap in processing capability has triggered new markets, new models of coordination, and new vulnerabilities. Now, with AI becoming not just an application layer but a decision substrate, the question isn’t just what we build, but where, and who gets to participate.
 
 We’re at a convergence point of three arcs:
 
-* The **Arc of Compute**—from mainframes to hyperscale cloud to edge devices, with increasing decentralization and specialization at the hardware layer.
-* The **Arc of AI**—from statistical tooling to foundational models to agentic systems running autonomous workflows.
-* The **Arc of Coordination**—from institutionally brokered trust to cryptographic primitives, on-chain settlement, and composable economic logic.
+* The **Arc of Compute:** from mainframes to hyperscaler cloud to edge devices, with increasing decentralisation and specialisation at the hardware layer.
+* The **Arc of AI:** from statistical tooling to foundational models to agentic systems running autonomous workflows.
+* The **Arc of Coordination:** from institutionally brokered trust to cryptographic primitives, on-chain settlement, and composable economic logic.
 
-Lilypad sits at the intersection of these arcs.
+The convergence of open-source AI and crypto-infrastructure is the foundation for a new economic paradigm. Lilypad exists at the intersection of these arcs merging crypto’s programmable market infrastructure with AI’s intelligence primitives to build an AI innovation economy at scale.
 
-We treat infrastructure not as a system of encoded values: who can build, who gets paid, and what rules apply.
+#### 1.2 Proprietary AI & Centralised Infrastructure Challenges&#x20;
 
-Today’s centralized AI infrastructure imposes extractive defaults:
+Today’s centralised AI infrastructure imposes monopolistic control & extractive defaults:
 
 * Compute access intermediated by monopolistic brokers
-* Models abstracted behind opaque APIs
-* No native attribution, provenance, or monetization
+* Models abstracted behind opaque APIs with limited visibility&#x20;
+* Profit & regulatory arbitrage is prioritised over innovation
+* Extractive economic value capture leaves foundational contributors unpaid with no native attribution, provenance, or monetisation available
 
-Lilypad offers a counter-architecture: modular, verifiable, permissionless. It builds a trustless execution layer where models can be exposed, reused, and paid on-chain. Not to replace existing systems, but to reroute economic gravity back toward creators and contributors.
+Centralised AI is also struggling to find moat:
 
-It’s a programmable substrate for intelligence—one that expands access, reinforces agency, and creates new terrain for open coordination.
+* Oligopolies have (so far) failed to lock in regulatory capture
+* In-demand AI talent is increasingly ethically aligned with open source AI (eg. Yann LeCun, Mira Murati)
+* Proprietary model companies are now competing on distribution channels rather than model quality or capability due to a convergence of factors including&#x20;
+  * The Open Source model movement push narrowing the gap of capability between proprietary & open source AI alongside (even Huggingface's $4.5B valuation is driven by network effect)
+  * Models, particularly LLMs, approaching inherent limitations due to data saturation and diminishing returns from scaling, suggesting performance improvements for general models are limited
+  * The China-US AI race providing new training methods with less resources and competitive open source models
 
-***
+Additionally, centralised infrastructure is struggling to cope with demand and remain cutting edge with
+
+* New data-centres out of date before the GPU cards arrive or not configured for the latest AI needs
+* Overhead costs not competitive with more agile alternatives
+* Energy & environmental constraints limiting scaling
+
+#### 1.3 The Decentralised AI Advantage
+
+Decentralised AI Ethical Advantage: Community Led & Owned
+
+* AI as a _commons:_ owned and governed by the communities that contribute to and use it
+* Promotes ethical pluralism, avoiding centralised control and opaque value systems from large tech firms
+* Open participation ensures ethical alignment and reduces corporate capture and bias - with local knowledge, underrepresented languages, indigenous ontologies, and non-Western value systems—creating a richer, more inclusive model corpus
+* Empowers value-aligned innovation across domains accelerating breakthroughs including BioML, climate, regenerative tech, and rare disease research
+
+Decentralised AI Product Advantage: Open Access & Long-Tail Innovation
+
+* Open participation unlocks a massive long tail of use cases, from hobbyist tools to enterprise-grade models
+* Lowers barriers to entry for solopreneurs and domain experts to contribute, run, and monetize specialized models
+* Diversity from open participation & access expands the long-tail of use cases fostering a pluralistic AI landscape that better reflects and serves humanity at large
+
+Decentralised AI Technological Advantage: Modular, Scalable, Verifiable Infrastructure
+
+* DePIN&#x20;
+  * provides dynamically scalable compute infrastructure with locational advantages
+  * provides more efficient compute networks that capture idle compute power
+* Market & Monetisation Mechanics
+  * Marketplaces provide cost, distribution & performance benefits&#x20;
+  * Monetisation pushes state-of-the-art hardware & model accessibility&#x20;
+  * Monetisation provides pathways to collective data collection & collaborative training efforts
+  * Marketplaces & Monetisation solves energy needs efficiently - driving costs to underlying physics needs.&#x20;
+* Trust & Coordination
+  * Permissionless coordination capabilities provide broad-based participation and drive collaboration
+  * Provenance pipelines & codified trust enable solutions to near-term AI challenges such as data sharing & collection, IP rights and proof of truth and personhood
+  * Built-in provenance, module validation, and job reproducibility ensures verifiability and scientific integrity
+  * Permissionless coordination supports agent workflows, registry systems, and autonomous pipelines
+
+#### 1.4 DeAI Challenges
+
+Decentralised AI is not without it's challenges:
+
+* Supply-First DePIN Imbalance
+  * Many DePIN projects are supply heavy - with web3 being uniquely good at large scale network coordination, hardware for compute and storage is readily available.&#x20;
+  * However, many DePIN projects lack a corresponding "demand engine" - with low usage of a fundamentally valuable asset.&#x20;
+* Fragmentation & Lack of Collaboration
+  * The deAI ecosystem is fragmented: agents, compute networks, model hubs & data platforms are building in silos.
+  * A unified coordination layer or interoperable standards are missing, limiting network effects and cross-project capabilities.
+  * A collaborative effort across the deAI space is required to compete with centralised solutions.
+* Product Immaturity or Pain Points vs Centralised Competitors
+  * UX for decentralised compute, model monetisation, and orchestration often lags behind centralised tools
+  * Lack of plug-and-play SDKs, agent orchestration tools, or composable pipelines limits adoption outside crypto-native devs.
+  * Blockchain payments & primitives can hamper adoption
+* Incentive Misalignment Across Layers
+  * DePIN operators, model builders, and app developers are incentivised separately: yet success relies on end-to-end alignment.
+  * Lack of shared revenue or reputation mechanisms limits module reuse, collaboration, and scale.
+
+While no single project is capable of solving this alone, Lilypad is one of the few projects orchestrating compute, data provenance, and economic incentives in a composable stack capable of collaborative integrations.\
+\
+Lilypad helps brings the DeAI vision to life by providing a flywheel for DePIN, a distribution path for model training networks, integrations to agentic frameworks, data & storage and a full stack AI service platform for developers, businesses and solopreneurs, all powered by transparent and user-owned economics.
+
+#### 1.5 Lilypad’s Core Philosophy
+
+> "AI should be a public good - not a corporate asset."
+
+Lilypad offers a counter-architecture to centralised models: modular, verifiable & permissionless. It builds a trustless execution layer where models can be exposed, reused, and paid on-chain and reroutes economic gravity back towards creators and contributors.
+
+It’s a programmable substrate for intelligence that expands access, reinforces agency, and creates new terrain for open coordination, utilising the competitive edge of decentralised AI for the collective benefit of humanity.
 
 ### 2. Design Philosophy
 
-Lilypad’s architecture is informed by a decade of experiments in decentralized compute—Golem, Truebit, Modicum, Bacalhau, BOINC, and other pioneering systems from academia and the open-source world. Each advanced the state of the art. But none offered the combination of open participation, verifiable execution, and built-in economic coordination.
+Lilypad’s architecture is informed by a decade of experiments in decentralized compute: Golem, Truebit, Modicum, Bacalhau, BOINC, and other pioneering systems from academia and the open-source world. Each advanced the state of the art. But none offered the combination of open participation, verifiable execution, and built-in economic coordination.
 
 Golem struggled with adoption and required determinism at the cost of generality. Modicum introduced a promising recomputation-based system, but was constrained by deterministic job assumptions and verifier logic entanglement.\
 \
@@ -105,16 +177,14 @@ Smart contracts enforce job flows. Tokens encode trust and incentives directly i
 
 Blockchain offers core properties that general-purpose infrastructure still can't:
 
-* **Instant settlement** — No billing cycles. Compute providers, agents, and creators are paid atomically when jobs are completed.
-* **Resilience** — Workload routing happens across a global mesh. There's no single point of failure.
-* **Verifiability** — Every job, output, and payment is recorded on-chain, with signatures and manifests.
-* **Provenance** — Model authorship and job reuse are recorded cryptographically in the registry.
-* **Coordination** — Smart contracts execute logic that would otherwise require middleware or manual enforcement.
-* **Distribution** — Anyone with a GPU or a model can participate—from solo developers to research labs to DAOs.
+* **Instant settlement:** No billing cycles. Compute providers, agents, and creators are paid atomically when jobs are completed.
+* **Resilience:** Workload routing happens across a global mesh. There's no single point of failure.
+* **Verifiability**: Every job, output, and payment is recorded on-chain, with signatures and manifests.
+* **Provenance:** Model authorship and job reuse are recorded cryptographically in the registry.
+* **Coordination**: Smart contracts execute logic that would otherwise require middleware or manual enforcement.
+* **Distribution**: Anyone with a GPU or a model can participate—from solo developers to research labs to DAOs.
 
 Lilypad flips the script on extractive AI platforms by embedding value flows directly into the infrastructure layer. Model creators, compute providers, mediators, and agents all interact through transparent, programmable incentives. This creates new contribution pathways and aligns every participant to the health and growth of the network. These aren’t speculative mechanisms—they’re live and accruing value on every job.
-
-***
 
 ### 4. Actors and Execution Flow
 
@@ -131,15 +201,11 @@ Lilypad uses a modular actor model, with responsibilities and incentives structu
 
 Jobs follow a lifecycle: submission → matching → execution → optional mediation → payment. All state is auditable, and all components are modular.
 
-***
-
 ### 5. Verification and Provenance
 
 Lilypad supports layered verification through signed job manifests, output log digests, and mediation sampling. These are implemented through on-chain job state commitments and optional mediator-sampled audits. Model fingerprinting and FHE are future considerations, but not currently active components of the system.
 
 Read our paper on verification here: [https://arxiv.org/abs/2501.05374](https://arxiv.org/abs/2501.05374)
-
-***
 
 ### 6. Economics and Coordination
 
@@ -202,8 +268,6 @@ Each actor has a dynamic reputation score and value metric, used to:
 * Allocate protocol rewards
 
 These metrics evolve over time, encouraging consistency and reliability.
-
-***
 
 ### 7. Roadmap
 
@@ -268,9 +332,7 @@ Enterprise stacks inherit the full Lilypad coordination layer—compute orchestr
 
 Both offerings are backed by the same protocol primitives: smart contracts, verifiable execution, and economic coordination.
 
-***
-
-### 8. Closing: The Coordination Engine for Agentic AI at Scale
+### 8. Lilypad: The Coordination Engine for Collective Intelligence at Scale
 
 Lilypad is a programmable coordination system for decentralised intelligence infrastructure.
 
