@@ -359,8 +359,7 @@ So we built it. Lilypad is the compute substrate and coordination economy for de
 ***
 
 Docs → [https://docs.lilypad.tech](https://docs.lilypad.tech/)\
-GitHub → [https://github.com/Lilypad-Tech](https://github.com/Lilypad-Tech)\
-Pitch → [https://docsend.com/v/8bnyr/lilypadpitch](https://docsend.com/v/8bnyr/lilypadpitch)
+GitHub → [https://github.com/Lilypad-Tech](https://github.com/Lilypad-Tech)
 
 ***
 
