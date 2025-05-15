@@ -251,12 +251,7 @@ This system balances:
 * Protections for job creators
 * Economic throughput that aligns incentives across the network
 
-#### 6.4 Payment Modes
-
-* **Pay-as-you-go Execution**: JCs fund jobs at submission. If the job is not run, the unused funds are returned automatically. No prepayment subscriptions, no lock-in.
-* **Stake-Weighted Routing**: RPs and Solvers are prioritized by stake + reputation.
-
-#### 6.5 Reputation & Value
+#### 6.4 Reputation & Value
 
 Each actor has a dynamic reputation score and value metric, used to:
 
