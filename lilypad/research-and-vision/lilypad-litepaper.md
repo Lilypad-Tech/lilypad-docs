@@ -138,8 +138,6 @@ Lilypad is structured around three core design principles:
 2. **Verifiability**: Every job run should leave a legible, auditable trail. Not all trust needs to be cryptographic—but all trust should be accountable.
 3. **Economic symmetry**: Value created by the network should circulate within it. Contributors—whether model authors, solvers, or compute providers—are paid at the protocol level.
 
-***
-
 ### 3. Protocol Architecture
 
 ```
@@ -253,12 +251,12 @@ This system balances:
 * Protections for job creators
 * Economic throughput that aligns incentives across the network
 
-#### 6.1 Payment Modes
+#### 6.4 Payment Modes
 
 * **Pay-as-you-go Execution**: JCs fund jobs at submission. If the job is not run, the unused funds are returned automatically. No prepayment subscriptions, no lock-in.
 * **Stake-Weighted Routing**: RPs and Solvers are prioritized by stake + reputation.
 
-#### 6.2 Reputation & Value
+#### 6.5 Reputation & Value
 
 Each actor has a dynamic reputation score and value metric, used to:
 
@@ -331,7 +329,7 @@ Enterprise stacks inherit the full Lilypad coordination layer—compute orchestr
 
 Both offerings are backed by the same protocol primitives: smart contracts, verifiable execution, and economic coordination.
 
-### 8. Lilypad: The Coordination Engine for Collective Intelligence at Scale
+### 9. Lilypad: The Coordination Engine for Collective Intelligence at Scale
 
 Lilypad is a programmable coordination system for decentralised intelligence infrastructure.
 
