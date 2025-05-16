@@ -151,6 +151,12 @@ Use the following command to view the containers running after starting Docker C
 docker ps
 ```
 
+NOTE: Occasional websocket errors in your RP logs are normal and nothing to worry about. These are simply the result of standard internet fluctuations.
+
+Our solver may also restart periodically, which can temporarily interrupt your connection.
+
+Rest assured that these brief disconnections will not affect your rewards in any way.
+
 ## Update Lilypad version for Docker RP
 
 When a new version of Lilypad is released, it is critical for Resource Providers to update their installations to ensure compatibility and ability to run Lilypad jobs.&#x20;
