@@ -26,6 +26,10 @@ This chatbot can be extended with:
 3. **Response Generation** – Llama3 processes the input, considers context and generates a natural language response.
 4. **Response Display** – The response is rendered in the chatbot interface.
 
+### **Prerequisites:**
+
+* **[Node.js](https://nodejs.org/en)** – 18 LTS or newer
+
 ### **Installation**
 
 1. Get [Anura API key](https://anura.lilypad.tech/).
