@@ -26,9 +26,9 @@ This chatbot can be extended with:
 3. **Response Generation** – Llama3 processes the input, considers context and generates a natural language response.
 4. **Response Display** – The response is rendered in the chatbot interface.
 
-### **Prerequisites:**
+### **Prerequisites**
 
-* **[Node.js](https://nodejs.org/en)** – 18 LTS or newer
+* [**Node.js**](https://nodejs.org/en) – 18 LTS or newer
 
 ### **Installation**
 
@@ -52,4 +52,3 @@ Access the chatbot at: `http://localhost:3000` and enter prompt to start a conve
 ### Resources
 
 * [Source code](https://github.com/PBillingsby/lilypad-llama3-chatbot)
-
