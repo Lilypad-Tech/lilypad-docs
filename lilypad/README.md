@@ -19,41 +19,53 @@ layout:
 
 # 🍃 Lilypad Home
 
-## Overview
+Lilypad is powering democratic participation in the AI Innovation Economy by pioneering new avenues for anyone to deploy, distribute and monetize AI models.
 
-[Lilypad](https://lilypad.tech) is developing a serverless, distributed compute network that enables internet-scale data processing, AI, ML & other arbitrary computation, while unleashing idle processing power & unlocking a new marketplace for compute.
+As a **full-stack, modular AI services platform**, Lilypad provides:
 
-You can use Lilypad to run AI workload models including Stable Diffusion and Stable Diffusion Video, or you can add your own module to run on the Lilypad Network. Using Lilypad's distributed compute nodes, you can build and run your own containerized workloads that require high-performance computing.
+* A **model marketplace** for publishing and monetizing AI workloads
+* **MLOps tooling** for managing and scaling AI pipelines
+* A **distributed, on-demand GPU network** for high-performance inference across agent workflows, ML research and DeSci applications
 
-## Job Modules
+Lilypad acts as a:
 
-A Lilypad Job Module is a standard containerized (Docker) process for running compute workloads on Lilypad. Easily deploy an AI model or other compute intensive workloads to the Lilypad decentralized GPU network. \
-\
-Learn more about running AI workloads via [Lilypad job modules](developer-resources/module-marketplace/), and use our [inference API](developer-resources/inference-api.md) or [CLI](quickstart/cli/) to start sending job requests.
+* **Demand engine** for decentralized compute and storage
+* **Distribution layer** for training networks and agentic frameworks
+* **Bridge across data, compute and AI ecosystems**, enabling straightforward integration
 
-Build your own Lilypad job modules either [from an empty project](developer-resources/module-marketplace/build-a-job-module/) or with our [`create-lilypad-module`](developer-resources/module-marketplace/create-lilypad-module/)package.
+## Real-World Impact
 
-## Resource Providers
+In partnership with Dell, Dr. Michael Levin, and Amelie Schroder (Hugging Face's top bioML creator), Lilypad powered a protein folding AI model that discovered a novel heart medication, now progressing through wet-lab validation. We are now working with Dell to build a permissioned, licensable version of the Lilypad Network for enterprise AI adoption.
 
-The Lilypad Network aggregates idle compute (CPU and GPU) capacity from providers around the world. Compute providers on the network are referred to as [Resource Providers](https://docs.lilypad.tech/lilypad/resource-providers/run-a-node).&#x20;
+## Run AI Workloads
 
-If you're interested in becoming a Lilypad Resource Provider, first make sure that you meet our [minimum hardware requirements](resource-providers/hardware-requirements.md), then register for the [Lilypad Resource Provider Beta Program](https://docs.google.com/forms/d/e/1FAIpQLSeF7xIHuCpwY0X44dqnl4u3weuvmtd5MkZKY0IPlGck4kHx3w/viewform). Learn more about running a Resource Provider on Lilypad [here](https://docs.lilypad.tech/lilypad/resource-providers/run-a-node)!
+Lilypad makes it easy to run **containerized AI models** across a global, decentralized GPU network with no infrastructure setup required. Whether you're working with image generation models like Stable Diffusion and SDXL, text-to-video models, LLMs, or custom AI workloads, Lilypad provides the compute layer to scale inference on demand.
 
-## Earn Lilybit Rewards
+You can:
 
-There are many ways to [earn Lilybit rewards](https://docs.lilypad.tech/lilypad/rewards) for participating in the Lilypad economy! Resource Providers earn rewards for running compute jobs and the community earns rewards for building on the network and supporting the ecosystem! Find all rewards opportunities below:\
+* **Deploy models as Lilypad Job Modules** using standard Docker containers
+* **Trigger jobs via our CLI or inference API**, with full support for passing inputs and capturing outputs
+* **Integrate into ML pipelines or agent workflows**, using Lilypad as a backend for large-scale AI tasks
+* **Leverage the modular architecture** to compose your own workflows, fine-tune models, or chain outputs across models
 
+If you're building an app, automating research, or experimenting with new architectures — Lilypad gives you a permissionless, cost-efficient path to run your AI anywhere.
 
-* Apply to the RP Beta program and earn Resource Providers [rewards](https://docs.lilypad.tech/lilypad/rewards#resource-providers)
-* Join the [Lilypad Ambassador Program ](https://www.notion.so/lilypadnetwork/Lilypad-Ambassadors-f11f73e91f684fa192fc2fab7985fe0d?pvs=4)by submitting info [here](https://docs.google.com/forms/d/e/1FAIpQLSdsJHkYlVVm9YILPodExa4AgGCfW-8bHZanf9OS57QxQee3SA/viewform)
-* Add a model to run on Lilypad or build a project listed in the [Bounty Board](https://lilypadnetwork.notion.site/bounty-board)
-* Complete open source [community issues](https://github.com/Lilypad-Tech/lilypad/issues?q=is%3Aissue%20state%3Aopen%20label%3Acommunity)
+## Provide Compute&#x20;
 
-[Join our Discord](https://discord.gg/WtHbjMP5UB) and start contributing!
+Join the Lilypad Network as a **Resource Provider** and earn rewards by contributing your **idle GPU or CPU power** to run real AI jobs. Whether you're a solo builder with a gaming rig or an organization managing fleets of GPUs, Lilypad lets you monetize underused compute by connecting directly to demand from developers, researchers and decentralized applications.
 
-## Roadmap
+As a Resource Provider, you’ll:
 
-View the [Lilypad Roadmap](https://lilypad.tech/#roadmap).
+* **Run containerized workloads** from users across the network
+* **Earn rewards** for completed jobs
+* **Retain full control** over your hardware with no lock-in or custodial overhead
+* **Support open innovation** by enabling inference for DeSci, agent frameworks, AI art tools, and more
+
+Lilypad’s compute layer is **permissionless**, **modular**, and designed to scale. We support **consumer GPUs**, **data center hardware**, and **containerized environments** — including Linux hosts and Docker-native setups.
+
+## Get Started Today!
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Start building with Lilypad!</td><td><a href=".gitbook/assets/developers.png">developers.png</a></td><td><a href="developer-resources/inference-api.md">inference-api.md</a></td></tr><tr><td>Become a resource provider  today!</td><td><a href=".gitbook/assets/rps.png">rps.png</a></td><td><a href="resource-providers/rp-beta-program.md">rp-beta-program.md</a></td></tr></tbody></table>
 
 ## Join the Community & Chat with Us
 
