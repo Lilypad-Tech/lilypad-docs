@@ -12,7 +12,7 @@ Use Anura to start running AI inference job modules on Lilypad's decentralized c
 
 
 
-### NEW! See All Models Available
+### NEW! See All Models Available (GraphQL)
 
 You can run the following endpoints to view all Anura-supported models on the Lilypad network.\
 \
