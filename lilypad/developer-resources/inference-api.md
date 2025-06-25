@@ -10,6 +10,58 @@ Use Anura to start running AI inference job modules on Lilypad's decentralized c
 
 1. Get an API key from the [Anura website](https://anura.lilypad.tech/).
 
+
+
+### NEW! See All Models Available
+
+You can run the following endpoints to view all Anura-supported models on the Lilypad network.\
+\
+These queries are available as graphQL queries \[here]\(https://lilypad-quest-api.vercel.app/api/graphql).\
+You can also view them by opening \[Apollo Server]\([https://studio.apollographql.com/sandbox/explorer](https://studio.apollographql.com/sandbox/explorer)) and putting this url in:&#x20;
+
+```
+https://lilypad-model-api.vercel.app/api/graphql
+```
+
+### Curl Requests
+
+Get all Models:
+
+```bash
+curl -X POST https://lilypad-model-api.vercel.app/api/graphql \
+  -H "Content-Type: application/json" \
+  -d '{"query": "{ allModels { id name category } }"}'
+```
+
+Response example:
+
+```json
+{
+  "data": {
+    "allModels": [
+      {
+        "id": "llama3.1:8b",
+        "name": "Llama 3.1 8B",
+        "category": "text-generation"
+      },
+      {
+        "id": "sdxl-turbo",
+        "name": "SDXL Turbo", 
+        "category": "image-generation"
+      }
+    ]
+  }
+}
+```
+
+You can also fetch a selection of / multiple model types using the following endpoint:
+
+```bash
+curl -X POST https://lilypad-model-api.vercel.app/api/graphql \
+  -H "Content-Type: application/json" \
+  -d '{"query": "{ chatModels { id name supportsTools } imageModels { id name maxPrompt } }"}'
+```
+
 ### Get Started with Text Generation
 
 1. Find which models we support:
