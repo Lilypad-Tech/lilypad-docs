@@ -16,9 +16,9 @@ Use Anura to start running AI inference job modules on Lilypad's decentralized c
 
 You can run the following endpoints to view all Anura-supported models on the Lilypad network.\
 \
-These queries are available as graphQL queries \[here]\(https://lilypad-quest-api.vercel.app/api/graphql).\
+These queries are available as graphQL queries [here](https://lilypad-quest-api.vercel.app/api/graphql).\
 \
-You can also view all available queries by opening \[Apollo Server]\([https://studio.apollographql.com/sandbox/explorer](https://studio.apollographql.com/sandbox/explorer)) and putting this url in:&#x20;
+You can also view all available queries by opening [Apollo Server](https://studio.apollographql.com/sandbox/explorer) and putting this url in:&#x20;
 
 ```
 https://lilypad-model-api.vercel.app/api/graphql
